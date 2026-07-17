@@ -1,851 +1,114 @@
 {
-  "generated_at": "2026-07-17T15:46:56.302645+08:00",
-  "model": "gemini-3.1-flash-lite",
-  "input_count": 105,
-  "kept_count": 10,
-  "dropped_count": 95,
-  "kept_headlines": [
-    {
-      "id": "7e328fc727e510980dba3cfd50aa3a3e926db9fafe033364d56e8e7aad537708",
-      "time": "2026-07-17T08:35:27+08:00",
-      "headline": "Japan finance minister Katayama: ready to act on currency moves whenever necessary",
-      "decision": "keep",
-      "reason_zh": "保留為事件主來源或事件軌跡。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "f1e7efd3f6729b26a541ca5b57fba7041e2f5f0a9354a421ec2fae39210d2d30",
-      "time": "2026-07-17T08:37:39+08:00",
-      "headline": "Japan finance minister Katayama: ready to take resolute steps if required",
-      "decision": "keep",
-      "reason_zh": "保留為事件主來源或事件軌跡。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "0ba0f089dc504c2a2e71d22ed219891f4d9be952d76d0dd971945fe775417ad2",
-      "time": "2026-07-17T09:00:21+08:00",
-      "headline": "Taiwan stocks fall over 2.7%",
-      "decision": "keep",
-      "reason_zh": "重要市場跌幅",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "4cc502e49aaf877f8dc3dbe83e598a231529d564fcdb6a1a1771aebd3683a3c7",
-      "time": "2026-07-17T09:24:28+08:00",
-      "headline": "China cbank injects net 1.9015 trln yuan for week via open market operations: source calculation",
-      "decision": "keep",
-      "reason_zh": "保留為事件主來源或事件軌跡。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "dc63b05b0d50569fc7ea9c8cab3da6fe270335cdce6cff0a99ec074063962e96",
-      "time": "2026-07-17T09:27:06+08:00",
-      "headline": "China cbank injects largest weekly net liquidity via open market operations since January 2023: source calculation",
-      "decision": "keep",
-      "reason_zh": "保留為事件主來源或事件軌跡。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "62903bde05868a1d7ec8ab07d5839dad308a82f44b11e64be4157d9f805a6156",
-      "time": "2026-07-17T09:35:59+08:00",
-      "headline": "Taiwan shares fall over 4%",
-      "decision": "keep",
-      "reason_zh": "重要市場跌幅更新",
-      "mapped_event_source_id": "0ba0f089dc504c2a2e71d22ed219891f4d9be952d76d0dd971945fe775417ad2"
-    },
-    {
-      "id": "c26e1748a9309cbfcfaa2cad7e7fe9c62bb1502b1767679ad66e0b00c8538feb",
-      "time": "2026-07-17T10:39:37+08:00",
-      "headline": "China fx regulator: anticipates steady growth in foreign investments in yuan bonds",
-      "decision": "keep",
-      "reason_zh": "保留為事件主來源或事件軌跡。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "de30fcfbc189c9274e67bf77a6f68f38298ef428bbd471feed5ce93cf63d613c",
-      "time": "2026-07-17T11:21:25+08:00",
-      "headline": "Seven killed in U.S. strikes on bridges in southern Iran: IRNA",
-      "decision": "keep",
-      "reason_zh": "保留為事件主來源或事件軌跡。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "56bb92209d9059270da308cbf6b29dd5f1df3d1ff24ef74e5e336a310a0ca98a",
-      "time": "2026-07-17T12:11:16+08:00",
-      "headline": "Iran's Revolutionary Guards: No oil or gas exports via Strait of Hormuz while U.S. attacks persist - Tasnim",
-      "decision": "keep",
-      "reason_zh": "保留為事件主來源或事件軌跡。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "83f30cb0bf74805324ade77ef9b17f32a32f28aea9cf4bad2711a910c2eb0075",
-      "time": "2026-07-17T14:56:43+08:00",
-      "headline": "Japan PM Takaichi: Government will pursue steps that encourage investment in Japanese financial assets including by households, pension funds like GPIF.",
-      "decision": "keep",
-      "reason_zh": "保留為事件主來源或事件軌跡。",
-      "mapped_event_source_id": ""
-    }
+  "刪掉的headline": [
+    "China PBOC likely to fix yuan midpoint at 6.7734 per dollar: estimate",
+    "Japan finmin Katayama: will not discuss particular fx levels",
+    "Japan finance minister Katayama: ready to act on currency moves whenever necessary",
+    "Several blasts heard in Qatar's Doha, government sends alert to mobile phones: witness",
+    "Japan finance minister Katayama: ready to take resolute steps if required",
+    "Japan Finance Minister Katayama: ready to take decisive steps on currency if necessary",
+    "Taiwan stocks fall over 2.7%",
+    "Trump begins national address",
+    "Qatar’s interior ministry: security threat resolved - state news agency",
+    "White House: will publish classified U.S. evaluations showing ballot-counting systems susceptible to compromise by China, Russia",
+    "White House: China conducted largest known election data breach starting in 2020 cycle",
+    "White House: China obtained 220 million U.S. voter records",
+    "White House: Intelligence indicates China designated a data exploitation unit specifically for this new project",
+    "China central bank injects 450.5 billion yuan through 7-day reverse repos at 1.40%: statement",
+    "China commerce ministry: china firmly opposes, strongly disapproves uk government decision to nationalise British Steel",
+    "China commerce ministry: British side ignored Jingye's key contributions to UK economy, forcibly seized company citing national security",
+    "China commerce ministry on British steel: urges UK government to comply with international rules, properly fulfill obligations under China-UK investment protection pact",
+    "China commerce ministry on British Steel: urges UK to treat Chinese enterprises in UK fairly and protect their legitimate rights and interests",
+    "China commerce ministry: will closely watch developments, back Chinese firms in legally defending their rights on British Steel",
+    "Qatar intercepts missile attack: Defence Ministry",
+    "Taiwan shares fall over 4%",
+    "China commercial banks net buy $56.6 billion in forex in June vs $35.8 billion in May: FX regulator",
+    "China commercial banks buy net $271.2 billion of foreign exchange in Jan-June: FX regulator",
+    "China fx regulator: China's foreign-exchange market runs smoothly with active trading in 2024",
+    "China fx regulator: yuan makes up 52.9% of cross-border receipts and payments, rising 1.3 percentage points from 2025",
+    "China's President Xi: World Enters Unprecedented Era of AI Breakthroughs",
+    "China’s President Xi: All countries should adopt people-centred AI development approach",
+    "China's President Xi: construct a fair and impartial framework for global AI governance",
+    "China fx regulator: China's foreign exchange market endures external shocks this year and remains stable",
+    "China fx regulator: to keep easing risks from external shocks, bolster economic growth",
+    "China's President Xi: grasp unique historic chance to promote open-source AI",
+    "China's President Xi: bolster risk awareness, ensure AI is safe and manageable",
+    "China’s President Xi: AI must be a reliable tool for humanity",
+    "China’s President Xi: Secondary Al Risks Must Be Taken Seriously",
+    "China FX regulator: domestic factors have key role in foreign exchange market",
+    "China's President Xi: deploy technology surveillance, early alert and reaction systems for AI",
+    "China's President Xi: ai must remain under human oversight",
+    "China's President Xi: jointly oppose expanding national security in AI sector",
+    "China FX regulator: foreign investments into China register net inflows in H1, outbound investments maintain steady growth",
+    "China's President Xi: we must cultivate AI values, leverage AI to boost tolerance",
+    "China FX regulator: firms increasingly adopt yuan and currency derivatives to handle exchange rate risks in cross-border deals",
+    "China's President Xi: should improve alignment and cooperation on AI development, technical standards",
+    "China's President Xi: consensus-based global AI governance framework should be established swiftly",
+    "China’s President Xi: should support capacity-building in Global South nations",
+    "China fx regulator: current external environment complex, calls for ongoing monitoring of global geopolitical shifts, inflation and monetary policy changes in major economies",
+    "China's President Xi: We should avoid creating new historical grievances in al",
+    "China's President Xi: core intelligent industry economy valued at minimum 1 trillion rmb",
+    "China's president Xi: China prioritizes safety in AI development",
+    "China fx regulator: China plans package of measures to boost cross-border investment and financing",
+    "China’s President Xi: China remains dedicated to supplying international public goods related to artificial intelligence",
+    "Child wounded by missile shrapnel in Qatar after Iranian strike: Atari Interior Ministry",
+    "China's President Xi: World AI Collaboration Initiative a key step to address Global South's call",
+    "China's President Xi: Waico to be a landmark in global AI progress",
+    "China's President Xi: over next 5 years, country to offer developing nations 5,000 AI training spots",
+    "China's President Xi: China to establish AI cooperation centers with Latin America, ASEAN, Africa, BRICS nations",
+    "China FX regulator: industrial optimisation and technological innovation to generate new investment opportunities",
+    "China's President Xi: must supervise actions to prevent any loss of control",
+    "China FX Regulator: global environment complex and volatile, China's economy remains resilient, yuan stable, will offer more options for international capital allocation",
+    "China FX regulator: current account surplus seen staying reasonable and balanced over medium to long term",
+    "Five bridges in southern Iran targeted in recent U.S. strikes: Iran's state media",
+    "China FX regulator: plan to allocate GDI quota regularly, with increased focus on mutual fund products",
+    "Foreign holdings of yuan bonds on China interbank market reach 3.20 trillion yuan at end-June: PBOC Shanghai office",
+    "China FX regulator: new QDII quota allocation is underway",
+    "Sirens sound in Bahrain for second time on Friday: Interior Ministry",
+    "Several blasts heard again in Doha after second government security alert sent to mobile phones: witness",
+    "Iranian army: drone strikes target U.S. deployment and logistics hubs in Kuwait - state media",
+    "Qatar intercepts several air attacks: defence ministry",
+    "Three blasts reported in Iran's Chabahar: state media",
+    "Seven killed in U.S. strikes on bridges in southern Iran: IRNA",
+    "US strikes location in Iran’s Lorestan province: ISNA citing provincial official",
+    "UK's Unite the Union: Neo Next offshore workers clinch pay agreement after strike threat",
+    "Japan's Trade Minister Akazawa: Hope NVIDIA to work with Japan on physical AI further.",
+    "Japan's PM Takaichi: Council to discuss food tax before decision early August",
+    "Iran's IRGC: We targeted US maritime surveillance radar in Oman - State media",
+    "Japan's PM Takaichi: We aim for a stable drop in the debt-to-GDP ratio",
+    "Japan's Fin. Min. Katayama: No change to the government's stance that specific monetary policy means it's up to the BoJ to decide",
+    "Japan's Fin. Min. Katayama: Won't comment on specific language around the upcoming economic blueprint, which is still being finalised with the ruling coalition",
+    "30-Day Correlation Matrix",
+    "60-Day Correlation Matrix",
+    "Japan's Fin. Min. Katayama: The government will work to avoid causing any misunderstanding in markets over its fiscal and monetary policy stance",
+    "90-Day Correlation Matrix",
+    "120-Day Correlation Matrix",
+    "Top S&P 500 Stock names Implied Volatility",
+    "US Index Futures Implied Volatility",
+    "FX Implied Volatility",
+    "Commodities Implied Volatility",
+    "Fed Interest Rate Probabilities",
+    "ECB Interest Rate Probabilities",
+    "BoE Interest Rate Probabilities",
+    "BoC Interest Rate Probabilities",
+    "BoJ Interest Rate Probabilities",
+    "RBA Interest Rate Probabilities",
+    "RBNZ Interest Rate Probabilities",
+    "SNB Interest Rate Probabilities",
+    "UKMTO: Received a report of a tanker being hit by unknown projectile on Thursday 19NM East of Oman's Khasab. Tanker hit near Oman reports minor structural damage.",
+    "Azerbaijan oil output at 13.3 mln t in Jan-June - Energy Ministry.",
+    "Azerbaijan exported 10.5 mln t of oil in Jan-June - Energy Ministry",
+    "Currency Strength Chart: Strongest: CHF, CAD, JPY, EUR, USD, GBP, NZD, AUD - Weakest",
+    "EU Parliament foreign affairs committee to visit China July 21-23."
   ],
-  "dropped_headlines": [
-    {
-      "id": "3ec09fc1212ebbdac8e480b6e74334b7d494ef7e4cc42117b4117468ec4a526d",
-      "time": "2026-07-17T08:23:03+08:00",
-      "headline": "China PBOC likely to fix yuan midpoint at 6.7734 per dollar: estimate",
-      "decision": "drop",
-      "reason_zh": "市場估計，無實質影響",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "fa68dc16d31303b00e106f39456ea529e9caa6e4b9319623191306423097615a",
-      "time": "2026-07-17T08:35:15+08:00",
-      "headline": "Japan finmin Katayama: will not discuss particular fx levels",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "c879283c7dcab3d38889f1150551a855f7b846670c590fa4241817cb702ee062",
-      "time": "2026-07-17T08:35:57+08:00",
-      "headline": "Several blasts heard in Qatar's Doha, government sends alert to mobile phones: witness",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "4dac0868cc0f1ac04d627f78b7b15a5da0e9581766de02c584d19fa3311d3db2",
-      "time": "2026-07-17T08:37:59+08:00",
-      "headline": "Japan Finance Minister Katayama: ready to take decisive steps on currency if necessary",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "c315155b8b19afc8d87a855523077f86f91e911e785a2b99f17cdab409256317",
-      "time": "2026-07-17T09:01:34+08:00",
-      "headline": "Trump begins national address",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "7348ca366f3f3dd0b8285366c9c59518fda482b3dfea9590e37fd9858a90592a",
-      "time": "2026-07-17T09:02:58+08:00",
-      "headline": "Qatar’s interior ministry: security threat resolved - state news agency",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "a6bbd3de4bb29ac5dfea3822cbb667fa6d2af87068262441c3fa9c399c30d78a",
-      "time": "2026-07-17T09:04:58+08:00",
-      "headline": "White House: will publish classified U.S. evaluations showing ballot-counting systems susceptible to compromise by China, Russia",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "9697195a08a80be530704b9a165c137dc25e04e9a34b22db122b211ff667c8b2",
-      "time": "2026-07-17T09:05:17+08:00",
-      "headline": "White House: China conducted largest known election data breach starting in 2020 cycle",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "19972c8088c93cf646a0ce427bce42d65c3baef83f9af023c8a204a52209c8e0",
-      "time": "2026-07-17T09:05:41+08:00",
-      "headline": "White House: China obtained 220 million U.S. voter records",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "6dbdc37af5db3e4472ce11e8dc433433662a99c1f44dbc362584f22519582b94",
-      "time": "2026-07-17T09:05:54+08:00",
-      "headline": "White House: Intelligence indicates China designated a data exploitation unit specifically for this new project",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "857de96a92ad61488cc51b10c2d34a8dac160f928864c61ce89b4e4858c00cb5",
-      "time": "2026-07-17T09:20:49+08:00",
-      "headline": "China central bank injects 450.5 billion yuan through 7-day reverse repos at 1.40%: statement",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "b67b690eb6b02480615aa5383902c4835cc9986fb5b4a84abb4f7d68d036a7db",
-      "time": "2026-07-17T09:24:07+08:00",
-      "headline": "China commerce ministry: china firmly opposes, strongly disapproves uk government decision to nationalise British Steel",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "aba9b4af15474c67e2004c3cd73260e6a95be3007831ee0aec03b944a2e08115",
-      "time": "2026-07-17T09:24:45+08:00",
-      "headline": "China commerce ministry: British side ignored Jingye's key contributions to UK economy, forcibly seized company citing national security",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "4b209d3fd07ca10732742cf0f5cef2490c7dc33c75f099c8bbc32404fa97d3f1",
-      "time": "2026-07-17T09:25:07+08:00",
-      "headline": "China commerce ministry on British steel: urges UK government to comply with international rules, properly fulfill obligations under China-UK investment protection pact",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "d7d663ac15aa53ff274d0efdf5aab0e05412b139a7ce2bfa9c084ea84a39b704",
-      "time": "2026-07-17T09:25:30+08:00",
-      "headline": "China commerce ministry on British Steel: urges UK to treat Chinese enterprises in UK fairly and protect their legitimate rights and interests",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "1752fd10c0eef3d7c2650a0ba0cd9cd14ed67171279cb31de9bc5a7d312e920c",
-      "time": "2026-07-17T09:25:46+08:00",
-      "headline": "China commerce ministry: will closely watch developments, back Chinese firms in legally defending their rights on British Steel",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "619a37019f227862868b4b3d6a0f3a4e3e873dfe993b5ea91a0ba5169f817af9",
-      "time": "2026-07-17T09:26:32+08:00",
-      "headline": "Qatar intercepts missile attack: Defence Ministry",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "c37ce0e0e9b8961bd83791fa4b1da9b90a27b42b27d886d2f589e53cda60a379",
-      "time": "2026-07-17T09:47:46+08:00",
-      "headline": "U.S. Central Command: completed latest major series of strikes against Iran",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "172cbf57a814c47fefadb7d9eba303558a766d65d030eb75c06da367ce93509f",
-      "time": "2026-07-17T10:00:03+08:00",
-      "headline": "China commercial banks net buy $56.6 billion in forex in June vs $35.8 billion in May: FX regulator",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "18bf961dbb472907162a1c813db4a3e7a9979ee6c4b5b67a59bd01ff5f6406bc",
-      "time": "2026-07-17T10:00:03+08:00",
-      "headline": "China commercial banks buy net $271.2 billion of foreign exchange in Jan-June: FX regulator",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "f64d3eb909a7c9230c1c13d0bd52cf385bb4a98a92e3e7dc65bb3e12fca6f010",
-      "time": "2026-07-17T10:05:14+08:00",
-      "headline": "China fx regulator: China's foreign-exchange market runs smoothly with active trading in 2024",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "52b729adf35952b0e341328591db46d9b821fb97760a19a4fb30b47891493896",
-      "time": "2026-07-17T10:05:22+08:00",
-      "headline": "China fx regulator: yuan makes up 52.9% of cross-border receipts and payments, rising 1.3 percentage points from 2025",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "f2339ed20e595b17b088bbcf142480f9ca4d72e82d05df91377887df245533e8",
-      "time": "2026-07-17T10:05:36+08:00",
-      "headline": "China's President Xi: World Enters Unprecedented Era of AI Breakthroughs",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "583c74bda69cb50f13d87b6f72b3f1de0b1eb6a63f173d4264ff0dcb1b549ecf",
-      "time": "2026-07-17T10:07:08+08:00",
-      "headline": "China’s President Xi: All countries should adopt people-centred AI development approach",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "94c97d0512c0ed1a09de54ab175b11b5057a390c79aa82ea9457325801f78f64",
-      "time": "2026-07-17T10:07:34+08:00",
-      "headline": "China's President Xi: construct a fair and impartial framework for global AI governance",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "1e9d3ec6dcbedcf01be85d62a527b67b815a3176142e6f8aaa037c903b6e36d3",
-      "time": "2026-07-17T10:08:09+08:00",
-      "headline": "China fx regulator: China's foreign exchange market endures external shocks this year and remains stable",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "25bfe6bd9f294ee0bfb0bd44fe9ad2ee9c7644ccce6b865458f4492a2c748c52",
-      "time": "2026-07-17T10:08:14+08:00",
-      "headline": "China fx regulator: to keep easing risks from external shocks, bolster economic growth",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "db27a6787dcc962cc74416e6b8686ad7ee72aa27c402a1dd4f660d399f969a43",
-      "time": "2026-07-17T10:08:21+08:00",
-      "headline": "China's President Xi: grasp unique historic chance to promote open-source AI",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "885cd3ddb68c5e2130d396d2cf37e054df3910289835ef64593ecb8bcfaa0050",
-      "time": "2026-07-17T10:09:10+08:00",
-      "headline": "China's President Xi: bolster risk awareness, ensure AI is safe and manageable",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "fac5c6f22af84cad2e9d0c8ba25604f88ddc5dc8fce5d0fd67a1d6f31b6fc6ed",
-      "time": "2026-07-17T10:09:20+08:00",
-      "headline": "China’s President Xi: AI must be a reliable tool for humanity",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "f20479e5152d14fed1edb99c8a08298ef001534232138b776c7e9a4553163849",
-      "time": "2026-07-17T10:09:35+08:00",
-      "headline": "China’s President Xi: Secondary Al Risks Must Be Taken Seriously",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "baa5d264e48e1dd8177f29e419599b363e4680ad25c72e1390ec74e7be45e826",
-      "time": "2026-07-17T10:09:38+08:00",
-      "headline": "China FX regulator: domestic factors have key role in foreign exchange market",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "86775e7098e9b0cbfb2128d77c2dbdf69a220e0491bce76f783d950513ffce27",
-      "time": "2026-07-17T10:09:47+08:00",
-      "headline": "China's President Xi: deploy technology surveillance, early alert and reaction systems for AI",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "f4268e29788782feb9e8a83fe0804464564ac7e6ec8270530e50622ba37eeb78",
-      "time": "2026-07-17T10:10:05+08:00",
-      "headline": "China's President Xi: ai must remain under human oversight",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "b7b1481f14f53e55543d30ac4d7496ad4e72381384b0d5f4120544d3531ef773",
-      "time": "2026-07-17T10:10:17+08:00",
-      "headline": "China's President Xi: jointly oppose expanding national security in AI sector",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "4b11134224d96aa74d7888d7566086aabb7e5acd839e0454f11239d1f08700ad",
-      "time": "2026-07-17T10:10:52+08:00",
-      "headline": "China FX regulator: foreign investments into China register net inflows in H1, outbound investments maintain steady growth",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "b9be027d924e5cfe0e98ea0f189ed0104d242429b6dda25f9ba02263ba981fb1",
-      "time": "2026-07-17T10:11:32+08:00",
-      "headline": "China's President Xi: we must cultivate AI values, leverage AI to boost tolerance",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "2cae789477a2a32530eb06d6427983512a5a3b070100ee7287ecd8f977cf04d0",
-      "time": "2026-07-17T10:12:07+08:00",
-      "headline": "China FX regulator: firms increasingly adopt yuan and currency derivatives to handle exchange rate risks in cross-border deals",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "628e674925e76183783ca3171cf9fe2e2de1d6ad58a9385ae1e1229f55f4291b",
-      "time": "2026-07-17T10:12:15+08:00",
-      "headline": "China's President Xi: should improve alignment and cooperation on AI development, technical standards",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "87cb4208f207ca8978e15f11992497d3f74d5fb6026813d8cec3ede2a59a955b",
-      "time": "2026-07-17T10:12:29+08:00",
-      "headline": "China's President Xi: consensus-based global AI governance framework should be established swiftly",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "0ee35e3a08ac94980b8dabf0aeb330f8bb9b436c291d4e0df5f41b8ace78e8cd",
-      "time": "2026-07-17T10:12:47+08:00",
-      "headline": "China’s President Xi: should support capacity-building in Global South nations",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "47d4a3093a4b77266604994b17eb98d542ee9c123c98136d46352357b46da33c",
-      "time": "2026-07-17T10:12:52+08:00",
-      "headline": "China fx regulator: current external environment complex, calls for ongoing monitoring of global geopolitical shifts, inflation and monetary policy changes in major economies",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "c7712b9905a8e4154898cc447618557c9d9fad875311755ce8bdac6aac301a4e",
-      "time": "2026-07-17T10:13:02+08:00",
-      "headline": "China's President Xi: We should avoid creating new historical grievances in al",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "78bc8e1c652bb0064b1ff05f4a1bcfade9de36ce8c232529f6206b156b7364f6",
-      "time": "2026-07-17T10:14:35+08:00",
-      "headline": "China's President Xi: core intelligent industry economy valued at minimum 1 trillion rmb",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "8d9e5b7f542cca0db0ff7a6bd8b468e0ce9c4006cc0957fa95e75df57e5b9625",
-      "time": "2026-07-17T10:14:50+08:00",
-      "headline": "China's president Xi: China prioritizes safety in AI development",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "2193de39f409a72db6665ec9aeef6729af5f4bcc0b5c26f0af496f9e40e0613c",
-      "time": "2026-07-17T10:15:12+08:00",
-      "headline": "China fx regulator: China plans package of measures to boost cross-border investment and financing",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "244e94b1020af235a8670765c485b6a77899a01cb8dcaafc697de2f888f5f603",
-      "time": "2026-07-17T10:15:46+08:00",
-      "headline": "China’s President Xi: China remains dedicated to supplying international public goods related to artificial intelligence",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "73a566510413656df1ff86ac451871f1f57ec12c90f5fbd8390a0d138d155631",
-      "time": "2026-07-17T10:16:05+08:00",
-      "headline": "Child wounded by missile shrapnel in Qatar after Iranian strike: Atari Interior Ministry",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "52a8977d0f4560f852bd82eba79e577ffb6ee7a8cacf848bb8e2aa13139e1eb9",
-      "time": "2026-07-17T10:17:30+08:00",
-      "headline": "China's President Xi: World AI Collaboration Initiative a key step to address Global South's call",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "c85f1cb7151a25b7c230d9cfd45692fd2e6a3684f8de133bde1ddbdde0ebbf5d",
-      "time": "2026-07-17T10:17:41+08:00",
-      "headline": "China's President Xi: Waico to be a landmark in global AI progress",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "3ad935dcd9fc96e88fb55ad46eba039a5e97c683b73450884e9840445a3a1a17",
-      "time": "2026-07-17T10:18:15+08:00",
-      "headline": "China's President Xi: over next 5 years, country to offer developing nations 5,000 AI training spots",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "3c796c910aac57cc9b33360ef46489d5abb966d83f0b959bb67d6e555123fa4b",
-      "time": "2026-07-17T10:18:35+08:00",
-      "headline": "China's President Xi: China to establish AI cooperation centers with Latin America, ASEAN, Africa, BRICS nations",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "9ad9310f2f5a5f5d7667612fd84ac794470d0a374ab2f920e5063c8fef0aa828",
-      "time": "2026-07-17T10:19:33+08:00",
-      "headline": "China FX regulator: industrial optimisation and technological innovation to generate new investment opportunities",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "46878861b31129b4537a7353e440839ec79eb02b84169545485e4d6554565f3c",
-      "time": "2026-07-17T10:20:00+08:00",
-      "headline": "China's President Xi: must supervise actions to prevent any loss of control",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "4018ba86d20ffdaae627b621ba966b7bf5401211fbf5413e852dbf09088d4435",
-      "time": "2026-07-17T10:20:44+08:00",
-      "headline": "China FX Regulator: global environment complex and volatile, China's economy remains resilient, yuan stable, will offer more options for international capital allocation",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "bacb636fa0e7a0aa11a4e1c048dd5a359ea5ee3378348fe06373438bbdd161d7",
-      "time": "2026-07-17T10:24:09+08:00",
-      "headline": "China FX regulator: current account surplus seen staying reasonable and balanced over medium to long term",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "ceb09aa15ec17852cd6244ad8d8bb43710d015e411f90a1d1f0c19c58aebb9a0",
-      "time": "2026-07-17T10:32:24+08:00",
-      "headline": "Five bridges in southern Iran targeted in recent U.S. strikes: Iran's state media",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "56834303e1bd64994ca29b0de28e40986d918aa08e6c389133a1664e765d2c79",
-      "time": "2026-07-17T10:41:22+08:00",
-      "headline": "China FX regulator: plan to allocate GDI quota regularly, with increased focus on mutual fund products",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "556c4f45f02f4cf6d9461f3efb65eca17ad22ea9455fa8990395b16ec7c60854",
-      "time": "2026-07-17T10:42:21+08:00",
-      "headline": "Foreign holdings of yuan bonds on China interbank market reach 3.20 trillion yuan at end-June: PBOC Shanghai office",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "dc5940f30e6bcba412db7adae1c1fa9a5cce387115d358b9e365a81c61f1f827",
-      "time": "2026-07-17T10:42:34+08:00",
-      "headline": "China FX regulator: new QDII quota allocation is underway",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "edbc4c88b8e9369c79f2dee04c00e9747d88cf06bc2c5c81afce39acec521b27",
-      "time": "2026-07-17T10:44:44+08:00",
-      "headline": "Sirens sound in Bahrain for second time on Friday: Interior Ministry",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "9bef45371aa5cdb1da4229a474e36575fa8bc80c7fc39d8561b125baee087f25",
-      "time": "2026-07-17T10:48:23+08:00",
-      "headline": "Several blasts heard again in Doha after second government security alert sent to mobile phones: witness",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "6d4f2eecbf7e41de635aeff20b9c4d28fc904149ace7edc13d98068259914259",
-      "time": "2026-07-17T10:49:51+08:00",
-      "headline": "Iranian army: drone strikes target U.S. deployment and logistics hubs in Kuwait - state media",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "594311cb91a0a68b4bb431aac3b9dcf5e5726c2614145bf7ef8bd54db0bdd009",
-      "time": "2026-07-17T11:00:50+08:00",
-      "headline": "Qatar intercepts several air attacks: defence ministry",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "be1f6151d1fde29d807091a9c944dee461f8370cae577b9fdcca1f1cfa361431",
-      "time": "2026-07-17T11:07:43+08:00",
-      "headline": "Three blasts reported in Iran's Chabahar: state media",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "81ed8128d1d1786bcdeaceab94fcbe4aef68fd4073ba0ea5b5adaad5ce0e7ba9",
-      "time": "2026-07-17T12:15:36+08:00",
-      "headline": "US strikes location in Iran’s Lorestan province: ISNA citing provincial official",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "78ca0e2c620a3d13a7ba8adb476e51ee60e0772932680404a1605f80b6d05e92",
-      "time": "2026-07-17T12:18:26+08:00",
-      "headline": "UK's Unite the Union: Neo Next offshore workers clinch pay agreement after strike threat",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "a616e3de111ba4ece96ba0945eb27f0e3b853c88380d40b07d361cac947c391d",
-      "time": "2026-07-17T13:12:44+08:00",
-      "headline": "Japan's Trade Minister Akazawa: Hope NVIDIA to work with Japan on physical AI further.",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "30fa63369ae485bd569ef03a7c321e28b3a7743f925a70f9fc3cdf1e25793bf2",
-      "time": "2026-07-17T13:32:27+08:00",
-      "headline": "Japan's PM Takaichi: Council to discuss food tax before decision early August",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "9656eb59c01f195120bb9ee4c32b90f94195807a1a2109cd7e5f9dd4b1a415ab",
-      "time": "2026-07-17T13:41:38+08:00",
-      "headline": "Iran's IRGC: We targeted US maritime surveillance radar in Oman - State media",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "7fa98bd333f92557abbd2f81883f67945d2d64220f4c8b6e963fdf200167713b",
-      "time": "2026-07-17T14:07:12+08:00",
-      "headline": "Japan's PM Takaichi: We aim for a stable drop in the debt-to-GDP ratio",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "dd70e89b506874276cbceda56fff727c7dce7e2890daf2845f9e7c8eda2ae2ec",
-      "time": "2026-07-17T14:09:26+08:00",
-      "headline": "Japan's Fin. Min. Katayama: No change to the government's stance that specific monetary policy means it's up to the BoJ to decide",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "91cecb16c63f18667f63cf883bb090439a2fcf31103ce3d0e258b3baab988e04",
-      "time": "2026-07-17T14:09:45+08:00",
-      "headline": "Japan's Fin. Min. Katayama: Won't comment on specific language around the upcoming economic blueprint, which is still being finalised with the ruling coalition",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "9086d6155432a74c43bab7587aa8f169abbd8c01756e71c8b339e336b2a9328c",
-      "time": "2026-07-17T14:10:13+08:00",
-      "headline": "30-Day Correlation Matrix",
-      "decision": "drop",
-      "reason_zh": "無意義數據",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "183f39d0b1eab08e072a917d005a445480d1791ddbafa22952a8b2b162554a11",
-      "time": "2026-07-17T14:10:22+08:00",
-      "headline": "Japan's Fin. Min. Katayama: The government is keeping a close eye on daily market moves and economic data, and will strive to stably lower Japan's debt-to-GDP ratio",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "8a8f32a96fdcb05e4dab8d0af7fe947aeb15aae661b82d0e1452241097fbad04",
-      "time": "2026-07-17T14:10:41+08:00",
-      "headline": "60-Day Correlation Matrix",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "06005a04c1bfd5c44d1052b59cadc8cb557b79e2a6354eceef5a5ed77849dd44",
-      "time": "2026-07-17T14:10:44+08:00",
-      "headline": "Japan's Fin. Min. Katayama: The government will work to avoid causing any misunderstanding in markets over its fiscal and monetary policy stance",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "ed7c908959fc42c0269731d53c3eb7bb8d4499e9f6766d95a8067f1f5e30b693",
-      "time": "2026-07-17T14:11:06+08:00",
-      "headline": "90-Day Correlation Matrix",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "766572392ca460d71ba2d7e9ee5dc809779fc75491eeb435529cc9ed06e302b1",
-      "time": "2026-07-17T14:11:26+08:00",
-      "headline": "120-Day Correlation Matrix",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "3f196594e653bde1b38a70a09938d49f5a8071254a72df2a1b6c7873a9e00a59",
-      "time": "2026-07-17T14:12:06+08:00",
-      "headline": "Top S&P 500 Stock names Implied Volatility",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "fcf76fec0c2fd7ebba03a30aa09edaf41176e1badf6138975cb13433461dd6f9",
-      "time": "2026-07-17T14:12:26+08:00",
-      "headline": "US Index Futures Implied Volatility",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "4a0d34eb4dab8c1c88c8e0100656fdeea2381128ccf03f4974130ba9c6f0f8db",
-      "time": "2026-07-17T14:12:45+08:00",
-      "headline": "FX Implied Volatility",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "cbec08e1e79b10a2a80a57548f7dfefa397056bf5e12b38be79cab9ce2d14bd9",
-      "time": "2026-07-17T14:13:11+08:00",
-      "headline": "Commodities Implied Volatility",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "60add611b713231808937844b70359e661e0dbe762bbc5f76bf8faec714d83d8",
-      "time": "2026-07-17T14:13:47+08:00",
-      "headline": "Fed Interest Rate Probabilities",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "9590e7450a847c632a5f335715fb405db872b9e736a8cef6fbc10db98fd3236f",
-      "time": "2026-07-17T14:14:08+08:00",
-      "headline": "ECB Interest Rate Probabilities",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "ab9578657383dc4fd64938bd199c422ce2e2ced16f92ad0273a379130a7a6ff5",
-      "time": "2026-07-17T14:14:32+08:00",
-      "headline": "BoE Interest Rate Probabilities",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "f32b4fe6d2a5c5950085540d7db030591e470669e18c6640defff0f80dffd036",
-      "time": "2026-07-17T14:14:50+08:00",
-      "headline": "BoC Interest Rate Probabilities",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "cd550ca4e0c2866974164ea0eff0175a721a8d2f7f887c5c30b111662f78d8a7",
-      "time": "2026-07-17T14:15:13+08:00",
-      "headline": "BoJ Interest Rate Probabilities",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "9ec1ad6db26cb2a404a20bd5444c23a34d794c7ea28ba3a0349394c35c611fa0",
-      "time": "2026-07-17T14:15:31+08:00",
-      "headline": "RBA Interest Rate Probabilities",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "68657ad1d10b55f5e5b6f886ef4cf2085bca3089aa42b7b15cb562aa5be5fbfe",
-      "time": "2026-07-17T14:15:59+08:00",
-      "headline": "RBNZ Interest Rate Probabilities",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "d9a2390162cb4f1fa76d2841ff4bbbb96d2155f3c4dc7f1beff1151c62793d8a",
-      "time": "2026-07-17T14:16:15+08:00",
-      "headline": "SNB Interest Rate Probabilities",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "be4d2a81eff98da53c69993d9d40a7735dfa830f5e9737e2998c922a010cb770",
-      "time": "2026-07-17T14:38:00+08:00",
-      "headline": "UKMTO: Received a report of a tanker being hit by unknown projectile on Thursday 19NM East of Oman's Khasab. Tanker hit near Oman reports minor structural damage.",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "49d2905c6011eb2b2ddb2cf3c6511c1e502fc343121ac366505f3be6526e4f56",
-      "time": "2026-07-17T14:50:09+08:00",
-      "headline": "Azerbaijan oil output at 13.3 mln t in Jan-June - Energy Ministry.",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "c27a5ea1389d01177471cebbb5bc08f09d8b44616f678dffb8d44a0dc47c2ae9",
-      "time": "2026-07-17T14:52:09+08:00",
-      "headline": "Azerbaijan exported 10.5 mln t of oil in Jan-June - Energy Ministry",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    },
-    {
-      "id": "afc6aa7357d0a124a484be9bbedcbd6ce0489aebec23fa6f93a0c38a0afc833f",
-      "time": "2026-07-17T14:58:56+08:00",
-      "headline": "Japan Pm Takaichi: GPIF nimbly rebalances portfolio such as by selling foreign assets, buying domestic assets when yen is weakening against dollar.",
-      "decision": "drop",
-      "reason_zh": "未被Gemini最終事件或軌跡引用。",
-      "mapped_event_source_id": ""
-    }
+  "留下的headline": [
+    "China cbank injects net 1.9015 trln yuan for week via open market operations: source calculation",
+    "China cbank injects largest weekly net liquidity via open market operations since January 2023: source calculation",
+    "U.S. Central Command: completed latest major series of strikes against Iran",
+    "China fx regulator: anticipates steady growth in foreign investments in yuan bonds",
+    "Iran's Revolutionary Guards: No oil or gas exports via Strait of Hormuz while U.S. attacks persist - Tasnim",
+    "Japan's Fin. Min. Katayama: The government is keeping a close eye on daily market moves and economic data, and will strive to stably lower Japan's debt-to-GDP ratio",
+    "Japan PM Takaichi: Government will pursue steps that encourage investment in Japanese financial assets including by households, pension funds like GPIF.",
+    "Japan Pm Takaichi: GPIF nimbly rebalances portfolio such as by selling foreign assets, buying domestic assets when yen is weakening against dollar.",
+    "Eurozone Current Account Actual 25.095B (Forecast -, Previous 15.700B)"
   ]
 }
