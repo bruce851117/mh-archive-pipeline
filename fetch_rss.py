@@ -424,9 +424,11 @@ def save_daily_archives(
     return total_new_items, changed_files
 
 
+
 def find_archive_files_for_last_24_hours(
     now: datetime,
-) -> list"""
+):
+    """
     最近24小時可能跨越兩個台灣日期，
     因此讀取台灣今日與昨日檔案。
     """
