@@ -539,17 +539,17 @@
     }
 
     function renderTrajectory(trajectory, important) {
-      if (!Array.isArray(trajectory) || !trajectory.length) return '';
-      return `<div class="trajectory-group">${trajectory.map(item => `
+    if (!Array.isArray(trajectory) || !trajectory.length) return '';
+
+    return `<div class="trajectory-group">${trajectory.map(item => `
         <div class="trajectory-row">
-          <span class="dot"></span>
-          <time class="row-time">${escapeHtml(rowDate(item.time))}</time>
-          <div>
-            <div class="trajectory-label">${escapeHtml(item.update_type || '事件發展')}</div>
-            <div class="headline ${important ? 'important' : ''}">${escapeHtml(item.description_zh || '')}</div>
-          </div>
+        <span class="dot"></span>
+        <time class="row-time">${escapeHtml(rowDate(item.time))}</time>
+        <div class="headline ${important ? 'important' : ''}">
+            ${escapeHtml(item.description_zh || '')}
         </div>
-      `).join('')}</div>`;
+        </div>
+    `).join('')}</div>`;
     }
 
     function renderEvent(event) {
