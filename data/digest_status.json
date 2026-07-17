@@ -1,0 +1,24 @@
+{
+  "status": "success",
+  "timezone": "Asia/Taipei",
+  "utc_offset": "+08:00",
+  "run_at": "2026-07-17T15:06:46.454349+08:00",
+  "model": "gemini-3.1-flash-lite",
+  "input_headline_count": 105,
+  "included_headline_count": 105,
+  "output_news_count": 8,
+  "usage_metadata": {
+    "promptTokenCount": 12199,
+    "candidatesTokenCount": 3683,
+    "totalTokenCount": 15882,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 12199
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "error": "",
+  "last_success_at": "2026-07-17T15:06:46.454349+08:00"
+}
