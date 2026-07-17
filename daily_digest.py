@@ -16,6 +16,8 @@ INPUT_FILE = Path("data/latest_24h.json")
 DIGEST_DIRECTORY = Path("data/digests")
 LATEST_DIGEST_FILE = Path("data/latest_daily_digest.json")
 STATUS_FILE = Path("data/digest_status.json")
+DEBUG_DIRECTORY = Path("data/debug")
+LATEST_DEBUG_FILE = Path("data/latest_digest_debug.json")
 
 GEMINI_API_BASE_URL = "https://generativelanguage.googleapis.com/v1beta"
 DEFAULT_GEMINI_MODEL = "gemini-3.1-flash-lite"
@@ -39,6 +41,8 @@ SYSTEM_INSTRUCTION = """
 6. 每個保留事件評為1至5分：5為可能立即顯著影響全球主要市場或政策預期；4為顯著影響主要市場或國家；3為有明確市場參考價值；2為影響有限但具背景價值；1為影響很小但仍有少量資訊價值。
 7. 分類固定順序：債市、股市、央行、財政政策、經濟、戰爭。分類內依重要性由高至低；同分時依event_time由新至舊。
 8. 只輸出合法JSON，不要Markdown，不要額外說明。所有source_id只能使用輸入提供的id。
+9. 必須對每一個輸入ID在selection_audit中交代去留：decision只能是keep或drop。keep代表該ID被用作事件主來源或事件軌跡；drop代表未保留。
+10. 若drop是因為與另一事件重複，mapped_event_source_id填入被保留事件最早Headline的ID；其餘情況填空字串。reason_zh需簡短說明原因。
 """.strip()
 
 
@@ -169,7 +173,15 @@ def build_user_prompt(compact_input: str, input_count: int, included_count: int,
     {{"category":"經濟","news":[]}},
     {{"category":"戰爭","news":[]}}
   ],
-  "discarded":{{"estimated_count":0,"reasons":[]}}
+  "discarded":{{"estimated_count":0,"reasons":[]}},
+  "selection_audit":[
+    {{
+      "id":"輸入資料中的ID",
+      "decision":"keep或drop",
+      "reason_zh":"保留或刪除原因",
+      "mapped_event_source_id":"若因重複而刪除，填入被保留事件的source_id，否則空字串"
+    }}
+  ]
 }}
 
 輸入資料：
@@ -308,6 +320,102 @@ def normalize_digest(digest: dict[str, Any], source_lookup: dict[str, dict[str, 
     }
 
 
+def build_selection_debug(
+    raw_digest: dict[str, Any],
+    source_lookup: dict[str, dict[str, Any]],
+    run_at: datetime,
+    model: str,
+) -> dict[str, Any]:
+    audit_lookup: dict[str, dict[str, str]] = {}
+    raw_audit = raw_digest.get("selection_audit", [])
+
+    if isinstance(raw_audit, list):
+        for row in raw_audit:
+            if not isinstance(row, dict):
+                continue
+            item_id = normalize_text(row.get("id"))
+            if item_id not in source_lookup or item_id in audit_lookup:
+                continue
+            decision = normalize_text(row.get("decision")).lower()
+            if decision not in {"keep", "drop"}:
+                continue
+            audit_lookup[item_id] = {
+                "decision": decision,
+                "reason_zh": normalize_text(row.get("reason_zh")),
+                "mapped_event_source_id": normalize_text(
+                    row.get("mapped_event_source_id")
+                ),
+            }
+
+    referenced_ids: set[str] = set()
+    for category in raw_digest.get("categories", []):
+        if not isinstance(category, dict):
+            continue
+        for news_item in category.get("news", []):
+            if not isinstance(news_item, dict):
+                continue
+            source_id = normalize_text(news_item.get("source_id"))
+            if source_id in source_lookup:
+                referenced_ids.add(source_id)
+            for update in news_item.get("trajectory", []):
+                if isinstance(update, dict):
+                    update_id = normalize_text(update.get("source_id"))
+                    if update_id in source_lookup:
+                        referenced_ids.add(update_id)
+
+    kept: list[dict[str, Any]] = []
+    dropped: list[dict[str, Any]] = []
+
+    for item_id, source in source_lookup.items():
+        audit = audit_lookup.get(item_id, {})
+        is_referenced = item_id in referenced_ids
+        decision = "keep" if is_referenced else "drop"
+        model_decision = audit.get("decision", "")
+
+        if model_decision and model_decision != decision:
+            reason = (
+                f"模型稽核標示為{model_decision}，但以最終輸出ID引用結果校正為{decision}。"
+            )
+        else:
+            reason = audit.get("reason_zh", "")
+
+        if not reason:
+            reason = (
+                "保留為事件主來源或事件軌跡。"
+                if decision == "keep"
+                else "未被Gemini最終事件或軌跡引用。"
+            )
+
+        output_row = {
+            "id": item_id,
+            "time": source["time"],
+            "headline": source["headline"],
+            "decision": decision,
+            "reason_zh": reason,
+            "mapped_event_source_id": audit.get(
+                "mapped_event_source_id", ""
+            ),
+        }
+
+        if decision == "keep":
+            kept.append(output_row)
+        else:
+            dropped.append(output_row)
+
+    kept.sort(key=lambda row: row["time"])
+    dropped.sort(key=lambda row: row["time"])
+
+    return {
+        "generated_at": format_taipei_time(run_at),
+        "model": model,
+        "input_count": len(source_lookup),
+        "kept_count": len(kept),
+        "dropped_count": len(dropped),
+        "kept_headlines": kept,
+        "dropped_headlines": dropped,
+    }
+
+
 def count_news(digest: dict[str, Any]) -> int:
     return sum(len(category.get("news", [])) for category in digest.get("categories", []) if isinstance(category, dict) and isinstance(category.get("news"), list))
 
@@ -354,6 +462,9 @@ def main() -> int:
         print(f"Gemini model: {model}")
 
         raw_digest, usage = call_gemini(api_key, model, prompt)
+        debug_output = build_selection_debug(
+            raw_digest, source_lookup, run_at, model
+        )
         digest = normalize_digest(raw_digest, source_lookup)
         digest.update({
             "period_start": period_start,
@@ -367,11 +478,17 @@ def main() -> int:
         })
         output_count = count_news(digest)
         daily_file = DIGEST_DIRECTORY / run_at.strftime("%Y") / run_at.strftime("%m") / f"{run_at.strftime('%Y-%m-%d')}.json"
+        debug_file = DEBUG_DIRECTORY / run_at.strftime("%Y") / run_at.strftime("%m") / f"{run_at.strftime('%Y-%m-%d')}.json"
         write_json(daily_file, digest)
         write_json(LATEST_DIGEST_FILE, digest)
+        write_json(debug_file, debug_output)
+        write_json(LATEST_DEBUG_FILE, debug_output)
         write_status("success", run_at, model, len(cleaned_items), included_count, output_count, usage)
         print(f"Final event count: {output_count}")
+        print(f"Kept headline count: {debug_output['kept_count']}")
+        print(f"Dropped headline count: {debug_output['dropped_count']}")
         print(f"Daily digest: {daily_file}")
+        print(f"Selection debug: {debug_file}")
         return 0
     except Exception as error:
         message = f"{type(error).__name__}: {error}"

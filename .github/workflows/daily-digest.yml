@@ -38,6 +38,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Verify Python syntax
+        run: |
+          python -m py_compile daily_digest.py
+
       - name: Verify input data
         run: |
           if [ ! -f "data/latest_24h.json" ]; then
@@ -71,10 +75,15 @@ jobs:
         run: |
           python daily_digest.py
 
-      - name: Verify digest output
+      - name: Verify digest and debug output
         run: |
           if [ ! -f "data/latest_daily_digest.json" ]; then
             echo "Error: Daily digest output was not generated."
+            exit 1
+          fi
+
+          if [ ! -f "data/latest_digest_debug.json" ]; then
+            echo "Error: Selection debug output was not generated."
             exit 1
           fi
 
@@ -87,16 +96,47 @@ jobs:
           cat data/digest_status.json
 
           echo ""
-          echo "Generated digest files:"
-          find data/digests -type f -maxdepth 5 -print | sort || true
+          echo "Selection debug summary:"
 
-      - name: Commit daily digest
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          debug_file = Path("data/latest_digest_debug.json")
+
+          with debug_file.open("r", encoding="utf-8") as file:
+              debug = json.load(file)
+
+          print(f"Input: {debug.get('input_count', 0)}")
+          print(f"Kept: {debug.get('kept_count', 0)}")
+          print(f"Dropped: {debug.get('dropped_count', 0)}")
+
+          print("\nKept headlines:")
+          for item in debug.get("kept_headlines", []):
+              print(
+                  f"- [{item.get('time', '')}] "
+                  f"{item.get('headline', '')} "
+                  f"| {item.get('reason_zh', '')}"
+              )
+
+          print("\nDropped headlines:")
+          for item in debug.get("dropped_headlines", []):
+              print(
+                  f"- [{item.get('time', '')}] "
+                  f"{item.get('headline', '')} "
+                  f"| {item.get('reason_zh', '')}"
+              )
+          PY
+
+      - name: Commit daily digest and debug files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add data/digests
+          git add data/debug
           git add data/latest_daily_digest.json
+          git add data/latest_digest_debug.json
           git add data/digest_status.json
 
           if git diff --cached --quiet; then
