@@ -20,7 +20,7 @@ DEBUG_DIRECTORY = Path("data/debug")
 LATEST_DEBUG_FILE = Path("data/latest_digest_debug.json")
 
 GEMINI_API_BASE_URL = "https://generativelanguage.googleapis.com/v1beta"
-DEFAULT_GEMINI_MODEL = "gemini-2.5-flash"
+DEFAULT_GEMINI_MODEL = "gemini-3.5-flash"
 REQUEST_TIMEOUT_SECONDS = 300
 MAX_RETRIES = 3
 MAX_OUTPUT_TOKENS = 32768
