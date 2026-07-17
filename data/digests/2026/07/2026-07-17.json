@@ -1,17 +1,71 @@
 {
   "title": "最近24小時全球市場重要新聞",
-  "period_start": "2026-07-16T15:16:37.629624+08:00",
-  "period_end": "2026-07-17T15:16:37.629624+08:00",
+  "period_start": "2026-07-16T15:46:56.302645+08:00",
+  "period_end": "2026-07-17T15:46:56.302645+08:00",
   "timezone": "Asia/Taipei",
-  "overview": "過去24小時全球市場焦點集中於中東地緣政治緊張局勢升級，美國對伊朗發動軍事打擊，導致卡達、伊朗及阿曼灣周邊安全疑慮加劇，避險情緒顯著。同時，中國商務部針對英國國有化British Steel表達強烈不滿，引發貿易摩擦擔憂。日本財務大臣Katayama多次重申對匯率波動的決心，並強調政府將致力於穩定債務佔GDP比率。中國人民銀行持續向市場注入流動性，創下2023年1月以來單週最大淨投放規模，顯示政策面維持寬鬆以支撐經濟。",
+  "overview": "過去24小時市場焦點集中於中東地緣政治緊張局勢升級，美國對伊朗發動軍事打擊，導致伊朗威脅封鎖荷姆茲海峽（Strait of Hormuz），引發能源供應擔憂。同時，日本財務大臣片山皋月（Katayama）多次針對匯率波動發表強硬言論，暗示必要時將採取果斷行動。中國人民銀行持續透過公開市場操作注入流動性，並強調外匯市場韌性。市場情緒受地緣政治風險影響，避險需求上升。",
   "categories": [
     {
       "category": "債市",
       "news": [
         {
+          "importance_score": 3,
+          "headline_zh": "中國外匯管理局：預期人民幣債券外資持倉將穩步增長",
+          "summary_zh": "中國外匯管理局預期外資對人民幣債券的投資將保持穩定增長，顯示中國債市對國際資本的吸引力。",
+          "event_time": "2026-07-17T10:39:37+08:00",
+          "source_id": "c26e1748a9309cbfcfaa2cad7e7fe9c62bb1502b1767679ad66e0b00c8538feb",
+          "source_detail": {
+            "id": "c26e1748a9309cbfcfaa2cad7e7fe9c62bb1502b1767679ad66e0b00c8538feb",
+            "time": "2026-07-17T10:39:37+08:00",
+            "headline": "China fx regulator: anticipates steady growth in foreign investments in yuan bonds",
+            "link": "https://www.financialjuice.com/News/9682207/China-fx-regulator-anticipates-steady-growth-in-foreign-investments-in-yuan-bonds.aspx?xy=rss",
+            "source": "FinancialJuice"
+          },
+          "trajectory": []
+        }
+      ]
+    },
+    {
+      "category": "股市",
+      "news": [
+        {
           "importance_score": 4,
-          "headline_zh": "中國人民銀行單週淨投放流動性創2023年1月以來新高",
-          "summary_zh": "中國人民銀行透過公開市場操作，本週淨投放1.9015兆元人民幣，為2023年1月以來最大規模，旨在維持市場流動性充裕。",
+          "headline_zh": "台灣股市跌幅擴大至超過4%",
+          "summary_zh": "台灣股市受地緣政治不確定性影響，跌幅由早盤的2.7%擴大至超過4%。",
+          "event_time": "2026-07-17T09:35:59+08:00",
+          "source_id": "62903bde05868a1d7ec8ab07d5839dad308a82f44b11e64be4157d9f805a6156",
+          "source_detail": {
+            "id": "62903bde05868a1d7ec8ab07d5839dad308a82f44b11e64be4157d9f805a6156",
+            "time": "2026-07-17T09:35:59+08:00",
+            "headline": "Taiwan shares fall over 4%",
+            "link": "https://www.financialjuice.com/News/9682059/Taiwan-shares-fall-over-4.aspx?xy=rss",
+            "source": "FinancialJuice"
+          },
+          "trajectory": [
+            {
+              "time": "2026-07-17T09:00:21+08:00",
+              "source_id": "0ba0f089dc504c2a2e71d22ed219891f4d9be952d76d0dd971945fe775417ad2",
+              "update_type": "修正",
+              "description_zh": "早盤跌幅為2.7%，隨後擴大。",
+              "source_detail": {
+                "id": "0ba0f089dc504c2a2e71d22ed219891f4d9be952d76d0dd971945fe775417ad2",
+                "time": "2026-07-17T09:00:21+08:00",
+                "headline": "Taiwan stocks fall over 2.7%",
+                "link": "https://www.financialjuice.com/News/9682002/Taiwan-stocks-fall-over-27.aspx?xy=rss",
+                "source": "FinancialJuice"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "央行",
+      "news": [
+        {
+          "importance_score": 4,
+          "headline_zh": "中國人民銀行本週透過公開市場操作淨投放1.9015兆元人民幣",
+          "summary_zh": "中國人民銀行加大流動性投放力度，創下2023年1月以來單週最大淨投放量，旨在維持市場流動性充裕。",
           "event_time": "2026-07-17T09:24:28+08:00",
           "source_id": "4cc502e49aaf877f8dc3dbe83e598a231529d564fcdb6a1a1771aebd3683a3c7",
           "source_detail": {
@@ -26,7 +80,7 @@
               "time": "2026-07-17T09:27:06+08:00",
               "source_id": "dc63b05b0d50569fc7ea9c8cab3da6fe270335cdce6cff0a99ec074063962e96",
               "update_type": "正式確認",
-              "description_zh": "來源計算確認該投放規模為2023年1月以來最大。",
+              "description_zh": "確認為2023年1月以來最大單週淨投放。",
               "source_detail": {
                 "id": "dc63b05b0d50569fc7ea9c8cab3da6fe270335cdce6cff0a99ec074063962e96",
                 "time": "2026-07-17T09:27:06+08:00",
@@ -40,74 +94,27 @@
       ]
     },
     {
-      "category": "股市",
+      "category": "財政政策",
       "news": [
         {
-          "importance_score": 3,
-          "headline_zh": "台灣股市跌幅擴大至超過4%",
-          "summary_zh": "受地緣政治風險及區域市場情緒影響，台灣股市盤中跌幅由2.7%擴大至超過4%。",
-          "event_time": "2026-07-17T09:00:21+08:00",
-          "source_id": "0ba0f089dc504c2a2e71d22ed219891f4d9be952d76d0dd971945fe775417ad2",
+          "importance_score": 4,
+          "headline_zh": "日本財務大臣片山皋月：必要時將對匯率採取果斷行動",
+          "summary_zh": "日本財務大臣片山皋月（Katayama）多次強調，若匯率出現過度波動，政府已準備好採取果斷措施進行干預。",
+          "event_time": "2026-07-17T08:35:27+08:00",
+          "source_id": "7e328fc727e510980dba3cfd50aa3a3e926db9fafe033364d56e8e7aad537708",
           "source_detail": {
-            "id": "0ba0f089dc504c2a2e71d22ed219891f4d9be952d76d0dd971945fe775417ad2",
-            "time": "2026-07-17T09:00:21+08:00",
-            "headline": "Taiwan stocks fall over 2.7%",
-            "link": "https://www.financialjuice.com/News/9682002/Taiwan-stocks-fall-over-27.aspx?xy=rss",
+            "id": "7e328fc727e510980dba3cfd50aa3a3e926db9fafe033364d56e8e7aad537708",
+            "time": "2026-07-17T08:35:27+08:00",
+            "headline": "Japan finance minister Katayama: ready to act on currency moves whenever necessary",
+            "link": "https://www.financialjuice.com/News/9681992/Japan-finance-minister-Katayama-ready-to-act-on-currency-moves-whenever-necessary.aspx?xy=rss",
             "source": "FinancialJuice"
           },
           "trajectory": [
-            {
-              "time": "2026-07-17T09:35:59+08:00",
-              "source_id": "62903bde05868a1d7ec8ab07d5839dad308a82f44b11e64be4157d9f805a6156",
-              "update_type": "後續發展",
-              "description_zh": "跌幅進一步擴大至超過4%。",
-              "source_detail": {
-                "id": "62903bde05868a1d7ec8ab07d5839dad308a82f44b11e64be4157d9f805a6156",
-                "time": "2026-07-17T09:35:59+08:00",
-                "headline": "Taiwan shares fall over 4%",
-                "link": "https://www.financialjuice.com/News/9682059/Taiwan-shares-fall-over-4.aspx?xy=rss",
-                "source": "FinancialJuice"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "category": "央行",
-      "news": [
-        {
-          "importance_score": 3,
-          "headline_zh": "日本財務大臣Katayama重申對匯率波動採取果斷行動",
-          "summary_zh": "日本財務大臣Katayama針對匯率波動多次表態，強調若有必要將採取果斷措施，但不會討論特定匯率水準。",
-          "event_time": "2026-07-17T08:35:15+08:00",
-          "source_id": "fa68dc16d31303b00e106f39456ea529e9caa6e4b9319623191306423097615a",
-          "source_detail": {
-            "id": "fa68dc16d31303b00e106f39456ea529e9caa6e4b9319623191306423097615a",
-            "time": "2026-07-17T08:35:15+08:00",
-            "headline": "Japan finmin Katayama: will not discuss particular fx levels",
-            "link": "https://www.financialjuice.com/News/9681991/Japan-finmin-Katayama-will-not-discuss-particular-fx-levels.aspx?xy=rss",
-            "source": "FinancialJuice"
-          },
-          "trajectory": [
-            {
-              "time": "2026-07-17T08:35:27+08:00",
-              "source_id": "7e328fc727e510980dba3cfd50aa3a3e926db9fafe033364d56e8e7aad537708",
-              "update_type": "後續發展",
-              "description_zh": "表示隨時準備採取行動。",
-              "source_detail": {
-                "id": "7e328fc727e510980dba3cfd50aa3a3e926db9fafe033364d56e8e7aad537708",
-                "time": "2026-07-17T08:35:27+08:00",
-                "headline": "Japan finance minister Katayama: ready to act on currency moves whenever necessary",
-                "link": "https://www.financialjuice.com/News/9681992/Japan-finance-minister-Katayama-ready-to-act-on-currency-moves-whenever-necessary.aspx?xy=rss",
-                "source": "FinancialJuice"
-              }
-            },
             {
               "time": "2026-07-17T08:37:39+08:00",
               "source_id": "f1e7efd3f6729b26a541ca5b57fba7041e2f5f0a9354a421ec2fae39210d2d30",
-              "update_type": "後續發展",
-              "description_zh": "重申採取果斷步驟。",
+              "update_type": "重申",
+              "description_zh": "重申採取果斷行動的立場。",
               "source_detail": {
                 "id": "f1e7efd3f6729b26a541ca5b57fba7041e2f5f0a9354a421ec2fae39210d2d30",
                 "time": "2026-07-17T08:37:39+08:00",
@@ -121,53 +128,19 @@
       ]
     },
     {
-      "category": "財政政策",
-      "news": [
-        {
-          "importance_score": 3,
-          "headline_zh": "日本首相Takaichi強調穩定債務佔GDP比率",
-          "summary_zh": "日本首相Takaichi表示政府目標是穩定降低債務佔GDP比率，並鼓勵家庭與退休基金投資國內金融資產。",
-          "event_time": "2026-07-17T14:07:12+08:00",
-          "source_id": "7fa98bd333f92557abbd2f81883f67945d2d64220f4c8b6e963fdf200167713b",
-          "source_detail": {
-            "id": "7fa98bd333f92557abbd2f81883f67945d2d64220f4c8b6e963fdf200167713b",
-            "time": "2026-07-17T14:07:12+08:00",
-            "headline": "Japan's PM Takaichi: We aim for a stable drop in the debt-to-GDP ratio",
-            "link": "https://www.financialjuice.com/News/9682398/Japans-PM-Takaichi-We-aim-for-a-stable-drop-in-the-debt-to-GDP-ratio.aspx?xy=rss",
-            "source": "FinancialJuice"
-          },
-          "trajectory": [
-            {
-              "time": "2026-07-17T14:10:22+08:00",
-              "source_id": "183f39d0b1eab08e072a917d005a445480d1791ddbafa22952a8b2b162554a11",
-              "update_type": "後續發展",
-              "description_zh": "財務大臣Katayama補充政府將密切關注市場與經濟數據以達成此目標。",
-              "source_detail": {
-                "id": "183f39d0b1eab08e072a917d005a445480d1791ddbafa22952a8b2b162554a11",
-                "time": "2026-07-17T14:10:22+08:00",
-                "headline": "Japan's Fin. Min. Katayama: The government is keeping a close eye on daily market moves and economic data, and will strive to stably lower Japan's debt-to-GDP ratio",
-                "link": "https://www.financialjuice.com/News/9682402/Japans-Fin-Min-Katayama-The-government-is-keeping-a-close-eye-on-daily-market-moves-and-economic-data-and-will-strive-to-stably-lower-Japans-debt-to-GDP-ratio.aspx?xy=rss",
-                "source": "FinancialJuice"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
       "category": "經濟",
       "news": [
         {
           "importance_score": 3,
-          "headline_zh": "中國商務部反對英國國有化British Steel",
-          "summary_zh": "中國商務部對英國政府強制徵收British Steel表示強烈不滿，敦促英方公平對待中國企業並遵守投資保護協定。",
-          "event_time": "2026-07-17T09:24:07+08:00",
-          "source_id": "b67b690eb6b02480615aa5383902c4835cc9986fb5b4a84abb4f7d68d036a7db",
+          "headline_zh": "日本首相高市早苗：政府將鼓勵家庭與退休基金投資日本金融資產",
+          "summary_zh": "日本首相高市早苗（Takaichi）表示，政府將採取措施鼓勵國內資金（如GPIF）投資日本金融資產，並致力於降低債務佔GDP比重。",
+          "event_time": "2026-07-17T14:56:43+08:00",
+          "source_id": "83f30cb0bf74805324ade77ef9b17f32a32f28aea9cf4bad2711a910c2eb0075",
           "source_detail": {
-            "id": "b67b690eb6b02480615aa5383902c4835cc9986fb5b4a84abb4f7d68d036a7db",
-            "time": "2026-07-17T09:24:07+08:00",
-            "headline": "China commerce ministry: china firmly opposes, strongly disapproves uk government decision to nationalise British Steel",
-            "link": "https://www.financialjuice.com/News/9682038/China-commerce-ministry-china-firmly-opposes-strongly-disapproves-uk-government-decision-to-nationalise-British-Steel.aspx?xy=rss",
+            "id": "83f30cb0bf74805324ade77ef9b17f32a32f28aea9cf4bad2711a910c2eb0075",
+            "time": "2026-07-17T14:56:43+08:00",
+            "headline": "Japan PM Takaichi: Government will pursue steps that encourage investment in Japanese financial assets including by households, pension funds like GPIF.",
+            "link": "https://www.financialjuice.com/News/9682464/Japan-PM-Takaichi-Government-will-pursue-steps-that-encourage-investment-in-Japanese-financial-assets-including-by-households-pension-funds-like-GPIF.aspx?xy=rss",
             "source": "FinancialJuice"
           },
           "trajectory": []
@@ -179,41 +152,28 @@
       "news": [
         {
           "importance_score": 5,
-          "headline_zh": "美國對伊朗發動軍事打擊，中東局勢緊張",
-          "summary_zh": "美國中央司令部完成對伊朗的一系列重大打擊，伊朗境內多處設施受損，卡達與巴林亦傳出爆炸與安全警報，伊朗革命衛隊威脅封鎖荷姆茲海峽。",
-          "event_time": "2026-07-17T08:35:57+08:00",
-          "source_id": "c879283c7dcab3d38889f1150551a855f7b846670c590fa4241817cb702ee062",
+          "headline_zh": "伊朗革命衛隊威脅：若美國攻擊持續，將封鎖荷姆茲海峽",
+          "summary_zh": "美國對伊朗境內橋樑及軍事設施發動打擊，造成人員傷亡。伊朗革命衛隊（IRGC）隨即威脅，只要美國攻擊持續，將禁止石油與天然氣經由荷姆茲海峽出口。",
+          "event_time": "2026-07-17T12:11:16+08:00",
+          "source_id": "56bb92209d9059270da308cbf6b29dd5f1df3d1ff24ef74e5e336a310a0ca98a",
           "source_detail": {
-            "id": "c879283c7dcab3d38889f1150551a855f7b846670c590fa4241817cb702ee062",
-            "time": "2026-07-17T08:35:57+08:00",
-            "headline": "Several blasts heard in Qatar's Doha, government sends alert to mobile phones: witness",
-            "link": "https://www.financialjuice.com/News/9681993/Several-blasts-heard-in-Qatars-Doha-government-sends-alert-to-mobile-phones-witness.aspx?xy=rss",
+            "id": "56bb92209d9059270da308cbf6b29dd5f1df3d1ff24ef74e5e336a310a0ca98a",
+            "time": "2026-07-17T12:11:16+08:00",
+            "headline": "Iran's Revolutionary Guards: No oil or gas exports via Strait of Hormuz while U.S. attacks persist - Tasnim",
+            "link": "https://www.financialjuice.com/News/9682301/Irans-Revolutionary-Guards-No-oil-or-gas-exports-via-Strait-of-Hormuz-while-US-attacks-persist---Tasnim.aspx?xy=rss",
             "source": "FinancialJuice"
           },
           "trajectory": [
             {
-              "time": "2026-07-17T09:47:46+08:00",
-              "source_id": "c37ce0e0e9b8961bd83791fa4b1da9b90a27b42b27d886d2f589e53cda60a379",
-              "update_type": "正式確認",
-              "description_zh": "美國中央司令部確認完成對伊朗的打擊。",
+              "time": "2026-07-17T11:21:25+08:00",
+              "source_id": "de30fcfbc189c9274e67bf77a6f68f38298ef428bbd471feed5ce93cf63d613c",
+              "update_type": "背景事件",
+              "description_zh": "美國對伊朗橋樑發動空襲，造成7人死亡。",
               "source_detail": {
-                "id": "c37ce0e0e9b8961bd83791fa4b1da9b90a27b42b27d886d2f589e53cda60a379",
-                "time": "2026-07-17T09:47:46+08:00",
-                "headline": "U.S. Central Command: completed latest major series of strikes against Iran",
-                "link": "https://www.financialjuice.com/News/9682066/US-Central-Command-completed-latest-major-series-of-strikes-against-Iran.aspx?xy=rss",
-                "source": "FinancialJuice"
-              }
-            },
-            {
-              "time": "2026-07-17T12:11:16+08:00",
-              "source_id": "56bb92209d9059270da308cbf6b29dd5f1df3d1ff24ef74e5e336a310a0ca98a",
-              "update_type": "後續發展",
-              "description_zh": "伊朗革命衛隊威脅若攻擊持續，將停止經由荷姆茲海峽出口油氣。",
-              "source_detail": {
-                "id": "56bb92209d9059270da308cbf6b29dd5f1df3d1ff24ef74e5e336a310a0ca98a",
-                "time": "2026-07-17T12:11:16+08:00",
-                "headline": "Iran's Revolutionary Guards: No oil or gas exports via Strait of Hormuz while U.S. attacks persist - Tasnim",
-                "link": "https://www.financialjuice.com/News/9682301/Irans-Revolutionary-Guards-No-oil-or-gas-exports-via-Strait-of-Hormuz-while-US-attacks-persist---Tasnim.aspx?xy=rss",
+                "id": "de30fcfbc189c9274e67bf77a6f68f38298ef428bbd471feed5ce93cf63d613c",
+                "time": "2026-07-17T11:21:25+08:00",
+                "headline": "Seven killed in U.S. strikes on bridges in southern Iran: IRNA",
+                "link": "https://www.financialjuice.com/News/9682252/Seven-killed-in-US-strikes-on-bridges-in-southern-Iran-IRNA.aspx?xy=rss",
                 "source": "FinancialJuice"
               }
             }
@@ -223,27 +183,29 @@
     }
   ],
   "discarded": {
-    "estimated_count": 50,
+    "estimated_count": 95,
     "reasons": [
-      "重複新聞",
-      "純指標數據",
-      "活動預告",
-      "無市場意義內容"
+      "純匯率中間價預測",
+      "無實質內容的官員發言",
+      "純價格漲跌幅報導",
+      "無具體內容的演說",
+      "無市場影響力的地緣政治細節",
+      "相關係數矩陣與隱含波動率數據"
     ]
   },
-  "generated_at": "2026-07-17T15:16:37.629624+08:00",
+  "generated_at": "2026-07-17T15:46:56.302645+08:00",
   "model": "gemini-3.1-flash-lite",
   "source": "FinancialJuice",
   "input_headline_count": 105,
   "included_headline_count": 105,
   "usage_metadata": {
-    "promptTokenCount": 12373,
-    "candidatesTokenCount": 12819,
-    "totalTokenCount": 25192,
+    "promptTokenCount": 12413,
+    "candidatesTokenCount": 2641,
+    "totalTokenCount": 15054,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 12373
+        "tokenCount": 12413
       }
     ],
     "serviceTier": "standard"
