@@ -1,42 +1,44 @@
 {
-  "generated_at": "2026-07-17T17:46:16.299265+08:00",
-  "summary_generated_at": "2026-07-17T17:46:16.299265+08:00",
-  "data_updated_at": "2026-07-17T16:00:38.915320+08:00",
+  "generated_at": "2026-07-18T07:03:42.109394+08:00",
+  "summary_generated_at": "2026-07-18T07:03:42.109394+08:00",
+  "data_updated_at": "2026-07-18T06:50:18.287740+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-07-16T17:00:00+08:00",
-  "period_end": "2026-07-17T16:00:38.915320+08:00",
+  "period_start": "2026-07-17T17:00:00+08:00",
+  "period_end": "2026-07-18T06:50:18.287740+08:00",
   "model": "gemini-3.5-flash",
   "source_digest_files": [
-    "data/digests/2026/07/2026-07-17.json"
+    "data/digests/2026/07/2026-07-17.json",
+    "data/digests/2026/07/2026-07-18.json"
   ],
-  "event_count": 20,
+  "event_count": 13,
   "summary_points": [
-    "中東地緣政治局勢急劇惡化，美軍對伊朗發動新一輪重大打擊，伊朗隨後襲擊美軍在科威特的部署，並威脅若美軍持續襲擊將封鎖霍爾木茲海峽的油氣出口，嚴重威脅全球能源供應安全。",
-    "中東衝突範圍持續擴大，卡達首都杜哈與巴林均面臨空襲威脅，且有油輪在阿曼外海遭彈體擊中，顯著推升了該區域的航道與安全風險。",
-    "中國人民銀行本週透過公開市場操作單週淨投放1.9015兆元人民幣，創下近年新高，旨在維護季末市場流動性的平穩。",
-    "面對日圓匯率劇烈波動，日本財務大臣片山皋月發出強烈口頭干預信號，表示政府已做好隨時干預外匯市場的準備。",
-    "日本首相高市早苗表示，政府將採取措施鼓勵家庭與政府養老投資基金（GPIF）投資日本金融資產以提振市場，並強調財政目標是穩定降低債務佔GDP的比例。",
-    "美中緊張關係再度升溫，白宮指控中國自2020年大選起進行大規模選舉數據竊取，並計劃公布相關機密評估報告。",
-    "中國外匯管理局預期外資將穩定增持人民幣債券，並計劃推出一整套措施促進跨境投融資，同時數據顯示6月商業銀行淨結匯規模顯著擴大，反映跨境資金流動狀況有所改善。",
-    "歐元區5月經常帳盈餘顯著增長至250.95億歐元，高於前值，顯示歐元區對外貿易與投資淨流入狀況良好。"
+    "中東地緣政治局勢急劇惡化，伊朗宣布封鎖霍爾木茲海峽並襲擊多艘油輪，且科威特重要水電設施亦遭其無人機與飛彈襲擊，引發市場對供應鏈與能源安全的高度恐慌。",
+    "受中東衝突升級影響，國際能源市場價格暴漲，WTI 原油與布蘭特原油期貨收盤均大漲逾 4%，歐洲天然氣價格亦一度大漲 5.4%。",
+    "為因應中東局勢可能出現的急劇惡化，美軍緊急向中東重新部署部隊，並派遣數十架空中加油機飛往以色列提供關鍵支援。",
+    "美聯儲官員 Hammack 警告，當前通膨依然過高且呈現廣泛性特徵，壓力來自能源、供應鏈及 AI 數據中心等多個領域，顯示抑制通膨仍是首要任務。",
+    "美國公布多項關鍵經濟數據，6 月新屋開工大幅反彈 19%，7 月密西根大學消費者信心指數亦超預期升至 54.4，顯示美國經濟仍具一定韌性。",
+    "隨著科技股波動，蘋果（Apple）股價表現相對穩健，市值再度超越晶片巨頭輝達（NVIDIA），奪回全球市值第一的寶座。",
+    "科技巨頭持續佈局 AI 領域，Meta 傳出正洽談向 Anthropic 出租價值高達百億美元的算力，而 SpaceX 亦在談判為五角大廈提供數十億美元的 AI 雲端算力。",
+    "美國眾議院中國委員會呼籲證券交易委員會（SEC）實施更嚴格的限制，以阻止資本流入與中國軍事相關的企業。",
+    "歐元區 6 月 CPI 年增率終值確認為 2.8%，核心 CPI 穩定在 2.4%，均符合市場預期，顯示歐元區通膨壓力維持穩定。"
   ],
   "blocks": [
     {
       "category": "債市",
       "news": [
         {
-          "source_id": "c26e1748a9309cbfcfaa2cad7e7fe9c62bb1502b1767679ad66e0b00c8538feb",
+          "source_id": "775573a7a9bdf71a665de560e4f09a73584a97f8c3f88e11247a119d9cc50ae8",
           "category": "債市",
-          "importance_score": 3,
+          "importance_score": 2,
           "highlight": false,
-          "headline_zh": "中國外匯管理局預期外資將穩定增長增持人民幣債券",
-          "summary_zh": "中國外匯監管機構預計，外資對人民幣債券的投資將保持穩定增長，反映出人民幣資產對國際資本的吸引力。",
-          "event_time": "2026-07-17T10:39:37+08:00",
+          "headline_zh": "美國擔保隔夜融資利率與有效聯邦基金利率維持穩定",
+          "summary_zh": "7月16日美國擔保隔夜融資利率（SOFR）降至3.62%，有效聯邦基金利率（EFFR）維持在3.63%，反映短期貨幣市場流動性依然充裕且穩定。",
+          "event_time": "2026-07-17T20:00:02+08:00",
           "trajectory": [
             {
-              "time": "2026-07-17T10:42:21+08:00",
+              "time": "2026-07-17T20:59:51+08:00",
               "update_type": "正式確認",
-              "description_zh": "中國人民銀行上海總部公布數據，截至6月底，境外機構在中國銀行間債券市場的託管餘額已達3.20兆元人民幣。"
+              "description_zh": "有效聯邦基金利率（EFFR）確認維持在3.63%不變。"
             }
           ]
         }
@@ -46,28 +48,70 @@
       "category": "股市",
       "news": [
         {
-          "source_id": "a616e3de111ba4ece96ba0945eb27f0e3b853c88380d40b07d361cac947c391d",
-          "category": "股市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "日本經產大臣赤澤希望 NVIDIA 與日本在物理人工智慧領域進一步合作",
-          "summary_zh": "日本經濟產業大臣赤澤表示，希望美國晶片巨頭 NVIDIA 能與日本在物理人工智慧（Physical AI）領域開展更深層次的合作，這對日本半導體與科技股具有潛在提振作用。",
-          "event_time": "2026-07-17T13:12:44+08:00",
-          "trajectory": []
-        },
-        {
-          "source_id": "83f30cb0bf74805324ade77ef9b17f32a32f28aea9cf4bad2711a910c2eb0075",
+          "source_id": "ff280fdb90ff2c5f11b7bf4f6487e87ef22041d8a176d7c7b9a0bd412bdb5d2a",
           "category": "股市",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "日本首相高市表示政府將採取措施鼓勵對日本金融資產的投資",
-          "summary_zh": "日本首相高市早苗表示，政府將推動措施，鼓勵包括家庭和政府養老投資基金（GPIF）在內的資金投資日本金融資產，以提振國內市場。",
-          "event_time": "2026-07-17T14:56:43+08:00",
+          "headline_zh": "Apple 市值超越 NVIDIA 奪回全球市值第一寶座",
+          "summary_zh": "隨著科技股波動，Apple（AAPL）股價表現相對穩健，市值再度超越晶片巨量 NVIDIA，重回全球市值最高公司地位。",
+          "event_time": "2026-07-17T21:33:09+08:00",
+          "trajectory": []
+        },
+        {
+          "source_id": "21a740982e42ade4074119108821afba7fc4280d67079ed504da31bb83d7ddf8",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "Meta 洽談向 Anthropic 出租算力，交易價值或達百億美元",
+          "summary_zh": "據紐約時報報導，Meta 正在談判向 AI 新創公司 Anthropic 出租其龐大的計算能力，這筆潛在交易在兩年內價值可能高達100億美元。",
+          "event_time": "2026-07-18T00:17:54+08:00",
           "trajectory": [
             {
-              "time": "2026-07-17T14:58:56+08:00",
-              "update_type": "後續發展",
-              "description_zh": "高市進一步指出，當日圓兌美元走弱時，GPIF 會靈活調整投資組合，例如出售外國資產並買入國內資產。"
+              "time": "2026-07-18T00:18:40+08:00",
+              "update_type": "細節披露",
+              "description_zh": "報導指出該筆算力租賃協議在兩年內價值可能高達100億美元。"
+            }
+          ]
+        },
+        {
+          "source_id": "369270eabfad8c580b7a51e602412302608dde7c5665eaabba0752a8e65da58d",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "Chevron 簽署協議，將主導伊拉克與敘利亞大型石油管道重建項目",
+          "summary_zh": "石油巨頭 Chevron（CVX）與伊拉克及敘利亞簽署合作備忘錄，將負責重建 Haditha-Baniyas 石油管道，這有助於開闢新的原油出口路徑。",
+          "event_time": "2026-07-18T03:01:45+08:00",
+          "trajectory": [
+            {
+              "time": "2026-07-18T03:19:05+08:00",
+              "update_type": "正式確認",
+              "description_zh": "Chevron 正式簽署協議，確認參與伊拉克與敘利亞的大型石油項目。"
+            }
+          ]
+        },
+        {
+          "source_id": "e8ce3c6579c31eda1ccd24a7448101bb554e650ecbfd15b27daf911b172c1f03",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "SpaceX 洽談為五角大廈提供數十億美元 AI 雲端算力，惟估值自高點大幅回落",
+          "summary_zh": "華爾街日報報導，SpaceX 正在談判為美國國防部提供價值數十億美元的 AI 雲端計算能力。與此同時，SpaceX 的市場估值自歷史高點已蒸發超過1兆美元。",
+          "event_time": "2026-07-18T03:03:34+08:00",
+          "trajectory": [
+            {
+              "time": "2026-07-18T03:04:59+08:00",
+              "update_type": "細節披露",
+              "description_zh": "該合作模式預計與 SpaceX 先前與 Anthropic 和 Google 簽署的數據中心共享協議類似。"
+            },
+            {
+              "time": "2026-07-18T03:05:24+08:00",
+              "update_type": "背景補充",
+              "description_zh": "美國國防部正加速向 Amazon 等公司採購更多 AI 計算能力，以應對日益增長的 AI 應用需求。"
+            },
+            {
+              "time": "2026-07-18T04:01:25+08:00",
+              "update_type": "市場反應",
+              "description_zh": "SpaceX 股價大跌，自歷史高點累計蒸發超過1兆美元市值。"
             }
           ]
         }
@@ -77,30 +121,35 @@
       "category": "央行",
       "news": [
         {
-          "source_id": "4cc502e49aaf877f8dc3dbe83e598a231529d564fcdb6a1a1771aebd3683a3c7",
+          "source_id": "b030b1b01ea32da392ad2b62a472ae107a749adaae2feb8e4542aad72893562b",
           "category": "央行",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "中國人民銀行本週透過公開市場操作淨投放1.9015兆元人民幣",
-          "summary_zh": "中國央行本週進行了大規模資金投放，以維護季末流動性平穩，單週淨投放規模創下近年新高。",
-          "event_time": "2026-07-17T09:24:28+08:00",
+          "headline_zh": "美聯儲官員 Hammack 警告通膨依然過高且具廣泛性",
+          "summary_zh": "美聯儲（Fed）官員 Hammack 表示，當前通膨依然過高，且壓力來自能源、供應鏈、保險及 AI 數據中心建設等多個領域，呈現廣泛性特徵，因此抑制通膨仍是首要任務。",
+          "event_time": "2026-07-17T22:05:37+08:00",
           "trajectory": [
             {
-              "time": "2026-07-17T09:27:06+08:00",
-              "update_type": "正式確認",
-              "description_zh": "市場計算證實，此舉創下自2023年1月以來最大的單週公開市場淨投放規模。"
+              "time": "2026-07-17T22:05:52+08:00",
+              "update_type": "數據引用",
+              "description_zh": "Hammack 指出，納入本週數據後，核心個人消費支出（PCE）即時預測顯示核心通膨率為3.3%。"
+            },
+            {
+              "time": "2026-07-17T22:06:02+08:00",
+              "update_type": "政策表態",
+              "description_zh": "她強調，持續的高通膨是目前更大的擔憂，美聯儲的雙重使命並無衝突。"
+            },
+            {
+              "time": "2026-07-17T22:06:19+08:00",
+              "update_type": "細節披露",
+              "description_zh": "與企業及社區領袖對話顯示，通膨並非單一來源，而是廣泛存在的。"
+            },
+            {
+              "time": "2026-07-17T22:06:34+08:00",
+              "update_type": "細節披露",
+              "description_zh": "企業領袖指出，除了能源和供應鏈中斷外，保險費用上漲和 AI 數據中心建設也是推高成本的因素。"
             }
           ]
-        },
-        {
-          "source_id": "dd70e89b506874276cbceda56fff727c7dce7e2890daf2845f9e7c8eda2ae2ec",
-          "category": "央行",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "日本財務大臣片山表示具體貨幣政策手段仍由日本央行決定",
-          "summary_zh": "日本財務大臣片山皋月強調，政府對於具體貨幣政策手段應由日本央行（BoJ）獨立決定的立場沒有改變，試圖維護央行的獨立性形象。",
-          "event_time": "2026-07-17T14:09:26+08:00",
-          "trajectory": []
         }
       ]
     },
@@ -108,39 +157,18 @@
       "category": "財政政策",
       "news": [
         {
-          "source_id": "30fa63369ae485bd569ef03a7c321e28b3a7743f925a70f9fc3cdf1e25793bf2",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "日本首相高市表示委員會將在8月初決定前討論食品稅",
-          "summary_zh": "日本首相高市早苗透露，政府委員會將在8月初做出最終決定之前，對食品稅的調整進行深入討論。",
-          "event_time": "2026-07-17T13:32:27+08:00",
-          "trajectory": [
-            {
-              "time": "2026-07-17T14:09:45+08:00",
-              "update_type": "後續發展",
-              "description_zh": "財務大臣片山皋月對此拒絕評論即將出爐的經濟藍圖具體措辭，並表示該藍圖目前正與執政聯盟進行最終敲定。"
-            }
-          ]
-        },
-        {
-          "source_id": "7fa98bd333f92557abbd2f81883f67945d2d64220f4c8b6e963fdf200167713b",
+          "source_id": "8c19667d940647bf309ff2616a2b91d0526db6a9d2572a6be15a4ba9de5cd643",
           "category": "財政政策",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "日本首相高市表示政府目標是穩定降低債務佔 GDP 的比例",
-          "summary_zh": "日本首相高市早苗表示，政府的財政目標是實現債務佔國內生產毛額（GDP）比例的穩定下降，以維護財政紀律。",
-          "event_time": "2026-07-17T14:07:12+08:00",
+          "headline_zh": "美國眾議院中國委員會呼籲證監會限制對中國軍工企業的資本流入",
+          "summary_zh": "美國眾議院中國委員會（House China Panel）呼籲證券交易委員會（SEC）對中國軍事相關企業實施更嚴格的限制，並限制資本流入這些實體。",
+          "event_time": "2026-07-18T04:03:32+08:00",
           "trajectory": [
             {
-              "time": "2026-07-17T14:10:22+08:00",
-              "update_type": "後續發展",
-              "description_zh": "財務大臣片山皋月隨後重申，政府正密切關注每日市場波動與經濟數據，並將努力穩定降低日本的債務佔 GDP 比例。"
-            },
-            {
-              "time": "2026-07-17T14:10:44+08:00",
-              "update_type": "後續發展",
-              "description_zh": "片山進一步表示，政府將努力避免市場對其財政與貨幣政策立場產生任何誤解。"
+              "time": "2026-07-18T04:04:44+08:00",
+              "update_type": "正式確認",
+              "description_zh": "該委員會正式要求對特定中國企業實施資本流動限制。"
             }
           ]
         }
@@ -150,118 +178,72 @@
       "category": "經濟",
       "news": [
         {
-          "source_id": "7e328fc727e510980dba3cfd50aa3a3e926db9fafe033364d56e8e7aad537708",
+          "source_id": "2b3ef33264b6fe0b3dc3f53865b1f8bf89b085739db80069c8bfc693f415eb02",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "歐元區6月 CPI 年增率終值確認為2.8%，核心 CPI 穩定在2.4%",
+          "summary_zh": "歐元區公布6月消費者物價指數（CPI）年增率終值為2.8%，核心 CPI 年增率終值為2.4%，均符合市場預期，顯示歐元區通膨壓力維持穩定。",
+          "event_time": "2026-07-17T17:00:01+08:00",
+          "trajectory": [
+            {
+              "time": "2026-07-17T17:00:17+08:00",
+              "update_type": "數據確認",
+              "description_zh": "歐元區6月 CPI 年增率終值確認為2.8%，月增率為-0.1%，均符合預期。"
+            }
+          ]
+        },
+        {
+          "source_id": "2d0126405a004c0fae966cfcc332054685cce6e00616b53830d9201e700d5d79",
           "category": "經濟",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "日本財務大臣片山表示隨時準備在必要時對匯率波動採取行動",
-          "summary_zh": "面對日圓匯率的劇烈波動，日本財務大臣片山皋月發出強烈口頭干預信號，表示政府已做好隨時干預外匯市場的準備。",
-          "event_time": "2026-07-17T08:35:27+08:00",
+          "headline_zh": "中東局勢惡化引發能源市場暴漲，WTI 與布蘭特原油大漲逾4%",
+          "summary_zh": "受中東地緣政治衝突急劇升級影響，國際油價與歐洲天然氣價格大幅飆升。WTI 原油期貨收盤大漲4.48%至每桶82.49美元，布蘭特原油大漲4.59%至每桶88.10美元，歐洲天然氣價格亦一度大漲5.4%。",
+          "event_time": "2026-07-17T19:52:27+08:00",
           "trajectory": [
             {
-              "time": "2026-07-17T08:37:39+08:00",
-              "update_type": "後續發展",
-              "description_zh": "片山隨後強調，如有需要，政府準備採取堅決步驟。"
+              "time": "2026-07-18T01:36:29+08:00",
+              "update_type": "數據更新",
+              "description_zh": "伊朗原油一籃子價格突破每桶80美元。"
             },
             {
-              "time": "2026-07-17T08:37:59+08:00",
-              "update_type": "後續發展",
-              "description_zh": "片山再次重申，如有必要，隨時準備對匯率採取決定性措施。"
+              "time": "2026-07-18T02:31:06+08:00",
+              "update_type": "收盤確認",
+              "description_zh": "紐約 WTI 原油8月期貨收盤上漲3.54美元，漲幅4.48%，報每桶82.49美元。"
+            },
+            {
+              "time": "2026-07-18T02:51:34+08:00",
+              "update_type": "收盤確認",
+              "description_zh": "倫敦布蘭特原油期貨收盤上漲3.87美元，漲幅4.59%，報每桶88.10美元。"
             }
           ]
         },
         {
-          "source_id": "b67b690eb6b02480615aa5383902c4835cc9986fb5b4a84abb4f7d68d036a7db",
+          "source_id": "ab090aef52757860a2f7f478d9ce4d157e1fbd6d8ff67fe14ad3d9fdf7117a70",
           "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "中國商務部強烈反對英國政府將英國鋼鐵公司國有化的決定",
-          "summary_zh": "中國商務部對英國政府國有化英國鋼鐵（British Steel）的決定表示強烈不滿與反對，認為此舉損害了中國企業的合法權益。",
-          "event_time": "2026-07-17T09:24:07+08:00",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美國多項經濟數據出爐：新屋開工大增、工業產出微升、密大信心超預期",
+          "summary_zh": "美國公布多項關鍵經濟指標。6月新屋開工月增率大幅反彈19%至142.7萬戶，遠超預期；7月密西根大學消費者信心指數初值升至54.4，高於預期的51；而6月工業產出月增0.1%，略低於預期的0.2%。",
+          "event_time": "2026-07-17T20:30:01+08:00",
           "trajectory": [
             {
-              "time": "2026-07-17T09:24:45+08:00",
-              "update_type": "後續發展",
-              "description_zh": "中方指責英方忽視了敬業集團（Jingye）對英國經濟的重要貢獻，以國家安全為由強行沒收企業。"
+              "time": "2026-07-17T20:30:02+08:00",
+              "update_type": "數據更新",
+              "description_zh": "美國6月新屋開工總數達142.7萬戶，高於預期的131萬戶。"
             },
             {
-              "time": "2026-07-17T09:25:07+08:00",
-              "update_type": "後續發展",
-              "description_zh": "中國商務部敦促英國政府遵守國際規則，妥善履行中英投資保護協定下的義務。"
+              "time": "2026-07-17T21:15:22+08:00",
+              "update_type": "數據更新",
+              "description_zh": "美國6月工業產出月增率為0.1%，略低於預期的0.2%。"
             },
             {
-              "time": "2026-07-17T09:25:30+08:00",
-              "update_type": "後續發展",
-              "description_zh": "中方進一步敦促英方公平對待在英中國企業，保護其合法權益。"
+              "time": "2026-07-17T22:00:00+08:00",
+              "update_type": "數據更新",
+              "description_zh": "美國7月密西根大學消費者信心指數初值為54.4，優於預期的51。"
             }
           ]
-        },
-        {
-          "source_id": "172cbf57a814c47fefadb7d9eba303558a766d65d030eb75c06da367ce93509f",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "中國商業銀行6月淨結匯566億美元，高於5月的358億美元",
-          "summary_zh": "中國外匯監管數據顯示，6月份商業銀行淨結匯規模顯著擴大，顯示跨境資金流動狀況有所改善。",
-          "event_time": "2026-07-17T10:00:03+08:00",
-          "trajectory": [
-            {
-              "time": "2026-07-17T10:00:03+08:00",
-              "update_type": "正式確認",
-              "description_zh": "數據顯示，今年1至6月商業銀行累計淨結匯達2712億美元。"
-            },
-            {
-              "time": "2026-07-17T10:05:22+08:00",
-              "update_type": "後續發展",
-              "description_zh": "外匯局指出，人民幣在跨境收支中的佔比已達52.9%，較2025年上升1.3個百分點。"
-            },
-            {
-              "time": "2026-07-17T10:12:07+08:00",
-              "update_type": "後續發展",
-              "description_zh": "外匯局表示，企業在跨境交易中越來越多地採用人民幣和貨幣衍生品來應對匯率風險。"
-            }
-          ]
-        },
-        {
-          "source_id": "2193de39f409a72db6665ec9aeef6729af5f4bcc0b5c26f0af496f9e40e0613c",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "中國外匯管理局表示將推出一整套措施以促進跨境投資與融資",
-          "summary_zh": "中國外匯管理局宣布，計劃推出一包裝政策措施，以進一步促進跨境投資與融資便利化。",
-          "event_time": "2026-07-17T10:15:12+08:00",
-          "trajectory": [
-            {
-              "time": "2026-07-17T10:41:22+08:00",
-              "update_type": "後續發展",
-              "description_zh": "外匯局表示，計劃定期分配合格境內機構投資者（GDI）額度，並增加對共同基金產品的關注。"
-            },
-            {
-              "time": "2026-07-17T10:42:34+08:00",
-              "update_type": "後續發展",
-              "description_zh": "外匯局證實，新一輪合格境內機構投資者（QDII）額度分配工作目前正在進行中。"
-            }
-          ]
-        },
-        {
-          "source_id": "78ca0e2c620a3d13a7ba8adb476e51ee60e0772932680404a1605f80b6d05e92",
-          "category": "經濟",
-          "importance_score": 2,
-          "highlight": false,
-          "headline_zh": "英國 Unite 工會表示，Neo Next 離岸工人因罷工威脅達成薪資協議",
-          "summary_zh": "英國 Unite 工會宣布，在發出罷工威脅後，Neo Next 的離岸工人已成功與資方達成薪資協議，避免了潛在的能源生產中斷。",
-          "event_time": "2026-07-17T12:18:26+08:00",
-          "trajectory": []
-        },
-        {
-          "source_id": "093488752b4c4f93c6723c98b26cb7c0f3209ec1f6b3298e76b6a6636f3c556c",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "歐元區5月經常帳盈餘達250.95億歐元，高於前值的157億歐元",
-          "summary_zh": "歐元區最新公布的5月經常帳盈餘顯著增長，超出前值，反映出歐元區對外貿易與投資淨流入狀況良好。",
-          "event_time": "2026-07-17T16:00:10+08:00",
-          "trajectory": []
         }
       ]
     },
@@ -269,116 +251,28 @@
       "category": "戰爭",
       "news": [
         {
-          "source_id": "c879283c7dcab3d38889f1150551a855f7b846670c590fa4241817cb702ee062",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "卡達首都杜哈傳出多起爆炸聲，卡達國防部稱攔截了數起空中襲擊",
-          "summary_zh": "中東衝突波及卡達，首都杜哈（Doha）傳出多起爆炸聲，政府向民眾手機發送了緊急安全警報。",
-          "event_time": "2026-07-17T08:35:57+08:00",
-          "trajectory": [
-            {
-              "time": "2026-07-17T09:02:58+08:00",
-              "update_type": "後續發展",
-              "description_zh": "卡達內政部隨後宣布，該起安全威脅已獲得解決。"
-            },
-            {
-              "time": "2026-07-17T09:26:32+08:00",
-              "update_type": "正式確認",
-              "description_zh": "卡達國防部證實，成功攔截了一次飛彈襲擊。"
-            },
-            {
-              "time": "2026-07-17T10:16:05+08:00",
-              "update_type": "後續發展",
-              "description_zh": "卡達內政部表示，在伊朗發動襲擊後，一名兒童因飛彈碎片受傷。"
-            },
-            {
-              "time": "2026-07-17T10:48:23+08:00",
-              "update_type": "後續發展",
-              "description_zh": "杜哈再次傳出數起爆炸聲，政府發送了第二次安全警報。"
-            },
-            {
-              "time": "2026-07-17T11:00:50+08:00",
-              "update_type": "正式確認",
-              "description_zh": "卡達國防部宣布，再次成功攔截了數起空中襲擊。"
-            }
-          ]
-        },
-        {
-          "source_id": "a6bbd3de4bb29ac5dfea3822cbb667fa6d2af87068262441c3fa9c399c30d78a",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "白宮指控中國自2020年大選週期起進行最大規模選舉數據竊取，並將公布機密評估報告",
-          "summary_zh": "白宮指控中國與俄羅斯試圖入侵美國計票系統，並稱中國獲取了大量選民記錄，美中地緣政治緊張局勢再度升溫。",
-          "event_time": "2026-07-17T09:04:58+08:00",
-          "trajectory": [
-            {
-              "time": "2026-07-17T09:05:17+08:00",
-              "update_type": "後續發展",
-              "description_zh": "白宮聲稱，中國自2020年大選週期開始，進行了已知最大規模的選舉數據入侵。"
-            },
-            {
-              "time": "2026-07-17T09:05:41+08:00",
-              "update_type": "後續發展",
-              "description_zh": "白宮進一步指出，中國已獲取了2.2億條美國選民的個人記錄。"
-            }
-          ]
-        },
-        {
-          "source_id": "c37ce0e0e9b8961bd83791fa4b1da9b90a27b42b27d886d2f589e53cda60a379",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "美國中央司令部完成對伊朗的最新一輪重大打擊",
-          "summary_zh": "美軍對伊朗境內目標發動了新一輪大規模空襲，地緣政治衝突急劇升級。",
-          "event_time": "2026-07-17T09:47:46+08:00",
-          "trajectory": [
-            {
-              "time": "2026-07-17T10:32:24+08:00",
-              "update_type": "後續發展",
-              "description_zh": "伊朗官方媒體報導，美軍近期的空襲摧毀了伊朗南部的五座橋樑。"
-            },
-            {
-              "time": "2026-07-17T11:07:43+08:00",
-              "update_type": "後續發展",
-              "description_zh": "伊朗恰巴哈（Chabahar）地區隨後傳出三起爆炸聲。"
-            },
-            {
-              "time": "2026-07-17T11:21:25+08:00",
-              "update_type": "正式確認",
-              "description_zh": "伊朗官方通訊社（IRNA）證實，美軍對南部橋樑的襲擊已造成七人死亡。"
-            },
-            {
-              "time": "2026-07-17T12:15:36+08:00",
-              "update_type": "後續發展",
-              "description_zh": "美軍進一步襲擊了伊朗洛雷斯坦省（Lorestan）境內的一處地點。"
-            }
-          ]
-        },
-        {
-          "source_id": "edbc4c88b8e9369c79f2dee04c00e9747d88cf06bc2c5c81afce39acec521b27",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "巴林內政部於週五第二次響起防空警報",
-          "summary_zh": "隨著中東局勢惡化，巴林境內於週五第二次響起防空警報，顯示該地區面臨迫在眉睫的安全威脅。",
-          "event_time": "2026-07-17T10:44:44+08:00",
-          "trajectory": []
-        },
-        {
           "source_id": "6d4f2eecbf7e41de635aeff20b9c4d28fc904149ace7edc13d98068259914259",
           "category": "戰爭",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "伊朗軍隊宣稱使用無人機襲擊美軍在科威特的部署與物流樞紐",
-          "summary_zh": "伊朗軍隊對美軍在科威特的軍事部署和物流中心發動了無人機襲擊，使美伊衝突範圍進一步擴大。",
+          "headline_zh": "科威特重要水電設施遭伊朗無人機與飛彈襲擊起火",
+          "summary_zh": "科威特軍方證實，自黎明起在領空攔截了多枚敵對彈道飛彈與無人機。然而，部分重要民用與軍事設施（包括發電廠及海水淡化廠）仍遭到擊中並引發火災，造成設施受損。",
           "event_time": "2026-07-17T10:49:51+08:00",
           "trajectory": [
             {
-              "time": "2026-07-17T13:41:38+08:00",
-              "update_type": "後續發展",
-              "description_zh": "伊朗革命衛隊（IRGC）宣稱，他們還成功打擊了美軍位於阿曼的海上監視雷達。"
+              "time": "2026-07-17T16:58:04+08:00",
+              "update_type": "戰況更新",
+              "description_zh": "科威特的水電站確認遭到伊朗襲擊。"
+            },
+            {
+              "time": "2026-07-18T03:51:32+08:00",
+              "update_type": "官方確認",
+              "description_zh": "科威特軍方宣布攔截了多枚飛彈與無人機，但部分民用與軍事水電設施仍被擊中。"
+            },
+            {
+              "time": "2026-07-18T03:52:21+08:00",
+              "update_type": "損害評估",
+              "description_zh": "科威特軍方證實，襲擊導致發電廠和海水淡化廠的發電機組起火並受損。"
             }
           ]
         },
@@ -387,35 +281,72 @@
           "category": "戰爭",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "伊朗革命衛隊威脅：若美國持續襲擊，將不允許任何石油或天然氣通過霍爾木茲海峽出口",
-          "summary_zh": "伊朗革命衛隊（IRGC）發出極其嚴厲的警告，稱若美國繼續對其進行軍事打擊，將全面封鎖霍爾木茲海峽（Strait of Hormuz）的油氣出口，這對全球能源供應構成重大威脅。",
+          "headline_zh": "伊朗封鎖霍爾木茲海峽，多艘油輪遭襲爆炸起火",
+          "summary_zh": "伊朗革命衛隊宣布，在美軍襲擊持續期間，將不允許任何石油或天然氣通過霍爾木茲海峽。隨後，多艘行經該海峽及阿曼灣的油輪遭到飛彈、無人機或水雷襲擊，導致多起爆炸與火災。",
           "event_time": "2026-07-17T12:11:16+08:00",
-          "trajectory": []
+          "trajectory": [
+            {
+              "time": "2026-07-17T14:38:00+08:00",
+              "update_type": "襲擊報告",
+              "description_zh": "英國海上貿易行動辦公室（UKMTO）收到報告，一艘油輪在阿曼哈薩卜（Khasab）以東遭未知彈體擊中受損。"
+            },
+            {
+              "time": "2026-07-17T23:33:11+08:00",
+              "update_type": "襲擊報告",
+              "description_zh": "伊朗媒體報導，一艘停靠在哈爾克島（Kharg Island）的空載油輪再度遭到美軍飛彈擊中。"
+            },
+            {
+              "time": "2026-07-18T01:33:24+08:00",
+              "update_type": "攔截行動",
+              "description_zh": "一艘泰國籍貨輪因未理會警告且未獲許可企圖通過霍爾木茲海峽，遭到伊朗海軍攔截並開火襲擊。"
+            },
+            {
+              "time": "2026-07-18T05:57:11+08:00",
+              "update_type": "襲擊報告",
+              "description_zh": "兩艘油輪在通過霍爾木茲海峽以南的佈雷航道後發生爆炸並起火。"
+            },
+            {
+              "time": "2026-07-18T06:41:56+08:00",
+              "update_type": "軍事行動",
+              "description_zh": "伊朗革命衛隊宣布，在霍爾木茲海峽的聯合飛彈與無人機操作中，已成功攔截並扣留了四艘「違規」油輪。"
+            }
+          ]
         },
         {
-          "source_id": "be4d2a81eff98da53c69993d9d40a7735dfa830f5e9737e2998c922a010cb770",
+          "source_id": "8bfdc7655f626c0d2d85e4480c90c6096a129ff67bc35fe7143cd44c83482c80",
           "category": "戰爭",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "英國海上貿易行動辦公室報告一艘油輪在阿曼外海遭未知彈體擊中",
-          "summary_zh": "英國海上貿易行動辦公室（UKMTO）接獲報告，一艘油輪在阿曼哈薩卜（Khasab）以東19海里處遭未知彈體擊中，造成輕微結構損傷，顯示中東航道風險急劇上升。",
-          "event_time": "2026-07-17T14:38:00+08:00",
-          "trajectory": []
+          "headline_zh": "美軍緊急向中東增兵，數十架空中加油機飛往以色列",
+          "summary_zh": "為應對中東局勢可能出現的急劇惡化，美軍正向中東重新部署部隊。首批5架空中加油機已在飛往以色列途中，後續將有數十架跟進，以提供關鍵的空中加油支援。",
+          "event_time": "2026-07-18T00:01:58+08:00",
+          "trajectory": [
+            {
+              "time": "2026-07-18T00:54:46+08:00",
+              "update_type": "官方澄清",
+              "description_zh": "以色列第12頻道新聞報導，以色列方面尚未收到美軍將增派加油機的正式溝通。"
+            },
+            {
+              "time": "2026-07-18T01:34:08+08:00",
+              "update_type": "正式確認",
+              "description_zh": "以色列第12頻道隨後證實，美軍部隊正在重新部署，5架加油機已在途中，後續將有數十架跟進。"
+            }
+          ]
         }
       ]
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 3779,
-    "candidatesTokenCount": 430,
-    "totalTokenCount": 6819,
+    "promptTokenCount": 2823,
+    "candidatesTokenCount": 471,
+    "totalTokenCount": 6275,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 3779
+        "tokenCount": 2823
       }
     ],
-    "thoughtsTokenCount": 2610,
+    "thoughtsTokenCount": 2981,
     "serviceTier": "standard"
   }
 }
