@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light">
+  <title>全球市場重要新聞</title>
+  <style>
+    :root {
+      --bg: #f3f6fa;
+      --panel: #ffffff;
+      --navy: #12365f;
+      --navy-deep: #062e63;
+      --blue: #3373b8;
+      --blue-soft: #eaf3fc;
+      --text: #17212d;
+      --muted: #6b7785;
+      --line: #dbe3ec;
+      --shadow: 0 8px 24px rgba(18, 54, 95, 0.08);
+      --radius: 14px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+      line-height: 1.6;
+    }
+
+    .topbar {
+      background: linear-gradient(135deg, #0a2d55 0%, #174f86 100%);
+      color: #fff;
+      padding: 28px 20px 24px;
+      box-shadow: 0 4px 16px rgba(6, 46, 99, 0.18);
+    }
+
+    .topbar-inner,
+    .container {
+      width: min(1440px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .title-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(25px, 3vw, 38px);
+      letter-spacing: .02em;
+    }
+
+    .subtitle {
+      margin-top: 7px;
+      color: rgba(255,255,255,.82);
+      font-size: 14px;
+    }
+
+    .refresh-button {
+      appearance: none;
+      border: 1px solid rgba(255,255,255,.42);
+      border-radius: 9px;
+      background: rgba(255,255,255,.12);
+      color: #fff;
+      padding: 9px 14px;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .refresh-button:hover { background: rgba(255,255,255,.22); }
+    .refresh-button:disabled { opacity: .6; cursor: wait; }
+
+    .meta {
+      margin-top: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .meta-chip {
+      border: 1px solid rgba(255,255,255,.24);
+      border-radius: 999px;
+      padding: 4px 10px;
+      background: rgba(255,255,255,.08);
+      font-size: 13px;
+    }
+
+    .container { padding: 24px 0 42px; }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .summary-panel {
+      padding: 22px 24px;
+      margin-bottom: 22px;
+      border-top: 5px solid var(--navy);
+    }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 14px;
+      color: var(--navy);
+      font-size: 20px;
+    }
+
+    .section-title::before {
+      content: "";
+      width: 5px;
+      height: 22px;
+      border-radius: 3px;
+      background: var(--blue);
+    }
+
+    .summary-list {
+      margin: 0;
+      padding-left: 25px;
+    }
+
+    .summary-list li {
+      margin-bottom: 9px;
+      padding-left: 4px;
+    }
+
+    .summary-list li::marker {
+      color: var(--navy);
+      font-weight: 800;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .block { overflow: hidden; }
+
+    .block-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 18px;
+      background: var(--navy);
+      color: #fff;
+    }
+
+    .block-title {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .count {
+      min-width: 26px;
+      height: 26px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 8px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.18);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .news-list { padding: 0 18px; }
+
+    .news-item {
+      padding: 15px 0 16px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .news-item:last-child { border-bottom: 0; }
+
+    .news-headline {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 650;
+      line-height: 1.55;
+    }
+
+    .news-item.important .news-headline {
+      color: var(--navy-deep);
+      font-weight: 800;
+    }
+
+    .news-item.important {
+      margin: 0 -18px;
+      padding-left: 18px;
+      padding-right: 18px;
+      background: linear-gradient(90deg, var(--blue-soft), rgba(234,243,252,0));
+      border-left: 4px solid var(--navy-deep);
+    }
+
+    .news-summary {
+      margin: 7px 0 0;
+      color: #44515e;
+      font-size: 14px;
+    }
+
+    .news-meta {
+      margin-top: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 7px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .score {
+      border-radius: 999px;
+      padding: 2px 7px;
+      background: #edf1f5;
+      color: #44515e;
+      font-weight: 700;
+    }
+
+    .important .score {
+      background: var(--navy-deep);
+      color: #fff;
+    }
+
+    details {
+      margin-top: 9px;
+      font-size: 13px;
+      color: #4b5967;
+    }
+
+    summary { cursor: pointer; color: var(--blue); font-weight: 700; }
+
+    .trajectory-list { margin: 7px 0 0; padding-left: 20px; }
+    .trajectory-list li { margin-bottom: 5px; }
+
+    .empty-state {
+      padding: 24px 18px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .loading,
+    .error {
+      padding: 30px;
+      text-align: center;
+    }
+
+    .error { color: #a02424; }
+
+    footer {
+      padding: 0 16px 30px;
+      color: var(--muted);
+      text-align: center;
+      font-size: 12px;
+    }
+
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 600px) {
+      .topbar { padding: 22px 12px 20px; }
+      .topbar-inner, .container { width: min(100% - 20px, 1440px); }
+      .title-row { flex-direction: column; }
+      .refresh-button { width: 100%; }
+      .summary-panel { padding: 18px; }
+      .container { padding-top: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="title-row">
+        <div>
+          <h1>全球市場重要新聞</h1>
+          <div class="subtitle">FinancialJuice Headlines｜Gemini 分類、翻譯與市場重要性評估</div>
+        </div>
+        <button id="refreshButton" class="refresh-button" type="button">重新載入資料</button>
+      </div>
+      <div id="meta" class="meta" aria-live="polite"></div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="summaryPanel" class="panel summary-panel">
+      <h2 class="section-title">市場重點摘要</h2>
+      <div id="summaryContent" class="loading">正在載入最新資料…</div>
+    </section>
+
+    <section id="blocks" class="grid" aria-live="polite"></section>
+  </main>
+
+  <footer>重要性 4～5 分以深藍色粗體標示｜時間均為台灣時間 GMT+8</footer>
+
+  <script>
+    const DATA_URL = './data/web/latest.json';
+    const CATEGORY_ORDER = ['債市', '股市', '央行', '財政政策', '經濟', '戰爭'];
+
+    const refreshButton = document.getElementById('refreshButton');
+    const metaElement = document.getElementById('meta');
+    const summaryContent = document.getElementById('summaryContent');
+    const blocksElement = document.getElementById('blocks');
+
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#039;');
+    }
+
+    function formatTaipeiTime(value) {
+      if (!value) return '時間未提供';
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return value;
+      return new Intl.DateTimeFormat('zh-TW', {
+        timeZone: 'Asia/Taipei',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false,
+      }).format(date);
+    }
+
+    function renderMeta(data) {
+      const chips = [
+        `統計期間：${formatTaipeiTime(data.period_start)} ～ ${formatTaipeiTime(data.period_end)}`,
+        `事件數：${Number(data.event_count || 0)}`,
+        `更新時間：${formatTaipeiTime(data.generated_at)}`,
+        `模型：${data.model || '未提供'}`,
+      ];
+      metaElement.innerHTML = chips
+        .map(text => `<span class="meta-chip">${escapeHtml(text)}</span>`)
+        .join('');
+    }
+
+    function renderSummary(points) {
+      if (!Array.isArray(points) || points.length === 0) {
+        summaryContent.className = 'empty-state';
+        summaryContent.textContent = '目前沒有市場摘要。';
+        return;
+      }
+
+      summaryContent.className = '';
+      summaryContent.innerHTML = `
+        <ol class="summary-list">
+          ${points.map(point => `<li>${escapeHtml(point)}</li>`).join('')}
+        </ol>
+      `;
+    }
+
+    function renderTrajectory(trajectory) {
+      if (!Array.isArray(trajectory) || trajectory.length === 0) return '';
+      return `
+        <details>
+          <summary>查看事件發展軌跡（${trajectory.length}）</summary>
+          <ul class="trajectory-list">
+            ${trajectory.map(item => `
+              <li>
+                <strong>${escapeHtml(formatTaipeiTime(item.time))}</strong>
+                ${escapeHtml(item.update_type ? `｜${item.update_type}` : '')}
+                ${escapeHtml(item.description_zh ? `：${item.description_zh}` : '')}
+              </li>
+            `).join('')}
+          </ul>
+        </details>
+      `;
+    }
+
+    function renderNewsItem(item) {
+      const score = Number(item.importance_score || 1);
+      const highlighted = item.highlight === true || score >= 4;
+      return `
+        <article class="news-item ${highlighted ? 'important' : ''}">
+          <h3 class="news-headline">${escapeHtml(item.headline_zh || '未命名新聞')}</h3>
+          ${item.summary_zh ? `<p class="news-summary">${escapeHtml(item.summary_zh)}</p>` : ''}
+          <div class="news-meta">
+            <span class="score">重要性 ${score}</span>
+            <span>${escapeHtml(formatTaipeiTime(item.event_time))}</span>
+          </div>
+          ${renderTrajectory(item.trajectory)}
+        </article>
+      `;
+    }
+
+    function renderBlocks(blocks) {
+      const blockMap = new Map(
+        (Array.isArray(blocks) ? blocks : []).map(block => [block.category, block])
+      );
+
+      blocksElement.innerHTML = CATEGORY_ORDER.map(category => {
+        const block = blockMap.get(category) || { category, news: [] };
+        const news = Array.isArray(block.news) ? block.news : [];
+        return `
+          <section class="panel block">
+            <header class="block-header">
+              <h2 class="block-title">${escapeHtml(category)}</h2>
+              <span class="count">${news.length}</span>
+            </header>
+            <div class="news-list">
+              ${news.length
+                ? news.map(renderNewsItem).join('')
+                : '<div class="empty-state">此期間暫無相關重要新聞</div>'}
+            </div>
+          </section>
+        `;
+      }).join('');
+    }
+
+    async function loadData() {
+      refreshButton.disabled = true;
+      refreshButton.textContent = '載入中…';
+
+      try {
+        const separator = DATA_URL.includes('?') ? '&' : '?';
+        const response = await fetch(`${DATA_URL}${separator}t=${Date.now()}`, {
+          cache: 'no-store',
+        });
+
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+
+        const data = await response.json();
+        renderMeta(data);
+        renderSummary(data.summary_points);
+        renderBlocks(data.blocks);
+      } catch (error) {
+        metaElement.innerHTML = '';
+        summaryContent.className = 'error';
+        summaryContent.textContent = `資料載入失敗：${error.message}`;
+        blocksElement.innerHTML = '';
+      } finally {
+        refreshButton.disabled = false;
+        refreshButton.textContent = '重新載入資料';
+      }
+    }
+
+    refreshButton.addEventListener('click', loadData);
+    loadData();
+  </script>
+</body>
+</html>
