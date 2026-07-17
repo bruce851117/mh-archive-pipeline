@@ -14,6 +14,7 @@ import requests
 
 TAIPEI_TIMEZONE = timezone(timedelta(hours=8))
 DIGEST_DIRECTORY = Path("data/digests")
+FETCH_STATUS_FILE = Path("data/fetch_status.json")
 WEB_DIRECTORY = Path("data/web")
 WEB_OUTPUT_FILE = WEB_DIRECTORY / "latest.json"
 WEB_STATUS_FILE = WEB_DIRECTORY / "status.json"
@@ -80,6 +81,42 @@ def parse_datetime(value: Any) -> datetime | None:
 
 def format_time(value: datetime) -> str:
     return value.astimezone(TAIPEI_TIMEZONE).isoformat()
+
+
+def get_source_data_updated_at(run_at: datetime) -> datetime:
+    """
+    取得最近一次RSS成功抓取時間。
+
+    網頁的「更新時間」與統計區間結束時間必須反映資料實際更新時間，
+    不可因為只重跑摘要就變成摘要執行時間。
+    """
+    if not FETCH_STATUS_FILE.exists():
+        return run_at.astimezone(TAIPEI_TIMEZONE)
+
+    try:
+        status = read_json(FETCH_STATUS_FILE)
+    except (OSError, json.JSONDecodeError, RuntimeError):
+        return run_at.astimezone(TAIPEI_TIMEZONE)
+
+    candidate_fields = (
+        "last_success_at",
+        "last_attempt_at",
+        "last_success_at_taipei",
+        "last_attempt_at_taipei",
+    )
+
+    for field in candidate_fields:
+        parsed = parse_datetime(status.get(field))
+
+        if parsed is None:
+            continue
+
+        return min(
+            parsed,
+            run_at.astimezone(TAIPEI_TIMEZONE),
+        )
+
+    return run_at.astimezone(TAIPEI_TIMEZONE)
 
 
 def calculate_display_window(now: datetime) -> tuple[datetime, datetime]:
@@ -518,7 +555,8 @@ def main() -> int:
         return 1
 
     try:
-        period_start, period_end = calculate_display_window(run_at)
+        data_updated_at = get_source_data_updated_at(run_at)
+        period_start, period_end = calculate_display_window(data_updated_at)
         digest_files = find_digest_files(period_start, period_end)
 
         if not digest_files:
@@ -547,6 +585,8 @@ def main() -> int:
 
         output = {
             "generated_at": format_time(run_at),
+            "summary_generated_at": format_time(run_at),
+            "data_updated_at": format_time(data_updated_at),
             "timezone": "Asia/Taipei",
             "period_start": format_time(period_start),
             "period_end": format_time(period_end),
@@ -566,6 +606,8 @@ def main() -> int:
             {
                 "status": "success",
                 "generated_at": format_time(run_at),
+                "summary_generated_at": format_time(run_at),
+                "data_updated_at": format_time(data_updated_at),
                 "period_start": format_time(period_start),
                 "period_end": format_time(period_end),
                 "event_count": len(events),
@@ -575,6 +617,8 @@ def main() -> int:
             },
         )
 
+        print(f"Source data updated at: {data_updated_at}")
+        print(f"Summary generated at: {run_at}")
         print(f"Display period: {period_start} to {period_end}")
         print(f"Digest files: {len(digest_files)}")
         print(f"Web events: {len(events)}")

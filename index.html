@@ -4,20 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light">
-  <title>全球市場重要新聞</title>
+  <title>Market News Dashboard</title>
   <style>
     :root {
+      --navy: #17243a;
+      --navy-2: #0c356f;
+      --blue: #075bd8;
+      --red: #e32b2b;
+      --orange: #ff7a00;
       --bg: #f3f6fa;
-      --panel: #ffffff;
-      --navy: #12365f;
-      --navy-deep: #062e63;
-      --blue: #3373b8;
-      --blue-soft: #eaf3fc;
-      --text: #17212d;
-      --muted: #6b7785;
-      --line: #dbe3ec;
-      --shadow: 0 8px 24px rgba(18, 54, 95, 0.08);
-      --radius: 14px;
+      --card: #ffffff;
+      --line: #dfe5ed;
+      --text: #182333;
+      --muted: #607087;
+      --shadow: 0 12px 28px rgba(28, 45, 70, 0.09);
+      --radius: 15px;
     }
 
     * { box-sizing: border-box; }
@@ -27,289 +28,456 @@
       background: var(--bg);
       color: var(--text);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
-      line-height: 1.6;
+      font-size: 14px;
+      line-height: 1.55;
     }
 
     .topbar {
-      background: linear-gradient(135deg, #0a2d55 0%, #174f86 100%);
+      background: linear-gradient(120deg, #142138, #1d2d45);
       color: #fff;
-      padding: 28px 20px 24px;
-      box-shadow: 0 4px 16px rgba(6, 46, 99, 0.18);
+      min-height: 104px;
+      padding: 17px 18px;
     }
 
-    .topbar-inner,
-    .container {
-      width: min(1440px, calc(100% - 32px));
+    .topbar-inner {
+      width: min(100%, 1880px);
       margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
     }
 
-    .title-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: 20px;
+    .eyebrow {
+      color: #6ca8ff;
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: .16em;
+      text-transform: uppercase;
     }
 
     h1 {
-      margin: 0;
-      font-size: clamp(25px, 3vw, 38px);
-      letter-spacing: .02em;
+      margin: 3px 0 0;
+      font-size: 27px;
+      line-height: 1.2;
+      letter-spacing: -.02em;
     }
 
     .subtitle {
-      margin-top: 7px;
-      color: rgba(255,255,255,.82);
-      font-size: 14px;
+      margin-top: 5px;
+      color: #d3dfef;
+      font-size: 12px;
     }
 
-    .refresh-button {
-      appearance: none;
-      border: 1px solid rgba(255,255,255,.42);
-      border-radius: 9px;
-      background: rgba(255,255,255,.12);
-      color: #fff;
-      padding: 9px 14px;
-      font-weight: 700;
-      cursor: pointer;
-      white-space: nowrap;
-    }
-
-    .refresh-button:hover { background: rgba(255,255,255,.22); }
-    .refresh-button:disabled { opacity: .6; cursor: wait; }
-
-    .meta {
-      margin-top: 16px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-
-    .meta-chip {
-      border: 1px solid rgba(255,255,255,.24);
-      border-radius: 999px;
-      padding: 4px 10px;
+    .updated-card {
+      min-width: 158px;
+      border: 1px solid rgba(255,255,255,.22);
+      border-radius: 13px;
+      padding: 10px 14px;
       background: rgba(255,255,255,.08);
-      font-size: 13px;
+      text-align: right;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.05);
     }
 
-    .container { padding: 24px 0 42px; }
+    .updated-label {
+      color: #b9c9dd;
+      font-size: 10px;
+    }
 
-    .panel {
-      background: var(--panel);
+    .updated-value {
+      margin-top: 3px;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .02em;
+    }
+
+    .container {
+      width: min(900px, calc(100% - 24px));
+      margin: 0 auto;
+      padding: 16px 0 40px;
+    }
+
+    .card {
+      background: var(--card);
       border: 1px solid var(--line);
       border-radius: var(--radius);
       box-shadow: var(--shadow);
     }
 
-    .summary-panel {
-      padding: 22px 24px;
-      margin-bottom: 22px;
-      border-top: 5px solid var(--navy);
-    }
-
-    .section-title {
+    .range-card {
+      padding: 13px 14px;
       display: flex;
       align-items: center;
-      gap: 10px;
-      margin: 0 0 14px;
-      color: var(--navy);
-      font-size: 20px;
+      justify-content: space-between;
+      gap: 20px;
     }
 
-    .section-title::before {
-      content: "";
-      width: 5px;
-      height: 22px;
-      border-radius: 3px;
-      background: var(--blue);
+    .tiny-label {
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 700;
+    }
+
+    .range-value {
+      margin-top: 3px;
+      color: #101b2e;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .range-hint {
+      flex-shrink: 0;
+      border-radius: 999px;
+      padding: 6px 10px;
+      background: #f2f6fb;
+      color: var(--muted);
+      font-size: 10px;
+    }
+
+    .controls-card {
+      margin-top: 10px;
+      padding: 13px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1.35fr auto;
+      gap: 10px;
+      align-items: end;
+    }
+
+    .field label {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 700;
+    }
+
+    .field input {
+      width: 100%;
+      height: 31px;
+      border: 1px solid #cfd7e3;
+      border-radius: 8px;
+      padding: 5px 9px;
+      background: #fff;
+      color: var(--text);
+      font: inherit;
+      font-size: 11px;
+      outline: none;
+    }
+
+    .field input:focus {
+      border-color: #7fa7da;
+      box-shadow: 0 0 0 3px rgba(50, 109, 181, .1);
+    }
+
+    .search-button {
+      height: 31px;
+      border: 0;
+      border-radius: 8px;
+      padding: 0 14px;
+      background: var(--navy);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .summary-card {
+      margin-top: 12px;
+      padding: 15px 15px 12px;
+    }
+
+    .summary-title {
+      margin: 0 0 7px;
+      color: var(--muted);
+      font-size: 11px;
     }
 
     .summary-list {
       margin: 0;
-      padding-left: 25px;
+      padding-left: 20px;
     }
 
     .summary-list li {
-      margin-bottom: 9px;
-      padding-left: 4px;
+      margin: 5px 0;
+      padding-left: 2px;
+      color: #182333;
+      font-size: 12px;
+      font-weight: 650;
     }
 
     .summary-list li::marker {
+      color: var(--blue);
+      font-weight: 900;
+    }
+
+    .count-row {
+      margin: 12px 0 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .count-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 6px 12px;
+      background: #fff;
+      box-shadow: 0 5px 14px rgba(28,45,70,.06);
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .count-pill strong {
       color: var(--navy);
-      font-weight: 800;
+      font-size: 18px;
+      line-height: 1;
     }
 
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 20px;
+    .reset-button {
+      border: 0;
+      background: transparent;
+      color: var(--blue);
+      font-size: 11px;
+      cursor: pointer;
     }
 
-    .block { overflow: hidden; }
+    .news-block {
+      margin-top: 12px;
+      overflow: hidden;
+    }
 
     .block-header {
+      min-height: 61px;
+      padding: 11px 14px;
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      padding: 14px 18px;
-      background: var(--navy);
-      color: #fff;
+      justify-content: space-between;
+      gap: 14px;
+      border-bottom: 1px solid var(--line);
     }
 
     .block-title {
       margin: 0;
+      color: var(--blue);
       font-size: 18px;
+      line-height: 1.25;
     }
 
-    .count {
-      min-width: 26px;
-      height: 26px;
-      display: inline-flex;
-      justify-content: center;
-      align-items: center;
-      padding: 0 8px;
+    .news-block[data-category="股市"] .block-title { color: var(--red); }
+
+    .block-description {
+      margin-top: 2px;
+      color: var(--muted);
+      font-size: 10px;
+    }
+
+    .block-count {
+      flex-shrink: 0;
+      min-width: 34px;
       border-radius: 999px;
-      background: rgba(255,255,255,.18);
-      font-size: 13px;
-      font-weight: 700;
-    }
-
-    .news-list { padding: 0 18px; }
-
-    .news-item {
-      padding: 15px 0 16px;
-      border-bottom: 1px solid var(--line);
-    }
-
-    .news-item:last-child { border-bottom: 0; }
-
-    .news-headline {
-      margin: 0;
-      font-size: 16px;
-      font-weight: 650;
-      line-height: 1.55;
-    }
-
-    .news-item.important .news-headline {
-      color: var(--navy-deep);
+      padding: 4px 8px;
+      background: #e9eef5;
+      color: #36516f;
+      text-align: center;
+      font-size: 10px;
       font-weight: 800;
     }
 
-    .news-item.important {
-      margin: 0 -18px;
-      padding-left: 18px;
-      padding-right: 18px;
-      background: linear-gradient(90deg, var(--blue-soft), rgba(234,243,252,0));
-      border-left: 4px solid var(--navy-deep);
+    .news-list { padding: 6px 14px; }
+
+    .news-row,
+    .trajectory-row {
+      display: grid;
+      grid-template-columns: 10px 105px minmax(0, 1fr);
+      gap: 9px;
+      align-items: start;
+      padding: 8px 0;
+      border-bottom: 1px solid #edf1f5;
     }
 
-    .news-summary {
-      margin: 7px 0 0;
-      color: #44515e;
-      font-size: 14px;
+    .news-row:last-child,
+    .trajectory-group:last-child .trajectory-row:last-child {
+      border-bottom: 0;
     }
 
-    .news-meta {
-      margin-top: 8px;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: 7px;
-      color: var(--muted);
-      font-size: 12px;
-    }
-
-    .score {
+    .dot {
+      width: 6px;
+      height: 6px;
+      margin-top: 7px;
       border-radius: 999px;
-      padding: 2px 7px;
-      background: #edf1f5;
-      color: #44515e;
-      font-weight: 700;
+      background: var(--orange);
     }
 
-    .important .score {
-      background: var(--navy-deep);
-      color: #fff;
+    .trajectory-row .dot {
+      width: 5px;
+      height: 5px;
+      margin-left: 1px;
+      background: #7d91aa;
     }
 
-    details {
-      margin-top: 9px;
-      font-size: 13px;
-      color: #4b5967;
+    .row-time {
+      color: #5d7188;
+      font-size: 10px;
+      white-space: nowrap;
+      padding-top: 1px;
     }
 
-    summary { cursor: pointer; color: var(--blue); font-weight: 700; }
+    .headline {
+      color: var(--text);
+      font-size: 11px;
+      font-weight: 600;
+      word-break: break-word;
+    }
 
-    .trajectory-list { margin: 7px 0 0; padding-left: 20px; }
-    .trajectory-list li { margin-bottom: 5px; }
+    .headline.important {
+      color: var(--navy-2);
+      font-weight: 900;
+    }
 
-    .empty-state {
-      padding: 24px 18px;
+    .trajectory-group {
+      margin-left: 18px;
+      padding-left: 12px;
+      border-left: 2px solid #d9e3ef;
+    }
+
+    .trajectory-label {
+      color: #55708e;
+      font-size: 9px;
+      font-weight: 800;
+    }
+
+    .empty {
+      padding: 20px;
       color: var(--muted);
       text-align: center;
+      font-size: 11px;
     }
 
     .loading,
     .error {
-      padding: 30px;
+      padding: 24px;
       text-align: center;
+      color: var(--muted);
     }
 
-    .error { color: #a02424; }
+    .error { color: #b22424; }
 
     footer {
-      padding: 0 16px 30px;
-      color: var(--muted);
+      padding: 15px 12px 30px;
+      color: #8090a2;
       text-align: center;
-      font-size: 12px;
+      font-size: 10px;
     }
 
-    @media (max-width: 900px) {
-      .grid { grid-template-columns: 1fr; }
+    @media (max-width: 720px) {
+      .topbar-inner { align-items: flex-start; }
+      .updated-card { min-width: 132px; }
+      .controls-card { grid-template-columns: 1fr 1fr; }
+      .search-field { grid-column: 1 / -1; }
+      .search-button { grid-column: 1 / -1; }
+      .news-row, .trajectory-row {
+        grid-template-columns: 9px 80px minmax(0, 1fr);
+        gap: 7px;
+      }
+      .range-card { align-items: flex-start; flex-direction: column; }
+      .range-hint { display: none; }
     }
 
-    @media (max-width: 600px) {
-      .topbar { padding: 22px 12px 20px; }
-      .topbar-inner, .container { width: min(100% - 20px, 1440px); }
-      .title-row { flex-direction: column; }
-      .refresh-button { width: 100%; }
-      .summary-panel { padding: 18px; }
-      .container { padding-top: 16px; }
+    @media (max-width: 480px) {
+      .topbar-inner { display: block; }
+      .updated-card { margin-top: 12px; text-align: left; }
+      .controls-card { grid-template-columns: 1fr; }
+      .search-field, .search-button { grid-column: auto; }
+      .news-row, .trajectory-row {
+        grid-template-columns: 8px minmax(0, 1fr);
+      }
+      .row-time { grid-column: 2; }
+      .headline { grid-column: 2; }
     }
   </style>
 </head>
 <body>
   <header class="topbar">
     <div class="topbar-inner">
-      <div class="title-row">
-        <div>
-          <h1>全球市場重要新聞</h1>
-          <div class="subtitle">FinancialJuice Headlines｜Gemini 分類、翻譯與市場重要性評估</div>
-        </div>
-        <button id="refreshButton" class="refresh-button" type="button">重新載入資料</button>
+      <div>
+        <div class="eyebrow">AI MARKET MONITOR</div>
+        <h1>Market News Dashboard</h1>
+        <div class="subtitle">華爾街即時快訊｜Gemini 整理｜交易員版分類晨報</div>
       </div>
-      <div id="meta" class="meta" aria-live="polite"></div>
+      <div class="updated-card">
+        <div class="updated-label">資料更新時間</div>
+        <div id="updatedTime" class="updated-value">載入中…</div>
+      </div>
     </div>
   </header>
 
   <main class="container">
-    <section id="summaryPanel" class="panel summary-panel">
-      <h2 class="section-title">市場重點摘要</h2>
-      <div id="summaryContent" class="loading">正在載入最新資料…</div>
+    <section class="card range-card">
+      <div>
+        <div class="tiny-label">新聞資料時間範圍</div>
+        <div id="rangeText" class="range-value">載入中…</div>
+      </div>
+      <div class="range-hint">依RSS最近一次成功抓取時間計算，不受摘要重跑影響</div>
     </section>
 
-    <section id="blocks" class="grid" aria-live="polite"></section>
+    <section class="card controls-card">
+      <div class="field">
+        <label for="startTime">開始時間</label>
+        <input id="startTime" type="datetime-local">
+      </div>
+      <div class="field">
+        <label for="endTime">結束時間</label>
+        <input id="endTime" type="datetime-local">
+      </div>
+      <div class="field search-field">
+        <label for="keyword">搜尋關鍵字</label>
+        <input id="keyword" type="search" placeholder="Fed / CPI / UST / Oil / China">
+      </div>
+      <button id="searchButton" class="search-button" type="button">查詢新聞</button>
+    </section>
+
+    <section class="card summary-card">
+      <h2 class="summary-title">重點摘要</h2>
+      <div id="summaryContent" class="loading">正在載入…</div>
+    </section>
+
+    <div class="count-row">
+      <div class="count-pill">目前顯示 <strong id="newsCount">0</strong> 則新聞</div>
+      <button id="resetButton" class="reset-button" type="button">回復完整時段</button>
+    </div>
+
+    <section id="blocks"></section>
   </main>
 
-  <footer>重要性 4～5 分以深藍色粗體標示｜時間均為台灣時間 GMT+8</footer>
+  <footer>重要性4～5分以深藍色粗體顯示｜事件發展軌跡已全部展開｜時間均為台灣時間 GMT+8</footer>
 
   <script>
     const DATA_URL = './data/web/latest.json';
     const CATEGORY_ORDER = ['債市', '股市', '央行', '財政政策', '經濟', '戰爭'];
+    const CATEGORY_DESCRIPTIONS = {
+      '債市': '利率、央債、殖利率、信用與債市政策',
+      '股市': '股市、科技股、AI供應鏈與主要股指',
+      '央行': '央行官員、利率路徑與貨幣政策',
+      '財政政策': '政府支出、稅制、關稅與財政方向',
+      '經濟': '通膨、就業、成長、貿易與經濟數據',
+      '戰爭': '軍事衝突、制裁、能源航運與地緣政治',
+    };
 
-    const refreshButton = document.getElementById('refreshButton');
-    const metaElement = document.getElementById('meta');
+    let dashboardData = null;
+
+    const updatedTime = document.getElementById('updatedTime');
+    const rangeText = document.getElementById('rangeText');
+    const startTime = document.getElementById('startTime');
+    const endTime = document.getElementById('endTime');
+    const keyword = document.getElementById('keyword');
+    const searchButton = document.getElementById('searchButton');
+    const resetButton = document.getElementById('resetButton');
     const summaryContent = document.getElementById('summaryContent');
+    const newsCount = document.getElementById('newsCount');
     const blocksElement = document.getElementById('blocks');
 
     function escapeHtml(value) {
@@ -321,136 +489,166 @@
         .replaceAll("'", '&#039;');
     }
 
-    function formatTaipeiTime(value) {
-      if (!value) return '時間未提供';
+    function dateObject(value) {
       const date = new Date(value);
-      if (Number.isNaN(date.getTime())) return value;
+      return Number.isNaN(date.getTime()) ? null : date;
+    }
+
+    function fullDate(value) {
+      const date = dateObject(value);
+      if (!date) return '時間未提供';
       return new Intl.DateTimeFormat('zh-TW', {
         timeZone: 'Asia/Taipei',
-        year: 'numeric',
-        month: '2-digit',
-        day: '2-digit',
-        hour: '2-digit',
-        minute: '2-digit',
-        hour12: false,
+        year: 'numeric', month: '2-digit', day: '2-digit',
+        weekday: 'short', hour: '2-digit', minute: '2-digit', hour12: false,
       }).format(date);
     }
 
-    function renderMeta(data) {
-      const chips = [
-        `統計期間：${formatTaipeiTime(data.period_start)} ～ ${formatTaipeiTime(data.period_end)}`,
-        `事件數：${Number(data.event_count || 0)}`,
-        `更新時間：${formatTaipeiTime(data.generated_at)}`,
-        `模型：${data.model || '未提供'}`,
-      ];
-      metaElement.innerHTML = chips
-        .map(text => `<span class="meta-chip">${escapeHtml(text)}</span>`)
-        .join('');
+    function rowDate(value) {
+      const date = dateObject(value);
+      if (!date) return '';
+      return new Intl.DateTimeFormat('zh-TW', {
+        timeZone: 'Asia/Taipei',
+        year: 'numeric', month: '2-digit', day: '2-digit',
+        hour: '2-digit', minute: '2-digit', hour12: false,
+      }).format(date);
+    }
+
+    function toInputValue(value) {
+      const date = dateObject(value);
+      if (!date) return '';
+      const parts = new Intl.DateTimeFormat('en-CA', {
+        timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit',
+        hour: '2-digit', minute: '2-digit', hour12: false,
+      }).formatToParts(date).reduce((map, part) => {
+        map[part.type] = part.value;
+        return map;
+      }, {});
+      return `${parts.year}-${parts.month}-${parts.day}T${parts.hour}:${parts.minute}`;
     }
 
     function renderSummary(points) {
-      if (!Array.isArray(points) || points.length === 0) {
-        summaryContent.className = 'empty-state';
-        summaryContent.textContent = '目前沒有市場摘要。';
+      if (!Array.isArray(points) || !points.length) {
+        summaryContent.className = 'empty';
+        summaryContent.textContent = '目前沒有摘要。';
         return;
       }
-
       summaryContent.className = '';
-      summaryContent.innerHTML = `
-        <ol class="summary-list">
-          ${points.map(point => `<li>${escapeHtml(point)}</li>`).join('')}
-        </ol>
-      `;
+      summaryContent.innerHTML = `<ol class="summary-list">${points
+        .map(point => `<li>${escapeHtml(point)}</li>`).join('')}</ol>`;
     }
 
-    function renderTrajectory(trajectory) {
-      if (!Array.isArray(trajectory) || trajectory.length === 0) return '';
-      return `
-        <details>
-          <summary>查看事件發展軌跡（${trajectory.length}）</summary>
-          <ul class="trajectory-list">
-            ${trajectory.map(item => `
-              <li>
-                <strong>${escapeHtml(formatTaipeiTime(item.time))}</strong>
-                ${escapeHtml(item.update_type ? `｜${item.update_type}` : '')}
-                ${escapeHtml(item.description_zh ? `：${item.description_zh}` : '')}
-              </li>
-            `).join('')}
-          </ul>
-        </details>
-      `;
-    }
-
-    function renderNewsItem(item) {
-      const score = Number(item.importance_score || 1);
-      const highlighted = item.highlight === true || score >= 4;
-      return `
-        <article class="news-item ${highlighted ? 'important' : ''}">
-          <h3 class="news-headline">${escapeHtml(item.headline_zh || '未命名新聞')}</h3>
-          ${item.summary_zh ? `<p class="news-summary">${escapeHtml(item.summary_zh)}</p>` : ''}
-          <div class="news-meta">
-            <span class="score">重要性 ${score}</span>
-            <span>${escapeHtml(formatTaipeiTime(item.event_time))}</span>
+    function renderTrajectory(trajectory, important) {
+      if (!Array.isArray(trajectory) || !trajectory.length) return '';
+      return `<div class="trajectory-group">${trajectory.map(item => `
+        <div class="trajectory-row">
+          <span class="dot"></span>
+          <time class="row-time">${escapeHtml(rowDate(item.time))}</time>
+          <div>
+            <div class="trajectory-label">${escapeHtml(item.update_type || '事件發展')}</div>
+            <div class="headline ${important ? 'important' : ''}">${escapeHtml(item.description_zh || '')}</div>
           </div>
-          ${renderTrajectory(item.trajectory)}
-        </article>
+        </div>
+      `).join('')}</div>`;
+    }
+
+    function renderEvent(event) {
+      const important = Number(event.importance_score || 1) >= 4;
+      return `
+        <div class="news-row">
+          <span class="dot"></span>
+          <time class="row-time">${escapeHtml(rowDate(event.event_time))}</time>
+          <div class="headline ${important ? 'important' : ''}">${escapeHtml(event.headline_zh || '')}</div>
+        </div>
+        ${renderTrajectory(event.trajectory, important)}
       `;
     }
 
-    function renderBlocks(blocks) {
-      const blockMap = new Map(
-        (Array.isArray(blocks) ? blocks : []).map(block => [block.category, block])
-      );
+    function collectFilteredEvents() {
+      if (!dashboardData) return new Map();
+      const start = startTime.value ? new Date(`${startTime.value}:00+08:00`) : null;
+      const end = endTime.value ? new Date(`${endTime.value}:59+08:00`) : null;
+      const term = keyword.value.trim().toLowerCase();
+      const output = new Map();
 
+      for (const category of CATEGORY_ORDER) output.set(category, []);
+
+      for (const block of dashboardData.blocks || []) {
+        const target = output.get(block.category);
+        if (!target) continue;
+        for (const event of block.news || []) {
+          const eventDate = dateObject(event.event_time);
+          const timeMatch = eventDate && (!start || eventDate >= start) && (!end || eventDate <= end);
+          const keywordSource = [
+            event.headline_zh,
+            ...(event.trajectory || []).map(item => item.description_zh),
+          ].join(' ').toLowerCase();
+          const keywordMatch = !term || keywordSource.includes(term);
+          if (timeMatch && keywordMatch) target.push(event);
+        }
+      }
+      return output;
+    }
+
+    function renderBlocks() {
+      const filtered = collectFilteredEvents();
+      let total = 0;
       blocksElement.innerHTML = CATEGORY_ORDER.map(category => {
-        const block = blockMap.get(category) || { category, news: [] };
-        const news = Array.isArray(block.news) ? block.news : [];
+        const events = filtered.get(category) || [];
+        total += events.length;
         return `
-          <section class="panel block">
+          <section class="card news-block" data-category="${escapeHtml(category)}">
             <header class="block-header">
-              <h2 class="block-title">${escapeHtml(category)}</h2>
-              <span class="count">${news.length}</span>
+              <div>
+                <h2 class="block-title">${escapeHtml(category)}</h2>
+                <div class="block-description">${escapeHtml(CATEGORY_DESCRIPTIONS[category])}</div>
+              </div>
+              <span class="block-count">${events.length} 則</span>
             </header>
             <div class="news-list">
-              ${news.length
-                ? news.map(renderNewsItem).join('')
-                : '<div class="empty-state">此期間暫無相關重要新聞</div>'}
+              ${events.length ? events.map(renderEvent).join('') : '<div class="empty">此時段沒有符合條件的新聞</div>'}
             </div>
           </section>
         `;
       }).join('');
+      newsCount.textContent = total;
+    }
+
+    function initializeControls(data) {
+      startTime.value = toInputValue(data.period_start);
+      endTime.value = toInputValue(data.period_end);
+      keyword.value = '';
     }
 
     async function loadData() {
-      refreshButton.disabled = true;
-      refreshButton.textContent = '載入中…';
-
       try {
-        const separator = DATA_URL.includes('?') ? '&' : '?';
-        const response = await fetch(`${DATA_URL}${separator}t=${Date.now()}`, {
-          cache: 'no-store',
-        });
+        const response = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: 'no-store' });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        dashboardData = await response.json();
 
-        if (!response.ok) {
-          throw new Error(`HTTP ${response.status}`);
-        }
-
-        const data = await response.json();
-        renderMeta(data);
-        renderSummary(data.summary_points);
-        renderBlocks(data.blocks);
+        const actualUpdatedAt = dashboardData.data_updated_at || dashboardData.period_end;
+        updatedTime.textContent = fullDate(actualUpdatedAt);
+        rangeText.textContent = `${fullDate(dashboardData.period_start)} ～ ${fullDate(dashboardData.period_end)}`;
+        initializeControls(dashboardData);
+        renderSummary(dashboardData.summary_points);
+        renderBlocks();
       } catch (error) {
-        metaElement.innerHTML = '';
         summaryContent.className = 'error';
         summaryContent.textContent = `資料載入失敗：${error.message}`;
         blocksElement.innerHTML = '';
-      } finally {
-        refreshButton.disabled = false;
-        refreshButton.textContent = '重新載入資料';
       }
     }
 
-    refreshButton.addEventListener('click', loadData);
+    searchButton.addEventListener('click', renderBlocks);
+    keyword.addEventListener('keydown', event => {
+      if (event.key === 'Enter') renderBlocks();
+    });
+    resetButton.addEventListener('click', () => {
+      if (!dashboardData) return;
+      initializeControls(dashboardData);
+      renderBlocks();
+    });
+
     loadData();
   </script>
 </body>
