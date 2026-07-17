@@ -1,0 +1,110 @@
+name: Generate Daily Gemini Digest
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: financialjuice-daily-digest
+  cancel-in-progress: false
+
+jobs:
+  generate-digest:
+    name: Generate daily Traditional Chinese digest
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_MODEL: gemini-3.1-flash-lite
+      TZ: Asia/Taipei
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Verify input data
+        run: |
+          if [ ! -f "data/latest_24h.json" ]; then
+            echo "Error: data/latest_24h.json does not exist."
+            exit 1
+          fi
+
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          input_file = Path("data/latest_24h.json")
+
+          with input_file.open("r", encoding="utf-8") as file:
+              data = json.load(file)
+
+          if not isinstance(data, list):
+              raise SystemExit(
+                  "Error: data/latest_24h.json must be a JSON array."
+              )
+
+          if not data:
+              raise SystemExit(
+                  "Error: data/latest_24h.json contains no headlines."
+              )
+
+          print(f"Input headline count: {len(data)}")
+          PY
+
+      - name: Generate Gemini daily digest
+        run: |
+          python daily_digest.py
+
+      - name: Verify digest output
+        run: |
+          if [ ! -f "data/latest_daily_digest.json" ]; then
+            echo "Error: Daily digest output was not generated."
+            exit 1
+          fi
+
+          if [ ! -f "data/digest_status.json" ]; then
+            echo "Error: Digest status file was not generated."
+            exit 1
+          fi
+
+          echo "Digest status:"
+          cat data/digest_status.json
+
+          echo ""
+          echo "Generated digest files:"
+          find data/digests -type f -maxdepth 5 -print | sort || true
+
+      - name: Commit daily digest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/digests
+          git add data/latest_daily_digest.json
+          git add data/digest_status.json
+
+          if git diff --cached --quiet; then
+            echo "No daily digest changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Generate daily Gemini market digest"
+
+          git pull --rebase origin main
+          git push origin main
