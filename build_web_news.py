@@ -516,21 +516,21 @@ def call_gemini_summary(
     )
 
 
-def group_blocks(events: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def group_blocks(
+    events: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
     blocks: list[dict[str, Any]] = []
 
     for category in CATEGORY_ORDER:
         category_events = [
-            event for event in events if event["category"] == category
+            event
+            for event in events
+            if event["category"] == category
         ]
 
+        # 每個Block依新聞時間由早到晚排列
         category_events.sort(
             key=lambda row: row["event_time"],
-            reverse=True,
-        )
-        category_events.sort(
-            key=lambda row: row["importance_score"],
-            reverse=True,
         )
 
         blocks.append(
