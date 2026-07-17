@@ -48,6 +48,16 @@ SYSTEM_INSTRUCTION = """
 8.30日相關係數矩陣。、標普500主要成分股隱含波動率。、外匯隱含波動率。-->沒意義
 
 
+請對每一則留下的新聞評估重要性1至5分，並將分數填入 importance_score：
+
+5分：可能立即且顯著影響全球主要股市、債市、外匯、商品、能源供應或主要央行政策預期。
+4分：可能顯著影響主要國家、市場、資產類別、大型企業或重要政策。
+3分：具有明確市場參考價值，但影響較局部，或市場影響仍待觀察。
+2分：市場影響有限，但可作為重要事件的背景資訊。
+1分：市場影響很小，但仍具有少量資訊價值。
+
+被刪除的Headline不需要評分。
+
 
 
 
@@ -333,94 +343,95 @@ def build_selection_debug(
     source_lookup: dict[str, dict[str, Any]],
     run_at: datetime,
     model: str,
-) -> dict[str, Any]:
-    audit_lookup: dict[str, dict[str, str]] = {}
-    raw_audit = raw_digest.get("selection_audit", [])
+) -> dict[str, list[str]]:
+    """
+    Debug只列出Gemini最後刪除與留下的Headline。
 
-    if isinstance(raw_audit, list):
-        for row in raw_audit:
-            if not isinstance(row, dict):
-                continue
-            item_id = normalize_text(row.get("id"))
-            if item_id not in source_lookup or item_id in audit_lookup:
-                continue
-            decision = normalize_text(row.get("decision")).lower()
-            if decision not in {"keep", "drop"}:
-                continue
-            audit_lookup[item_id] = {
-                "decision": decision,
-                "reason_zh": normalize_text(row.get("reason_zh")),
-                "mapped_event_source_id": normalize_text(
-                    row.get("mapped_event_source_id")
-                ),
-            }
+    留下的Headline：
+    - 被選為事件主來源的Headline
+    - 被放入事件trajectory的Headline
 
-    referenced_ids: set[str] = set()
-    for category in raw_digest.get("categories", []):
-        if not isinstance(category, dict):
+    刪掉的Headline：
+    - 沒有出現在最終事件或trajectory中的Headline
+    """
+    kept_ids: set[str] = set()
+
+    raw_categories = raw_digest.get(
+        "categories",
+        [],
+    )
+
+    if isinstance(raw_categories, list):
+        for category in raw_categories:
+            if not isinstance(category, dict):
+                continue
+
+            news_items = category.get(
+                "news",
+                [],
+            )
+
+            if not isinstance(news_items, list):
+                continue
+
+            for news_item in news_items:
+                if not isinstance(news_item, dict):
+                    continue
+
+                source_id = normalize_text(
+                    news_item.get("source_id")
+                )
+
+                if source_id in source_lookup:
+                    kept_ids.add(source_id)
+
+                trajectory = news_item.get(
+                    "trajectory",
+                    [],
+                )
+
+                if not isinstance(trajectory, list):
+                    continue
+
+                for update in trajectory:
+                    if not isinstance(update, dict):
+                        continue
+
+                    update_source_id = normalize_text(
+                        update.get("source_id")
+                    )
+
+                    if update_source_id in source_lookup:
+                        kept_ids.add(update_source_id)
+
+    dropped_headlines: list[str] = []
+    kept_headlines: list[str] = []
+
+    sorted_sources = sorted(
+        source_lookup.values(),
+        key=lambda item: item.get("time", ""),
+    )
+
+    for source in sorted_sources:
+        source_id = normalize_text(
+            source.get("id")
+        )
+
+        headline = normalize_text(
+            source.get("headline")
+        )
+
+        if not headline:
             continue
-        for news_item in category.get("news", []):
-            if not isinstance(news_item, dict):
-                continue
-            source_id = normalize_text(news_item.get("source_id"))
-            if source_id in source_lookup:
-                referenced_ids.add(source_id)
-            for update in news_item.get("trajectory", []):
-                if isinstance(update, dict):
-                    update_id = normalize_text(update.get("source_id"))
-                    if update_id in source_lookup:
-                        referenced_ids.add(update_id)
 
-    kept: list[dict[str, Any]] = []
-    dropped: list[dict[str, Any]] = []
-
-    for item_id, source in source_lookup.items():
-        audit = audit_lookup.get(item_id, {})
-        is_referenced = item_id in referenced_ids
-        decision = "keep" if is_referenced else "drop"
-        model_decision = audit.get("decision", "")
-
-        if model_decision and model_decision != decision:
-            reason = (
-                f"模型稽核標示為{model_decision}，但以最終輸出ID引用結果校正為{decision}。"
-            )
+        if source_id in kept_ids:
+            kept_headlines.append(headline)
         else:
-            reason = audit.get("reason_zh", "")
-
-        if not reason:
-            reason = (
-                "保留為事件主來源或事件軌跡。"
-                if decision == "keep"
-                else "未被Gemini最終事件或軌跡引用。"
-            )
-
-        output_row = {
-            "id": item_id,
-            "time": source["time"],
-            "headline": source["headline"],
-            "decision": decision,
-            "reason_zh": reason,
-            "mapped_event_source_id": audit.get(
-                "mapped_event_source_id", ""
-            ),
-        }
-
-        if decision == "keep":
-            kept.append(output_row)
-        else:
-            dropped.append(output_row)
-
-    kept.sort(key=lambda row: row["time"])
-    dropped.sort(key=lambda row: row["time"])
+            dropped_headlines.append(headline)
 
     return {
-        "generated_at": format_taipei_time(run_at),
-        "model": model,
-        "input_count": len(source_lookup),
-        "kept_count": len(kept),
-        "dropped_count": len(dropped),
-        "kept_headlines": kept,
-        "dropped_headlines": dropped,
+        "刪掉的headline": dropped_headlines,
+        "留下的headline": kept_headlines,
     }
 
 
@@ -493,8 +504,17 @@ def main() -> int:
         write_json(LATEST_DEBUG_FILE, debug_output)
         write_status("success", run_at, model, len(cleaned_items), included_count, output_count, usage)
         print(f"Final event count: {output_count}")
-        print(f"Kept headline count: {debug_output['kept_count']}")
-        print(f"Dropped headline count: {debug_output['dropped_count']}")
+        print("")
+        print("刪掉的headline：")
+
+        for headline in debug_output["刪掉的headline"]:
+            print(headline)
+
+        print("")
+        print("留下的headline：")
+
+        for headline in debug_output["留下的headline"]:
+            print(headline)
         print(f"Daily digest: {daily_file}")
         print(f"Selection debug: {debug_file}")
         return 0
