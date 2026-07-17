@@ -12,9 +12,9 @@ concurrency:
 
 jobs:
   generate-digest:
-    name: Generate daily Traditional Chinese digest
+    name: Generate daily digest and web data
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
 
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -41,6 +41,7 @@ jobs:
       - name: Verify Python syntax
         run: |
           python -m py_compile daily_digest.py
+          python -m py_compile build_web_news.py
 
       - name: Verify input data
         run: |
@@ -75,7 +76,7 @@ jobs:
         run: |
           python daily_digest.py
 
-      - name: Verify digest and debug output
+      - name: Verify daily digest output
         run: |
           if [ ! -f "data/latest_daily_digest.json" ]; then
             echo "Error: Daily digest output was not generated."
@@ -83,68 +84,124 @@ jobs:
           fi
 
           if [ ! -f "data/latest_digest_debug.json" ]; then
-            echo "Error: Selection debug output was not generated."
+            echo "Error: Debug output was not generated."
             exit 1
           fi
 
           if [ ! -f "data/digest_status.json" ]; then
-            echo "Error: Digest status file was not generated."
+            echo "Error: Digest status was not generated."
             exit 1
           fi
 
-          echo "Digest status:"
+          echo "Daily digest status:"
           cat data/digest_status.json
 
+      - name: Build web news data
+        run: |
+          python build_web_news.py
+
+      - name: Verify web news output
+        run: |
+          if [ ! -f "data/web/latest.json" ]; then
+            echo "Error: data/web/latest.json was not generated."
+            exit 1
+          fi
+
+          if [ ! -f "data/web/status.json" ]; then
+            echo "Error: data/web/status.json was not generated."
+            exit 1
+          fi
+
+          echo "Web news status:"
+          cat data/web/status.json
+
           echo ""
-          echo "Selection debug summary:"
+          echo "Web news summary:"
 
           python - <<'PY'
           import json
           from pathlib import Path
 
-          debug_file = Path("data/latest_digest_debug.json")
+          output_file = Path("data/web/latest.json")
 
-          with debug_file.open("r", encoding="utf-8") as file:
-              debug = json.load(file)
+          with output_file.open("r", encoding="utf-8") as file:
+              data = json.load(file)
 
-          print(f"Input: {debug.get('input_count', 0)}")
-          print(f"Kept: {debug.get('kept_count', 0)}")
-          print(f"Dropped: {debug.get('dropped_count', 0)}")
+          print(f"Period start: {data.get('period_start', '')}")
+          print(f"Period end: {data.get('period_end', '')}")
+          print(f"Event count: {data.get('event_count', 0)}")
+          print(
+              f"Summary count: "
+              f"{len(data.get('summary_points', []))}"
+          )
 
-          print("\nKept headlines:")
-          for item in debug.get("kept_headlines", []):
-              print(
-                  f"- [{item.get('time', '')}] "
-                  f"{item.get('headline', '')} "
-                  f"| {item.get('reason_zh', '')}"
-              )
+          print("")
+          print("Summary points:")
 
-          print("\nDropped headlines:")
-          for item in debug.get("dropped_headlines", []):
-              print(
-                  f"- [{item.get('time', '')}] "
-                  f"{item.get('headline', '')} "
-                  f"| {item.get('reason_zh', '')}"
-              )
+          for point in data.get("summary_points", []):
+              print(f"- {point}")
+
+          print("")
+          print("Block counts:")
+
+          for block in data.get("blocks", []):
+              category = block.get("category", "")
+              count = len(block.get("news", []))
+              print(f"- {category}: {count}")
           PY
 
-      - name: Commit daily digest and debug files
+      - name: Show Gemini selection debug
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          debug_file = Path(
+              "data/latest_digest_debug.json"
+          )
+
+          with debug_file.open(
+              "r",
+              encoding="utf-8",
+          ) as file:
+              debug = json.load(file)
+
+          print("刪掉的headline：")
+
+          for headline in debug.get(
+              "刪掉的headline",
+              [],
+          ):
+              print(headline)
+
+          print("")
+          print("留下的headline：")
+
+          for headline in debug.get(
+              "留下的headline",
+              [],
+          ):
+              print(headline)
+          PY
+
+      - name: Commit digest and web data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add data/digests
           git add data/debug
+          git add data/web
           git add data/latest_daily_digest.json
           git add data/latest_digest_debug.json
           git add data/digest_status.json
 
           if git diff --cached --quiet; then
-            echo "No daily digest changes to commit."
+            echo "No digest or web data changes to commit."
             exit 0
           fi
 
-          git commit -m "Generate daily Gemini market digest"
+          git commit -m "Generate daily digest and web news data"
 
           git pull --rebase origin main
           git push origin main
