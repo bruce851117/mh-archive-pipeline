@@ -398,6 +398,244 @@
       .row-time { grid-column: 2; }
       .headline { grid-column: 2; }
     }
+
+
+    .tab-bar-wrap {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: rgba(243, 246, 250, .96);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(10px);
+    }
+
+    .tab-bar {
+      width: min(900px, calc(100% - 24px));
+      margin: 0 auto;
+      display: flex;
+      gap: 5px;
+      padding: 9px 0;
+      overflow-x: auto;
+      scrollbar-width: thin;
+    }
+
+    .tab-button {
+      flex: 0 0 auto;
+      border: 1px solid #cfd8e4;
+      border-radius: 9px;
+      padding: 8px 15px;
+      background: #fff;
+      color: #50647c;
+      font-size: 12px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .tab-button:hover {
+      border-color: #8ba7c8;
+      color: var(--navy-2);
+    }
+
+    .tab-button.active {
+      border-color: var(--navy-2);
+      background: var(--navy-2);
+      color: #fff;
+      box-shadow: 0 5px 14px rgba(12, 53, 111, .2);
+    }
+
+    .page-panel[hidden] { display: none !important; }
+
+    .central-bank-header {
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .central-bank-name {
+      margin: 0;
+      color: var(--navy-2);
+      font-size: 21px;
+    }
+
+    .central-bank-range {
+      margin-top: 3px;
+      color: var(--muted);
+      font-size: 10px;
+    }
+
+    .central-bank-count {
+      flex-shrink: 0;
+      border-radius: 999px;
+      padding: 6px 11px;
+      background: #eaf1fa;
+      color: var(--navy-2);
+      font-size: 10px;
+      font-weight: 900;
+    }
+
+    .central-bank-controls {
+      margin-top: 10px;
+      padding: 13px;
+      display: grid;
+      grid-template-columns: 1fr auto auto;
+      gap: 10px;
+      align-items: end;
+    }
+
+    .central-bank-filter {
+      height: 31px;
+      border: 1px solid #cfd7e3;
+      border-radius: 8px;
+      padding: 5px 9px;
+      background: #fff;
+      color: var(--text);
+      font: inherit;
+      font-size: 11px;
+      outline: none;
+    }
+
+    .official-card {
+      margin-top: 11px;
+      overflow: hidden;
+    }
+
+    .official-header {
+      padding: 12px 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfcfe;
+    }
+
+    .official-name {
+      margin: 0;
+      color: var(--navy-2);
+      font-size: 15px;
+    }
+
+    .official-position {
+      margin-top: 2px;
+      color: var(--muted);
+      font-size: 10px;
+    }
+
+    .official-badges {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    .priority-badge,
+    .inactive-badge,
+    .talk-count-badge {
+      border-radius: 999px;
+      padding: 3px 7px;
+      font-size: 9px;
+      font-weight: 900;
+    }
+
+    .priority-badge {
+      background: #e8f0fb;
+      color: var(--navy-2);
+    }
+
+    .talk-count-badge {
+      background: #eef2f6;
+      color: #607087;
+    }
+
+    .inactive-badge {
+      background: #f7eaea;
+      color: #a43737;
+    }
+
+    .talk-list { padding: 4px 14px 8px; }
+
+    .talk-item {
+      padding: 11px 0;
+      border-bottom: 1px solid #edf1f5;
+    }
+
+    .talk-item:last-child { border-bottom: 0; }
+
+    .talk-date {
+      color: var(--blue);
+      font-size: 10px;
+      font-weight: 900;
+    }
+
+    .talk-summary {
+      margin-top: 4px;
+      color: #182333;
+      font-size: 12px;
+      font-weight: 650;
+    }
+
+    .topic-chips {
+      margin-top: 7px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+
+    .topic-chip {
+      border-radius: 6px;
+      padding: 3px 7px;
+      background: #f1f5fa;
+      color: #4f647c;
+      font-size: 9px;
+    }
+
+    .source-details {
+      margin-top: 8px;
+      border-left: 2px solid #d8e2ed;
+      padding-left: 10px;
+    }
+
+    .source-details summary {
+      color: var(--blue);
+      font-size: 10px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .source-headline {
+      display: grid;
+      grid-template-columns: 105px minmax(0, 1fr);
+      gap: 8px;
+      padding: 6px 0;
+      border-bottom: 1px dashed #e5eaf0;
+      color: #42546a;
+      font-size: 10px;
+    }
+
+    .source-headline:last-child { border-bottom: 0; }
+
+    .no-talk {
+      padding: 14px;
+      color: #8794a4;
+      font-size: 10px;
+    }
+
+    @media (max-width: 720px) {
+      .central-bank-controls { grid-template-columns: 1fr 1fr; }
+      .central-bank-controls .field { grid-column: 1 / -1; }
+      .source-headline { grid-template-columns: 82px minmax(0, 1fr); }
+    }
+
+    @media (max-width: 480px) {
+      .central-bank-header { align-items: flex-start; }
+      .central-bank-controls { grid-template-columns: 1fr; }
+      .official-header { display: block; }
+      .official-badges { margin-top: 7px; }
+      .source-headline { grid-template-columns: 1fr; gap: 1px; }
+    }
+
   </style>
 </head>
 <body>
@@ -415,7 +653,19 @@
     </div>
   </header>
 
+  <nav class="tab-bar-wrap" aria-label="Dashboard sections">
+    <div class="tab-bar" id="tabBar">
+      <button class="tab-button active" type="button" data-page="market">市場新聞</button>
+      <button class="tab-button" type="button" data-page="FED">Fed</button>
+      <button class="tab-button" type="button" data-page="BOE">BoE</button>
+      <button class="tab-button" type="button" data-page="ECB">ECB</button>
+      <button class="tab-button" type="button" data-page="BOJ">BoJ</button>
+      <button class="tab-button" type="button" data-page="RBA">RBA</button>
+    </div>
+  </nav>
+
   <main class="container">
+    <section id="marketPage" class="page-panel">
     <section class="card range-card">
       <div>
         <div class="tiny-label">新聞資料時間範圍</div>
@@ -451,13 +701,41 @@
     </div>
 
     <section id="blocks"></section>
+    </section>
+
+    <section id="centralBankPage" class="page-panel" hidden>
+      <section class="card central-bank-header">
+        <div>
+          <h2 id="centralBankName" class="central-bank-name">央行談話</h2>
+          <div id="centralBankRange" class="central-bank-range">載入中…</div>
+        </div>
+        <div id="centralBankCount" class="central-bank-count">0 筆每日摘要</div>
+      </section>
+
+      <section class="card central-bank-controls">
+        <div class="field">
+          <label for="officialSearch">搜尋官員或談話內容</label>
+          <input id="officialSearch" type="search" placeholder="輸入官員姓名、通膨、利率…">
+        </div>
+        <label class="tiny-label">
+          <input id="onlyWithTalks" type="checkbox">
+          僅顯示有談話官員
+        </label>
+        <button id="centralBankReset" class="search-button" type="button">清除篩選</button>
+      </section>
+
+      <section id="officialsContainer"></section>
+    </section>
   </main>
 
   <footer>重要性4～5分以深藍色粗體顯示｜事件發展軌跡已全部展開｜時間均為台灣時間 GMT+8</footer>
 
   <script>
+
     const DATA_URL = './data/web/latest.json';
+    const CENTRAL_BANK_DATA_URL = './data/central_banks/digests/latest.json';
     const CATEGORY_ORDER = ['債市', '股市', '央行', '財政政策', '經濟', '戰爭'];
+    const CENTRAL_BANK_ORDER = ['FED', 'BOE', 'ECB', 'BOJ', 'RBA'];
     const CATEGORY_DESCRIPTIONS = {
       '債市': '利率、央債、殖利率、信用與債市政策',
       '股市': '股市、科技股、AI供應鏈與主要股指',
@@ -466,8 +744,18 @@
       '經濟': '通膨、就業、成長、貿易與經濟數據',
       '戰爭': '軍事衝突、制裁、能源航運與地緣政治',
     };
+    const TOPIC_LABELS = {
+      economy: '經濟',
+      inflation: '通膨',
+      labor_market: '勞動市場',
+      monetary_policy: '貨幣政策',
+      interest_rates: '利率',
+      balance_sheet: '資產負債表',
+    };
 
     let dashboardData = null;
+    let centralBankData = null;
+    let activePage = 'market';
 
     const updatedTime = document.getElementById('updatedTime');
     const rangeText = document.getElementById('rangeText');
@@ -479,6 +767,15 @@
     const summaryContent = document.getElementById('summaryContent');
     const newsCount = document.getElementById('newsCount');
     const blocksElement = document.getElementById('blocks');
+    const marketPage = document.getElementById('marketPage');
+    const centralBankPage = document.getElementById('centralBankPage');
+    const centralBankName = document.getElementById('centralBankName');
+    const centralBankRange = document.getElementById('centralBankRange');
+    const centralBankCount = document.getElementById('centralBankCount');
+    const officialSearch = document.getElementById('officialSearch');
+    const onlyWithTalks = document.getElementById('onlyWithTalks');
+    const centralBankReset = document.getElementById('centralBankReset');
+    const officialsContainer = document.getElementById('officialsContainer');
 
     function escapeHtml(value) {
       return String(value ?? '')
@@ -498,8 +795,7 @@
       const date = dateObject(value);
       if (!date) return '時間未提供';
       return new Intl.DateTimeFormat('zh-TW', {
-        timeZone: 'Asia/Taipei',
-        year: 'numeric', month: '2-digit', day: '2-digit',
+        timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit',
         weekday: 'short', hour: '2-digit', minute: '2-digit', hour12: false,
       }).format(date);
     }
@@ -508,9 +804,17 @@
       const date = dateObject(value);
       if (!date) return '';
       return new Intl.DateTimeFormat('zh-TW', {
-        timeZone: 'Asia/Taipei',
-        year: 'numeric', month: '2-digit', day: '2-digit',
+        timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit',
         hour: '2-digit', minute: '2-digit', hour12: false,
+      }).format(date);
+    }
+
+    function shortDate(value) {
+      if (!value) return '';
+      const date = new Date(`${value}T00:00:00+08:00`);
+      if (Number.isNaN(date.getTime())) return value;
+      return new Intl.DateTimeFormat('zh-TW', {
+        timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit',
       }).format(date);
     }
 
@@ -539,17 +843,16 @@
     }
 
     function renderTrajectory(trajectory, important) {
-    if (!Array.isArray(trajectory) || !trajectory.length) return '';
-
-    return `<div class="trajectory-group">${trajectory.map(item => `
+      if (!Array.isArray(trajectory) || !trajectory.length) return '';
+      return `<div class="trajectory-group">${trajectory.map(item => `
         <div class="trajectory-row">
-        <span class="dot"></span>
-        <time class="row-time">${escapeHtml(rowDate(item.time))}</time>
-        <div class="headline ${important ? 'important' : ''}">
+          <span class="dot"></span>
+          <time class="row-time">${escapeHtml(rowDate(item.time))}</time>
+          <div class="headline ${important ? 'important' : ''}">
             ${escapeHtml(item.description_zh || '')}
+          </div>
         </div>
-        </div>
-    `).join('')}</div>`;
+      `).join('')}</div>`;
     }
 
     function renderEvent(event) {
@@ -570,7 +873,6 @@
       const end = endTime.value ? new Date(`${endTime.value}:59+08:00`) : null;
       const term = keyword.value.trim().toLowerCase();
       const output = new Map();
-
       for (const category of CATEGORY_ORDER) output.set(category, []);
 
       for (const block of dashboardData.blocks || []) {
@@ -579,13 +881,11 @@
         for (const event of block.news || []) {
           const eventDate = dateObject(event.event_time);
           const timeMatch = eventDate && (!start || eventDate >= start) && (!end || eventDate <= end);
-          const keywordSource = [
-            event.headline_zh,
-            ...(event.trajectory || []).map(item => item.description_zh),
-          ].join(' ').toLowerCase();
-          const keywordMatch = !term || keywordSource.includes(term);
-          if (timeMatch && keywordMatch) target.push(event);
+          const keywordSource = [event.headline_zh, ...(event.trajectory || []).map(item => item.description_zh)]
+            .join(' ').toLowerCase();
+          if (timeMatch && (!term || keywordSource.includes(term))) target.push(event);
         }
+        target.sort((a, b) => String(a.event_time).localeCompare(String(b.event_time)));
       }
       return output;
     }
@@ -608,8 +908,7 @@
             <div class="news-list">
               ${events.length ? events.map(renderEvent).join('') : '<div class="empty">此時段沒有符合條件的新聞</div>'}
             </div>
-          </section>
-        `;
+          </section>`;
       }).join('');
       newsCount.textContent = total;
     }
@@ -620,18 +919,136 @@
       keyword.value = '';
     }
 
+    function findBank(bankCode) {
+      return (centralBankData?.central_banks || []).find(bank => bank.central_bank === bankCode) || null;
+    }
+
+    function renderTopicChips(topics) {
+      if (!topics || typeof topics !== 'object') return '';
+      const chips = Object.entries(TOPIC_LABELS)
+        .filter(([key]) => String(topics[key] || '').trim())
+        .map(([key, label]) => `<span class="topic-chip"><strong>${escapeHtml(label)}：</strong>${escapeHtml(topics[key])}</span>`);
+      return chips.length ? `<div class="topic-chips">${chips.join('')}</div>` : '';
+    }
+
+    function renderSourceHeadlines(headlines) {
+      if (!Array.isArray(headlines) || !headlines.length) return '';
+      return `
+        <details class="source-details">
+          <summary>查看原始英文 Headline（${headlines.length}）</summary>
+          ${headlines.map(item => `
+            <div class="source-headline">
+              <time>${escapeHtml(rowDate(item.time))}</time>
+              <span>${escapeHtml(item.headline || '')}</span>
+            </div>
+          `).join('')}
+        </details>`;
+    }
+
+    function renderTalk(talk) {
+      return `
+        <article class="talk-item">
+          <div class="talk-date">${escapeHtml(shortDate(talk.date))}</div>
+          <div class="talk-summary">${escapeHtml(talk.summary_zh || '')}</div>
+          ${renderTopicChips(talk.topics)}
+          ${renderSourceHeadlines(talk.source_headlines)}
+        </article>`;
+    }
+
+    function renderCentralBankPage(bankCode) {
+      const bank = findBank(bankCode);
+      if (!bank) {
+        centralBankName.textContent = bankCode;
+        centralBankRange.textContent = '央行資料尚未產生';
+        centralBankCount.textContent = '0 筆每日摘要';
+        officialsContainer.innerHTML = '<div class="card empty">找不到此央行資料</div>';
+        return;
+      }
+
+      const term = officialSearch.value.trim().toLowerCase();
+      let totalTalks = 0;
+      const officials = [...(bank.officials || [])].sort(
+        (a, b) => Number(a.priority || 999) - Number(b.priority || 999)
+      ).filter(official => {
+        const talks = official.talks || [];
+        const searchable = [official.official, official.headline_name, official.position,
+          ...talks.map(talk => talk.summary_zh),
+          ...talks.flatMap(talk => (talk.source_headlines || []).map(item => item.headline))]
+          .join(' ').toLowerCase();
+        return (!onlyWithTalks.checked || talks.length > 0) && (!term || searchable.includes(term));
+      });
+
+      for (const official of officials) totalTalks += (official.talks || []).length;
+      centralBankName.textContent = `${bank.display_name || bankCode} 官員談話`;
+      centralBankRange.textContent = `近 ${centralBankData.lookback_days || 90} 天｜${fullDate(centralBankData.period_start)} ～ ${fullDate(centralBankData.period_end)}`;
+      centralBankCount.textContent = `${totalTalks} 筆每日摘要`;
+
+      officialsContainer.innerHTML = officials.length ? officials.map(official => {
+        const talks = [...(official.talks || [])].sort((a, b) => String(b.date).localeCompare(String(a.date)));
+        return `
+          <section class="card official-card">
+            <header class="official-header">
+              <div>
+                <h3 class="official-name">${escapeHtml(official.official || '')}</h3>
+                <div class="official-position">${escapeHtml(official.position || '')}</div>
+              </div>
+              <div class="official-badges">
+                <span class="priority-badge">重要順序 ${Number(official.priority || 999)}</span>
+                <span class="talk-count-badge">${talks.length} 筆</span>
+                ${official.active === false ? '<span class="inactive-badge">已卸任</span>' : ''}
+              </div>
+            </header>
+            <div class="talk-list">
+              ${talks.length ? talks.map(renderTalk).join('') : '<div class="no-talk">近90天無符合條件的談話</div>'}
+            </div>
+          </section>`;
+      }).join('') : '<div class="card empty">沒有符合篩選條件的官員</div>';
+    }
+
+    function activatePage(page) {
+      activePage = page;
+      marketPage.hidden = page !== 'market';
+      centralBankPage.hidden = page === 'market';
+      document.querySelectorAll('.tab-button').forEach(button => {
+        button.classList.toggle('active', button.dataset.page === page);
+      });
+      if (page !== 'market') renderCentralBankPage(page);
+      history.replaceState(null, '', page === 'market' ? '#market' : `#${page.toLowerCase()}`);
+    }
+
+    async function fetchJson(url) {
+      const response = await fetch(`${url}?t=${Date.now()}`, { cache: 'no-store' });
+      if (!response.ok) throw new Error(`${url}: HTTP ${response.status}`);
+      return response.json();
+    }
+
     async function loadData() {
       try {
-        const response = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: 'no-store' });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        dashboardData = await response.json();
+        const [marketResult, centralResult] = await Promise.allSettled([
+          fetchJson(DATA_URL), fetchJson(CENTRAL_BANK_DATA_URL),
+        ]);
 
-        const actualUpdatedAt = dashboardData.data_updated_at || dashboardData.period_end;
-        updatedTime.textContent = fullDate(actualUpdatedAt);
-        rangeText.textContent = `${fullDate(dashboardData.period_start)} ～ ${fullDate(dashboardData.period_end)}`;
-        initializeControls(dashboardData);
-        renderSummary(dashboardData.summary_points);
-        renderBlocks();
+        if (marketResult.status === 'fulfilled') {
+          dashboardData = marketResult.value;
+          const actualUpdatedAt = dashboardData.data_updated_at || dashboardData.period_end;
+          updatedTime.textContent = fullDate(actualUpdatedAt);
+          rangeText.textContent = `${fullDate(dashboardData.period_start)} ～ ${fullDate(dashboardData.period_end)}`;
+          initializeControls(dashboardData);
+          renderSummary(dashboardData.summary_points);
+          renderBlocks();
+        } else {
+          throw marketResult.reason;
+        }
+
+        if (centralResult.status === 'fulfilled') {
+          centralBankData = centralResult.value;
+        } else {
+          console.error('Central bank data load failed:', centralResult.reason);
+        }
+
+        const hash = location.hash.replace('#', '').toUpperCase();
+        const initialPage = CENTRAL_BANK_ORDER.includes(hash) ? hash : 'market';
+        activatePage(initialPage);
       } catch (error) {
         summaryContent.className = 'error';
         summaryContent.textContent = `資料載入失敗：${error.message}`;
@@ -639,6 +1056,10 @@
       }
     }
 
+    document.getElementById('tabBar').addEventListener('click', event => {
+      const button = event.target.closest('.tab-button');
+      if (button) activatePage(button.dataset.page);
+    });
     searchButton.addEventListener('click', renderBlocks);
     keyword.addEventListener('keydown', event => {
       if (event.key === 'Enter') renderBlocks();
@@ -647,6 +1068,17 @@
       if (!dashboardData) return;
       initializeControls(dashboardData);
       renderBlocks();
+    });
+    officialSearch.addEventListener('input', () => {
+      if (activePage !== 'market') renderCentralBankPage(activePage);
+    });
+    onlyWithTalks.addEventListener('change', () => {
+      if (activePage !== 'market') renderCentralBankPage(activePage);
+    });
+    centralBankReset.addEventListener('click', () => {
+      officialSearch.value = '';
+      onlyWithTalks.checked = false;
+      if (activePage !== 'market') renderCentralBankPage(activePage);
     });
 
     loadData();
