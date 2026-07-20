@@ -42,6 +42,11 @@ jobs:
             exit 1
           }
 
+          test -f manual_central_bank_backfill.json || {
+            echo "Error: manual_central_bank_backfill.json does not exist."
+            exit 1
+          }
+
           test -d data/archive || {
             echo "Error: data/archive does not exist."
             exit 1
@@ -51,6 +56,7 @@ jobs:
         run: |
           python -m py_compile backfill_central_bank_headlines.py
           python -m json.tool central_bank_officials.json > /dev/null
+          python -m json.tool manual_central_bank_backfill.json > /dev/null
 
       - name: Backfill central bank headlines
         run: |
@@ -101,6 +107,10 @@ jobs:
           print(
               f"Candidate headlines scanned: "
               f"{status.get('candidate_headline_count', 0)}"
+          )
+          print(
+              f"Manual candidates scanned: "
+              f"{status.get('manual_candidate_count', 0)}"
           )
           print(
               f"Matched headlines: "

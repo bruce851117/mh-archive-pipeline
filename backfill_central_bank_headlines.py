@@ -19,6 +19,7 @@ CENTRAL_BANK_LATEST_90D_FILE = (
 CENTRAL_BANK_STATUS_FILE = (
     CENTRAL_BANK_DIRECTORY / "backfill_status.json"
 )
+MANUAL_BACKFILL_FILE = Path("manual_central_bank_backfill.json")
 
 LOOKBACK_DAYS = 90
 
@@ -328,8 +329,29 @@ def main() -> int:
         )
 
         candidates_scanned = 0
+        manual_candidates_scanned = 0
         matched_by_id: dict[str, dict[str, Any]] = {}
         matched_by_date: dict[str, list[dict[str, Any]]] = {}
+
+        # Read curated manual history first. These rows already contain a
+        # central_bank field and are merged with the ordinary RSS archive by ID.
+        if MANUAL_BACKFILL_FILE.exists():
+            for item in read_json_list(MANUAL_BACKFILL_FILE):
+                manual_candidates_scanned += 1
+                published_at = parse_iso_datetime(item.get("published_at"))
+                if published_at is None or not (period_start <= published_at <= period_end):
+                    continue
+
+                central_bank = normalize_text(item.get("central_bank")).upper()
+                if central_bank not in bank_codes:
+                    headline = normalize_text(item.get("headline"))
+                    central_bank = identify_central_bank(headline, filter_prefixes) or ""
+                if central_bank not in bank_codes:
+                    continue
+
+                selected = create_central_bank_item(item, central_bank)
+                if selected is not None:
+                    matched_by_id[selected["id"]] = selected
 
         for archive_file in archive_files:
             for item in read_json_list(archive_file):
@@ -437,6 +459,7 @@ def main() -> int:
             "lookback_days": LOOKBACK_DAYS,
             "archive_file_count": len(archive_files),
             "candidate_headline_count": candidates_scanned,
+            "manual_candidate_count": manual_candidates_scanned,
             "matched_headline_count": len(matched_items),
             "matched_by_bank": count_by_bank(
                 matched_items,
@@ -458,6 +481,9 @@ def main() -> int:
         )
         print(
             f"Candidate headlines scanned: {candidates_scanned}"
+        )
+        print(
+            f"Manual candidates scanned: {manual_candidates_scanned}"
         )
         print(
             f"Central bank headlines matched: {len(matched_items)}"
