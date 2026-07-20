@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-20T11:42:23.599752+08:00",
+  "generated_at": "2026-07-20T14:40:42.568617+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-04-21T11:42:23.599752+08:00",
-  "period_end": "2026-07-20T11:42:23.599752+08:00",
+  "period_start": "2026-04-21T14:40:42.568617+08:00",
+  "period_end": "2026-07-20T14:40:42.568617+08:00",
   "lookback_days": 90,
   "model": "gemini-3.5-flash",
-  "input_headline_count": 10,
-  "talk_count": 1,
+  "input_headline_count": 139,
+  "talk_count": 121,
   "central_banks": [
     {
       "central_bank": "FED",
@@ -18,7 +18,137 @@
           "priority": 1,
           "position": "Chair",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-15",
+              "summary_zh": "通膨仍不令人滿意，可能調整利率與資產負債表，傾向維持最小實用規模的資產負債表。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-9f1c77af65e026c93a70"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-9f1c77af65e026c93a70",
+                  "time": "2026-07-15T23:01:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Chair Warsh: Inflation remains unsatisfactory and the Fed may adjust rates and the balance sheet; he favors the smallest practical balance sheet while recognizing AI demand is initially inflationary and productivity later disinflationary."
+                }
+              ]
+            },
+            {
+              "date": "2026-07-14",
+              "summary_zh": "對持續性通膨零容忍並重新致力於2%目標，勞動市場具韌性，將審查政策與資產負債表框架。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-9e43834b7193769fba5d"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-9e43834b7193769fba5d",
+                  "time": "2026-07-14T22:24:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Chair Warsh: The Fed has no tolerance for persistent inflation and is recommitting to 2%; the labor market is resilient, policy and balance-sheet frameworks will be reviewed, and changes will be communicated in advance."
+                }
+              ]
+            },
+            {
+              "date": "2026-07-10",
+              "summary_zh": "美聯儲對價格穩定和最大化就業的奉獻是堅定不移的，並將嚴格追求此目標。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-1a1aafd5f8eed371d98e"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-1a1aafd5f8eed371d98e",
+                  "time": "2026-07-10T03:00:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Chair Warsh: The Fed's dedication to price stability and maximum employment is unwavering and will be pursued rigorously."
+                }
+              ]
+            },
+            {
+              "date": "2026-07-01",
+              "summary_zh": "儘管通膨風險降低但價格仍過高，美聯儲不容忍通膨高於2%，傾向以利率為主要工具並縮減資產負債表。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-305c937284a672fc980a"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-305c937284a672fc980a",
+                  "time": "2026-07-01T21:29:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Chair Warsh: Prices remain too high despite lower inflation risks; the Fed will not tolerate inflation above 2%, avoids forward guidance, prefers rates as the primary tool and a smaller, well-communicated balance sheet."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-18",
+              "summary_zh": "承諾實現2%通膨並放棄前瞻性指引，政策並非廣泛具限制性，將成立任務小組於年底前審查政策框架。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-3f9db0143bb9f62478d3",
+                "manual-b49d431753cc43f6d92d",
+                "manual-842a465dfbb8c76807d8"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-3f9db0143bb9f62478d3",
+                  "time": "2026-06-18T02:35:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Chair Warsh: Five independent task forces will study communications, the balance sheet and ample-reserves regime, data sources, productivity and jobs, and inflation frameworks; recommendations and possible SEP changes are expected by year-end."
+                },
+                {
+                  "id": "manual-b49d431753cc43f6d92d",
+                  "time": "2026-06-18T02:41:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Chair Warsh: The Fed has the capability and commitment to deliver 2% inflation, dropped forward guidance, and will review communications, the dot plot and analytical frameworks by year-end."
+                },
+                {
+                  "id": "manual-842a465dfbb8c76807d8",
+                  "time": "2026-06-18T03:03:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Chair Warsh: The FOMC held rates because no member favored immediate tightening, but price-stability work remains; policy is not broadly restrictive, and the Fed must prevent energy and food shocks from broadening."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "John Williams",
@@ -26,7 +156,123 @@
           "priority": 2,
           "position": "New York Fed President / FOMC Vice Chair",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-15",
+              "summary_zh": "接近4%的通膨過高，但年底應降至約3.25%並於2028年達標，經濟與勞動市場穩固。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-4b0695e0e32b5d32f8b2"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-4b0695e0e32b5d32f8b2",
+                  "time": "2026-07-15T20:41:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Williams: Inflation near 4% is too high but should fall to about 3.25% by year-end and reach 2% in 2028; growth and labor markets are solid, expectations anchored, and policy well positioned."
+                }
+              ]
+            },
+            {
+              "date": "2026-07-09",
+              "summary_zh": "通膨仍過高且風險偏向上行，政策必須應對能源、關稅與AI影響，並透過資產負債表維持利率控制。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-d2aa5d2e5098edd04782"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-d2aa5d2e5098edd04782",
+                  "time": "2026-07-09T21:12:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Williams: Inflation remains far too high and risks lean toward inflation, though labor is stable; policy must respond to energy, tariffs and AI while the balance sheet maintains rate control under ample reserves."
+                }
+              ]
+            },
+            {
+              "date": "2026-07-07",
+              "summary_zh": "政策處於良好位置且依賴數據，通膨仍高但能源價格下跌有所幫助，經濟與勞動市場保持穩定。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-72bb3f407c6c1499e102"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-72bb3f407c6c1499e102",
+                  "time": "2026-07-07T20:42:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Williams: Policy is in a good place and data-dependent; inflation remains high but lower energy prices help, while growth and the labor market are steady."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-26",
+              "summary_zh": "通膨今年應放緩至約3.5%但延至2028年達標，政策定位良好，準備金管理購買可按需調整。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-87754a7a44a43176de6b"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-87754a7a44a43176de6b",
+                  "time": "2026-06-26T03:40:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Williams: Inflation should moderate to about 3.5% this year but reaching 2% is pushed to 2028; growth and labor are resilient, policy is well positioned, and reserve-management purchases can adjust as needed."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-03",
+              "summary_zh": "政策具溫和限制性且定位精確，目前無升降息理由，通膨應會見頂後回落，但上行風險已增加。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-895466605c450e8ac148"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-895466605c450e8ac148",
+                  "time": "2026-06-03T22:09:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Williams: Policy is modestly restrictive and precisely where it should be, with no current case to raise or lower rates; inflation should peak then decline, although upside risks have increased."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Philip Jefferson",
@@ -34,7 +280,31 @@
           "priority": 3,
           "position": "Vice Chair / Governor",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-17",
+              "summary_zh": "政策定位良好以應對數據，能源、貿易與AI衝擊可能影響產出與通膨，重複衝擊可能動搖預期。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-2ceb1a1a40ee3dcf35c1"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-2ceb1a1a40ee3dcf35c1",
+                  "time": "2026-07-17T07:10:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Jefferson: Policy is well positioned to respond to incoming data; energy, trade and AI shocks may affect output and inflation, and repeated shocks could destabilize expectations."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Christopher Waller",
@@ -42,7 +312,61 @@
           "priority": 4,
           "position": "Governor",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-14",
+              "summary_zh": "縮表取決於準備金需求，若核心通膨再度高企可能需要短期升息，支持1.5%-2.5%的目標區間。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-7d29d3c781707bbb3dac",
+                "manual-7acb1d05049dbbf6f43a"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-7d29d3c781707bbb3dac",
+                  "time": "2026-07-14T00:55:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Waller: Balance-sheet reduction depends on reserve demand; he opposes scarce reserves and MBS holdings, while preserving transparency and avoiding rigid forward guidance."
+                },
+                {
+                  "id": "manual-7acb1d05049dbbf6f43a",
+                  "time": "2026-07-14T01:05:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Waller: Another high core-inflation reading would be a signal that near-term hikes may be needed; labor is stable, inflation credibility remains intact, and he favors a 1.5%-2.5% target range but not changing it now."
+                }
+              ]
+            },
+            {
+              "date": "2026-07-06",
+              "summary_zh": "勞動風險已穩定而通膨加速，2%的承諾具公信力，但過於僵化的前瞻性指引會成為阻礙。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-f6e44fcaf96f8afa00d7"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-f6e44fcaf96f8afa00d7",
+                  "time": "2026-07-06T23:44:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Waller: Labor risks have stabilized while inflation has accelerated; the 2% commitment is credible and forward guidance can help but becomes a hindrance when too rigid."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Michelle Bowman",
@@ -50,7 +374,31 @@
           "priority": 5,
           "position": "Governor",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-05-29",
+              "summary_zh": "去通膨進程已停滯，中東能源衝擊若持續可能擴大通膨並需要政策轉變，但暫時性衝擊可予以忽略。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-d7fa3ec82efd8052ae62"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-d7fa3ec82efd8052ae62",
+                  "time": "2026-05-29T20:55:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Bowman: Disinflation has stalled; a prolonged Middle East energy shock could broaden inflation and require a policy shift, though a temporary shock can be looked through to avoid unnecessary restraint."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Lisa Cook",
@@ -58,7 +406,31 @@
           "priority": 6,
           "position": "Governor",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-16",
+              "summary_zh": "政策具微幅限制性且可等待更多數據，但若通膨未放緩已準備好迅速行動，風險已轉向通膨。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-785e405ff521a79248ce"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-785e405ff521a79248ce",
+                  "time": "2026-07-16T00:57:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Cook: Policy is mildly restrictive and can wait for more data, but she is prepared to act soon if inflation does not slow; risks have shifted toward inflation while jobs remain stable."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Michael Barr",
@@ -85,16 +457,17 @@
           "talks": [
             {
               "date": "2026-07-17",
-              "summary_zh": "聯準會官員 Hammack 表示，目前經濟成長良好且消費者支出穩定，勞動市場正處於最大就業水平附近，但通膨依然過高且來源廣泛（核心 PCE 即時預測為 3.3%），持續的高通膨是更大的擔憂，雙重使命並無衝突，企業界也認為需要採取行動來遏制通膨。",
+              "summary_zh": "通膨過高且範圍廣泛，核心通膨預估為3.3%，持續高通膨是更大擔憂，勞動市場則接近最大就業。",
               "topics": {
-                "economy": "經濟成長數據良好且消費者支出穩定，企業面臨能源成本、供應鏈中斷、保險及人工智慧數據中心建設等壓力。",
-                "inflation": "通膨過高且來源廣泛，核心PCE即時預測為3.3%，持續的高通膨是目前更大的擔憂。",
-                "labor_market": "勞動市場正處於最大就業水平附近。",
-                "monetary_policy": "雙重使命之間並無衝突，企業界認為需要採取行動來遏制通膨。",
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
                 "interest_rates": "",
                 "balance_sheet": ""
               },
               "source_ids": [
+                "manual-1f400731ac891c9d1b96",
                 "b030b1b01ea32da392ad2b62a472ae107a749adaae2feb8e4542aad72893562b",
                 "48375de1e42c46681ae6ae3af66986bdc23231732c97365ef92eb732d576132b",
                 "e1e13d281742ee36754b9a2c14754fcc533c80a9eeabbee020f41a70d177018c",
@@ -107,6 +480,12 @@
                 "d38b6f44e9095a24f81948bf7d3c7b8791dd6019543eb68f523ce844b61a927a"
               ],
               "source_headlines": [
+                {
+                  "id": "manual-1f400731ac891c9d1b96",
+                  "time": "2026-07-17T22:05:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: Inflation is too high and broad-based while growth and consumer spending remain solid; the labor market is near maximum employment, making persistent inflation the bigger concern."
+                },
                 {
                   "id": "b030b1b01ea32da392ad2b62a472ae107a749adaae2feb8e4542aad72893562b",
                   "time": "2026-07-17T22:05:37+08:00",
@@ -168,6 +547,75 @@
                   "headline": "Fed's Hammack: Hearing from businesses who say they think we need to take action to curb inflation, and from consumers who can’t make ends meet about a growing sense of despair."
                 }
               ]
+            },
+            {
+              "date": "2026-06-30",
+              "summary_zh": "通膨範圍廣泛且過高，經濟與就業維持穩固，政策幾乎未顯現限制性，可能需要更高的利率。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-3ce08d0a3de11cb18e5e"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-3ce08d0a3de11cb18e5e",
+                  "time": "2026-06-30T22:52:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: Inflation is broad-based and too high, growth and employment remain solid, and policy shows little restraint; higher rates may be needed to return inflation to target."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-05",
+              "summary_zh": "維持利率穩定是合理的，但若通膨未降溫，可能很快需要採取行動，勞動市場則大致平衡。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-d10d63b72d35b5a65540"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-d10d63b72d35b5a65540",
+                  "time": "2026-06-05T22:21:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: Holding rates steady is reasonable for now, but action may soon be appropriate if inflation does not cool; the labor market is roughly balanced."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-02",
+              "summary_zh": "利率目前可維持穩定，但若廣泛且持續的通膨未降溫，美聯儲可能很快需要採取行動。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-4587651b5a259d3211f7"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-4587651b5a259d3211f7",
+                  "time": "2026-06-02T20:30:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: Rates can remain steady for now, but the Fed may need to act soon if broad and persistent inflation does not cool; policy may not be tight enough while employment is near full."
+                }
+              ]
             }
           ]
         },
@@ -177,7 +625,61 @@
           "priority": 10,
           "position": "Dallas Fed President",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-17",
+              "summary_zh": "通膨無法自行持續回落至2%，微幅調升利率能更好平衡前景，且資產負債表應具效率而非設定固定規模。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-f2c4e3afbbbe259e28fa",
+                "manual-87e06b88b8ec640a6549"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-f2c4e3afbbbe259e28fa",
+                  "time": "2026-07-17T01:15:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Logan: Inflation is not returning sustainably to 2% on its own, employment downside risks have faded, and modestly higher rates would better balance the outlook."
+                },
+                {
+                  "id": "manual-87e06b88b8ec640a6549",
+                  "time": "2026-07-17T02:01:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Logan: Wages are not currently inflationary, but AI investment and data-center electricity demand add near-term price pressure; the balance sheet should be efficient rather than target a fixed size."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-04",
+              "summary_zh": "通膨回落至2%的時間過長，政策顯得中性或寬鬆，今年晚些時候可能需要微幅限制性設定或更高利率。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-036aa671e229dac48157"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-036aa671e229dac48157",
+                  "time": "2026-06-04T04:00:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Logan: Inflation is taking too long to return to 2%, policy looks neutral or loose, and mildly restrictive settings or higher rates may be needed later this year; growth and labor remain solid."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Neel Kashkari",
@@ -185,7 +687,54 @@
           "priority": 11,
           "position": "Minneapolis Fed President",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-06-26",
+              "summary_zh": "預計2026年升息一次並在2027年維持利率不變，廣泛的通膨與短期AI投資可能需要緊縮政策。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-c677e2110c727939677b"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-c677e2110c727939677b",
+                  "time": "2026-06-26T23:30:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Kashkari: He has one rate hike penciled in for 2026 and rates on hold in 2027; broad inflation and near-term AI investment may require tightening while labor remains decent."
+                }
+              ]
+            },
+            {
+              "date": "2026-05-29",
+              "summary_zh": "伊朗戰爭使通膨和政策前景蒙上陰影，但現在斷定短期內需要升息還為時過早。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-647078b940fc52410ff9"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-647078b940fc52410ff9",
+                  "time": "2026-05-29T14:14:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Kashkari: The Iran war clouds the inflation and policy outlook, but it is too early to conclude that near-term rate hikes are required."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Austan Goolsbee",
@@ -193,7 +742,54 @@
           "priority": 12,
           "position": "Chicago Fed President",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-15",
+              "summary_zh": "6月CPI出乎意料地溫和且服務通膨令人鼓舞，但單月數據不足，需要數個類似的PCE讀數以提高信心。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-6f07b541b2eb5a48813e"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-6f07b541b2eb5a48813e",
+                  "time": "2026-07-15T01:24:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Goolsbee: June CPI was surprisingly benign and services inflation encouraging, but one month is insufficient; several similar PCE readings would improve confidence while the job market is stable but not strong."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-26",
+              "summary_zh": "通膨是明確的任務問題，核心與服務通膨過高且走向錯誤，AI相關支出可能使需求過熱。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-af456886edae2abcdc42"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-af456886edae2abcdc42",
+                  "time": "2026-06-26T02:05:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Goolsbee: Inflation is the clear mandate problem, with core and services inflation too high and moving the wrong way; AI-related spending may overheat demand, while rigid forward guidance remains undesirable."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Thomas Barkin",
@@ -201,7 +797,31 @@
           "priority": 13,
           "position": "Richmond Fed President",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-05-29",
+              "summary_zh": "人工智慧投資正在創造通膨壓力，並可能推高中性利率。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-44ba8a26f93384948035"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-44ba8a26f93384948035",
+                  "time": "2026-05-29T03:24:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Barkin: AI investment is creating inflation pressure and may be pushing up the neutral interest rate."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Mary Daly",
@@ -209,7 +829,100 @@
           "priority": 14,
           "position": "San Francisco Fed President",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-02",
+              "summary_zh": "政策微幅具限制性並支持漸進主義，通膨隨關稅與石油上升，但勞動與消費仍具韌性。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-148d5007f5e66cc57879"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-148d5007f5e66cc57879",
+                  "time": "2026-07-02T20:18:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Daly: Policy is slightly restrictive and she favors gradualism; inflation rose with tariffs and oil but labor and consumers remain resilient, leaving both persistent-inflation and weaker-growth scenarios open."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-05",
+              "summary_zh": "關稅和石油正推高當前通膨，首要任務是在不對經濟造成不必要傷害的情況下恢復價格穩定。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-47a0da6d312128f43f40"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-47a0da6d312128f43f40",
+                  "time": "2026-06-05T01:27:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Daly: Tariffs and oil are driving current inflation while broad AI productivity effects are not yet visible; restoring price stability is the priority without unnecessarily harming the economy."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-04",
+              "summary_zh": "政策處於良好位置且應依賴數據，通膨是首要擔憂，而勞動市場仍具韌性且穩定。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-665eb9d5da8782446b89"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-665eb9d5da8782446b89",
+                  "time": "2026-06-04T23:50:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Daly: Policy is in a good place and should remain data-dependent without forward guidance; inflation is the top concern while the labor market is resilient and stable."
+                }
+              ]
+            },
+            {
+              "date": "2026-05-30",
+              "summary_zh": "人工智慧最終可能提高生產力並降低通膨，但必須在不造成不必要經濟損害的情況下恢復價格穩定。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-654b77da7098569a175f"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-654b77da7098569a175f",
+                  "time": "2026-05-30T01:15:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Daly: AI may eventually lift productivity and reduce inflation without mass unemployment, but price stability must be restored without unnecessary economic damage."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Susan Collins",
@@ -233,7 +946,77 @@
           "priority": 17,
           "position": "Kansas City Fed President",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-17",
+              "summary_zh": "通膨過熱、具持續性且範圍廣泛，近期數據雖令人鼓舞但仍嫌不足，勞動市場則大致穩定。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-a964eef7fdc19927cd64"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-a964eef7fdc19927cd64",
+                  "time": "2026-07-17T01:25:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Schmid: Inflation is too hot, persistent and broad-based; recent data are encouraging but insufficient, while the labor market is roughly stable."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-05",
+              "summary_zh": "通膨是經濟的最大風險，美聯儲必須在保持耐心與升息之間做出抉擇，並避免假設石油衝擊是暫時的。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-3158adb089f4f7672853"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-3158adb089f4f7672853",
+                  "time": "2026-06-05T01:38:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Schmid: Inflation is the economy's biggest risk; the Fed must decide between patience and rate hikes, keep the 2% message clear, and avoid assuming the oil shock is transitory."
+                }
+              ]
+            },
+            {
+              "date": "2026-05-29",
+              "summary_zh": "通膨過熱且不應被視為暫時性，政策限制性不足，可能需要調升利率或限制資產負債表。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-00e964ffecc80941577b"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-00e964ffecc80941577b",
+                  "time": "2026-05-29T18:27:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Schmid: Inflation is too hot and should not be assumed transitory; policy is not very restrictive and may need tighter rates or balance-sheet restraint, while growth and employment remain balanced."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Anna Paulson",
@@ -241,7 +1024,31 @@
           "priority": 18,
           "position": "Philadelphia Fed President",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-05-29",
+              "summary_zh": "通膨過高並拖累經濟，但溫和限制性的政策定位良好，維持利率不變可觀察更多數據。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-d6e629ca691f89641b95"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-d6e629ca691f89641b95",
+                  "time": "2026-05-29T21:15:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Paulson: Inflation is too high and weighing on the economy, but mildly restrictive policy is well positioned; holding rates allows more data while growth stays modest and employment near full."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Raphael Bostic",
@@ -263,7 +1070,100 @@
           "priority": 1,
           "position": "Governor",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-14",
+              "summary_zh": "海灣地區的不穩定使前景蒙上陰影，精煉油價格跌幅不及預期，英國經濟成長是關鍵問題。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-ca935b98856e487407cd"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-ca935b98856e487407cd",
+                  "time": "2026-07-14T16:54:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Gov. Bailey: Gulf instability clouds the outlook; refined prices have not fallen as much and UK growth is the key issue."
+                }
+              ]
+            },
+            {
+              "date": "2026-07-01",
+              "summary_zh": "降息已不在考慮範圍內，維持利率不變反映了經濟放緩，決策者正評估能源價格的轉嫁效應。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-84dd80e709232da9b6af"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-84dd80e709232da9b6af",
+                  "time": "2026-07-01T21:11:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Bailey: Rate cuts are off the table; holding reflected a softening economy while policymakers assess energy-price pass-through."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-18",
+              "summary_zh": "若二次效應增強應迅速應對，高能源價格絕不能轉化為持續性通膨。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-60d6d7bec8398c3ec8b3"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-60d6d7bec8398c3ec8b3",
+                  "time": "2026-06-18T19:03:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Bailey, Breeden and Lombardelli: Respond quickly if second-round effects strengthen; higher energy prices must not become persistent inflation."
+                }
+              ]
+            },
+            {
+              "date": "2026-05-29",
+              "summary_zh": "經濟與勞動市場的疲軟，合理化了容忍暫時高於目標通膨的決定，除非出現二次效應。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-cd8ebd9fb5e904df7367"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-cd8ebd9fb5e904df7367",
+                  "time": "2026-05-29T17:16:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Bailey: Economic and labour-market softness justify tolerating temporary above-target inflation, unless second-round effects emerge."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Clare Lombardelli",
@@ -271,7 +1171,38 @@
           "priority": 2,
           "position": "Deputy Governor, Monetary Policy",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-06-18",
+              "summary_zh": "在了解更多衝擊前維持利率不變是合適的，若二次效應增強應迅速應對以防高能源價格轉為持續通膨。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-a88cc39643b0f2a5931e",
+                "manual-60d6d7bec8398c3ec8b3"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-a88cc39643b0f2a5931e",
+                  "time": "2026-06-18T19:00:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: Holding is appropriate while learning more about the shock; demand has not deteriorated rapidly."
+                },
+                {
+                  "id": "manual-60d6d7bec8398c3ec8b3",
+                  "time": "2026-06-18T19:03:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Bailey, Breeden and Lombardelli: Respond quickly if second-round effects strengthen; higher energy prices must not become persistent inflation."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Huw Pill",
@@ -279,7 +1210,100 @@
           "priority": 3,
           "position": "Chief Economist / MPC Member",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-10",
+              "summary_zh": "生產力已放緩，未來一年內將需要調升利率。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-c6fe6c31803361f127b7"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-c6fe6c31803361f127b7",
+                  "time": "2026-07-10T02:47:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Pill: Productivity has slowed and interest rates will need to rise in the year ahead."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-29",
+              "summary_zh": "脫歐使英國更容易出現自我維持的通膨，且中短期通膨預期更為重要。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-3504889dc71d82c32ac3"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-3504889dc71d82c32ac3",
+                  "time": "2026-06-29T13:56:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Pill: Brexit made the UK more prone to self-sustaining inflation and short-to-medium expectations matter more."
+                }
+              ]
+            },
+            {
+              "date": "2026-05-14",
+              "summary_zh": "迅速但溫和地升息是有利的，應保持利率具限制性以防止二次效應失控。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-b6b885223e336ada31ef"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-b6b885223e336ada31ef",
+                  "time": "2026-05-14T23:33:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Pill: A prompt but modest rate increase is advantageous; keep rates restrictive and prevent second-round effects from becoming uncontrolled."
+                }
+              ]
+            },
+            {
+              "date": "2026-05-01",
+              "summary_zh": "貨幣政策應對新的通膨壓力做出更迅速的反應。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-58e8dd7b1352857a245d"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-58e8dd7b1352857a245d",
+                  "time": "2026-05-01T20:20:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Pill: Policy should respond more promptly to new inflation pressure."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Dave Ramsden",
@@ -295,7 +1319,77 @@
           "priority": 5,
           "position": "Deputy Governor, Financial Stability",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-16",
+              "summary_zh": "若非戰爭影響通膨本應處於2%，央行對通膨風險仍保持警惕。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-d4a3f9ba77b73b081543"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-d4a3f9ba77b73b081543",
+                  "time": "2026-07-16T16:00:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Breeden: Absent the war inflation would be at 2%; the Bank remains vigilant to inflation risks."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-18",
+              "summary_zh": "若二次效應增強應迅速應對，高能源價格絕不能轉化為持續性通膨。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-60d6d7bec8398c3ec8b3"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-60d6d7bec8398c3ec8b3",
+                  "time": "2026-06-18T19:03:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Bailey, Breeden and Lombardelli: Respond quickly if second-round effects strengthen; higher energy prices must not become persistent inflation."
+                }
+              ]
+            },
+            {
+              "date": "2026-05-14",
+              "summary_zh": "政策不能永遠等待，但6月或7月不一定需要採取行動。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-eac0b85791d0c1ada5eb"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-eac0b85791d0c1ada5eb",
+                  "time": "2026-05-14T13:15:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Breeden: Policy cannot wait forever, but action is not necessarily needed in June or July."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Catherine Mann",
@@ -303,7 +1397,77 @@
           "priority": 6,
           "position": "External MPC Member",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-02",
+              "summary_zh": "通膨持續性與預期上升支持更長時間的維持利率不變，甚至可能採取主動行動。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-5a61afc79e0018a88748"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-5a61afc79e0018a88748",
+                  "time": "2026-07-02T22:02:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Mann: Inflation persistence and elevated expectations justify a longer hold and potentially an activist move; H2 data are crucial."
+                }
+              ]
+            },
+            {
+              "date": "2026-05-20",
+              "summary_zh": "2026年底的通膨可能會深植於2027年的薪資協議中，且勞動市場放緩並非普遍現象。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-942c3cd926169a0df0c1"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-942c3cd926169a0df0c1",
+                  "time": "2026-05-20T21:28:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Mann: Late-2026 inflation could become embedded in 2027 wage deals; labour-market softening is not broad-based."
+                }
+              ]
+            },
+            {
+              "date": "2026-05-13",
+              "summary_zh": "通膨與經濟活動的權衡非常嚴峻，政策無法抵消初始能源衝擊，過度緊縮可能放大金融狀況。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-8389ce2ddf0cb2adad7c"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-8389ce2ddf0cb2adad7c",
+                  "time": "2026-05-13T22:04:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Mann: Inflation-activity trade-off is stark; policy cannot offset the initial energy shock and excessive tightening could amplify financial conditions."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Swati Dhingra",
@@ -311,7 +1475,77 @@
           "priority": 7,
           "position": "External MPC Member",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-06-18",
+              "summary_zh": "價格風險偏向上行，經濟活動風險偏向下行。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-8a55709fa5d604f981f4"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-8a55709fa5d604f981f4",
+                  "time": "2026-06-18T19:02:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Dhingra: Risks are skewed up for prices and down for activity."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-05",
+              "summary_zh": "未來的利率決策取決於能源價格，就業疲軟與價格壓力之間的平衡仍不確定。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-5d4bb44b811f4e353089"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-5d4bb44b811f4e353089",
+                  "time": "2026-06-05T22:15:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Dhingra: Future rate decisions depend on energy prices; balance between job weakness and price pressure remains uncertain."
+                }
+              ]
+            },
+            {
+              "date": "2026-05-20",
+              "summary_zh": "經濟過於疲軟無法支撐消費繁榮，在特定情境下目前的限制性政策可能已足夠。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-df482d839f2368211b56"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-df482d839f2368211b56",
+                  "time": "2026-05-20T21:30:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Dhingra: Economy is too weak for a consumption boom and current restrictiveness may be sufficient under Scenario B."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Alan Taylor",
@@ -319,7 +1553,54 @@
           "priority": 8,
           "position": "External MPC Member",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-06-23",
+              "summary_zh": "經濟疲軟與限制性政策支持延長維持利率不變，並準備在二次效應有限的溫和情境下降息。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-0f029f2f06ccfa9c0485"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-0f029f2f06ccfa9c0485",
+                  "time": "2026-06-23T21:20:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Taylor: Weak economy and restrictive policy justify an extended hold; be ready to cut under a benign scenario, with limited second-round effects."
+                }
+              ]
+            },
+            {
+              "date": "2026-05-21",
+              "summary_zh": "經濟疲軟且政策已具限制性，僅在二次效應風險變得不可接受時才升息，衰退機率為30-40%。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-ce045a022d3f9fd6315a"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-ce045a022d3f9fd6315a",
+                  "time": "2026-05-21T20:30:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Taylor: Economy is weak and policy already restrictive; hike only if second-round risks become unacceptable, with recession probability 30-40%."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Megan Greene",
@@ -327,7 +1608,77 @@
           "priority": 9,
           "position": "Former External MPC Member",
           "active": false,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-06-02",
+              "summary_zh": "儘早採取行動可能更合適，隨著衝突持續且二次效應增強，可能需要升息。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-5a8fe19cde0f9b65fd35"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-5a8fe19cde0f9b65fd35",
+                  "time": "2026-06-02T23:04:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Greene: Acting sooner may be preferable; rate hikes may be needed as conflict persists and second-round effects strengthen."
+                }
+              ]
+            },
+            {
+              "date": "2026-05-18",
+              "summary_zh": "能源衝擊的二次效應可能在未來一年內都不會顯現。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-770703b38e3f5a7d9dfb"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-770703b38e3f5a7d9dfb",
+                  "time": "2026-05-18T15:49:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Greene: Energy-shock second-round effects may not appear for another year."
+                }
+              ]
+            },
+            {
+              "date": "2026-05-11",
+              "summary_zh": "通膨風險偏向上行。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-89813173367f34968ccf"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-89813173367f34968ccf",
+                  "time": "2026-05-11T17:00:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Greene: Inflation risks are skewed to the upside."
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -341,7 +1692,146 @@
           "priority": 1,
           "position": "President",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-10",
+              "summary_zh": "通膨需要在約三年內回到目標水平。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-462b5992685a99171fb8"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-462b5992685a99171fb8",
+                  "time": "2026-07-10T02:21:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: Inflation needs to be back at target in roughly three years."
+                }
+              ]
+            },
+            {
+              "date": "2026-07-03",
+              "summary_zh": "6月的升息是正確的，供給衝擊正在擴散，但二次效應尚未顯現。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-dddb289c54c6b14de9b2"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-dddb289c54c6b14de9b2",
+                  "time": "2026-07-03T00:41:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: June hike was right; supply shock is spreading but second-round effects have not materialised."
+                }
+              ]
+            },
+            {
+              "date": "2026-07-01",
+              "summary_zh": "歐元區並未處於滯脹且風險更為平衡，應避免預設的前瞻性指引。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-a6d81504833e30538871"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-a6d81504833e30538871",
+                  "time": "2026-07-01T21:28:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Lagarde: Euro area is not in stagflation and risks are more balanced; avoid preset forward guidance."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-30",
+              "summary_zh": "戰爭創造了重大通膨壓力，歐洲經濟具韌性，若有需要歐洲央行可以升息。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-7b0a5416c4dbd1e7a5ed"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-7b0a5416c4dbd1e7a5ed",
+                  "time": "2026-06-30T02:58:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: War created major inflation pressure; Europe is resilient and ECB can raise rates if needed."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-22",
+              "summary_zh": "通膨風險上行且成長風險下行，在未出現預期脫錨或二次效應前，目前不會採取強硬行動。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-65cd49a0cad3a9b7c343"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-65cd49a0cad3a9b7c343",
+                  "time": "2026-06-22T21:00:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: Inflation risks are up and growth risks down; no forceful action yet absent de-anchoring or second-round effects."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-11",
+              "summary_zh": "升息25個基點且無預設路徑，預計通膨於2027下半年回到目標，面臨通膨上行與成長下行風險。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-41ef6caf4551e6d2702d"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-41ef6caf4551e6d2702d",
+                  "time": "2026-06-11T21:15:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Lagarde: ECB raised rates 25 bps; no preset path, inflation returns to target in 2H 2027, with upside inflation and downside growth risks."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Boris Vujčić",
@@ -357,7 +1847,123 @@
           "priority": 3,
           "position": "Chief Economist / Executive Board",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-06-30",
+              "summary_zh": "較低的油價必須傳導至經濟中，且2027至2028年的油價仍高於戰前水平。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-bfe84ebb7771eb02743e"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-bfe84ebb7771eb02743e",
+                  "time": "2026-06-30T14:17:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Lane: Lower oil must pass through the economy; 2027-28 oil prices remain above pre-war levels."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-23",
+              "summary_zh": "能源衝擊正擴大通膨，勞動市場與家庭資產負債表具韌性，通膨可能在2027年仍高於2%。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-5c4504f7ebe8f4e4fb64"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-5c4504f7ebe8f4e4fb64",
+                  "time": "2026-06-23T16:33:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Lane: Energy shock is broadening inflation; labour market and household balance sheets are resilient, and inflation may stay above 2% into 2027."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-19",
+              "summary_zh": "今年通膨將維持在3%以上，而經濟將保持穩定的成長動能。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-ab08ceffcb4de739cac1"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-ab08ceffcb4de739cac1",
+                  "time": "2026-06-19T15:10:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Lane: Inflation will remain above 3% this year while the economy retains steady momentum."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-18",
+              "summary_zh": "採取審慎應對是合理的，即使在較溫和的情境下升息也具合理性，同時應避免劇烈的利率變動。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-ce89d621b0cf2b6840ce"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-ce89d621b0cf2b6840ce",
+                  "time": "2026-06-18T20:26:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Lane: A measured response is warranted; hiking makes sense even under a milder scenario while avoiding abrupt rate changes."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-16",
+              "summary_zh": "通膨在一年後仍高於目標需要採取主動政策，能源衝擊將對食品、商品和服務產生間接影響。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-cbdc71b1fcfb355b536d"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-cbdc71b1fcfb355b536d",
+                  "time": "2026-06-16T21:38:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Lane: Inflation above target a year ahead requires proactive policy; energy shock will have indirect effects across food, goods and services."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Isabel Schnabel",
@@ -365,7 +1971,54 @@
           "priority": 4,
           "position": "Executive Board",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-06",
+              "summary_zh": "不能簡單地忽略此次衝擊，儘管油價下跌，供應鏈壓力依然高企。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-ab55f17f61eb2594d202"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-ab55f17f61eb2594d202",
+                  "time": "2026-07-06T23:03:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Schnabel: The shock cannot simply be looked through; supply-chain pressures remain elevated despite lower oil prices."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-25",
+              "summary_zh": "需要進一步升息以使通膨回到2%，停火並非放鬆警惕的理由。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-b1f294642c8c8f473929"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-b1f294642c8c8f473929",
+                  "time": "2026-06-25T15:04:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Schnabel: Further rate hikes are needed to return inflation to 2%; ceasefire is no reason to relax vigilance."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Piero Cipollone",
@@ -373,7 +2026,31 @@
           "priority": 5,
           "position": "Executive Board",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-01",
+              "summary_zh": "在新的經濟預測公佈前，應暫緩進一步升息。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-34c75ff64a59e218c46b"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-34c75ff64a59e218c46b",
+                  "time": "2026-07-01T12:30:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Cipollone: Hold off further hikes until new economic projections."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Frank Elderson",
@@ -389,7 +2066,123 @@
           "priority": 7,
           "position": "Germany",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-15",
+              "summary_zh": "6月升息後利率水平是合適的，若有需要將謹慎但果斷地做出反應。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-9a124819dfbfb7379306"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-9a124819dfbfb7379306",
+                  "time": "2026-07-15T15:09:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Nagel: Rates are appropriate after June; react cautiously but decisively if needed."
+                }
+              ]
+            },
+            {
+              "date": "2026-07-08",
+              "summary_zh": "採取逐次會議決定政策的方法是合適的。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-476eef9b36efeb3b4488"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-476eef9b36efeb3b4488",
+                  "time": "2026-07-08T19:51:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Nagel: Meeting-by-meeting approach is appropriate."
+                }
+              ]
+            },
+            {
+              "date": "2026-07-03",
+              "summary_zh": "在波動的能源狀況下保持警惕並保留政策選擇權。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-1a38cf4f174cb66a07f3"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-1a38cf4f174cb66a07f3",
+                  "time": "2026-07-03T23:51:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Nagel: Stay vigilant and preserve optionality amid volatile energy conditions."
+                }
+              ]
+            },
+            {
+              "date": "2026-07-01",
+              "summary_zh": "通膨仍然過高且至2027年仍高於目標，應對7月和9月的政策選項保持開放。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-f1a4b4411cefae86b873"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-f1a4b4411cefae86b873",
+                  "time": "2026-07-01T16:42:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Nagel: Inflation remains too high and above target into 2027; keep July and September options open."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-30",
+              "summary_zh": "能源衝擊仍存在於系統中，通膨可能會顯著高於目標。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-64ad91533222af7f0b10"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-64ad91533222af7f0b10",
+                  "time": "2026-06-30T15:09:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Nagel: Energy shock remains in the system and inflation may stay significantly above target."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Emmanuel Moulin",
@@ -397,7 +2190,77 @@
           "priority": 8,
           "position": "France",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-15",
+              "summary_zh": "歐洲央行需要對通膨的任何可能情況做好準備。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-04a22aa43a16d61ddc36"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-04a22aa43a16d61ddc36",
+                  "time": "2026-07-15T23:31:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Moulin: ECB needs to be ready for any eventuality on inflation."
+                }
+              ]
+            },
+            {
+              "date": "2026-07-03",
+              "summary_zh": "6月升息是正確的且未暗示新的升息週期，經濟成長可能維持疲軟，9月預測將引導後續步驟。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-3aaa461e6443a04aa065"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-3aaa461e6443a04aa065",
+                  "time": "2026-07-03T17:44:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Moulin: June hike was right, no new hiking cycle was signaled, growth likely remains weak, and September forecasts will guide next steps."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-12",
+              "summary_zh": "6月升息旨在遏制二次效應，石油正轉嫁至其他價格，但薪資尚未做出反應。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-3de40e896fe143dbace1"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-3de40e896fe143dbace1",
+                  "time": "2026-06-12T16:15:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Moulin: June hike aimed to contain second-round effects; oil is passing to other prices though wages have not yet responded."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Fabio Panetta",
@@ -405,7 +2268,54 @@
           "priority": 9,
           "position": "Italy",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-15",
+              "summary_zh": "歐元區通膨約為3%且預計維持至2027年初，政策必須錨定預期並限制二次效應。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-e49403def74dfe1b8810"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-e49403def74dfe1b8810",
+                  "time": "2026-07-15T16:46:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Panetta: Euro-zone inflation is around 3% and expected to remain above that level until early 2027; policy must keep expectations anchored and limit second-round effects."
+                }
+              ]
+            },
+            {
+              "date": "2026-07-07",
+              "summary_zh": "前景脆弱，隨著供給衝擊更加頻繁，面臨通膨上行與成長下行的風險。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-8d64e3176a6576753452"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-8d64e3176a6576753452",
+                  "time": "2026-07-07T15:30:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Panetta: Outlook is fragile, with upside inflation and downside growth risks as supply shocks become more frequent."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "José Luis Escrivá",
@@ -413,7 +2323,54 @@
           "priority": 10,
           "position": "Spain",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-08",
+              "summary_zh": "在每次會議的基礎上保持所有政策選項的開放。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-02bdf89abead6ca0d57d"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-02bdf89abead6ca0d57d",
+                  "time": "2026-07-08T17:45:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Escriva: Keep all policy options open on a meeting-by-meeting basis."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-23",
+              "summary_zh": "服務業通膨具持續性，且在高度不確定性中，石油正轉嫁至其他部門。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-68911a82daf52e6f1dc0"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-68911a82daf52e6f1dc0",
+                  "time": "2026-06-23T16:20:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Escriva: Services inflation is persistent and oil is passing through to other sectors amid high uncertainty."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Olaf Sleijpen",
@@ -421,7 +2378,31 @@
           "priority": 11,
           "position": "Netherlands",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-06-30",
+              "summary_zh": "較低的能源價格將影響通膨，而二次效應仍是關鍵的政策風險。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-02791ca302b895584142"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-02791ca302b895584142",
+                  "time": "2026-06-30T14:49:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Sleijpen: Lower energy prices will affect inflation; second-round effects remain the key policy risk."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Olli Rehn",
@@ -429,7 +2410,31 @@
           "priority": 12,
           "position": "Finland",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-06-30",
+              "summary_zh": "能源衝擊具滯脹性但預期維持錨定，應在不預先承諾的情況下逐次會議做出決定。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-4c1da6112c1b1a97fce5"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-4c1da6112c1b1a97fce5",
+                  "time": "2026-06-30T23:17:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Rehn: Energy shock is stagflationary but expectations remain anchored; decide meeting by meeting without precommitment."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Pierre Wunsch",
@@ -437,7 +2442,77 @@
           "priority": 13,
           "position": "Belgium",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-06",
+              "summary_zh": "薪資發展溫和，可能再次採取行動，但目前不需要大幅收緊政策。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-3ab00e3ad4f4ab4588a5"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-3ab00e3ad4f4ab4588a5",
+                  "time": "2026-07-06T23:52:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Wunsch: Wage developments are benign; another move is possible but significant tightening is not currently required."
+                }
+              ]
+            },
+            {
+              "date": "2026-07-01",
+              "summary_zh": "在沒有重大二次效應的情況下，再升息一次可能就足夠了。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-a09986ae6e5ca14d97be"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-a09986ae6e5ca14d97be",
+                  "time": "2026-07-01T16:39:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Wunsch: One additional hike may suffice without major second-round effects."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-30",
+              "summary_zh": "通膨將在幾季內維持在目標上方，可能需要再次升息，但不一定在7月。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-6318fc9266cb3cb68bc7"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-6318fc9266cb3cb68bc7",
+                  "time": "2026-06-30T15:18:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Wunsch: Inflation will stay above target for several quarters and another hike may be needed, though not necessarily in July."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Yannis Stournaras",
@@ -445,7 +2520,31 @@
           "priority": 14,
           "position": "Greece",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-02",
+              "summary_zh": "7月可能維持利率不變，應監測戰爭對價格的間接影響，並在當前利率水平維持一段時間。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-4904e18a1f3a17772cfe"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-4904e18a1f3a17772cfe",
+                  "time": "2026-07-02T01:37:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Stournaras: July likely on hold; monitor indirect war effects on prices and stay at current rates for some time."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Gabriel Makhlouf",
@@ -453,7 +2552,31 @@
           "priority": 15,
           "position": "Ireland",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-03",
+              "summary_zh": "歐洲央行有絕對的意志來實現2%的通膨目標。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-ec1bd0fd8329f78cb818"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-ec1bd0fd8329f78cb818",
+                  "time": "2026-07-03T23:38:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Makhlouf: ECB has the absolute will to deliver 2% inflation."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Peter Kažimír",
@@ -461,7 +2584,31 @@
           "priority": 16,
           "position": "Slovakia",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-06-12",
+              "summary_zh": "升息週期尚未結束，二次效應可能會顯現，且經濟能夠吸收更高的利率。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-a398717f5c7393065ca5"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-a398717f5c7393065ca5",
+                  "time": "2026-06-12T21:56:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Kazimir: Hike cycle is not complete; second-round effects may emerge and the economy can absorb higher rates."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Martin Kocher",
@@ -469,7 +2616,54 @@
           "priority": 17,
           "position": "Austria",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-15",
+              "summary_zh": "未觀察到二次效應，歐洲央行隨時準備採取必要行動以實現2%的通膨目標。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-b4ace3a32b0b92d8e899"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-b4ace3a32b0b92d8e899",
+                  "time": "2026-07-15T12:58:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Kocher: No second-round effects observed; ECB is ready to act whenever necessary to achieve 2% inflation."
+                }
+              ]
+            },
+            {
+              "date": "2026-07-01",
+              "summary_zh": "下一次決策是升息或維持不變，通膨威脅降低但未受控，薪資協議可能使通膨維持高位。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-aba4612908430f341356"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-aba4612908430f341356",
+                  "time": "2026-07-01T16:48:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Kocher: Next decision is hike or hold; inflation threat is lower but not contained and wage deals could keep inflation elevated."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Álvaro Santos Pereira",
@@ -485,7 +2679,31 @@
           "priority": 19,
           "position": "Latvia",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-01",
+              "summary_zh": "連續升息的緊迫性較低，目前不需要強硬回應，若情況改善可能避免進一步升息。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-3771ef8abf40bedaa1a9"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-3771ef8abf40bedaa1a9",
+                  "time": "2026-07-01T03:13:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Kazaks: Urgency for consecutive hikes is lower; no forceful response is currently needed and further hikes may be avoided if conditions improve."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Gediminas Šimkus",
@@ -493,7 +2711,31 @@
           "priority": 20,
           "position": "Lithuania",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-06-17",
+              "summary_zh": "可能還需要至少一次升息以抑制通膨預期。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-3a80d7d160455522daed"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-3a80d7d160455522daed",
+                  "time": "2026-06-17T15:00:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Simkus: At least one more rate increase is likely to cap inflation expectations."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Dimitar Radev",
@@ -509,7 +2751,31 @@
           "priority": 22,
           "position": "Estonia",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-01",
+              "summary_zh": "再升息一次是合理的，長期石油效應可能顯現，秋季薪資數據將使前景更明朗。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-6a1d355a473ffb40e634"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-6a1d355a473ffb40e634",
+                  "time": "2026-07-01T22:40:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Kaasik: One more rate hike is reasonable; longer-term oil effects are likely and autumn wage data will clarify."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Christodoulos Patsalides",
@@ -533,7 +2799,31 @@
           "priority": 25,
           "position": "Malta",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-01",
+              "summary_zh": "額外的緊縮可以等到新的預測公佈，目前沒有二次薪資或預期效應需要急於行動。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-36da80c1dda163048f87"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-36da80c1dda163048f87",
+                  "time": "2026-07-01T12:00:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Demarco: Additional tightening can wait until projections; no second-round wage or expectation effects warrant haste."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Primož Dolenc",
@@ -541,7 +2831,54 @@
           "priority": 26,
           "position": "Slovenia",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-08",
+              "summary_zh": "9月的預測將使前景更加明朗，7月的決策仍存在不確定性。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-8980adc5d0f7cbb46ee5"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-8980adc5d0f7cbb46ee5",
+                  "time": "2026-07-08T20:00:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Dolenc: September forecasts will clarify the outlook; July decision remains uncertain."
+                }
+              ]
+            },
+            {
+              "date": "2026-07-01",
+              "summary_zh": "7月暫停升息可能是合適的，若油價維持溫和，決策可以等到9月。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-04c54ada3e85f16e2960"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-04c54ada3e85f16e2960",
+                  "time": "2026-07-01T02:06:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Dolenc: July pause may be appropriate; if oil stays subdued, decision can wait until September."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Ante Žigman",
@@ -563,7 +2900,123 @@
           "priority": 1,
           "position": "Governor",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-06-24",
+              "summary_zh": "經濟正溫和復甦且環境維持寬鬆，隨著潛在通膨接近或超越2%，將繼續調升利率。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-53c293242b660739f940"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-53c293242b660739f940",
+                  "time": "2026-06-24T14:47:00+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: Economy is recovering moderately and conditions remain accommodative; continue raising rates as underlying inflation approaches or overshoots 2%."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-03",
+              "summary_zh": "基本立場是持續升息，石油擴大了價格壓力，且薪資成長接近5%，通膨上行風險正在增加。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-47a2c70a4f2a078a1e5c"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-47a2c70a4f2a078a1e5c",
+                  "time": "2026-06-03T16:32:00+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: Basic stance is continued rate hikes; oil broadens price pressure, wage growth is near 5%, and upside inflation risks are increasing."
+                }
+              ]
+            },
+            {
+              "date": "2026-05-27",
+              "summary_zh": "暫時性的石油衝擊可能變得持久，而寬鬆的金融環境將繼續支持經濟活動。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-1a99677d16f41ce18eef"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-1a99677d16f41ce18eef",
+                  "time": "2026-05-27T08:15:00+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Ueda: Temporary oil shocks can become persistent; easy financial conditions continue to support activity."
+                }
+              ]
+            },
+            {
+              "date": "2026-05-20",
+              "summary_zh": "國內生產毛額接近預測，但中東局勢影響已顯現，且長期殖利率正快速上升。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-a67c4eb1927e40fa31e9"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-a67c4eb1927e40fa31e9",
+                  "time": "2026-05-20T00:12:00+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: GDP is near forecast but Middle East effects have begun; long-term yields are rising rapidly."
+                }
+              ]
+            },
+            {
+              "date": "2026-04-28",
+              "summary_zh": "潛在通膨略低於2%但預計於2026下半年達標，若經濟未大幅放緩將繼續升息。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-308c718bd2c851a82743"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-308c718bd2c851a82743",
+                  "time": "2026-04-28T14:39:00+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: Underlying inflation is slightly below 2% but should reach 2% in H2 FY2026; continue raising rates if the economy avoids a major slowdown."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Shinichi Uchida",
@@ -571,7 +3024,38 @@
           "priority": 2,
           "position": "Deputy Governor",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-06-16",
+              "summary_zh": "將隨經濟與金融狀況繼續升息，每月2兆日圓的購債規模可調整資產負債表，若殖利率飆升將彈性增購。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-114f415f65e8c4559ee7",
+                "manual-6d15cc61c52704c91c90"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-114f415f65e8c4559ee7",
+                  "time": "2026-06-16T15:18:00+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Uchida: Continue raising rates as economy, prices and financial conditions evolve; delayed adjustment could require larger hikes, but no 50 bp proposal was made."
+                },
+                {
+                  "id": "manual-6d15cc61c52704c91c90",
+                  "time": "2026-06-16T15:29:00+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Uchida: 2 trillion yen monthly JGB buying can adjust the balance sheet; increase purchases flexibly if yields surge."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Ryozo Himino",
@@ -579,7 +3063,61 @@
           "priority": 3,
           "position": "Deputy Governor",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-06-19",
+              "summary_zh": "薪資與價格循環正趨於穩固，暫停縮減購債可給予投資人時間消化，將根據數據繼續升息。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-0b7e46865ad5be9f900b",
+                "manual-95d713a0121e1d217348"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-0b7e46865ad5be9f900b",
+                  "time": "2026-06-19T08:40:00+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Himino: Bond-taper pause gives investors time to absorb JGBs; policy must consider bank lending and allow market price discovery."
+                },
+                {
+                  "id": "manual-95d713a0121e1d217348",
+                  "time": "2026-06-19T09:04:00+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Himino: Wage-price cycle is becoming entrenched and core inflation nears 2%; delaying adjustment risks overshoot, so hikes likely continue based on data."
+                }
+              ]
+            },
+            {
+              "date": "2026-05-26",
+              "summary_zh": "中東局勢發展和全球通膨擔憂將影響下一次利率決策的時間點。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-eeb6292af406260614b4"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-eeb6292af406260614b4",
+                  "time": "2026-05-26T10:47:00+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Himino: Middle East developments and global inflation concerns will affect the timing of the next rate decision."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Hajime Takata",
@@ -587,7 +3125,31 @@
           "priority": 4,
           "position": "Policy Board Member",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-04-28",
+              "summary_zh": "價格穩定目標已基本達成，且受海外價格上漲的二次效應影響，通膨風險偏向上行。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-42e040de4454301bd47c"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-42e040de4454301bd47c",
+                  "time": "2026-04-28T11:06:00+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Takata: Price-stability goal is largely met and inflation risks tilt upward from secondary effects of overseas price increases."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Naoki Tamura",
@@ -595,7 +3157,84 @@
           "priority": 5,
           "position": "Policy Board Member",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-06-25",
+              "summary_zh": "反對暫停縮減購債並支持加速債券持有正常化，且核心通膨已達2%，應每隔幾個月升息至約2%的中性水平。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-561acb171d76208887b4",
+                "manual-24813518bfae8aa665c5"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-561acb171d76208887b4",
+                  "time": "2026-06-25T09:07:00+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Tamura: Opposed pausing bond taper and supports faster normalization of bond holdings; future balance-sheet size should be assessed from liabilities."
+                },
+                {
+                  "id": "manual-24813518bfae8aa665c5",
+                  "time": "2026-06-25T13:16:00+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Tamura: Underlying inflation has reached 2%; raise rates every few months toward roughly 2% neutral, accelerating or enlarging hikes if overshoot risks rise."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-16",
+              "summary_zh": "核心通膨已與價格穩定目標保持一致。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-1052082ca14a5ab77d79"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-1052082ca14a5ab77d79",
+                  "time": "2026-06-16T11:21:00+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Tamura: Underlying CPI is already aligned with the price-stability target."
+                }
+              ]
+            },
+            {
+              "date": "2026-04-28",
+              "summary_zh": "由於價格上行風險沉重，應繼續將政策利率向中性水平移動。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-f37f2d2c1b236e157c42"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-f37f2d2c1b236e157c42",
+                  "time": "2026-04-28T11:05:00+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Tamura: With price risks heavily upward, keep the policy rate moving toward neutral."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Junko Koeda",
@@ -603,7 +3242,31 @@
           "priority": 6,
           "position": "Policy Board Member",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-05-21",
+              "summary_zh": "核心通膨接近2%且通膨風險正在顯現，應在將國債持有正常化的同時以適當步伐升息。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-741d0cc1fda1c8d555cb"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-741d0cc1fda1c8d555cb",
+                  "time": "2026-05-21T13:38:00+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Koeda: Core inflation is near 2% and inflation risk is emerging; raise rates at an appropriate pace while normalizing JGB holdings."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Kazuyuki Masu",
@@ -619,7 +3282,54 @@
           "priority": 8,
           "position": "Policy Board Member",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-07",
+              "summary_zh": "不反對升息但希望看到由薪資和需求支撐的2%通膨，石油成本轉嫁迅速，政策應保持彈性。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-04ba8a9f3768b2801a00"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-04ba8a9f3768b2801a00",
+                  "time": "2026-07-07T23:00:00+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Asada: Not opposed to hikes but wants wage- and demand-backed 2% inflation; oil-cost pass-through is rapid and policy should remain flexible."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-16",
+              "summary_zh": "中東局勢對產出和就業的下行風險超過了價格上行風險，因此政策應謹慎應對。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-7ef740ce5292225cc3d2"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-7ef740ce5292225cc3d2",
+                  "time": "2026-06-16T11:19:00+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Asada: Middle East downside risks to output and jobs exceed upside price risks, so policy should respond cautiously."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Ayano Sato",
@@ -627,7 +3337,31 @@
           "priority": 9,
           "position": "Policy Board Member",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-06-30",
+              "summary_zh": "弱勢日圓推高進口成本並降低實質收入，企業調升薪資與價格正增加外匯對通膨的傳導。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-104f18f841ff9b6f8648"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-104f18f841ff9b6f8648",
+                  "time": "2026-06-30T16:06:00+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Sato: Weak yen lifts import costs and lowers real income; firms are raising wages and prices, increasing FX pass-through to inflation."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Junko Nakagawa",
@@ -649,7 +3383,54 @@
           "priority": 1,
           "position": "Governor / Monetary Policy Board Chair",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-06-16",
+              "summary_zh": "數據符合預期但仍可能進一步緊縮，若等待通膨自行緩解可能會為時已晚。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-176ec513b173dc0a5e4b"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-176ec513b173dc0a5e4b",
+                  "time": "2026-06-16T13:32:00+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA's Gov. Bullock: Data match expectations but further tightening remains possible; waiting for inflation to ease may be too late."
+                }
+              ]
+            },
+            {
+              "date": "2026-06-04",
+              "summary_zh": "通膨與失業的權衡正在惡化，但目前並未擔憂薪資-價格螺旋上升。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-d5b103b76448696bc38b"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-d5b103b76448696bc38b",
+                  "time": "2026-06-04T13:36:00+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA's Gov. Bullock: Inflation-unemployment trade-off is worsening, though a wage-price spiral is not currently a concern."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Andrew Hauser",
@@ -657,7 +3438,31 @@
           "priority": 2,
           "position": "Deputy Governor / Monetary Policy Board Deputy Chair",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-06-24",
+              "summary_zh": "通膨仍然過高，及時的政策與先前的升息能減輕過度的產能壓力，並可能降低失業成本。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-42e14e5ad76f4abbff6a"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-42e14e5ad76f4abbff6a",
+                  "time": "2026-06-24T14:30:00+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA's Hauser: Inflation remains far too high; timely policy and prior hikes reduce excessive capacity pressure and may lower unemployment costs."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Sarah Hunter",
@@ -665,7 +3470,54 @@
           "priority": 3,
           "position": "Assistant Governor, Economic",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-07-08",
+              "summary_zh": "石油衝擊可能推升通膨預期，政策應抑制間接與二次效應，可能需要更高的失業率以恢復低通膨。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-3f140fa77f34eaeba61c"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-3f140fa77f34eaeba61c",
+                  "time": "2026-07-08T09:40:00+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA's Hunter: Oil shocks may lift inflation expectations; policy should curb indirect and second-round effects and may require higher unemployment to restore low stable inflation."
+                }
+              ]
+            },
+            {
+              "date": "2026-05-19",
+              "summary_zh": "通膨預期風險升高，石油成本轉嫁可能更快更廣，企業正計劃調高零售價格。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-c3d435b4a91da4d78766"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-c3d435b4a91da4d78766",
+                  "time": "2026-05-19T07:25:00+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA's Hunter: Inflation-expectation risk is elevated; oil-cost pass-through may be faster and broader, with firms planning retail price increases."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Christopher Kent",
@@ -689,7 +3541,31 @@
           "priority": 6,
           "position": "Monetary Policy Board Member",
           "active": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-06-02",
+              "summary_zh": "通膨持續性仍是一個重大問題。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "manual-4410e590d425d6f0578f"
+              ],
+              "source_headlines": [
+                {
+                  "id": "manual-4410e590d425d6f0578f",
+                  "time": "2026-06-02T09:15:00+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA's Harper: Inflation persistence remains a significant issue."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Renée Fry-McKibbin",
@@ -743,16 +3619,16 @@
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 3069,
-    "candidatesTokenCount": 920,
-    "totalTokenCount": 7567,
+    "promptTokenCount": 14811,
+    "candidatesTokenCount": 13829,
+    "totalTokenCount": 58529,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 3069
+        "tokenCount": 14811
       }
     ],
-    "thoughtsTokenCount": 3578,
+    "thoughtsTokenCount": 29889,
     "serviceTier": "standard"
   }
 }

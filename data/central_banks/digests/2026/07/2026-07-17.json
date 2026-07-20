@@ -2,9 +2,39 @@
   "date": "2026-07-17",
   "timezone": "Asia/Taipei",
   "model": "gemini-3.5-flash",
-  "source_generated_at": "2026-07-20T11:42:23.599752+08:00",
-  "talk_count": 1,
+  "source_generated_at": "2026-07-20T14:40:42.568617+08:00",
+  "talk_count": 4,
   "talks": [
+    {
+      "central_bank": "FED",
+      "central_bank_display_name": "Fed",
+      "official": "Philip Jefferson",
+      "headline_name": "Jefferson",
+      "priority": 3,
+      "position": "Vice Chair / Governor",
+      "active": true,
+      "date": "2026-07-17",
+      "summary_zh": "政策定位良好以應對數據，能源、貿易與AI衝擊可能影響產出與通膨，重複衝擊可能動搖預期。",
+      "topics": {
+        "economy": "",
+        "inflation": "",
+        "labor_market": "",
+        "monetary_policy": "",
+        "interest_rates": "",
+        "balance_sheet": ""
+      },
+      "source_ids": [
+        "manual-2ceb1a1a40ee3dcf35c1"
+      ],
+      "source_headlines": [
+        {
+          "id": "manual-2ceb1a1a40ee3dcf35c1",
+          "time": "2026-07-17T07:10:00+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Jefferson: Policy is well positioned to respond to incoming data; energy, trade and AI shocks may affect output and inflation, and repeated shocks could destabilize expectations."
+        }
+      ]
+    },
     {
       "central_bank": "FED",
       "central_bank_display_name": "Fed",
@@ -14,16 +44,17 @@
       "position": "Cleveland Fed President",
       "active": true,
       "date": "2026-07-17",
-      "summary_zh": "聯準會官員 Hammack 表示，目前經濟成長良好且消費者支出穩定，勞動市場正處於最大就業水平附近，但通膨依然過高且來源廣泛（核心 PCE 即時預測為 3.3%），持續的高通膨是更大的擔憂，雙重使命並無衝突，企業界也認為需要採取行動來遏制通膨。",
+      "summary_zh": "通膨過高且範圍廣泛，核心通膨預估為3.3%，持續高通膨是更大擔憂，勞動市場則接近最大就業。",
       "topics": {
-        "economy": "經濟成長數據良好且消費者支出穩定，企業面臨能源成本、供應鏈中斷、保險及人工智慧數據中心建設等壓力。",
-        "inflation": "通膨過高且來源廣泛，核心PCE即時預測為3.3%，持續的高通膨是目前更大的擔憂。",
-        "labor_market": "勞動市場正處於最大就業水平附近。",
-        "monetary_policy": "雙重使命之間並無衝突，企業界認為需要採取行動來遏制通膨。",
+        "economy": "",
+        "inflation": "",
+        "labor_market": "",
+        "monetary_policy": "",
         "interest_rates": "",
         "balance_sheet": ""
       },
       "source_ids": [
+        "manual-1f400731ac891c9d1b96",
         "b030b1b01ea32da392ad2b62a472ae107a749adaae2feb8e4542aad72893562b",
         "48375de1e42c46681ae6ae3af66986bdc23231732c97365ef92eb732d576132b",
         "e1e13d281742ee36754b9a2c14754fcc533c80a9eeabbee020f41a70d177018c",
@@ -36,6 +67,12 @@
         "d38b6f44e9095a24f81948bf7d3c7b8791dd6019543eb68f523ce844b61a927a"
       ],
       "source_headlines": [
+        {
+          "id": "manual-1f400731ac891c9d1b96",
+          "time": "2026-07-17T22:05:00+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Hammack: Inflation is too high and broad-based while growth and consumer spending remain solid; the labor market is near maximum employment, making persistent inflation the bigger concern."
+        },
         {
           "id": "b030b1b01ea32da392ad2b62a472ae107a749adaae2feb8e4542aad72893562b",
           "time": "2026-07-17T22:05:37+08:00",
@@ -95,6 +132,73 @@
           "time": "2026-07-17T22:06:53+08:00",
           "central_bank": "FED",
           "headline": "Fed's Hammack: Hearing from businesses who say they think we need to take action to curb inflation, and from consumers who can’t make ends meet about a growing sense of despair."
+        }
+      ]
+    },
+    {
+      "central_bank": "FED",
+      "central_bank_display_name": "Fed",
+      "official": "Lorie Logan",
+      "headline_name": "Logan",
+      "priority": 10,
+      "position": "Dallas Fed President",
+      "active": true,
+      "date": "2026-07-17",
+      "summary_zh": "通膨無法自行持續回落至2%，微幅調升利率能更好平衡前景，且資產負債表應具效率而非設定固定規模。",
+      "topics": {
+        "economy": "",
+        "inflation": "",
+        "labor_market": "",
+        "monetary_policy": "",
+        "interest_rates": "",
+        "balance_sheet": ""
+      },
+      "source_ids": [
+        "manual-f2c4e3afbbbe259e28fa",
+        "manual-87e06b88b8ec640a6549"
+      ],
+      "source_headlines": [
+        {
+          "id": "manual-f2c4e3afbbbe259e28fa",
+          "time": "2026-07-17T01:15:00+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Logan: Inflation is not returning sustainably to 2% on its own, employment downside risks have faded, and modestly higher rates would better balance the outlook."
+        },
+        {
+          "id": "manual-87e06b88b8ec640a6549",
+          "time": "2026-07-17T02:01:00+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Logan: Wages are not currently inflationary, but AI investment and data-center electricity demand add near-term price pressure; the balance sheet should be efficient rather than target a fixed size."
+        }
+      ]
+    },
+    {
+      "central_bank": "FED",
+      "central_bank_display_name": "Fed",
+      "official": "Jeffrey Schmid",
+      "headline_name": "Schmid",
+      "priority": 17,
+      "position": "Kansas City Fed President",
+      "active": true,
+      "date": "2026-07-17",
+      "summary_zh": "通膨過熱、具持續性且範圍廣泛，近期數據雖令人鼓舞但仍嫌不足，勞動市場則大致穩定。",
+      "topics": {
+        "economy": "",
+        "inflation": "",
+        "labor_market": "",
+        "monetary_policy": "",
+        "interest_rates": "",
+        "balance_sheet": ""
+      },
+      "source_ids": [
+        "manual-a964eef7fdc19927cd64"
+      ],
+      "source_headlines": [
+        {
+          "id": "manual-a964eef7fdc19927cd64",
+          "time": "2026-07-17T01:25:00+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Schmid: Inflation is too hot, persistent and broad-based; recent data are encouraging but insufficient, while the labor market is roughly stable."
         }
       ]
     }
