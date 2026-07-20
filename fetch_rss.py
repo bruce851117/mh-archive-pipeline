@@ -23,6 +23,17 @@ ARCHIVE_DIRECTORY = DATA_DIRECTORY / "archive"
 LATEST_FILE = DATA_DIRECTORY / "latest_24h.json"
 STATUS_FILE = DATA_DIRECTORY / "fetch_status.json"
 
+CENTRAL_BANK_CONFIG_FILE = Path("central_bank_officials.json")
+CENTRAL_BANK_DIRECTORY = DATA_DIRECTORY / "central_banks"
+CENTRAL_BANK_RAW_DIRECTORY = CENTRAL_BANK_DIRECTORY / "raw"
+CENTRAL_BANK_LATEST_90D_FILE = (
+    CENTRAL_BANK_DIRECTORY / "latest_90d.json"
+)
+CENTRAL_BANK_STATUS_FILE = (
+    CENTRAL_BANK_DIRECTORY / "filter_status.json"
+)
+CENTRAL_BANK_LOOKBACK_DAYS = 90
+
 REQUEST_TIMEOUT_SECONDS = 30
 
 USER_AGENT = (
@@ -55,6 +66,10 @@ def ensure_directories() -> None:
     """建立資料目錄。"""
     DATA_DIRECTORY.mkdir(parents=True, exist_ok=True)
     ARCHIVE_DIRECTORY.mkdir(parents=True, exist_ok=True)
+    CENTRAL_BANK_RAW_DIRECTORY.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
 
 
 def normalize_text(value: Any) -> str:
@@ -357,6 +372,283 @@ def write_json(file_path: Path, data: Any) -> None:
     temporary_file.replace(file_path)
 
 
+def load_central_bank_config() -> dict[str, Any]:
+    """讀取央行前綴與官員設定。"""
+    if not CENTRAL_BANK_CONFIG_FILE.exists():
+        raise FileNotFoundError(
+            "Central bank config does not exist: "
+            f"{CENTRAL_BANK_CONFIG_FILE}"
+        )
+
+    try:
+        with CENTRAL_BANK_CONFIG_FILE.open(
+            "r",
+            encoding="utf-8",
+        ) as file:
+            config = json.load(file)
+    except (json.JSONDecodeError, OSError) as error:
+        raise RuntimeError(
+            "Unable to read central bank config: "
+            f"{error}"
+        ) from error
+
+    if not isinstance(config, dict):
+        raise RuntimeError(
+            "central_bank_officials.json must contain "
+            "a JSON object."
+        )
+
+    filter_prefixes = config.get("filter_prefixes")
+
+    if not isinstance(filter_prefixes, dict):
+        raise RuntimeError(
+            "central_bank_officials.json is missing "
+            "filter_prefixes."
+        )
+
+    return config
+
+
+def identify_central_bank(
+    headline: str,
+    filter_prefixes: dict[str, Any],
+) -> str | None:
+    """
+    僅依央行所有格前綴辨識談話。
+
+    使用casefold，因此Fed、FED、FeD等大小寫都能匹配；
+    同時支援半形撇號與彎曲撇號。
+    """
+    normalized_headline = normalize_text(headline).casefold()
+
+    if not normalized_headline:
+        return None
+
+    for central_bank, prefixes in filter_prefixes.items():
+        if not isinstance(prefixes, list):
+            continue
+
+        for prefix in prefixes:
+            normalized_prefix = normalize_text(prefix).casefold()
+
+            if normalized_prefix and normalized_prefix in normalized_headline:
+                return normalize_text(central_bank).upper()
+
+    return None
+
+
+def filter_central_bank_headlines(
+    items: list[dict[str, Any]],
+    config: dict[str, Any],
+) -> list[dict[str, Any]]:
+    """從本次RSS項目中找出Fed、BoE、ECB、BoJ及RBA談話。"""
+    filter_prefixes = config["filter_prefixes"]
+    selected: dict[str, dict[str, Any]] = {}
+
+    for item in items:
+        central_bank = identify_central_bank(
+            normalize_text(item.get("headline")),
+            filter_prefixes,
+        )
+
+        if central_bank is None:
+            continue
+
+        item_id = normalize_text(item.get("id"))
+
+        if not item_id:
+            continue
+
+        selected[item_id] = {
+            "id": item_id,
+            "published_at": normalize_text(
+                item.get("published_at")
+            ),
+            "timezone": "Asia/Taipei",
+            "utc_offset": "+08:00",
+            "taipei_date": normalize_text(
+                item.get("taipei_date")
+            ),
+            "central_bank": central_bank,
+            "headline": normalize_text(item.get("headline")),
+            "source": normalize_text(item.get("source"))
+            or "FinancialJuice",
+            "fetched_at": normalize_text(item.get("fetched_at")),
+        }
+
+    return sorted(
+        selected.values(),
+        key=lambda item: item.get("published_at", ""),
+        reverse=True,
+    )
+
+
+def get_central_bank_archive_file(
+    taipei_date: str,
+) -> Path:
+    """取得央行談話每日歷史檔路徑。"""
+    try:
+        parsed_date = datetime.strptime(
+            taipei_date,
+            "%Y-%m-%d",
+        )
+    except ValueError as error:
+        raise ValueError(
+            f"Invalid central bank Taipei date: {taipei_date}"
+        ) from error
+
+    month_directory = (
+        CENTRAL_BANK_RAW_DIRECTORY
+        / parsed_date.strftime("%Y")
+        / parsed_date.strftime("%m")
+    )
+    month_directory.mkdir(parents=True, exist_ok=True)
+
+    return month_directory / f"{taipei_date}.json"
+
+
+def save_central_bank_archives(
+    items: list[dict[str, Any]],
+) -> tuple[int, list[str]]:
+    """將央行談話依台灣日期永久保存。"""
+    items_by_date: dict[str, list[dict[str, Any]]] = {}
+
+    for item in items:
+        taipei_date = normalize_text(item.get("taipei_date"))
+
+        if not taipei_date:
+            continue
+
+        items_by_date.setdefault(taipei_date, []).append(item)
+
+    total_new_items = 0
+    changed_files: list[str] = []
+
+    for taipei_date, date_items in items_by_date.items():
+        archive_file = get_central_bank_archive_file(
+            taipei_date
+        )
+        existing_items = load_json_list(archive_file)
+        merged_items, new_item_count = merge_items(
+            existing_items=existing_items,
+            incoming_items=date_items,
+        )
+
+        if new_item_count > 0 or not archive_file.exists():
+            write_json(archive_file, merged_items)
+            changed_files.append(str(archive_file))
+
+        total_new_items += new_item_count
+
+    return total_new_items, changed_files
+
+
+def generate_central_bank_latest_90d(
+    now: datetime,
+) -> list[dict[str, Any]]:
+    """由央行每日歷史檔建立最近90天快速檔。"""
+    cutoff_time = now - timedelta(
+        days=CENTRAL_BANK_LOOKBACK_DAYS
+    )
+    latest_items: dict[str, dict[str, Any]] = {}
+
+    for archive_file in CENTRAL_BANK_RAW_DIRECTORY.glob(
+        "*/*/*.json"
+    ):
+        for item in load_json_list(archive_file):
+            published_datetime = parse_iso_datetime(
+                normalize_text(item.get("published_at"))
+            )
+
+            if published_datetime is None:
+                continue
+
+            if (
+                published_datetime.astimezone(timezone.utc)
+                < cutoff_time
+            ):
+                continue
+
+            item_id = normalize_text(item.get("id"))
+
+            if item_id:
+                latest_items[item_id] = item
+
+    return sorted(
+        latest_items.values(),
+        key=lambda item: item.get("published_at", ""),
+        reverse=True,
+    )
+
+
+def count_central_bank_items(
+    items: list[dict[str, Any]],
+) -> dict[str, int]:
+    """依央行統計Headline數量。"""
+    counts = {
+        "FED": 0,
+        "BOE": 0,
+        "ECB": 0,
+        "BOJ": 0,
+        "RBA": 0,
+    }
+
+    for item in items:
+        central_bank = normalize_text(
+            item.get("central_bank")
+        ).upper()
+
+        if central_bank in counts:
+            counts[central_bank] += 1
+
+    return counts
+
+
+def write_central_bank_status(
+    *,
+    status: str,
+    fetched_at: datetime,
+    matched_this_fetch: list[dict[str, Any]],
+    new_item_count: int,
+    latest_90d_items: list[dict[str, Any]],
+    changed_files: list[str],
+    error_message: str = "",
+) -> None:
+    """寫入央行Headline篩選狀態。"""
+    write_json(
+        CENTRAL_BANK_STATUS_FILE,
+        {
+            "status": status,
+            "timezone": "Asia/Taipei",
+            "utc_offset": "+08:00",
+            "last_attempt_at": format_taipei_time(fetched_at),
+            "lookback_days": CENTRAL_BANK_LOOKBACK_DAYS,
+            "matched_this_fetch_count": len(
+                matched_this_fetch
+            ),
+            "matched_this_fetch_by_bank": (
+                count_central_bank_items(matched_this_fetch)
+            ),
+            "new_item_count": new_item_count,
+            "latest_90d_count": len(latest_90d_items),
+            "latest_90d_by_bank": count_central_bank_items(
+                latest_90d_items
+            ),
+            "changed_files": changed_files,
+            "error": error_message,
+            **(
+                {
+                    "last_success_at": format_taipei_time(
+                        fetched_at
+                    )
+                }
+                if status == "success"
+                else {}
+            ),
+        },
+    )
+
+
 def merge_items(
     existing_items: list[dict[str, Any]],
     incoming_items: list[dict[str, Any]],
@@ -569,6 +861,44 @@ def main() -> int:
             rss_items
         )
 
+        central_bank_config = load_central_bank_config()
+        central_bank_items = filter_central_bank_headlines(
+            rss_items,
+            central_bank_config,
+        )
+        (
+            central_bank_new_item_count,
+            central_bank_changed_files,
+        ) = save_central_bank_archives(central_bank_items)
+
+        central_bank_latest_90d = (
+            generate_central_bank_latest_90d(fetched_at)
+        )
+        write_json(
+            CENTRAL_BANK_LATEST_90D_FILE,
+            central_bank_latest_90d,
+        )
+
+        if (
+            str(CENTRAL_BANK_LATEST_90D_FILE)
+            not in central_bank_changed_files
+        ):
+            central_bank_changed_files.append(
+                str(CENTRAL_BANK_LATEST_90D_FILE)
+            )
+
+        write_central_bank_status(
+            status="success",
+            fetched_at=fetched_at,
+            matched_this_fetch=central_bank_items,
+            new_item_count=central_bank_new_item_count,
+            latest_90d_items=central_bank_latest_90d,
+            changed_files=central_bank_changed_files,
+        )
+
+        changed_files.extend(central_bank_changed_files)
+        changed_files.append(str(CENTRAL_BANK_STATUS_FILE))
+
         latest_24h_items = generate_latest_24h(fetched_at)
 
         write_json(
@@ -589,6 +919,22 @@ def main() -> int:
         )
 
         print(f"New items saved: {new_item_count}")
+        print(
+            "Central bank headlines matched this fetch: "
+            f"{len(central_bank_items)}"
+        )
+        print(
+            "New central bank headlines saved: "
+            f"{central_bank_new_item_count}"
+        )
+        print(
+            "Central bank headlines in latest 90 days: "
+            f"{len(central_bank_latest_90d)}"
+        )
+        print(
+            "Central bank counts: "
+            f"{count_central_bank_items(central_bank_latest_90d)}"
+        )
         print(
             "Items in latest 24 hours: "
             f"{len(latest_24h_items)}"

@@ -1,0 +1,116 @@
+{
+  "version": "2026-07-20",
+  "timezone": "Asia/Taipei",
+  "description": "每小時僅以央行名稱加所有格前綴篩選Headline；官員名單依政策重要性排序，供Gemini統一姓名與網頁呈現。priority越小越重要。",
+  "filter_prefixes": {
+    "FED": ["fed's", "fed’s"],
+    "BOE": ["boe's", "boe’s"],
+    "ECB": ["ecb's", "ecb’s"],
+    "BOJ": ["boj's", "boj’s"],
+    "RBA": ["rba's", "rba’s"]
+  },
+  "central_banks": {
+    "FED": {
+      "display_name": "Fed",
+      "officials": [
+        {"priority": 1, "headline_name": "Warsh", "display_name": "Kevin Warsh", "position": "Chair", "active": true},
+        {"priority": 2, "headline_name": "Williams", "display_name": "John Williams", "position": "New York Fed President / FOMC Vice Chair", "active": true},
+        {"priority": 3, "headline_name": "Jefferson", "display_name": "Philip Jefferson", "position": "Vice Chair / Governor", "active": true},
+        {"priority": 4, "headline_name": "Waller", "display_name": "Christopher Waller", "position": "Governor", "active": true},
+        {"priority": 5, "headline_name": "Bowman", "display_name": "Michelle Bowman", "position": "Governor", "active": true},
+        {"priority": 6, "headline_name": "Cook", "display_name": "Lisa Cook", "position": "Governor", "active": true},
+        {"priority": 7, "headline_name": "Barr", "display_name": "Michael Barr", "position": "Governor", "active": true},
+        {"priority": 8, "headline_name": "Powell", "display_name": "Jerome Powell", "position": "Governor", "active": true},
+        {"priority": 9, "headline_name": "Hammack", "display_name": "Beth Hammack", "position": "Cleveland Fed President", "active": true},
+        {"priority": 10, "headline_name": "Logan", "display_name": "Lorie Logan", "position": "Dallas Fed President", "active": true},
+        {"priority": 11, "headline_name": "Kashkari", "display_name": "Neel Kashkari", "position": "Minneapolis Fed President", "active": true},
+        {"priority": 12, "headline_name": "Goolsbee", "display_name": "Austan Goolsbee", "position": "Chicago Fed President", "active": true},
+        {"priority": 13, "headline_name": "Barkin", "display_name": "Thomas Barkin", "position": "Richmond Fed President", "active": true},
+        {"priority": 14, "headline_name": "Daly", "display_name": "Mary Daly", "position": "San Francisco Fed President", "active": true},
+        {"priority": 15, "headline_name": "Collins", "display_name": "Susan Collins", "position": "Boston Fed President", "active": true},
+        {"priority": 16, "headline_name": "Musalem", "display_name": "Alberto Musalem", "position": "St. Louis Fed President", "active": true},
+        {"priority": 17, "headline_name": "Schmid", "display_name": "Jeffrey Schmid", "position": "Kansas City Fed President", "active": true},
+        {"priority": 18, "headline_name": "Paulson", "display_name": "Anna Paulson", "position": "Philadelphia Fed President", "active": true},
+        {"priority": 19, "headline_name": "Bostic", "display_name": "Raphael Bostic", "position": "Atlanta Fed President", "active": true}
+      ]
+    },
+    "BOE": {
+      "display_name": "BoE",
+      "officials": [
+        {"priority": 1, "headline_name": "Bailey", "display_name": "Andrew Bailey", "position": "Governor", "active": true},
+        {"priority": 2, "headline_name": "Lombardelli", "display_name": "Clare Lombardelli", "position": "Deputy Governor, Monetary Policy", "active": true},
+        {"priority": 3, "headline_name": "Pill", "display_name": "Huw Pill", "position": "Chief Economist / MPC Member", "active": true},
+        {"priority": 4, "headline_name": "Ramsden", "display_name": "Dave Ramsden", "position": "Deputy Governor, Markets and Banking", "active": true},
+        {"priority": 5, "headline_name": "Breeden", "display_name": "Sarah Breeden", "position": "Deputy Governor, Financial Stability", "active": true},
+        {"priority": 6, "headline_name": "Mann", "display_name": "Catherine Mann", "position": "External MPC Member", "active": true},
+        {"priority": 7, "headline_name": "Dhingra", "display_name": "Swati Dhingra", "position": "External MPC Member", "active": true},
+        {"priority": 8, "headline_name": "Taylor", "display_name": "Alan Taylor", "position": "External MPC Member", "active": true},
+        {"priority": 9, "headline_name": "Greene", "display_name": "Megan Greene", "position": "Former External MPC Member", "active": false}
+      ]
+    },
+    "ECB": {
+      "display_name": "ECB",
+      "officials": [
+        {"priority": 1, "headline_name": "Lagarde", "display_name": "Christine Lagarde", "position": "President", "active": true},
+        {"priority": 2, "headline_name": "Vujcic", "display_name": "Boris Vujčić", "position": "Vice-President", "active": true},
+        {"priority": 3, "headline_name": "Lane", "display_name": "Philip Lane", "position": "Chief Economist / Executive Board", "active": true},
+        {"priority": 4, "headline_name": "Schnabel", "display_name": "Isabel Schnabel", "position": "Executive Board", "active": true},
+        {"priority": 5, "headline_name": "Cipollone", "display_name": "Piero Cipollone", "position": "Executive Board", "active": true},
+        {"priority": 6, "headline_name": "Elderson", "display_name": "Frank Elderson", "position": "Executive Board", "active": true},
+        {"priority": 7, "headline_name": "Nagel", "display_name": "Joachim Nagel", "position": "Germany", "active": true},
+        {"priority": 8, "headline_name": "Moulin", "display_name": "Emmanuel Moulin", "position": "France", "active": true},
+        {"priority": 9, "headline_name": "Panetta", "display_name": "Fabio Panetta", "position": "Italy", "active": true},
+        {"priority": 10, "headline_name": "Escriva", "display_name": "José Luis Escrivá", "position": "Spain", "active": true},
+        {"priority": 11, "headline_name": "Sleijpen", "display_name": "Olaf Sleijpen", "position": "Netherlands", "active": true},
+        {"priority": 12, "headline_name": "Rehn", "display_name": "Olli Rehn", "position": "Finland", "active": true},
+        {"priority": 13, "headline_name": "Wunsch", "display_name": "Pierre Wunsch", "position": "Belgium", "active": true},
+        {"priority": 14, "headline_name": "Stournaras", "display_name": "Yannis Stournaras", "position": "Greece", "active": true},
+        {"priority": 15, "headline_name": "Makhlouf", "display_name": "Gabriel Makhlouf", "position": "Ireland", "active": true},
+        {"priority": 16, "headline_name": "Kazimir", "display_name": "Peter Kažimír", "position": "Slovakia", "active": true},
+        {"priority": 17, "headline_name": "Kocher", "display_name": "Martin Kocher", "position": "Austria", "active": true},
+        {"priority": 18, "headline_name": "Pereira", "display_name": "Álvaro Santos Pereira", "position": "Portugal", "active": true},
+        {"priority": 19, "headline_name": "Kazaks", "display_name": "Mārtiņš Kazāks", "position": "Latvia", "active": true},
+        {"priority": 20, "headline_name": "Simkus", "display_name": "Gediminas Šimkus", "position": "Lithuania", "active": true},
+        {"priority": 21, "headline_name": "Radev", "display_name": "Dimitar Radev", "position": "Bulgaria", "active": true},
+        {"priority": 22, "headline_name": "Kaasik", "display_name": "Ülo Kaasik", "position": "Estonia", "active": true},
+        {"priority": 23, "headline_name": "Patsalides", "display_name": "Christodoulos Patsalides", "position": "Cyprus", "active": true},
+        {"priority": 24, "headline_name": "Reinesch", "display_name": "Gaston Reinesch", "position": "Luxembourg", "active": true},
+        {"priority": 25, "headline_name": "Demarco", "display_name": "Alexander Demarco", "position": "Malta", "active": true},
+        {"priority": 26, "headline_name": "Dolenc", "display_name": "Primož Dolenc", "position": "Slovenia", "active": true},
+        {"priority": 27, "headline_name": "Zigman", "display_name": "Ante Žigman", "position": "Croatia", "active": true}
+      ]
+    },
+    "BOJ": {
+      "display_name": "BoJ",
+      "officials": [
+        {"priority": 1, "headline_name": "Ueda", "display_name": "Kazuo Ueda", "position": "Governor", "active": true},
+        {"priority": 2, "headline_name": "Uchida", "display_name": "Shinichi Uchida", "position": "Deputy Governor", "active": true},
+        {"priority": 3, "headline_name": "Himino", "display_name": "Ryozo Himino", "position": "Deputy Governor", "active": true},
+        {"priority": 4, "headline_name": "Takata", "display_name": "Hajime Takata", "position": "Policy Board Member", "active": true},
+        {"priority": 5, "headline_name": "Tamura", "display_name": "Naoki Tamura", "position": "Policy Board Member", "active": true},
+        {"priority": 6, "headline_name": "Koeda", "display_name": "Junko Koeda", "position": "Policy Board Member", "active": true},
+        {"priority": 7, "headline_name": "Masu", "display_name": "Kazuyuki Masu", "position": "Policy Board Member", "active": true},
+        {"priority": 8, "headline_name": "Asada", "display_name": "Toichiro Asada", "position": "Policy Board Member", "active": true},
+        {"priority": 9, "headline_name": "Sato", "display_name": "Ayano Sato", "position": "Policy Board Member", "active": true},
+        {"priority": 10, "headline_name": "Nakagawa", "display_name": "Junko Nakagawa", "position": "Former Policy Board Member", "active": false}
+      ]
+    },
+    "RBA": {
+      "display_name": "RBA",
+      "officials": [
+        {"priority": 1, "headline_name": "Bullock", "display_name": "Michele Bullock", "position": "Governor / Monetary Policy Board Chair", "active": true},
+        {"priority": 2, "headline_name": "Hauser", "display_name": "Andrew Hauser", "position": "Deputy Governor / Monetary Policy Board Deputy Chair", "active": true},
+        {"priority": 3, "headline_name": "Hunter", "display_name": "Sarah Hunter", "position": "Assistant Governor, Economic", "active": true},
+        {"priority": 4, "headline_name": "Kent", "display_name": "Christopher Kent", "position": "Assistant Governor, Financial Markets", "active": true},
+        {"priority": 5, "headline_name": "Preston", "display_name": "Bruce Preston", "position": "Monetary Policy Board Member", "active": true},
+        {"priority": 6, "headline_name": "Harper", "display_name": "Ian Harper", "position": "Monetary Policy Board Member", "active": true},
+        {"priority": 7, "headline_name": "Fry-McKibbin", "display_name": "Renée Fry-McKibbin", "position": "Monetary Policy Board Member", "active": true},
+        {"priority": 8, "headline_name": "Baker", "display_name": "Marnie Baker", "position": "Monetary Policy Board Member", "active": true},
+        {"priority": 9, "headline_name": "Hewson", "display_name": "Carolyn Hewson", "position": "Monetary Policy Board Member", "active": true},
+        {"priority": 10, "headline_name": "Ross", "display_name": "Iain Ross", "position": "Monetary Policy Board Member", "active": true},
+        {"priority": 11, "headline_name": "Wilkinson", "display_name": "Jenny Wilkinson", "position": "Treasury Secretary / Ex officio Board Member", "active": true},
+        {"priority": 12, "headline_name": "Jones", "display_name": "Brad Jones", "position": "Assistant Governor, Financial System", "active": true}
+      ]
+    }
+  }
+}
