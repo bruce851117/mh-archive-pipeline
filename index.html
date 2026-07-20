@@ -818,6 +818,50 @@
       }
     }
 
+
+    /* Manual hawk/dove stance selector. Saved per browser with localStorage. */
+    .official-side {
+      transition: background-color .18s ease, border-color .18s ease;
+    }
+    .official-side.stance-h { background: #ffe2e2; border-right-color: #ef9a9a; }
+    .official-side.stance-mh { background: #ffe8f0; border-right-color: #eba3ba; }
+    .official-side.stance-n { background: #eef1f4; border-right-color: #c5cbd2; }
+    .official-side.stance-md { background: #e5f3ff; border-right-color: #9bc8ee; }
+    .official-side.stance-d { background: #dce9ff; border-right-color: #8aaee8; }
+    .official-side.stance-h .official-name-details > summary { color: #a71919; }
+    .official-side.stance-mh .official-name-details > summary { color: #a83d63; }
+    .official-side.stance-n .official-name-details > summary { color: #596575; }
+    .official-side.stance-md .official-name-details > summary { color: #276895; }
+    .official-side.stance-d .official-name-details > summary { color: #164f9b; }
+    .stance-control {
+      margin-top: 10px;
+    }
+    .stance-control label {
+      display: block;
+      margin-bottom: 3px;
+      color: #6d7c8e;
+      font-size: 8px;
+      font-weight: 800;
+      letter-spacing: .04em;
+    }
+    .stance-select {
+      width: 100%;
+      height: 27px;
+      border: 1px solid rgba(70, 89, 112, .25);
+      border-radius: 7px;
+      padding: 3px 7px;
+      background: rgba(255,255,255,.82);
+      color: #35465a;
+      font: inherit;
+      font-size: 10px;
+      font-weight: 900;
+      outline: none;
+      cursor: pointer;
+    }
+    .stance-select:focus {
+      border-color: #6d91bd;
+      box-shadow: 0 0 0 3px rgba(50, 109, 181, .1);
+    }
   </style>
 </head>
 <body>
@@ -918,6 +962,16 @@
     const CENTRAL_BANK_DATA_URL = './data/central_banks/digests/latest.json';
     const CATEGORY_ORDER = ['債市', '股市', '央行', '財政政策', '經濟', '戰爭'];
     const CENTRAL_BANK_ORDER = ['FED', 'BOE', 'ECB', 'BOJ', 'RBA'];
+
+    const STANCE_STORAGE_KEY = 'centralBankOfficialStancesV1';
+    const STANCE_OPTIONS = ['H', 'MH', 'N', 'MD', 'D'];
+    const STANCE_CLASS_MAP = {
+      H: 'stance-h',
+      MH: 'stance-mh',
+      N: 'stance-n',
+      MD: 'stance-md',
+      D: 'stance-d',
+    };
     const CATEGORY_DESCRIPTIONS = {
       '債市': '利率、央債、殖利率、信用與債市政策',
       '股市': '股市、科技股、AI供應鏈與主要股指',
@@ -968,6 +1022,64 @@
         .replaceAll("'", '&#039;');
     }
 
+
+    function loadStanceRatings() {
+      try {
+        const saved = JSON.parse(localStorage.getItem(STANCE_STORAGE_KEY) || '{}');
+        return saved && typeof saved === 'object' && !Array.isArray(saved) ? saved : {};
+      } catch (error) {
+        console.warn('Unable to read stance ratings:', error);
+        return {};
+      }
+    }
+    function stanceKey(bankCode, officialName) {
+      return `${String(bankCode || '').trim().toUpperCase()}|${String(officialName || '').trim()}`;
+    }
+    function getStanceRating(bankCode, officialName) {
+      const saved = loadStanceRatings();
+      const entry = saved[stanceKey(bankCode, officialName)];
+      const rating = typeof entry === 'string' ? entry : entry?.rating;
+      return STANCE_OPTIONS.includes(rating) ? rating : '';
+    }
+    function saveStanceRating(bankCode, officialName, rating) {
+      const saved = loadStanceRatings();
+      const key = stanceKey(bankCode, officialName);
+      if (STANCE_OPTIONS.includes(rating)) {
+        saved[key] = {
+          rating,
+          updated_at: new Date().toISOString(),
+        };
+      } else {
+        delete saved[key];
+      }
+      localStorage.setItem(STANCE_STORAGE_KEY, JSON.stringify(saved));
+    }
+    function stanceClass(rating) {
+      return STANCE_CLASS_MAP[rating] || '';
+    }
+    function renderStanceSelector(bankCode, officialName) {
+      const savedRating = getStanceRating(bankCode, officialName);
+      const options = [
+        ['未設定', ''],
+        ['H｜鷹派', 'H'],
+        ['MH｜偏鷹', 'MH'],
+        ['N｜中性', 'N'],
+        ['MD｜偏鴿', 'MD'],
+        ['D｜鴿派', 'D'],
+      ];
+      return `
+        <div class="stance-control">
+          <label>人工立場</label>
+          <select class="stance-select"
+            data-bank="${escapeHtml(bankCode)}"
+            data-official="${escapeHtml(officialName)}"
+            aria-label="${escapeHtml(officialName)} 的鷹鴿立場">
+            ${options.map(([label, value]) => `
+              <option value="${value}" ${savedRating === value ? 'selected' : ''}>${label}</option>
+            `).join('')}
+          </select>
+        </div>`;
+    }
     function dateObject(value) {
       const date = new Date(value);
       return Number.isNaN(date.getTime()) ? null : date;
@@ -1185,13 +1297,16 @@
           (a, b) => String(b.date).localeCompare(String(a.date))
         );
 
+        const officialName = official.official || '';
+        const savedStance = getStanceRating(bankCode, officialName);
         return `
           <section class="card official-card">
-            <aside class="official-side">
+            <aside class="official-side ${stanceClass(savedStance)}">
               <details class="official-name-details">
-                <summary>${escapeHtml(official.official || '')}</summary>
+                <summary>${escapeHtml(officialName)}</summary>
                 <div class="official-position-compact">${escapeHtml(official.position || '')}</div>
                 ${official.active === false ? '<span class="official-inactive">已卸任</span>' : ''}
+                ${renderStanceSelector(bankCode, officialName)}
               </details>
             </aside>
             <div class="official-talks">
@@ -1272,6 +1387,18 @@
     });
     onlyWithTalks.addEventListener('change', () => {
       if (activePage !== 'market') renderCentralBankPage(activePage);
+    });
+
+    officialsContainer.addEventListener('change', event => {
+      const select = event.target.closest('.stance-select');
+      if (!select) return;
+      saveStanceRating(select.dataset.bank, select.dataset.official, select.value);
+      const officialSide = select.closest('.official-side');
+      if (officialSide) {
+        Object.values(STANCE_CLASS_MAP).forEach(className => officialSide.classList.remove(className));
+        const nextClass = stanceClass(select.value);
+        if (nextClass) officialSide.classList.add(nextClass);
+      }
     });
     centralBankReset.addEventListener('click', () => {
       officialSearch.value = '';
