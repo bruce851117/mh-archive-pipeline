@@ -636,6 +636,188 @@
       .source-headline { grid-template-columns: 1fr; gap: 1px; }
     }
 
+
+
+    /* Central-bank page: official at left, daily summaries at right. */
+    .official-card {
+      display: grid;
+      grid-template-columns: 190px minmax(0, 1fr);
+      margin-top: 11px;
+      overflow: hidden;
+    }
+
+    .official-side {
+      padding: 13px 14px;
+      border-right: 1px solid var(--line);
+      background: #fbfcfe;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .official-name-details {
+      width: 100%;
+    }
+
+    .official-name-details > summary {
+      list-style: none;
+      color: var(--navy-2);
+      font-size: 14px;
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    .official-name-details > summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .official-name-details > summary::after {
+      content: '＋';
+      margin-left: 6px;
+      color: #8a9aae;
+      font-size: 10px;
+      font-weight: 700;
+    }
+
+    .official-name-details[open] > summary::after {
+      content: '－';
+    }
+
+    .official-position-compact {
+      margin-top: 6px;
+      color: #8190a2;
+      font-size: 9px;
+      line-height: 1.45;
+    }
+
+    .official-inactive {
+      display: inline-block;
+      margin-top: 6px;
+      border-radius: 999px;
+      padding: 2px 6px;
+      background: #f7eaea;
+      color: #a43737;
+      font-size: 8px;
+      font-weight: 800;
+    }
+
+    .official-talks {
+      min-width: 0;
+      background: #fff;
+    }
+
+    .talk-item {
+      padding: 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .talk-item:last-child {
+      border-bottom: 0;
+    }
+
+    .talk-details > summary {
+      list-style: none;
+      display: grid;
+      grid-template-columns: 90px minmax(0, 1fr);
+      gap: 11px;
+      padding: 11px 14px;
+      cursor: pointer;
+    }
+
+    .talk-details > summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .talk-details > summary:hover {
+      background: #f7faff;
+    }
+
+    .talk-date {
+      color: #52677f;
+      font-size: 10px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .talk-summary-link {
+      position: relative;
+      padding-right: 18px;
+      color: #182333;
+      font-size: 11px;
+      font-weight: 650;
+      line-height: 1.6;
+    }
+
+    .talk-summary-link::after {
+      content: '＋';
+      position: absolute;
+      top: 0;
+      right: 0;
+      color: #8190a2;
+      font-size: 10px;
+    }
+
+    .talk-details[open] .talk-summary-link::after {
+      content: '－';
+    }
+
+    .talk-sources {
+      margin: 0 14px 11px 115px;
+      padding: 8px 10px;
+      border-left: 2px solid #d8e2ed;
+      background: #f8fafc;
+    }
+
+    .source-headline {
+      display: grid;
+      grid-template-columns: 105px minmax(0, 1fr);
+      gap: 8px;
+      padding: 5px 0;
+      border-bottom: 1px dashed #e1e7ee;
+      color: #526278;
+      font-size: 9px;
+      line-height: 1.5;
+    }
+
+    .source-headline:last-child {
+      border-bottom: 0;
+    }
+
+    .no-talk {
+      min-height: 54px;
+      padding: 17px 14px;
+      color: #8794a4;
+      font-size: 10px;
+    }
+
+    @media (max-width: 640px) {
+      .official-card {
+        grid-template-columns: 125px minmax(0, 1fr);
+      }
+
+      .official-side {
+        padding: 11px 9px;
+      }
+
+      .official-name-details > summary {
+        font-size: 12px;
+      }
+
+      .talk-details > summary {
+        grid-template-columns: 1fr;
+        gap: 3px;
+        padding: 10px;
+      }
+
+      .talk-sources {
+        margin: 0 10px 10px;
+      }
+
+      .source-headline {
+        grid-template-columns: 1fr;
+        gap: 1px;
+      }
+    }
+
   </style>
 </head>
 <body>
@@ -933,25 +1115,40 @@
 
     function renderSourceHeadlines(headlines) {
       if (!Array.isArray(headlines) || !headlines.length) return '';
-      return `
-        <details class="source-details">
-          <summary>查看原始英文 Headline（${headlines.length}）</summary>
-          ${headlines.map(item => `
-            <div class="source-headline">
-              <time>${escapeHtml(rowDate(item.time))}</time>
-              <span>${escapeHtml(item.headline || '')}</span>
-            </div>
-          `).join('')}
-        </details>`;
+      return `<div class="talk-sources">${headlines.map(item => `
+        <div class="source-headline">
+          <time>${escapeHtml(rowDate(item.time))}</time>
+          <span>${escapeHtml(item.headline || '')}</span>
+        </div>
+      `).join('')}</div>`;
     }
 
     function renderTalk(talk) {
+      const sources = Array.isArray(talk.source_headlines)
+        ? talk.source_headlines
+        : [];
+
+      if (!sources.length) {
+        return `
+          <article class="talk-item">
+            <div class="talk-details">
+              <div style="display:grid;grid-template-columns:90px minmax(0,1fr);gap:11px;padding:11px 14px;">
+                <div class="talk-date">${escapeHtml(shortDate(talk.date))}</div>
+                <div class="talk-summary-link" style="padding-right:0;">${escapeHtml(talk.summary_zh || '')}</div>
+              </div>
+            </div>
+          </article>`;
+      }
+
       return `
         <article class="talk-item">
-          <div class="talk-date">${escapeHtml(shortDate(talk.date))}</div>
-          <div class="talk-summary">${escapeHtml(talk.summary_zh || '')}</div>
-          ${renderTopicChips(talk.topics)}
-          ${renderSourceHeadlines(talk.source_headlines)}
+          <details class="talk-details">
+            <summary>
+              <span class="talk-date">${escapeHtml(shortDate(talk.date))}</span>
+              <span class="talk-summary-link">${escapeHtml(talk.summary_zh || '')}</span>
+            </summary>
+            ${renderSourceHeadlines(sources)}
+          </details>
         </article>`;
     }
 
@@ -984,22 +1181,23 @@
       centralBankCount.textContent = `${totalTalks} 筆每日摘要`;
 
       officialsContainer.innerHTML = officials.length ? officials.map(official => {
-        const talks = [...(official.talks || [])].sort((a, b) => String(b.date).localeCompare(String(a.date)));
+        const talks = [...(official.talks || [])].sort(
+          (a, b) => String(b.date).localeCompare(String(a.date))
+        );
+
         return `
           <section class="card official-card">
-            <header class="official-header">
-              <div>
-                <h3 class="official-name">${escapeHtml(official.official || '')}</h3>
-                <div class="official-position">${escapeHtml(official.position || '')}</div>
-              </div>
-              <div class="official-badges">
-                <span class="priority-badge">重要順序 ${Number(official.priority || 999)}</span>
-                <span class="talk-count-badge">${talks.length} 筆</span>
-                ${official.active === false ? '<span class="inactive-badge">已卸任</span>' : ''}
-              </div>
-            </header>
-            <div class="talk-list">
-              ${talks.length ? talks.map(renderTalk).join('') : '<div class="no-talk">近90天無符合條件的談話</div>'}
+            <aside class="official-side">
+              <details class="official-name-details">
+                <summary>${escapeHtml(official.official || '')}</summary>
+                <div class="official-position-compact">${escapeHtml(official.position || '')}</div>
+                ${official.active === false ? '<span class="official-inactive">已卸任</span>' : ''}
+              </details>
+            </aside>
+            <div class="official-talks">
+              ${talks.length
+                ? talks.map(renderTalk).join('')
+                : '<div class="no-talk">近90天無符合條件的談話</div>'}
             </div>
           </section>`;
       }).join('') : '<div class="card empty">沒有符合篩選條件的官員</div>';
