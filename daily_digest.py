@@ -101,6 +101,9 @@ CENTRAL_BANK_SYSTEM_INSTRUCTION = """
 8. date必須使用Headline的台灣日期，格式YYYY-MM-DD。
 9. source_ids只能使用輸入資料提供的id。
 10. 使用台灣繁體中文；只輸出合法JSON，不要Markdown或額外說明。
+11. 每筆只能輸出central_bank、official、date、summary_zh、source_ids五個欄位。
+12. 不要輸出topics、source_headlines或任何其他欄位。
+13. summary_zh控制在100個中文字以內。
 """.strip()
 
 
@@ -935,14 +938,6 @@ def build_central_bank_prompt(
       "official":"Christopher Waller",
       "date":"2026-07-17",
       "summary_zh":"同一官員當日相關談話合併後的一句繁體中文摘要",
-      "topics":{{
-        "economy":"",
-        "inflation":"",
-        "labor_market":"",
-        "monetary_policy":"",
-        "interest_rates":"",
-        "balance_sheet":""
-      }},
       "source_ids":["輸入資料中的ID"]
     }}
   ]
