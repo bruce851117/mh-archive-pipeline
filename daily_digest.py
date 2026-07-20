@@ -21,6 +21,17 @@ STATUS_FILE = Path("data/digest_status.json")
 DEBUG_DIRECTORY = Path("data/debug")
 LATEST_DEBUG_FILE = Path("data/latest_digest_debug.json")
 
+CENTRAL_BANK_CONFIG_FILE = Path("central_bank_officials.json")
+CENTRAL_BANK_INPUT_FILE = Path("data/central_banks/latest_90d.json")
+CENTRAL_BANK_DIGEST_DIRECTORY = Path("data/central_banks/digests")
+CENTRAL_BANK_LATEST_DIGEST_FILE = (
+    CENTRAL_BANK_DIGEST_DIRECTORY / "latest.json"
+)
+CENTRAL_BANK_STATUS_FILE = Path(
+    "data/central_banks/digest_status.json"
+)
+CENTRAL_BANK_LOOKBACK_DAYS = 90
+
 GEMINI_API_BASE_URL = "https://generativelanguage.googleapis.com/v1beta"
 DEFAULT_GEMINI_MODEL = "gemini-3.5-flash"
 
@@ -73,6 +84,23 @@ SYSTEM_INSTRUCTION = """
 1分：市場影響很小，但仍具有少量資訊價值。
 
 被刪除的Headline不需要評分。
+""".strip()
+
+
+CENTRAL_BANK_SYSTEM_INSTRUCTION = """
+你是專業的全球央行政策研究員。你會收到最近90天FinancialJuice的Fed、BoE、ECB、BoJ及RBA官員英文Headline，以及官員正式姓名清單。
+
+請嚴格遵守：
+1. 五個央行必須放在同一次整理中完成。
+2. 依central_bank、official、date分組；同一官員同一天的多則Headline合併成一句繁體中文摘要。
+3. summary_zh只摘要官員對經濟、通膨、勞動市場、貨幣政策、利率、資產負債表、QE或QT的實質看法。
+4. 金融監管、銀行資本規範、支付系統、加密貨幣、行政事項、行程、開始演說、結束演說及無實質政策內容的Headline全部忽略。
+5. 官員沒有評論的主題必須留空，不可猜測或補充Headline未提供的內容。
+6. 每位官員每日summary_zh只能是一句話，但必須完整保留當日不同Headline間的政策訊息。
+7. official必須使用官員清單提供的display_name；無法對應官員時不輸出該筆。
+8. date必須使用Headline的台灣日期，格式YYYY-MM-DD。
+9. source_ids只能使用輸入資料提供的id。
+10. 使用台灣繁體中文；只輸出合法JSON，不要Markdown或額外說明。
 """.strip()
 
 
@@ -378,6 +406,7 @@ def call_gemini(
     api_key: str,
     model: str,
     prompt: str,
+    system_instruction: str = SYSTEM_INSTRUCTION,
 ) -> tuple[dict[str, Any], dict[str, Any]]:
     endpoint = (
         f"{GEMINI_API_BASE_URL}/models/"
@@ -392,7 +421,7 @@ def call_gemini(
 
     request_body = {
         "systemInstruction": {
-            "parts": [{"text": SYSTEM_INSTRUCTION}]
+            "parts": [{"text": system_instruction}]
         },
         "contents": [
             {
@@ -743,6 +772,408 @@ def write_status(
     write_json(STATUS_FILE, status_data)
 
 
+
+def read_json_object(file_path: Path) -> dict[str, Any]:
+    if not file_path.exists():
+        raise FileNotFoundError(
+            f"Input file does not exist: {file_path}"
+        )
+
+    try:
+        with file_path.open("r", encoding="utf-8") as file:
+            data = json.load(file)
+    except (OSError, json.JSONDecodeError) as error:
+        raise RuntimeError(
+            f"Unable to read {file_path}: {error}"
+        ) from error
+
+    if not isinstance(data, dict):
+        raise RuntimeError(
+            f"{file_path} must contain a JSON object."
+        )
+
+    return data
+
+
+def build_central_bank_reference(
+    config: dict[str, Any],
+) -> tuple[list[dict[str, Any]], dict[str, dict[str, Any]]]:
+    bank_blocks: list[dict[str, Any]] = []
+    official_lookup: dict[str, dict[str, Any]] = {}
+    raw_banks = config.get("central_banks", {})
+
+    if not isinstance(raw_banks, dict):
+        raise RuntimeError(
+            "central_bank_officials.json is missing central_banks."
+        )
+
+    for bank_code, bank_config in raw_banks.items():
+        if not isinstance(bank_config, dict):
+            continue
+
+        normalized_bank = normalize_text(bank_code).upper()
+        display_name = normalize_text(
+            bank_config.get("display_name")
+        ) or normalized_bank
+        officials = bank_config.get("officials", [])
+        reference_officials: list[dict[str, Any]] = []
+
+        if not isinstance(officials, list):
+            officials = []
+
+        for official in officials:
+            if not isinstance(official, dict):
+                continue
+
+            display = normalize_text(official.get("display_name"))
+            headline_name = normalize_text(
+                official.get("headline_name")
+            )
+
+            if not display or not headline_name:
+                continue
+
+            try:
+                priority = int(official.get("priority", 999))
+            except (TypeError, ValueError):
+                priority = 999
+
+            normalized = {
+                "official": display,
+                "headline_name": headline_name,
+                "priority": priority,
+                "position": normalize_text(official.get("position")),
+                "active": bool(official.get("active", True)),
+            }
+            reference_officials.append(normalized)
+            official_lookup[f"{normalized_bank}|{display.casefold()}"] = normalized
+
+        reference_officials.sort(key=lambda row: row["priority"])
+        bank_blocks.append(
+            {
+                "central_bank": normalized_bank,
+                "display_name": display_name,
+                "officials": reference_officials,
+            }
+        )
+
+    return bank_blocks, official_lookup
+
+
+def clean_central_bank_input(
+    items: list[dict[str, Any]],
+    run_at: datetime,
+) -> list[dict[str, str]]:
+    cutoff = run_at - timedelta(days=CENTRAL_BANK_LOOKBACK_DAYS)
+    cleaned_by_id: dict[str, dict[str, str]] = {}
+
+    for item in items:
+        item_id = normalize_text(item.get("id"))
+        headline = normalize_text(item.get("headline"))
+        central_bank = normalize_text(
+            item.get("central_bank")
+        ).upper()
+        published_at = parse_iso_datetime(item.get("published_at"))
+
+        if (
+            not item_id
+            or not headline
+            or not central_bank
+            or published_at is None
+            or published_at < cutoff
+            or published_at > run_at
+        ):
+            continue
+
+        cleaned_by_id[item_id] = {
+            "id": item_id,
+            "time": published_at.isoformat(),
+            "central_bank": central_bank,
+            "headline": headline,
+        }
+
+    return sorted(
+        cleaned_by_id.values(),
+        key=lambda row: row["time"],
+    )
+
+
+def build_central_bank_prompt(
+    items: list[dict[str, str]],
+    bank_reference: list[dict[str, Any]],
+    period_start: str,
+    period_end: str,
+) -> str:
+    compact_reference = [
+        {
+            "central_bank": bank["central_bank"],
+            "officials": [
+                {
+                    "headline_name": official["headline_name"],
+                    "display_name": official["official"],
+                }
+                for official in bank["officials"]
+            ],
+        }
+        for bank in bank_reference
+    ]
+
+    return f"""
+請整理以下五大央行最近90天的官員Headline。
+統計期間：{period_start} 至 {period_end}
+時區：Asia/Taipei（GMT+8）
+輸入Headline數：{len(items)}
+
+官員正式姓名清單：
+{json.dumps(compact_reference, ensure_ascii=False, separators=(",", ":"))}
+
+輸出必須符合以下JSON結構：
+{{
+  "talks":[
+    {{
+      "central_bank":"FED",
+      "official":"Christopher Waller",
+      "date":"2026-07-17",
+      "summary_zh":"同一官員當日相關談話合併後的一句繁體中文摘要",
+      "topics":{{
+        "economy":"",
+        "inflation":"",
+        "labor_market":"",
+        "monetary_policy":"",
+        "interest_rates":"",
+        "balance_sheet":""
+      }},
+      "source_ids":["輸入資料中的ID"]
+    }}
+  ]
+}}
+
+輸入資料：
+{json.dumps(items, ensure_ascii=False, separators=(",", ":"))}
+""".strip()
+
+
+def normalize_central_bank_digest(
+    raw_digest: dict[str, Any],
+    bank_reference: list[dict[str, Any]],
+    official_lookup: dict[str, dict[str, Any]],
+    source_lookup: dict[str, dict[str, str]],
+    run_at: datetime,
+    model: str,
+    usage: dict[str, Any],
+) -> dict[str, Any]:
+    talks_by_key: dict[tuple[str, str, str], dict[str, Any]] = {}
+    raw_talks = raw_digest.get("talks", [])
+
+    if isinstance(raw_talks, list):
+        for talk in raw_talks:
+            if not isinstance(talk, dict):
+                continue
+
+            central_bank = normalize_text(
+                talk.get("central_bank")
+            ).upper()
+            official_name = normalize_text(talk.get("official"))
+            talk_date = normalize_text(talk.get("date"))
+            summary = normalize_text(talk.get("summary_zh"))
+            official_config = official_lookup.get(
+                f"{central_bank}|{official_name.casefold()}"
+            )
+
+            if (
+                official_config is None
+                or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", talk_date)
+                or not summary
+            ):
+                continue
+
+            valid_source_ids: list[str] = []
+            raw_source_ids = talk.get("source_ids", [])
+
+            if isinstance(raw_source_ids, list):
+                for source_id in raw_source_ids:
+                    normalized_id = normalize_text(source_id)
+                    source = source_lookup.get(normalized_id)
+
+                    if (
+                        normalized_id
+                        and source is not None
+                        and source["central_bank"] == central_bank
+                        and normalized_id not in valid_source_ids
+                    ):
+                        valid_source_ids.append(normalized_id)
+
+            if not valid_source_ids:
+                continue
+
+            raw_topics = talk.get("topics", {})
+
+            if not isinstance(raw_topics, dict):
+                raw_topics = {}
+
+            topics = {
+                "economy": normalize_text(raw_topics.get("economy")),
+                "inflation": normalize_text(raw_topics.get("inflation")),
+                "labor_market": normalize_text(
+                    raw_topics.get("labor_market")
+                ),
+                "monetary_policy": normalize_text(
+                    raw_topics.get("monetary_policy")
+                ),
+                "interest_rates": normalize_text(
+                    raw_topics.get("interest_rates")
+                ),
+                "balance_sheet": normalize_text(
+                    raw_topics.get("balance_sheet")
+                ),
+            }
+
+            key = (central_bank, official_name, talk_date)
+            talks_by_key[key] = {
+                "date": talk_date,
+                "summary_zh": summary,
+                "topics": topics,
+                "source_ids": valid_source_ids,
+                "source_headlines": [
+                    source_lookup[source_id]
+                    for source_id in valid_source_ids
+                ],
+            }
+
+    output_banks: list[dict[str, Any]] = []
+
+    for bank in bank_reference:
+        bank_code = bank["central_bank"]
+        output_officials: list[dict[str, Any]] = []
+
+        for official in bank["officials"]:
+            official_talks = [
+                talk
+                for (code, name, _), talk in talks_by_key.items()
+                if code == bank_code and name == official["official"]
+            ]
+            official_talks.sort(
+                key=lambda row: row["date"],
+                reverse=True,
+            )
+            output_officials.append(
+                {
+                    "official": official["official"],
+                    "headline_name": official["headline_name"],
+                    "priority": official["priority"],
+                    "position": official["position"],
+                    "active": official["active"],
+                    "talks": official_talks,
+                }
+            )
+
+        output_banks.append(
+            {
+                "central_bank": bank_code,
+                "display_name": bank["display_name"],
+                "officials": output_officials,
+            }
+        )
+
+    return {
+        "generated_at": format_taipei_time(run_at),
+        "timezone": "Asia/Taipei",
+        "period_start": format_taipei_time(
+            run_at - timedelta(days=CENTRAL_BANK_LOOKBACK_DAYS)
+        ),
+        "period_end": format_taipei_time(run_at),
+        "lookback_days": CENTRAL_BANK_LOOKBACK_DAYS,
+        "model": model,
+        "input_headline_count": len(source_lookup),
+        "talk_count": len(talks_by_key),
+        "central_banks": output_banks,
+        "usage_metadata": usage,
+    }
+
+
+def generate_central_bank_digest(
+    api_key: str,
+    model: str,
+    run_at: datetime,
+) -> dict[str, Any]:
+    config = read_json_object(CENTRAL_BANK_CONFIG_FILE)
+    bank_reference, official_lookup = build_central_bank_reference(
+        config
+    )
+    raw_items = read_json_list(CENTRAL_BANK_INPUT_FILE)
+    items = clean_central_bank_input(raw_items, run_at)
+    source_lookup = {item["id"]: item for item in items}
+
+    if not items:
+        empty_digest = normalize_central_bank_digest(
+            raw_digest={"talks": []},
+            bank_reference=bank_reference,
+            official_lookup=official_lookup,
+            source_lookup=source_lookup,
+            run_at=run_at,
+            model=model,
+            usage={},
+        )
+        return empty_digest
+
+    prompt = build_central_bank_prompt(
+        items=items,
+        bank_reference=bank_reference,
+        period_start=format_taipei_time(
+            run_at - timedelta(days=CENTRAL_BANK_LOOKBACK_DAYS)
+        ),
+        period_end=format_taipei_time(run_at),
+    )
+
+    print("")
+    print("Generating five-central-bank 90-day digest...")
+    print(f"Central bank headlines sent to Gemini: {len(items)}")
+
+    raw_digest, usage = call_gemini(
+        api_key=api_key,
+        model=model,
+        prompt=prompt,
+        system_instruction=CENTRAL_BANK_SYSTEM_INSTRUCTION,
+    )
+
+    return normalize_central_bank_digest(
+        raw_digest=raw_digest,
+        bank_reference=bank_reference,
+        official_lookup=official_lookup,
+        source_lookup=source_lookup,
+        run_at=run_at,
+        model=model,
+        usage=usage,
+    )
+
+
+def write_central_bank_digest_status(
+    digest: dict[str, Any],
+    run_at: datetime,
+    error_message: str = "",
+) -> None:
+    write_json(
+        CENTRAL_BANK_STATUS_FILE,
+        {
+            "status": "failed" if error_message else "success",
+            "timezone": "Asia/Taipei",
+            "utc_offset": "+08:00",
+            "run_at": format_taipei_time(run_at),
+            "model": digest.get("model", ""),
+            "input_headline_count": digest.get(
+                "input_headline_count", 0
+            ),
+            "talk_count": digest.get("talk_count", 0),
+            "error": error_message,
+            **(
+                {"last_success_at": format_taipei_time(run_at)}
+                if not error_message
+                else {}
+            ),
+        },
+    )
+
+
 def main() -> int:
     run_at = taipei_now()
     model = normalize_text(
@@ -835,6 +1266,17 @@ def main() -> int:
         )
 
         output_count = count_news(digest)
+
+        central_bank_digest = generate_central_bank_digest(
+            api_key=api_key,
+            model=model,
+            run_at=run_at,
+        )
+        write_central_bank_digest_status(
+            central_bank_digest,
+            run_at,
+        )
+
         date_string = run_at.strftime("%Y-%m-%d")
 
         daily_digest_file = (
@@ -851,10 +1293,22 @@ def main() -> int:
             / f"{date_string}.json"
         )
 
+        central_bank_daily_file = (
+            CENTRAL_BANK_DIGEST_DIRECTORY
+            / run_at.strftime("%Y")
+            / run_at.strftime("%m")
+            / f"{date_string}.json"
+        )
+
         write_json(daily_digest_file, digest)
         write_json(LATEST_DIGEST_FILE, digest)
         write_json(debug_file, debug_output)
         write_json(LATEST_DEBUG_FILE, debug_output)
+        write_json(central_bank_daily_file, central_bank_digest)
+        write_json(
+            CENTRAL_BANK_LATEST_DIGEST_FILE,
+            central_bank_digest,
+        )
 
         write_status(
             status="success",
@@ -881,6 +1335,14 @@ def main() -> int:
 
         print(f"Daily digest: {daily_digest_file}")
         print(f"Selection debug: {debug_file}")
+        print(
+            "Central bank daily digest: "
+            f"{central_bank_daily_file}"
+        )
+        print(
+            "Central bank daily talk count: "
+            f"{central_bank_digest.get('talk_count', 0)}"
+        )
 
         return 0
 
