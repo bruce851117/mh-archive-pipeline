@@ -1,0 +1,758 @@
+{
+  "generated_at": "2026-07-20T10:16:26.741854+08:00",
+  "timezone": "Asia/Taipei",
+  "period_start": "2026-04-21T10:16:26.741854+08:00",
+  "period_end": "2026-07-20T10:16:26.741854+08:00",
+  "lookback_days": 90,
+  "model": "gemini-3.5-flash",
+  "input_headline_count": 10,
+  "talk_count": 1,
+  "central_banks": [
+    {
+      "central_bank": "FED",
+      "display_name": "Fed",
+      "officials": [
+        {
+          "official": "Kevin Warsh",
+          "headline_name": "Warsh",
+          "priority": 1,
+          "position": "Chair",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "John Williams",
+          "headline_name": "Williams",
+          "priority": 2,
+          "position": "New York Fed President / FOMC Vice Chair",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Philip Jefferson",
+          "headline_name": "Jefferson",
+          "priority": 3,
+          "position": "Vice Chair / Governor",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Christopher Waller",
+          "headline_name": "Waller",
+          "priority": 4,
+          "position": "Governor",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Michelle Bowman",
+          "headline_name": "Bowman",
+          "priority": 5,
+          "position": "Governor",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Lisa Cook",
+          "headline_name": "Cook",
+          "priority": 6,
+          "position": "Governor",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Michael Barr",
+          "headline_name": "Barr",
+          "priority": 7,
+          "position": "Governor",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Jerome Powell",
+          "headline_name": "Powell",
+          "priority": 8,
+          "position": "Governor",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Beth Hammack",
+          "headline_name": "Hammack",
+          "priority": 9,
+          "position": "Cleveland Fed President",
+          "active": true,
+          "talks": [
+            {
+              "date": "2026-07-17",
+              "summary_zh": "聯準會官員 Hammack 表示，儘管目前經濟增長良好、消費支出穩定且勞動市場處於最大就業水平，但廣泛且過高的通膨仍是更大的擔憂，核心 PCE 預測達 3.3%，企業與消費者均期盼採取行動以遏制通膨。",
+              "topics": {
+                "economy": "經濟增長數據良好，且消費者支出保持穩定。",
+                "inflation": "通膨仍然過高且來源廣泛（核心 PCE 預測為 3.3%），持續的高通膨是更大的擔憂，其受到能源成本、供應鏈中斷、保險及 AI 數據中心建設等多重因素推動。",
+                "labor_market": "勞動市場正處於最大就業水平附近。",
+                "monetary_policy": "企業界認為需要採取行動來遏制通膨，且雙重使命之間並無衝突。",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "b030b1b01ea32da392ad2b62a472ae107a749adaae2feb8e4542aad72893562b",
+                "48375de1e42c46681ae6ae3af66986bdc23231732c97365ef92eb732d576132b",
+                "e1e13d281742ee36754b9a2c14754fcc533c80a9eeabbee020f41a70d177018c",
+                "73ae682a2e28476972234f71f0d81d4082d3b2ad3c236a427dfd8c2ef6f618c9",
+                "ff248738824f2ffa993ac7d1e4b6b3dcc056af4dc9df92403caef5c6132ca893",
+                "d2d90697e8eddf6a78e960135fa63c3cc583c26d11971f2d221d35e4d0907121",
+                "d1be47151c2d1257619a2fe147495cf56a7d7185e1842513bc26b57a625947bc",
+                "7706927ac56a505bbf8a75101ac1f509ebd189a812c20cb595acf8199eb85b73",
+                "9c6d907906a17d26e0400e39976c65cda9526ba9f3ef43324e5fd00dbb376415",
+                "d38b6f44e9095a24f81948bf7d3c7b8791dd6019543eb68f523ce844b61a927a"
+              ],
+              "source_headlines": [
+                {
+                  "id": "b030b1b01ea32da392ad2b62a472ae107a749adaae2feb8e4542aad72893562b",
+                  "time": "2026-07-17T22:05:37+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: Inflation is too high. The labor market is right around my level of maximum employment."
+                },
+                {
+                  "id": "48375de1e42c46681ae6ae3af66986bdc23231732c97365ef92eb732d576132b",
+                  "time": "2026-07-17T22:05:52+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: Our PCE nowcast shows core inflation at 3.3% after incorporating this week’s data."
+                },
+                {
+                  "id": "e1e13d281742ee36754b9a2c14754fcc533c80a9eeabbee020f41a70d177018c",
+                  "time": "2026-07-17T22:05:58+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: There is no conflict in our mandate - LinkedIn Post"
+                },
+                {
+                  "id": "73ae682a2e28476972234f71f0d81d4082d3b2ad3c236a427dfd8c2ef6f618c9",
+                  "time": "2026-07-17T22:06:02+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: Persistently high inflation is the bigger concern."
+                },
+                {
+                  "id": "ff248738824f2ffa993ac7d1e4b6b3dcc056af4dc9df92403caef5c6132ca893",
+                  "time": "2026-07-17T22:06:19+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: I’m hearing from conversations with business and community leaders that inflation isn’t coming from only one source—it’s broad-based."
+                },
+                {
+                  "id": "d2d90697e8eddf6a78e960135fa63c3cc583c26d11971f2d221d35e4d0907121",
+                  "time": "2026-07-17T22:06:20+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: I consider the data as well as conversations I’ve had with business and community leaders in the 4th Fed District."
+                },
+                {
+                  "id": "d1be47151c2d1257619a2fe147495cf56a7d7185e1842513bc26b57a625947bc",
+                  "time": "2026-07-17T22:06:29+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: At the same time, I’m seeing good growth numbers and stable consumer spending."
+                },
+                {
+                  "id": "7706927ac56a505bbf8a75101ac1f509ebd189a812c20cb595acf8199eb85b73",
+                  "time": "2026-07-17T22:06:34+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: Business leaders point to energy costs and supply chain disruptions as factors, but also cite pressures from insurance and the AI data center buildup."
+                },
+                {
+                  "id": "9c6d907906a17d26e0400e39976c65cda9526ba9f3ef43324e5fd00dbb376415",
+                  "time": "2026-07-17T22:06:38+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: I’m seeing good growth numbers and stable consumer spending."
+                },
+                {
+                  "id": "d38b6f44e9095a24f81948bf7d3c7b8791dd6019543eb68f523ce844b61a927a",
+                  "time": "2026-07-17T22:06:53+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: Hearing from businesses who say they think we need to take action to curb inflation, and from consumers who can’t make ends meet about a growing sense of despair."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "official": "Lorie Logan",
+          "headline_name": "Logan",
+          "priority": 10,
+          "position": "Dallas Fed President",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Neel Kashkari",
+          "headline_name": "Kashkari",
+          "priority": 11,
+          "position": "Minneapolis Fed President",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Austan Goolsbee",
+          "headline_name": "Goolsbee",
+          "priority": 12,
+          "position": "Chicago Fed President",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Thomas Barkin",
+          "headline_name": "Barkin",
+          "priority": 13,
+          "position": "Richmond Fed President",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Mary Daly",
+          "headline_name": "Daly",
+          "priority": 14,
+          "position": "San Francisco Fed President",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Susan Collins",
+          "headline_name": "Collins",
+          "priority": 15,
+          "position": "Boston Fed President",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Alberto Musalem",
+          "headline_name": "Musalem",
+          "priority": 16,
+          "position": "St. Louis Fed President",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Jeffrey Schmid",
+          "headline_name": "Schmid",
+          "priority": 17,
+          "position": "Kansas City Fed President",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Anna Paulson",
+          "headline_name": "Paulson",
+          "priority": 18,
+          "position": "Philadelphia Fed President",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Raphael Bostic",
+          "headline_name": "Bostic",
+          "priority": 19,
+          "position": "Atlanta Fed President",
+          "active": true,
+          "talks": []
+        }
+      ]
+    },
+    {
+      "central_bank": "BOE",
+      "display_name": "BoE",
+      "officials": [
+        {
+          "official": "Andrew Bailey",
+          "headline_name": "Bailey",
+          "priority": 1,
+          "position": "Governor",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Clare Lombardelli",
+          "headline_name": "Lombardelli",
+          "priority": 2,
+          "position": "Deputy Governor, Monetary Policy",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Huw Pill",
+          "headline_name": "Pill",
+          "priority": 3,
+          "position": "Chief Economist / MPC Member",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Dave Ramsden",
+          "headline_name": "Ramsden",
+          "priority": 4,
+          "position": "Deputy Governor, Markets and Banking",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Sarah Breeden",
+          "headline_name": "Breeden",
+          "priority": 5,
+          "position": "Deputy Governor, Financial Stability",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Catherine Mann",
+          "headline_name": "Mann",
+          "priority": 6,
+          "position": "External MPC Member",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Swati Dhingra",
+          "headline_name": "Dhingra",
+          "priority": 7,
+          "position": "External MPC Member",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Alan Taylor",
+          "headline_name": "Taylor",
+          "priority": 8,
+          "position": "External MPC Member",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Megan Greene",
+          "headline_name": "Greene",
+          "priority": 9,
+          "position": "Former External MPC Member",
+          "active": false,
+          "talks": []
+        }
+      ]
+    },
+    {
+      "central_bank": "ECB",
+      "display_name": "ECB",
+      "officials": [
+        {
+          "official": "Christine Lagarde",
+          "headline_name": "Lagarde",
+          "priority": 1,
+          "position": "President",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Boris Vujčić",
+          "headline_name": "Vujcic",
+          "priority": 2,
+          "position": "Vice-President",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Philip Lane",
+          "headline_name": "Lane",
+          "priority": 3,
+          "position": "Chief Economist / Executive Board",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Isabel Schnabel",
+          "headline_name": "Schnabel",
+          "priority": 4,
+          "position": "Executive Board",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Piero Cipollone",
+          "headline_name": "Cipollone",
+          "priority": 5,
+          "position": "Executive Board",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Frank Elderson",
+          "headline_name": "Elderson",
+          "priority": 6,
+          "position": "Executive Board",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Joachim Nagel",
+          "headline_name": "Nagel",
+          "priority": 7,
+          "position": "Germany",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Emmanuel Moulin",
+          "headline_name": "Moulin",
+          "priority": 8,
+          "position": "France",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Fabio Panetta",
+          "headline_name": "Panetta",
+          "priority": 9,
+          "position": "Italy",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "José Luis Escrivá",
+          "headline_name": "Escriva",
+          "priority": 10,
+          "position": "Spain",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Olaf Sleijpen",
+          "headline_name": "Sleijpen",
+          "priority": 11,
+          "position": "Netherlands",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Olli Rehn",
+          "headline_name": "Rehn",
+          "priority": 12,
+          "position": "Finland",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Pierre Wunsch",
+          "headline_name": "Wunsch",
+          "priority": 13,
+          "position": "Belgium",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Yannis Stournaras",
+          "headline_name": "Stournaras",
+          "priority": 14,
+          "position": "Greece",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Gabriel Makhlouf",
+          "headline_name": "Makhlouf",
+          "priority": 15,
+          "position": "Ireland",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Peter Kažimír",
+          "headline_name": "Kazimir",
+          "priority": 16,
+          "position": "Slovakia",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Martin Kocher",
+          "headline_name": "Kocher",
+          "priority": 17,
+          "position": "Austria",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Álvaro Santos Pereira",
+          "headline_name": "Pereira",
+          "priority": 18,
+          "position": "Portugal",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Mārtiņš Kazāks",
+          "headline_name": "Kazaks",
+          "priority": 19,
+          "position": "Latvia",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Gediminas Šimkus",
+          "headline_name": "Simkus",
+          "priority": 20,
+          "position": "Lithuania",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Dimitar Radev",
+          "headline_name": "Radev",
+          "priority": 21,
+          "position": "Bulgaria",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Ülo Kaasik",
+          "headline_name": "Kaasik",
+          "priority": 22,
+          "position": "Estonia",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Christodoulos Patsalides",
+          "headline_name": "Patsalides",
+          "priority": 23,
+          "position": "Cyprus",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Gaston Reinesch",
+          "headline_name": "Reinesch",
+          "priority": 24,
+          "position": "Luxembourg",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Alexander Demarco",
+          "headline_name": "Demarco",
+          "priority": 25,
+          "position": "Malta",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Primož Dolenc",
+          "headline_name": "Dolenc",
+          "priority": 26,
+          "position": "Slovenia",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Ante Žigman",
+          "headline_name": "Zigman",
+          "priority": 27,
+          "position": "Croatia",
+          "active": true,
+          "talks": []
+        }
+      ]
+    },
+    {
+      "central_bank": "BOJ",
+      "display_name": "BoJ",
+      "officials": [
+        {
+          "official": "Kazuo Ueda",
+          "headline_name": "Ueda",
+          "priority": 1,
+          "position": "Governor",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Shinichi Uchida",
+          "headline_name": "Uchida",
+          "priority": 2,
+          "position": "Deputy Governor",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Ryozo Himino",
+          "headline_name": "Himino",
+          "priority": 3,
+          "position": "Deputy Governor",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Hajime Takata",
+          "headline_name": "Takata",
+          "priority": 4,
+          "position": "Policy Board Member",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Naoki Tamura",
+          "headline_name": "Tamura",
+          "priority": 5,
+          "position": "Policy Board Member",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Junko Koeda",
+          "headline_name": "Koeda",
+          "priority": 6,
+          "position": "Policy Board Member",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Kazuyuki Masu",
+          "headline_name": "Masu",
+          "priority": 7,
+          "position": "Policy Board Member",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Toichiro Asada",
+          "headline_name": "Asada",
+          "priority": 8,
+          "position": "Policy Board Member",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Ayano Sato",
+          "headline_name": "Sato",
+          "priority": 9,
+          "position": "Policy Board Member",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Junko Nakagawa",
+          "headline_name": "Nakagawa",
+          "priority": 10,
+          "position": "Former Policy Board Member",
+          "active": false,
+          "talks": []
+        }
+      ]
+    },
+    {
+      "central_bank": "RBA",
+      "display_name": "RBA",
+      "officials": [
+        {
+          "official": "Michele Bullock",
+          "headline_name": "Bullock",
+          "priority": 1,
+          "position": "Governor / Monetary Policy Board Chair",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Andrew Hauser",
+          "headline_name": "Hauser",
+          "priority": 2,
+          "position": "Deputy Governor / Monetary Policy Board Deputy Chair",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Sarah Hunter",
+          "headline_name": "Hunter",
+          "priority": 3,
+          "position": "Assistant Governor, Economic",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Christopher Kent",
+          "headline_name": "Kent",
+          "priority": 4,
+          "position": "Assistant Governor, Financial Markets",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Bruce Preston",
+          "headline_name": "Preston",
+          "priority": 5,
+          "position": "Monetary Policy Board Member",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Ian Harper",
+          "headline_name": "Harper",
+          "priority": 6,
+          "position": "Monetary Policy Board Member",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Renée Fry-McKibbin",
+          "headline_name": "Fry-McKibbin",
+          "priority": 7,
+          "position": "Monetary Policy Board Member",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Marnie Baker",
+          "headline_name": "Baker",
+          "priority": 8,
+          "position": "Monetary Policy Board Member",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Carolyn Hewson",
+          "headline_name": "Hewson",
+          "priority": 9,
+          "position": "Monetary Policy Board Member",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Iain Ross",
+          "headline_name": "Ross",
+          "priority": 10,
+          "position": "Monetary Policy Board Member",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Jenny Wilkinson",
+          "headline_name": "Wilkinson",
+          "priority": 11,
+          "position": "Treasury Secretary / Ex officio Board Member",
+          "active": true,
+          "talks": []
+        },
+        {
+          "official": "Brad Jones",
+          "headline_name": "Jones",
+          "priority": 12,
+          "position": "Assistant Governor, Financial System",
+          "active": true,
+          "talks": []
+        }
+      ]
+    }
+  ],
+  "usage_metadata": {
+    "promptTokenCount": 3069,
+    "candidatesTokenCount": 913,
+    "totalTokenCount": 6656,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3069
+      }
+    ],
+    "thoughtsTokenCount": 2674,
+    "serviceTier": "standard"
+  }
+}
