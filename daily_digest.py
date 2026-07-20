@@ -1147,6 +1147,228 @@ def generate_central_bank_digest(
     )
 
 
+def load_optional_json_object(
+    file_path: Path,
+) -> dict[str, Any]:
+    """讀取可選JSON物件；檔案不存在時回傳空物件。"""
+    if not file_path.exists():
+        return {}
+
+    try:
+        with file_path.open("r", encoding="utf-8") as file:
+            data = json.load(file)
+    except (OSError, json.JSONDecodeError) as error:
+        raise RuntimeError(
+            f"Unable to read {file_path}: {error}"
+        ) from error
+
+    if not isinstance(data, dict):
+        raise RuntimeError(
+            f"{file_path} must contain a JSON object."
+        )
+
+    return data
+
+
+def build_central_bank_daily_archives(
+    digest: dict[str, Any],
+) -> list[Path]:
+    """
+    將完整近90天央行Digest拆成「每個談話日期一個精簡檔」。
+
+    完整近90天資料仍只寫入digests/latest.json供網頁使用；
+    每日歷史檔只保存該日期實際有談話的官員，不保存空白官員，
+    也不再複製完整90天資料。
+    """
+    talks_by_date: dict[str, list[dict[str, Any]]] = {}
+    central_banks = digest.get("central_banks", [])
+
+    if not isinstance(central_banks, list):
+        return []
+
+    for bank in central_banks:
+        if not isinstance(bank, dict):
+            continue
+
+        central_bank = normalize_text(
+            bank.get("central_bank")
+        ).upper()
+        bank_display_name = normalize_text(
+            bank.get("display_name")
+        ) or central_bank
+        officials = bank.get("officials", [])
+
+        if not central_bank or not isinstance(officials, list):
+            continue
+
+        for official in officials:
+            if not isinstance(official, dict):
+                continue
+
+            official_name = normalize_text(
+                official.get("official")
+            )
+            headline_name = normalize_text(
+                official.get("headline_name")
+            )
+
+            if not official_name:
+                continue
+
+            try:
+                priority = int(official.get("priority", 999))
+            except (TypeError, ValueError):
+                priority = 999
+
+            talks = official.get("talks", [])
+
+            if not isinstance(talks, list):
+                continue
+
+            for talk in talks:
+                if not isinstance(talk, dict):
+                    continue
+
+                talk_date = normalize_text(talk.get("date"))
+
+                if not re.fullmatch(
+                    r"\d{4}-\d{2}-\d{2}",
+                    talk_date,
+                ):
+                    continue
+
+                summary_zh = normalize_text(
+                    talk.get("summary_zh")
+                )
+
+                if not summary_zh:
+                    continue
+
+                source_ids = talk.get("source_ids", [])
+                source_headlines = talk.get(
+                    "source_headlines",
+                    [],
+                )
+                topics = talk.get("topics", {})
+
+                if not isinstance(source_ids, list):
+                    source_ids = []
+
+                if not isinstance(source_headlines, list):
+                    source_headlines = []
+
+                if not isinstance(topics, dict):
+                    topics = {}
+
+                talks_by_date.setdefault(
+                    talk_date,
+                    [],
+                ).append(
+                    {
+                        "central_bank": central_bank,
+                        "central_bank_display_name": (
+                            bank_display_name
+                        ),
+                        "official": official_name,
+                        "headline_name": headline_name,
+                        "priority": priority,
+                        "position": normalize_text(
+                            official.get("position")
+                        ),
+                        "active": bool(
+                            official.get("active", True)
+                        ),
+                        "date": talk_date,
+                        "summary_zh": summary_zh,
+                        "topics": {
+                            "economy": normalize_text(
+                                topics.get("economy")
+                            ),
+                            "inflation": normalize_text(
+                                topics.get("inflation")
+                            ),
+                            "labor_market": normalize_text(
+                                topics.get("labor_market")
+                            ),
+                            "monetary_policy": normalize_text(
+                                topics.get("monetary_policy")
+                            ),
+                            "interest_rates": normalize_text(
+                                topics.get("interest_rates")
+                            ),
+                            "balance_sheet": normalize_text(
+                                topics.get("balance_sheet")
+                            ),
+                        },
+                        "source_ids": [
+                            normalize_text(source_id)
+                            for source_id in source_ids
+                            if normalize_text(source_id)
+                        ],
+                        "source_headlines": [
+                            source
+                            for source in source_headlines
+                            if isinstance(source, dict)
+                        ],
+                    }
+                )
+
+    written_files: list[Path] = []
+
+    for talk_date, talks in sorted(talks_by_date.items()):
+        parsed_date = datetime.strptime(
+            talk_date,
+            "%Y-%m-%d",
+        )
+        daily_file = (
+            CENTRAL_BANK_DIGEST_DIRECTORY
+            / parsed_date.strftime("%Y")
+            / parsed_date.strftime("%m")
+            / f"{talk_date}.json"
+        )
+
+        unique_talks: dict[
+            tuple[str, str, str],
+            dict[str, Any],
+        ] = {}
+
+        for talk in talks:
+            unique_key = (
+                talk["central_bank"],
+                talk["official"],
+                talk["date"],
+            )
+            unique_talks[unique_key] = talk
+
+        sorted_talks = sorted(
+            unique_talks.values(),
+            key=lambda row: (
+                row["central_bank"],
+                row["priority"],
+                row["official"],
+            ),
+        )
+
+        daily_output = {
+            "date": talk_date,
+            "timezone": "Asia/Taipei",
+            "model": normalize_text(digest.get("model")),
+            "source_generated_at": normalize_text(
+                digest.get("generated_at")
+            ),
+            "talk_count": len(sorted_talks),
+            "talks": sorted_talks,
+        }
+
+        existing_output = load_optional_json_object(daily_file)
+
+        if existing_output != daily_output:
+            write_json(daily_file, daily_output)
+            written_files.append(daily_file)
+
+    return written_files
+
+
 def write_central_bank_digest_status(
     digest: dict[str, Any],
     run_at: datetime,
@@ -1293,18 +1515,16 @@ def main() -> int:
             / f"{date_string}.json"
         )
 
-        central_bank_daily_file = (
-            CENTRAL_BANK_DIGEST_DIRECTORY
-            / run_at.strftime("%Y")
-            / run_at.strftime("%m")
-            / f"{date_string}.json"
+        central_bank_daily_files = (
+            build_central_bank_daily_archives(
+                central_bank_digest
+            )
         )
 
         write_json(daily_digest_file, digest)
         write_json(LATEST_DIGEST_FILE, digest)
         write_json(debug_file, debug_output)
         write_json(LATEST_DEBUG_FILE, debug_output)
-        write_json(central_bank_daily_file, central_bank_digest)
         write_json(
             CENTRAL_BANK_LATEST_DIGEST_FILE,
             central_bank_digest,
@@ -1336,11 +1556,15 @@ def main() -> int:
         print(f"Daily digest: {daily_digest_file}")
         print(f"Selection debug: {debug_file}")
         print(
-            "Central bank daily digest: "
-            f"{central_bank_daily_file}"
+            "Central bank compact daily archives updated: "
+            f"{len(central_bank_daily_files)}"
         )
+
+        for archive_file in central_bank_daily_files:
+            print(f"- {archive_file}")
+
         print(
-            "Central bank daily talk count: "
+            "Central bank 90-day talk count: "
             f"{central_bank_digest.get('talk_count', 0)}"
         )
 
