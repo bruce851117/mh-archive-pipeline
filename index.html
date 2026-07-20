@@ -862,6 +862,38 @@
       border-color: #6d91bd;
       box-shadow: 0 0 0 3px rgba(50, 109, 181, .1);
     }
+
+    /* ECB hierarchy groups. */
+    .official-group {
+      margin-top: 15px;
+    }
+    .official-group:first-child {
+      margin-top: 11px;
+    }
+    .official-group-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 3px 7px;
+      color: #66788e;
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: .08em;
+    }
+    .official-group-header::after {
+      content: '';
+      height: 1px;
+      flex: 1;
+      background: #d8e0e9;
+    }
+    .official-group[data-group="president"] .official-group-header { color: #852323; }
+    .official-group[data-group="vice-president"] .official-group-header { color: #8b4b20; }
+    .official-group[data-group="board"] .official-group-header { color: #4d397f; }
+    .official-group[data-group="germany"] .official-group-header { color: #364b62; }
+    .official-group[data-group="france"] .official-group-header { color: #365f8b; }
+    .official-group .official-card:first-of-type {
+      margin-top: 0;
+    }
   </style>
 </head>
 <body>
@@ -1264,6 +1296,58 @@
         </article>`;
     }
 
+
+    function ecbOfficialGroup(official) {
+      const position = String(official.position || '').trim().toLowerCase();
+      if (position === 'president') return 'president';
+      if (position === 'vice-president') return 'vice-president';
+      if (position.includes('executive board')) return 'board';
+      if (position === 'germany') return 'germany';
+      if (position === 'france') return 'france';
+      return 'other';
+    }
+    function renderOfficialCard(official, bankCode) {
+      const talks = [...(official.talks || [])].sort(
+        (a, b) => String(b.date).localeCompare(String(a.date))
+      );
+      const officialName = official.official || '';
+      const savedStance = getStanceRating(bankCode, officialName);
+      return `
+        <section class="card official-card">
+          <aside class="official-side ${stanceClass(savedStance)}">
+            <details class="official-name-details">
+              <summary>${escapeHtml(officialName)}</summary>
+              <div class="official-position-compact">${escapeHtml(official.position || '')}</div>
+              ${official.active === false ? '<span class="official-inactive">已卸任</span>' : ''}
+              ${renderStanceSelector(bankCode, officialName)}
+            </details>
+          </aside>
+          <div class="official-talks">
+            ${talks.length
+              ? talks.map(renderTalk).join('')
+              : '<div class="no-talk">近90天無符合條件的談話</div>'}
+          </div>
+        </section>`;
+    }
+    function renderEcbOfficialGroups(officials, bankCode) {
+      const definitions = [
+        ['president', '主席'],
+        ['vice-president', '副主席'],
+        ['board', '執行委員會委員'],
+        ['germany', '德國'],
+        ['france', '法國'],
+        ['other', '其他國家央行總裁'],
+      ];
+      return definitions.map(([groupKey, label]) => {
+        const members = officials.filter(official => ecbOfficialGroup(official) === groupKey);
+        if (!members.length) return '';
+        return `
+          <section class="official-group" data-group="${groupKey}">
+            <div class="official-group-header">${label}</div>
+            ${members.map(official => renderOfficialCard(official, bankCode)).join('')}
+          </section>`;
+      }).join('');
+    }
     function renderCentralBankPage(bankCode) {
       const bank = findBank(bankCode);
       if (!bank) {
@@ -1292,30 +1376,11 @@
       centralBankRange.textContent = `近 ${centralBankData.lookback_days || 90} 天｜${fullDate(centralBankData.period_start)} ～ ${fullDate(centralBankData.period_end)}`;
       centralBankCount.textContent = `${totalTalks} 筆每日摘要`;
 
-      officialsContainer.innerHTML = officials.length ? officials.map(official => {
-        const talks = [...(official.talks || [])].sort(
-          (a, b) => String(b.date).localeCompare(String(a.date))
-        );
-
-        const officialName = official.official || '';
-        const savedStance = getStanceRating(bankCode, officialName);
-        return `
-          <section class="card official-card">
-            <aside class="official-side ${stanceClass(savedStance)}">
-              <details class="official-name-details">
-                <summary>${escapeHtml(officialName)}</summary>
-                <div class="official-position-compact">${escapeHtml(official.position || '')}</div>
-                ${official.active === false ? '<span class="official-inactive">已卸任</span>' : ''}
-                ${renderStanceSelector(bankCode, officialName)}
-              </details>
-            </aside>
-            <div class="official-talks">
-              ${talks.length
-                ? talks.map(renderTalk).join('')
-                : '<div class="no-talk">近90天無符合條件的談話</div>'}
-            </div>
-          </section>`;
-      }).join('') : '<div class="card empty">沒有符合篩選條件的官員</div>';
+      officialsContainer.innerHTML = officials.length
+        ? (bankCode === 'ECB'
+          ? renderEcbOfficialGroups(officials, bankCode)
+          : officials.map(official => renderOfficialCard(official, bankCode)).join(''))
+        : '<div class="card empty">沒有符合篩選條件的官員</div>';
     }
 
     function activatePage(page) {
