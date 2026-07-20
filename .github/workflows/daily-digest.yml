@@ -50,26 +50,131 @@ jobs:
             exit 1
           fi
 
+          if [ ! -f "central_bank_officials.json" ]; then
+            echo "Error: central_bank_officials.json does not exist."
+            exit 1
+          fi
+
+          if [ ! -f "data/central_banks/latest_90d.json" ]; then
+            echo "Error: data/central_banks/latest_90d.json does not exist."
+            exit 1
+          fi
+
           python - <<'PY'
           import json
           from pathlib import Path
 
-          input_file = Path("data/latest_24h.json")
+          market_file = Path(
+              "data/latest_24h.json"
+          )
 
-          with input_file.open("r", encoding="utf-8") as file:
-              data = json.load(file)
+          central_bank_file = Path(
+              "data/central_banks/latest_90d.json"
+          )
 
-          if not isinstance(data, list):
+          officials_file = Path(
+              "central_bank_officials.json"
+          )
+
+          with market_file.open(
+              "r",
+              encoding="utf-8",
+          ) as file:
+              market_data = json.load(file)
+
+          with central_bank_file.open(
+              "r",
+              encoding="utf-8",
+          ) as file:
+              central_bank_data = json.load(file)
+
+          with officials_file.open(
+              "r",
+              encoding="utf-8",
+          ) as file:
+              officials_data = json.load(file)
+
+          if not isinstance(market_data, list):
               raise SystemExit(
-                  "Error: data/latest_24h.json must be a JSON array."
+                  "Error: data/latest_24h.json "
+                  "must be a JSON array."
               )
 
-          if not data:
+          if not market_data:
               raise SystemExit(
-                  "Error: data/latest_24h.json contains no headlines."
+                  "Error: data/latest_24h.json "
+                  "contains no headlines."
               )
 
-          print(f"Input headline count: {len(data)}")
+          if not isinstance(
+              central_bank_data,
+              list,
+          ):
+              raise SystemExit(
+                  "Error: "
+                  "data/central_banks/latest_90d.json "
+                  "must be a JSON array."
+              )
+
+          if not isinstance(
+              officials_data,
+              dict,
+          ):
+              raise SystemExit(
+                  "Error: central_bank_officials.json "
+                  "must be a JSON object."
+              )
+
+          central_banks = officials_data.get(
+              "central_banks"
+          )
+
+          if not isinstance(
+              central_banks,
+              dict,
+          ):
+              raise SystemExit(
+                  "Error: central_bank_officials.json "
+                  "does not contain central_banks."
+              )
+
+          expected_banks = {
+              "FED",
+              "BOE",
+              "ECB",
+              "BOJ",
+              "RBA",
+          }
+
+          missing_banks = (
+              expected_banks
+              - set(central_banks)
+          )
+
+          if missing_banks:
+              raise SystemExit(
+                  "Error: Missing central banks: "
+                  + ", ".join(
+                      sorted(missing_banks)
+                  )
+              )
+
+          print(
+              "Market headline count: "
+              f"{len(market_data)}"
+          )
+
+          print(
+              "Central bank headline count: "
+              f"{len(central_bank_data)}"
+          )
+
+          print(
+              "Configured central banks: "
+              + ", ".join(
+                  sorted(central_banks)
+              )
+          )
           PY
 
       - name: Generate Gemini daily digest
@@ -95,6 +200,110 @@ jobs:
 
           echo "Daily digest status:"
           cat data/digest_status.json
+
+      - name: Verify central bank digest output
+        run: |
+          if [ ! -f "data/central_banks/digests/latest.json" ]; then
+            echo "Error: Central bank digest was not generated."
+            exit 1
+          fi
+
+          if [ ! -f "data/central_banks/digest_status.json" ]; then
+            echo "Error: Central bank digest status was not generated."
+            exit 1
+          fi
+
+          echo "Central bank digest status:"
+          cat data/central_banks/digest_status.json
+
+          echo ""
+          echo "Central bank digest summary:"
+
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          digest_file = Path(
+              "data/central_banks/digests/latest.json"
+          )
+
+          status_file = Path(
+              "data/central_banks/digest_status.json"
+          )
+
+          with digest_file.open(
+              "r",
+              encoding="utf-8",
+          ) as file:
+              digest = json.load(file)
+
+          with status_file.open(
+              "r",
+              encoding="utf-8",
+          ) as file:
+              status = json.load(file)
+
+          if status.get("status") != "success":
+              raise SystemExit(
+                  "Central bank digest failed: "
+                  + str(
+                      status.get(
+                          "error",
+                          "unknown error",
+                      )
+                  )
+              )
+
+          print(
+              f"Period start: "
+              f"{digest.get('period_start', '')}"
+          )
+
+          print(
+              f"Period end: "
+              f"{digest.get('period_end', '')}"
+          )
+
+          print(
+              f"Input headline count: "
+              f"{digest.get('input_headline_count', 0)}"
+          )
+
+          print(
+              f"Talk count: "
+              f"{digest.get('talk_count', 0)}"
+          )
+
+          print("")
+          print("Talk counts by central bank:")
+
+          for bank in digest.get(
+              "central_banks",
+              [],
+          ):
+              bank_code = bank.get(
+                  "central_bank",
+                  "",
+              )
+
+              talk_count = sum(
+                  len(
+                      official.get(
+                          "talks",
+                          [],
+                      )
+                  )
+                  for official in bank.get(
+                      "officials",
+                      [],
+                  )
+              )
+
+              print(
+                  f"- {bank_code}: "
+                  f"{talk_count}"
+              )
+          PY
 
       - name: Build web news data
         run: |
@@ -122,32 +331,68 @@ jobs:
           import json
           from pathlib import Path
 
-          output_file = Path("data/web/latest.json")
+          output_file = Path(
+              "data/web/latest.json"
+          )
 
-          with output_file.open("r", encoding="utf-8") as file:
+          with output_file.open(
+              "r",
+              encoding="utf-8",
+          ) as file:
               data = json.load(file)
 
-          print(f"Period start: {data.get('period_start', '')}")
-          print(f"Period end: {data.get('period_end', '')}")
-          print(f"Event count: {data.get('event_count', 0)}")
           print(
-              f"Summary count: "
+              f"Period start: "
+              f"{data.get('period_start', '')}"
+          )
+
+          print(
+              f"Period end: "
+              f"{data.get('period_end', '')}"
+          )
+
+          print(
+              f"Event count: "
+              f"{data.get('event_count', 0)}"
+          )
+
+          print(
+              "Summary count: "
               f"{len(data.get('summary_points', []))}"
           )
 
           print("")
           print("Summary points:")
 
-          for point in data.get("summary_points", []):
+          for point in data.get(
+              "summary_points",
+              [],
+          ):
               print(f"- {point}")
 
           print("")
           print("Block counts:")
 
-          for block in data.get("blocks", []):
-              category = block.get("category", "")
-              count = len(block.get("news", []))
-              print(f"- {category}: {count}")
+          for block in data.get(
+              "blocks",
+              [],
+          ):
+              category = block.get(
+                  "category",
+                  "",
+              )
+
+              count = len(
+                  block.get(
+                      "news",
+                      [],
+                  )
+              )
+
+              print(
+                  f"- {category}: "
+                  f"{count}"
+              )
           PY
 
       - name: Show Gemini selection debug
@@ -184,7 +429,7 @@ jobs:
               print(headline)
           PY
 
-      - name: Commit digest and web data
+      - name: Commit digest, central bank and web data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -192,16 +437,17 @@ jobs:
           git add data/digests
           git add data/debug
           git add data/web
+          git add data/central_banks
           git add data/latest_daily_digest.json
           git add data/latest_digest_debug.json
           git add data/digest_status.json
 
           if git diff --cached --quiet; then
-            echo "No digest or web data changes to commit."
+            echo "No digest, central bank or web data changes to commit."
             exit 0
           fi
 
-          git commit -m "Generate daily digest and web news data"
+          git commit -m "Generate daily digest, central bank and web data"
 
           git pull --rebase origin main
           git push origin main
