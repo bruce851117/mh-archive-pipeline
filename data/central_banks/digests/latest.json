@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-20T10:16:26.741854+08:00",
+  "generated_at": "2026-07-20T11:42:23.599752+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-04-21T10:16:26.741854+08:00",
-  "period_end": "2026-07-20T10:16:26.741854+08:00",
+  "period_start": "2026-04-21T11:42:23.599752+08:00",
+  "period_end": "2026-07-20T11:42:23.599752+08:00",
   "lookback_days": 90,
   "model": "gemini-3.5-flash",
   "input_headline_count": 10,
@@ -85,12 +85,12 @@
           "talks": [
             {
               "date": "2026-07-17",
-              "summary_zh": "聯準會官員 Hammack 表示，儘管目前經濟增長良好、消費支出穩定且勞動市場處於最大就業水平，但廣泛且過高的通膨仍是更大的擔憂，核心 PCE 預測達 3.3%，企業與消費者均期盼採取行動以遏制通膨。",
+              "summary_zh": "聯準會官員 Hammack 表示，目前經濟成長良好且消費者支出穩定，勞動市場正處於最大就業水平附近，但通膨依然過高且來源廣泛（核心 PCE 即時預測為 3.3%），持續的高通膨是更大的擔憂，雙重使命並無衝突，企業界也認為需要採取行動來遏制通膨。",
               "topics": {
-                "economy": "經濟增長數據良好，且消費者支出保持穩定。",
-                "inflation": "通膨仍然過高且來源廣泛（核心 PCE 預測為 3.3%），持續的高通膨是更大的擔憂，其受到能源成本、供應鏈中斷、保險及 AI 數據中心建設等多重因素推動。",
+                "economy": "經濟成長數據良好且消費者支出穩定，企業面臨能源成本、供應鏈中斷、保險及人工智慧數據中心建設等壓力。",
+                "inflation": "通膨過高且來源廣泛，核心PCE即時預測為3.3%，持續的高通膨是目前更大的擔憂。",
                 "labor_market": "勞動市場正處於最大就業水平附近。",
-                "monetary_policy": "企業界認為需要採取行動來遏制通膨，且雙重使命之間並無衝突。",
+                "monetary_policy": "雙重使命之間並無衝突，企業界認為需要採取行動來遏制通膨。",
                 "interest_rates": "",
                 "balance_sheet": ""
               },
@@ -744,15 +744,15 @@
   ],
   "usage_metadata": {
     "promptTokenCount": 3069,
-    "candidatesTokenCount": 913,
-    "totalTokenCount": 6656,
+    "candidatesTokenCount": 920,
+    "totalTokenCount": 7567,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
         "tokenCount": 3069
       }
     ],
-    "thoughtsTokenCount": 2674,
+    "thoughtsTokenCount": 3578,
     "serviceTier": "standard"
   }
 }
