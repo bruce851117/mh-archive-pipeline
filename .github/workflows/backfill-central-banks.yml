@@ -1,0 +1,134 @@
+name: Backfill Central Bank Headlines
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: central-bank-headline-backfill
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    name: Backfill last 90 days of central bank headlines
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    env:
+      TZ: Asia/Taipei
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify required files
+        run: |
+          test -f backfill_central_bank_headlines.py || {
+            echo "Error: backfill_central_bank_headlines.py does not exist."
+            exit 1
+          }
+
+          test -f central_bank_officials.json || {
+            echo "Error: central_bank_officials.json does not exist."
+            exit 1
+          }
+
+          test -d data/archive || {
+            echo "Error: data/archive does not exist."
+            exit 1
+          }
+
+      - name: Verify Python and JSON syntax
+        run: |
+          python -m py_compile backfill_central_bank_headlines.py
+          python -m json.tool central_bank_officials.json > /dev/null
+
+      - name: Backfill central bank headlines
+        run: |
+          python backfill_central_bank_headlines.py
+
+      - name: Verify backfill output
+        run: |
+          test -f data/central_banks/latest_90d.json || {
+            echo "Error: data/central_banks/latest_90d.json was not generated."
+            exit 1
+          }
+
+          test -f data/central_banks/backfill_status.json || {
+            echo "Error: data/central_banks/backfill_status.json was not generated."
+            exit 1
+          }
+
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          status_file = Path("data/central_banks/backfill_status.json")
+          latest_file = Path("data/central_banks/latest_90d.json")
+
+          with status_file.open("r", encoding="utf-8") as file:
+              status = json.load(file)
+
+          with latest_file.open("r", encoding="utf-8") as file:
+              latest = json.load(file)
+
+          if status.get("status") != "success":
+              raise SystemExit(
+                  f"Backfill failed: {status.get('error', 'unknown error')}"
+              )
+
+          if not isinstance(latest, list):
+              raise SystemExit(
+                  "data/central_banks/latest_90d.json must be a JSON array."
+              )
+
+          print("Central bank backfill result")
+          print(f"Period start: {status.get('period_start', '')}")
+          print(f"Period end: {status.get('period_end', '')}")
+          print(
+              f"Archive files scanned: "
+              f"{status.get('archive_file_count', 0)}"
+          )
+          print(
+              f"Candidate headlines scanned: "
+              f"{status.get('candidate_headline_count', 0)}"
+          )
+          print(
+              f"Matched headlines: "
+              f"{status.get('matched_headline_count', 0)}"
+          )
+          print(f"Matched by bank: {status.get('matched_by_bank', {})}")
+          print(
+              f"Latest 90-day count: "
+              f"{status.get('latest_90d_count', 0)}"
+          )
+          print(
+              f"Latest 90-day by bank: "
+              f"{status.get('latest_90d_by_bank', {})}"
+          )
+          PY
+
+      - name: Commit backfilled central bank data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/central_banks
+
+          if git diff --cached --quiet; then
+            echo "No central bank backfill changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Backfill central bank headlines"
+          git pull --rebase origin main
+          git push origin main
