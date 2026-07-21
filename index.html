@@ -1193,6 +1193,10 @@
       `;
     }
 
+    function isWithinSelectedRange(value, start, end) {
+      const date = dateObject(value);
+      return Boolean(date && (!start || date >= start) && (!end || date <= end));
+    }
     function collectFilteredEvents() {
       if (!dashboardData) return new Map();
       const start = startTime.value ? new Date(`${startTime.value}:00+08:00`) : null;
@@ -1205,11 +1209,24 @@
         const target = output.get(block.category);
         if (!target) continue;
         for (const event of block.news || []) {
-          const eventDate = dateObject(event.event_time);
-          const timeMatch = eventDate && (!start || eventDate >= start) && (!end || eventDate <= end);
-          const keywordSource = [event.headline_zh, ...(event.trajectory || []).map(item => item.description_zh)]
-            .join(' ').toLowerCase();
-          if (timeMatch && (!term || keywordSource.includes(term))) target.push(event);
+          const eventTimeMatch = isWithinSelectedRange(event.event_time, start, end);
+          const filteredTrajectory = (event.trajectory || []).filter(item =>
+            isWithinSelectedRange(item.time, start, end)
+          );
+          const timeMatch = eventTimeMatch || filteredTrajectory.length > 0;
+          if (!timeMatch) continue;
+
+          const keywordSource = [
+            event.headline_zh,
+            event.summary_zh,
+            ...filteredTrajectory.map(item => item.description_zh),
+          ].join(' ').toLowerCase();
+          if (term && !keywordSource.includes(term)) continue;
+
+          target.push({
+            ...event,
+            trajectory: filteredTrajectory,
+          });
         }
         target.sort((a, b) => String(a.event_time).localeCompare(String(b.event_time)));
       }
