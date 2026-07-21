@@ -479,7 +479,7 @@
       margin-top: 10px;
       padding: 13px;
       display: grid;
-      grid-template-columns: 1fr auto auto;
+      grid-template-columns: 1.35fr 1fr 1fr auto auto;
       gap: 10px;
       align-items: end;
     }
@@ -975,6 +975,14 @@
           <label for="officialSearch">搜尋官員或談話內容</label>
           <input id="officialSearch" type="search" placeholder="輸入官員姓名、通膨、利率…">
         </div>
+        <div class="field">
+          <label for="centralBankStartDate">開始日期</label>
+          <input id="centralBankStartDate" type="date">
+        </div>
+        <div class="field">
+          <label for="centralBankEndDate">結束日期</label>
+          <input id="centralBankEndDate" type="date">
+        </div>
         <label class="tiny-label">
           <input id="onlyWithTalks" type="checkbox">
           僅顯示有談話官員
@@ -1041,6 +1049,8 @@
     const centralBankRange = document.getElementById('centralBankRange');
     const centralBankCount = document.getElementById('centralBankCount');
     const officialSearch = document.getElementById('officialSearch');
+    const centralBankStartDate = document.getElementById('centralBankStartDate');
+    const centralBankEndDate = document.getElementById('centralBankEndDate');
     const onlyWithTalks = document.getElementById('onlyWithTalks');
     const centralBankReset = document.getElementById('centralBankReset');
     const officialsContainer = document.getElementById('officialsContainer');
@@ -1345,7 +1355,7 @@
       return 'other';
     }
     function renderOfficialCard(official, bankCode) {
-      const talks = [...(official.talks || [])].sort(
+      const talks = [...(official.filteredTalks ?? official.talks ?? [])].sort(
         (a, b) => String(b.date).localeCompare(String(a.date))
       );
       const officialName = official.official || '';
@@ -1397,19 +1407,31 @@
       }
 
       const term = officialSearch.value.trim().toLowerCase();
+      const selectedStart = centralBankStartDate.value || '';
+      const selectedEnd = centralBankEndDate.value || '';
+      const hasDateFilter = Boolean(selectedStart || selectedEnd);
       let totalTalks = 0;
       const officials = [...(bank.officials || [])].sort(
         (a, b) => Number(a.priority || 999) - Number(b.priority || 999)
-      ).filter(official => {
-        const talks = official.talks || [];
+      ).map(official => {
+        const filteredTalks = (official.talks || []).filter(talk => {
+          const talkDate = String(talk.date || '').slice(0, 10);
+          if (!talkDate) return !hasDateFilter;
+          return (!selectedStart || talkDate >= selectedStart) &&
+            (!selectedEnd || talkDate <= selectedEnd);
+        });
+        return { ...official, filteredTalks };
+      }).filter(official => {
+        const talks = official.filteredTalks || [];
         const searchable = [official.official, official.headline_name, official.position,
           ...talks.map(talk => talk.summary_zh),
           ...talks.flatMap(talk => (talk.source_headlines || []).map(item => item.headline))]
           .join(' ').toLowerCase();
-        return (!onlyWithTalks.checked || talks.length > 0) && (!term || searchable.includes(term));
+        const requiresTalk = onlyWithTalks.checked || hasDateFilter;
+        return (!requiresTalk || talks.length > 0) && (!term || searchable.includes(term));
       });
 
-      for (const official of officials) totalTalks += (official.talks || []).length;
+      for (const official of officials) totalTalks += (official.filteredTalks || []).length;
       centralBankName.textContent = `${bank.display_name || bankCode} 官員談話`;
       const actualRange = getBankActualRange(bank);
       centralBankRange.textContent = actualRange
@@ -1494,6 +1516,12 @@
     onlyWithTalks.addEventListener('change', () => {
       if (activePage !== 'market') renderCentralBankPage(activePage);
     });
+    centralBankStartDate.addEventListener('change', () => {
+      if (activePage !== 'market') renderCentralBankPage(activePage);
+    });
+    centralBankEndDate.addEventListener('change', () => {
+      if (activePage !== 'market') renderCentralBankPage(activePage);
+    });
 
     officialsContainer.addEventListener('change', event => {
       const select = event.target.closest('.stance-select');
@@ -1508,6 +1536,8 @@
     });
     centralBankReset.addEventListener('click', () => {
       officialSearch.value = '';
+      centralBankStartDate.value = '';
+      centralBankEndDate.value = '';
       onlyWithTalks.checked = false;
       if (activePage !== 'market') renderCentralBankPage(activePage) ;
     });
