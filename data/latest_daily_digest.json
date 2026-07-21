@@ -1,32 +1,58 @@
 {
   "title": "最近24小時全球市場重要新聞",
-  "period_start": "2026-07-20T07:00:57.284026+08:00",
-  "period_end": "2026-07-21T07:00:57.284026+08:00",
+  "period_start": "2026-07-20T08:42:10.484901+08:00",
+  "period_end": "2026-07-21T08:42:10.484901+08:00",
   "timezone": "Asia/Taipei",
-  "overview": "過去24小時，全球金融市場受地緣政治與貿易政策雙重打擊。中東局勢急劇惡化，美伊爆發多輪深夜互襲並造成美軍傷亡，霍爾木茲海峽航行安全受威脅，推升原油價格。同時，美國宣布對加拿大商品徵收高達25%至50%的懲罰性關稅，引發市場對北美貿易戰的擔憂。英國政壇出現劇烈震盪，首相 Starmer 辭職，由 Burnham 接任並重組內閣，承諾遵守財政紀律。經濟數據方面，加拿大通膨顯著降溫，而紐西蘭通膨則高於預期。",
+  "overview": "過去24小時，全球市場主線圍繞在中東地緣政治衝突的劇烈波動與主要國家政策變革。美伊衝突持續升級，美軍連續第九晚對伊朗實施打擊，且傳出美軍士兵傷亡，隨後調停方提出停火10天以恢復臨時協議的提議，使局勢呈現緊繃與外交斡旋並存。與此同時，英國政局發生重大變革，施凱爾（Starmer）辭職，安迪·伯納姆（Andy Burnham）接任首相並承諾遵守財政規則。此外，美國宣布對加拿大產品加徵關稅，並針對國防供應鏈與鋁進口實施新限制，科技巨頭如 Google 與微軟（Microsoft）則持續推進 AI 晶片與基礎設施部署。",
   "categories": [
     {
       "category": "債市",
       "news": [
         {
-          "importance_score": 3,
-          "headline_zh": "美國財政部拍賣3個月期與6個月期國庫券，得標利率雙雙下滑",
-          "summary_zh": "美國財政部拍賣短期國庫券，3個月期國庫券得標利率為3.73%（前次為3.760%），投標倍數為3倍；6個月期國庫券得標利率為3.835%（前次為3.860%），投標倍數為2.94倍。顯示短期資金需求仍穩健，利率隨降息預期有所回落。",
-          "event_time": "2026-07-20T23:32:03+08:00",
-          "source_id": "112cf70ac7ff6ff9d6701053ed144ba5170d602731ac41760a80fb834584efc7",
+          "importance_score": 2,
+          "headline_zh": "美國財政部進行3個月期與6個月期國庫券拍賣",
+          "summary_zh": "美國聯準會（Fed）與財政部進行短期國庫券拍賣，其中3個月期得標利率為3.73%，6個月期得標利率為3.835%，顯示短期融資成本維持在相對高位。",
+          "event_time": "2026-07-20T23:15:16+08:00",
+          "source_id": "1c583f0f8f6b69f7a9222d7b87c179894a54e59fe043d17afc0d216573170176",
           "source_detail": {
-            "id": "112cf70ac7ff6ff9d6701053ed144ba5170d602731ac41760a80fb834584efc7",
-            "time": "2026-07-20T23:32:03+08:00",
-            "headline": "US 6-Month Bill High Yield Actual 3.835% (Forecast -, Previous 3.860%)",
-            "link": "https://www.financialjuice.com/News/9685692/US-6-Month-Bill-High-Yield-Actual-3835-Forecast---Previous-3860.aspx",
+            "id": "1c583f0f8f6b69f7a9222d7b87c179894a54e59fe043d17afc0d216573170176",
+            "time": "2026-07-20T23:15:16+08:00",
+            "headline": "Fed bids for 6-month bills total $4.8 bln.",
+            "link": "https://www.financialjuice.com/News/9685665/Fed-bids-for-6-month-bills-total-48-bln.aspx",
             "source": "FinancialJuice"
           },
           "trajectory": [
             {
+              "time": "2026-07-20T23:15:27+08:00",
+              "source_id": "531a8a23ab8690c5a3c32af18d3dd244900cb2459273b3d20139ae1a0a631dd9",
+              "update_type": "後續發展",
+              "description_zh": "聯準會對3個月期國庫券的投標總額達到56億美元，對6個月期國庫券的投標總額為48億美元。",
+              "source_detail": {
+                "id": "531a8a23ab8690c5a3c32af18d3dd244900cb2459273b3d20139ae1a0a631dd9",
+                "time": "2026-07-20T23:15:27+08:00",
+                "headline": "Fed bids for 3-month bills total $5.6 bln.",
+                "link": "https://www.financialjuice.com/News/9685667/Fed-bids-for-3-month-bills-total-56-bln.aspx",
+                "source": "FinancialJuice"
+              }
+            },
+            {
+              "time": "2026-07-20T23:32:03+08:00",
+              "source_id": "112cf70ac7ff6ff9d6701053ed144ba5170d602731ac41760a80fb834584efc7",
+              "update_type": "正式確認",
+              "description_zh": "美國6個月期國庫券拍賣中標利率為3.835%，投標倍數（Bid-to-Cover）為2.94倍。",
+              "source_detail": {
+                "id": "112cf70ac7ff6ff9d6701053ed144ba5170d602731ac41760a80fb834584efc7",
+                "time": "2026-07-20T23:32:03+08:00",
+                "headline": "US 6-Month Bill High Yield Actual 3.835% (Forecast -, Previous 3.860%)",
+                "link": "https://www.financialjuice.com/News/9685692/US-6-Month-Bill-High-Yield-Actual-3835-Forecast---Previous-3860.aspx",
+                "source": "FinancialJuice"
+              }
+            },
+            {
               "time": "2026-07-20T23:32:05+08:00",
               "source_id": "eaa9b67d978d7153f7ddf0ae02603fd8716b6311691454fef8d3ec365c297440",
               "update_type": "正式確認",
-              "description_zh": "美國財政部正式公布3個月期與6個月期國庫券拍賣結果，得標利率與投標倍數均符合市場預期。",
+              "description_zh": "美國3個月期國庫券拍賣中標利率為3.73%，投標倍數為3.00倍。",
               "source_detail": {
                 "id": "eaa9b67d978d7153f7ddf0ae02603fd8716b6311691454fef8d3ec365c297440",
                 "time": "2026-07-20T23:32:05+08:00",
@@ -39,8 +65,8 @@
         },
         {
           "importance_score": 2,
-          "headline_zh": "英國債務管理局計劃例行發售5億英鎊國債",
-          "summary_zh": "英國債務管理局（UK DMO）宣布計劃於週四例行發售5億英鎊、票面利率為4%的2063年到期國債（Treasury Gilt），以調節政府財政資金。",
+          "headline_zh": "英國債務管理局計劃發行5億英鎊國債",
+          "summary_zh": "英國債務管理局（UK DMO）計劃於週四進行5億英鎊、票面利率4%的2063年到期國債（Gilt）的程序化銷售，為市場提供長期流動性參考。",
           "event_time": "2026-07-20T15:04:56+08:00",
           "source_id": "d1d81d6fd7f9aa7cf230e99e123b24450dd34a6ce6f0d502155a138f2339ad93",
           "source_detail": {
@@ -54,8 +80,8 @@
         },
         {
           "importance_score": 2,
-          "headline_zh": "南韓央行發售91天期貨幣穩定債券，得標利率2.67%",
-          "summary_zh": "南韓央行進行公開市場操作，成功發售91天期貨幣穩定債券（MSB），得標利率設定在2.67%，用以調節市場流動性。",
+          "headline_zh": "韓國央行發行91天期貨幣穩定債券",
+          "summary_zh": "韓國央行以2.67%的收益率售出91天期貨幣穩定債券，反映出亞洲主要經濟體短期債券市場的收益率走勢。",
           "event_time": "2026-07-20T09:40:05+08:00",
           "source_id": "39870d96969117a7dd56e661e9edaeacf674364b2fb3446ff23d94acea0a27ef",
           "source_detail": {
@@ -74,67 +100,37 @@
       "news": [
         {
           "importance_score": 4,
-          "headline_zh": "阿里巴巴因違反歐盟《數位服務法》遭重罰5.5億歐元",
-          "summary_zh": "歐盟對阿里巴巴（Alibaba）開出高達5.5億歐元的罰單，這是迄今為止根據《數位服務法》（DSA）所做出的最大金額處罰，對科技巨頭在歐洲的合規營運帶來重大警訊。",
-          "event_time": "2026-07-20T18:01:02+08:00",
-          "source_id": "ebc48d567054d94a73cede9cede36a4fbdd90b97e83c6993f7d14bf2b468c84b",
+          "headline_zh": "Google 計劃推出新晶片以提升 AI 模型運行效率",
+          "summary_zh": "據《The Information》報導，Google 計劃推出一款全新晶片，旨在更高效地運行人工智慧（AI）模型，這將進一步加劇科技巨頭在 AI 硬體領域的競爭。",
+          "event_time": "2026-07-20T21:03:26+08:00",
+          "source_id": "bb935f275e839bd70165933cbbb94ff3eaed44a21801491f70dabf23896f24a7",
           "source_detail": {
-            "id": "ebc48d567054d94a73cede9cede36a4fbdd90b97e83c6993f7d14bf2b468c84b",
-            "time": "2026-07-20T18:01:02+08:00",
-            "headline": "Alibaba fined €550m by the EU in biggest DSA penalty to date $BABA",
-            "link": "https://www.financialjuice.com/News/9685224/Alibaba-fined-550m-by-the-EU-in-biggest-DSA-penalty-to-date-BABA.aspx?xy=rss",
+            "id": "bb935f275e839bd70165933cbbb94ff3eaed44a21801491f70dabf23896f24a7",
+            "time": "2026-07-20T21:03:26+08:00",
+            "headline": "Google plans new chip - Information.",
+            "link": "https://www.financialjuice.com/News/9685511/Google-plans-new-chip---Information.aspx?xy=rss",
             "source": "FinancialJuice"
           },
           "trajectory": [
             {
-              "time": "2026-07-20T23:07:26+08:00",
-              "source_id": "609c23594c20fed3179735c9365f945f0a560b21266e02710565a78aae86cf52",
+              "time": "2026-07-20T21:03:51+08:00",
+              "source_id": "110803405e2de4cd2b02aa99711db103e6e1f9904e5be56134045741a3073014",
               "update_type": "正式確認",
-              "description_zh": "阿里巴巴宣布將對歐盟這項創紀錄的鉅額罰款提出上訴。",
+              "description_zh": "媒體證實 Google 的新晶片將專注於提升 AI 模型的運行效率。",
               "source_detail": {
-                "id": "609c23594c20fed3179735c9365f945f0a560b21266e02710565a78aae86cf52",
-                "time": "2026-07-20T23:07:26+08:00",
-                "headline": "Alibaba to appeal EU's record fine",
-                "link": "https://www.financialjuice.com/News/9685663/Alibaba-to-appeal-EUs-record-fine.aspx",
+                "id": "110803405e2de4cd2b02aa99711db103e6e1f9904e5be56134045741a3073014",
+                "time": "2026-07-20T21:03:51+08:00",
+                "headline": "Google's new chip to run AI models more efficiently - The Information",
+                "link": "https://www.financialjuice.com/News/9685513/Googles-new-chip-to-run-AI-models-more-efficiently---The-Information.aspx?xy=rss",
                 "source": "FinancialJuice"
               }
             }
           ]
         },
         {
-          "importance_score": 3,
-          "headline_zh": "輝達申報持有 Nebius Group 9.3% 被動股權",
-          "summary_zh": "根據美國證券交易委員會（SEC）文件，輝達（Nvidia）披露截至7月13日已持有 Nebius Group NV 約9.3%的被動股權，引發市場對該雲端與AI基礎設施公司的關注。",
-          "event_time": "2026-07-21T05:07:19+08:00",
-          "source_id": "cb9de3927ac2bc21a13bccb206f05952e29cde1becab8b7029ea069b588c9360",
-          "source_detail": {
-            "id": "cb9de3927ac2bc21a13bccb206f05952e29cde1becab8b7029ea069b588c9360",
-            "time": "2026-07-21T05:07:19+08:00",
-            "headline": "Nvidia reports 9.3% passive stake in Nebius Group NV as of July 13, SEC filing",
-            "link": "https://www.financialjuice.com/News/9686071/Nvidia-reports-93-passive-stake-in-Nebius-Group-NV-as-of-July-13-SEC-filing.aspx?xy=rss",
-            "source": "FinancialJuice"
-          },
-          "trajectory": []
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "黑石集團領投120億美元融資，助力 Meta 在德州建設新數據中心",
-          "summary_zh": "黑石集團（BlackRock）正領投一筆高達120億美元的融資案，用於支持 Meta Platforms 在德州建設全新數據中心，顯示市場對人工智慧（AI）基礎設施的資金需求依然極為強勁。",
-          "event_time": "2026-07-21T02:19:39+08:00",
-          "source_id": "172f51c098f87c02695539e25bb8139a1814ca26597cd891ef87dbbf842429f0",
-          "source_detail": {
-            "id": "172f51c098f87c02695539e25bb8139a1814ca26597cd891ef87dbbf842429f0",
-            "time": "2026-07-21T02:19:39+08:00",
-            "headline": "BlackRock Leads $12 bln Financing for New Meta Data Centers in Texas - WSJ. $META",
-            "link": "https://www.financialjuice.com/News/9685897/BlackRock-Leads-12-bln-Financing-for-New-Meta-Data-Centers-in-Texas---WSJ-META.aspx?xy=1",
-            "source": "FinancialJuice"
-          },
-          "trajectory": []
-        },
-        {
-          "importance_score": 3,
+          "importance_score": 4,
           "headline_zh": "微軟將部署超微新一代 Instinct 與 EPYC 處理器",
-          "summary_zh": "微軟（Microsoft）宣布將在其 Azure 雲端服務中部署超微（AMD）新一代 Instinct AI 加速器與第六代 AMD EPYC 'Venice' 處理器，強化其雲端運算與AI虛擬機器的效能。",
+          "summary_zh": "微軟（Microsoft）宣布將在其 Azure 雲端服務中部署超微（AMD）新一代 Instinct 與 EPYC 處理器，以增強其雲端運算與 AI 處理能力。",
           "event_time": "2026-07-20T21:00:58+08:00",
           "source_id": "c8e43828663b3b723367ecc431e5694f1f9977144e5b2228f8e63b732c13f4ed",
           "source_detail": {
@@ -149,12 +145,115 @@
               "time": "2026-07-20T21:01:29+08:00",
               "source_id": "abfb4fb505b220d4ea892e4e530fcff9d80e20ee9774f6803ea5a7e8e50c8422",
               "update_type": "後續發展",
-              "description_zh": "超微證實 Azure 將新增兩款由第六代 AMD EPYC 處理器驅動的全新虛擬機器（VM）。",
+              "description_zh": "超微表示，Azure 將新增兩個由第六代 AMD EPYC 'Venice' 處理器驅動的新型虛擬機器（VM）。",
               "source_detail": {
                 "id": "abfb4fb505b220d4ea892e4e530fcff9d80e20ee9774f6803ea5a7e8e50c8422",
                 "time": "2026-07-20T21:01:29+08:00",
                 "headline": "AMD: Azure to add two new VMs powered by 6th-gen AMD EPYC 'Venice' processors",
                 "link": "https://www.financialjuice.com/News/9685490/AMD-Azure-to-add-two-new-VMs-powered-by-6th-gen-AMD-EPYC-Venice-processors.aspx?xy=rss",
+                "source": "FinancialJuice"
+              }
+            }
+          ]
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "輝達申報持有 Nebius Group 9.3% 被動股權",
+          "summary_zh": "根據美國證券交易委員會（SEC）的披露文件，輝達（Nvidia）申報截至 7 月 13 日持有 Nebius Group NV 9.3% 的被動股權，引發市場對該雲端基礎設施公司的關注。",
+          "event_time": "2026-07-21T05:07:19+08:00",
+          "source_id": "cb9de3927ac2bc21a13bccb206f05952e29cde1becab8b7029ea069b588c9360",
+          "source_detail": {
+            "id": "cb9de3927ac2bc21a13bccb206f05952e29cde1becab8b7029ea069b588c9360",
+            "time": "2026-07-21T05:07:19+08:00",
+            "headline": "Nvidia reports 9.3% passive stake in Nebius Group NV as of July 13, SEC filing",
+            "link": "https://www.financialjuice.com/News/9686071/Nvidia-reports-93-passive-stake-in-Nebius-Group-NV-as-of-July-13-SEC-filing.aspx?xy=rss",
+            "source": "FinancialJuice"
+          },
+          "trajectory": []
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "黑石集團領投 Meta 德州新數據中心 120 億美元融資",
+          "summary_zh": "據《華爾街日報》報導，黑石集團（BlackRock）正在領投一筆高達 120 億美元的融資案，用於建設 Meta 在德州的新數據中心，顯示市場對 AI 基礎設施的資金需求依然強勁。",
+          "event_time": "2026-07-21T02:19:39+08:00",
+          "source_id": "172f51c098f87c02695539e25bb8139a1814ca26597cd891ef87dbbf842429f0",
+          "source_detail": {
+            "id": "172f51c098f87c02695539e25bb8139a1814ca26597cd891ef87dbbf842429f0",
+            "time": "2026-07-21T02:19:39+08:00",
+            "headline": "BlackRock Leads $12 bln Financing for New Meta Data Centers in Texas - WSJ. $META",
+            "link": "https://www.financialjuice.com/News/9685897/BlackRock-Leads-12-bln-Financing-for-New-Meta-Data-Centers-in-Texas---WSJ-META.aspx?xy=1",
+            "source": "FinancialJuice"
+          },
+          "trajectory": []
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "阿里巴巴因違反歐盟《數位服務法》遭重罰 5.5 億歐元並計劃上訴",
+          "summary_zh": "歐盟根據《數位服務法》（DSA）對阿里巴巴（Alibaba）處以 5.5 億歐元的巨額罰款，這是迄今為止該法案下最大規模的處罰。阿里巴巴隨後表示將對此裁決提出上訴。",
+          "event_time": "2026-07-20T18:01:02+08:00",
+          "source_id": "ebc48d567054d94a73cede9cede36a4fbdd90b97e83c6993f7d14bf2b468c84b",
+          "source_detail": {
+            "id": "ebc48d567054d94a73cede9cede36a4fbdd90b97e83c6993f7d14bf2b468c84b",
+            "time": "2026-07-20T18:01:02+08:00",
+            "headline": "Alibaba fined €550m by the EU in biggest DSA penalty to date $BABA",
+            "link": "https://www.financialjuice.com/News/9685224/Alibaba-fined-550m-by-the-EU-in-biggest-DSA-penalty-to-date-BABA.aspx?xy=rss",
+            "source": "FinancialJuice"
+          },
+          "trajectory": [
+            {
+              "time": "2026-07-20T23:07:26+08:00",
+              "source_id": "609c23594c20fed3179735c9365f945f0a560b21266e02710565a78aae86cf52",
+              "update_type": "正式確認",
+              "description_zh": "阿里巴巴正式宣布將對歐盟的創紀錄罰款提出上訴。",
+              "source_detail": {
+                "id": "609c23594c20fed3179735c9365f945f0a560b21266e02710565a78aae86cf52",
+                "time": "2026-07-20T23:07:26+08:00",
+                "headline": "Alibaba to appeal EU's record fine",
+                "link": "https://www.financialjuice.com/News/9685663/Alibaba-to-appeal-EUs-record-fine.aspx",
+                "source": "FinancialJuice"
+              }
+            }
+          ]
+        },
+        {
+          "importance_score": 2,
+          "headline_zh": "xAI 推出適用於微軟 Excel 的 Grok 增益集",
+          "summary_zh": "馬斯克（Elon Musk）旗下的 AI 公司 xAI 宣布推出適用於微軟 Excel 的 Grok 增益集，將 AI 助手功能直接整合至辦公軟體中。",
+          "event_time": "2026-07-20T23:49:30+08:00",
+          "source_id": "c24d097c7edad49ff15514198e284bbd74078a8dba8c183f8bcd8e60db856f1f",
+          "source_detail": {
+            "id": "c24d097c7edad49ff15514198e284bbd74078a8dba8c183f8bcd8e60db856f1f",
+            "time": "2026-07-20T23:49:30+08:00",
+            "headline": "Xai unveils Grok add-in for Microsoft Excel $MSFT",
+            "link": "https://www.financialjuice.com/News/9685720/Xai-unveils-Grok-add-in-for-Microsoft-Excel-MSFT.aspx",
+            "source": "FinancialJuice"
+          },
+          "trajectory": []
+        },
+        {
+          "importance_score": 2,
+          "headline_zh": "Wesfarmers 與微軟建立多年度戰略聯盟以推動 AI 應用",
+          "summary_zh": "澳洲零售巨頭 Wesfarmers 宣布與微軟建立多年度戰略聯盟，旨在加速整個集團對 AI 和雲端技術的採用。",
+          "event_time": "2026-07-20T11:11:14+08:00",
+          "source_id": "e888acdb44c9cf7fd09fea97bc08a254a70c908da1cba8a08d7ecbb768348f0a",
+          "source_detail": {
+            "id": "e888acdb44c9cf7fd09fea97bc08a254a70c908da1cba8a08d7ecbb768348f0a",
+            "time": "2026-07-20T11:11:14+08:00",
+            "headline": "Wesfarmers forms alliance with Microsoft",
+            "link": "https://www.financialjuice.com/News/9684790/Wesfarmers-forms-alliance-with-Microsoft.aspx?xy=rss",
+            "source": "FinancialJuice"
+          },
+          "trajectory": [
+            {
+              "time": "2026-07-20T11:11:50+08:00",
+              "source_id": "054d59977300096a89ec2e6b2b7c0651c89c3d0bfc1c192a168370ffed3159ca",
+              "update_type": "後續發展",
+              "description_zh": "雙方確認此戰略聯盟將全面提升 Wesfarmers 集團內部的雲端與 AI 技術整合。",
+              "source_detail": {
+                "id": "054d59977300096a89ec2e6b2b7c0651c89c3d0bfc1c192a168370ffed3159ca",
+                "time": "2026-07-20T11:11:50+08:00",
+                "headline": "Wesfarmers: Multiyear strategic alliance to boost ongoing AI, cloud technology adoption across Wesfarmers group",
+                "link": "https://www.financialjuice.com/News/9684791/Wesfarmers-Multiyear-strategic-alliance-to-boost-ongoing-AI-cloud-technology-adoption-across-Wesfarmers-group.aspx?xy=rss",
                 "source": "FinancialJuice"
               }
             }
@@ -167,8 +266,8 @@
       "news": [
         {
           "importance_score": 4,
-          "headline_zh": "中國人民銀行維持1年期與5年期貸款市場報價利率不變",
-          "summary_zh": "中國人民銀行（PBoC）宣布將1年期貸款市場報價利率（LPR）維持在3.00%不變，5年期以上LPR維持在3.50%不變，符合市場預期，顯示貨幣政策短期內以穩健為主。",
+          "headline_zh": "中國人民銀行維持貸款市場報價利率（LPR）不變",
+          "summary_zh": "中國人民銀行（PBoC）宣布將1年期 LPR 維持在 3.00%，5年期以上 LPR 維持在 3.50%，均符合市場預期，顯示貨幣政策短期內保持穩定。",
           "event_time": "2026-07-20T09:00:19+08:00",
           "source_id": "88bb50103c49026bd732be992d11e58a4cfa61510c59d79e40037c36f1362faa",
           "source_detail": {
@@ -183,7 +282,7 @@
               "time": "2026-07-20T09:20:55+08:00",
               "source_id": "583540470a664329f91563ebf4b378c7a3f40053a1a95afa4715acac73f8e4d1",
               "update_type": "後續發展",
-              "description_zh": "中國央行隨後透過7天期逆回購操作向市場注入3985億元人民幣，中標利率維持在1.40%不變。",
+              "description_zh": "中國人民銀行隨後宣布透過7天期逆回購操作向市場注入 3,985 億元人民幣，中標利率維持在 1.40% 不變。",
               "source_detail": {
                 "id": "583540470a664329f91563ebf4b378c7a3f40053a1a95afa4715acac73f8e4d1",
                 "time": "2026-07-20T09:20:55+08:00",
@@ -196,23 +295,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "摩根士丹利預期聯準會降息路徑：降息三次後將暫停",
-          "summary_zh": "摩根士丹利（Morgan Stanley）發表最新報告指出，聯準會（Fed）在連續降息三次後可能會選擇暫停降息，即「3 Hikes, You're Out」（此處指降息循環的階段性調整），引發市場對後續貨幣政策路徑的討論。",
-          "event_time": "2026-07-20T21:03:43+08:00",
-          "source_id": "aae38f2410309e3e6c1d601ef6a8d38e796c7393ea571b44b44c95ad1948cdfe",
-          "source_detail": {
-            "id": "aae38f2410309e3e6c1d601ef6a8d38e796c7393ea571b44b44c95ad1948cdfe",
-            "time": "2026-07-20T21:03:43+08:00",
-            "headline": "Morgan Stanley on the Fed: 3 Hikes, You're Out - FJElite",
-            "link": "https://www.financialjuice.com/News/9685512/Morgan-Stanley-on-the-Fed-3-Hikes-Youre-Out---FJElite.aspx?xy=rss",
-            "source": "FinancialJuice"
-          },
-          "trajectory": []
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "歐洲央行 SAFE 調查顯示通膨預期維持穩定",
-          "summary_zh": "歐洲央行（ECB）發布企業融資管道（SAFE）調查，結果顯示企業對1年、3年和5年期的通膨預期基本保持穩定。此外，企業預計銷售價格、非勞動力投入成本和薪資增幅將會放緩。",
+          "headline_zh": "歐洲央行 SAFE 調查顯示通膨預期保持穩定",
+          "summary_zh": "歐洲央行（ECB）發布的 SAFE 調查顯示，歐元區企業對1年、3年和5年期的通膨預期基本保持穩定，且預期銷售價格、非勞動力投入成本和工資增幅將會放緩。",
           "event_time": "2026-07-20T16:00:37+08:00",
           "source_id": "90406ff3aa767ec76aa70e9737aa05996d2230ad765d95b0a6f152d8f9b93922",
           "source_detail": {
@@ -220,6 +304,48 @@
             "time": "2026-07-20T16:00:37+08:00",
             "headline": "ECB's SAFE Survey: Inflation expectations at the one, three and five-year horizons remained largely stable.",
             "link": "https://www.financialjuice.com/News/9685065/ECBs-SAFE-Survey-Inflation-expectations-at-the-one-three-and-five-year-horizons-remained-largely-stable.aspx?xy=rss",
+            "source": "FinancialJuice"
+          },
+          "trajectory": [
+            {
+              "time": "2026-07-20T16:00:46+08:00",
+              "source_id": "05d50223e4da078e3f51ca0ccf576154cf8151fff8208991b8d6d9621f8a2c84",
+              "update_type": "後續發展",
+              "description_zh": "調查指出，企業預計銷售價格、非人工投入成本和薪資預期的增幅將會降低。",
+              "source_detail": {
+                "id": "05d50223e4da078e3f51ca0ccf576154cf8151fff8208991b8d6d9621f8a2c84",
+                "time": "2026-07-20T16:00:46+08:00",
+                "headline": "ECB's SAFE Survey: Firms expect lower increases 'in selling prices, non-labour input costs and wage expectations.",
+                "link": "https://www.financialjuice.com/News/9685066/ECBs-SAFE-Survey-Firms-expect-lower-increases-in-selling-prices-non-labour-input-costs-and-wage-expectations.aspx?xy=rss",
+                "source": "FinancialJuice"
+              }
+            },
+            {
+              "time": "2026-07-20T16:00:54+08:00",
+              "source_id": "ba3cf2f417e076e09db1ea5df60c6866c64df45dbbb55749c5c49c611b757fcc",
+              "update_type": "後續發展",
+              "description_zh": "調查亦顯示，中東戰爭正迫使部分企業尋找替代供應商並提高能源效率。",
+              "source_detail": {
+                "id": "ba3cf2f417e076e09db1ea5df60c6866c64df45dbbb55749c5c49c611b757fcc",
+                "time": "2026-07-20T16:00:54+08:00",
+                "headline": "ECB's SAFE Survey: Middle East war forcing firms to seek alternative suppliers, improve energy efficiency.",
+                "link": "https://www.financialjuice.com/News/9685067/ECBs-SAFE-Survey-Middle-East-war-forcing-firms-to-seek-alternative-suppliers-improve-energy-efficiency.aspx?xy=rss",
+                "source": "FinancialJuice"
+              }
+            }
+          ]
+        },
+        {
+          "importance_score": 2,
+          "headline_zh": "台灣隔夜拆款利率持平於 0.805%",
+          "summary_zh": "台灣銀行間隔夜拆款利率開盤報 0.805%，與前一交易日開盤持平，顯示本地市場資金面維持平穩。",
+          "event_time": "2026-07-20T09:00:45+08:00",
+          "source_id": "a294a3892e8043512e295cb5311593f9a411451924f08d8ff30e6bd9773cc10a",
+          "source_detail": {
+            "id": "a294a3892e8043512e295cb5311593f9a411451924f08d8ff30e6bd9773cc10a",
+            "time": "2026-07-20T09:00:45+08:00",
+            "headline": "Taiwan overnight interbank rate starts at 0.805%, steady from prior session open",
+            "link": "https://www.financialjuice.com/News/9684664/Taiwan-overnight-interbank-rate-starts-at-0805-steady-from-prior-session-open.aspx",
             "source": "FinancialJuice"
           },
           "trajectory": []
@@ -230,9 +356,9 @@
       "category": "財政政策",
       "news": [
         {
-          "importance_score": 5,
-          "headline_zh": "美國宣布對加拿大商品徵收25%至50%懲罰性關稅",
-          "summary_zh": "美國白宮宣布將在30天內對加拿大進口商品徵收25%的關稅，並對特定加拿大商品（如乳製品、酒精等涉嫌歧視美商的產品）加徵高達50%的額外關稅，此舉引發北美貿易關係高度緊張。不過，能源、鉀肥及關鍵礦物獲得豁免。",
+          "importance_score": 4,
+          "headline_zh": "美國宣布對加拿大產品加徵關稅，排除能源與關鍵礦物",
+          "summary_zh": "美國白宮宣布將在30天內對加拿大產品徵收25%的關稅，並對特定加拿大產品加徵50%的額外稅率，以應對加拿大在乳製品和酒精貿易上的不對等政策。不過，能源、鉀肥和關鍵礦物將獲得豁免。",
           "event_time": "2026-07-21T05:00:20+08:00",
           "source_id": "594394d0f73811b63b00c9e61e730ad40ca5a855915db33e2663335f8794110d",
           "source_detail": {
@@ -247,7 +373,7 @@
               "time": "2026-07-21T05:00:21+08:00",
               "source_id": "345a1463cb104610ffd94e150ff78f61101b6dba77012d039cd9db0a6b257f56",
               "update_type": "後續發展",
-              "description_zh": "美方官員證實，能源、鉀肥和關鍵礦物將不納入此次對加關稅範圍。",
+              "description_zh": "美國官員證實，能源、鉀肥和關鍵礦物將不包含在對加關稅範圍內。",
               "source_detail": {
                 "id": "345a1463cb104610ffd94e150ff78f61101b6dba77012d039cd9db0a6b257f56",
                 "time": "2026-07-21T05:00:21+08:00",
@@ -257,15 +383,15 @@
               }
             },
             {
-              "time": "2026-07-21T05:02:16+08:00",
-              "source_id": "15a73c4cba10b7bebf37a10432340543902686aed5ad71c3de376bcbfb3d01cb",
-              "update_type": "正式確認",
-              "description_zh": "白宮宣布，針對特定加拿大商品的50%額外關稅將於2026年8月19日凌晨12:01正式生效。",
+              "time": "2026-07-21T05:01:39+08:00",
+              "source_id": "1bb9a5092e06f36e68e873a15e1ed9fa23d80d72a47849e252418998c54e3691",
+              "update_type": "後續發展",
+              "description_zh": "白宮宣布對特定加拿大產品加徵50%的額外關稅，將於美東時間2026年8月19日凌晨12:01生效。",
               "source_detail": {
-                "id": "15a73c4cba10b7bebf37a10432340543902686aed5ad71c3de376bcbfb3d01cb",
-                "time": "2026-07-21T05:02:16+08:00",
-                "headline": "US’s extra 50% tariff on specific Canadian products effective 12:01 a.m. ET August 19, 2026: White House",
-                "link": "https://www.financialjuice.com/News/9686064/USs-extra-50-tariff-on-specific-Canadian-products-effective-1201-am-ET-August-19-2026-White-House.aspx?xy=rss",
+                "id": "1bb9a5092e06f36e68e873a15e1ed9fa23d80d72a47849e252418998c54e3691",
+                "time": "2026-07-21T05:01:39+08:00",
+                "headline": "U.S. imposing additional 50 percent tax on certain Canadian products: White House",
+                "link": "https://www.financialjuice.com/News/9686056/US-imposing-additional-50-percent-tax-on-certain-Canadian-products-White-House.aspx?xy=rss",
                 "source": "FinancialJuice"
               }
             }
@@ -273,8 +399,89 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "川普簽署行政命令限制國防承包商採購外國關鍵礦物，並調整鋁關稅",
-          "summary_zh": "美國總統川普簽署行政命令，要求國防承包商必須優先採購國內產品，並限制其取得禁用外國關鍵礦物與材料的豁免權。同時，川普授權商務部建立激勵計劃，對承諾將產能遷回美國（onshoring）的企業降低鋁進口關稅。",
+          "headline_zh": "英國政局變革：施凱爾辭職，安迪·伯納姆接任首相並承諾遵守財政規則",
+          "summary_zh": "英國政壇發生重大變動，施凱爾（Starmer）宣布向國王遞交辭呈，由安迪·伯納姆（Andy Burnham）接任英國首相。伯納姆承諾絕不拿經濟冒險，並重申將嚴格遵守財政規則，同時任命約翰·希利（John Healey）為新任財政大臣。",
+          "event_time": "2026-07-20T18:16:19+08:00",
+          "source_id": "f185670c3f5bfed0f10bc5c774851f2690d323fab3f87e774a40f04bee39aa56",
+          "source_detail": {
+            "id": "f185670c3f5bfed0f10bc5c774851f2690d323fab3f87e774a40f04bee39aa56",
+            "time": "2026-07-20T18:16:19+08:00",
+            "headline": "UK's Starmer: About to visit the king and offer my resignation",
+            "link": "https://www.financialjuice.com/News/9685251/UKs-Starmer-About-to-visit-the-king-and-offer-my-resignation.aspx?xy=rss",
+            "source": "FinancialJuice"
+          },
+          "trajectory": [
+            {
+              "time": "2026-07-20T19:16:15+08:00",
+              "source_id": "fb107e9894d84d47399d6c32bf27df4c31d97802c8b60fb70dd8b48603a52866",
+              "update_type": "正式確認",
+              "description_zh": "安迪·伯納姆正式接任英國首相。",
+              "source_detail": {
+                "id": "fb107e9894d84d47399d6c32bf27df4c31d97802c8b60fb70dd8b48603a52866",
+                "time": "2026-07-20T19:16:15+08:00",
+                "headline": "Andy Burnham becomes UK Prime Minister",
+                "link": "https://www.financialjuice.com/News/9685322/Andy-Burnham-becomes-UK-Prime-Minister.aspx?xy=rss",
+                "source": "FinancialJuice"
+              }
+            },
+            {
+              "time": "2026-07-20T22:58:35+08:00",
+              "source_id": "42c8e7693dd13183732f888b9fced118a0be72e8ba511c1ca0af4ee1bff92420",
+              "update_type": "後續發展",
+              "description_zh": "原英國財政大臣里夫斯（Reeves）宣布辭職。",
+              "source_detail": {
+                "id": "42c8e7693dd13183732f888b9fced118a0be72e8ba511c1ca0af4ee1bff92420",
+                "time": "2026-07-20T22:58:35+08:00",
+                "headline": "UK's Chancellor Reeves resigns.",
+                "link": "https://www.financialjuice.com/News/9685641/UKs-Chancellor-Reeves-resigns.aspx",
+                "source": "FinancialJuice"
+              }
+            },
+            {
+              "time": "2026-07-20T23:00:32+08:00",
+              "source_id": "7ea9909d97534eff6f8ac09336c39b99a496aeea2a565e7582502ae1b65d92e7",
+              "update_type": "後續發展",
+              "description_zh": "新首相伯納姆強調絕不拿經濟冒險，並承諾遵守財政規則，但會利用規則內的「任何彈性」。",
+              "source_detail": {
+                "id": "7ea9909d97534eff6f8ac09336c39b99a496aeea2a565e7582502ae1b65d92e7",
+                "time": "2026-07-20T23:00:32+08:00",
+                "headline": "UK's PM Burnham: I would never take risks with the economy, recommits to fiscal rules.",
+                "link": "https://www.financialjuice.com/News/9685645/UKs-PM-Burnham-I-would-never-take-risks-with-the-economy-recommits-to-fiscal-rules.aspx",
+                "source": "FinancialJuice"
+              }
+            },
+            {
+              "time": "2026-07-20T23:00:58+08:00",
+              "source_id": "c3484bc0e60b8aba3df3041e43a3437e84b021d19a19722872c071dc36335569",
+              "update_type": "後續發展",
+              "description_zh": "伯納姆表示，正在研究調整個人所得稅免稅額門檻，並指出此舉將帶來重大影響。",
+              "source_detail": {
+                "id": "c3484bc0e60b8aba3df3041e43a3437e84b021d19a19722872c071dc36335569",
+                "time": "2026-07-20T23:00:58+08:00",
+                "headline": "UK's PM Burnham: Looking at the personal allowance threshold for income tax, changing it has significant consequences.",
+                "link": "https://www.financialjuice.com/News/9685647/UKs-PM-Burnham-Looking-at-the-personal-allowance-threshold-for-income-tax-changing-it-has-significant-consequences.aspx",
+                "source": "FinancialJuice"
+              }
+            },
+            {
+              "time": "2026-07-21T01:14:58+08:00",
+              "source_id": "89b8e5ee46200ca7cb161c7ffb6c74d5f9c7271119149025ead0ea378422f208",
+              "update_type": "正式確認",
+              "description_zh": "約翰·希利（John Healey）被正式任命為英國財政大臣。",
+              "source_detail": {
+                "id": "89b8e5ee46200ca7cb161c7ffb6c74d5f9c7271119149025ead0ea378422f208",
+                "time": "2026-07-21T01:14:58+08:00",
+                "headline": "John Healey has been named UK Chancellor of the Exchequer.",
+                "link": "https://www.financialjuice.com/News/9685816/John-Healey-has-been-named-UK-Chancellor-of-the-Exchequer.aspx?xy=rss",
+                "source": "FinancialJuice"
+              }
+            }
+          ]
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "川普簽署行政命令限制國防承包商使用外國關鍵礦物並調整鋁進口關稅",
+          "summary_zh": "美國總統川普（Trump）簽署行政命令，要求國防承包商優先使用國內產品，並對武器系統中的關鍵礦物和零部件供應鏈進行審查，否則將面臨失去合約的風險。同時，川普授權商務部建立激勵計劃，將鋁關稅稅率與企業的本土化計劃掛鉤。",
           "event_time": "2026-07-21T03:40:24+08:00",
           "source_id": "ca15ccfe2f03a66c32b0911f65e59fd150d21d7722753da53feb16a991512792",
           "source_detail": {
@@ -289,7 +496,7 @@
               "time": "2026-07-21T03:45:50+08:00",
               "source_id": "6d2b754c5e1f88878af5911b984e10af607394f2a97ac89c38801545b73fdf78",
               "update_type": "後續發展",
-              "description_zh": "白宮證實川普已簽署公告，授權商務部長建立鋁冶煉廠投資激勵計劃，將關稅減免與企業回流計劃掛鉤。",
+              "description_zh": "白宮表示，川普採取進一步行動調整進入美國的鋁進口關稅。",
               "source_detail": {
                 "id": "6d2b754c5e1f88878af5911b984e10af607394f2a97ac89c38801545b73fdf78",
                 "time": "2026-07-21T03:45:50+08:00",
@@ -297,59 +504,17 @@
                 "link": "https://www.financialjuice.com/News/9685980/White-House-Trump-takes-further-action-to-adjust-imports-of-aluminum-into-the-United-States.aspx?xy=rss",
                 "source": "FinancialJuice"
               }
-            }
-          ]
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "英國政壇大地震：首相 Starmer 辭職，新首相 Burnham 接任並重組內閣",
-          "summary_zh": "英國首相施凱爾（Keir Starmer）宣布向國王遞交辭呈，由安迪·伯納姆（Andy Burnham）接任英國首相。新首相承諾將引入全新政治與經濟模式，並重申將嚴格遵守財政紀律，絕不拿經濟冒險。",
-          "event_time": "2026-07-20T18:16:19+08:00",
-          "source_id": "f185670c3f5bfed0f10bc5c774851f2690d323fab3f87e774a40f04bee39aa56",
-          "source_detail": {
-            "id": "f185670c3f5bfed0f10bc5c774851f2690d323fab3f87e774a40f04bee39aa56",
-            "time": "2026-07-20T18:16:19+08:00",
-            "headline": "UK's Starmer: About to visit the king and offer my resignation",
-            "link": "https://www.financialjuice.com/News/9685251/UKs-Starmer-About-to-visit-the-king-and-offer-my-resignation.aspx?xy=rss",
-            "source": "FinancialJuice"
-          },
-          "trajectory": [
-            {
-              "time": "2026-07-20T19:16:15+08:00",
-              "source_id": "fb107e9894d84d47399d6c32bf27df4c31d97802c8b60fb70dd8b48603a52866",
-              "update_type": "後續發展",
-              "description_zh": "Andy Burnham 正式就任英國首相，並宣布將在今年提出新的10年國家計劃。",
-              "source_detail": {
-                "id": "fb107e9894d84d47399d6c32bf27df4c31d97802c8b60fb70dd8b48603a52866",
-                "time": "2026-07-20T19:16:15+08:00",
-                "headline": "Andy Burnham becomes UK Prime Minister",
-                "link": "https://www.financialjuice.com/News/9685322/Andy-Burnham-becomes-UK-Prime-Minister.aspx?xy=rss",
-                "source": "FinancialJuice"
-              }
             },
             {
-              "time": "2026-07-20T22:58:35+08:00",
-              "source_id": "42c8e7693dd13183732f888b9fced118a0be72e8ba511c1ca0af4ee1bff92420",
+              "time": "2026-07-21T03:48:34+08:00",
+              "source_id": "ba731b73a8976267698862b884f7b7eb97a57a374c5d6a26cbacfdce1b3ab724",
               "update_type": "後續發展",
-              "description_zh": "原財政大臣 Reeves 辭職，隨後由 John Healey 接任財政大臣，Ed Miliband 出任外交大臣。",
+              "description_zh": "美國將降低鋁關稅稅率與企業的本土化（onshoring）計劃相掛鉤。",
               "source_detail": {
-                "id": "42c8e7693dd13183732f888b9fced118a0be72e8ba511c1ca0af4ee1bff92420",
-                "time": "2026-07-20T22:58:35+08:00",
-                "headline": "UK's Chancellor Reeves resigns.",
-                "link": "https://www.financialjuice.com/News/9685641/UKs-Chancellor-Reeves-resigns.aspx",
-                "source": "FinancialJuice"
-              }
-            },
-            {
-              "time": "2026-07-20T23:00:56+08:00",
-              "source_id": "00da6660d84283193cdfb395d5f27c8426940ecc82cbc5dc9878d2feb06a9cde",
-              "update_type": "後續發展",
-              "description_zh": "新首相 Burnham 表示，將在英國財政規則允許的範圍內使用「任何彈性」，但絕不破壞財政穩定。",
-              "source_detail": {
-                "id": "00da6660d84283193cdfb395d5f27c8426940ecc82cbc5dc9878d2feb06a9cde",
-                "time": "2026-07-20T23:00:56+08:00",
-                "headline": "UK's PM Burnham: I'll use 'any flexibility' within UK fiscal rules.",
-                "link": "https://www.financialjuice.com/News/9685662/UKs-PM-Burnham-Ill-use-any-flexibility-within-UK-fiscal-rules.aspx",
+                "id": "ba731b73a8976267698862b884f7b7eb97a57a374c5d6a26cbacfdce1b3ab724",
+                "time": "2026-07-21T03:48:34+08:00",
+                "headline": "The US ties reduced the aluminum tariff rate to firms onshoring plans.",
+                "link": "https://www.financialjuice.com/News/9685984/The-US-ties-reduced-the-aluminum-tariff-rate-to-firms-onshoring-plans.aspx?xy=rss",
                 "source": "FinancialJuice"
               }
             }
@@ -361,9 +526,38 @@
       "category": "經濟",
       "news": [
         {
-          "importance_score": 4,
-          "headline_zh": "美國上週戰略石油儲備降至1983年以來最低水平",
-          "summary_zh": "美國上週戰略石油儲備（SPR）減少約510萬桶，降至3.114億桶，創下1983年以來的最低紀錄。在中東局勢動盪之際，儲備下滑可能加劇能源市場對供應中斷的擔憂。",
+          "importance_score": 3,
+          "headline_zh": "紐西蘭第二季 CPI 年增 4.1% 略高於預期",
+          "summary_zh": "紐西蘭第二季消費者物價指數（CPI）年增率達 4.1%，高於市場預期的 4.0% 及前值的 3.1%；季增率為 1.5%，亦高於預期的 1.4%。數據公布後，紐西蘭元兌美元匯率輕微上揚。",
+          "event_time": "2026-07-21T06:45:00+08:00",
+          "source_id": "741d71cf9b1e23c78a0a1c59e3bd3f2feac7edd98507f4aa8efba18f3736eff7",
+          "source_detail": {
+            "id": "741d71cf9b1e23c78a0a1c59e3bd3f2feac7edd98507f4aa8efba18f3736eff7",
+            "time": "2026-07-21T06:45:00+08:00",
+            "headline": "New Zealand CPI YoY Actual 4.1% (Forecast 4%, Previous 3.1%)",
+            "link": "https://www.financialjuice.com/News/9686162/New-Zealand-CPI-YoY-Actual-41-Forecast-4-Previous-31.aspx?xy=rss",
+            "source": "FinancialJuice"
+          },
+          "trajectory": [
+            {
+              "time": "2026-07-21T06:45:46+08:00",
+              "source_id": "bc99d9a576106a66e07c7ca9f7d7929b5a43e701bd056a5dc3350bb222305ef7",
+              "update_type": "後續發展",
+              "description_zh": "通膨數據公布後，紐西蘭元小幅上漲至 0.5843 美元。",
+              "source_detail": {
+                "id": "bc99d9a576106a66e07c7ca9f7d7929b5a43e701bd056a5dc3350bb222305ef7",
+                "time": "2026-07-21T06:45:46+08:00",
+                "headline": "NZ dollar rises slightly to $0.5843 after CPI data",
+                "link": "https://www.financialjuice.com/News/9686170/NZ-dollar-rises-slightly-to-05843-after-CPI-data.aspx?xy=rss",
+                "source": "FinancialJuice"
+              }
+            }
+          ]
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "美國戰略石油儲備降至 1983 年以來最低水平",
+          "summary_zh": "上週美國戰略石油儲備（SPR）中的原油庫存減少約 510 萬桶，降至 3.114 億桶，創下 1983 年以來的最低水平，這可能對全球能源供應安全帶來潛在影響。",
           "event_time": "2026-07-20T23:57:22+08:00",
           "source_id": "ad442346a7ceb9d56043123f0adf25166fc18639cf9c20abd2b4a0701c74a01d",
           "source_detail": {
@@ -376,9 +570,38 @@
           "trajectory": []
         },
         {
-          "importance_score": 4,
-          "headline_zh": "加拿大6月CPI年增率降至2.8%，通膨壓力顯著放緩",
-          "summary_zh": "加拿大公布6月消費者物價指數（CPI）年增率為2.8%，低於市場預期的2.9%及前值的3.2%；核心CPI年增率亦降至2.1%。數據顯示通膨壓力顯著降溫，強化了加拿大央行（BoC）後續的降息預期。",
+          "importance_score": 3,
+          "headline_zh": "雪佛龍因墨西哥灣風暴關閉 Petronius 平台石油生產",
+          "summary_zh": "雪佛龍（Chevron）宣布，因應墨西哥灣即將來襲的風暴，已關閉其 Petronius 平台的石油生產，並將所有員工撤離至岸上，此舉短期內可能影響部分原油供應。",
+          "event_time": "2026-07-20T23:31:43+08:00",
+          "source_id": "f486d33ce7455b6c9e03f3f80ab50f17e4b2d109dd2501a8973c82b21738d861",
+          "source_detail": {
+            "id": "f486d33ce7455b6c9e03f3f80ab50f17e4b2d109dd2501a8973c82b21738d861",
+            "time": "2026-07-20T23:31:43+08:00",
+            "headline": "Chevron: We're shutting in oil production at the Petronius Gulf platform. $CVX",
+            "link": "https://www.financialjuice.com/News/9685689/Chevron-Were-shutting-in-oil-production-at-the-Petronius-Gulf-platform-CVX.aspx",
+            "source": "FinancialJuice"
+          },
+          "trajectory": [
+            {
+              "time": "2026-07-20T23:33:26+08:00",
+              "source_id": "e4db2e302a334b4e3bc24c6a2e019d171b6955676abb35239a0794265f1773e0",
+              "update_type": "正式確認",
+              "description_zh": "雪佛龍確認所有 Petronius 平台的員工已在風暴來臨前安全撤離上岸。",
+              "source_detail": {
+                "id": "e4db2e302a334b4e3bc24c6a2e019d171b6955676abb35239a0794265f1773e0",
+                "time": "2026-07-20T23:33:26+08:00",
+                "headline": "Chevron: All petronius workers moving ashore ahead of gulf storm. $CVX",
+                "link": "https://www.financialjuice.com/News/9685701/Chevron-All-petronius-workers-moving-ashore-ahead-of-gulf-storm-CVX.aspx",
+                "source": "FinancialJuice"
+              }
+            }
+          ]
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "加拿大 6 月 CPI 年增率放緩至 2.8% 高於預期",
+          "summary_zh": "加拿大統計局公布 6 月消費者物價指數（CPI）年增率為 2.8%，低於前值的 3.2%，且低於市場預期的 2.9%，顯示通膨壓力有所減輕，為加拿大央行（BoC）提供了更多政策調整空間。",
           "event_time": "2026-07-20T20:30:01+08:00",
           "source_id": "6cca6a3e8364075f4a8de53a03b8b0d6bb7ffa08e444e52dcb679ecae87379d8",
           "source_detail": {
@@ -393,7 +616,7 @@
               "time": "2026-07-20T20:30:21+08:00",
               "source_id": "598ac54c4b5a4f63b74431f216e46f7d18408920a834cc70ae753e3f66867f60",
               "update_type": "後續發展",
-              "description_zh": "加拿大6月CPI按月下滑0.4%，降幅大於預期的0.2%，核心CPI月增率僅為0.1%。",
+              "description_zh": "加拿大 6 月 CPI 中位數年增率為 1.9%（預期 2.1%），月增率為 -0.4%（預期 -0.2%）。",
               "source_detail": {
                 "id": "598ac54c4b5a4f63b74431f216e46f7d18408920a834cc70ae753e3f66867f60",
                 "time": "2026-07-20T20:30:21+08:00",
@@ -405,53 +628,9 @@
           ]
         },
         {
-          "importance_score": 3,
-          "headline_zh": "紐西蘭第二季CPI年增4.1%，略高於市場預期",
-          "summary_zh": "紐西蘭第二季消費者物價指數（CPI）年增率為4.1%，高於市場預期的4.0%及前值的3.1%；季增率為1.5%，亦高於預期的1.4%。通膨黏性可能使紐西蘭央行在降息決策上抱持審慎態度。",
-          "event_time": "2026-07-21T06:45:00+08:00",
-          "source_id": "741d71cf9b1e23c78a0a1c59e3bd3f2feac7edd98507f4aa8efba18f3736eff7",
-          "source_detail": {
-            "id": "741d71cf9b1e23c78a0a1c59e3bd3f2feac7edd98507f4aa8efba18f3736eff7",
-            "time": "2026-07-21T06:45:00+08:00",
-            "headline": "New Zealand CPI YoY Actual 4.1% (Forecast 4%, Previous 3.1%)",
-            "link": "https://www.financialjuice.com/News/9686162/New-Zealand-CPI-YoY-Actual-41-Forecast-4-Previous-31.aspx?xy=rss",
-            "source": "FinancialJuice"
-          },
-          "trajectory": [
-            {
-              "time": "2026-07-21T06:45:04+08:00",
-              "source_id": "c55c04d64830090e54ed1c57d9bc882ff811775ee1cf0e1c56e0017718f7f222",
-              "update_type": "後續發展",
-              "description_zh": "數據顯示，紐西蘭第二季非貿易品CPI年增率達3.4%，季增率為0.6%，顯示國內服務業通膨仍具韌性。",
-              "source_detail": {
-                "id": "c55c04d64830090e54ed1c57d9bc882ff811775ee1cf0e1c56e0017718f7f222",
-                "time": "2026-07-21T06:45:04+08:00",
-                "headline": "NZ Q2 consumer price index non-tradables rise 3.4% year-over-year",
-                "link": "https://www.financialjuice.com/News/9686163/NZ-Q2-consumer-price-index-non-tradables-rise-34-year-over-year.aspx?xy=rss",
-                "source": "FinancialJuice"
-              }
-            }
-          ]
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "美國6月領先指標月減0.2%，降幅略大於預期",
-          "summary_zh": "美國6月領先經濟指標（LEI）月增率為-0.2%，低於市場預期的-0.1%及前值的0.1%，顯示美國經濟成長動能未來數月可能面臨溫和放緩的壓力。",
-          "event_time": "2026-07-20T22:00:07+08:00",
-          "source_id": "61e230be67dcdfd6c2cd879752377bc4b840810c452145c9e35bf5b93f83ce47",
-          "source_detail": {
-            "id": "61e230be67dcdfd6c2cd879752377bc4b840810c452145c9e35bf5b93f83ce47",
-            "time": "2026-07-20T22:00:07+08:00",
-            "headline": "US Leading Index Change MoM Actual -0.2% (Forecast -0.1%, Previous 0.1%)",
-            "link": "https://www.financialjuice.com/News/9685564/US-Leading-Index-Change-MoM-Actual--02-Forecast--01-Previous-01.aspx?xy=rss",
-            "source": "FinancialJuice"
-          },
-          "trajectory": []
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "德國6月PPI年增1.8%，符合市場預期",
-          "summary_zh": "德國公布6月生產者物價指數（PPI）年增率為1.8%，符合市場預期，低於前值的2.2%；月增率為-0.3%，同樣符合預期，顯示歐元區最大經濟體的上游通膨壓力持續放緩。",
+          "importance_score": 2,
+          "headline_zh": "德國 6 月 PPI 年增 1.8% 符合預期",
+          "summary_zh": "德國 6 月生產者物價指數（PPI）月增率為 -0.3%，年增率為 1.8%，兩者均完全符合市場預期，顯示生產端通膨壓力基本受控。",
           "event_time": "2026-07-20T14:00:03+08:00",
           "source_id": "22c127508d6783beff7e1305682c3674a144783b2a94a28b7975bfa7bf4f24fa",
           "source_detail": {
@@ -470,23 +649,36 @@
       "news": [
         {
           "importance_score": 5,
-          "headline_zh": "美伊爆發深夜多輪互襲，美軍基地遇襲致死傷，中東戰火急劇升級",
-          "summary_zh": "美軍與伊朗爆發大規模深夜軍事互襲。美軍連續第九晚對伊朗多個城市（包括布希爾核電廠周邊、大不里士、科梅因工業區等）進行空襲。隨後伊朗革命衛隊發射飛彈反擊，擊中巴林、科威特及約旦的美軍基地，造成至少兩名美軍士兵死亡，中東局勢面臨全面失控風險。",
-          "event_time": "2026-07-20T07:28:52+08:00",
-          "source_id": "b476331d8918ded977ca0ab6b3aefa2899717369f72df72d1afddaa5a21d470c",
+          "headline_zh": "美伊衝突劇烈升級：美軍連續空襲伊朗，傳美軍士兵傷亡與停火斡旋並存",
+          "summary_zh": "美伊地緣政治衝突急劇升溫。美軍連續第九晚對伊朗軍事目標實施空襲，並傳出有美軍士兵在襲擊中喪生。川普總統警告將讓伊朗付出沉重代價。與此同時，調停方已向德黑蘭提出停火10天的建議，以尋求恢復美伊臨時協議的可能性。",
+          "event_time": "2026-07-20T07:58:17+08:00",
+          "source_id": "7f484dd98b0ef90ab9aee4e3617d603593025ef25e9ea94a671339ade0eaae98",
           "source_detail": {
-            "id": "b476331d8918ded977ca0ab6b3aefa2899717369f72df72d1afddaa5a21d470c",
-            "time": "2026-07-20T07:28:52+08:00",
-            "headline": "Iran's Press TV: reports of U.S. attacks on Iranian city of Tabriz",
-            "link": "https://www.financialjuice.com/News/9684611/Irans-Press-TV-reports-of-US-attacks-on-Iranian-city-of-Tabriz.aspx?xy=rss",
+            "id": "7f484dd98b0ef90ab9aee4e3617d603593025ef25e9ea94a671339ade0eaae98",
+            "time": "2026-07-20T07:58:17+08:00",
+            "headline": "Iran semi-official Mehr: locals report hearing multiple blasts in southern Sirik",
+            "link": "https://www.financialjuice.com/News/9684628/Iran-semi-official-Mehr-locals-report-hearing-multiple-blasts-in-southern-Sirik.aspx",
             "source": "FinancialJuice"
           },
           "trajectory": [
             {
+              "time": "2026-07-20T08:23:07+08:00",
+              "source_id": "8fe42a3b97d8c77775e55b906ad05732f2ba8e6c04d47e80d48dce025b093cf3",
+              "update_type": "正式確認",
+              "description_zh": "美國總統川普表示：「今晚我們再次重擊了伊朗。」",
+              "source_detail": {
+                "id": "8fe42a3b97d8c77775e55b906ad05732f2ba8e6c04d47e80d48dce025b093cf3",
+                "time": "2026-07-20T08:23:07+08:00",
+                "headline": "Trump: We struck Iran very hard again tonight",
+                "link": "https://www.financialjuice.com/News/9684643/Trump-We-struck-Iran-very-hard-again-tonight.aspx",
+                "source": "FinancialJuice"
+              }
+            },
+            {
               "time": "2026-07-20T10:05:28+08:00",
               "source_id": "c7e62a41bf8bed8c6f9162d68fcc1eb195235f276f5fca095f07ff9f3862c54d",
-              "update_type": "正式確認",
-              "description_zh": "美軍中央司令部證實，已完成連續第九晚對伊朗軍事指揮中心、防空系統及海上設施的打擊。",
+              "update_type": "後續發展",
+              "description_zh": "美軍中央司令部宣布完成連續第九晚對伊朗的打擊，目標包括軍事指揮中心、防空系統及海上設施。",
               "source_detail": {
                 "id": "c7e62a41bf8bed8c6f9162d68fcc1eb195235f276f5fca095f07ff9f3862c54d",
                 "time": "2026-07-20T10:05:28+08:00",
@@ -496,15 +688,15 @@
               }
             },
             {
-              "time": "2026-07-20T21:15:57+08:00",
-              "source_id": "27fff2826e687e04630283e89daa85c50bf300ff91b0bcb790670690b129a8a3",
+              "time": "2026-07-20T19:30:46+08:00",
+              "source_id": "c696b169a611932e32702ec9a286fe197827259c002d9d08ad4202c3cd1cd97a",
               "update_type": "後續發展",
-              "description_zh": "伊朗革命衛隊宣布，已成功襲擊巴林的阿爾薩基爾空軍基地、賓薩勒曼港以及科威特的阿里夫詹美軍基地。",
+              "description_zh": "伊朗高層消息人士透露，調停方已提議停火10天，以尋求恢復美伊臨時協議的途徑。",
               "source_detail": {
-                "id": "27fff2826e687e04630283e89daa85c50bf300ff91b0bcb790670690b129a8a3",
-                "time": "2026-07-20T21:15:57+08:00",
-                "headline": "Iran's Revolutionary Guards: Targeted al-Sakhir air base and Bin Salman port in Bahrain and Arifjan base in Kuwait - Fars",
-                "link": "https://www.financialjuice.com/News/9685522/Irans-Revolutionary-Guards-Targeted-al-Sakhir-air-base-and-Bin-Salman-port-in-Bahrain-and-Arifjan-base-in-Kuwait---Fars.aspx?xy=rss",
+                "id": "c696b169a611932e32702ec9a286fe197827259c002d9d08ad4202c3cd1cd97a",
+                "time": "2026-07-20T19:30:46+08:00",
+                "headline": "Senior Iranian Source: Mediators have proposed a 10-day cessation of strikes to find ways to revive the Iran-US interim deal",
+                "link": "https://www.financialjuice.com/News/9685329/Senior-Iranian-Source-Mediators-have-proposed-a-10-day-cessation-of-strikes-to-find-ways-to-revive-the-Iran-US-interim-deal.aspx?xy=rss",
                 "source": "FinancialJuice"
               }
             },
@@ -512,7 +704,7 @@
               "time": "2026-07-21T02:22:08+08:00",
               "source_id": "9349f003ae3964c27fb292f67852d7b53a006ace5d0b97adc0a4b5bee9a649ae",
               "update_type": "後續發展",
-              "description_zh": "《華爾街日報》報導，伊朗的飛彈襲擊穿透防空網，擊中基地內的預製組合屋，造成至少兩名美軍士兵死亡。",
+              "description_zh": "《華爾街日報》報導，伊朗的襲擊導致至少兩名美軍士兵死亡，擊中了預製房屋單位。",
               "source_detail": {
                 "id": "9349f003ae3964c27fb292f67852d7b53a006ace5d0b97adc0a4b5bee9a649ae",
                 "time": "2026-07-21T02:22:08+08:00",
@@ -522,15 +714,15 @@
               }
             },
             {
-              "time": "2026-07-21T03:29:34+08:00",
-              "source_id": "52a0d3ac1b29c143bb79ffef4a4e4d298092c754473067e95c751d64a1c59553",
+              "time": "2026-07-21T06:28:51+08:00",
+              "source_id": "d20a58fcd0035bb76409ad8ea7690db7579892e4a30d63c987e10d57015baddc",
               "update_type": "後續發展",
-              "description_zh": "川普誓言要讓伊朗為美軍士兵的死亡付出代價，並強調毀滅性打擊將持續，但兩國間的談判管道仍保持暢通。",
+              "description_zh": "伊朗軍方宣稱，已使用地對地飛彈擊中了美軍位於科威特阿里夫詹（Arifjan）基地的飛彈系統。",
               "source_detail": {
-                "id": "52a0d3ac1b29c143bb79ffef4a4e4d298092c754473067e95c751d64a1c59553",
-                "time": "2026-07-21T03:29:34+08:00",
-                "headline": "Trump will make Iran pay for the recent deaths of US soldiers. These devastating blows will continue until the Trump deems otherwise, but talks between our countries are continuing - Axios citing US Official",
-                "link": "https://www.financialjuice.com/News/9685964/Trump-will-make-Iran-pay-for-the-recent-deaths-of-US-soldiers-These-devastating-blows-will-continue-until-the-Trump-deems-otherwise-but-talks-between-our-countries-are-continuing---Axios-citing-US-Official.aspx?xy=rss",
+                "id": "d20a58fcd0035bb76409ad8ea7690db7579892e4a30d63c987e10d57015baddc",
+                "time": "2026-07-21T06:28:51+08:00",
+                "headline": "Iranian army says it struck U.S. missile systems at Kuwait’s Arifjan base with surface-to-surface missiles - state TV",
+                "link": "https://www.financialjuice.com/News/9686155/Iranian-army-says-it-struck-US-missile-systems-at-Kuwaits-Arifjan-base-with-surface-to-surface-missiles---state-TV.aspx?xy=rss",
                 "source": "FinancialJuice"
               }
             }
@@ -539,7 +731,7 @@
         {
           "importance_score": 4,
           "headline_zh": "葉門胡塞組織宣布對沙烏地阿拉伯實施海上航行禁令",
-          "summary_zh": "葉門胡塞組織（Ansar Allah）宣布基於「封鎖對等封鎖」原則，自週一起對沙烏地阿拉伯實施海上航行禁令，並警告若沙烏地不解除對葉門的封鎖，將發動全面戰爭。沙烏地聯軍則回應將堅決保護曼德海峽航行安全。",
+          "summary_zh": "葉門胡塞組織（Houthis）宣布基於「封鎖對等封鎖」原則，對沙烏地阿拉伯實施海上航行禁令，並警告追隨者為所有可能發生的情況做好準備。沙烏地領導的聯軍隨後回應將堅決保護曼德海峽的航行安全。",
           "event_time": "2026-07-20T20:02:56+08:00",
           "source_id": "c232e50d5c94de975c4c6ba6d6938e875eef21d5aaf743fbaf9d7aea5381a4cd",
           "source_detail": {
@@ -554,7 +746,7 @@
               "time": "2026-07-21T04:35:41+08:00",
               "source_id": "e8e08ec007bb3ba3146297d042faedfe9b11273b0345dfb972fa32b216d2e147",
               "update_type": "後續發展",
-              "description_zh": "沙烏地領導的聯軍發表聲明，強調將堅決保護曼德海峽與紅海的船隻安全，並對胡塞組織的威脅做出嚴厲回應。",
+              "description_zh": "沙烏地聯軍表示，將保護曼德海峽（Bab el-Mandeb）的船隻，並堅決回應胡塞組織的威脅。",
               "source_detail": {
                 "id": "e8e08ec007bb3ba3146297d042faedfe9b11273b0345dfb972fa32b216d2e147",
                 "time": "2026-07-21T04:35:41+08:00",
@@ -567,8 +759,23 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "北韓與俄羅斯外長在莫斯科舉行戰略對話，重申雙邊軍事與主權支持",
-          "summary_zh": "北韓外務相在莫斯科會見俄羅斯總統普丁，雙方舉行第三次戰略對話。北韓重申全力支持俄羅斯在烏克蘭衝突中的立場，俄方則對北韓維護主權與安全的努力表示全力支持，顯示朝俄同盟關係持續深化。",
+          "headline_zh": "美國譴責中國在南海對菲律賓海軍的挑釁行為",
+          "summary_zh": "美國國務院發表聲明，強烈譴責中國於 7 月 20 日在南海仁愛暗沙（Second Thomas Shoal）針對菲律賓海軍採取的危險和侵略性行動，並敦促中方立即停止破壞穩定的行為。",
+          "event_time": "2026-07-21T07:09:38+08:00",
+          "source_id": "8ba8cfd02c895835680e4c02ca3eb66e12a001857b81c6b41d153443d22dbf28",
+          "source_detail": {
+            "id": "8ba8cfd02c895835680e4c02ca3eb66e12a001857b81c6b41d153443d22dbf28",
+            "time": "2026-07-21T07:09:38+08:00",
+            "headline": "State Department: US condemns China’s risky and aggressive moves against Philippine navy at Second Thomas Shoal in South China Sea on July 20",
+            "link": "https://www.financialjuice.com/News/9686189/State-Department-US-condemns-Chinas-risky-and-aggressive-moves-against-Philippine-navy-at-Second-Thomas-Shoal-in-South-China-Sea-on-July-20.aspx?xy=rss",
+            "source": "FinancialJuice"
+          },
+          "trajectory": []
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "北韓與俄羅斯在莫斯科舉行戰略會談",
+          "summary_zh": "北韓外務相在莫斯科會見了俄羅斯總統普丁（Putin），雙方舉行了第三次戰略會談。北韓重申支持俄羅斯解決烏克蘭衝突根源的努力，俄羅斯則對北韓維護主權與安全的努力表示全力支持。",
           "event_time": "2026-07-21T05:08:54+08:00",
           "source_id": "d1bbb9e87682ffa36acff7f7653103ea485e602f07ab5627d8866d3caf6dfc11",
           "source_detail": {
@@ -582,8 +789,8 @@
             {
               "time": "2026-07-21T05:14:19+08:00",
               "source_id": "410a3cbb281b411c8dd6c486acf33146e21b9dc2e323f5dcac42858db5293ada",
-              "update_type": "正式確認",
-              "description_zh": "北韓官媒朝中社（KCNA）正式確認兩國外長於7月20日在莫斯科舉行了戰略對話，並就共同應對外部威脅達成共識。",
+              "update_type": "後續發展",
+              "description_zh": "朝中社（KCNA）報導，兩國外長於7月20日在莫斯科舉行了第三次戰略對話。",
               "source_detail": {
                 "id": "410a3cbb281b411c8dd6c486acf33146e21b9dc2e323f5dcac42858db5293ada",
                 "time": "2026-07-21T05:14:19+08:00",
@@ -593,37 +800,65 @@
               }
             }
           ]
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "中俄海軍在日本專屬經濟區進行聯合演習",
+          "summary_zh": "據日本共同社報導，中國和俄羅斯海軍週末期間在日本的專屬經濟區（EEZ）內進行了聯合軍事演習，引發周邊國家對地緣政治局勢的關注。",
+          "event_time": "2026-07-20T22:07:27+08:00",
+          "source_id": "68c6b116be073c02180e2998da4923116dbfb88ac6f1478626bb16d69d5e9b29",
+          "source_detail": {
+            "id": "68c6b116be073c02180e2998da4923116dbfb88ac6f1478626bb16d69d5e9b29",
+            "time": "2026-07-20T22:07:27+08:00",
+            "headline": "Chinese and Russian navies conduct exercises in Japan's EEZ - Kyodo",
+            "link": "https://www.financialjuice.com/News/9685587/Chinese-and-Russian-navies-conduct-exercises-in-Japans-EEZ---Kyodo.aspx?xy=rss",
+            "source": "FinancialJuice"
+          },
+          "trajectory": [
+            {
+              "time": "2026-07-20T22:08:39+08:00",
+              "source_id": "d410c3d3cd7aa95304433133fba7f3f8d1132b39a2af586ac52263699d5a4f9b",
+              "update_type": "正式確認",
+              "description_zh": "共同社證實該海上聯合演習確於週末期間在日本專屬經濟區內舉行。",
+              "source_detail": {
+                "id": "d410c3d3cd7aa95304433133fba7f3f8d1132b39a2af586ac52263699d5a4f9b",
+                "time": "2026-07-20T22:08:39+08:00",
+                "headline": "Naval exercises in Japan's EEZ took place over the weekend - Kyodo",
+                "link": "https://www.financialjuice.com/News/9685588/Naval-exercises-in-Japans-EEZ-took-place-over-the-weekend---Kyodo.aspx?xy=rss",
+                "source": "FinancialJuice"
+              }
+            }
+          ]
         }
       ]
     }
   ],
   "discarded": {
-    "estimated_count": 22,
+    "estimated_count": 38,
     "reasons": [
-      "刪除中國人民銀行人民幣兌美元中間價設定估計值（符合篩選規則1）",
-      "刪除未附帶具體數據的各國央行利率機率預測（符合篩選規則11）",
-      "刪除純價格波動或匯率微幅變動之即時快訊（符合篩選規則3）",
-      "刪除30天/60天/90天相關係數矩陣及隱含波動率數據（符合篩選規則8）",
-      "刪除無實質政策或市場影響之常規外交會面與訪問（符合篩選規則12）",
-      "刪除市場開盤與收盤不平衡（MOO/MOC Imbalance）等純技術性數據"
+      "刪除無具體數值的利率機率預測（如 RBA Interest Rate Probabilities 等多國利率機率預測）",
+      "刪除純技術性指標與波動率數據（如 30/60/90/120日相關係數矩陣、標普500成分股隱含波動率、外匯隱含波動率等）",
+      "刪除不影響市場的常規外交溝通與非緊急訪問消息（如中美維持元首交流溝通、美卿預期習近平9月訪美等）",
+      "刪除純市場情緒指數（如 Fear & Greed Index、Crypto Fear & Greed Index）",
+      "刪除中國人民銀行人民幣中間價預估值"
     ]
   },
-  "generated_at": "2026-07-21T07:00:57.284026+08:00",
+  "generated_at": "2026-07-21T08:42:10.484901+08:00",
   "model": "gemini-3.5-flash",
   "source": "FinancialJuice",
-  "input_headline_count": 217,
-  "included_headline_count": 217,
+  "input_headline_count": 214,
+  "included_headline_count": 214,
   "usage_metadata": {
-    "promptTokenCount": 24858,
-    "candidatesTokenCount": 8242,
-    "totalTokenCount": 41322,
+    "promptTokenCount": 24706,
+    "candidatesTokenCount": 10812,
+    "totalTokenCount": 56170,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 24858
+        "tokenCount": 24706
       }
     ],
-    "thoughtsTokenCount": 8222,
+    "thoughtsTokenCount": 20652,
     "serviceTier": "standard"
   }
 }
