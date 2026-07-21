@@ -1266,6 +1266,27 @@
       return (centralBankData?.central_banks || []).find(bank => bank.central_bank === bankCode) || null;
     }
 
+    function getBankActualRange(bank) {
+      const timestamps = [];
+      for (const official of bank?.officials || []) {
+        for (const talk of official.talks || []) {
+          const sourceTimes = (talk.source_headlines || [])
+            .map(item => dateObject(item.time))
+            .filter(Boolean);
+          if (sourceTimes.length) {
+            timestamps.push(...sourceTimes);
+          } else if (talk.date) {
+            const talkDate = dateObject(`${talk.date}T00:00:00+08:00`);
+            if (talkDate) timestamps.push(talkDate);
+          }
+        }
+      }
+      if (!timestamps.length) return null;
+      timestamps.sort((a, b) => a.getTime() - b.getTime());
+      return { start: timestamps[0], end: timestamps[timestamps.length - 1] };
+    }
+
+
     function renderTopicChips(topics) {
       if (!topics || typeof topics !== 'object') return '';
       const chips = Object.entries(TOPIC_LABELS)
@@ -1390,7 +1411,10 @@
 
       for (const official of officials) totalTalks += (official.talks || []).length;
       centralBankName.textContent = `${bank.display_name || bankCode} 官員談話`;
-      centralBankRange.textContent = `近 ${centralBankData.lookback_days || 90} 天｜${fullDate(centralBankData.period_start)} ～ ${fullDate(centralBankData.period_end)}`;
+      const actualRange = getBankActualRange(bank);
+      centralBankRange.textContent = actualRange
+        ? `實際資料範圍｜${fullDate(actualRange.start)} ～ ${fullDate(actualRange.end)}`
+        : '目前沒有可顯示的談話資料';
       centralBankCount.textContent = `${totalTalks} 筆每日摘要`;
 
       officialsContainer.innerHTML = officials.length
