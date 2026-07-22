@@ -609,7 +609,7 @@ def build_wallstreetcn_breakfast_prompt(
 【最高优先必保留事件】
 
 以下内容来自今日華爾街早餐的「要闻」区块，仅用于判断输入的FinancialJuice Headline是否必须保留，不是额外新闻来源。
-若FinancialJuice Headline与以下任一事件属于同一事件，就算用字有點不同，必须保留。本规则优先于其他删除规则。
+若FinancialJuice Headline与以下任一事件属于同一事件，就算用字有點不同，必须保留，再強調一次，必須保留!!!!!。本规则优先于其他删除规则!!!!!
 
 今日早餐必保留事件：
 """.strip() + "\n" + "\n".join(section_lines)
