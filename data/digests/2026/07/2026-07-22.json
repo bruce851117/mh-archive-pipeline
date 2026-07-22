@@ -1,17 +1,32 @@
 {
   "title": "最近24小時全球市場重要新聞",
-  "period_start": "2026-07-21T07:00:57.376536+08:00",
-  "period_end": "2026-07-22T07:00:57.376536+08:00",
+  "period_start": "2026-07-21T09:51:54.001137+08:00",
+  "period_end": "2026-07-22T09:51:54.001137+08:00",
   "timezone": "Asia/Taipei",
-  "overview": "過去24小時，全球市場主線圍繞中東地緣政治衝突升級與美加貿易關稅摩擦展開。美軍與伊朗及其代理人爆發新一輪空襲與反擊，波及科威特、約旦與紅海航線，導致沙烏地原油運輸受阻，國際油價顯著上漲。同時，川普（Trump）政府對加拿大等國祭出強硬關稅威脅，引發加拿大總理卡尼（Carney）強烈反彈，雙方正展開緊急談判。在科技與財政方面，英美兩國積極推動人工智慧（AI）基礎建設與財政補貼，而大型科技股如台積電（TSMC）、輝達（Nvidia）與谷歌（Google）則持續釋出晶片與定價利多，為股市提供支撐。",
+  "overview": "過去24小時全球市場聚焦於美伊地緣政治衝突的急劇升級，以及美加貿易關稅爭端。中東戰火蔓延至科威特與巴勒斯坦周邊，美軍連續第11晚對伊朗發動空襲，英國亦首度批准美軍使用其基地打擊伊朗，引發市場對能源供應中斷的強烈擔憂，國際油價顯著上揚。與此同時，川普政府對加拿大及學名藥進口祭出強硬關稅威脅，美加貿易談判陷入膠著。科技股方面，台積電傳出將於2027年調漲代工價格，緯創則大舉投資德州廠以生產輝達最新超大型晶片，顯示AI基礎設施需求依舊強勁。",
   "categories": [
     {
       "category": "債市",
       "news": [
         {
           "importance_score": 3,
-          "headline_zh": "美銀指出美債持倉仍偏向高利率預期，美國財政部將發行1100億美元國庫券",
-          "summary_zh": "美國銀行（Bank of America）指出，當前國債市場持倉結構仍偏向高利率預期。美國財政部宣布將於7月23日發行1100億美元的4星期國庫券，並於7月28日結算。",
+          "headline_zh": "英國財政部官員表示不會發行戰爭債券來籌集國防資金",
+          "summary_zh": "英國政府官方表示，儘管地緣政治局勢緊張，但目前並無計劃發行專門的「戰爭債券」（War Bonds）來為國防開支進行融資。",
+          "event_time": "2026-07-21T23:21:45+08:00",
+          "source_id": "1253bec24d10d13686274f56a3d99254d20416f42570ec366b6008aee373b54e",
+          "source_detail": {
+            "id": "1253bec24d10d13686274f56a3d99254d20416f42570ec366b6008aee373b54e",
+            "time": "2026-07-21T23:21:45+08:00",
+            "headline": "The UK won't issue war bonds to fund defense - Official.",
+            "link": "https://www.financialjuice.com/News/9687382/The-UK-wont-issue-war-bonds-to-fund-defense---Official.aspx?xy=rss",
+            "source": "FinancialJuice"
+          },
+          "trajectory": []
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "美銀指出國債倉位仍傾向於支持更高利率",
+          "summary_zh": "美國銀行（Bank of America）最新分析顯示，美國國債市場的倉位配置依然偏向預期利率將維持在高位，這反映出市場對通膨與財政赤字的持續擔憂。",
           "event_time": "2026-07-21T20:47:48+08:00",
           "source_id": "1941bb35c9554f74c532d549d7192fa49af4d5cc71075632e02138156594a0fb",
           "source_detail": {
@@ -21,46 +36,32 @@
             "link": "https://www.financialjuice.com/News/9687137/Bank-of-America-Treasury-Positioning-Still-Leans-Toward-Higher-Rates---FJElite.aspx?xy=rss",
             "source": "FinancialJuice"
           },
-          "trajectory": [
-            {
-              "time": "2026-07-21T23:01:26+08:00",
-              "source_id": "7e36f48a69e6b0bd42c72e0d66c35e81894613ba944b25acc09143f4e5b87122",
-              "update_type": "正式確認",
-              "description_zh": "美國財政部正式公布4星期國庫券的發行規模與結算時程。",
-              "source_detail": {
-                "id": "7e36f48a69e6b0bd42c72e0d66c35e81894613ba944b25acc09143f4e5b87122",
-                "time": "2026-07-21T23:01:26+08:00",
-                "headline": "US to sell $110 bln 4-week bills on July 23rd, to settle on July 28th.",
-                "link": "https://www.financialjuice.com/News/9687330/US-to-sell-110-bln-4-week-bills-on-July-23rd-to-settle-on-July-28th.aspx?xy=rss",
-                "source": "FinancialJuice"
-              }
-            }
-          ]
+          "trajectory": []
         },
         {
           "importance_score": 3,
-          "headline_zh": "英德兩國國債收益率攀升，德國成功標售5年期聯邦債券",
-          "summary_zh": "英國3年期國債收益率升至4.463%，認購倍數為3.42。德國聯邦銀行（Buba）成功標售45.53億歐元的新型5年期聯邦債券（Bobl），平均收益率為2.89%，低於發行前2.64%的指引，認購倍數為1.5。",
-          "event_time": "2026-07-21T17:03:47+08:00",
-          "source_id": "44c097efd7e1cf00087c4f9d26b53e08698c56ac021c09d65657d7368608ba69",
+          "headline_zh": "德國發行5年期聯邦債券，得標利率低於發行前預期",
+          "summary_zh": "德國聯邦銀行（Buba）拍賣45.53億歐元的新型5年期聯邦債券（Bobl），平均得標利率為2.89%，低於發行前預估的2.64%指引，認購倍數為1.5倍。",
+          "event_time": "2026-07-21T17:33:53+08:00",
+          "source_id": "7b03675a77c20c27f73a69ca56a1c24bc54585b6ad7afc16ee893b7398e2da1f",
           "source_detail": {
-            "id": "44c097efd7e1cf00087c4f9d26b53e08698c56ac021c09d65657d7368608ba69",
-            "time": "2026-07-21T17:03:47+08:00",
-            "headline": "UK 3 Yr Gilt Yield Actual 4.463% (Forecast -, Previous 4.062%)",
-            "link": "https://www.financialjuice.com/News/9686839/UK-3-Yr-Gilt-Yield-Actual-4463-Forecast---Previous-4062.aspx?xy=rss",
+            "id": "7b03675a77c20c27f73a69ca56a1c24bc54585b6ad7afc16ee893b7398e2da1f",
+            "time": "2026-07-21T17:33:53+08:00",
+            "headline": "Germany auctions 5-year Bobl with average yield 2.89% below 2.64% pre-sale guidance: Buba",
+            "link": "https://www.financialjuice.com/News/9686866/Germany-auctions-5-year-Bobl-with-average-yield-289-below-264-pre-sale-guidance-Buba.aspx?xy=rss",
             "source": "FinancialJuice"
           },
           "trajectory": [
             {
-              "time": "2026-07-21T17:33:53+08:00",
-              "source_id": "7b03675a77c20c27f73a69ca56a1c24bc54585b6ad7afc16ee893b7398e2da1f",
+              "time": "2026-07-21T17:34:51+08:00",
+              "source_id": "cccc8a07a06ee6fa65fe1962af37e8fd0e894bf9051a029aa4d910b741dacd41",
               "update_type": "正式確認",
-              "description_zh": "德國聯邦銀行公布5年期聯邦債券標售結果，發行額為45.53億歐元，認購倍數自前次的1.6降至1.5。",
+              "description_zh": "官方數據確認5年期聯邦債券得標利率為2.89%，認購倍數為1.5倍。",
               "source_detail": {
-                "id": "7b03675a77c20c27f73a69ca56a1c24bc54585b6ad7afc16ee893b7398e2da1f",
-                "time": "2026-07-21T17:33:53+08:00",
-                "headline": "Germany auctions 5-year Bobl with average yield 2.89% below 2.64% pre-sale guidance: Buba",
-                "link": "https://www.financialjuice.com/News/9686866/Germany-auctions-5-year-Bobl-with-average-yield-289-below-264-pre-sale-guidance-Buba.aspx?xy=rss",
+                "id": "cccc8a07a06ee6fa65fe1962af37e8fd0e894bf9051a029aa4d910b741dacd41",
+                "time": "2026-07-21T17:34:51+08:00",
+                "headline": "German 5 Yr Bobl Yield Actual 2.89% (Forecast -, Previous 2.64%)",
+                "link": "https://www.financialjuice.com/News/9686868/German-5-Yr-Bobl-Yield-Actual-289-Forecast---Previous-264.aspx?xy=rss",
                 "source": "FinancialJuice"
               }
             }
@@ -73,28 +74,28 @@
       "news": [
         {
           "importance_score": 4,
-          "headline_zh": "輝達與谷歌發布全新AI模型與平台進展，微軟擴大歐洲基礎建設",
-          "summary_zh": "輝達（Nvidia）宣布其Vera Rubin AI平台進度符合預期，目前正進行客戶測試。谷歌（Google）則推出全新Gemini AI模型，並啟動Gemini 4的預訓練。微軟（Microsoft）與Mistral宣布將擴大在歐洲的AI基礎建設。",
-          "event_time": "2026-07-21T20:32:04+08:00",
-          "source_id": "6b1c23493d1c8ea36feb809fbebd9786eac9f8e3da286d670d2f5a3f272cb2d4",
+          "headline_zh": "緯創大舉投資7億美元於德州廠，生產輝達最新Blackwell與Vera Rubin超大型晶片",
+          "summary_zh": "台灣代工大廠緯創（Wistron）宣布在美國德州投資7億美元建立新廠，該廠區佔地32.4萬平方英尺，將專門用於在美國本土生產輝達（Nvidia）的首款Grace Blackwell超大型晶片以及下一代Vera Rubin超大型晶片。",
+          "event_time": "2026-07-22T09:10:17+08:00",
+          "source_id": "ac12ad91b627612a3bbb2b45b332d62d1a50cbc64c38ada9c7ee708fc3742832",
           "source_detail": {
-            "id": "6b1c23493d1c8ea36feb809fbebd9786eac9f8e3da286d670d2f5a3f272cb2d4",
-            "time": "2026-07-21T20:32:04+08:00",
-            "headline": "Microsoft and Mistral to expand AI infrastructure in Europe.",
-            "link": "https://www.financialjuice.com/News/9687122/Microsoft-and-Mistral-to-expand-AI-infrastructure-in-Europe.aspx?xy=rss",
+            "id": "ac12ad91b627612a3bbb2b45b332d62d1a50cbc64c38ada9c7ee708fc3742832",
+            "time": "2026-07-22T09:10:17+08:00",
+            "headline": "Taiwan’s Wistron opens Texas facility to produce Nvidia’s first Grace Blackwell ultra superchip in U.S.",
+            "link": "https://www.financialjuice.com/News/9687976/Taiwans-Wistron-opens-Texas-facility-to-produce-Nvidias-first-Grace-Blackwell-ultra-superchip-in-US.aspx?xy=rss",
             "source": "FinancialJuice"
           },
           "trajectory": [
             {
-              "time": "2026-07-21T23:01:06+08:00",
-              "source_id": "12b83e498701791ce68bc7bab727fe32c4169adb9d8ab005f19d45ef863fd429",
-              "update_type": "正式確認",
-              "description_zh": "輝達確認Vera Rubin平台測試進度；隨後谷歌於23:03宣布Gemini新模型與Gemini 4預訓練計畫。",
+              "time": "2026-07-22T09:10:37+08:00",
+              "source_id": "dc01fceef871aaa6c56d0d6ab12b8ddf9bbbc47228e535b17d39a4f2c927c8c2",
+              "update_type": "後續發展",
+              "description_zh": "緯創確認該德州廠也將負責生產輝達下一代Vera Rubin超大型晶片。",
               "source_detail": {
-                "id": "12b83e498701791ce68bc7bab727fe32c4169adb9d8ab005f19d45ef863fd429",
-                "time": "2026-07-21T23:01:06+08:00",
-                "headline": "Nvidia: Vera Rubin AI Platform on Schedule, Customer Testing Underway $NVDA $AMD",
-                "link": "https://www.financialjuice.com/News/9687329/Nvidia-Vera-Rubin-AI-Platform-on-Schedule-Customer-Testing-Underway-NVDA-AMD.aspx?xy=rss",
+                "id": "dc01fceef871aaa6c56d0d6ab12b8ddf9bbbc47228e535b17d39a4f2c927c8c2",
+                "time": "2026-07-22T09:10:37+08:00",
+                "headline": "Taiwan’s Wistron: It will also produce Nvidia’s Vera Rubin superchip at Texas facility",
+                "link": "https://www.financialjuice.com/News/9687977/Taiwans-Wistron-It-will-also-produce-Nvidias-Vera-Rubin-superchip-at-Texas-facility.aspx?xy=rss",
                 "source": "FinancialJuice"
               }
             }
@@ -102,8 +103,38 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "台積電計劃自2027年起調漲晶片代工價格高達10%",
-          "summary_zh": "據日經新聞（Nikkei）報導，全球晶片代工龍頭台積電（TSMC）計劃自2027年起將晶片代工價格調漲高達10%，此舉反映出先進製程需求持續強勁及生產成本上升。",
+          "headline_zh": "Google推出全新Gemini AI模型並啟動Gemini 4預訓練",
+          "summary_zh": "Google（Alphabet）揭曉了其最新一代Gemini AI模型，並宣布已正式啟動下一代大語言模型Gemini 4的預訓練工作，顯示科技巨頭在AI軍備競賽中持續加碼。",
+          "event_time": "2026-07-21T23:03:05+08:00",
+          "source_id": "e14f8009796766db7bbe314a9b588df3df29fa0b64d9a1e2137abc1d60623120",
+          "source_detail": {
+            "id": "e14f8009796766db7bbe314a9b588df3df29fa0b64d9a1e2137abc1d60623120",
+            "time": "2026-07-21T23:03:05+08:00",
+            "headline": "Google Unveils New Gemini AI Models, Begins Gemini 4 Pre-Training $GOOGL",
+            "link": "https://www.financialjuice.com/News/9687348/Google-Unveils-New-Gemini-AI-Models-Begins-Gemini-4-Pre-Training-GOOGL.aspx?xy=rss",
+            "source": "FinancialJuice"
+          },
+          "trajectory": []
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "輝達確認Vera Rubin AI平台進度順利，已展開客戶測試",
+          "summary_zh": "輝達（Nvidia）宣布其下一代Vera Rubin AI平台正按既定時程推進，目前已開始向主要客戶提供樣品進行測試，這有助於鞏固其在AI晶片市場的領先地位。",
+          "event_time": "2026-07-21T23:01:06+08:00",
+          "source_id": "12b83e498701791ce68bc7bab727fe32c4169adb9d8ab005f19d45ef863fd429",
+          "source_detail": {
+            "id": "12b83e498701791ce68bc7bab727fe32c4169adb9d8ab005f19d45ef863fd429",
+            "time": "2026-07-21T23:01:06+08:00",
+            "headline": "Nvidia: Vera Rubin AI Platform on Schedule, Customer Testing Underway $NVDA $AMD",
+            "link": "https://www.financialjuice.com/News/9687329/Nvidia-Vera-Rubin-AI-Platform-on-Schedule-Customer-Testing-Underway-NVDA-AMD.aspx?xy=rss",
+            "source": "FinancialJuice"
+          },
+          "trajectory": []
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "台積電傳出計劃自2027年起調漲晶圓代工價格高達10%",
+          "summary_zh": "根據《日經新聞》（Nikkei）報導，台積電（TSMC）為了因應海外建廠成本及先進製程研發開支，計劃自2027年起將晶圓代工價格調漲至多10%，這將對全球半導體供應鏈利潤率產生深遠影響。",
           "event_time": "2026-07-21T16:29:12+08:00",
           "source_id": "aa22686bf0717a6edcd8c3d8e82aa1942f6c5257904f844383b9005368420801",
           "source_detail": {
@@ -117,61 +148,18 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "高盛建立私募市場平台，允許客戶投資未上市企業",
-          "summary_zh": "高盛（Goldman Sachs）宣布建立全新私募市場平台，該平台將允許特定客戶直接投資私人未上市企業，擴大其在另類資產領域的佈局。",
-          "event_time": "2026-07-22T02:24:42+08:00",
-          "source_id": "46957f4eccb34263bb95e8e3adeaf88b2a73c20d2cfcdd19aeffb071c1830847",
+          "headline_zh": "螞蟻國際完成新一輪12億美元融資，獲阿里巴巴等全球投資人支持",
+          "summary_zh": "螞蟻集團旗下的螞蟻國際（Ant International）成功籌集12億美元的新資金，本輪融資獲得母公司螞蟻集團、阿里巴巴（Alibaba）及其他全球機構投資者的鼎力支持。",
+          "event_time": "2026-07-21T11:00:35+08:00",
+          "source_id": "2d3589e18388f27996d283be015497e2e90179e1f3060c898b676298f16878a5",
           "source_detail": {
-            "id": "46957f4eccb34263bb95e8e3adeaf88b2a73c20d2cfcdd19aeffb071c1830847",
-            "time": "2026-07-22T02:24:42+08:00",
-            "headline": "Goldman Sachs creates private markets platform - CNBC $GS",
-            "link": "https://www.financialjuice.com/News/9687587/Goldman-Sachs-creates-private-markets-platform---CNBC-GS.aspx?xy=rss",
+            "id": "2d3589e18388f27996d283be015497e2e90179e1f3060c898b676298f16878a5",
+            "time": "2026-07-21T11:00:35+08:00",
+            "headline": "Ant International: company secures $1.2 billion in fresh funding round",
+            "link": "https://www.financialjuice.com/News/9686420/Ant-International-company-secures-12-billion-in-fresh-funding-round.aspx?xy=rss",
             "source": "FinancialJuice"
           },
-          "trajectory": [
-            {
-              "time": "2026-07-22T02:26:01+08:00",
-              "source_id": "7c9426129ad38d7ed776b715b26182817ff6c5723aaab979f30a88b9249daff5",
-              "update_type": "正式確認",
-              "description_zh": "媒體證實高盛此平台旨在提供高淨值客戶投資私人企業的管道。",
-              "source_detail": {
-                "id": "7c9426129ad38d7ed776b715b26182817ff6c5723aaab979f30a88b9249daff5",
-                "time": "2026-07-22T02:26:01+08:00",
-                "headline": "Goldman Sachs platform to let some clients invest in private companies - CNBC $GS",
-                "link": "https://www.financialjuice.com/News/9687590/Goldman-Sachs-platform-to-let-some-clients-invest-in-private-companies---CNBC-GS.aspx?xy=rss",
-                "source": "FinancialJuice"
-              }
-            }
-          ]
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "美股主要企業公布第二季財報，英特爾計劃裁員",
-          "summary_zh": "通用汽車（General Motors）、3M公司及嘉信理財（Charles Schwab）公布第二季財報。同時，英特爾（Intel）計劃在其數據中心部門進行裁員，以優化營運結構。",
-          "event_time": "2026-07-21T18:30:48+08:00",
-          "source_id": "f6dd03462cc12518987ce6265be4dea04c2e2bae0efe861efc2b4a7d99ca0cca",
-          "source_detail": {
-            "id": "f6dd03462cc12518987ce6265be4dea04c2e2bae0efe861efc2b4a7d99ca0cca",
-            "time": "2026-07-21T18:30:48+08:00",
-            "headline": "General Motors Q2 2026 Earnings",
-            "link": "https://www.financialjuice.com/News/9686921/General-Motors-Q2-2026-Earnings.aspx?xy=rss",
-            "source": "FinancialJuice"
-          },
-          "trajectory": [
-            {
-              "time": "2026-07-21T22:08:50+08:00",
-              "source_id": "ef0be8a7c61504e1929e8c29f001cb59a450a39a77582d24b28290a91c453ac9",
-              "update_type": "後續發展",
-              "description_zh": "內部消息指出英特爾數據中心部門將面臨裁員壓力。",
-              "source_detail": {
-                "id": "ef0be8a7c61504e1929e8c29f001cb59a450a39a77582d24b28290a91c453ac9",
-                "time": "2026-07-21T22:08:50+08:00",
-                "headline": "Intel plans layoffs within its data center group - Insider $INTC",
-                "link": "https://www.financialjuice.com/News/9687265/Intel-plans-layoffs-within-its-data-center-group---Insider-INTC.aspx?xy=rss",
-                "source": "FinancialJuice"
-              }
-            }
-          ]
+          "trajectory": []
         }
       ]
     },
@@ -179,9 +167,39 @@
       "category": "央行",
       "news": [
         {
-          "importance_score": 4,
-          "headline_zh": "歐洲央行調查顯示第二季銀行收緊信貸標準，企業與住房貸款需求下滑",
-          "summary_zh": "歐洲央行（ECB）公布的銀行貸款調查顯示，受地緣政治與能源價格擔憂影響，歐元區銀行在第二季收緊了信貸標準。儘管企業貸款需求有所上升，但貸款申請遭拒絕的比例增加；同時，住房貸款需求在第二季大幅下滑，預計第三季將進一步走低。",
+          "importance_score": 3,
+          "headline_zh": "中國央行今日進行760億元逆回購操作，中標利率維持1.40%",
+          "summary_zh": "中國人民銀行（PBOC）今日公開市場開展760億元人民幣的7天期逆回購操作，中標利率持平於1.40%，旨在維護銀行體系流動性合理充裕。",
+          "event_time": "2026-07-22T09:20:08+08:00",
+          "source_id": "73f6028f04ee8af421f19cafa4d869895a3ee7c621dc13969f5517e036e10c83",
+          "source_detail": {
+            "id": "73f6028f04ee8af421f19cafa4d869895a3ee7c621dc13969f5517e036e10c83",
+            "time": "2026-07-22T09:20:08+08:00",
+            "headline": "China central bank injects 76 billion yuan via 7-day reverse repos at 1.40%: statement",
+            "link": "https://www.financialjuice.com/News/9687992/China-central-bank-injects-76-billion-yuan-via-7-day-reverse-repos-at-140-statement.aspx?xy=rss",
+            "source": "FinancialJuice"
+          },
+          "trajectory": []
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "路透社調查：絕大多數經濟學家預計聯準會將在7月及2026年剩餘時間維持利率不變",
+          "summary_zh": "根據最新路透社調查，受訪的104位經濟學家一致預計聯準會（Fed）將在7月29日的會議上將聯邦基金利率維持在3.50%-3.75%區間。其中78位經濟學家更預測該利率水平將維持至2026年底。",
+          "event_time": "2026-07-21T20:18:41+08:00",
+          "source_id": "967409d6b5d3a5a86f32a7f7b7df0a98ef95ffc82a1326505d0b03afa85a7970",
+          "source_detail": {
+            "id": "967409d6b5d3a5a86f32a7f7b7df0a98ef95ffc82a1326505d0b03afa85a7970",
+            "time": "2026-07-21T20:18:41+08:00",
+            "headline": "Fed to hold Fed Funds Rate at 3.50%-3.75% on July 29, said all 104 economists. Fed to hold fed funds rate steady at 3.50%-3.75% in 2026, said 78 of 104 economists - Poll.",
+            "link": "https://www.financialjuice.com/News/9687094/Fed-to-hold-Fed-Funds-Rate-at-350-375-on-July-29-said-all-104-economists-Fed-to-hold-fed-funds-rate-steady-at-350-375-in-2026-said-78-of-104-economists---Poll.aspx?xy=rss",
+            "source": "FinancialJuice"
+          },
+          "trajectory": []
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "歐洲央行銀行貸款調查顯示第二季信貸標準因地緣政治與能源擔憂而收緊",
+          "summary_zh": "歐洲央行（ECB）發布的第二季銀行貸款調查顯示，受地緣政治局勢緊張及能源價格波動影響，歐元區銀行收緊了信貸標準。儘管企業貸款需求有所上升，但貸款遭拒絕的比例也同步增加，且住宅貸款需求出現急劇下滑。",
           "event_time": "2026-07-21T16:00:56+08:00",
           "source_id": "c7e982d4fb5d6b2c586f47f125e32c3c0f5794aa9b4b9aa9e8d770932d77c0f5",
           "source_detail": {
@@ -196,7 +214,7 @@
               "time": "2026-07-21T16:01:28+08:00",
               "source_id": "f8999adea2f6c3c292fcee8003e5a0adcc209c189511e19fe08497b142f6a47a",
               "update_type": "後續發展",
-              "description_zh": "調查指出，銀行預計所有貸款類別的信貸標準將持續收緊。",
+              "description_zh": "調查指出，銀行預計未來所有貸款類別的信貸標準將進一步收緊。",
               "source_detail": {
                 "id": "f8999adea2f6c3c292fcee8003e5a0adcc209c189511e19fe08497b142f6a47a",
                 "time": "2026-07-21T16:01:28+08:00",
@@ -206,50 +224,6 @@
               }
             }
           ]
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "日圓匯率跌至163兌美元，市場干預風險顯著上升",
-          "summary_zh": "日圓兌美元匯率進一步走弱至163日圓，引發市場對日本當局可能隨時出手干預匯市的擔憂。日本內閣官房副長官木原誠二（Kihara）表示，貨幣政策的具體細節應交由日本央行（BoJ）決定。",
-          "event_time": "2026-07-21T15:22:22+08:00",
-          "source_id": "566592467f88adb1a804d2d16c2426fb2ab0ff0966611d9520300fd61982e6aa",
-          "source_detail": {
-            "id": "566592467f88adb1a804d2d16c2426fb2ab0ff0966611d9520300fd61982e6aa",
-            "time": "2026-07-21T15:22:22+08:00",
-            "headline": "Japan's Dep. Chief Cabinet Sec. Kihara: The specifics of monetary policy should be left to the BoJ",
-            "link": "https://www.financialjuice.com/News/9686688/Japans-Dep-Chief-Cabinet-Sec-Kihara-The-specifics-of-monetary-policy-should-be-left-to-the-BoJ.aspx",
-            "source": "FinancialJuice"
-          },
-          "trajectory": [
-            {
-              "time": "2026-07-21T22:56:14+08:00",
-              "source_id": "b01765110c7c553388a0b4e0318ff285fb8914657f6391bae64e0cd410083187",
-              "update_type": "後續發展",
-              "description_zh": "日圓匯率觸及163關卡，市場干預警報大作。",
-              "source_detail": {
-                "id": "b01765110c7c553388a0b4e0318ff285fb8914657f6391bae64e0cd410083187",
-                "time": "2026-07-21T22:56:14+08:00",
-                "headline": "Yen weakens to 163 vs USD, raising risks of intervention.",
-                "link": "https://www.financialjuice.com/News/9687314/Yen-weakens-to-163-vs-USD-raising-risks-of-intervention.aspx?xy=rss",
-                "source": "FinancialJuice"
-              }
-            }
-          ]
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "經濟學家預期聯準會7月將維持利率不變，並於2026年全年凍結利率",
-          "summary_zh": "一項針對104位經濟學家的調查顯示，全體受訪者均預期聯準會（Fed）將在7月29日的會議上將聯邦基金利率維持在3.50%-3.75%區間。其中78位經濟學家更預測，聯準會將在2026年全年維持該利率水平不變。",
-          "event_time": "2026-07-21T20:18:41+08:00",
-          "source_id": "967409d6b5d3a5a86f32a7f7b7df0a98ef95ffc82a1326505d0b03afa85a7970",
-          "source_detail": {
-            "id": "967409d6b5d3a5a86f32a7f7b7df0a98ef95ffc82a1326505d0b03afa85a7970",
-            "time": "2026-07-21T20:18:41+08:00",
-            "headline": "Fed to hold Fed Funds Rate at 3.50%-3.75% on July 29, said all 104 economists. Fed to hold fed funds rate steady at 3.50%-3.75% in 2026, said 78 of 104 economists - Poll.",
-            "link": "https://www.financialjuice.com/News/9687094/Fed-to-hold-Fed-Funds-Rate-at-350-375-on-July-29-said-all-104-economists-Fed-to-hold-fed-funds-rate-steady-at-350-375-in-2026-said-78-of-104-economists---Poll.aspx?xy=rss",
-            "source": "FinancialJuice"
-          },
-          "trajectory": []
         }
       ]
     },
@@ -258,28 +232,28 @@
       "news": [
         {
           "importance_score": 4,
-          "headline_zh": "美國國防部長赫格塞斯敦促參議院通過670億美元追加預算案",
-          "summary_zh": "美國國防部長赫格塞斯（Hegseth）在參議院聽證會上表示，五角大廈急需資金，敦促參議院通過670億美元的追加預算案。其中包括申請20億美元用於補充戰鬥中損失或損壞的裝備，以及15億美元用於填補關鍵任務的燃料短缺。",
-          "event_time": "2026-07-22T02:28:48+08:00",
-          "source_id": "a5494e39ac210e5293493c065693c8a900cbefaeaee184a2645c749d8494bb9f",
+          "headline_zh": "川普宣布對進口學名藥實施階段性關稅，兩年後稅率將飆升至100%",
+          "summary_zh": "美國總統川普宣布，自2026年8月1日起，所有進入美國的學名藥（Generic Drugs）將維持兩年的零關稅待遇；但兩年過後，關稅將在第一年調升至100%，隨後進一步調升至200%，此舉旨在強迫製藥供應鏈回流美國本土。",
+          "event_time": "2026-07-22T06:54:42+08:00",
+          "source_id": "bdf1a519945e2809db6523a37b23a0232efbdc2ee95f5a7de08d5535a22b12d4",
           "source_detail": {
-            "id": "a5494e39ac210e5293493c065693c8a900cbefaeaee184a2645c749d8494bb9f",
-            "time": "2026-07-22T02:28:48+08:00",
-            "headline": "LIVE: US Sec. of Defense Hegseth testifies before Senate on Trump's supplemental funding request",
-            "link": "https://www.financialjuice.com/News/9687591/LIVE-US-Sec-of-Defense-Hegseth-testifies-before-Senate-on-Trumps-supplemental-funding-request.aspx?xy=rss",
+            "id": "bdf1a519945e2809db6523a37b23a0232efbdc2ee95f5a7de08d5535a22b12d4",
+            "time": "2026-07-22T06:54:42+08:00",
+            "headline": "Trump: Starting Aug. 1, 2026, all generic drugs entering US will maintain zero percent tariff for two years",
+            "link": "https://www.financialjuice.com/News/9687842/Trump-Starting-Aug-1-2026-all-generic-drugs-entering-US-will-maintain-zero-percent-tariff-for-two-years.aspx?xy=rss",
             "source": "FinancialJuice"
           },
           "trajectory": [
             {
-              "time": "2026-07-22T02:40:57+08:00",
-              "source_id": "2b068f1533c218155567a203642434ff8ad859144fd82d20874771af8f8a1348",
-              "update_type": "後續發展",
-              "description_zh": "赫格塞斯向參議院小組詳細說明20億美元與15億美元的具體資金用途。",
+              "time": "2026-07-22T06:55:36+08:00",
+              "source_id": "caa42a594c43f50994dc444333254fb4da9bbbeb90a408196682f5ed73f555e2",
+              "update_type": "正式確認",
+              "description_zh": "川普確認兩年寬限期後，關稅將升至100%，隨後升至200%。",
               "source_detail": {
-                "id": "2b068f1533c218155567a203642434ff8ad859144fd82d20874771af8f8a1348",
-                "time": "2026-07-22T02:40:57+08:00",
-                "headline": "US Sec. of Defense Hegseth: Request $2b for equipment lost or damaged in combat.",
-                "link": "https://www.financialjuice.com/News/9687616/US-Sec-of-Defense-Hegseth-Request-2b-for-equipment-lost-or-damaged-in-combat.aspx?xy=rss",
+                "id": "caa42a594c43f50994dc444333254fb4da9bbbeb90a408196682f5ed73f555e2",
+                "time": "2026-07-22T06:55:36+08:00",
+                "headline": "Trump: After two years, tariff to rise to 100% for one year, then 200% afterward",
+                "link": "https://www.financialjuice.com/News/9687843/Trump-After-two-years-tariff-to-rise-to-100-for-one-year-then-200-afterward.aspx?xy=rss",
                 "source": "FinancialJuice"
               }
             }
@@ -287,8 +261,65 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "英國新首相迅速削減電費稅，取消數位身分證計畫以融資",
-          "summary_zh": "英國唐寧街（Downing Street）宣布，新任首相迅速採取行動削減電費稅。該減稅措施將透過取消數位身分證（Digital ID）計畫來融資，並自10月1日起免除電費的加值稅（VAT），此緊急措施適用於本財政年度。",
+          "headline_zh": "白宮計劃將數十億美元研究資金從大學轉移至AI領域",
+          "summary_zh": "據《華爾街日報》（WSJ）報導，白宮正計劃調整聯邦科研預算，將原本撥給大學的數十億美元研究資金重新定向，直接投入到人工智慧（AI）的研發與基礎設施建設中，以確保美國在AI領域的絕對領先地位。",
+          "event_time": "2026-07-22T06:01:15+08:00",
+          "source_id": "1874ddf3b60437ecc3bfb53ab572f5b39028297306cc995de9f60ef7697447a8",
+          "source_detail": {
+            "id": "1874ddf3b60437ecc3bfb53ab572f5b39028297306cc995de9f60ef7697447a8",
+            "time": "2026-07-22T06:01:15+08:00",
+            "headline": "White House to divert billions in research funding to AI, away from universities - WSJ",
+            "link": "https://www.financialjuice.com/News/9687803/White-House-to-divert-billions-in-research-funding-to-AI-away-from-universities---WSJ.aspx?xy=rss",
+            "source": "FinancialJuice"
+          },
+          "trajectory": []
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "美加貿易爭端升溫，加拿大總理卡尼指責川普關稅威脅違反美墨加協定",
+          "summary_zh": "美國財政部長貝森特（Bessent）與貿易代表葛里爾（Greer）對加拿大在乳製品及酒類貿易上的限制提出批評，並要求其撤銷對川普關稅的報復措施。加拿大總理卡尼（Carney）隨後反擊，指川普的最新關稅威脅違反了《美墨加協定》（USMCA），並表示若美方付諸行動，加方將評估所有應對選項。",
+          "event_time": "2026-07-21T20:19:18+08:00",
+          "source_id": "5fa7b07eabc146efed1ce7c6c68009c1e079f2b261d61c1e83126825e9b9b66e",
+          "source_detail": {
+            "id": "5fa7b07eabc146efed1ce7c6c68009c1e079f2b261d61c1e83126825e9b9b66e",
+            "time": "2026-07-21T20:19:18+08:00",
+            "headline": "US Treasury Secretary Bessent on Canada Trade: This is just reciprocity..",
+            "link": "https://www.financialjuice.com/News/9687096/US-Treasury-Secretary-Bessent-on-Canada-Trade-This-is-just-reciprocity.aspx?xy=rss",
+            "source": "FinancialJuice"
+          },
+          "trajectory": [
+            {
+              "time": "2026-07-21T22:56:30+08:00",
+              "source_id": "885282396bcab822cc80b129d8798c564e31ff527f00e25e7ace4ac59fd104ef",
+              "update_type": "正式確認",
+              "description_zh": "加拿大總理卡尼正式指責川普的關稅威脅違反USMCA，並表示已與川普通話，同意在未來數週加強談判。",
+              "source_detail": {
+                "id": "885282396bcab822cc80b129d8798c564e31ff527f00e25e7ace4ac59fd104ef",
+                "time": "2026-07-21T22:56:30+08:00",
+                "headline": "Canadian Prime Minister Carney: Trump's latest tariffs threat is in violation of the USMCA deal.",
+                "link": "https://www.financialjuice.com/News/9687315/Canadian-Prime-Minister-Carney-Trumps-latest-tariffs-threat-is-in-violation-of-the-USMCA-deal.aspx?xy=rss",
+                "source": "FinancialJuice"
+              }
+            },
+            {
+              "time": "2026-07-21T23:02:25+08:00",
+              "source_id": "c826fd4ac1cad812f2be898e0238ac07b70412452720805f4f3d3fd7225de975",
+              "update_type": "後續發展",
+              "description_zh": "卡尼強調，加拿大不希望與美國達成局部貿易協定，而是需要一個涵蓋所有關鍵行業的全面協議。",
+              "source_detail": {
+                "id": "c826fd4ac1cad812f2be898e0238ac07b70412452720805f4f3d3fd7225de975",
+                "time": "2026-07-21T23:02:25+08:00",
+                "headline": "Canadian Prime Minister Carney: We will look at all options if the United States goes ahead with the latest tariff threat.",
+                "link": "https://www.financialjuice.com/News/9687347/Canadian-Prime-Minister-Carney-We-will-look-at-all-options-if-the-United-States-goes-ahead-with-the-latest-tariff-threat.aspx?xy=rss",
+                "source": "FinancialJuice"
+              }
+            }
+          ]
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "英國新首相迅速削減電費稅，10月起免除電費增值稅",
+          "summary_zh": "英國唐寧街首相府宣布，新任首相正快速推動削減電費稅計劃。該減稅措施將由取消數位身分證（Digital ID）計劃所省下的資金提供支持，並將自今年10月1日起正式免除電費的增值稅（VAT）。",
           "event_time": "2026-07-21T13:03:54+08:00",
           "source_id": "6f48498dbf554907aa16c5e91c70effb6ee87933f43d502a52f3c3b1b52f63ba",
           "source_detail": {
@@ -303,56 +334,12 @@
               "time": "2026-07-21T13:04:19+08:00",
               "source_id": "c7eba792c5c5f1f2705f603d959ae85ca83a843ed16b96bbd74b10d94b246bc0",
               "update_type": "正式確認",
-              "description_zh": "唐寧街確認免除電費加值稅的具體生效日期與融資來源。",
+              "description_zh": "確認減稅資金來源為廢除數位身分證項目，並於10月1日生效。",
               "source_detail": {
                 "id": "c7eba792c5c5f1f2705f603d959ae85ca83a843ed16b96bbd74b10d94b246bc0",
                 "time": "2026-07-21T13:04:19+08:00",
                 "headline": "Downing Street: Tax cut this year funded by scrapped digital ID programme will eliminate VAT on electricity bills from October 1",
                 "link": "https://www.financialjuice.com/News/9686516/Downing-Street-Tax-cut-this-year-funded-by-scrapped-digital-ID-programme-will-eliminate-VAT-on-electricity-bills-from-October-1.aspx?xy=1",
-                "source": "FinancialJuice"
-              }
-            }
-          ]
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "白宮計劃將數十億美元研究資金轉向AI領域",
-          "summary_zh": "據華爾街日報（WSJ）報導，白宮計劃將原本撥給大學的數十億美元研究資金重新定向，轉而直接支持人工智慧（AI）相關的研發項目，以加速美國在AI領域的領先地位。",
-          "event_time": "2026-07-22T06:01:15+08:00",
-          "source_id": "1874ddf3b60437ecc3bfb53ab572f5b39028297306cc995de9f60ef7697447a8",
-          "source_detail": {
-            "id": "1874ddf3b60437ecc3bfb53ab572f5b39028297306cc995de9f60ef7697447a8",
-            "time": "2026-07-22T06:01:15+08:00",
-            "headline": "White House to divert billions in research funding to AI, away from universities - WSJ",
-            "link": "https://www.financialjuice.com/News/9687803/White-House-to-divert-billions-in-research-funding-to-AI-away-from-universities---WSJ.aspx?xy=rss",
-            "source": "FinancialJuice"
-          },
-          "trajectory": []
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "日本政府研擬提高汽油補貼上限並追加預算",
-          "summary_zh": "據共同社（Kyodo News）報導，日本政府正考慮在9月份將汽油補貼門檻從現行的每公升170日圓提高至175日圓。由於資金即將耗盡，政府亦考慮從預備金中撥款數千億日圓，將補貼延長至10月。",
-          "event_time": "2026-07-21T20:06:20+08:00",
-          "source_id": "a346ea7a72f82f2ad0cfb4ec0094175a8cbfdf2b479f418ba4a76aef86bd227e",
-          "source_detail": {
-            "id": "a346ea7a72f82f2ad0cfb4ec0094175a8cbfdf2b479f418ba4a76aef86bd227e",
-            "time": "2026-07-21T20:06:20+08:00",
-            "headline": "Japan government considers raising gasoline subsidy threshold to 175 yen per liter in September from current 170 Yen, Kyodo News",
-            "link": "https://www.financialjuice.com/News/9687057/Japan-government-considers-raising-gasoline-subsidy-threshold-to-175-yen-per-liter-in-September-from-current-170-Yen-Kyodo-News.aspx?xy=rss",
-            "source": "FinancialJuice"
-          },
-          "trajectory": [
-            {
-              "time": "2026-07-21T20:06:27+08:00",
-              "source_id": "dfcd5a77c385cb22c387dd58ab0079e4b6406371fa8dfa7c2eeed13e812779b4",
-              "update_type": "後續發展",
-              "description_zh": "報導指出日本政府正研擬動用預備金以支應延長至10月的補貼財源。",
-              "source_detail": {
-                "id": "dfcd5a77c385cb22c387dd58ab0079e4b6406371fa8dfa7c2eeed13e812779b4",
-                "time": "2026-07-21T20:06:27+08:00",
-                "headline": "Japan considers adding several hundred billion yen from reserve funds for gasoline subsidies through October as financing runs short - Kyodo News",
-                "link": "https://www.financialjuice.com/News/9687058/Japan-considers-adding-several-hundred-billion-yen-from-reserve-funds-for-gasoline-subsidies-through-October-as-financing-runs-short---Kyodo-News.aspx?xy=rss",
                 "source": "FinancialJuice"
               }
             }
@@ -364,71 +351,29 @@
       "category": "經濟",
       "news": [
         {
-          "importance_score": 5,
-          "headline_zh": "美加貿易戰一觸即發，川普關稅威脅引發加拿大總理強烈反彈",
-          "summary_zh": "美國財政部長貝森特（Bessent）與貿易代表葛里爾（Greer）對加拿大貿易政策提出嚴厲批評，指責其在乳製品與酒類上具高度歧視性。加拿大總理卡尼（Carney）強烈回應，稱川普的最新關稅威脅違反了《美墨加協定》（USMCA），並表示若美方執意實施，加國將評估所有應對選項。雙方已於週二上午通話，同意在未來數週內加緊談判。",
-          "event_time": "2026-07-21T20:19:18+08:00",
-          "source_id": "5fa7b07eabc146efed1ce7c6c68009c1e079f2b261d61c1e83126825e9b9b66e",
+          "importance_score": 3,
+          "headline_zh": "日本6月出口年增19.3%優於預期，但進口激增導致貿易逆差擴大",
+          "summary_zh": "日本財務省公布6月貿易數據，出口年增率達19.3%，高於市場預期的18.0%，其中對亞洲及歐美出口均呈雙位數增長；然而，受能源與大宗商品價格上漲影響，進口年增率高達25.4%，導致貿易逆差擴大至4069億日圓，遠超預期的1200億日圓。",
+          "event_time": "2026-07-22T07:50:01+08:00",
+          "source_id": "327f846698d91f08cf7d77eec326258adf86820a52014885d1bb7803b32db9fa",
           "source_detail": {
-            "id": "5fa7b07eabc146efed1ce7c6c68009c1e079f2b261d61c1e83126825e9b9b66e",
-            "time": "2026-07-21T20:19:18+08:00",
-            "headline": "US Treasury Secretary Bessent on Canada Trade: This is just reciprocity..",
-            "link": "https://www.financialjuice.com/News/9687096/US-Treasury-Secretary-Bessent-on-Canada-Trade-This-is-just-reciprocity.aspx?xy=rss",
+            "id": "327f846698d91f08cf7d77eec326258adf86820a52014885d1bb7803b32db9fa",
+            "time": "2026-07-22T07:50:01+08:00",
+            "headline": "Japanese Total Trade Balance Actual -406.9B (Forecast -120B, Previous -391.8B)",
+            "link": "https://www.financialjuice.com/News/9687891/Japanese-Total-Trade-Balance-Actual--4069B-Forecast--120B-Previous--3918B.aspx?xy=rss",
             "source": "FinancialJuice"
           },
           "trajectory": [
             {
-              "time": "2026-07-21T22:56:30+08:00",
-              "source_id": "885282396bcab822cc80b129d8798c564e31ff527f00e25e7ace4ac59fd104ef",
-              "update_type": "後續發展",
-              "description_zh": "加拿大總理卡尼公開指責關稅威脅違反USMCA，並透露已與川普通話，強調不接受局部協議，要求達成涵蓋所有關鍵領域的完整協議。",
-              "source_detail": {
-                "id": "885282396bcab822cc80b129d8798c564e31ff527f00e25e7ace4ac59fd104ef",
-                "time": "2026-07-21T22:56:30+08:00",
-                "headline": "Canadian Prime Minister Carney: Trump's latest tariffs threat is in violation of the USMCA deal.",
-                "link": "https://www.financialjuice.com/News/9687315/Canadian-Prime-Minister-Carney-Trumps-latest-tariffs-threat-is-in-violation-of-the-USMCA-deal.aspx?xy=rss",
-                "source": "FinancialJuice"
-              }
-            },
-            {
-              "time": "2026-07-21T23:35:01+08:00",
-              "source_id": "ee6616f5233edb3f7f234a0b634d9dff6587239a3e0e72b5a5be758ef9a0d839",
-              "update_type": "後續發展",
-              "description_zh": "川普對此回應，對加國課徵關稅與野火無關，而是因為加拿大長期對美國農民與貿易採取強硬態度。",
-              "source_detail": {
-                "id": "ee6616f5233edb3f7f234a0b634d9dff6587239a3e0e72b5a5be758ef9a0d839",
-                "time": "2026-07-21T23:35:01+08:00",
-                "headline": "Trump, asked on Canada tariffs: It is not related to the wildfires; it's because they have been tough on our farmers and us.",
-                "link": "https://www.financialjuice.com/News/9687404/Trump-asked-on-Canada-tariffs-It-is-not-related-to-the-wildfires-its-because-they-have-been-tough-on-our-farmers-and-us.aspx?xy=rss",
-                "source": "FinancialJuice"
-              }
-            }
-          ]
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "美國將於週五前針對強迫勞動實施新關稅，涵蓋60個國家",
-          "summary_zh": "美國貿易代表葛里爾透露，美國預計將在週五前針對涉及強迫勞動的貿易夥伴實施新關稅，臨時過渡條款即將到期。該項強迫勞動關稅行動預計將涵蓋多達60個國家。",
-          "event_time": "2026-07-21T20:59:53+08:00",
-          "source_id": "78b4f5a72fa54e1344260498d0645700142e1cc27e2c08eab0c12e3e159c70a1",
-          "source_detail": {
-            "id": "78b4f5a72fa54e1344260498d0645700142e1cc27e2c08eab0c12e3e159c70a1",
-            "time": "2026-07-21T20:59:53+08:00",
-            "headline": "USTR Greer: I expect some action on forced labor tariffs soon.",
-            "link": "https://www.financialjuice.com/News/9687157/USTR-Greer-I-expect-some-action-on-forced-labor-tariffs-soon.aspx",
-            "source": "FinancialJuice"
-          },
-          "trajectory": [
-            {
-              "time": "2026-07-22T03:40:44+08:00",
-              "source_id": "126d52f1b50f308064a502d9d47623e8364e5b2658ae78becaca42a543e16cdc",
+              "time": "2026-07-22T07:50:03+08:00",
+              "source_id": "ceabeca5a3a2f59fe16deade89053e790cc08e2a751f2e3f4141fb7825f50e67",
               "update_type": "正式確認",
-              "description_zh": "美方確認將於本週五前正式對相關貿易夥伴課徵新關稅。",
+              "description_zh": "官方確認6月貿易逆差為406.9億日圓，進口年增25.4%，出口年增19.3%。",
               "source_detail": {
-                "id": "126d52f1b50f308064a502d9d47623e8364e5b2658ae78becaca42a543e16cdc",
-                "time": "2026-07-22T03:40:44+08:00",
-                "headline": "The US to set new tariffs on trading partners, citing forced labor, by Friday, with a stopgap to expire.",
-                "link": "https://www.financialjuice.com/News/9687687/The-US-to-set-new-tariffs-on-trading-partners-citing-forced-labor-by-Friday-with-a-stopgap-to-expire.aspx?xy=rss",
+                "id": "ceabeca5a3a2f59fe16deade89053e790cc08e2a751f2e3f4141fb7825f50e67",
+                "time": "2026-07-22T07:50:03+08:00",
+                "headline": "Japan June trade deficit at 406.9 billion yen: Ministry of Finance (poll: 120 billion yen)",
+                "link": "https://www.financialjuice.com/News/9687893/Japan-June-trade-deficit-at-4069-billion-yen-Ministry-of-Finance-poll-120-billion-yen.aspx?xy=rss",
                 "source": "FinancialJuice"
               }
             }
@@ -436,8 +381,37 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "英國公布最新就業數據，失業率維持在4.9%",
-          "summary_zh": "英國公布最新就業報告，失業人數增加6.7k（預期為29.4k），失業率維持在4.9%符合預期。不含紅利的平均薪資年增率為3.4%，含紅利的平均每週薪資年增率則為4.3%（略低於預期的4.5%）。",
+          "headline_zh": "德國7月ZEW經濟景氣指數大幅優於預期，升至26.3",
+          "summary_zh": "德國7月ZEW經濟景氣指數由上月的10.5大幅躍升至26.3，遠優於市場預期的15.3；現況指數亦由-81.0微幅改善至-77.6，顯示投資人對德國經濟復甦的信心有所增強。",
+          "event_time": "2026-07-21T17:00:02+08:00",
+          "source_id": "63f9977ed88124a4b7f08da237345cd16179651971dd6b446c8dfd61f7a42f24",
+          "source_detail": {
+            "id": "63f9977ed88124a4b7f08da237345cd16179651971dd6b446c8dfd61f7a42f24",
+            "time": "2026-07-21T17:00:02+08:00",
+            "headline": "German ZEW Current Conditions Actual -77.6 (Forecast -77.7, Previous -81.0)",
+            "link": "https://www.financialjuice.com/News/9686805/German-ZEW-Current-Conditions-Actual--776-Forecast--777-Previous--810.aspx?xy=rss",
+            "source": "FinancialJuice"
+          },
+          "trajectory": [
+            {
+              "time": "2026-07-21T17:00:23+08:00",
+              "source_id": "0e7f518f0c8c79f70f5f92df34d3f97563c0f2ae55678da97f21d24a10f71d58",
+              "update_type": "正式確認",
+              "description_zh": "確認德國ZEW經濟景氣指數錄得26.3，歐元區ZEW經濟景氣指數亦升至23.4。",
+              "source_detail": {
+                "id": "0e7f518f0c8c79f70f5f92df34d3f97563c0f2ae55678da97f21d24a10f71d58",
+                "time": "2026-07-21T17:00:23+08:00",
+                "headline": "German ZEW Economic Sentiment Actual 26.3 (Forecast 15.3, Previous 10.5)",
+                "link": "https://www.financialjuice.com/News/9686804/German-ZEW-Economic-Sentiment-Actual-263-Forecast-153-Previous-105.aspx?xy=rss",
+                "source": "FinancialJuice"
+              }
+            }
+          ]
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "英國6月失業率維持4.9%符合預期，平均薪資增速略微放緩",
+          "summary_zh": "英國國家統計局公布最新就業數據，6月失業率維持在4.9%，符合市場預期。不含紅利的平均薪資年增率為3.4%，含紅利的平均每週薪資年增率則由上月的4.4%降至4.3%，顯示勞動力市場緊張狀況略有緩和。",
           "event_time": "2026-07-21T14:00:01+08:00",
           "source_id": "f79daacabccd10545aff2d3648a65653eef555c7f30e1df2d8f867d565849b55",
           "source_detail": {
@@ -447,32 +421,17 @@
             "link": "https://www.financialjuice.com/News/9686556/UK-Unemployment-Change-Actual-67k-Forecast-294k-Previous-312k.aspx",
             "source": "FinancialJuice"
           },
-          "trajectory": []
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "南韓7月前20天出口暴增52.3%，6月生產者物價指數年增8.6%",
-          "summary_zh": "南韓關稅廳公布，7月1日至20日出口額年增52.3%，進口額年增20%，錄得122億美元的貿易順差。此外，南韓央行公布6月生產者物價指數（PPI）年增率為8.6%，與5月持平，按月則呈現持平（0.0%）。",
-          "event_time": "2026-07-21T08:00:03+08:00",
-          "source_id": "1d5298602192d2b5301e7cfe6b90a246a713b9d2323787f902b3767040c97641",
-          "source_detail": {
-            "id": "1d5298602192d2b5301e7cfe6b90a246a713b9d2323787f902b3767040c97641",
-            "time": "2026-07-21T08:00:03+08:00",
-            "headline": "S. Korea exports surge 52.3% year on year in July 1-20: customs agency",
-            "link": "https://www.financialjuice.com/News/9686221/S-Korea-exports-surge-523-year-on-year-in-July-1-20-customs-agency.aspx?xy=rss",
-            "source": "FinancialJuice"
-          },
           "trajectory": [
             {
-              "time": "2026-07-22T05:00:00+08:00",
-              "source_id": "79f7409b188d2b782c55f326ce60d795d0d25d68484f3798324cb8be1449bae8",
-              "update_type": "後續發展",
-              "description_zh": "南韓央行隨後於隔日清晨正式公布6月PPI詳細數據，確認年增率為8.6%，月增率為0.0%。",
+              "time": "2026-07-21T14:00:04+08:00",
+              "source_id": "19ed8510424ccf26f7661e236621a4e5400b88c37740be555cd6a9b0114e456d",
+              "update_type": "正式確認",
+              "description_zh": "確認含紅利平均每週薪資年增率為4.3%，低於預期的4.5%。",
               "source_detail": {
-                "id": "79f7409b188d2b782c55f326ce60d795d0d25d68484f3798324cb8be1449bae8",
-                "time": "2026-07-22T05:00:00+08:00",
-                "headline": "S. Korean PPI YoY Actual 8.6% (Forecast -, Previous 8.5%)",
-                "link": "https://www.financialjuice.com/News/9687759/S-Korean-PPI-YoY-Actual-86-Forecast---Previous-85.aspx",
+                "id": "19ed8510424ccf26f7661e236621a4e5400b88c37740be555cd6a9b0114e456d",
+                "time": "2026-07-21T14:00:04+08:00",
+                "headline": "UK Average Weekly Earnings YoY Actual 4.3% (Forecast 4.5%, Previous 4.4%)",
+                "link": "https://www.financialjuice.com/News/9686561/UK-Average-Weekly-Earnings-YoY-Actual-43-Forecast-45-Previous-44.aspx",
                 "source": "FinancialJuice"
               }
             }
@@ -485,8 +444,63 @@
       "news": [
         {
           "importance_score": 5,
-          "headline_zh": "葉門青年運動威脅沙國港口，兩艘沙烏地原油輪在紅海緊急掉頭",
-          "summary_zh": "葉門青年運動（Houthis）向航運公司發出警告，要求其避免在沙烏地阿拉伯的港口進行裝卸。受此威脅影響，兩艘裝載沙烏地原油的油輪在紅海緊急掉頭，改道駛往蘇伊士運河。此事件導致霍爾木茲海峽（Strait of Hormuz）商業航運量降至三週新低，國際油價應聲上漲逾2%。",
+          "headline_zh": "美伊衝突急劇升級：美軍連續第11晚空襲伊朗，英國首度批准美軍使用其基地",
+          "summary_zh": "中東局勢面臨全面失控風險。美軍中央司令部（Centcom）證實已連續第11晚對伊朗境內軍事目標發動大規模空襲，空襲範圍包括大不里士（Tabriz）附近的軍事基地。英國首相伯納姆（Burnham）亦首度批准美軍使用英國基地對伊朗進行打擊。伊朗方面則誓言，若其核設施遭到攻擊，將對美國及其盟友在該地區的所有利益發動毀滅性報復。",
+          "event_time": "2026-07-22T03:08:24+08:00",
+          "source_id": "72c8826e893782eb0f0a3d3a71e2471538144e4088945e62166a86e773a33985",
+          "source_detail": {
+            "id": "72c8826e893782eb0f0a3d3a71e2471538144e4088945e62166a86e773a33985",
+            "time": "2026-07-22T03:08:24+08:00",
+            "headline": "UK's PM Burnham approves use of uk bases for some us strikes on Iran.",
+            "link": "https://www.financialjuice.com/News/9687650/UKs-PM-Burnham-approves-use-of-uk-bases-for-some-us-strikes-on-Iran.aspx?xy=rss",
+            "source": "FinancialJuice"
+          },
+          "trajectory": [
+            {
+              "time": "2026-07-22T04:52:07+08:00",
+              "source_id": "d3a4554524aeeffa7e2755a9fd21d96eb2be20189b0d3d0e7332f1e0a280c615",
+              "update_type": "後續發展",
+              "description_zh": "伊朗聯合軍事指揮部警告，若核設施受襲，將擴大戰爭範圍並鎖定所有美軍及其盟友目標。",
+              "source_detail": {
+                "id": "d3a4554524aeeffa7e2755a9fd21d96eb2be20189b0d3d0e7332f1e0a280c615",
+                "time": "2026-07-22T04:52:07+08:00",
+                "headline": "Iran's Top Joint Military Command: All US and its allies interests in the region will be targeted if US attacks iran's nuclear sites - Iranian State TV",
+                "link": "https://www.financialjuice.com/News/9687756/Irans-Top-Joint-Military-Command-All-US-and-its-allies-interests-in-the-region-will-be-targeted-if-US-attacks-irans-nuclear-sites---Iranian-State-TV.aspx",
+                "source": "FinancialJuice"
+              }
+            },
+            {
+              "time": "2026-07-22T07:33:26+08:00",
+              "source_id": "a2fd877aee064d2fc8748ff67207d4e07b28f3d082fcdfa13c61ba390144eeb9",
+              "update_type": "正式確認",
+              "description_zh": "美軍中央司令部確認已完成連續第11晚對伊朗的空襲行動。",
+              "source_detail": {
+                "id": "a2fd877aee064d2fc8748ff67207d4e07b28f3d082fcdfa13c61ba390144eeb9",
+                "time": "2026-07-22T07:33:26+08:00",
+                "headline": "Centcom: forces started hitting military targets in Iran at 7 p.m. ET today for 11th straight night",
+                "link": "https://www.financialjuice.com/News/9687884/Centcom-forces-started-hitting-military-targets-in-Iran-at-7-pm-ET-today-for-11th-straight-night.aspx?xy=rss",
+                "source": "FinancialJuice"
+              }
+            },
+            {
+              "time": "2026-07-22T08:08:24+08:00",
+              "source_id": "010d9e68f6d8a6e9101d82f53623942d32338520bba4e4afd54697bffdb0a1cf",
+              "update_type": "後續發展",
+              "description_zh": "伊朗東亞塞拜然省當局證實，美軍空襲了大不里士附近的軍事據點。",
+              "source_detail": {
+                "id": "010d9e68f6d8a6e9101d82f53623942d32338520bba4e4afd54697bffdb0a1cf",
+                "time": "2026-07-22T08:08:24+08:00",
+                "headline": "Iran's semi-official Fars: East Azerbaijan authorities report U.S. airstrike on military site near Tabriz",
+                "link": "https://www.financialjuice.com/News/9687927/Irans-semi-official-Fars-East-Azerbaijan-authorities-report-US-airstrike-on-military-site-near-Tabriz.aspx?xy=rss",
+                "source": "FinancialJuice"
+              }
+            }
+          ]
+        },
+        {
+          "importance_score": 5,
+          "headline_zh": "胡塞組織威脅禁運沙烏地港口，兩艘沙國原油輪在紅海緊急掉頭",
+          "summary_zh": "葉門胡塞武裝組織（Houthis）向全球航運公司發出警告，要求其避免在沙烏地阿拉伯港口進行任何裝卸作業。受此威脅影響，兩艘裝載沙烏地原油的油輪在紅海緊急掉頭，改道駛往蘇伊士運河，引發市場對霍爾木茲海峽及紅海航道中斷的極度恐慌，霍爾木茲海峽商船流量已降至三週新低。",
           "event_time": "2026-07-21T18:47:10+08:00",
           "source_id": "bf406bbfdce263c844296e4d34b7c85a073ef0f0cd3b16513feab777b5690099",
           "source_detail": {
@@ -500,8 +514,8 @@
             {
               "time": "2026-07-21T20:44:02+08:00",
               "source_id": "0b63bec8d30e2aa44c88768b571bff593829c8057c1579a8780145e693b7a6ae",
-              "update_type": "後續發展",
-              "description_zh": "航運數據與能源分析師證實，兩艘沙烏地油輪已在紅海掉頭避險。",
+              "update_type": "正式確認",
+              "description_zh": "航運數據證實兩艘沙烏地原油輪已在紅海掉頭轉向蘇伊士。",
               "source_detail": {
                 "id": "0b63bec8d30e2aa44c88768b571bff593829c8057c1579a8780145e693b7a6ae",
                 "time": "2026-07-21T20:44:02+08:00",
@@ -511,70 +525,15 @@
               }
             },
             {
-              "time": "2026-07-22T02:31:09+08:00",
-              "source_id": "978f44d7f30c1691300b3e292d354decb84f5b7c86e24d717c9ac05f7492f32a",
+              "time": "2026-07-21T22:18:00+08:00",
+              "source_id": "c951507c46fec20c9dc84a4842bc3515146d12514a1474a47b0aea74be8ab1f1",
               "update_type": "後續發展",
-              "description_zh": "紐約期油（WTI）收盤上漲2.02%至每桶84.91美元，布蘭特原油收盤上漲2.01%至每桶91.01美元。",
+              "description_zh": "聯合海事資訊中心（JMIC）指出，霍爾木茲海峽的商業航運流量已萎縮至三週以來最低點。",
               "source_detail": {
-                "id": "978f44d7f30c1691300b3e292d354decb84f5b7c86e24d717c9ac05f7492f32a",
-                "time": "2026-07-22T02:31:09+08:00",
-                "headline": "NYMEX WTI crude August futures settle at $84.91 a barrel, up $1.68, 2.02%.",
-                "link": "https://www.financialjuice.com/News/9687597/NYMEX-WTI-crude-August-futures-settle-at-8491-a-barrel-up-168-202.aspx?xy=rss",
-                "source": "FinancialJuice"
-              }
-            }
-          ]
-        },
-        {
-          "importance_score": 5,
-          "headline_zh": "美伊軍事衝突急遽升級，美軍完成對伊空襲，伊朗代理人反擊科威特與約旦基地",
-          "summary_zh": "美軍宣布完成對伊朗的最新一輪空襲。隨後，伊朗革命衛隊（IRGC）發射飛彈與無人機，擊中美國位於科威特阿里·薩利姆（Ali Al Salem）空軍基地及約旦的雷達、通信與衛星設施。川普警告，美軍將在短期內對伊朗「鎬頭山」（Pickaxe Mountain）等核設施相關區域發動極其猛烈的打擊。伊朗軍方則誓言，若核設施遭襲，將對美國及其盟友在該地區的所有利益發動毀滅性報復，戰爭恐全面擴大。",
-          "event_time": "2026-07-21T09:19:39+08:00",
-          "source_id": "dbc75407d463957c95d4ebbfaac0291d14f7bf5e977f734874b50cbd1020495e",
-          "source_detail": {
-            "id": "dbc75407d463957c95d4ebbfaac0291d14f7bf5e977f734874b50cbd1020495e",
-            "time": "2026-07-21T09:19:39+08:00",
-            "headline": "U.S. Military: Latest strikes on Iran complete",
-            "link": "https://www.financialjuice.com/News/9686289/US-Military-Latest-strikes-on-Iran-complete.aspx?xy=rss",
-            "source": "FinancialJuice"
-          },
-          "trajectory": [
-            {
-              "time": "2026-07-21T09:28:15+08:00",
-              "source_id": "33d5b67899775e63e5467ae347705170a32289d0440f9ffd700cd23d79c4178b",
-              "update_type": "後續發展",
-              "description_zh": "伊朗革命衛隊宣稱擊中科威特與約旦的美軍雷達與無人機機棚。",
-              "source_detail": {
-                "id": "33d5b67899775e63e5467ae347705170a32289d0440f9ffd700cd23d79c4178b",
-                "time": "2026-07-21T09:28:15+08:00",
-                "headline": "Iran's Revolutionary Guards: missile and drone strikes hit U.S. radar, communications, satellite sites in Kuwait",
-                "link": "https://www.financialjuice.com/News/9686291/Irans-Revolutionary-Guards-missile-and-drone-strikes-hit-US-radar-communications-satellite-sites-in-Kuwait.aspx?xy=rss",
-                "source": "FinancialJuice"
-              }
-            },
-            {
-              "time": "2026-07-21T23:34:10+08:00",
-              "source_id": "979f7c69d9d88ff4691aa8f0ae3f83a739df6c05f65bd2be7836d4dedb17ce0b",
-              "update_type": "後續發展",
-              "description_zh": "川普強硬表態，美軍將轟炸伊朗任何涉嫌核子營運的設施，並點名即將重擊鎬頭山地區。",
-              "source_detail": {
-                "id": "979f7c69d9d88ff4691aa8f0ae3f83a739df6c05f65bd2be7836d4dedb17ce0b",
-                "time": "2026-07-21T23:34:10+08:00",
-                "headline": "Trump: We'll hit any site that Iran is thinking about for nuclear operations.",
-                "link": "https://www.financialjuice.com/News/9687403/Trump-Well-hit-any-site-that-Iran-is-thinking-about-for-nuclear-operations.aspx?xy=rss",
-                "source": "FinancialJuice"
-              }
-            },
-            {
-              "time": "2026-07-22T04:52:07+08:00",
-              "source_id": "d3a4554524aeeffa7e2755a9fd21d96eb2be20189b0d3d0e7332f1e0a280c615",
-              "update_type": "後續發展",
-              "description_zh": "伊朗聯合軍事最高指揮部警告，襲擊其核設施將被視為戰爭擴大，屆時美軍及其盟友在該區的所有利益都將成為打擊目標。",
-              "source_detail": {
-                "id": "d3a4554524aeeffa7e2755a9fd21d96eb2be20189b0d3d0e7332f1e0a280c615",
-                "time": "2026-07-22T04:52:07+08:00",
-                "headline": "Iran's Top Joint Military Command: All US and its allies interests in the region will be targeted if US attacks iran's nuclear sites - Iranian State TV",
-                "link": "https://www.financialjuice.com/News/9687756/Irans-Top-Joint-Military-Command-All-US-and-its-allies-interests-in-the-region-will-be-targeted-if-US-attacks-irans-nuclear-sites---Iranian-State-TV.aspx",
+                "id": "c951507c46fec20c9dc84a4842bc3515146d12514a1474a47b0aea74be8ab1f1",
+                "time": "2026-07-21T22:18:00+08:00",
+                "headline": "JMIC: Hormuz Strait commercial traffic fell to a three-week low.",
+                "link": "https://www.financialjuice.com/News/9687282/JMIC-Hormuz-Strait-commercial-traffic-fell-to-a-three-week-low-.aspx?xy=rss",
                 "source": "FinancialJuice"
               }
             }
@@ -582,8 +541,37 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "黑海油輪遇襲，哈薩克暫停經黑海終端輸送原油",
-          "summary_zh": "由於黑海地區發生針對油輪的襲擊事件，裏海管道聯盟（CPC）已停止在其黑海終端接收來自哈薩克的原油，哈薩克亦宣布暫停向黑海輸送石油，此舉進一步加劇了全球能源供應的擔憂。",
+          "headline_zh": "川普批准與沙烏地阿拉伯達成歷史性無保障措施核能協定",
+          "summary_zh": "據《華爾街日報》（WSJ）報導，美國總統川普已批准一項與沙烏地阿拉伯的歷史性核能合作協議。然而，消息人士透露，川普政府向國會提交的這項協定缺乏關鍵的防擴散「保障措施」（Safeguards），引發國會對中東核軍備競賽的強烈擔憂。",
+          "event_time": "2026-07-22T08:55:05+08:00",
+          "source_id": "3e6747edcd6c41bd41b265f83ed9b6e7bd8be4610f6f8d99c6c9cc59f80abe64",
+          "source_detail": {
+            "id": "3e6747edcd6c41bd41b265f83ed9b6e7bd8be4610f6f8d99c6c9cc59f80abe64",
+            "time": "2026-07-22T08:55:05+08:00",
+            "headline": "Trump approves historic nuclear agreement with Saudi Arabia - WSJ",
+            "link": "https://www.financialjuice.com/News/9687956/Trump-approves-historic-nuclear-agreement-with-Saudi-Arabia---WSJ.aspx?xy=rss",
+            "source": "FinancialJuice"
+          },
+          "trajectory": [
+            {
+              "time": "2026-07-22T09:08:13+08:00",
+              "source_id": "e2d4d9d91881978fb12d3877734b5cce8d4e510d68fb993d1746b50a27e8961c",
+              "update_type": "正式確認",
+              "description_zh": "消息人士證實，該核能協定確實缺乏國際原子能機構標準的防擴散保障條款。",
+              "source_detail": {
+                "id": "e2d4d9d91881978fb12d3877734b5cce8d4e510d68fb993d1746b50a27e8961c",
+                "time": "2026-07-22T09:08:13+08:00",
+                "headline": "Trump administration to provide Congress agreement on Saudi nuclear power lacking safeguards, sources say",
+                "link": "https://www.financialjuice.com/News/9687975/Trump-administration-to-provide-Congress-agreement-on-Saudi-nuclear-power-lacking-safeguards-sources-say.aspx?xy=rss",
+                "source": "FinancialJuice"
+              }
+            }
+          ]
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "黑海油輪遇襲，哈薩克暫停經由黑海終端出口原油",
+          "summary_zh": "由於黑海地區接連發生針對油輪的襲擊事件，裏海管道聯盟（CPC）已停止從哈薩克接收原油並暫停其黑海終端的裝載作業，這導致每日超過100萬桶的哈薩克原油出口面臨中斷風險，進一步推高全球油價。",
           "event_time": "2026-07-21T18:54:46+08:00",
           "source_id": "38d4b0ce3182fa040eff20295269f57ffc86bd8e93d3ec66fe3075696bfabfb9",
           "source_detail": {
@@ -598,7 +586,7 @@
               "time": "2026-07-21T22:01:32+08:00",
               "source_id": "849ef4700390c3a8629ebdd95351550e46b89edc87cc52d3a0104bdc50cce1d0",
               "update_type": "正式確認",
-              "description_zh": "三方消息來源證實，裏海管道聯盟已因安全因素暫停黑海終端的原油接收作業。",
+              "description_zh": "消息人士證實，裏海管道聯盟已因安全因素正式停止在黑海終端接收哈薩克原油。",
               "source_detail": {
                 "id": "849ef4700390c3a8629ebdd95351550e46b89edc87cc52d3a0104bdc50cce1d0",
                 "time": "2026-07-21T22:01:32+08:00",
@@ -608,94 +596,36 @@
               }
             }
           ]
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "以色列軍隊撤出黎巴嫩，黎國軍隊展開部署，川普表態支持",
-          "summary_zh": "黎巴嫩安全官員證實，在以色列軍隊撤出後，黎巴嫩軍隊已開始在南部邊境展開部署。川普在與黎巴嫩總統奧恩（Aoun）會晤後表示，對黎巴嫩局勢感到樂觀，並確認以色列正在撤軍與重新部署。",
-          "event_time": "2026-07-21T14:23:42+08:00",
-          "source_id": "6a9c378c11d0661d456123804aa109998d581206604140756898bf5c7285a684",
-          "source_detail": {
-            "id": "6a9c378c11d0661d456123804aa109998d581206604140756898bf5c7285a684",
-            "time": "2026-07-21T14:23:42+08:00",
-            "headline": "Lebanese troops began deployment after Israeli troops left - Lebanese security official",
-            "link": "https://www.financialjuice.com/News/9686628/Lebanese-troops-began-deployment-after-Israeli-troops-left---Lebanese-security-official.aspx",
-            "source": "FinancialJuice"
-          },
-          "trajectory": [
-            {
-              "time": "2026-07-21T23:13:51+08:00",
-              "source_id": "c2c81b982e9d054c45630b060c910eb21a5a51616bdc443532a4afa870ba9b35",
-              "update_type": "後續發展",
-              "description_zh": "川普在雙邊會談中證實以色列正自黎巴嫩撤軍，並表示雙方將取得重大進展。",
-              "source_detail": {
-                "id": "c2c81b982e9d054c45630b060c910eb21a5a51616bdc443532a4afa870ba9b35",
-                "time": "2026-07-21T23:13:51+08:00",
-                "headline": "Trump: We feel very good about Lebanon, we will make a lot of progress with Lebanon's Aoun.",
-                "link": "https://www.financialjuice.com/News/9687351/Trump-We-feel-very-good-about-Lebanon-we-will-make-a-lot-of-progress-with-Lebanons-Aoun.aspx?xy=rss",
-                "source": "FinancialJuice"
-              }
-            }
-          ]
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "俄軍再度襲擊烏克蘭奧德薩港，印度因船員遇難召見俄國外交官",
-          "summary_zh": "俄羅斯軍隊對烏克蘭奧德薩（Odesa）港口發動新一輪襲擊，目標為烏軍基礎設施。此前，四名印度籍船員在烏克蘭港口附近因襲擊喪生，印度政府為此緊急召見俄羅斯高級外交官。克里姆林宮對此表示正與印度保持聯繫，但強調將繼續打擊向烏軍提供物資的船隻。",
-          "event_time": "2026-07-21T12:51:41+08:00",
-          "source_id": "098fc71c672342f8b7f717914b83c3dbf4e7878bfea3d04af2f47815c3da426a",
-          "source_detail": {
-            "id": "098fc71c672342f8b7f717914b83c3dbf4e7878bfea3d04af2f47815c3da426a",
-            "time": "2026-07-21T12:51:41+08:00",
-            "headline": "India summons senior Russian diplomat over killing of four Indian ship crew near Ukraine port: India govt official",
-            "link": "https://www.financialjuice.com/News/9686504/India-summons-senior-Russian-diplomat-over-killing-of-four-Indian-ship-crew-near-Ukraine-port-India-govt-official.aspx?xy=1",
-            "source": "FinancialJuice"
-          },
-          "trajectory": [
-            {
-              "time": "2026-07-21T17:36:39+08:00",
-              "source_id": "33e646bb6a34d70dd42d87aa9cd21e7b2fef69f5f99285366bf320fb4a4f5bb7",
-              "update_type": "後續發展",
-              "description_zh": "克里姆林宮強硬表態，俄軍將持續鎖定並打擊任何向烏克蘭軍隊運送物資的船隻。",
-              "source_detail": {
-                "id": "33e646bb6a34d70dd42d87aa9cd21e7b2fef69f5f99285366bf320fb4a4f5bb7",
-                "time": "2026-07-21T17:36:39+08:00",
-                "headline": "Kremlin: Russia will keep targeting ships supplying Ukrainian forces",
-                "link": "https://www.financialjuice.com/News/9686870/Kremlin-Russia-will-keep-targeting-ships-supplying-Ukrainian-forces.aspx?xy=rss",
-                "source": "FinancialJuice"
-              }
-            }
-          ]
         }
       ]
     }
   ],
   "discarded": {
-    "estimated_count": 23,
+    "estimated_count": 15,
     "reasons": [
-      "刪除純價格/漲跌幅資訊（如台股、台美股指波動率等）",
-      "刪除無具體數值的利率概率預測（如RBA、ECB、BoE等利率概率）",
-      "刪除對市場無實質影響的常規估計（如人行人民幣中間價設定估計）",
-      "刪除無實質內容的純政治會面或常規外交訪問（如歐洲議會訪華）",
-      "刪除無市場參考價值的技術性指標（如30/60/90日相關係數矩陣）"
+      "刪除純價格或漲跌幅波動新聞（如台股、台股跌幅、台股上漲2%等）",
+      "刪除無具體政策內容的官員發言（如日本財長不評論特定匯率水準）",
+      "刪除無具體數據的利率概率預測（如RBA、Fed、ECB等利率概率）",
+      "刪除純技術指標或波動率矩陣（如30天相關係數矩陣、隱含波動率等）",
+      "刪除對市場無直接影響的常規外交會晤或非關鍵訪問"
     ]
   },
-  "generated_at": "2026-07-22T07:00:57.376536+08:00",
+  "generated_at": "2026-07-22T09:51:54.001137+08:00",
   "model": "gemini-3.5-flash",
   "source": "FinancialJuice",
-  "input_headline_count": 253,
-  "included_headline_count": 253,
+  "input_headline_count": 268,
+  "included_headline_count": 268,
   "usage_metadata": {
-    "promptTokenCount": 29140,
-    "candidatesTokenCount": 9322,
-    "totalTokenCount": 52077,
+    "promptTokenCount": 30780,
+    "candidatesTokenCount": 8377,
+    "totalTokenCount": 53675,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 29140
+        "tokenCount": 30780
       }
     ],
-    "thoughtsTokenCount": 13615,
+    "thoughtsTokenCount": 14518,
     "serviceTier": "standard"
   }
 }
