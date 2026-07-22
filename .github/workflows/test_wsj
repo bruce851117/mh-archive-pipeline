@@ -1,0 +1,94 @@
+name: Test WallstreetCN Breakfast
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: "早餐日期（YYYY-MM-DD，留空則使用台北今天）"
+        required: false
+        type: string
+      article_id:
+        description: "文章ID（可留空；例如 3777606）"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  test-breakfast:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run WallstreetCN breakfast test
+        id: breakfast_test
+        continue-on-error: true
+        shell: bash
+        env:
+          TARGET_DATE: ${{ inputs.target_date }}
+          ARTICLE_ID: ${{ inputs.article_id }}
+        run: |
+          set -o pipefail
+
+          args=(--output wscn_breakfast_test_output)
+
+          if [ -n "$TARGET_DATE" ]; then
+            args+=(--date "$TARGET_DATE")
+          fi
+
+          if [ -n "$ARTICLE_ID" ]; then
+            args+=(--article-id "$ARTICLE_ID")
+          fi
+
+          python test_wallstreetcn_breakfast.py "${args[@]}" 2>&1 | tee wscn_breakfast_test.log
+
+      - name: Show test report in Actions log
+        if: always()
+        shell: bash
+        run: |
+          echo "===== Output files ====="
+          find wscn_breakfast_test_output -maxdepth 1 -type f -printf "%f (%s bytes)\n" 2>/dev/null | sort || true
+
+          echo ""
+          echo "===== 00_report.json ====="
+          if [ -f wscn_breakfast_test_output/00_report.json ]; then
+            cat wscn_breakfast_test_output/00_report.json
+          else
+            echo "00_report.json was not generated."
+          fi
+
+          echo ""
+          echo "===== Normalized search records ====="
+          if [ -f wscn_breakfast_test_output/02_search_api_normalized_records.json ]; then
+            cat wscn_breakfast_test_output/02_search_api_normalized_records.json
+          else
+            echo "Normalized search records were not generated."
+          fi
+
+      - name: Upload test output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wallstreetcn-breakfast-test-${{ github.run_number }}
+          path: |
+            wscn_breakfast_test_output/
+            wscn_breakfast_test.log
+          if-no-files-found: warn
+          retention-days: 7
+
+      - name: Mark workflow failed when test failed
+        if: steps.breakfast_test.outcome == 'failure'
+        shell: bash
+        run: |
+          echo "Breakfast test returned a non-zero exit code."
+          echo "The output artifact was still uploaded for diagnosis."
+          exit 1
