@@ -894,6 +894,70 @@
     .official-group .official-card:first-of-type {
       margin-top: 0;
     }
+
+    /* Historical Gemini digests. */
+    .history-controls {
+      margin-top: 10px;
+      padding: 13px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1.2fr auto;
+      gap: 10px;
+      align-items: end;
+    }
+    .history-header { margin-bottom: 10px; }
+    .history-status {
+      margin: 10px 0;
+      color: var(--muted);
+      font-size: 11px;
+    }
+    .history-day {
+      margin-top: 14px;
+    }
+    .history-day-header {
+      padding: 11px 14px;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      border-bottom: 1px solid var(--line);
+    }
+    .history-day-title {
+      margin: 0;
+      color: var(--navy-2);
+      font-size: 17px;
+    }
+    .history-overview {
+      padding: 11px 14px;
+      border-bottom: 1px solid #edf1f5;
+      color: #43556a;
+      font-size: 11px;
+      line-height: 1.65;
+    }
+    .history-category { padding: 1px 14px 7px; }
+    .history-category-title {
+      margin: 10px 0 2px;
+      color: var(--blue);
+      font-size: 13px;
+    }
+    .history-event {
+      padding: 9px 0;
+      border-bottom: 1px solid #edf1f5;
+    }
+    .history-event:last-child { border-bottom: 0; }
+    .history-event-title { font-size: 11px; font-weight: 750; }
+    .history-event-title.important { color: var(--navy-2); font-weight: 900; }
+    .history-event-meta { margin-bottom: 3px; color: #687b91; font-size: 9px; }
+    .history-event-summary { margin-top: 3px; color: #4d5e72; font-size: 10px; }
+    .history-load-more { margin-top: 12px; text-align: center; }
+    @media (max-width: 760px) {
+      .history-controls { grid-template-columns: 1fr 1fr; }
+      .history-controls .history-keyword { grid-column: 1 / -1; }
+      .history-controls .search-button { grid-column: 1 / -1; }
+    }
+    @media (max-width: 480px) {
+      .history-controls { grid-template-columns: 1fr; }
+      .history-controls .history-keyword,
+      .history-controls .search-button { grid-column: auto; }
+    }
   </style>
 </head>
 <body>
@@ -914,6 +978,7 @@
   <nav class="tab-bar-wrap" aria-label="Dashboard sections">
     <div class="tab-bar" id="tabBar">
       <button class="tab-button active" type="button" data-page="market">市場新聞</button>
+      <button class="tab-button" type="button" data-page="history">歷史新聞</button>
       <button class="tab-button" type="button" data-page="FED">Fed</button>
       <button class="tab-button" type="button" data-page="BOE">BoE</button>
       <button class="tab-button" type="button" data-page="ECB">ECB</button>
@@ -961,6 +1026,43 @@
     <section id="blocks"></section>
     </section>
 
+
+    <section id="historyPage" class="page-panel" hidden>
+      <section class="card central-bank-header history-header">
+        <div>
+          <h2 class="central-bank-name">歷史新聞</h2>
+          <div id="historyRangeText" class="central-bank-range">載入歷史索引中…</div>
+        </div>
+        <div id="historyCount" class="central-bank-count">0 則新聞</div>
+      </section>
+      <section class="card history-controls">
+        <div class="field">
+          <label for="historyStartDate">開始日期</label>
+          <input id="historyStartDate" type="date">
+        </div>
+        <div class="field">
+          <label for="historyEndDate">結束日期</label>
+          <input id="historyEndDate" type="date">
+        </div>
+        <div class="field">
+          <label for="historyCategory">分類</label>
+          <select id="historyCategory" class="central-bank-filter">
+            <option value="">全部分類</option>
+            <option value="債市">債市</option><option value="股市">股市</option>
+            <option value="央行">央行</option><option value="財政政策">財政政策</option>
+            <option value="經濟">經濟</option><option value="戰爭">戰爭</option>
+          </select>
+        </div>
+        <div class="field history-keyword">
+          <label for="historyKeyword">關鍵字</label>
+          <input id="historyKeyword" type="search" placeholder="Fed / CPI / Oil / China">
+        </div>
+        <button id="historySearchButton" class="search-button" type="button">查詢歷史</button>
+      </section>
+      <div id="historyStatus" class="history-status"></div>
+      <section id="historyResults"></section>
+    </section>
+
     <section id="centralBankPage" class="page-panel" hidden>
       <section class="card central-bank-header">
         <div>
@@ -1000,6 +1102,8 @@
 
     const DATA_URL = './data/web/latest.json';
     const CENTRAL_BANK_DATA_URL = './data/central_banks/digests/latest.json';
+    const HISTORY_INDEX_URL = './data/digests/history_index.json';
+    const HISTORY_MAX_DAYS = 31;
     const CATEGORY_ORDER = ['債市', '股市', '央行', '財政政策', '經濟', '戰爭'];
     const CENTRAL_BANK_ORDER = ['FED', 'BOE', 'ECB', 'BOJ', 'RBA'];
 
@@ -1031,6 +1135,8 @@
 
     let dashboardData = null;
     let centralBankData = null;
+    let historyIndex = null;
+    const historyDigestCache = new Map();
     let activePage = 'market';
 
     const updatedTime = document.getElementById('updatedTime');
@@ -1044,6 +1150,16 @@
     const newsCount = document.getElementById('newsCount');
     const blocksElement = document.getElementById('blocks');
     const marketPage = document.getElementById('marketPage');
+    const historyPage = document.getElementById('historyPage');
+    const historyRangeText = document.getElementById('historyRangeText');
+    const historyCount = document.getElementById('historyCount');
+    const historyStartDate = document.getElementById('historyStartDate');
+    const historyEndDate = document.getElementById('historyEndDate');
+    const historyCategory = document.getElementById('historyCategory');
+    const historyKeyword = document.getElementById('historyKeyword');
+    const historySearchButton = document.getElementById('historySearchButton');
+    const historyStatus = document.getElementById('historyStatus');
+    const historyResults = document.getElementById('historyResults');
     const centralBankPage = document.getElementById('centralBankPage');
     const centralBankName = document.getElementById('centralBankName');
     const centralBankRange = document.getElementById('centralBankRange');
@@ -1446,14 +1562,137 @@
         : '<div class="card empty">沒有符合篩選條件的官員</div>';
     }
 
+
+    function historyDateLabel(value) {
+      return shortDate(value) || value;
+    }
+    function initializeHistoryControls() {
+      const items = historyIndex?.items || [];
+      if (!items.length) {
+        historyRangeText.textContent = '目前沒有歷史 Digest';
+        return;
+      }
+      const latest = historyIndex.latest_date || items[0].date;
+      const latestDate = new Date(`${latest}T00:00:00+08:00`);
+      const startDate = new Date(latestDate);
+      startDate.setDate(startDate.getDate() - 6);
+      const earliest = historyIndex.earliest_date || items[items.length - 1].date;
+      const suggestedStart = startDate.toISOString().slice(0, 10) < earliest
+        ? earliest : startDate.toISOString().slice(0, 10);
+      historyStartDate.min = earliest;
+      historyStartDate.max = latest;
+      historyEndDate.min = earliest;
+      historyEndDate.max = latest;
+      historyStartDate.value = suggestedStart;
+      historyEndDate.value = latest;
+      historyRangeText.textContent = `可查詢 ${historyDateLabel(earliest)} ～ ${historyDateLabel(latest)}｜單次最多 ${HISTORY_MAX_DAYS} 天`;
+    }
+    function historyEventMatches(event, term) {
+      if (!term) return true;
+      const sourceText = [
+        event.headline_zh, event.summary_zh,
+        event.source_detail?.headline,
+        ...(event.trajectory || []).flatMap(item => [item.description_zh, item.source_detail?.headline]),
+      ].join(' ').toLowerCase();
+      return sourceText.includes(term);
+    }
+    function renderHistoryEvent(event) {
+      const important = Number(event.importance_score || 1) >= 4;
+      return `<article class="history-event">
+        <div class="history-event-meta">${escapeHtml(rowDate(event.event_time))}｜重要性 ${escapeHtml(event.importance_score || 1)}</div>
+        <div class="history-event-title ${important ? 'important' : ''}">${escapeHtml(event.headline_zh || '')}</div>
+        ${event.summary_zh ? `<div class="history-event-summary">${escapeHtml(event.summary_zh)}</div>` : ''}
+        ${renderTrajectory(event.trajectory || [], important)}
+      </article>`;
+    }
+    function renderHistoryDigest(digest, term, selectedCategory) {
+      let count = 0;
+      const categoriesHtml = CATEGORY_ORDER.map(categoryName => {
+        if (selectedCategory && selectedCategory !== categoryName) return '';
+        const block = (digest.categories || []).find(item => item.category === categoryName);
+        const events = (block?.news || []).filter(event => historyEventMatches(event, term));
+        count += events.length;
+        if (!events.length) return '';
+        return `<section class="history-category" data-category="${escapeHtml(categoryName)}">
+          <h4 class="history-category-title">${escapeHtml(categoryName)}｜${events.length} 則</h4>
+          ${events.map(renderHistoryEvent).join('')}
+        </section>`;
+      }).join('');
+      if (!count) return { html: '', count: 0 };
+      return {
+        count,
+        html: `<section class="card history-day">
+          <header class="history-day-header">
+            <h3 class="history-day-title">${escapeHtml(historyDateLabel((digest.generated_at || digest.period_end || '').slice(0, 10)))}</h3>
+            <span class="block-count">${count} 則</span>
+          </header>
+          ${digest.overview ? `<div class="history-overview">${escapeHtml(digest.overview)}</div>` : ''}
+          ${categoriesHtml}
+        </section>`,
+      };
+    }
+    async function loadHistoryDigest(item) {
+      if (historyDigestCache.has(item.file)) return historyDigestCache.get(item.file);
+      const digest = await fetchJson(item.file);
+      historyDigestCache.set(item.file, digest);
+      return digest;
+    }
+    async function renderHistoryPage() {
+      if (!historyIndex) {
+        historyStatus.textContent = '歷史索引尚未載入。';
+        return;
+      }
+      const start = historyStartDate.value;
+      const end = historyEndDate.value;
+      if (!start || !end || start > end) {
+        historyStatus.textContent = '請輸入正確的開始與結束日期。';
+        return;
+      }
+      const daySpan = Math.floor((new Date(`${end}T00:00:00+08:00`) - new Date(`${start}T00:00:00+08:00`)) / 86400000) + 1;
+      if (daySpan > HISTORY_MAX_DAYS) {
+        historyStatus.textContent = `單次最多查詢 ${HISTORY_MAX_DAYS} 天，目前選擇 ${daySpan} 天。`;
+        return;
+      }
+      const selected = (historyIndex.items || []).filter(item => item.date >= start && item.date <= end);
+      if (!selected.length) {
+        historyCount.textContent = '0 則新聞';
+        historyResults.innerHTML = '<div class="card empty">此日期範圍沒有歷史 Digest</div>';
+        historyStatus.textContent = '';
+        return;
+      }
+      historySearchButton.disabled = true;
+      historyStatus.textContent = `正在載入 ${selected.length} 個每日 Digest…`;
+      historyResults.innerHTML = '<div class="card loading">正在載入歷史新聞…</div>';
+      try {
+        const digests = await Promise.all(selected.map(loadHistoryDigest));
+        const term = historyKeyword.value.trim().toLowerCase();
+        const selectedCategory = historyCategory.value;
+        let total = 0;
+        const html = digests.map(digest => {
+          const rendered = renderHistoryDigest(digest, term, selectedCategory);
+          total += rendered.count;
+          return rendered.html;
+        }).join('');
+        historyCount.textContent = `${total} 則新聞`;
+        historyStatus.textContent = `已載入 ${selected.length} 個每日 Digest｜${historyDateLabel(start)} ～ ${historyDateLabel(end)}`;
+        historyResults.innerHTML = html || '<div class="card empty">沒有符合篩選條件的歷史新聞</div>';
+      } catch (error) {
+        historyStatus.textContent = `歷史新聞載入失敗：${error.message}`;
+        historyResults.innerHTML = '<div class="card error">部分歷史檔案無法載入，請稍後重試。</div>';
+      } finally {
+        historySearchButton.disabled = false;
+      }
+    }
     function activatePage(page) {
       activePage = page;
       marketPage.hidden = page !== 'market';
-      centralBankPage.hidden = page === 'market';
+      historyPage.hidden = page !== 'history';
+      centralBankPage.hidden = page === 'market' || page === 'history';
       document.querySelectorAll('.tab-button').forEach(button => {
         button.classList.toggle('active', button.dataset.page === page);
       });
-      if (page !== 'market') renderCentralBankPage(page);
+      if (page === 'history') renderHistoryPage();
+      else if (page !== 'market') renderCentralBankPage(page);
       history.replaceState(null, '', page === 'market' ? '#market' : `#${page.toLowerCase()}`);
     }
 
@@ -1465,8 +1704,8 @@
 
     async function loadData() {
       try {
-        const [marketResult, centralResult] = await Promise.allSettled([
-          fetchJson(DATA_URL), fetchJson(CENTRAL_BANK_DATA_URL),
+        const [marketResult, centralResult, historyResult] = await Promise.allSettled([
+          fetchJson(DATA_URL), fetchJson(CENTRAL_BANK_DATA_URL), fetchJson(HISTORY_INDEX_URL),
         ]);
 
         if (marketResult.status === 'fulfilled') {
@@ -1486,9 +1725,19 @@
         } else {
           console.error('Central bank data load failed:', centralResult.reason);
         }
+        if (historyResult.status === 'fulfilled') {
+          historyIndex = historyResult.value;
+          initializeHistoryControls();
+        } else {
+          console.error('History index load failed:', historyResult.reason);
+          historyRangeText.textContent = '歷史索引尚未產生，請先執行一次 Daily Digest';
+        }
 
-        const hash = location.hash.replace('#', '').toUpperCase();
-        const initialPage = CENTRAL_BANK_ORDER.includes(hash) ? hash : 'market';
+        const rawHash = location.hash.replace('#', '');
+        const hash = rawHash.toUpperCase();
+        const initialPage = rawHash.toLowerCase() === 'history'
+          ? 'history'
+          : (CENTRAL_BANK_ORDER.includes(hash) ? hash : 'market');
         activatePage(initialPage);
       } catch (error) {
         summaryContent.className = 'error';
@@ -1502,6 +1751,11 @@
       if (button) activatePage(button.dataset.page);
     });
     searchButton.addEventListener('click', renderBlocks);
+
+    historySearchButton.addEventListener('click', renderHistoryPage);
+    historyKeyword.addEventListener('keydown', event => {
+      if (event.key === 'Enter') renderHistoryPage();
+    });
     keyword.addEventListener('keydown', event => {
       if (event.key === 'Enter') renderBlocks();
     });

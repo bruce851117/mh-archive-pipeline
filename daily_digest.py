@@ -20,7 +20,8 @@ LATEST_DIGEST_FILE = Path("data/latest_daily_digest.json")
 STATUS_FILE = Path("data/digest_status.json")
 DEBUG_DIRECTORY = Path("data/debug")
 LATEST_DEBUG_FILE = Path("data/latest_digest_debug.json")
-
+DIGEST_DIRECTORY = Path("data/digests")
+HISTORY_INDEX_FILE = DIGEST_DIRECTORY / "history_index.json"
 CENTRAL_BANK_CONFIG_FILE = Path("central_bank_officials.json")
 CENTRAL_BANK_INPUT_FILE = Path("data/central_banks/latest_90d.json")
 CENTRAL_BANK_DIGEST_DIRECTORY = Path("data/central_banks/digests")
@@ -1396,7 +1397,85 @@ def write_central_bank_digest_status(
         },
     )
 
+def build_history_digest_index(
+    run_at: datetime,
+) -> dict[str, Any]:
+    """建立歷史新聞索引，供前端按日期載入每日 Gemini Digest。"""
 
+    items: list[dict[str, Any]] = []
+
+    for file_path in DIGEST_DIRECTORY.glob(
+        "[0-9][0-9][0-9][0-9]/[0-9][0-9]/*.json"
+    ):
+        date_text = file_path.stem
+
+        # 只接受YYYY-MM-DD.json
+        if not re.fullmatch(
+            r"\d{4}-\d{2}-\d{2}",
+            date_text,
+        ):
+            continue
+
+        try:
+            datetime.strptime(date_text, "%Y-%m-%d")
+        except ValueError:
+            continue
+
+        try:
+            digest = read_json_object(file_path)
+        except (OSError, ValueError, TypeError):
+            continue
+
+        categories = digest.get("categories", [])
+        event_count = 0
+
+        if isinstance(categories, list):
+            for category in categories:
+                if (
+                    isinstance(category, dict)
+                    and isinstance(category.get("news"), list)
+                ):
+                    event_count += len(category["news"])
+
+        items.append(
+            {
+                "date": date_text,
+                "file": "./" + file_path.as_posix(),
+                "period_start": normalize_text(
+                    digest.get("period_start")
+                ),
+                "period_end": normalize_text(
+                    digest.get("period_end")
+                ),
+                "overview": normalize_text(
+                    digest.get("overview")
+                ),
+                "event_count": event_count,
+            }
+        )
+
+    # 日期由新到舊排列
+    items.sort(
+        key=lambda item: item["date"],
+        reverse=True,
+    )
+
+    index = {
+        "generated_at": format_taipei_time(run_at),
+        "timezone": "Asia/Taipei",
+        "count": len(items),
+        "earliest_date": (
+            items[-1]["date"] if items else ""
+        ),
+        "latest_date": (
+            items[0]["date"] if items else ""
+        ),
+        "items": items,
+    }
+
+    write_json(HISTORY_INDEX_FILE, index)
+
+    return index
 def main() -> int:
     run_at = taipei_now()
     model = normalize_text(
@@ -1530,6 +1609,7 @@ def main() -> int:
             CENTRAL_BANK_LATEST_DIGEST_FILE,
             central_bank_digest,
         )
+        history_index = build_history_digest_index(run_at)
 
         write_status(
             status="success",
