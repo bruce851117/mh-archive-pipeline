@@ -5,6 +5,7 @@ import os
 import re
 import sys
 import time
+from html.parser import HTMLParser
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
@@ -40,6 +41,25 @@ REQUEST_TIMEOUT_SECONDS = 300
 MAX_RETRIES = 3
 MAX_OUTPUT_TOKENS = 65536
 MAX_INPUT_CHARACTERS = 500_000
+
+WALLSTREETCN_SEARCH_URLS = [
+    "https://api-one-wscn.awtmt.com/apiv1/search/article",
+    "https://api-one.wallstcn.com/apiv1/search/article",
+]
+WALLSTREETCN_ARTICLE_URLS = [
+    "https://api-one-wscn.awtmt.com/apiv1/content/articles/{article_id}?extract=0",
+    "https://api-one.wallstcn.com/apiv1/content/articles/{article_id}?extract=0",
+]
+WALLSTREETCN_TIMEOUT_SECONDS = 30
+WALLSTREETCN_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/126.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/json,text/plain,*/*",
+    "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.7",
+}
 
 ALLOWED_CATEGORIES = [
     "債市",
@@ -283,14 +303,333 @@ def build_compact_input(
     )
 
 
+class WallstreetCNHeadlineParser(HTMLParser):
+    """只解析早餐文章中「要闻」标题后的第一个blockquote。"""
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.found_headline_heading = False
+        self.in_h2 = False
+        self.h2_parts: list[str] = []
+        self.in_target_blockquote = False
+        self.blockquote_depth = 0
+        self.capture_tag = ""
+        self.capture_depth = 0
+        self.capture_parts: list[str] = []
+        self.strong_depth = 0
+        self.strong_parts: list[str] = []
+        self.sections: dict[str, list[str]] = {}
+        self.current_section = ""
+
+    def handle_starttag(
+        self,
+        tag: str,
+        attrs: list[tuple[str, str | None]],
+    ) -> None:
+        del attrs
+        tag = tag.lower()
+
+        if tag == "h2" and not self.found_headline_heading:
+            self.in_h2 = True
+            self.h2_parts = []
+            return
+
+        if (
+            tag == "blockquote"
+            and self.found_headline_heading
+            and not self.in_target_blockquote
+        ):
+            self.in_target_blockquote = True
+            self.blockquote_depth = 1
+            return
+
+        if not self.in_target_blockquote:
+            return
+
+        if tag == "blockquote":
+            self.blockquote_depth += 1
+
+        if not self.capture_tag and tag in {"p", "li"}:
+            self.capture_tag = tag
+            self.capture_depth = 1
+            self.capture_parts = []
+            self.strong_depth = 0
+            self.strong_parts = []
+            return
+
+        if self.capture_tag:
+            if tag == self.capture_tag:
+                self.capture_depth += 1
+            if tag == "strong":
+                self.strong_depth += 1
+
+    def handle_endtag(self, tag: str) -> None:
+        tag = tag.lower()
+
+        if tag == "h2" and self.in_h2:
+            heading = normalize_text("".join(self.h2_parts))
+            self.in_h2 = False
+            if heading in {"要闻", "要聞"}:
+                self.found_headline_heading = True
+            return
+
+        if not self.in_target_blockquote:
+            return
+
+        if self.capture_tag:
+            if tag == "strong" and self.strong_depth:
+                self.strong_depth -= 1
+            if tag == self.capture_tag:
+                self.capture_depth -= 1
+                if self.capture_depth == 0:
+                    self._finish_item()
+
+        if tag == "blockquote":
+            self.blockquote_depth -= 1
+            if self.blockquote_depth <= 0:
+                self.in_target_blockquote = False
+
+    def handle_data(self, data: str) -> None:
+        if self.in_h2:
+            self.h2_parts.append(data)
+
+        if not self.in_target_blockquote or not self.capture_tag:
+            return
+
+        self.capture_parts.append(data)
+        if self.strong_depth:
+            self.strong_parts.append(data)
+
+    def _finish_item(self) -> None:
+        text = normalize_text("".join(self.capture_parts))
+        strong_text = normalize_text("".join(self.strong_parts))
+
+        # 分类标题必须是独立的粗体短行，避免把事件内粗体误判为分类。
+        is_section_heading = (
+            bool(text)
+            and text == strong_text
+            and len(text) <= 30
+            and not re.search(r"[。！？!?：:；;]", text)
+        )
+
+        if is_section_heading:
+            self.current_section = text
+            self.sections.setdefault(text, [])
+        elif text:
+            section = self.current_section or "未分類"
+            self.sections.setdefault(section, []).append(text)
+
+        self.capture_tag = ""
+        self.capture_depth = 0
+        self.capture_parts = []
+        self.strong_depth = 0
+        self.strong_parts = []
+
+
+def strip_html_tags(value: Any) -> str:
+    text = re.sub(r"(?s)<[^>]+>", " ", str(value or ""))
+    return normalize_text(text)
+
+
+def iter_wallstreetcn_records(value: Any):
+    if isinstance(value, dict):
+        if "title" in value and ("id" in value or "uri" in value):
+            yield value
+        for child in value.values():
+            yield from iter_wallstreetcn_records(child)
+    elif isinstance(value, list):
+        for child in value:
+            yield from iter_wallstreetcn_records(child)
+
+
+def wallstreetcn_title_date(run_at: datetime) -> str:
+    local_date = run_at.astimezone(TAIPEI_TIMEZONE)
+    return f"{local_date.year}年{local_date.month}月{local_date.day}日"
+
+
+def find_today_wallstreetcn_breakfast(
+    run_at: datetime,
+) -> dict[str, Any] | None:
+    expected_date = wallstreetcn_title_date(run_at)
+
+    for search_url in WALLSTREETCN_SEARCH_URLS:
+        try:
+            response = requests.get(
+                search_url,
+                params={"query": "早餐", "limit": 30},
+                headers=WALLSTREETCN_HEADERS,
+                timeout=WALLSTREETCN_TIMEOUT_SECONDS,
+            )
+            response.raise_for_status()
+            payload = response.json()
+        except (
+            requests.RequestException,
+            ValueError,
+            TypeError,
+        ) as error:
+            print(
+                "Warning: WallstreetCN breakfast search failed: "
+                f"{type(error).__name__}: {error}",
+                file=sys.stderr,
+            )
+            continue
+
+        for record in iter_wallstreetcn_records(payload):
+            title = strip_html_tags(record.get("title"))
+            if "早餐" not in title or expected_date not in title:
+                continue
+
+            article_id = normalize_text(record.get("id"))
+            if not article_id:
+                uri = normalize_text(record.get("uri"))
+                match = re.search(r"/articles/(\d+)", uri)
+                article_id = match.group(1) if match else ""
+
+            if article_id:
+                return {
+                    "article_id": article_id,
+                    "title": title,
+                    "source_url": normalize_text(record.get("uri")),
+                }
+
+    return None
+
+
+def fetch_wallstreetcn_breakfast(
+    run_at: datetime,
+) -> dict[str, Any] | None:
+    """尽力抓取当日早餐；任何异常都回传None，不影响原Digest。"""
+    article = find_today_wallstreetcn_breakfast(run_at)
+    if not article:
+        print(
+            "WallstreetCN breakfast: no breakfast found for "
+            f"{run_at.astimezone(TAIPEI_TIMEZONE).date()}; skipped."
+        )
+        return None
+
+    article_id = article["article_id"]
+    content = ""
+
+    for url_template in WALLSTREETCN_ARTICLE_URLS:
+        try:
+            response = requests.get(
+                url_template.format(article_id=article_id),
+                headers=WALLSTREETCN_HEADERS,
+                timeout=WALLSTREETCN_TIMEOUT_SECONDS,
+            )
+            response.raise_for_status()
+            payload = response.json()
+            data = payload.get("data", {})
+            if isinstance(data, dict):
+                content = str(data.get("content") or "")
+            if content:
+                break
+        except (
+            requests.RequestException,
+            ValueError,
+            TypeError,
+        ) as error:
+            print(
+                "Warning: WallstreetCN breakfast article fetch failed: "
+                f"{type(error).__name__}: {error}",
+                file=sys.stderr,
+            )
+
+    if not content:
+        print(
+            "WallstreetCN breakfast: article content unavailable; skipped.",
+            file=sys.stderr,
+        )
+        return None
+
+    parser = WallstreetCNHeadlineParser()
+    try:
+        parser.feed(content)
+        parser.close()
+    except Exception as error:
+        print(
+            "Warning: WallstreetCN breakfast parsing failed: "
+            f"{type(error).__name__}: {error}",
+            file=sys.stderr,
+        )
+        return None
+
+    sections = {
+        section: events
+        for section, events in parser.sections.items()
+        if events
+    }
+    event_count = sum(len(events) for events in sections.values())
+
+    if not parser.found_headline_heading or event_count == 0:
+        print(
+            "WallstreetCN breakfast: headline section unavailable or empty; "
+            "skipped."
+        )
+        return None
+
+    result = {
+        **article,
+        "sections": sections,
+        "event_count": event_count,
+    }
+    print(
+        "WallstreetCN breakfast: "
+        f"{article['title']} | {len(sections)} sections | "
+        f"{event_count} must-keep events"
+    )
+    return result
+
+
+def build_wallstreetcn_breakfast_prompt(
+    breakfast: dict[str, Any] | None,
+) -> str:
+    if not breakfast or not breakfast.get("event_count"):
+        return ""
+
+    section_lines: list[str] = []
+    sections = breakfast.get("sections", {})
+    if not isinstance(sections, dict):
+        return ""
+
+    for section, events in sections.items():
+        if not isinstance(events, list) or not events:
+            continue
+        section_lines.append(f"{normalize_text(section)}：")
+        section_lines.extend(
+            f"- {normalize_text(event)}"
+            for event in events
+            if normalize_text(event)
+        )
+
+    if not section_lines:
+        return ""
+
+    return """
+【今日华尔街见闻早餐－最高优先必保留事件】
+
+以下内容来自今日早餐的「要闻」区块，仅用于判断输入的FinancialJuice Headline是否必须保留，不是额外新闻来源。
+若FinancialJuice Headline与以下任一事件属于同一事件、相同公司发展、相同政策、相同经济数据，或是该事件的直接后续进展，必须保留。本规则优先于其他删除规则。
+
+必须遵守：
+1. 不得直接把早餐文字新增为新闻。
+2. 最终输出的source_id只能使用FinancialJuice输入资料提供的id。
+3. 不得根据早餐补充FinancialJuice输入中没有的事实。
+4. 不要因为早餐提到广泛主题，就保留所有同类Headline；必须与具体事件具有明确关联。
+
+今日早餐必保留事件：
+""".strip() + "\n" + "\n".join(section_lines)
+
+
 def build_user_prompt(
     compact_input: str,
     input_count: int,
     included_count: int,
     period_start: str,
     period_end: str,
+    breakfast_prompt: str = "",
 ) -> str:
-    return f"""
+    prompt = f"""
 請整理以下最近24小時FinancialJuice市場Headline。
 統計期間：{period_start} 至 {period_end}
 時區：Asia/Taipei（GMT+8）
@@ -341,6 +680,19 @@ def build_user_prompt(
 輸入資料：
 {compact_input}
 """.strip()
+
+    if not breakfast_prompt:
+        return prompt
+
+    insertion_point = "\n\n請完成分類、語意去重、事件軌跡、繁體中文翻譯及重要性1至5分評估。"
+    if insertion_point not in prompt:
+        return breakfast_prompt + "\n\n" + prompt
+
+    return prompt.replace(
+        insertion_point,
+        "\n\n" + breakfast_prompt + insertion_point,
+        1,
+    )
 
 
 def get_response_text(
@@ -1518,12 +1870,18 @@ def main() -> int:
             run_at - timedelta(hours=24)
         )
 
+        breakfast = fetch_wallstreetcn_breakfast(run_at)
+        breakfast_prompt = build_wallstreetcn_breakfast_prompt(
+            breakfast
+        )
+
         prompt = build_user_prompt(
             compact_input=compact_input,
             input_count=len(cleaned_items),
             included_count=included_count,
             period_start=period_start,
             period_end=period_end,
+            breakfast_prompt=breakfast_prompt,
         )
 
         print(f"Input headlines: {len(cleaned_items)}")
