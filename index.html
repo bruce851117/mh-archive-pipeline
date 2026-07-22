@@ -958,6 +958,165 @@
       .history-controls .history-keyword,
       .history-controls .search-button { grid-column: auto; }
     }
+
+    /* Historical news: one chronological timeline, no category blocks. */
+    .history-timeline {
+      position: relative;
+      margin-top: 10px;
+      padding-bottom: 10px;
+    }
+    .history-date-group {
+      position: relative;
+      display: grid;
+      grid-template-columns: 86px minmax(0, 1fr);
+      column-gap: 12px;
+    }
+    .history-date-rail {
+      position: relative;
+      min-width: 0;
+    }
+    .history-date-rail::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      width: 2px;
+      transform: translateX(-50%);
+      background: #d5deea;
+    }
+    .history-date-marker {
+      position: sticky;
+      top: 58px;
+      z-index: 8;
+      display: block;
+      width: 76px;
+      margin: 10px auto 0;
+      border: 1px solid #c8d5e5;
+      border-radius: 999px;
+      padding: 6px 5px;
+      background: rgba(255,255,255,.97);
+      box-shadow: 0 5px 14px rgba(28,45,70,.10);
+      color: var(--navy-2);
+      text-align: center;
+      font-size: 10px;
+      font-weight: 900;
+      line-height: 1.25;
+    }
+    .history-date-marker small {
+      display: block;
+      color: #7a899b;
+      font-size: 8px;
+      font-weight: 700;
+    }
+    .history-date-events {
+      min-width: 0;
+    }
+    .history-timeline-event {
+      position: relative;
+      margin: 9px 0;
+      overflow: visible;
+      border-left: 5px solid var(--history-accent, #8392a5);
+      border-radius: 12px;
+      padding: 11px 13px;
+      background: var(--history-bg, #fff);
+      box-shadow: 0 7px 18px rgba(28,45,70,.07);
+    }
+    .history-timeline-event::before {
+      content: '';
+      position: absolute;
+      top: 18px;
+      left: -59px;
+      width: 10px;
+      height: 10px;
+      border: 3px solid #fff;
+      border-radius: 50%;
+      background: var(--history-accent, #8392a5);
+      box-shadow: 0 0 0 1px var(--history-accent, #8392a5);
+    }
+    .history-timeline-event::after {
+      content: '';
+      position: absolute;
+      top: 22px;
+      left: -48px;
+      width: 43px;
+      height: 2px;
+      background: #d5deea;
+    }
+    .history-event-topline {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 5px;
+    }
+    .history-category-badge {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 3px 8px;
+      background: var(--history-accent, #8392a5);
+      color: #fff;
+      font-size: 9px;
+      font-weight: 900;
+    }
+    .history-event-clock,
+    .history-importance {
+      color: #65778c;
+      font-size: 9px;
+      font-weight: 700;
+    }
+    .history-timeline-event .history-event-title {
+      font-size: 12px;
+      line-height: 1.55;
+    }
+    .history-timeline-event .history-event-summary {
+      margin-top: 5px;
+      color: #485b71;
+      font-size: 10px;
+      line-height: 1.6;
+    }
+    .history-timeline-event .trajectory-group {
+      margin-top: 8px;
+      margin-left: 0;
+      background: rgba(255,255,255,.55);
+    }
+    .history-timeline-event.category-bond {
+      --history-accent: #2674c8; --history-bg: #eaf4ff;
+    }
+    .history-timeline-event.category-equity {
+      --history-accent: #d84b55; --history-bg: #fff0f1;
+    }
+    .history-timeline-event.category-central-bank {
+      --history-accent: #7756bd; --history-bg: #f3efff;
+    }
+    .history-timeline-event.category-fiscal {
+      --history-accent: #d48618; --history-bg: #fff6df;
+    }
+    .history-timeline-event.category-economy {
+      --history-accent: #238a67; --history-bg: #eaf8f3;
+    }
+    .history-timeline-event.category-war {
+      --history-accent: #68717d; --history-bg: #f0f2f4;
+    }
+    @media (max-width: 620px) {
+      .history-date-group {
+        grid-template-columns: 62px minmax(0, 1fr);
+        column-gap: 8px;
+      }
+      .history-date-marker {
+        top: 56px;
+        width: 58px;
+        padding: 5px 3px;
+        font-size: 9px;
+      }
+      .history-timeline-event {
+        margin: 7px 0;
+        padding: 10px;
+      }
+      .history-timeline-event::before { left: -42px; }
+      .history-timeline-event::after { left: -31px; width: 26px; }
+    }
   </style>
 </head>
 <body>
@@ -1563,6 +1722,31 @@
     }
 
 
+
+    function historyCategoryClass(category) {
+      return {
+        '債市': 'category-bond',
+        '股市': 'category-equity',
+        '央行': 'category-central-bank',
+        '財政政策': 'category-fiscal',
+        '經濟': 'category-economy',
+        '戰爭': 'category-war',
+      }[category] || '';
+    }
+    function historyTimeLabel(value) {
+      const date = dateObject(value);
+      if (!date) return '';
+      return new Intl.DateTimeFormat('zh-TW', {
+        timeZone: 'Asia/Taipei', hour: '2-digit', minute: '2-digit', hour12: false,
+      }).format(date);
+    }
+    function historyWeekdayLabel(dateText) {
+      const date = new Date(`${dateText}T00:00:00+08:00`);
+      if (Number.isNaN(date.getTime())) return '';
+      return new Intl.DateTimeFormat('zh-TW', {
+        timeZone: 'Asia/Taipei', weekday: 'short',
+      }).format(date);
+    }
     function historyDateLabel(value) {
       return shortDate(value) || value;
     }
@@ -1596,40 +1780,58 @@
       ].join(' ').toLowerCase();
       return sourceText.includes(term);
     }
-    function renderHistoryEvent(event) {
+    function renderHistoryTimelineEvent(item) {
+      const event = item.event;
+      const category = item.category;
       const important = Number(event.importance_score || 1) >= 4;
-      return `<article class="history-event">
-        <div class="history-event-meta">${escapeHtml(rowDate(event.event_time))}｜重要性 ${escapeHtml(event.importance_score || 1)}</div>
+      return `<article class="history-timeline-event ${historyCategoryClass(category)}">
+        <div class="history-event-topline">
+          <span class="history-category-badge">${escapeHtml(category)}</span>
+          <time class="history-event-clock">${escapeHtml(historyTimeLabel(event.event_time))}</time>
+          <span class="history-importance">重要性 ${escapeHtml(event.importance_score || 1)}</span>
+        </div>
         <div class="history-event-title ${important ? 'important' : ''}">${escapeHtml(event.headline_zh || '')}</div>
         ${event.summary_zh ? `<div class="history-event-summary">${escapeHtml(event.summary_zh)}</div>` : ''}
         ${renderTrajectory(event.trajectory || [], important)}
       </article>`;
     }
-    function renderHistoryDigest(digest, term, selectedCategory) {
-      let count = 0;
-      const categoriesHtml = CATEGORY_ORDER.map(categoryName => {
-        if (selectedCategory && selectedCategory !== categoryName) return '';
-        const block = (digest.categories || []).find(item => item.category === categoryName);
-        const events = (block?.news || []).filter(event => historyEventMatches(event, term));
-        count += events.length;
-        if (!events.length) return '';
-        return `<section class="history-category" data-category="${escapeHtml(categoryName)}">
-          <h4 class="history-category-title">${escapeHtml(categoryName)}｜${events.length} 則</h4>
-          ${events.map(renderHistoryEvent).join('')}
-        </section>`;
-      }).join('');
-      if (!count) return { html: '', count: 0 };
-      return {
-        count,
-        html: `<section class="card history-day">
-          <header class="history-day-header">
-            <h3 class="history-day-title">${escapeHtml(historyDateLabel((digest.generated_at || digest.period_end || '').slice(0, 10)))}</h3>
-            <span class="block-count">${count} 則</span>
-          </header>
-          ${digest.overview ? `<div class="history-overview">${escapeHtml(digest.overview)}</div>` : ''}
-          ${categoriesHtml}
-        </section>`,
-      };
+    function collectHistoryTimeline(digests, term, selectedCategory) {
+      const items = [];
+      for (const digest of digests) {
+        for (const block of digest.categories || []) {
+          const category = block.category || '';
+          if (selectedCategory && category !== selectedCategory) continue;
+          for (const event of block.news || []) {
+            if (!historyEventMatches(event, term)) continue;
+            const date = dateObject(event.event_time);
+            if (!date) continue;
+            items.push({ category, event, timestamp: date.getTime() });
+          }
+        }
+      }
+      items.sort((a, b) => b.timestamp - a.timestamp);
+      return items;
+    }
+    function renderHistoryTimeline(items) {
+      const groups = new Map();
+      for (const item of items) {
+        const dateKey = String(item.event.event_time || '').slice(0, 10);
+        if (!groups.has(dateKey)) groups.set(dateKey, []);
+        groups.get(dateKey).push(item);
+      }
+      return `<div class="history-timeline">${[...groups.entries()].map(([dateKey, dayItems]) => `
+        <section class="history-date-group" data-history-date="${escapeHtml(dateKey)}">
+          <aside class="history-date-rail">
+            <div class="history-date-marker">
+              ${escapeHtml(historyDateLabel(dateKey).replace(/^\d{4}\//, ''))}
+              <small>${escapeHtml(historyWeekdayLabel(dateKey))}</small>
+            </div>
+          </aside>
+          <div class="history-date-events">
+            ${dayItems.map(renderHistoryTimelineEvent).join('')}
+          </div>
+        </section>
+      `).join('')}</div>`;
     }
     async function loadHistoryDigest(item) {
       if (historyDigestCache.has(item.file)) return historyDigestCache.get(item.file);
@@ -1667,15 +1869,12 @@
         const digests = await Promise.all(selected.map(loadHistoryDigest));
         const term = historyKeyword.value.trim().toLowerCase();
         const selectedCategory = historyCategory.value;
-        let total = 0;
-        const html = digests.map(digest => {
-          const rendered = renderHistoryDigest(digest, term, selectedCategory);
-          total += rendered.count;
-          return rendered.html;
-        }).join('');
-        historyCount.textContent = `${total} 則新聞`;
-        historyStatus.textContent = `已載入 ${selected.length} 個每日 Digest｜${historyDateLabel(start)} ～ ${historyDateLabel(end)}`;
-        historyResults.innerHTML = html || '<div class="card empty">沒有符合篩選條件的歷史新聞</div>';
+        const timelineItems = collectHistoryTimeline(digests, term, selectedCategory);
+        historyCount.textContent = `${timelineItems.length} 則新聞`;
+        historyStatus.textContent = `已載入 ${selected.length} 個每日 Digest｜${historyDateLabel(start)} ～ ${historyDateLabel(end)}｜依時間由新到舊`;
+        historyResults.innerHTML = timelineItems.length
+          ? renderHistoryTimeline(timelineItems)
+          : '<div class="card empty">沒有符合篩選條件的歷史新聞</div>';
       } catch (error) {
         historyStatus.textContent = `歷史新聞載入失敗：${error.message}`;
         historyResults.innerHTML = '<div class="card error">部分歷史檔案無法載入，請稍後重試。</div>';
