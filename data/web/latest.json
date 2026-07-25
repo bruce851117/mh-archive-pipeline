@@ -1,26 +1,27 @@
 {
-  "generated_at": "2026-07-25T07:16:11.274701+08:00",
-  "summary_generated_at": "2026-07-25T07:16:11.274701+08:00",
-  "data_updated_at": "2026-07-25T06:50:56.304979+08:00",
+  "generated_at": "2026-07-26T07:11:05.508329+08:00",
+  "summary_generated_at": "2026-07-26T07:11:05.508329+08:00",
+  "data_updated_at": "2026-07-26T06:51:00.664706+08:00",
   "timezone": "Asia/Taipei",
   "period_start": "2026-07-24T17:00:00+08:00",
-  "period_end": "2026-07-25T06:50:56.304979+08:00",
+  "period_end": "2026-07-26T06:51:00.664706+08:00",
   "model": "gemini-3.5-flash",
   "source_digest_files": [
     "data/digests/2026/07/2026-07-23.json",
     "data/digests/2026/07/2026-07-24.json",
-    "data/digests/2026/07/2026-07-25.json"
+    "data/digests/2026/07/2026-07-25.json",
+    "data/digests/2026/07/2026-07-26.json"
   ],
-  "event_count": 8,
+  "event_count": 27,
   "summary_points": [
-    "美伊軍事衝突急劇升級，美軍空襲伊朗後，伊朗報復襲擊美軍在中東的多個基地，波斯灣局勢惡化引發市場對地緣政治風險的強烈擔憂。",
-    "面對美伊衝突，多國展開外交斡旋，美國總統川普釋出談判意願，表示伊朗在談判中正變得更加認真，為緊張局勢帶來緩和契機。",
-    "川普政府威脅對歐盟啟動「301條款」調查並加徵關稅，指責歐盟不公對待美企，引發多國財政與貿易官員緊急應對，全球貿易戰風險再度升溫。",
-    "葉門胡塞組織對沙烏地阿拉伯實施「海上圍困」並襲擊紅海油輪，沙烏地隨即發動空襲報復，中東能源運輸要道的安全威脅進一步加劇。",
-    "日本央行下週料將維持政策不變，而歐洲央行官員則對地緣政治與油價上漲帶來的通膨風險保持高度警惕，強調9月決策將依賴數據。",
-    "全球半導體與AI巨頭動態頻傳，高通因成本壓力預告將調漲價格，輝達與Anthropic則持續推進AI研發與模型更新，顯示科技業競爭與轉嫁成本壓力依然激烈。",
-    "全球7月PMI初值多呈擴張，美歐經濟展現韌性，但加拿大PPI年增率高達12.4%，顯示各國通膨降溫路徑仍存在分歧。",
-    "歐洲央行將氣候標準擴大至非財務企業信用債，同時貝萊德啟動與Meta相關的美國高評級公司債銷售，反映綠色金融深化與大型科技股強勁的融資需求。"
+    "美伊軍事衝突急劇升級，波斯灣多國軍事基地與商船遇襲，美軍強力執行對伊朗的封鎖並強制驅離多艘商船，導致中東地緣政治局勢顯著惡化。",
+    "面對美伊衝突升級，巴基斯坦、中國、俄羅斯與阿曼等國展開積極斡旋，美國總統川普亦釋放談判意願，表示願意與態度轉趨認真的伊朗進行對話。",
+    "葉門胡塞組織對沙烏地阿拉伯實施「海上圍困」並襲擊阿美石油設施，沙國隨即展開空襲報復，中東能源基礎設施面臨的軍事威脅顯著加劇。",
+    "川普政府威脅對歐盟啟動「301條款」調查並加徵實質性關稅，指責其不公對待美企，引發歐盟及多國財政與貿易官員緊急溝通以防貿易戰升級。",
+    "南韓半導體巨頭展現強大野心，三星電子與博通簽署高達2000億美元的合作備忘錄，SK集團亦與輝達等美企深化AI與次世代記憶體戰略聯盟，深度重塑全球晶片版圖。",
+    "烏克蘭軍隊襲擊俄羅斯煉油廠及裏海與伊朗關聯的貨輪，同時指控俄羅斯計劃招募3萬名北韓士兵並提供新型飛彈發射器，顯示俄烏與朝伊間的軍事同盟與對抗持續深化。",
+    "日本央行下週料將維持貨幣政策不變，而歐洲央行官員則對地緣政治及油價上漲帶來的通膨風險保持高度警惕，強調未來決策將依賴數據。",
+    "俄羅斯宣布將汽油出口禁令延長至年底以穩定國內市場，並計劃取消柴油出口限制，此舉將直接影響全球成品油的供應與價格走勢。"
   ],
   "blocks": [
     {
@@ -72,6 +73,131 @@
               "description_zh": "Anthropic推出更具成本效益的Claude Opus 5 AI模型，隨後亞馬遜AWS宣布在Amazon Bedrock上提供該模型。"
             }
           ]
+        },
+        {
+          "source_id": "237e87b0385ea71befdec335ba0d72e5868d368e4013c058c922212a50fd3c4b",
+          "category": "股市",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "SK集團與輝達等美企展開價值逾5000億美元的AI與次世代記憶體戰略聯盟",
+          "summary_zh": "南韓SK集團（SK Group）與輝達（Nvidia）宣布擴大戰略聯盟，涵蓋AI工廠與次世代記憶體。SK海力士（SK Hynix）與輝達進入長期AI記憶體合作，SK集團預計將向包括輝達在內的美企提供價值7500億美元的晶片。此超大型項目被評估為切實可行，將深度影響全球半導體與AI產業鏈。",
+          "event_time": "2026-07-25T07:37:58+08:00",
+          "trajectory": [
+            {
+              "time": "2026-07-25T07:37:58+08:00",
+              "update_type": "後續發展",
+              "description_zh": "輝達透露SK電訊（SK Telecom）計劃建造一個2吉瓦（GW）的AI數據中心，採用Vera Rubin晶片與SK海力士的HBM4記憶體。"
+            },
+            {
+              "time": "2026-07-25T08:14:25+08:00",
+              "update_type": "後續發展",
+              "description_zh": "SK集團會長崔泰源（Chey Tae-won）表示，輝達執行長黃仁勳（Jensen Huang）在下次會面時可能會要求提供更多記憶體晶片。"
+            },
+            {
+              "time": "2026-07-25T08:15:21+08:00",
+              "update_type": "正式確認",
+              "description_zh": "SK集團會長崔泰源強調，已宣布的超大型項目是可行且可實現的。"
+            },
+            {
+              "time": "2026-07-25T12:10:36+08:00",
+              "update_type": "後續發展",
+              "description_zh": "韓媒報導，SK集團將向包括輝達在內的美企提供價值7500億美元的晶片。"
+            },
+            {
+              "time": "2026-07-25T13:10:06+08:00",
+              "update_type": "正式確認",
+              "description_zh": "SK集團與輝達正式宣布在AI工廠與次世代記憶體領域擴大戰略聯盟。"
+            },
+            {
+              "time": "2026-07-25T13:16:42+08:00",
+              "update_type": "正式確認",
+              "description_zh": "SK海力士與輝達正式進入長期AI記憶體合作關係。"
+            }
+          ]
+        },
+        {
+          "source_id": "636c76115981d033ee2d232c9d444042a7febe19a9bb501714afd82fc82e888f",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "Naver、輝達與Brookfield投資高達100億美元擴建南韓AI數據中心",
+          "summary_zh": "南韓網路巨頭Naver、輝達（Nvidia）與資產管理公司Brookfield計劃投資高達100億美元，用於擴建Naver的AI數據中心，以加強南韓國家級AI工廠基礎設施的建設。",
+          "event_time": "2026-07-25T07:37:58+08:00",
+          "trajectory": [
+            {
+              "time": "2026-07-25T07:37:58+08:00",
+              "update_type": "後續發展",
+              "description_zh": "細節顯示，輝達將投資10億美元，Brookfield投資高達90億美元，共同擴建Naver的AI數據中心。"
+            },
+            {
+              "time": "2026-07-25T13:10:06+08:00",
+              "update_type": "正式確認",
+              "description_zh": "三方正式宣布合作，旨在提升南韓國家AI工廠基礎設施的發展。"
+            },
+            {
+              "time": "2026-07-25T14:33:18+08:00",
+              "update_type": "後續發展",
+              "description_zh": "Naver團隊與Brookfield及輝達正式攜手，加速推動南韓AI工廠基礎設施建設。"
+            }
+          ]
+        },
+        {
+          "source_id": "8a8297d43ae57683e6083889a656e2389a9b3d54ecd66214eb61e79e8d9fbbed",
+          "category": "股市",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "南韓三星與SK海力士尋求與美企建立1,375兆韓元晶片聯盟",
+          "summary_zh": "南韓總統顧問表示，三星電子與SK海力士計劃與美國科技公司尋求建立價值高達1,375兆韓元的晶片聯盟。南韓總統李（Lee）表示，這將與全球科技巨頭合作，引領AI發展進入新階段。",
+          "event_time": "2026-07-25T07:44:40+08:00",
+          "trajectory": [
+            {
+              "time": "2026-07-25T12:06:21+08:00",
+              "update_type": "正式確認",
+              "description_zh": "南韓總統顧問正式宣布，三星電子與SK海力士將與美企推動價值1,375兆韓元的晶片聯盟。"
+            }
+          ]
+        },
+        {
+          "source_id": "bd5aebf0b7dc7a7eee0b1b77d590ec32def23bb4a04c9c004d1cbfd32acfc8a6",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "AI獨角獸Anthropic與三星及SK海力士簽署晶片供應協議",
+          "summary_zh": "AI新創公司Anthropic執行長宣布，已與三星電子和SK海力士簽署晶片供應協議。此前SK集團會長曾透露Anthropic選擇自行開發運算能力，此協議顯示其仍積極向南韓兩大記憶體巨頭採購關鍵晶片。",
+          "event_time": "2026-07-25T08:16:02+08:00",
+          "trajectory": [
+            {
+              "time": "2026-07-25T08:31:26+08:00",
+              "update_type": "正式確認",
+              "description_zh": "Anthropic執行長正式確認，已與三星電子和SK海力士簽署供應協議。"
+            }
+          ]
+        },
+        {
+          "source_id": "af0ed04586622e3e6ba67d092a11b2169ca28c2fa2a3e82cac75c07f0313d4e2",
+          "category": "股市",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "三星電子與博通簽署價值高達2000億美元的先進記憶體與晶圓代工合作備忘錄",
+          "summary_zh": "南韓總統顧問透露，三星電子（Samsung Electronics）與博通（Broadcom）簽署了一項為期5年、價值高達2000億美元的先進記憶體晶片與晶圓代工合作備忘錄（MOU）。此合作規模龐大，將對全球晶圓代工與高頻寬記憶體（HBM）市場版圖產生深遠影響。",
+          "event_time": "2026-07-25T12:08:41+08:00",
+          "trajectory": [
+            {
+              "time": "2026-07-25T12:20:21+08:00",
+              "update_type": "修正",
+              "description_zh": "南韓總統顧問修正並確認，三星電子與博通簽署的5年期先進記憶體晶片與晶圓代工協議價值應為2000億美元，而非先前媒體報導的200億美元。"
+            }
+          ]
+        },
+        {
+          "source_id": "b1431101448a508d1d179a4c870f34e2612f33e3a60c0301436c2171ebf0bb4e",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "Deepseek在第二輪融資期間暫停交易合作",
+          "summary_zh": "中國AI公司Deepseek表示，由於目前正在進行第二輪融資，將暫時暫停相關交易合作。這反映出該熱門AI初創公司在資金與股權結構調整期間的策略調整。",
+          "event_time": "2026-07-25T23:04:46+08:00",
+          "trajectory": []
         }
       ]
     },
@@ -155,6 +281,73 @@
               "description_zh": "美國7月S&P服務業PMI初值錄得53.6，顯著高於預期的51.5。"
             }
           ]
+        },
+        {
+          "source_id": "b067a68a2413267c4ef6716437b7629be045336c21bcc0d89cd3ec20de1572e8",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "美國與墨西哥逐步重啟南部口岸牲畜貿易",
+          "summary_zh": "美國農業部（USDA）詳細說明了逐步重啟南部口岸進行牲畜貿易的計劃，其中亞利桑那州道格拉斯（Douglas）口岸將於8月24日開放。墨西哥總統辛包（Sheinbaum）已下令加快對美牲畜出口的準備工作。",
+          "event_time": "2026-07-25T08:04:55+08:00",
+          "trajectory": [
+            {
+              "time": "2026-07-25T08:05:28+08:00",
+              "update_type": "後續發展",
+              "description_zh": "美國農業部宣布亞利桑那州道格拉斯口岸將於8月24日向活牛貿易開放。"
+            },
+            {
+              "time": "2026-07-25T08:05:54+08:00",
+              "update_type": "後續發展",
+              "description_zh": "美國農業部開始為新墨西哥州聖特雷莎（Santa Teresa）和哥倫布（Columbus）口岸的未來開放進行必要的運營準備。"
+            },
+            {
+              "time": "2026-07-25T08:07:01+08:00",
+              "update_type": "後續發展",
+              "description_zh": "美國農業部強調重啟時程保持彈性，將取決於墨西哥在行動計劃里程碑上的進展。"
+            },
+            {
+              "time": "2026-07-25T08:43:19+08:00",
+              "update_type": "後續發展",
+              "description_zh": "墨西哥總統辛包指示相關部門加速準備對美牲畜出口事宜。"
+            }
+          ]
+        },
+        {
+          "source_id": "d9cb119a2c40d2ff31f6e91880543d561ad77700c34e152a6602d44f96a1ca68",
+          "category": "經濟",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "俄羅斯延長汽油出口禁令至年底，並計劃取消柴油出口限制",
+          "summary_zh": "俄羅斯副總理表示，俄羅斯將把汽油出口禁令延長至今年年底，以穩定國內市場。與此同時，隨著市場復甦，俄羅斯計劃取消柴油出口禁令。這將對全球成品油供應與價格產生直接影響。",
+          "event_time": "2026-07-25T21:27:09+08:00",
+          "trajectory": [
+            {
+              "time": "2026-07-25T21:28:57+08:00",
+              "update_type": "後續發展",
+              "description_zh": "副總理向國際文傳電訊社（IFX）透露，隨著市場復甦，俄羅斯將取消柴油出口禁令。"
+            }
+          ]
+        },
+        {
+          "source_id": "e2a09e55f498c540d37b3b42bb8568dac3d41c62a1cc59cd498ad1a2a4d016b2",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "卡達宣布將於7月26日起全面恢復海上航行",
+          "summary_zh": "卡達交通部宣布，自7月26日起，所有海上運輸和船舶將全面恢復海上航行。這有助於緩解該地區的部分航運中斷疑慮。",
+          "event_time": "2026-07-25T21:52:03+08:00",
+          "trajectory": []
+        },
+        {
+          "source_id": "736a3c4206ba3f3ebc57b995b7201701ef01ef092fc1271dbbff0c76a3540098",
+          "category": "經濟",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "美國聯邦上訴法院阻止川普限制郵寄投票命令的實施",
+          "summary_zh": "美國聯邦上訴法院做出裁決，阻止實施川普（Trump）旨在限制郵寄投票的命令。此裁決對美國大選的投票機制與政治局勢有重要影響。",
+          "event_time": "2026-07-26T03:13:54+08:00",
+          "trajectory": []
         }
       ]
     },
@@ -243,21 +436,237 @@
               "description_zh": "沙烏地聯軍聲明表示，空襲是對胡塞組織襲擊的對等軍事回應，若敵對行動持續，將採取一切必要手段捍衛自身利益。"
             }
           ]
+        },
+        {
+          "source_id": "3957082b40f92cc95e7b19bd6b34962747292ec1a48d44144ba945f1283f0140",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "胡塞組織襲擊沙烏地阿美石油設施，沙國防空系統攔截葉門飛彈",
+          "summary_zh": "葉門胡塞組織（Houthis）宣稱對沙烏地阿拉伯吉贊（Jizan）和延布（Yanbu）的阿美石油（Aramco）設施發動了襲擊。沙國防空系統在延布和吉贊發布緊急警報，消息指出希臘部署在沙國的防空系統攔截了兩枚來自葉門的彈道飛彈。隨後沙國宣布危險已排除，但此事件顯著加劇了中東能源基礎設施面臨的軍事威脅。",
+          "event_time": "2026-07-25T09:59:03+08:00",
+          "trajectory": [
+            {
+              "time": "2026-07-25T10:04:26+08:00",
+              "update_type": "後續發展",
+              "description_zh": "沙烏地民防部門宣布延布地區的危險已經過去。"
+            },
+            {
+              "time": "2026-07-25T11:05:50+08:00",
+              "update_type": "後續發展",
+              "description_zh": "沙烏地民防部門對吉贊地區發布國家早期預警系統的緊急警報。"
+            },
+            {
+              "time": "2026-07-25T11:10:13+08:00",
+              "update_type": "後續發展",
+              "description_zh": "延布再次發布早期預警，警告可能存在的威脅。"
+            },
+            {
+              "time": "2026-07-25T11:11:56+08:00",
+              "update_type": "後續發展",
+              "description_zh": "沙烏地民防部門宣布吉贊的危險已排除。"
+            },
+            {
+              "time": "2026-07-25T12:11:13+08:00",
+              "update_type": "後續發展",
+              "description_zh": "沙烏地民防部門宣布延布的危險已排除。"
+            },
+            {
+              "time": "2026-07-25T14:56:23+08:00",
+              "update_type": "後續發展",
+              "description_zh": "消息人士透露，部署在沙烏地阿拉伯的希臘防空系統攔截了兩枚來自葉門的彈道飛彈。"
+            },
+            {
+              "time": "2026-07-25T19:30:32+08:00",
+              "update_type": "後續發展",
+              "description_zh": "軍方官員表示，葉門政府軍空軍襲擊了胡塞組織沿馬里卜（Marib）和焦夫（Al-Jawf）前線的飛彈與無人機發射基地。"
+            },
+            {
+              "time": "2026-07-25T20:01:51+08:00",
+              "update_type": "正式確認",
+              "description_zh": "葉門胡塞組織正式宣稱，對沙烏地吉贊和延布的阿美石油設施實施了襲擊。"
+            }
+          ]
+        },
+        {
+          "source_id": "3b2ea4b24568cd9eb0955dc7ab734dd6471d0a16a0f31c7e282454bb1d2ad9c4",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "川普宣布以色列總理納坦雅胡將於下週訪問華盛頓",
+          "summary_zh": "前美國總統川普宣布，以色列總理納坦雅胡（Netanyahu）將於下週訪問華盛頓。此訪問預計將涉及美以關係及中東地緣政治局勢的未來走向。",
+          "event_time": "2026-07-25T10:23:57+08:00",
+          "trajectory": []
+        },
+        {
+          "source_id": "2148c45c7f72fbc6db1214bb777e794f7d06e9821fe69343d83bec685f1177fd",
+          "category": "戰爭",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "一名華裔加拿大籍男子因涉嫌間諜活動在比利時被捕",
+          "summary_zh": "比利時檢察官表示，一名涉嫌間諜活動的華裔加拿大籍男子已被逮捕。調查顯示，該嫌疑人曾是位於蒙斯（Mons）的北約歐洲盟軍最高司令部（SHAPE）的實習生，引發地緣政治安全疑慮。",
+          "event_time": "2026-07-25T14:10:28+08:00",
+          "trajectory": [
+            {
+              "time": "2026-07-25T14:11:35+08:00",
+              "update_type": "後續發展",
+              "description_zh": "比利時檢察官證實，該嫌疑人曾在北約位於蒙斯的歐洲盟軍最高司令部擔任實習生。"
+            }
+          ]
+        },
+        {
+          "source_id": "2ec1ba2684d6cf297e926e961c697e600a0dde0fd6e9f3338df77c06d3da2f82",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "羅馬尼亞F-16戰機擊落第二架侵犯領空的無人機",
+          "summary_zh": "羅馬尼亞國防部宣布，其F-16戰鬥機擊落了第二架侵犯其領空的無人機。這顯示俄烏衝突的戰火持續波及周邊的北約（NATO）成員國領空，增加了北約直接捲入衝突的風險。",
+          "event_time": "2026-07-25T14:26:42+08:00",
+          "trajectory": []
+        },
+        {
+          "source_id": "5d39d2535193587eec767e7deeb0a1d4951de39dc7cba95367c0b8b0a6aeef4b",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "烏克蘭襲擊俄羅斯煉油廠與裏海伊朗關聯貨輪，引發伊朗強烈抗議",
+          "summary_zh": "烏克蘭軍隊對俄羅斯秋明（Tyumen）地區的煉油廠、基洛夫（Kirov）的軍事零件製造廠以及葉卡捷琳堡（Yekaterinburg）的物流樞紐發動襲擊。此外，烏克蘭還襲擊了裏海（Caspian Sea）運載與伊朗相關軍事貨物的俄羅斯菲拉諾夫斯基（Filanovsky）石油平台及兩艘貨輪。此舉導致一名船員死亡，伊朗外交部對此強烈譴責並召見烏克蘭臨時代辦。",
+          "event_time": "2026-07-25T16:15:51+08:00",
+          "trajectory": [
+            {
+              "time": "2026-07-25T17:59:39+08:00",
+              "update_type": "正式確認",
+              "description_zh": "烏克蘭總統澤倫斯基（Zelenskiy）證實，烏軍目標鎖定並襲擊了俄羅斯秋明的煉油廠。"
+            },
+            {
+              "time": "2026-07-25T17:59:39+08:00",
+              "update_type": "後續發展",
+              "description_zh": "澤倫斯基表示，烏軍還襲擊了俄羅斯基洛夫製造軍事零件的設施。"
+            },
+            {
+              "time": "2026-07-25T17:59:41+08:00",
+              "update_type": "後續發展",
+              "description_zh": "烏克蘭軍隊襲擊了俄羅斯葉卡捷琳堡的物流樞紐。"
+            },
+            {
+              "time": "2026-07-25T18:05:38+08:00",
+              "update_type": "後續發展",
+              "description_zh": "澤倫斯基宣布，烏軍擊中了裏海運載與伊朗相關軍事貨物的船隻。"
+            },
+            {
+              "time": "2026-07-25T18:18:06+08:00",
+              "update_type": "正式確認",
+              "description_zh": "烏克蘭安全部門證實，擊中了俄羅斯位於裏海的菲拉諾夫斯基石油平台及兩艘貨船。"
+            },
+            {
+              "time": "2026-07-26T02:56:16+08:00",
+              "update_type": "後續發展",
+              "description_zh": "伊朗外交部譴責烏克蘭對裏海伊朗商船的襲擊，該爆炸導致一名船員死亡、另一人受傷。"
+            },
+            {
+              "time": "2026-07-26T04:54:29+08:00",
+              "update_type": "後續發展",
+              "description_zh": "伊朗因商船遇襲事件召見烏克蘭臨時代辦。"
+            }
+          ]
+        },
+        {
+          "source_id": "e731a4bfd50fb38da69d396ec47922d9d4dd5ed4cfb3a9918f1f26a04c70e75a",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗公布戰爭與停火期間石油銷售數據，稱已達成逾六成年度收入目標",
+          "summary_zh": "伊朗石油部報告指出，在戰爭期間實現了115億美元的石油銷售，在停火期間則為65億美元。儘管面臨戰爭與制裁，伊朗已實現了超過60%的年度石油收入預測目標，顯示其財政與能源出口在制裁下仍具韌性。",
+          "event_time": "2026-07-26T00:50:31+08:00",
+          "trajectory": [
+            {
+              "time": "2026-07-26T00:53:01+08:00",
+              "update_type": "後續發展",
+              "description_zh": "伊朗石油部強調，儘管面臨戰爭和制裁，年度石油收入目標已達成超過60%。"
+            },
+            {
+              "time": "2026-07-26T00:59:27+08:00",
+              "update_type": "正式確認",
+              "description_zh": "伊朗石油部長親自證實戰爭期間石油銷售額為115億美元，停火期為65億美元。"
+            },
+            {
+              "time": "2026-07-26T00:59:30+08:00",
+              "update_type": "正式確認",
+              "description_zh": "伊朗石油部長重申，在戰爭與制裁雙重壓力下，已實現逾六成年度石油收入預測。"
+            }
+          ]
+        },
+        {
+          "source_id": "ac4021afb6d87e931018c29a9c4aab09ad2113806eabcba2634232ec3f1de0aa",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "澤倫斯基指控俄羅斯計劃招募3萬名北韓士兵並提供新型飛彈發射器",
+          "summary_zh": "烏克蘭總統澤倫斯基指控，俄羅斯計劃從北韓招募3萬名士兵，並自6月起就計劃將北韓軍隊派往沃羅涅日（Voronezh）地區。此外，北韓還將向俄羅斯提供新型彈道飛彈發射器，這意味著朝俄軍事同盟進一步深化。",
+          "event_time": "2026-07-26T01:26:39+08:00",
+          "trajectory": [
+            {
+              "time": "2026-07-26T01:26:42+08:00",
+              "update_type": "後續發展",
+              "description_zh": "澤倫斯基透露，俄羅斯自6月起就計劃將北韓軍隊部署至沃羅涅日地區。"
+            },
+            {
+              "time": "2026-07-26T01:26:42+08:00",
+              "update_type": "後續發展",
+              "description_zh": "澤倫斯基指出，北韓將向俄羅斯供應新型彈道飛彈發射器。"
+            }
+          ]
+        },
+        {
+          "source_id": "cf26ac0bc3b151d77e9d944377c4c9fc43dc2f366b4bdd6b7843b1dffbcc1678",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "澤倫斯基稱俄羅斯衛星監視協助德黑蘭引導中東襲擊",
+          "summary_zh": "烏克蘭總統澤倫斯基表示，根據衛星監視情報顯示，俄羅斯正在協助德黑蘭（Tehran）當局引導在中東地區的軍事襲擊。這表明俄羅斯與伊朗在軍事情報共享上的合作已擴展至中東衝突。",
+          "event_time": "2026-07-26T02:13:13+08:00",
+          "trajectory": []
+        },
+        {
+          "source_id": "6bd98cbfa35b10001b16d362c32e743b6efeef881a58904385c80e58b863872c",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "美軍強制驅離12艘試圖突破伊朗封鎖的商船，並癱瘓油輪",
+          "summary_zh": "美軍中央司令部（CENTCOM）宣布，截至7月25日，已強制驅離12艘試圖突破伊朗封鎖的商船。美軍在阿拉伯海對懸掛葛摩國旗的「M/T Charminar」號油輪進行了登船檢查，並於阿曼灣（Gulf of Oman）癱瘓了懸掛莫三比克國旗的「Lavine」號油輪。這顯示美軍正強力執行對伊朗的封鎖，海上軍事對峙顯著升級。",
+          "event_time": "2026-07-26T05:31:56+08:00",
+          "trajectory": [
+            {
+              "time": "2026-07-25T16:47:04+08:00",
+              "update_type": "後續發展",
+              "description_zh": "英國海上貿易行動辦公室（UKMTO）報告了週五在阿曼灣發生的涉及油輪與軍事力量的事件。"
+            },
+            {
+              "time": "2026-07-26T05:32:20+08:00",
+              "update_type": "後續發展",
+              "description_zh": "美軍證實完成了對葛摩國旗油輪 M/T Charminar 的登船檢查。"
+            },
+            {
+              "time": "2026-07-26T05:32:43+08:00",
+              "update_type": "後續發展",
+              "description_zh": "美軍證實於7月24日在阿曼灣癱瘓了莫三比克國旗的油輪 Lavine。"
+            }
+          ]
         }
       ]
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 2375,
-    "candidatesTokenCount": 438,
-    "totalTokenCount": 4236,
+    "promptTokenCount": 6289,
+    "candidatesTokenCount": 477,
+    "totalTokenCount": 9087,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 2375
+        "tokenCount": 6289
       }
     ],
-    "thoughtsTokenCount": 1423,
+    "thoughtsTokenCount": 2321,
     "serviceTier": "standard"
   }
 }
