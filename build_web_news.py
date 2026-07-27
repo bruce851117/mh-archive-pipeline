@@ -203,18 +203,6 @@ def event_is_in_window(
     if event_time is not None and start <= event_time <= end:
         return True
 
-    trajectory = event.get("trajectory", [])
-
-    if isinstance(trajectory, list):
-        for update in trajectory:
-            if not isinstance(update, dict):
-                continue
-
-            update_time = parse_datetime(update.get("time"))
-
-            if update_time is not None and start <= update_time <= end:
-                return True
-
     return False
 
 
@@ -237,31 +225,6 @@ def normalize_event(
 
     importance = max(1, min(5, importance))
 
-    trajectory_output: list[dict[str, Any]] = []
-    raw_trajectory = event.get("trajectory", [])
-
-    if isinstance(raw_trajectory, list):
-        for update in raw_trajectory:
-            if not isinstance(update, dict):
-                continue
-
-            update_time = parse_datetime(update.get("time"))
-
-            if update_time is None:
-                continue
-
-            trajectory_output.append(
-                {
-                    "time": format_time(update_time),
-                    "update_type": normalize_text(update.get("update_type")),
-                    "description_zh": normalize_text(
-                        update.get("description_zh")
-                    ),
-                }
-            )
-
-    trajectory_output.sort(key=lambda row: row["time"])
-
     return {
         "source_id": source_id,
         "category": category,
@@ -270,7 +233,6 @@ def normalize_event(
         "headline_zh": headline_zh,
         "summary_zh": summary_zh,
         "event_time": format_time(event_time),
-        "trajectory": trajectory_output,
     }
 
 

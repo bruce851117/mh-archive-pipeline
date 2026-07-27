@@ -630,7 +630,8 @@ def build_user_prompt(
 本地去除完全相同內容後：{input_count}則
 實際送入模型：{included_count}則
 
-請完成分類、語意去重、事件軌跡、繁體中文翻譯及重要性1至5分評估。
+請完成分類、語意去重、繁體中文翻譯及重要性1至5分評估。
+同一事件的後續發展、修正、否認、推翻或正式確認，請各自作為獨立的新聞項目輸出，不要合併成階層結構。
 輸出必須符合以下JSON結構，六個分類均須出現：
 {{
   "title":"最近24小時全球市場重要新聞",
@@ -646,16 +647,8 @@ def build_user_prompt(
           "importance_score":5,
           "headline_zh":"繁體中文事件標題",
           "summary_zh":"去重後摘要與市場意義",
-          "event_time":"最早有效Headline時間",
-          "source_id":"最早有效Headline ID",
-          "trajectory":[
-            {{
-              "time":"後續時間",
-              "source_id":"後續Headline ID",
-              "update_type":"後續發展、修正、否認、推翻或正式確認",
-              "description_zh":"新增或修正內容"
-            }}
-          ]
+          "event_time":"Headline時間",
+          "source_id":"Headline ID"
         }}
       ]
     }},
@@ -678,7 +671,7 @@ def build_user_prompt(
     if not breakfast_prompt:
         return prompt
 
-    insertion_point = "\n\n請完成分類、語意去重、事件軌跡、繁體中文翻譯及重要性1至5分評估。"
+    insertion_point = "\n\n請完成分類、語意去重、繁體中文翻譯及重要性1至5分評估。"
     if insertion_point not in prompt:
         return breakfast_prompt + "\n\n" + prompt
 
@@ -903,52 +896,6 @@ def normalize_digest(
                 if source is None:
                     continue
 
-                trajectory: list[dict[str, Any]] = []
-                seen_ids: set[str] = set()
-                raw_trajectory = raw_item.get(
-                    "trajectory",
-                    [],
-                )
-
-                if isinstance(raw_trajectory, list):
-                    for update in raw_trajectory:
-                        if not isinstance(update, dict):
-                            continue
-
-                        update_id = normalize_text(
-                            update.get("source_id")
-                        )
-                        update_source = source_lookup.get(
-                            update_id
-                        )
-
-                        if (
-                            not update_id
-                            or update_id == source_id
-                            or update_id in seen_ids
-                            or update_source is None
-                        ):
-                            continue
-
-                        seen_ids.add(update_id)
-                        trajectory.append(
-                            {
-                                "time": update_source["time"],
-                                "source_id": update_id,
-                                "update_type": normalize_text(
-                                    update.get("update_type")
-                                ),
-                                "description_zh": normalize_text(
-                                    update.get("description_zh")
-                                ),
-                                "source_detail": update_source,
-                            }
-                        )
-
-                trajectory.sort(
-                    key=lambda row: row["time"]
-                )
-
                 category_map[category_name].append(
                     {
                         "importance_score": normalize_score(
@@ -963,7 +910,6 @@ def normalize_digest(
                         "event_time": source["time"],
                         "source_id": source_id,
                         "source_detail": source,
-                        "trajectory": trajectory,
                     }
                 )
 
@@ -1013,7 +959,7 @@ def build_selection_debug(
     """
     Debug只列出Gemini最後刪除與留下的Headline。
 
-    被選為主事件或放入trajectory的Headline視為留下；
+    被選為主事件的Headline視為留下；
     其他輸入Headline視為刪掉。
     """
     kept_ids: set[str] = set()
@@ -1040,21 +986,6 @@ def build_selection_debug(
                 if source_id in source_lookup:
                     kept_ids.add(source_id)
 
-                trajectory = news_item.get("trajectory", [])
-
-                if not isinstance(trajectory, list):
-                    continue
-
-                for update in trajectory:
-                    if not isinstance(update, dict):
-                        continue
-
-                    update_id = normalize_text(
-                        update.get("source_id")
-                    )
-
-                    if update_id in source_lookup:
-                        kept_ids.add(update_id)
 
     dropped_headlines: list[str] = []
     kept_headlines: list[str] = []
