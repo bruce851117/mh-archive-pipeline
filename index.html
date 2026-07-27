@@ -289,8 +289,7 @@
 
     .news-list { padding: 6px 14px; }
 
-    .news-row,
-    .trajectory-row {
+    .news-row {
       display: grid;
       grid-template-columns: 10px 105px minmax(0, 1fr);
       gap: 9px;
@@ -299,8 +298,7 @@
       border-bottom: 1px solid #edf1f5;
     }
 
-    .news-row:last-child,
-    .trajectory-group:last-child .trajectory-row:last-child {
+    .news-row:last-child {
       border-bottom: 0;
     }
 
@@ -310,13 +308,6 @@
       margin-top: 7px;
       border-radius: 999px;
       background: var(--orange);
-    }
-
-    .trajectory-row .dot {
-      width: 5px;
-      height: 5px;
-      margin-left: 1px;
-      background: #7d91aa;
     }
 
     .row-time {
@@ -338,17 +329,6 @@
       font-weight: 900;
     }
 
-    .trajectory-group {
-      margin-left: 18px;
-      padding-left: 12px;
-      border-left: 2px solid #d9e3ef;
-    }
-
-    .trajectory-label {
-      color: #55708e;
-      font-size: 9px;
-      font-weight: 800;
-    }
 
     .empty {
       padding: 20px;
@@ -379,7 +359,7 @@
       .controls-card { grid-template-columns: 1fr 1fr; }
       .search-field { grid-column: 1 / -1; }
       .search-button { grid-column: 1 / -1; }
-      .news-row, .trajectory-row {
+      .news-row {
         grid-template-columns: 9px 80px minmax(0, 1fr);
         gap: 7px;
       }
@@ -392,7 +372,7 @@
       .updated-card { margin-top: 12px; text-align: left; }
       .controls-card { grid-template-columns: 1fr; }
       .search-field, .search-button { grid-column: auto; }
-      .news-row, .trajectory-row {
+      .news-row {
         grid-template-columns: 8px minmax(0, 1fr);
       }
       .row-time { grid-column: 2; }
@@ -1076,11 +1056,6 @@
       font-size: 10px;
       line-height: 1.6;
     }
-    .history-timeline-event .trajectory-group {
-      margin-top: 8px;
-      margin-left: 0;
-      background: rgba(255,255,255,.55);
-    }
     .history-timeline-event.category-bond {
       --history-accent: #2674c8; --history-bg: #eaf4ff;
     }
@@ -1453,18 +1428,6 @@
         .map(point => `<li>${escapeHtml(point)}</li>`).join('')}</ol>`;
     }
 
-    function renderTrajectory(trajectory, important) {
-      if (!Array.isArray(trajectory) || !trajectory.length) return '';
-      return `<div class="trajectory-group">${trajectory.map(item => `
-        <div class="trajectory-row">
-          <span class="dot"></span>
-          <time class="row-time">${escapeHtml(rowDate(item.time))}</time>
-          <div class="headline ${important ? 'important' : ''}">
-            ${escapeHtml(item.description_zh || '')}
-          </div>
-        </div>
-      `).join('')}</div>`;
-    }
 
     function renderEvent(event) {
       const important = Number(event.importance_score || 1) >= 4;
@@ -1474,7 +1437,6 @@
           <time class="row-time">${escapeHtml(rowDate(event.event_time))}</time>
           <div class="headline ${important ? 'important' : ''}">${escapeHtml(event.headline_zh || '')}</div>
         </div>
-        ${renderTrajectory(event.trajectory, important)}
       `;
     }
 
@@ -1495,23 +1457,15 @@
         if (!target) continue;
         for (const event of block.news || []) {
           const eventTimeMatch = isWithinSelectedRange(event.event_time, start, end);
-          const filteredTrajectory = (event.trajectory || []).filter(item =>
-            isWithinSelectedRange(item.time, start, end)
-          );
-          const timeMatch = eventTimeMatch || filteredTrajectory.length > 0;
-          if (!timeMatch) continue;
+          if (!eventTimeMatch) continue;
 
           const keywordSource = [
             event.headline_zh,
             event.summary_zh,
-            ...filteredTrajectory.map(item => item.description_zh),
           ].join(' ').toLowerCase();
           if (term && !keywordSource.includes(term)) continue;
 
-          target.push({
-            ...event,
-            trajectory: filteredTrajectory,
-          });
+          target.push(event);
         }
         target.sort((a, b) => String(a.event_time).localeCompare(String(b.event_time)));
       }
@@ -1776,7 +1730,6 @@
       const sourceText = [
         event.headline_zh, event.summary_zh,
         event.source_detail?.headline,
-        ...(event.trajectory || []).flatMap(item => [item.description_zh, item.source_detail?.headline]),
       ].join(' ').toLowerCase();
       return sourceText.includes(term);
     }
@@ -1792,7 +1745,6 @@
         </div>
         <div class="history-event-title ${important ? 'important' : ''}">${escapeHtml(event.headline_zh || '')}</div>
         ${event.summary_zh ? `<div class="history-event-summary">${escapeHtml(event.summary_zh)}</div>` : ''}
-        ${renderTrajectory(event.trajectory || [], important)}
       </article>`;
     }
     function collectHistoryTimeline(digests, term, selectedCategory) {
