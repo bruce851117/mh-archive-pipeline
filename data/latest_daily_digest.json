@@ -1,17 +1,17 @@
 {
   "title": "最近24小時全球市場重要新聞",
-  "period_start": "2026-07-27T08:26:59.908594+08:00",
-  "period_end": "2026-07-28T08:26:59.908594+08:00",
+  "period_start": "2026-07-27T08:50:32.728551+08:00",
+  "period_end": "2026-07-28T08:50:32.728551+08:00",
   "timezone": "Asia/Taipei",
-  "overview": "過去24小時全球市場關注焦點集中於中東地緣政治局勢與科技業AI資本支出。美國總統特朗普（Trump）證實因調解國請求已暫緩對伊朗的軍事打擊並開啓對話，使市場對局勢升級的擔憂降溫，國際油價顯著回落。科技與半導體領域方面，中國宣布量產本土DUV設備引發市場震撼，荷蘭半導體設備巨頭股價重挫；英偉達（Nvidia）則持續加大AI產業鏈投資。宏觀方面，美國耐用品訂單及中國工業利潤數據展現韌性，日本首相高市早苗（Takaichi）則釋出擺脫緊縮並調降消費稅的財政訊號。",
+  "overview": "過去24小時全球市場主線集中於中東地緣政治與科技AI產業發展。川普表示暫緩對伊朗空襲以給予談判機會，使得國際原油價格重挫逾7%至8%，市場避險情緒有所緩和。同時，人工智慧（AI）監管與半導體競爭加劇，中國傳出突破本土DUV光刻機量產，引發歐洲晶片設備股跌勢；輝達則持續擴大對AI新創及國際巨頭的投資，美官方亦積極推動AI監管框架與企業對話。",
   "categories": [
     {
       "category": "債市",
       "news": [
         {
           "importance_score": 3,
-          "headline_zh": "美國財政部拍賣700億美元5年期國債，得標利率上升至4.408%",
-          "summary_zh": "美國財政部發行700億美元5年期國債，最高得標利率為4.408%，高於前次的4.200%，投標倍數從前次的2.35降至2.28。",
+          "headline_zh": "美國財政部拍賣700億美元5年期國債，得標利率為4.408%",
+          "summary_zh": "美債5年期拍賣得標利率為4.408%，高於前次水平，反映市場對中長期利率路徑持續進行定價調整。",
           "event_time": "2026-07-28T01:02:06+08:00",
           "source_id": "ff19f18882a21d214001b73444865ddaa25b3470e3c6d785af54f43300e18841",
           "source_detail": {
@@ -24,8 +24,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "美國財政部拍賣690億美元2年期國債，得標利率4.315%",
-          "summary_zh": "美國財政部完成690億美元2年期國債拍賣，得標利率為4.315%，高於上次拍賣的4.189%，投標倍數達2.66，顯示市場需求維持平穩。",
+          "headline_zh": "美國財政部拍賣690億美元2年期國債，得標利率為4.315%",
+          "summary_zh": "美債2年期拍賣得標利率為4.315%，投標倍數達2.66，顯示短期國債市場需求維持穩健。",
           "event_time": "2026-07-27T23:32:05+08:00",
           "source_id": "ddf1e7bec23d725b08f70345e62b9cc711809807a47af63a81fcb1111a000d6f",
           "source_detail": {
@@ -37,16 +37,16 @@
           }
         },
         {
-          "importance_score": 2,
-          "headline_zh": "韓國央行以2.735%收益率發行91天期貨幣穩定債券",
-          "summary_zh": "韓國央行完成新一期91天期貨幣穩定債券發售，競標得標利率定於2.735%。",
-          "event_time": "2026-07-27T09:40:05+08:00",
-          "source_id": "a504233244e3f2a0061652576a78879cb5c488ddcc50791b331aa6ed8e94adec",
+          "importance_score": 3,
+          "headline_zh": "惠譽評級：日本新財政政策仍符合減債路徑",
+          "summary_zh": "信評機構惠譽（Fitch Ratings）表示，日本新政府提出的財政擴張與投資政策，整體仍符合控制債務規模的長期軌道。",
+          "event_time": "2026-07-27T18:41:00+08:00",
+          "source_id": "c84ab164db45c94ca005874ed642d8deec14a83d5a40eb62eddd6dc05fa5c202",
           "source_detail": {
-            "id": "a504233244e3f2a0061652576a78879cb5c488ddcc50791b331aa6ed8e94adec",
-            "time": "2026-07-27T09:40:05+08:00",
-            "headline": "S. Korea central bank sells 91-day monetary stabilization bonds at 2.735% yield",
-            "link": "https://www.financialjuice.com/News/9694273/S-Korea-central-bank-sells-91-day-monetary-stabilization-bonds-at-2735-yield.aspx?xy=rss",
+            "id": "c84ab164db45c94ca005874ed642d8deec14a83d5a40eb62eddd6dc05fa5c202",
+            "time": "2026-07-27T18:41:00+08:00",
+            "headline": "Fitch Ratings: Japan's new fiscal policy still fits the debt reduction path",
+            "link": "https://www.financialjuice.com/News/9694803/Fitch-Ratings-Japans-new-fiscal-policy-still-fits-the-debt-reduction-path.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -56,37 +56,9 @@
       "category": "股市",
       "news": [
         {
-          "importance_score": 4,
-          "headline_zh": "英偉達計劃向AI初創公司SSI投資50億美元",
-          "summary_zh": "英偉達（Nvidia）拓展對前OpenAI首席科學家伊利亞·蘇茨克維（Ilya Sutskever）創立之安全超級智慧（SSI）的注資，投資額達50億美元，展現其深化安全AI技術佈局的決心。",
-          "event_time": "2026-07-28T00:32:18+08:00",
-          "source_id": "4ecf23f87578b1de4f128f5ab6b30cc48d1cd8e3a0ad2a98e7f63f0b8d68ed4a",
-          "source_detail": {
-            "id": "4ecf23f87578b1de4f128f5ab6b30cc48d1cd8e3a0ad2a98e7f63f0b8d68ed4a",
-            "time": "2026-07-28T00:32:18+08:00",
-            "headline": "Nvidia to invest $5 billion in Ilya Sutskever’s AI startup. $NVDA",
-            "link": "https://www.financialjuice.com/News/9695302/Nvidia-to-invest-5-billion-in-Ilya-Sutskevers-AI-startup-NVDA.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "OpenAI執行長阿爾特曼前往華盛頓，向美官員展示新模型並就監管進行溝通",
-          "summary_zh": "OpenAI執行長阿爾特曼（Sam Altman）造訪華盛頓與特朗普政府官員會面，預覽最新模型能力，並針對開源模型安全性與AI自願監管框架進行討論。",
-          "event_time": "2026-07-27T22:23:15+08:00",
-          "source_id": "3994813d9812f9aaac70764a289553f109bfbf096113ecbcb50d8aef59b9464a",
-          "source_detail": {
-            "id": "3994813d9812f9aaac70764a289553f109bfbf096113ecbcb50d8aef59b9464a",
-            "time": "2026-07-27T22:23:15+08:00",
-            "headline": "OpenAI CEO Sam Altman to Meet Trump Administration Officials in Washington",
-            "link": "https://www.financialjuice.com/News/9695112/OpenAI-CEO-Sam-Altman-to-Meet-Trump-Administration-Officials-in-Washington.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "中國宣布量產本土DUV曝光機，荷蘭ASML與BESI股價重挫熔斷",
-          "summary_zh": "報導指出中國啟動本土DUV半導體設備量產，今年目標5台、2027年達20台，震撼半導體產業鏈。受此影響，荷蘭阿姆斯特丹上市的ASML與BESI股價一度重挫逾8%觸發熔斷。",
+          "importance_score": 5,
+          "headline_zh": "中國啟動自主研發DUV光刻機量產，推進本土晶片設備供應鏈",
+          "summary_zh": "據外媒報導，中國已開始量產國產深紫外線（DUV）晶片製造設備，預計今年目標5台，加速半導體設備自主化。",
           "event_time": "2026-07-27T21:02:28+08:00",
           "source_id": "c3b16dd02ff40aced208f9a0f6a234520cdc7d9b4e2913a1f595f6b1b1620b2f",
           "source_detail": {
@@ -99,8 +71,78 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "英偉達擬向韓國Naver投資10億美元並深化AI領域合作",
-          "summary_zh": "英偉達（Nvidia）計劃向韓國科技巨頭Naver投資10億美元，Naver亦準備於下半年推出全新AI Agent平台，強強聯手擴張亞洲AI生態系。",
+          "headline_zh": "川普政府即將敲定AI自願性監管框架",
+          "summary_zh": "消息指出美國川普（Trump）政府已接近完成針對人工智慧產業的自願監管框架，引發科技業高度關注。",
+          "event_time": "2026-07-28T04:14:42+08:00",
+          "source_id": "99df721fb71d78740062ad1c3f24e264afaac881ccf42c7ff12a4d26e6487531",
+          "source_detail": {
+            "id": "99df721fb71d78740062ad1c3f24e264afaac881ccf42c7ff12a4d26e6487531",
+            "time": "2026-07-28T04:14:42+08:00",
+            "headline": "The Trump Administration nears voluntary AI framework - The Information.",
+            "link": "https://www.financialjuice.com/News/9695507/The-Trump-Administration-nears-voluntary-AI-framework---The-Information.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "輝達計劃對Ilya Sutskever創辦之AI新創SSI投資50億美元",
+          "summary_zh": "輝達（Nvidia）持續加大對前OpenAI首席科學家創辦之Safe Superintelligence（SSI）的資金挹注，強化AI基礎設施生態圈。",
+          "event_time": "2026-07-28T00:32:18+08:00",
+          "source_id": "4ecf23f87578b1de4f128f5ab6b30cc48d1cd8e3a0ad2a98e7f63f0b8d68ed4a",
+          "source_detail": {
+            "id": "4ecf23f87578b1de4f128f5ab6b30cc48d1cd8e3a0ad2a98e7f63f0b8d68ed4a",
+            "time": "2026-07-28T00:32:18+08:00",
+            "headline": "Nvidia to invest $5 billion in Ilya Sutskever’s AI startup. $NVDA",
+            "link": "https://www.financialjuice.com/News/9695302/Nvidia-to-invest-5-billion-in-Ilya-Sutskevers-AI-startup-NVDA.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "荷蘭阿姆斯特丹上市之ASML與BESI股價重挫逾8%觸發暫停交易",
+          "summary_zh": "受到中國晶片設備自主化進展消息影響，晶片設備巨頭艾司摩爾（ASML）及 BES Semiconductor（BESI）股價急跌並一度觸發熔斷暫停交易。",
+          "event_time": "2026-07-27T22:43:46+08:00",
+          "source_id": "570365ad91cc607621afdd5d4b41ce35f1fc426ba929d339236575940fbf065c",
+          "source_detail": {
+            "id": "570365ad91cc607621afdd5d4b41ce35f1fc426ba929d339236575940fbf065c",
+            "time": "2026-07-27T22:43:46+08:00",
+            "headline": "Shares of Amsterdam-listed ASML, BESI automatically halted from trading after dropping 8-8.7%",
+            "link": "https://www.financialjuice.com/News/9695140/Shares-of-Amsterdam-listed-ASML-BESI-automatically-halted-from-trading-after-dropping-8-87.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "OpenAI執行長Altman赴華盛頓與美高官會面並展示新模型能力",
+          "summary_zh": "OpenAI 執行長奧特曼（Sam Altman）前往華盛頓，向川普政府高級官員展示新模型能力，並回應關於開放模型與安全性的爭議。",
+          "event_time": "2026-07-27T22:22:42+08:00",
+          "source_id": "f0229a123db3ef459e3193037731db612b8f3b7905abbd6894346db5e94383e7",
+          "source_detail": {
+            "id": "f0229a123db3ef459e3193037731db612b8f3b7905abbd6894346db5e94383e7",
+            "time": "2026-07-27T22:22:42+08:00",
+            "headline": "OpenAI's Altman to preview new models with senior US officials - CNBC",
+            "link": "https://www.financialjuice.com/News/9695111/OpenAIs-Altman-to-preview-new-models-with-senior-US-officials---CNBC.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "輝達執行長黃仁勳本週將於華盛頓與美國國會議員會面",
+          "summary_zh": "輝達執行長黃仁勳（Jensen Huang）計劃前往國會山莊，就AI技術發展、晶片出口及產業策略與議員溝通。",
+          "event_time": "2026-07-28T04:31:55+08:00",
+          "source_id": "102b4cbd0f9aeb8baf4b8a5df26255b15f4cb64dabae34650c3a7c7831545317",
+          "source_detail": {
+            "id": "102b4cbd0f9aeb8baf4b8a5df26255b15f4cb64dabae34650c3a7c7831545317",
+            "time": "2026-07-28T04:31:55+08:00",
+            "headline": "Nvidia's CEO Huang to meet with lawmakers in DC this week - Politico citing Nvidia Spokesperson $NVDA",
+            "link": "https://www.financialjuice.com/News/9695536/Nvidias-CEO-Huang-to-meet-with-lawmakers-in-DC-this-week---Politico-citing-Nvidia-Spokesperson-NVDA.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "輝達計劃向韓國Naver投資10億美元擴大AI合作",
+          "summary_zh": "輝達擬深化與韓國科技巨頭 Naver 的合作，投資10億美元以推動區域AI生態系建置。",
           "event_time": "2026-07-27T20:01:13+08:00",
           "source_id": "406317f629d037bfdbed856ae3f38ecf19a3f865ffea4770da7d4a3d4aefa949",
           "source_detail": {
@@ -108,20 +150,6 @@
             "time": "2026-07-27T20:01:13+08:00",
             "headline": "Nvidia plans to invest $1b into Naver. $NVDA",
             "link": "https://www.financialjuice.com/News/9694910/Nvidia-plans-to-invest-1b-into-Naver-NVDA.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "英偉達發布PhysicsNemo與CUDA-X工具，推動工程設計領域AI應用",
-          "summary_zh": "英偉達（Nvidia）擴充AI Agent工具箱，導入物理模擬與加速計算庫，升級半導體與工業設計的自動化工程工作流程。",
-          "event_time": "2026-07-27T08:45:05+08:00",
-          "source_id": "b221cb6a387076e4c7bf79cb0fbfd0ee541290a0466a585ec0639874d08de342",
-          "source_detail": {
-            "id": "b221cb6a387076e4c7bf79cb0fbfd0ee541290a0466a585ec0639874d08de342",
-            "time": "2026-07-27T08:45:05+08:00",
-            "headline": "Nvidia expands agent toolkit with PhysicsNemo and CUDA-X libraries to transform global engineering, design and construction",
-            "link": "https://www.financialjuice.com/News/9694245/Nvidia-expands-agent-toolkit-with-PhysicsNemo-and-CUDA-X-libraries-to-transform-global-engineering-design-and-construction.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -132,8 +160,8 @@
       "news": [
         {
           "importance_score": 4,
-          "headline_zh": "特朗普對聯準會決策發表看法，稱戰爭結束後通膨與物價將快速下降",
-          "summary_zh": "美國總統特朗普（Trump）針對聯準會（Fed）貨幣政策表示，隨著中東衝突落幕，物價將出現顯著回落，並對聯準會潛在官員沃許（Warsh）表達肯定。",
+          "headline_zh": "川普評論美聯儲政策，表達對聯準會官員Warsh的信任",
+          "summary_zh": "美國總統川普談及利率時指出物價正在快速下降，並稱讚可能的人選沃許（Kevin Warsh）會做出正確決策。",
           "event_time": "2026-07-28T00:33:23+08:00",
           "source_id": "96505398193c589068b9d1c8701f0dc46c46b95a485fc55c5902d926b8a94d0d",
           "source_detail": {
@@ -145,9 +173,9 @@
           }
         },
         {
-          "importance_score": 3,
-          "headline_zh": "歐洲央行管委卡日米爾警告二次效應風險，稱央行應提前採取行動",
-          "summary_zh": "歐洲央行（ECB）管委卡日米爾（Kazimir）表示，通膨的二次效應一旦形成代價極高且難以逆轉，因此歐洲央行必須在其全面顯現前採取相應貨幣政策。",
+          "importance_score": 4,
+          "headline_zh": "歐洲央行管委Kazimir表示必須在第二輪通膨效應顯現前採取行動",
+          "summary_zh": "歐洲中央銀行（ECB）管理委員會委員卡齊米爾（Kazimir）警告，通膨的二次效應扭轉代價高昂，央行需提前發動政策應對。",
           "event_time": "2026-07-27T16:30:41+08:00",
           "source_id": "9b669f5de18bcc04fe85b399af4a650423a02f244ad7d76307e16141c57dd523",
           "source_detail": {
@@ -159,9 +187,9 @@
           }
         },
         {
-          "importance_score": 2,
-          "headline_zh": "瑞士央行拒絕對零利率政策維持至2027年底的傳聞發表評論",
-          "summary_zh": "針對市場媒體報導瑞士央行（SNB）預計將零利率政策維持至2027年底一事，瑞士央行官方表示不予置評。",
+          "importance_score": 3,
+          "headline_zh": "瑞士央行拒絕就可能維持零利率至2027年底的傳聞發表評論",
+          "summary_zh": "市場傳出瑞士央行（SNB）可能將零利率保持至2027年底，瑞士央行對此媒體報導拒絕置評。",
           "event_time": "2026-07-27T21:30:12+08:00",
           "source_id": "c7de6515af552e604f694859a8ab39c439ccad698b8448036d78c4fec216ef29",
           "source_detail": {
@@ -179,8 +207,8 @@
       "news": [
         {
           "importance_score": 4,
-          "headline_zh": "美國貿易代表署強調新版301關稅稅率與以往相當，維護貿易平衡",
-          "summary_zh": "美國貿易代表署（USTR）代表格里爾（Greer）表示，針對中國的新版301條款關稅稅率與此前相當，不致引發未預期的經濟衝擊，並重申與墨西哥對話著重於確保平衡貿易。",
+          "headline_zh": "美國貿易代表署Greer表示新301條款關稅不應產生額外未預期的經濟影響",
+          "summary_zh": "美國貿易代表署（USTR）代表格里爾（Greer）談及新一輪對華「强迫勞動」301條款調查措施，稱關稅稅率與以往相當，不致對總體經濟造成全新衝擊。",
           "event_time": "2026-07-28T06:34:42+08:00",
           "source_id": "b81b27da41a46d74b3842c672c7e0addf53ee5c50ec6c3b8105a807c0eb80f84",
           "source_detail": {
@@ -193,22 +221,8 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "特朗普政府即將敲定人工智慧自願監管框架",
-          "summary_zh": "特朗普政府正接近完成一套針對人工智慧（AI）產業的自願監管規範指引，旨在平衡產業創新與國家安全風險。",
-          "event_time": "2026-07-28T04:14:42+08:00",
-          "source_id": "99df721fb71d78740062ad1c3f24e264afaac881ccf42c7ff12a4d26e6487531",
-          "source_detail": {
-            "id": "99df721fb71d78740062ad1c3f24e264afaac881ccf42c7ff12a4d26e6487531",
-            "time": "2026-07-28T04:14:42+08:00",
-            "headline": "The Trump Administration nears voluntary AI framework - The Information.",
-            "link": "https://www.financialjuice.com/News/9695507/The-Trump-Administration-nears-voluntary-AI-framework---The-Information.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "中國敦促美國完全取消單邊關稅措施",
-          "summary_zh": "針對美方發布對華301條款調查最終措施，中國商務部表達強烈不滿，敦促美方徹底取消單邊關稅，維護雙邊貿易秩序。",
+          "headline_zh": "中國呼籲美國全面取消單邊關稅措施",
+          "summary_zh": "中國商務部針對美方關稅與調查動作做出回應，敦促美方切實尊重多邊貿易體制，全面取消對華單邊加徵關稅。",
           "event_time": "2026-07-27T18:12:44+08:00",
           "source_id": "de101e2c06fa7c385e6986bcd861def2c8b31a48505a4682820dbb83f9226e4c",
           "source_detail": {
@@ -221,8 +235,22 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "日本首相高市早苗表態擺脫過度緊縮財政，擬提案降低食品消費稅",
-          "summary_zh": "日本首相高市早苗（Takaichi）強調日本必須打破長期過度財政緊縮，促進國內投資。她並表示一旦跨黨派討論達成共識，將提出把食品銷售稅降低至8%的法案。",
+          "headline_zh": "日本首相高市早苗表示將推動降低食品消費稅至8%法案",
+          "summary_zh": "高市早苗表示，一旦跨黨派議員達成共識，將提出降低食品8%消費稅的法案，以減輕民眾生活負擔。",
+          "event_time": "2026-07-27T17:22:55+08:00",
+          "source_id": "cea5c290f0d6f92dad78e07a9adc252012c2de6d54c967e2ddf5e92f09846276",
+          "source_detail": {
+            "id": "cea5c290f0d6f92dad78e07a9adc252012c2de6d54c967e2ddf5e92f09846276",
+            "time": "2026-07-27T17:22:55+08:00",
+            "headline": "Japan's PM Takaichi: Will submit bill for lowering 8% sales tax on food once meeting among lawmakers to debate the issue reaches an agreement",
+            "link": "https://www.financialjuice.com/News/9694725/Japans-PM-Takaichi-Will-submit-bill-for-lowering-8-sales-tax-on-food-once-meeting-among-lawmakers-to-debate-the-issue-reaches-an-agreement.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "日本首相高市早苗：日本必須擺脫過度緊縮財政，擴大國內投資",
+          "summary_zh": "日本首相高市早苗（Takaichi）強調日本需擺脫多年過度緊縮，透過擴大國內投資將經濟帶入成長軌道。",
           "event_time": "2026-07-27T17:22:13+08:00",
           "source_id": "4d27fb6bee34ff96caddffd3f9ba9c89446e8eb2802e348ce3cf693877490054",
           "source_detail": {
@@ -239,9 +267,23 @@
       "category": "經濟",
       "news": [
         {
+          "importance_score": 5,
+          "headline_zh": "地緣局勢降溫預期推動原油期貨單日大跌逾7%至8%",
+          "summary_zh": "受中東局勢暫緩空襲及談判重啟影響，WTI原油期貨結算價大跌7.5%至每桶82.61美元，Brent原油期貨重挫8.7%至88.36美元。",
+          "event_time": "2026-07-28T02:31:09+08:00",
+          "source_id": "94ba65078d9920f4cdb36c48dd694c8258292d92ae8e0edde0770205e212e00e",
+          "source_detail": {
+            "id": "94ba65078d9920f4cdb36c48dd694c8258292d92ae8e0edde0770205e212e00e",
+            "time": "2026-07-28T02:31:09+08:00",
+            "headline": "NYMEX WTI crude September futures settle at $82.61 a barrel, down $6.70, 7.50%",
+            "link": "https://www.financialjuice.com/News/9695417/NYMEX-WTI-crude-September-futures-settle-at-8261-a-barrel-down-670-750.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
           "importance_score": 4,
-          "headline_zh": "美國6月核心耐用品訂單超預期增長0.6%，AI投資浪潮形成支撐",
-          "summary_zh": "美國6月耐用品訂單增長0.3%，扣除運輸的核心耐用品訂單增長0.6%，超出市場預估，顯示企業在人工智慧及設備方面的資本支出持續強勁。",
+          "headline_zh": "美國6月核心耐用品訂單增長0.6%超預期，企業資本支出熱潮持續",
+          "summary_zh": "美國6月核心耐用品訂單月率成長0.6%，反映企業在AI與科技設備的資本支出強勁，支撐上半年投資動能。",
           "event_time": "2026-07-27T20:30:01+08:00",
           "source_id": "0d51dd26d0a77cf19fedfeecb6de150fedead1a10b37e7c8fe93c1c63782de18",
           "source_detail": {
@@ -254,8 +296,8 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "中國6月工業企業利潤同比增長15.1%，上半年電子行業表現亮眼",
-          "summary_zh": "中國國家統計局數據顯示，6月規模以上工業企業利潤同比增長15.1%，上半年累計增長18.7%，主要受益於高技術製造業與電子行業利潤的顯著擴張。",
+          "headline_zh": "中國6月規模以上工業企業利潤年增15.1%，上半年電子業展現強勁成長",
+          "summary_zh": "中國國家統計局公布6月份工業企業利潤同比增長15.1%，上半年累計增長18.7%，顯示製造業獲利持續回升。",
           "event_time": "2026-07-27T09:30:20+08:00",
           "source_id": "102df0557c6fd8048a01e3cbf95d6d5c7f437891d65b118cb38e85e53f9f7709",
           "source_detail": {
@@ -268,8 +310,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "德國7月IFO商業景氣指數回升至86.6，優於市場預期",
-          "summary_zh": "德國7月IFO商業景氣指數自前值的85.6升至86.6，優於預期的86.0，其中期待指數顯著改善，反映企業對未來經濟前景悲觀情緒有所緩解。",
+          "headline_zh": "德國7月IFO商業景氣指數升至86.6，高於預期",
+          "summary_zh": "德國7月IFO商業景氣指數自前值85.6回升至86.6，表現優於市場預期的86.0，顯示歐洲最大經濟體信心略有改善。",
           "event_time": "2026-07-27T16:00:09+08:00",
           "source_id": "ec436d3baf7854f8b6b24b761d2c152d89a311e14755ff5f727d6cf28100e7fe",
           "source_detail": {
@@ -277,20 +319,6 @@
             "time": "2026-07-27T16:00:09+08:00",
             "headline": "German IFO Business Climate Actual 86.6 (Forecast 86, Previous 85.6)",
             "link": "https://www.financialjuice.com/News/9694611/German-IFO-Business-Climate-Actual-866-Forecast-86-Previous-856.aspx",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 2,
-          "headline_zh": "日本6月企業服務價格指數同比增長3.2%，略低於預期",
-          "summary_zh": "日本6月服務業生產者價格指數（PPI）同比增長3.2%，低於市場預期的3.4%及前值的3.3%。",
-          "event_time": "2026-07-27T07:52:07+08:00",
-          "source_id": "b733ca1c4ab2a075c842fedcc71ce062f63d802b1942a570718c818360a732c7",
-          "source_detail": {
-            "id": "b733ca1c4ab2a075c842fedcc71ce062f63d802b1942a570718c818360a732c7",
-            "time": "2026-07-27T07:52:07+08:00",
-            "headline": "Japanese Service PPI Actual 3.2% (Forecast 3.4%, Previous 3.3%)",
-            "link": "https://www.financialjuice.com/News/9694220/Japanese-Service-PPI-Actual-32-Forecast-34-Previous-33.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -301,8 +329,8 @@
       "news": [
         {
           "importance_score": 5,
-          "headline_zh": "特朗普稱伊朗表達會面意願，美伊正進行溝通並有可能達成協議",
-          "summary_zh": "特朗普（Trump）證實伊朗已透過中間人提出會面請求，雙方正在進行深入溝通，並認為有相當機會達成協議以平息戰火。",
+          "headline_zh": "川普表示伊朗表達會面意願，雙方有可能達成協議",
+          "summary_zh": "川普透露伊朗透過中間人表達會談意願，雙方正在接觸，並認為有相當機會達成協議。",
           "event_time": "2026-07-28T00:25:29+08:00",
           "source_id": "30e133befab9d78ff89ab7d254d6bea6d19317957f4748eb786f838bc67202cd",
           "source_detail": {
@@ -315,8 +343,8 @@
         },
         {
           "importance_score": 5,
-          "headline_zh": "特朗普證實因調解國請求暫停對伊朗打擊，給予談判窗口",
-          "summary_zh": "美國總統特朗普（Trump）表示，應中東調解國請求已暫緩原定對伊朗的軍事行動，以給予談判一次機會，但若談判無果將恢復「強烈軍事打擊」。",
+          "headline_zh": "川普證實暫停對伊朗打擊：應調解國要求給予談判機會",
+          "summary_zh": "川普（Trump）表示已暫緩原定對伊朗的軍事行動，係應中東調解國要求給予談判再次突破的機會。",
           "event_time": "2026-07-27T23:12:00+08:00",
           "source_id": "25931c94752abaab5d639b0b4b5b24b42ca075a09f1de5e8c16533a91857b12a",
           "source_detail": {
@@ -329,22 +357,50 @@
         },
         {
           "importance_score": 5,
-          "headline_zh": "伊朗外交部澄清未直接要求與美重啟談判，僅透過中間國傳達訊息",
-          "summary_zh": "伊朗外交部發言人表示，伊朗並未主動要求與美國直接重啟談判，目前僅由阿曼等調解國代為轉達訊息，美伊之間尚未建立直接對話。",
-          "event_time": "2026-07-27T15:57:05+08:00",
-          "source_id": "f72e9a03c7a2629295514892d4d1f0a03e359f77d3d10ddf492fb99b7cdd35d2",
+          "headline_zh": "川普發出警告：若與伊朗會談不順利將重啟強烈軍事打擊",
+          "summary_zh": "川普指出美方正與伊朗進行深入會談，但強調談判窗口時間短暫，若無法達成協議將重新展開強力打擊。",
+          "event_time": "2026-07-27T23:08:43+08:00",
+          "source_id": "3263d922d4ef24006ea9ba7cff7b38b0be680a5edfcebea15b87b6276bbd93be",
           "source_detail": {
-            "id": "f72e9a03c7a2629295514892d4d1f0a03e359f77d3d10ddf492fb99b7cdd35d2",
-            "time": "2026-07-27T15:57:05+08:00",
-            "headline": "Iran's Foreign Ministry Spokesperson Baghaei: Iran has not asked for resumption of talks with the US, 'not in our DNA’",
-            "link": "https://www.financialjuice.com/News/9694605/Irans-Foreign-Ministry-Spokesperson-Baghaei-Iran-has-not-asked-for-resumption-of-talks-with-the-US-not-in-our-DNA.aspx",
+            "id": "3263d922d4ef24006ea9ba7cff7b38b0be680a5edfcebea15b87b6276bbd93be",
+            "time": "2026-07-27T23:08:43+08:00",
+            "headline": "Trump: We are having deep talks with Iran. If they are not successful, we will return to powerful military action - Israle's Channel 12",
+            "link": "https://www.financialjuice.com/News/9695174/Trump-We-are-having-deep-talks-with-Iran-If-they-are-not-successful-we-will-return-to-powerful-military-action---Israles-Channel-12.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 4,
-          "headline_zh": "伊朗證實與阿曼就霍爾木茲海峽進行談判，海峽目前仍處封閉狀態",
-          "summary_zh": "伊朗外交部發言人證實與阿曼就霍爾木茲海峽管理問題保持積極溝通，但澄清海峽現狀並未改變，依然處於封閉狀態。",
+          "headline_zh": "美參議院配合Zelenskiy造訪，最快於週二推進對俄制裁法案表決",
+          "summary_zh": "隨著烏克蘭總統澤倫斯基（Zelenskiy）訪問，美國參議院準備就新一輪俄羅斯制裁法案展開投票程序。",
+          "event_time": "2026-07-28T05:02:06+08:00",
+          "source_id": "04421b14737c0bf3d28948701bfd663290e9c7b3dabaa31703ffcaed9984ee56",
+          "source_detail": {
+            "id": "04421b14737c0bf3d28948701bfd663290e9c7b3dabaa31703ffcaed9984ee56",
+            "time": "2026-07-28T05:02:06+08:00",
+            "headline": "U.S. Senate set to start voting on Russia sanctions bill as soon as Tuesday during Zelenskiy visit: Senate aide",
+            "link": "https://www.financialjuice.com/News/9695569/US-Senate-set-to-start-voting-on-Russia-sanctions-bill-as-soon-as-Tuesday-during-Zelenskiy-visit-Senate-aide.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "伊朗外交部發言人Baghaei：中間人轉達美方訊息，但目前無直接會談",
+          "summary_zh": "伊朗外交部發言人巴蓋伊（Baghaei）證實調解國正在轉達美方訊息，但澄清伊朗目前尚未與華府進行直接談判。",
+          "event_time": "2026-07-27T15:57:24+08:00",
+          "source_id": "29a183b69d5f89d2213f6572147f0a4e603643f17325ce3ab5270527404d26cc",
+          "source_detail": {
+            "id": "29a183b69d5f89d2213f6572147f0a4e603643f17325ce3ab5270527404d26cc",
+            "time": "2026-07-27T15:57:24+08:00",
+            "headline": "Iran's Foreign Ministry Spokesperson Baghaei: Mediators transmit messages to us from the US. But we do not have talks with Washington currently",
+            "link": "https://www.financialjuice.com/News/9694606/Irans-Foreign-Ministry-Spokesperson-Baghaei-Mediators-transmit-messages-to-us-from-the-US-But-we-do-not-have-talks-with-Washington-currently.aspx",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "伊朗外交部強調霍爾木茲海峽仍處於封鎖狀態",
+          "summary_zh": "伊朗發言人表示霍爾木茲海峽（Strait of Hormuz）局勢尚未改變，海峽仍維持封鎖狀態，相關斡旋仍持續中。",
           "event_time": "2026-07-27T15:47:45+08:00",
           "source_id": "fc40b52cd79ec3ec2bc010cd02b31e8b8309a652617c531a23d5c0c7bd20119f",
           "source_detail": {
@@ -357,15 +413,15 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "烏克蘭空襲俄羅斯羅斯托夫州出口終端與能源設施",
-          "summary_zh": "烏克蘭總統澤倫斯基（Zelenskiy）證實烏軍對俄羅斯羅斯托夫州的出口終端以及雅羅斯拉夫爾州和烏德穆爾特的石油設施發動襲擊。",
-          "event_time": "2026-07-27T15:32:07+08:00",
-          "source_id": "4b689225244b408824c2ef1ad9c31e22cfde8d8eef87ffbe86f2f3e07f1688ce",
+          "headline_zh": "川普表示將向普丁質詢俄羅斯是否向伊朗提供情報與衛星影像",
+          "summary_zh": "針對俄羅斯可能協助伊朗的傳聞，川普表示會向俄羅斯總統普丁（Putin）直接問詢相關事實。",
+          "event_time": "2026-07-28T00:29:58+08:00",
+          "source_id": "6d082d58014c9d769f8c451259a8491b1ac501c7aca1f6c79dfdb58495d9776d",
           "source_detail": {
-            "id": "4b689225244b408824c2ef1ad9c31e22cfde8d8eef87ffbe86f2f3e07f1688ce",
-            "time": "2026-07-27T15:32:07+08:00",
-            "headline": "Ukraine’s President Zelenskiy: Ukraine strikes Russian export terminal in Rostov region, oil facilities in Yaroslav region and Udmurtia",
-            "link": "https://www.financialjuice.com/News/9694572/Ukraines-President-Zelenskiy-Ukraine-strikes-Russian-export-terminal-in-Rostov-region-oil-facilities-in-Yaroslav-region-and-Udmurtia.aspx?xy=rss",
+            "id": "6d082d58014c9d769f8c451259a8491b1ac501c7aca1f6c79dfdb58495d9776d",
+            "time": "2026-07-28T00:29:58+08:00",
+            "headline": "Trump: Will ask Putin if he's sending Iran satellite images. Will ask Putin about speculation of russia aiding Iran",
+            "link": "https://www.financialjuice.com/News/9695274/Trump-Will-ask-Putin-if-hes-sending-Iran-satellite-images-Will-ask-Putin-about-speculation-of-russia-aiding-Iran.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -373,33 +429,29 @@
     }
   ],
   "discarded": {
-    "estimated_count": 172,
+    "estimated_count": 171,
     "reasons": [
-      "刪除估計之中國人民銀行人民幣中間價Headline。",
-      "刪除日本官員未提及干預之例行性匯率不評論聲明。",
-      "刪除純價格漲跌幅與點數波動Headline。",
-      "刪除僅提及「演說開始」而無實質內容之Headline。",
-      "刪除相關係數矩陣、隱含波動率矩陣及缺乏數據之央行升降息機率表。",
-      "刪除小國數據（如哈薩克日常產油變化）及無實質政策含量的通告。",
-      "刪除無特定時事關聯之常規外交拜訪訊息。"
+      "無具體政策與數據之官員重複表態或無內容演說Headline",
+      "純漲跌幅、價格波動及無數字之利率機率與相關性矩陣數據",
+      "次要國家例行數據或對全球市場無實質影響之政治表態"
     ]
   },
-  "generated_at": "2026-07-28T08:26:59.908594+08:00",
+  "generated_at": "2026-07-28T08:50:32.728551+08:00",
   "model": "gemini-3.6-flash",
   "source": "FinancialJuice",
   "input_headline_count": 200,
   "included_headline_count": 200,
   "usage_metadata": {
-    "promptTokenCount": 23806,
-    "candidatesTokenCount": 5465,
-    "totalTokenCount": 36134,
+    "promptTokenCount": 23879,
+    "candidatesTokenCount": 5847,
+    "totalTokenCount": 32720,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 23806
+        "tokenCount": 23879
       }
     ],
-    "thoughtsTokenCount": 6863,
+    "thoughtsTokenCount": 2994,
     "serviceTier": "standard"
   }
 }
