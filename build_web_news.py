@@ -20,7 +20,7 @@ WEB_OUTPUT_FILE = WEB_DIRECTORY / "latest.json"
 WEB_STATUS_FILE = WEB_DIRECTORY / "status.json"
 
 GEMINI_API_BASE_URL = "https://generativelanguage.googleapis.com/v1beta"
-DEFAULT_GEMINI_MODEL = "gemini-3.5-flash"
+DEFAULT_GEMINI_MODEL = "gemini-3.6-flash"
 REQUEST_TIMEOUT_SECONDS = 300
 MAX_RETRIES = 3
 MAX_OUTPUT_TOKENS = 8192

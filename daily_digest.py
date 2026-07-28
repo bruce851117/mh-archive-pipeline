@@ -35,7 +35,7 @@ CENTRAL_BANK_STATUS_FILE = Path(
 CENTRAL_BANK_LOOKBACK_DAYS = 90
 
 GEMINI_API_BASE_URL = "https://generativelanguage.googleapis.com/v1beta"
-DEFAULT_GEMINI_MODEL = "gemini-3.5-flash"
+DEFAULT_GEMINI_MODEL = "gemini-3.6-flash"
 
 REQUEST_TIMEOUT_SECONDS = 300
 MAX_RETRIES = 3
