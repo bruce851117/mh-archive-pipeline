@@ -16,271 +16,349 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Generate repository full dump
+      - name: Export tracked text files
         shell: bash
         run: |
-          cat > /tmp/export_repo.py <<'PYTHON_SCRIPT'
-          from pathlib import Path
-          import subprocess
+          set -euo pipefail
 
+          OUTPUT_FILE="REPO_FULL_DUMP.txt"
+          FILE_LIST="/tmp/repo_file_list.txt"
+          INCLUDED_LIST="/tmp/repo_included_list.txt"
+          SKIPPED_LIST="/tmp/repo_skipped_list.txt"
 
-          ROOT = Path.cwd()
-          OUTPUT_FILE = ROOT / "REPO_FULL_DUMP.txt"
+          rm -f "$OUTPUT_FILE"
+          rm -f "$FILE_LIST"
+          rm -f "$INCLUDED_LIST"
+          rm -f "$SKIPPED_LIST"
 
-          TEXT_EXTENSIONS = {
-              ".py",
-              ".pyi",
-              ".js",
-              ".jsx",
-              ".ts",
-              ".tsx",
-              ".html",
-              ".htm",
-              ".css",
-              ".scss",
-              ".json",
-              ".jsonl",
-              ".csv",
-              ".tsv",
-              ".md",
-              ".txt",
-              ".yml",
-              ".yaml",
-              ".toml",
-              ".ini",
-              ".cfg",
-              ".conf",
-              ".xml",
-              ".sql",
-              ".sh",
-              ".bash",
-              ".ps1",
-              ".bat",
+          touch "$FILE_LIST"
+          touch "$INCLUDED_LIST"
+          touch "$SKIPPED_LIST"
+
+          git ls-files > "$FILE_LIST"
+
+          tracked_count="$(wc -l < "$FILE_LIST" | tr -d ' ')"
+
+          is_excluded_file() {
+            case "$1" in
+              REPO_FULL_DUMP.txt)
+                return 0
+                ;;
+              .env|.env.local|.env.production|.env.development)
+                return 0
+                ;;
+              credentials.json|service-account.json|service_account.json)
+                return 0
+                ;;
+              secrets.json)
+                return 0
+                ;;
+              *)
+                return 1
+                ;;
+            esac
           }
 
-          SPECIAL_TEXT_FILES = {
-              "Dockerfile",
-              "Makefile",
-              "Procfile",
-              "requirements.txt",
-              "runtime.txt",
-              "package.json",
-              "package-lock.json",
-              "pyproject.toml",
-              "poetry.lock",
-              "Pipfile",
-              "Pipfile.lock",
-              ".gitignore",
-              ".gitattributes",
-              ".env.example",
+          is_excluded_path() {
+            case "$1" in
+              .git/*|*/.git/*)
+                return 0
+                ;;
+              node_modules/*|*/node_modules/*)
+                return 0
+                ;;
+              __pycache__/*|*/__pycache__/*)
+                return 0
+                ;;
+              .venv/*|*/.venv/*)
+                return 0
+                ;;
+              venv/*|*/venv/*)
+                return 0
+                ;;
+              dist/*|*/dist/*)
+                return 0
+                ;;
+              build/*|*/build/*)
+                return 0
+                ;;
+              *)
+                return 1
+                ;;
+            esac
           }
 
-          EXCLUDED_FILE_NAMES = {
-              "REPO_FULL_DUMP.txt",
-              ".env",
-              ".env.local",
-              ".env.production",
-              ".env.development",
-              "credentials.json",
-              "service-account.json",
-              "service_account.json",
-              "secrets.json",
+          is_allowed_extension() {
+            file_path="$1"
+            file_name="$(basename "$file_path")"
+
+            case "$file_name" in
+              Dockerfile|Makefile|Procfile)
+                return 0
+                ;;
+              requirements.txt|runtime.txt)
+                return 0
+                ;;
+              package.json|package-lock.json)
+                return 0
+                ;;
+              pyproject.toml|poetry.lock)
+                return 0
+                ;;
+              Pipfile|Pipfile.lock)
+                return 0
+                ;;
+              .gitignore|.gitattributes|.env.example)
+                return 0
+                ;;
+            esac
+
+            case "$file_path" in
+              *.py|*.pyi)
+                return 0
+                ;;
+              *.js|*.jsx|*.ts|*.tsx)
+                return 0
+                ;;
+              *.html|*.htm|*.css|*.scss)
+                return 0
+                ;;
+              *.json|*.jsonl)
+                return 0
+                ;;
+              *.csv|*.tsv)
+                return 0
+                ;;
+              *.md|*.txt)
+                return 0
+                ;;
+              *.yml|*.yaml)
+                return 0
+                ;;
+              *.toml|*.ini|*.cfg|*.conf)
+                return 0
+                ;;
+              *.xml|*.sql)
+                return 0
+                ;;
+              *.sh|*.bash|*.ps1|*.bat)
+                return 0
+                ;;
+              *)
+                return 1
+                ;;
+            esac
           }
 
-          EXCLUDED_DIRECTORY_NAMES = {
-              ".git",
-              "__pycache__",
-              ".pytest_cache",
-              ".mypy_cache",
-              ".ruff_cache",
-              "node_modules",
-              ".venv",
-              "venv",
-              "dist",
-              "build",
-          }
+          while IFS= read -r file_path; do
+            if [ -z "$file_path" ]; then
+              continue
+            fi
 
+            file_name="$(basename "$file_path")"
 
-          def get_tracked_files():
-              result = subprocess.run(
-                  ["git", "ls-files", "-z"],
-                  check=True,
-                  capture_output=True,
-              )
+            if [ ! -e "$file_path" ]; then
+              printf '%s | File does not exist\n' "$file_path" \
+                >> "$SKIPPED_LIST"
+              continue
+            fi
 
-              decoded = result.stdout.decode(
-                  "utf-8",
-                  errors="replace",
-              )
+            if [ ! -f "$file_path" ]; then
+              printf '%s | Not a regular file\n' "$file_path" \
+                >> "$SKIPPED_LIST"
+              continue
+            fi
 
-              paths = []
+            if is_excluded_file "$file_name"; then
+              printf '%s | Excluded for safety\n' "$file_path" \
+                >> "$SKIPPED_LIST"
+              continue
+            fi
 
-              for name in decoded.split("\0"):
-                  if not name:
-                      continue
+            if is_excluded_path "$file_path"; then
+              printf '%s | Excluded directory\n' "$file_path" \
+                >> "$SKIPPED_LIST"
+              continue
+            fi
 
-                  paths.append(ROOT / name)
+            if ! is_allowed_extension "$file_path"; then
+              printf '%s | Unsupported or binary extension\n' "$file_path" \
+                >> "$SKIPPED_LIST"
+              continue
+            fi
 
-              return paths
+            if ! grep -Iq . "$file_path" 2>/dev/null; then
+              if [ -s "$file_path" ]; then
+                printf '%s | Binary content detected\n' "$file_path" \
+                  >> "$SKIPPED_LIST"
+                continue
+              fi
+            fi
 
+            file_size="$(stat -c '%s' "$file_path")"
 
-          def get_relative_path(path):
-              return path.relative_to(ROOT).as_posix()
+            if [ "$file_size" -gt 20000000 ]; then
+              printf '%s | Larger than 20 MB\n' "$file_path" \
+                >> "$SKIPPED_LIST"
+              continue
+            fi
 
+            printf '%s\n' "$file_path" >> "$INCLUDED_LIST"
+          done < "$FILE_LIST"
 
-          def is_excluded(path):
-              if path.name in EXCLUDED_FILE_NAMES:
-                  return True
+          included_count="$(wc -l < "$INCLUDED_LIST" | tr -d ' ')"
+          skipped_count="$(wc -l < "$SKIPPED_LIST" | tr -d ' ')"
 
-              relative_parts = path.relative_to(ROOT).parts
+          {
+            printf '%s\n' \
+              "===================================================================================================="
+            printf '%s\n' "REPOSITORY FULL TEXT DUMP"
+            printf '%s\n' \
+              "===================================================================================================="
+            printf '\n'
+            printf 'Repository: %s\n' "${GITHUB_REPOSITORY}"
+            printf 'Branch or ref: %s\n' "${GITHUB_REF_NAME}"
+            printf 'Commit SHA: %s\n' "${GITHUB_SHA}"
+            printf 'Tracked files: %s\n' "$tracked_count"
+            printf 'Included text files: %s\n' "$included_count"
+            printf 'Skipped files: %s\n' "$skipped_count"
+            printf '\n'
 
-              for part in relative_parts:
-                  if part in EXCLUDED_DIRECTORY_NAMES:
-                      return True
+            printf '%s\n' \
+              "===================================================================================================="
+            printf '%s\n' "REPOSITORY FILE TREE"
+            printf '%s\n' \
+              "===================================================================================================="
+            printf '\n'
 
-              return False
+            cat "$FILE_LIST"
 
+            printf '\n'
+            printf '%s\n' \
+              "===================================================================================================="
+            printf '%s\n' "INCLUDED TEXT FILES"
+            printf '%s\n' \
+              "===================================================================================================="
+            printf '\n'
 
-          def is_text_candidate(path):
-              if path.name in SPECIAL_TEXT_FILES:
-                  return True
+            if [ -s "$INCLUDED_LIST" ]; then
+              cat "$INCLUDED_LIST"
+            else
+              printf '%s\n' "[NO TEXT FILES INCLUDED]"
+            fi
 
-              if path.name.startswith(".env"):
-                  return path.name == ".env.example"
+            printf '\n'
+            printf '%s\n' \
+              "===================================================================================================="
+            printf '%s\n' "SKIPPED FILES"
+            printf '%s\n' \
+              "===================================================================================================="
+            printf '\n'
 
-              return path.suffix.lower() in TEXT_EXTENSIONS
+            if [ -s "$SKIPPED_LIST" ]; then
+              cat "$SKIPPED_LIST"
+            else
+              printf '%s\n' "[NONE]"
+            fi
 
+            printf '\n'
+            printf '%s\n' \
+              "===================================================================================================="
+            printf '%s\n' "FILE CONTENTS"
+            printf '%s\n' \
+              "===================================================================================================="
+            printf '\n'
+          } > "$OUTPUT_FILE"
 
-          def read_text_file(path):
-              try:
-                  raw_data = path.read_bytes()
-              except Exception as exc:
-                  return None, "Unable to read file: {}".format(exc)
+          file_number=0
 
-              if b"\x00" in raw_data:
-                  return None, "Binary file detected"
+          while IFS= read -r file_path; do
+            if [ -z "$file_path" ]; then
+              continue
+            fi
 
-              encodings = [
-                  "utf-8",
-                  "utf-8-sig",
-                  "cp950",
-                  "big5",
-                  "latin-1",
-              ]
+            file_number=$((file_number + 1))
 
-              for encoding in encodings:
-                  try:
-                      return raw_data.decode(encoding), None
-                  except UnicodeDecodeError:
-                      continue
+            {
+              printf '\n'
+              printf '%s\n' \
+                "####################################################################################################"
+              printf 'FILE %s/%s: %s\n' \
+                "$file_number" \
+                "$included_count" \
+                "$file_path"
+              printf '%s\n' \
+                "####################################################################################################"
+              printf '\n'
 
-              return (
-                  raw_data.decode("utf-8", errors="replace"),
-                  "Some characters were replaced during decoding",
-              )
+              if [ -s "$file_path" ]; then
+                cat "$file_path"
+              else
+                printf '%s\n' "[EMPTY FILE]"
+              fi
 
+              printf '\n'
+              printf 'END OF FILE: %s\n' "$file_path"
+              printf '\n'
+            } >> "$OUTPUT_FILE"
+          done < "$INCLUDED_LIST"
 
-          def mask_possible_secrets(content):
-              sensitive_keywords = (
-                  "api_key",
-                  "apikey",
-                  "api-key",
-                  "token",
-                  "secret",
-                  "password",
-                  "private_key",
-                  "private-key",
-                  "client_secret",
-              )
+          echo "Repository export completed."
+          echo "Tracked files: $tracked_count"
+          echo "Included text files: $included_count"
+          echo "Skipped files: $skipped_count"
 
-              masked_lines = []
+      - name: Validate generated dump
+        shell: bash
+        run: |
+          set -euo pipefail
 
-              for line in content.splitlines():
-                  lowered = line.lower()
+          if [ ! -f "REPO_FULL_DUMP.txt" ]; then
+            echo "ERROR: REPO_FULL_DUMP.txt was not generated."
+            exit 1
+          fi
 
-                  is_sensitive = any(
-                      keyword in lowered
-                      for keyword in sensitive_keywords
-                  )
+          if [ ! -s "REPO_FULL_DUMP.txt" ]; then
+            echo "ERROR: REPO_FULL_DUMP.txt is empty."
+            exit 1
+          fi
 
-                  if not is_sensitive:
-                      masked_lines.append(line)
-                      continue
+          echo "REPO_FULL_DUMP.txt generated successfully."
+          ls -lh REPO_FULL_DUMP.txt
+          wc -l REPO_FULL_DUMP.txt
+          head -n 30 REPO_FULL_DUMP.txt
 
-                  stripped = line.strip()
+      - name: Commit repository dump
+        shell: bash
+        run: |
+          set -euo pipefail
 
-                  if stripped.startswith("#"):
-                      masked_lines.append(line)
-                      continue
+          echo "Current Git branch:"
+          git branch --show-current
 
-                  if "secrets." in lowered:
-                      masked_lines.append(line)
-                      continue
+          echo "Generated file information:"
+          ls -lh REPO_FULL_DUMP.txt
+          wc -l REPO_FULL_DUMP.txt
 
-                  separator = None
+          echo "Checking whether Git ignore rules match the output:"
+          git check-ignore -v REPO_FULL_DUMP.txt || true
 
-                  if "=" in line:
-                      separator = "="
-                  elif ":" in line:
-                      separator = ":"
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
 
-                  if separator is None:
-                      masked_lines.append(line)
-                      continue
+          git add -f REPO_FULL_DUMP.txt
 
-                  key = line.split(separator, 1)[0]
-                  masked_lines.append(
-                      "{}{} [REDACTED BY EXPORT WORKFLOW]".format(
-                          key,
-                          separator,
-                      )
-                  )
+          echo "Git status after adding output:"
+          git status --short
 
-              return "\n".join(masked_lines)
+          if git diff --cached --quiet; then
+            echo "No repository dump changes to commit."
+          else
+            git commit -m "docs: update repository full dump"
+          fi
 
+          echo "Pushing repository dump to main branch."
+          git push origin HEAD:main
 
-          tracked_files = sorted(
-              get_tracked_files(),
-              key=lambda path: get_relative_path(path).lower(),
-          )
-
-          included_files = []
-          skipped_files = []
-
-          for file_path in tracked_files:
-              relative_path = get_relative_path(file_path)
-
-              if not file_path.exists():
-                  skipped_files.append(
-                      (relative_path, "File does not exist")
-                  )
-                  continue
-
-              if not file_path.is_file():
-                  skipped_files.append(
-                      (relative_path, "Not a regular file")
-                  )
-                  continue
-
-              if is_excluded(file_path):
-                  skipped_files.append(
-                      (relative_path, "Excluded for safety")
-                  )
-                  continue
-
-              if not is_text_candidate(file_path):
-                  skipped_files.append(
-                      (relative_path, "Non-text extension")
-                  )
-                  continue
-
-              included_files.append(file_path)
-
-          output_lines = [
-              "=" * 100,
-              "REPOSITORY FULL TEXT DUMP",
-              "=" * 100,
-              "",
-              "Repository root: {}".format(ROOT.name),
-              "Tracked files: {}".format(len(tracked_files)),
-              "Included text files: {}".format(len(included_files)),
+          echo "Push completed successfully."
