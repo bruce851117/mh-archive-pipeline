@@ -102,7 +102,7 @@ SYSTEM_INSTRUCTION = """
 4.Burnham：不會拿經濟冒險，承諾遵守財政規則 / Burnham：調整個人所得稅免稅額將帶來重大影響-->這種已開發經濟體，財政政策非常重要，請幫我保留
 5.如果有提到美國要對哪個國家新增關稅，這個也很重要
 6.Iran's Foreign Ministry Spokesperson Baghaei: Mediators transmit messages to us from the US. But we do not have talks with Washington currently.-->這種跟戰爭 會談有關的新聞 都很重要
-
+7.只要央行講話，有提到貨幣政策、經濟、通膨、利率的都幫我留下來
 
 
 請對每一則留下的新聞評估重要性1至5分，並將分數填入 importance_score：
