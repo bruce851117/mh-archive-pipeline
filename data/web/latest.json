@@ -1,48 +1,57 @@
 {
-  "generated_at": "2026-07-29T11:19:47.133597+08:00",
-  "summary_generated_at": "2026-07-29T11:19:47.133597+08:00",
-  "data_updated_at": "2026-07-29T10:52:27.121985+08:00",
+  "generated_at": "2026-07-30T07:55:10.168626+08:00",
+  "summary_generated_at": "2026-07-30T07:55:10.168626+08:00",
+  "data_updated_at": "2026-07-30T06:51:10.391089+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-07-28T17:00:00+08:00",
-  "period_end": "2026-07-29T10:52:27.121985+08:00",
+  "period_start": "2026-07-29T17:00:00+08:00",
+  "period_end": "2026-07-30T06:51:10.391089+08:00",
   "model": "gemini-3.6-flash",
   "source_digest_files": [
-    "data/digests/2026/07/2026-07-27.json",
     "data/digests/2026/07/2026-07-28.json",
-    "data/digests/2026/07/2026-07-29.json"
+    "data/digests/2026/07/2026-07-29.json",
+    "data/digests/2026/07/2026-07-30.json"
   ],
-  "event_count": 16,
+  "event_count": 22,
   "summary_points": [
-    "伊朗向約旦美軍基地發射多枚彈道飛彈遭美軍全數攔截，同時伊朗於霍爾木茲海峽對油輪實施封鎖行動，使中東區域軍事與航運安全形勢持續緊張。",
-    "川普與以色列總理內塔尼亞胡舉行會晤，重申阻止伊朗獲得核武器的堅定立場，並表示若無法達成協議將不排除採取進一步行動。",
-    "OPEC+ 決定於 9 月後暫停原定的增產計畫以評估中東局勢，然受美伊可能重啟停火談判的傳聞影響，布蘭特原油期貨應聲重挫近 5% 至每桶 84.09 美元。",
-    "美國財政部拍賣 440 億美元 7 年期國債，得標利率升至 4.473%，顯示市場在聯準會利率決議前對中長天期美債需求轉趨謹慎。",
-    "Meta 為支應 AI 資本支出發行 125 億美元新債並遭信用評級機構警告，反映華爾街對科技巨頭舉債融資開始出現消化不良；蘋果公司市值則首度突破 5 兆美元大關。",
-    "德國總理梅爾茨堅決反對歐盟預算擴張，要求削減數千億歐元支出；韓國金融監管機構則擬限制個股槓桿最高 20%，以遏制散戶借錢炒股的系統性風險。",
-    "澳洲第二季 CPI 年增率降至 3.8%，數據略低於市場預期，為澳洲央行提供了暫緩立即升息的時間窗口。",
-    "智利央行一致決定將基準利率維持在 4.50% 不變，並指出中東地緣政治衝突加劇了全球宏觀經濟前景的不確定性。"
+    "美聯儲宣布維持聯邦基金利率於3.50%-3.75%不變，但出現2016年以來首次3名委員主張加息的反對票，主席沃什隨後重申堅守2%通膨目標不動搖。",
+    "受美聯儲官員對通膨走勢的分歧以及中東局勢推升物價憂慮影響，美國30年期國債殖利率衝破5.20%，刷新2007年以來最高紀錄。",
+    "中東局勢惡化加上美國EIA原油庫存大減716.7萬桶，帶動原油期貨單日飆漲逾8%，布蘭特原油突破每桶90美元關卡。",
+    "中東地緣衝突持續蔓延，埃及達米埃塔港美資/希臘營運的LNG儲存設施遭無人機襲擊引發火災，美國隨後升級對伊朗霍爾木茲海峽航運網絡的制裁。",
+    "美國總統川普推動國會在制裁法案中納入對伊朗實施嚴厲關稅與經濟封鎖，試圖全面打擊其石油出口與政府財政來源。",
+    "微軟第四財季雲端業務收入大增逾40%，且數據中心租約突破1,300億美元，強勁業績帶動其股價於盤後顯著上漲。",
+    "Meta儘管營收超預期，但高額AI資本支出致使自由現金流創四年新低且第三季指引遜色，衝擊盤後股價大幅重挫。",
+    "高通受到市場需求疲弱與成本上升壓迫，第三財季淨利潤下滑25%並發布保守展望，反映晶片市場面臨轉折挑戰。"
   ],
   "blocks": [
     {
       "category": "債市",
       "news": [
         {
-          "source_id": "1151c3d74c91ee11858be00f98a795cd73f54ede5b63e069f9e58c4eccfc3a60",
+          "source_id": "a95571f63961c78698b3cc02c94be6a33a72a703433f6f836ee5227f8aeb79df",
           "category": "債市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "Meta 為 AI 大額資本支出發行 125 億美元新債，評級機構莫迪警告風險",
-          "summary_zh": "Meta 與貝萊德 BlackRock 合作推動 AI 投資並發行巨額新債，融資成本跳升，反映華爾街對科技巨頭無節制燒錢融資開始出現消化不良情況。",
-          "event_time": "2026-07-28T20:17:13+08:00"
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "德國10年期國債收益率升至3.13%",
+          "summary_zh": "歐洲債市跟隨全球收益率走高，德國基準10年期國債收益率小幅上揚。",
+          "event_time": "2026-07-29T17:31:27+08:00"
         },
         {
-          "source_id": "4b0fb69b9ae6e0b2b8cb546c95063ca20a928af7f0efc07f3e67cd329104c8ab",
+          "source_id": "20af362b7e15bec26509e007a0a28426fee236f0719c8273a1469fb6ae9327e4",
           "category": "債市",
-          "importance_score": 4,
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "美國隔夜擔保融資利率（SOFR）微升至3.65%",
+          "summary_zh": "美國貨幣市場短期融資基準利率保持相對平穩，小幅微升1個基點。",
+          "event_time": "2026-07-29T19:59:50+08:00"
+        },
+        {
+          "source_id": "818a374c1b9a5d2058fb3f8534b8a606c090984e4d58f7828ef9f42ebe328305",
+          "category": "債市",
+          "importance_score": 5,
           "highlight": true,
-          "headline_zh": "美國財政部拍賣 440 億美元 7 年期國債，得標利率升至 4.473%",
-          "summary_zh": "美國 7 年期國債拍賣得標利率高於預期，投標倍數略有下降，顯示市場在美聯儲利率決議前對中長期國債需求偏向謹慎。",
-          "event_time": "2026-07-29T01:02:06+08:00"
+          "headline_zh": "美國30年期國債收益率突破5.20%，創2007年以來新高",
+          "summary_zh": "受到美聯儲利率決策陣營分歧以及中東局勢引發通漲憂慮影響，美債收益率大幅走高，長端利率創下多年新高。",
+          "event_time": "2026-07-30T03:33:06+08:00"
         }
       ]
     },
@@ -50,31 +59,49 @@
       "category": "股市",
       "news": [
         {
-          "source_id": "c7ee47e5545d8aec92c5e7e0b10e6b67bab8dc7112f69ed08b3916c70fb181a3",
+          "source_id": "07898d8f823609dd58b8b8250c05f9579f26b57539b58f545bb1b8bd16b5715d",
           "category": "股市",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "月之暗面 Moonshot 尋求獲取額外 Nvidia Blackwell 晶片以支援 Kimi K3 模型",
-          "summary_zh": "中國 AI 獨角獸月之暗面開源 2.8 萬億參數 K3 模型後，積極爭取輝達 Blackwell 晶片，展現全球 AI 大模型競爭升溫。",
-          "event_time": "2026-07-28T21:02:41+08:00"
+          "headline_zh": "韓國政府擬限制散戶購買槓桿ETF，並採取更多措施穩定股市",
+          "summary_zh": "韓國企劃財政部與金融委員會表示將對槓桿ETF設置交易准入與降低槓桿倍數，並維護24小時市場監控系統以穩定股市波動。",
+          "event_time": "2026-07-29T20:23:36+08:00"
         },
         {
-          "source_id": "5612b974b21816debb92987348357b10452a81806b42e3a507ec18cf96ee9b90",
+          "source_id": "b455709381bdb5d3d4a52f5b7c9199b299ed7d5ee430596523f8aedf47e0f803",
           "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "蘋果公司市值首次突破 5 萬億美元，並推出新硬體租賃方案",
-          "summary_zh": "Apple 市值創歷史新高，同時終止舊有升級計畫，轉為與 Klarna 合作提供最長 36 個月的硬體租賃服務，並計畫推出 Siri AI 智慧家居設備。",
-          "event_time": "2026-07-28T21:51:22+08:00"
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "xAI推出新一代Gro​​k 4.5人工智慧模型",
+          "summary_zh": "馬斯克旗下的xAI發布最新AI模型Grok 4.5及語音定價方案，持續加速生成式人工智慧市場的商業化競爭。",
+          "event_time": "2026-07-30T01:44:30+08:00"
         },
         {
-          "source_id": "d229e28ee8b353464c232b1fd5e33179f2bc7880f32a32209ae53e4b04c8c0cb",
+          "source_id": "b658d5c26d4054a8f75528134bdcf376ddf0991e446cd7a931444eafaac06657",
           "category": "股市",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "Meta CEO 扎克伯格表示美國不應禁止中國先進 AI 大模型",
-          "summary_zh": "Mark Zuckerberg 接受 FT 採訪時指出禁止中國 AI 開源模型無法有效解決安全問題，呼籲維持開放性競爭環境。",
-          "event_time": "2026-07-29T10:17:01+08:00"
+          "headline_zh": "高通第三財季淨利潤下滑25%，並給出疲弱業績指引",
+          "summary_zh": "高通（Qualcomm, QCOM）宣布調漲產品售價，但受市場需求與成本壓迫影響，淨利顯著下滑並發布保守展望。",
+          "event_time": "2026-07-30T04:00:38+08:00"
+        },
+        {
+          "source_id": "c53bf2d2dbf6b12e707a888c21b09891892e9a3d81779bd0864d62241f38f1c2",
+          "category": "股市",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "Meta第三季指引遜色且自由現金流創四年新低，盤後重挫",
+          "summary_zh": "Meta（META）營收雖超預期，但高額AI投入導致自由現金流大幅下滑，執行長扎克伯格（Mark Zuckerberg）表示開源AI模型尚未達到前沿模型強度。",
+          "event_time": "2026-07-30T04:02:07+08:00"
+        },
+        {
+          "source_id": "e3206673d45066b7531e6f805181a1e4ab26c0afd589503b9fb26b542cb1e0dd",
+          "category": "股市",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "微軟第四財季雲端收入增逾40%，新增數據中心租約突破1300億美元",
+          "summary_zh": "微軟（Microsoft, MSFT）發布強勁業績，資本支出低於預期且雲端業務成長超預期，帶動股價盤後大幅上漲。",
+          "event_time": "2026-07-30T04:02:10+08:00"
         }
       ]
     },
@@ -82,13 +109,40 @@
       "category": "央行",
       "news": [
         {
-          "source_id": "a1d43b3167fe8f7b0bc0cda6e217466a729bce351aa6f59cd2d10700f5338ee3",
+          "source_id": "bcf19df217aebb38a4634c9fe3b6409cdfcb6cea31229ce626fdc13e0ae7bd16",
           "category": "央行",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "智利央行維持基準利率於 4.50% 不變，強調美伊衝突帶來劇烈波動",
-          "summary_zh": "智利央行一致決定維持利率，指出宏觀經濟前景受國際地緣政治衝突影響面臨高度不確定性，將逐次會議評估利率路徑。",
-          "event_time": "2026-07-29T05:59:36+08:00"
+          "headline_zh": "歐洲央行管委帕薩利德斯：若高油價持續，通漲風險將顯著上升",
+          "summary_zh": "歐洲央行（ECB）官員警示中東衝突導致的油價飆漲可能傳導至廣泛的物價壓力，加劇歐洲央行政策抉擇的難度。",
+          "event_time": "2026-07-29T17:01:23+08:00"
+        },
+        {
+          "source_id": "3e066ed2680a87207990cfed81cc06434489183b0a02f552e9ccbfc49198ebca",
+          "category": "央行",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "加拿大央行會議紀錄：政策委員會對經濟復甦可持續性存有分歧",
+          "summary_zh": "加拿大央行（BoC）發布會議紀錄顯示，決策者對油價上漲是否會引發持續性通漲保持關注，並指出中東局勢帶來的高度不確定性。",
+          "event_time": "2026-07-30T01:30:32+08:00"
+        },
+        {
+          "source_id": "d28dd03256fe2d401cd6604b2375d8014dc5ddc33bc573e49b1af65217433208",
+          "category": "央行",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "美聯儲按兵不動維持利率於3.75%，2016年以來首次出現三票委反對並主張加息",
+          "summary_zh": "美聯儲（Fed）宣布將聯邦基金利率維持在3.50%-3.75%區間，但決議出現9比3的分歧，Hammack、Kashkari與Logan三位委員主張加息25個基點，凸顯對二次通漲風險的極高警惕。",
+          "event_time": "2026-07-30T02:00:30+08:00"
+        },
+        {
+          "source_id": "ae38e8841c390b5a2f681e19ead17932203d4143ba375fa974d4d4b76c8e5ecd",
+          "category": "央行",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "美聯儲主席沃什：堅守2%通漲目標不動搖，強調央行獨立性與AI投資效益",
+          "summary_zh": "美聯儲主席沃什（Kevin Warsh）在記者會上強調不會放棄2%通漲目標，政策不會被市場價格約束，並指出AI資本支出正為未來的經濟成長打下基礎。",
+          "event_time": "2026-07-30T02:32:12+08:00"
         }
       ]
     },
@@ -96,31 +150,31 @@
       "category": "財政政策",
       "news": [
         {
-          "source_id": "df0255e86291fec95b080b6f44949d5681024e872415770a390e2c1857f64c71",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "德國總理梅爾茨 (Merz) 反對歐盟預算擴張，要求削減數千億歐元支出",
-          "summary_zh": "Merz 堅定反對歐盟層級的過度支出及額外企業課稅，呼籲減少官僚冗節並在今年內完成嚴格的預算談判。",
-          "event_time": "2026-07-28T20:22:06+08:00"
-        },
-        {
-          "source_id": "7f0b8526d31e579feefe5d7e1e10ea93176b182979689b2bb2234d97bca33600",
+          "source_id": "14f7ce79e55dc6c2d94401213bd7cf63ce5ad22bc55c3c9bd7b5fe7965ad2ed8",
           "category": "財政政策",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "川普政府計劃對外國新機型機器人及逆變器進口實施禁令，針對中國產品",
-          "summary_zh": "美國擬推出新一波針對中國科技與自動化設備的貿易限制措施，強化關稅與進口屏障。",
-          "event_time": "2026-07-29T02:30:42+08:00"
+          "headline_zh": "英國首相伯納姆承諾遵守財政規則，並提前展開社會照護審查",
+          "summary_zh": "英國首相伯納姆（Andy Burnham）強調不會拿經濟冒險，承諾嚴格遵循財政紀律，並將社會照護政策審查提前一年至2027年進行。",
+          "event_time": "2026-07-29T17:34:40+08:00"
         },
         {
-          "source_id": "5081a79ed5a451144342d76d3a48884eb653e5bd36baeb50ee7fe5bef84b7085",
+          "source_id": "9354400b5838bbb6767a771d466a6731a8ea9df29565abb6602c13b1b5dad521",
           "category": "財政政策",
-          "importance_score": 4,
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "德國政府對向石油公司徵收暴利稅持開放態度",
+          "summary_zh": "因中東局勢推升油價導致能源企業獲利飆升，德國政府發言人表示對課徵暴利稅持開放態度，但需克服重大法律障礙。",
+          "event_time": "2026-07-29T19:33:50+08:00"
+        },
+        {
+          "source_id": "e5360c364aaf24f3976ae7e8814476bc9de452afd97f02c463bf5e277b5280ae",
+          "category": "財政政策",
+          "importance_score": 5,
           "highlight": true,
-          "headline_zh": "韓國金融監管機構擬對個股槓桿設置 20% 封頂線以遏制炒股熱潮",
-          "summary_zh": "韓國企劃財政部與監管機構正在審視穩定股市措施，防止散戶 FOMO 借錢炒股引發系統性風險。",
-          "event_time": "2026-07-29T10:18:51+08:00"
+          "headline_zh": "川普要求國會在俄羅斯制裁法案中加入對伊朗加徵關稅條款",
+          "summary_zh": "美國總統川普（Donald Trump）推動對伊朗實施嚴厲經濟制裁與貿易關稅，試圖通過經濟工具對其石油出口及政府財政實施全面封鎖。",
+          "event_time": "2026-07-30T03:39:25+08:00"
         }
       ]
     },
@@ -128,31 +182,31 @@
       "category": "經濟",
       "news": [
         {
-          "source_id": "81a984c09dd22167a12908dc6669fb5ed38c6e31bdc4eefff2de69245bd3ff37",
+          "source_id": "394d6d2ea3f8c186d7d6e07491e5cad49be67da193ab7372f6c962536df8493f",
+          "category": "經濟",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美國EIA原油庫存大幅減少716.7萬桶，創2018年9月以來最低水平",
+          "summary_zh": "美國能源資訊署（EIA）公佈最新數據，商業原油庫存降幅遠超預期，進一步加劇全球原油供應緊張的擔憂。",
+          "event_time": "2026-07-29T22:30:02+08:00"
+        },
+        {
+          "source_id": "1218453b5da84269fb301ce492c1bdc878f15bd640d29cb71d3d1140157fcb4a",
           "category": "經濟",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "OPEC+ 計劃在 9 月後暫停增產，評估美伊戰爭對供應的影響",
-          "summary_zh": "產油國組織決定在 9 月後維持產量穩定，暫停原定的增產計畫，全球原油市場密切關注地緣衝突造成的產能衝擊。",
-          "event_time": "2026-07-28T19:32:55+08:00"
+          "headline_zh": "中東局勢急劇惡化推升原油期貨單日飆漲逾8%，布蘭特原油突破90美元",
+          "summary_zh": "受美沙空襲伊拉克及霍爾木茲海峽航運受阻影響，紐約WTI原油大漲6.56%收於84.46美元，布蘭特原油大漲7.91%收於90.74美元。",
+          "event_time": "2026-07-30T02:52:48+08:00"
         },
         {
-          "source_id": "2d68912abbe1c3bfdc8275f60a02ff8d90b2e93ea7e2f4b46de51474497b7d15",
+          "source_id": "378d239767211eb374eec5ea27573444784a57ae1679e54fe4d9d52b58658e03",
           "category": "經濟",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "布蘭特原油期貨結算價重挫近 5% 至 84.09 美元/桶，因美伊重啟停火談判傳聞",
-          "summary_zh": "市場傳出調解方促成美伊接近重啟 6 月停火協議，緩解短期供應中斷擔憂，布蘭特及 WTI 原油價格雙雙大幅下挫。",
-          "event_time": "2026-07-29T02:50:19+08:00"
-        },
-        {
-          "source_id": "fa5e7d9658f9a2f43ddca6a24ba14ca382589de43f005152afc51db5c86f6b61",
-          "category": "經濟",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "澳洲第二季 CPI 年增 3.8%、截尾均值升 3.6%，略低於市場預期",
-          "summary_zh": "澳洲通膨數據微幅低於市場預期，為澳洲央行提供了暫緩立即升息的緩衝空間，但通膨絕對水準仍遠高於目標。",
-          "event_time": "2026-07-29T09:30:05+08:00"
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "惠譽評級：美國有效關稅稅率下降至7.4%",
+          "summary_zh": "評級機構惠譽（Fitch Ratings）指出，受全球貿易流向轉變及新關稅條款影響，美國實際有效關稅稅率微幅回落。",
+          "event_time": "2026-07-30T04:18:56+08:00"
         }
       ]
     },
@@ -160,55 +214,55 @@
       "category": "戰爭",
       "news": [
         {
-          "source_id": "96ba370184bd1b1a7dc9ac6387be5cb9e384268a4fff8dec6a0e3e6cc07acf93",
+          "source_id": "c3a4e900154009d68d0aea42f35543018c1f73f2de8a9da4024723cd44eb4922",
           "category": "戰爭",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "川普與以色列總理內塔尼亞胡會晤，重申防止伊朗獲得核武器",
-          "summary_zh": "白宮會議聚焦伊朗核問題與霍爾木茲海峽安全，川普強調若無法達成協議將「返回並完成任務」，同時表達希望避免打擊伊朗基礎設施。",
-          "event_time": "2026-07-29T00:50:16+08:00"
+          "headline_zh": "美國升級對伊朗制裁，首次瞄準霍爾木茲海峽「收費網」相關油輪與實體",
+          "summary_zh": "美國財政部對8艘油輪及10個實體（包含中國實體）實施制裁，重點打擊伊朗藉由掌控霍爾木茲海峽通道強行貨幣化與收費的網絡。",
+          "event_time": "2026-07-29T22:09:20+08:00"
         },
         {
-          "source_id": "bc033988195c9d74b7c178e7eda84cb920bdd69197cf4f9773920793a03b51bc",
+          "source_id": "9c0b54e9bdee3e2c86be9216553b757c979c6d2b2b3798f5130b035dd14dd881",
           "category": "戰爭",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "伊朗伊斯蘭革命衛隊向約旦美軍基地發射多枚彈道飛彈，遭美軍全數攔截",
-          "summary_zh": "伊朗向中東美軍設施發射飛彈進行報復，美軍確認均已攔截且無人員傷亡，維持高戒備狀態，區域軍事衝突面臨升級壓力。",
-          "event_time": "2026-07-29T06:27:46+08:00"
+          "headline_zh": "埃及達米埃塔港LNG浮式儲存設施遭無人機襲擊引發爆炸",
+          "summary_zh": "海事安全機構表示，位於埃及達米埃塔港的一艘美資/希臘營運LNG浮式儲存裝置遭至少一架無人機襲擊並引發火災，地緣衝突出現波及蘇伊士運河與地中海能源通道的跡象。",
+          "event_time": "2026-07-29T23:52:42+08:00"
         },
         {
-          "source_id": "98c51375792e5f7923257c92f386c3a348d751acc8cc6a38cafb09809f3618f4",
+          "source_id": "1d13c0521c606673a1f2974e2bf9c27126c28425ad082ffb9d9364fc80756817",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "川普警告將再次重擊伊朗，稱伊朗正尋求談判與達成協議",
+          "summary_zh": "美國總統川普表示美軍將對伊朗實施強烈打擊，同時透露伊朗方面正請求美方不要攻擊並尋求談判，美方將視情況決定是否達成協議。",
+          "event_time": "2026-07-30T03:21:40+08:00"
+        },
+        {
+          "source_id": "dfb6e057e5e592a64bd11d7fec90baae0d481537e99b4f3e1b5de9ffb1042396",
           "category": "戰爭",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "烏克蘭總統澤倫斯基表示川普已同意向烏克蘭提供愛國者飛彈授權",
-          "summary_zh": "Zelenskiy 在與川普及美參議員會晤後證實，美方同意在防空飛彈與系統方面給予關鍵支援。",
-          "event_time": "2026-07-29T09:26:18+08:00"
-        },
-        {
-          "source_id": "f0dc7e0ec48524eaa1b0e85de997513cea4849156a6f5e8afcd65d2182a3baf1",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "伊朗革命衛隊宣稱在霍爾木茲海峽擊中三艘忽視警告的油輪",
-          "summary_zh": "伊朗持續對霍爾木茲海峽航行實施封鎖行動，沙特煉廠及船隻亦遭胡塞組織與無人機襲擊，威脅全球能源運輸安全。",
-          "event_time": "2026-07-29T09:50:29+08:00"
+          "headline_zh": "沙烏地國防部長會晤美國副總統萬斯，強調支持與伊朗降溫局勢",
+          "summary_zh": "沙烏地國防部長在華府與美方高層會晤時明確表示，儘管參與了伊拉克空襲，沙國仍支持與伊朗保持溝通並降低區域緊張局勢。",
+          "event_time": "2026-07-30T03:48:30+08:00"
         }
       ]
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 3199,
-    "candidatesTokenCount": 448,
-    "totalTokenCount": 5858,
+    "promptTokenCount": 4283,
+    "candidatesTokenCount": 426,
+    "totalTokenCount": 6878,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 3199
+        "tokenCount": 4283
       }
     ],
-    "thoughtsTokenCount": 2211,
+    "thoughtsTokenCount": 2169,
     "serviceTier": "standard"
   }
 }
