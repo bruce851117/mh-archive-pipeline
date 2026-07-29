@@ -1,0 +1,283 @@
+name: Export Repository Context
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Generate full repository dump
+        shell: bash
+        run: |
+          python - <<'PY'
+          from __future__ import annotations
+
+          import subprocess
+          from pathlib import Path
+
+          ROOT = Path(".").resolve()
+          OUTPUT = ROOT / "REPO_FULL_DUMP.txt"
+
+          # 只處理可直接閱讀的文字檔案
+          TEXT_EXTENSIONS = {
+              ".py",
+              ".pyi",
+              ".js",
+              ".jsx",
+              ".ts",
+              ".tsx",
+              ".html",
+              ".htm",
+              ".css",
+              ".scss",
+              ".json",
+              ".jsonl",
+              ".csv",
+              ".tsv",
+              ".md",
+              ".txt",
+              ".yml",
+              ".yaml",
+              ".toml",
+              ".ini",
+              ".cfg",
+              ".conf",
+              ".xml",
+              ".sql",
+              ".sh",
+              ".bash",
+              ".ps1",
+              ".bat",
+              ".env.example",
+              ".gitignore",
+              ".gitattributes",
+          }
+
+          # 明確排除不應匯出的內容
+          EXCLUDED_FILES = {
+              "REPO_FULL_DUMP.txt",
+          }
+
+          EXCLUDED_NAMES = {
+              ".env",
+              ".env.local",
+              ".env.production",
+              ".env.development",
+              "credentials.json",
+              "service-account.json",
+              "service_account.json",
+              "secrets.json",
+          }
+
+          EXCLUDED_PARTS = {
+              ".git",
+              "__pycache__",
+              ".pytest_cache",
+              ".mypy_cache",
+              ".ruff_cache",
+              "node_modules",
+              ".venv",
+              "venv",
+              "dist",
+              "build",
+          }
+
+          SPECIAL_TEXT_FILES = {
+              "Dockerfile",
+              "Makefile",
+              "Procfile",
+              "requirements.txt",
+              "runtime.txt",
+              "package.json",
+              "package-lock.json",
+              "pyproject.toml",
+              "poetry.lock",
+              "Pipfile",
+              "Pipfile.lock",
+          }
+
+          def get_tracked_files() -> list[Path]:
+              result = subprocess.run(
+                  ["git", "ls-files", "-z"],
+                  check=True,
+                  capture_output=True,
+             s = result.stdout.decode("utf-8", errors="replace").split("\0")
+              return [
+                  ROOT / name
+                  for name in names
+                  if name
+              ]
+
+          def relative_path(path: Path) -> str:
+              return path.relative_to(ROOT).as_posix()
+
+          def is_excluded(path: Path) -> bool:
+              rel = relative_path(path)
+
+              if rel in EXCLUDED_FILES:
+                  return True
+
+              if path.name in EXCLUDED_NAMES:
+                  return True
+
+              if any(part in EXCLUDED_PARTS for part in path.parts):
+                  return True
+
+              return False
+
+          def is_text_candidate(path: Path) -> bool:
+              if path.name in SPECIAL_TEXT_FILES:
+                  return True
+
+              if path.name.startswith(".env"):
+                  return path.name == ".env.example"
+
+              return path.suffix.lower() in TEXT_EXTENSIONS
+
+          def read_text_file(path: Path) -> tuple[str | None, str | None]:
+              try:
+                  raw = path.read_bytes()
+              except Exception as exc:
+                  return None, f"讀取失敗：{exc}"
+
+              # 包含 NULL byte 時通常是二進位檔
+              if b"\x00" in raw:
+                  return None, "判定為二進位檔，未展開內容"
+
+              try:
+                  return raw.decode("utf-8"), None
+              except UnicodeDecodeError:
+                  try:
+                      return raw.decode("utf-8-sig"), None
+                  except UnicodeDecodeError:
+                      try:
+                          return raw.decode("cp950"), None
+                      except UnicodeDecodeError:
+                          return raw.decode(
+                              "utf-8",
+                              errors="replace",
+                          ), "部分字元無法解碼，已使用替代字元"
+
+          tracked_files = sorted(
+              get_tracked_files(),
+              key=lambda item: relative_path(item).lower(),
+          )
+
+          included_files: list[Path] = []
+          skipped_files: list[tuple[str, str]] = []
+
+          for file_path in tracked_files:
+              rel = relative_path(file_path)
+
+              if not file_path.exists():
+                  skipped_files.append((rel, "檔案不存在或為失效連結"))
+                  continue
+
+              if not file_path.is_file():
+                  skipped_files.append((rel, "不是一般檔案"))
+                  continue
+
+              if is_excluded(file_path):
+                  skipped_files.append((rel, "安全性或輸出檔案排除"))
+                  continue
+
+              if not is_text_candidate(file_path):
+                  skipped_files.append((rel, "非文字型副檔名"))
+                  continue
+
+              included_files.append(file_path)
+
+          lines: list[str] = []
+
+          lines.extend([
+              "=" * 100,
+              "REPOSITORY FULL TEXT DUMP",
+              "=" * 100,
+              "",
+              "用途：供程式碼、GitHub Actions、設定檔與 data 文字資料進行完整專案分析。",
+              "來源：git ls-files 所列出的 Git 追蹤檔案。",
+              "",
+              "=" * 100,
+              "REPOSITORY FILE TREE",
+              "=" * 100,
+              "",
+          ])
+
+          for file_path in tracked_files:
+              lines.append(relative_path(file_path))
+
+          lines.extend([
+              "",
+              "=" * 100,
+              "INCLUDED TEXT FILES",
+              "=" * 100,
+              "",
+          ])
+
+          for file_path in included_files:
+              lines.append(relative_path(file_path))
+
+          lines.extend([
+              "",
+              "=" * 100,
+              "SKIPPED FILES",
+              "=" * 100,
+              "",
+          ])
+
+          if skipped_files:
+              for name, reason in skipped_files:
+                  lines.append(f"{name} | {reason}")
+          else:
+              lines.append("(none)")
+
+          lines.extend([
+              "",
+              "=" * 100,
+              "FILE CONTENTS",
+              "=" * 100,
+              "",
+          ])
+
+          for index, file_path in enumerate(included_files, start=1):
+              rel = relative_path(file_path)
+              content, warning = read_text_file(file_path)
+
+              lines.extend([
+                  "",
+                  "#" * 100,
+                  f"FILE {index}/{len(included_files)}: {rel}",
+                  "#" * 100,
+                  "",
+              ])
+
+              if warning:
+                  lines.append(f"[WARNING] {warning}")
+                  lines.append("")
+
+              if content is None:
+                  lines.append("[CONTENT NOT AVAILABLE]")
+              elif content:
+                  lines.append(content.rstrip())
+              else:
+                  lines.append("[EMPTY FILE]")
+
+              lines.extend([
+                  "",
+                  f"END OF FILE: {rel}",
+                  "",
+              ])
+
+          OUTPUT.write_text(
+              "\n".join(lines) + "\n",
+             
