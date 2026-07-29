@@ -16,19 +16,17 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Generate full repository dump
+      - name: Generate repository full dump
         shell: bash
         run: |
-          python - <<'PY'
-          from __future__ import annotations
-
-          import subprocess
+          cat > /tmp/export_repo.py <<'PYTHON_SCRIPT'
           from pathlib import Path
+          import subprocess
 
-          ROOT = Path(".").resolve()
-          OUTPUT = ROOT / "REPO_FULL_DUMP.txt"
 
-          # 只處理可直接閱讀的文字檔案
+          ROOT = Path.cwd()
+          OUTPUT_FILE = ROOT / "REPO_FULL_DUMP.txt"
+
           TEXT_EXTENSIONS = {
               ".py",
               ".pyi",
@@ -58,38 +56,6 @@ jobs:
               ".bash",
               ".ps1",
               ".bat",
-              ".env.example",
-              ".gitignore",
-              ".gitattributes",
-          }
-
-          # 明確排除不應匯出的內容
-          EXCLUDED_FILES = {
-              "REPO_FULL_DUMP.txt",
-          }
-
-          EXCLUDED_NAMES = {
-              ".env",
-              ".env.local",
-              ".env.production",
-              ".env.development",
-              "credentials.json",
-              "service-account.json",
-              "service_account.json",
-              "secrets.json",
-          }
-
-          EXCLUDED_PARTS = {
-              ".git",
-              "__pycache__",
-              ".pytest_cache",
-              ".mypy_cache",
-              ".ruff_cache",
-              "node_modules",
-              ".venv",
-              "venv",
-              "dist",
-              "build",
           }
 
           SPECIAL_TEXT_FILES = {
@@ -104,38 +70,78 @@ jobs:
               "poetry.lock",
               "Pipfile",
               "Pipfile.lock",
+              ".gitignore",
+              ".gitattributes",
+              ".env.example",
           }
 
-          def get_tracked_files() -> list[Path]:
+          EXCLUDED_FILE_NAMES = {
+              "REPO_FULL_DUMP.txt",
+              ".env",
+              ".env.local",
+              ".env.production",
+              ".env.development",
+              "credentials.json",
+              "service-account.json",
+              "service_account.json",
+              "secrets.json",
+          }
+
+          EXCLUDED_DIRECTORY_NAMES = {
+              ".git",
+              "__pycache__",
+              ".pytest_cache",
+              ".mypy_cache",
+              ".ruff_cache",
+              "node_modules",
+              ".venv",
+              "venv",
+              "dist",
+              "build",
+          }
+
+
+          def get_tracked_files():
               result = subprocess.run(
                   ["git", "ls-files", "-z"],
                   check=True,
                   capture_output=True,
-             s = result.stdout.decode("utf-8", errors="replace").split("\0")
-              return [
-                  ROOT / name
-                  for name in names
-                  if name
-              ]
+              )
 
-          def relative_path(path: Path) -> str:
+              decoded = result.stdout.decode(
+                  "utf-8",
+                  errors="replace",
+              )
+
+              paths = []
+
+              for name in decoded.split("\0"):
+                  if not name:
+                      continue
+
+                  paths.append(ROOT / name)
+
+              return paths
+
+
+          def get_relative_path(path):
               return path.relative_to(ROOT).as_posix()
 
-          def is_excluded(path: Path) -> bool:
-              rel = relative_path(path)
 
-              if rel in EXCLUDED_FILES:
+          def is_excluded(path):
+              if path.name in EXCLUDED_FILE_NAMES:
                   return True
 
-              if path.name in EXCLUDED_NAMES:
-                  return True
+              relative_parts = path.relative_to(ROOT).parts
 
-              if any(part in EXCLUDED_PARTS for part in path.parts):
-                  return True
+              for part in relative_parts:
+                  if part in EXCLUDED_DIRECTORY_NAMES:
+                      return True
 
               return False
 
-          def is_text_candidate(path: Path) -> bool:
+
+          def is_text_candidate(path):
               if path.name in SPECIAL_TEXT_FILES:
                   return True
 
@@ -144,140 +150,137 @@ jobs:
 
               return path.suffix.lower() in TEXT_EXTENSIONS
 
-          def read_text_file(path: Path) -> tuple[str | None, str | None]:
+
+          def read_text_file(path):
               try:
-                  raw = path.read_bytes()
+                  raw_data = path.read_bytes()
               except Exception as exc:
-                  return None, f"讀取失敗：{exc}"
+                  return None, "Unable to read file: {}".format(exc)
 
-              # 包含 NULL byte 時通常是二進位檔
-              if b"\x00" in raw:
-                  return None, "判定為二進位檔，未展開內容"
+              if b"\x00" in raw_data:
+                  return None, "Binary file detected"
 
-              try:
-                  return raw.decode("utf-8"), None
-              except UnicodeDecodeError:
+              encodings = [
+                  "utf-8",
+                  "utf-8-sig",
+                  "cp950",
+                  "big5",
+                  "latin-1",
+              ]
+
+              for encoding in encodings:
                   try:
-                      return raw.decode("utf-8-sig"), None
+                      return raw_data.decode(encoding), None
                   except UnicodeDecodeError:
-                      try:
-                          return raw.decode("cp950"), None
-                      except UnicodeDecodeError:
-                          return raw.decode(
-                              "utf-8",
-                              errors="replace",
-                          ), "部分字元無法解碼，已使用替代字元"
+                      continue
+
+              return (
+                  raw_data.decode("utf-8", errors="replace"),
+                  "Some characters were replaced during decoding",
+              )
+
+
+          def mask_possible_secrets(content):
+              sensitive_keywords = (
+                  "api_key",
+                  "apikey",
+                  "api-key",
+                  "token",
+                  "secret",
+                  "password",
+                  "private_key",
+                  "private-key",
+                  "client_secret",
+              )
+
+              masked_lines = []
+
+              for line in content.splitlines():
+                  lowered = line.lower()
+
+                  is_sensitive = any(
+                      keyword in lowered
+                      for keyword in sensitive_keywords
+                  )
+
+                  if not is_sensitive:
+                      masked_lines.append(line)
+                      continue
+
+                  stripped = line.strip()
+
+                  if stripped.startswith("#"):
+                      masked_lines.append(line)
+                      continue
+
+                  if "secrets." in lowered:
+                      masked_lines.append(line)
+                      continue
+
+                  separator = None
+
+                  if "=" in line:
+                      separator = "="
+                  elif ":" in line:
+                      separator = ":"
+
+                  if separator is None:
+                      masked_lines.append(line)
+                      continue
+
+                  key = line.split(separator, 1)[0]
+                  masked_lines.append(
+                      "{}{} [REDACTED BY EXPORT WORKFLOW]".format(
+                          key,
+                          separator,
+                      )
+                  )
+
+              return "\n".join(masked_lines)
+
 
           tracked_files = sorted(
               get_tracked_files(),
-              key=lambda item: relative_path(item).lower(),
+              key=lambda path: get_relative_path(path).lower(),
           )
 
-          included_files: list[Path] = []
-          skipped_files: list[tuple[str, str]] = []
+          included_files = []
+          skipped_files = []
 
           for file_path in tracked_files:
-              rel = relative_path(file_path)
+              relative_path = get_relative_path(file_path)
 
               if not file_path.exists():
-                  skipped_files.append((rel, "檔案不存在或為失效連結"))
+                  skipped_files.append(
+                      (relative_path, "File does not exist")
+                  )
                   continue
 
               if not file_path.is_file():
-                  skipped_files.append((rel, "不是一般檔案"))
+                  skipped_files.append(
+                      (relative_path, "Not a regular file")
+                  )
                   continue
 
               if is_excluded(file_path):
-                  skipped_files.append((rel, "安全性或輸出檔案排除"))
+                  skipped_files.append(
+                      (relative_path, "Excluded for safety")
+                  )
                   continue
 
               if not is_text_candidate(file_path):
-                  skipped_files.append((rel, "非文字型副檔名"))
+                  skipped_files.append(
+                      (relative_path, "Non-text extension")
+                  )
                   continue
 
               included_files.append(file_path)
 
-          lines: list[str] = []
-
-          lines.extend([
+          output_lines = [
               "=" * 100,
               "REPOSITORY FULL TEXT DUMP",
               "=" * 100,
               "",
-              "用途：供程式碼、GitHub Actions、設定檔與 data 文字資料進行完整專案分析。",
-              "來源：git ls-files 所列出的 Git 追蹤檔案。",
-              "",
-              "=" * 100,
-              "REPOSITORY FILE TREE",
-              "=" * 100,
-              "",
-          ])
-
-          for file_path in tracked_files:
-              lines.append(relative_path(file_path))
-
-          lines.extend([
-              "",
-              "=" * 100,
-              "INCLUDED TEXT FILES",
-              "=" * 100,
-              "",
-          ])
-
-          for file_path in included_files:
-              lines.append(relative_path(file_path))
-
-          lines.extend([
-              "",
-              "=" * 100,
-              "SKIPPED FILES",
-              "=" * 100,
-              "",
-          ])
-
-          if skipped_files:
-              for name, reason in skipped_files:
-                  lines.append(f"{name} | {reason}")
-          else:
-              lines.append("(none)")
-
-          lines.extend([
-              "",
-              "=" * 100,
-              "FILE CONTENTS",
-              "=" * 100,
-              "",
-          ])
-
-          for index, file_path in enumerate(included_files, start=1):
-              rel = relative_path(file_path)
-              content, warning = read_text_file(file_path)
-
-              lines.extend([
-                  "",
-                  "#" * 100,
-                  f"FILE {index}/{len(included_files)}: {rel}",
-                  "#" * 100,
-                  "",
-              ])
-
-              if warning:
-                  lines.append(f"[WARNING] {warning}")
-                  lines.append("")
-
-              if content is None:
-                  lines.append("[CONTENT NOT AVAILABLE]")
-              elif content:
-                  lines.append(content.rstrip())
-              else:
-                  lines.append("[EMPTY FILE]")
-
-              lines.extend([
-                  "",
-                  f"END OF FILE: {rel}",
-                  "",
-              ])
-
-          OUTPUT.write_text(
-              "\n".join(lines) + "\n",
-             
+              "Repository root: {}".format(ROOT.name),
+              "Tracked files: {}".format(len(tracked_files)),
+              "Included text files: {}".format(len(included_files)),
