@@ -134,6 +134,7 @@ CENTRAL_BANK_SYSTEM_INSTRUCTION = """
 11. 每筆只能輸出central_bank、official、date、summary_zh、source_ids五個欄位。
 12. 不要輸出topics、source_headlines或任何其他欄位。
 13. summary_zh控制在100個中文字以內。
+14. 如果你判斷不是官員談話的話，就直接忽略
 """.strip()
 
 

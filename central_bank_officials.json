@@ -3,11 +3,11 @@
   "timezone": "Asia/Taipei",
   "description": "每小時僅以央行名稱加所有格前綴篩選Headline；官員名單依政策重要性排序，供Gemini統一姓名與網頁呈現。priority越小越重要。",
   "filter_prefixes": {
-    "FED": ["fed's", "fed’s"],
-    "BOE": ["boe's", "boe’s"],
-    "ECB": ["ecb's", "ecb’s"],
-    "BOJ": ["boj's", "boj’s"],
-    "RBA": ["rba's", "rba’s"]
+    "FED": ["fed's", "fed’s", "fed"],
+    "BOE": ["boe's", "boe’s", "boe"],
+    "ECB": ["ecb's", "ecb’s", "ecb"],
+    "BOJ": ["boj's", "boj’s", "boj"],
+    "RBA": ["rba's", "rba’s", "rba"]
   },
   "central_banks": {
     "FED": {
