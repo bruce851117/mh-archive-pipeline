@@ -1,117 +1,62 @@
 {
-  "generated_at": "2026-07-31T07:05:25.908450+08:00",
-  "summary_generated_at": "2026-07-31T07:05:25.908450+08:00",
-  "data_updated_at": "2026-07-31T06:50:55.652650+08:00",
+  "generated_at": "2026-08-01T07:06:04.023101+08:00",
+  "summary_generated_at": "2026-08-01T07:06:04.023101+08:00",
+  "data_updated_at": "2026-08-01T06:51:03.872124+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-07-30T17:00:00+08:00",
-  "period_end": "2026-07-31T06:50:55.652650+08:00",
+  "period_start": "2026-07-31T17:00:00+08:00",
+  "period_end": "2026-08-01T06:51:03.872124+08:00",
   "model": "gemini-3.6-flash",
   "source_digest_files": [
-    "data/digests/2026/07/2026-07-29.json",
     "data/digests/2026/07/2026-07-30.json",
-    "data/digests/2026/07/2026-07-31.json"
+    "data/digests/2026/07/2026-07-31.json",
+    "data/digests/2026/08/2026-08-01.json"
   ],
-  "event_count": 23,
+  "event_count": 13,
   "summary_points": [
-    "川普宣佈和平委員會達成哈馬斯及迦薩武裝派系全面解除武裝的歷史性協議，將分階段伴隨以色列軍隊撤離並由國際穩定部隊接管安全職責。",
-    "日本政府與日本央行於紐約外匯市場發動聯合干預，賣出美元並買入日圓以遏止日圓過度貶值。",
-    "英國央行以6對3的投票結果決定維持基準利率於3.75%不變，部分委員因擔心中東衝突引發二次通膨風險而主張升息。",
-    "美國第二季GDP年化成長率放緩至1.5%低於預期，但核心PCE物價指數放緩至3.4%，顯示通膨正漸進降溫。",
-    "蘋果公布第三季財報並預估營收將成長9%至11%，主要受惠於關稅退稅提振毛利率，且Apple Intelligence已獲中國批准發布。",
-    "亞馬遜因記憶體晶片成本上升及AWS雲端需求強勁，將2026年資本支出預算上調至2,200億美元。",
-    "伊朗證實正與阿曼就荷姆茲海峽管理及解除海上封鎖進行談判，該協議可能成為解除石油制裁的契機。",
-    "惠譽評級指出美國私人信貸違約率於2026年第二季創歷史新高，顯示高利率環境正持續施壓非銀行金融機構與高負債企業。",
-    "美中財政主管進行熱線會談，美方敦促中方落實稀土與農產品採購承諾，並表達對供應鏈新規的關切。"
+    "美國財政部與紐約聯儲指示銀行業者為潛在的日圓干預行動做準備，顯示美日可能發動聯合匯率干預，引發外匯市場強烈震盪。",
+    "據報導美國與以色列正準備最快於本週末轟炸伊朗能源與煉油設施，地緣政治風險急劇攀升並推升國際原油價格。",
+    "伊朗伊斯蘭革命衛隊於荷姆茲海峽攔截油輪並迫使多艘船隻改道，導致關鍵海上能源通道受阻，引發市場對全球石油供應中斷的極度擔憂。",
+    "川普表示美軍正重擊伊朗且對和談漸失信心，伊朗高層則警告已制定反擊計畫瞄準美以能源設施，中東局勢持續惡化。",
+    "美聯儲多位官員發表鷹派言論，警告通膨上行風險偏高並傾向微幅升息，以防止通膨根深蒂固。",
+    "歐元區7月CPI年增率升至2.9%、核心通膨率升至2.5%，通膨數據高於預期增加了歐洲央行後續利率決策的複雜度。",
+    "OpenAI 宣布旗下模型活躍用戶數突破10億大關並預覽 Astra 模型，同時中國 AI 新創亦大規模採購輝達晶片，顯示全球 AI 算力需求依然強勁，支撐科技股信心。",
+    "英國財政大臣希利預告將於10月28日發表預算案，並警告不排除透過加稅與削減支出以彌補財政缺口，影響英國財政前景與公債市場。",
+    "美國總統川普簽署行政命令，對進口石英表面產品實施為期4年的關稅配額，體現美國持續推進貿易保護與關稅政策。"
   ],
   "blocks": [
     {
       "category": "債市",
-      "news": [
-        {
-          "source_id": "3796fd04d107a751ad1cc4d9b3abc4456bf5d53524f6af8cd1c0bcf22cc08279",
-          "category": "債市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美國財政部標售4週型短期國債 得標利率為3.63%",
-          "summary_zh": "美債短期流動性需求穩健，投標倍數達到2.8倍，收益率自前次3.73%小幅下滑。",
-          "event_time": "2026-07-30T23:32:06+08:00"
-        },
-        {
-          "source_id": "2b2e7b20e80c6668045a47ef08a0b3def6665c1483291349d0262eb8570210b1",
-          "category": "債市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "惠譽評級：美國私人信貸違約率於2026年第二季創歷史新高",
-          "summary_zh": "高利率環境持續施壓非銀行金融機構與高負債企業，私人信貸違約率上升引發信貸市場風險警訊。",
-          "event_time": "2026-07-31T01:59:46+08:00"
-        }
-      ]
+      "news": []
     },
     {
       "category": "股市",
       "news": [
         {
-          "source_id": "1fb745f7cf8c39bf96e7507abc10a6e3410dfe2857c7e233c3d175f3e8e24217",
+          "source_id": "cafb1ba8ee8817f5f8d9a05f7ac8c376c405f4d653308128dd76623dd1fa8058",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "雪佛龍公佈第二季財報 並預期委內瑞拉產量持續回升",
+          "summary_zh": "雪佛龍（Chevron）發布財報，並指出其在委內瑞拉的產量大幅增加，且積極探索與資料中心合作之發電協議。",
+          "event_time": "2026-07-31T18:17:55+08:00"
+        },
+        {
+          "source_id": "331fc01bae530710047c07a1bee4b2a4167db45d7bb357e38a85a4ee1ec78b92",
           "category": "股市",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "歐盟啟動100億歐元公共資金計畫 吸引344億美元建置AI資料中心",
-          "summary_zh": "歐盟擴大科技主權投資，加速補強歐洲在超級計算與大規模AI模型訓練的基礎設施短板。",
-          "event_time": "2026-07-30T17:48:27+08:00"
+          "headline_zh": "月之暗面 Kimi AI 模型採用阿里巴巴託管之2萬顆輝達晶片集群訓練",
+          "summary_zh": "中國 AI 新創公司月之暗面（Moonshot）大規模採用輝達（Nvidia）晶片訓練模型，顯示 AI 算力基礎設施需求強勁。",
+          "event_time": "2026-07-31T20:20:03+08:00"
         },
         {
-          "source_id": "a849e0d55c4e6330d9eae6320bad50d7ddba9b1e448dcacc72eaf3c3ce7d5d2c",
+          "source_id": "3bf1d8affad413fc1c510ec681ac6a8ee4147feaecf65740dc03688fc89170df",
           "category": "股市",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "甲骨文擴大與Google合作 將Gemini AI模型整合至企業級應用",
-          "summary_zh": "Oracle與Google Cloud深化合作，推動大型企業在雲端與資料庫中導入雲端生成式AI軟體。",
-          "event_time": "2026-07-30T20:54:12+08:00"
-        },
-        {
-          "source_id": "9ba1f4fb77094bd542198221b7e125ed47d31dcfa9aa11bff4d584080b072352",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "城堡投資收購Situational Awareness股票投資組合 應對AI投資虧損",
-          "summary_zh": "知名基金Situational Awareness因AI領域押注遭受巨額虧損後清算股票組合，由Citadel接手。",
-          "event_time": "2026-07-30T23:32:55+08:00"
-        },
-        {
-          "source_id": "1c9d2b871755d6f6d755272ceb935cec51ea4452deddbb4762bbf4cf1f87f97b",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "Nexus Data Centers洽談150億美元貸款 於德州建設大規模AI資料中心",
-          "summary_zh": "摩根士丹利領籌銀行團貸款，顯示美系科技基礎設施項目強烈融資需求。",
-          "event_time": "2026-07-31T01:43:38+08:00"
-        },
-        {
-          "source_id": "e935d0d8ff4327eb892d00048e1df923f191a0642b1bd9b1322300d00a8bffe2",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "DeepSeek於內蒙古籌建1吉瓦（GW）大規模AI資料中心",
-          "summary_zh": "中國AI業者 DeepSeek 推進基礎設施運算能力建設，確保大模型算力供給。",
-          "event_time": "2026-07-31T02:30:53+08:00"
-        },
-        {
-          "source_id": "336c510309fa04c7a5064aea72e84aeda8aef7d99f1069fff63d3eafbcde9a7a",
-          "category": "股市",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "亞馬遜公布第二季財報 預估2026年資本支出將達2,200億美元",
-          "summary_zh": "Amazon因記憶體晶片成本上漲及AWS雲端需求強勁，調升2026年 Capex 預算至2,200億美元，並指出供需緊缺狀況仍將持續。",
-          "event_time": "2026-07-31T05:15:01+08:00"
-        },
-        {
-          "source_id": "5c97296381e982514c8ee1ae397a6b6c0a9d1a7626e041664801a884211656f8",
-          "category": "股市",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "蘋果公布第三季財報並預測營收成長9-11% 受受益於關稅退稅挹注",
-          "summary_zh": "Apple表示關稅退稅提振毛利率1個百分點至47-48%，iPhone營收預計年增雙位數，且Apple Intelligence已獲中國批准發布。",
-          "event_time": "2026-07-31T05:28:57+08:00"
+          "headline_zh": "OpenAI 宣佈旗下模型活躍用戶數突破10億大關並預覽 Astra 模型",
+          "summary_zh": "OpenAI 宣布用戶數顯著成長，並於華盛頓特區預覽新模型，展現 AI 需求持續旺盛，支撐科技股投資信心。",
+          "event_time": "2026-07-31T23:05:02+08:00"
         }
       ]
     },
@@ -119,31 +64,22 @@
       "category": "央行",
       "news": [
         {
-          "source_id": "8836523c0feaff8bf3f0041a0440b16ddffcce7738ba11dd03cfa1148aeaca08",
-          "category": "央行",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "英國央行維持基準利率於3.75%不變 投票比例為6比3",
-          "summary_zh": "BoE委員會以6:3決議維持利率，有3位委員主張升息1碼以應對中東衝突引發二次通膨效應的潛在風險。",
-          "event_time": "2026-07-30T19:00:01+08:00"
-        },
-        {
-          "source_id": "eb96b3613c2c7b7507b63f73e21b102d62e625aa23f512db443046d6430b6363",
+          "source_id": "05bfe2e3b76902a8fa8d1ea02eb38478ae681f1cf65ea46bcdaaa80adc569d4f",
           "category": "央行",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "英國央行總裁貝利：若中東衝突持續帶動二次通膨效應 央行將毫不猶豫升息",
-          "summary_zh": "Andrew Bailey強調目前國內薪資與服務業通膨放緩，但若能源價格飆升傳導至普遍物價，不排除重啟升息。",
-          "event_time": "2026-07-30T20:13:07+08:00"
+          "headline_zh": "美聯儲多位官員發表鷹派言論 警告通膨上行風險並傾向微幅升息",
+          "summary_zh": "美聯儲（Fed）官員卡什卡利（Kashkari）、哈馬克（Hammack）與洛根（Logan）均表示通膨風險偏向上行，偏好進一步升息以防止通膨根深蒂固。",
+          "event_time": "2026-07-31T20:01:17+08:00"
         },
         {
-          "source_id": "478a2e667561036413d553b83dbd56437403e3dc958dea85e4b027a3d635ba79",
+          "source_id": "acb227fe806904a31bbb1856118e29d5e24679e18ca78b8b7849dccb44b4e474",
           "category": "央行",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "日本政府與日本央行於紐約外匯市場發動聯合干預 賣美元買日圓",
-          "summary_zh": "日經新聞與美方官員證實，日本當局對日圓過度貶值展開實質外匯干預，美國財政部長貝森特（Bessent）亦表示日圓目前顯著低估。",
-          "event_time": "2026-07-31T04:33:38+08:00"
+          "headline_zh": "消息指出美國財政部與紐約聯儲指示銀行為潛在日圓干預行動做準備",
+          "summary_zh": "市場消息傳出美國當局已告知銀行業者密切監測日圓匯率並做好準備，顯示美日可能發動聯合匯率干預，引發外匯市場強烈震盪。",
+          "event_time": "2026-07-31T21:22:40+08:00"
         }
       ]
     },
@@ -151,22 +87,31 @@
       "category": "財政政策",
       "news": [
         {
-          "source_id": "0013a3bdb908709f0dbd6ee9fc0c3c1079b69cc393f832e4e9d331f44036a51b",
+          "source_id": "7cbb67e471cb72381f62677dc1fb0e99a62530eeaf351ec4791197d4858110ec",
           "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "日本首相高市早苗指示自2027年4月起將食品消費稅降至1%",
-          "summary_zh": "高市早苗（Takaichi）宣佈減稅計畫，為期兩年，並承諾將尋求非發債方式之財源以維持財政紀律與市場信任。",
-          "event_time": "2026-07-30T17:08:48+08:00"
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "美國財政部長貝森特重申美日強健關係 並肯定日本央行維持貨幣穩定之努力",
+          "summary_zh": "美國財長貝森特（Scott Bessent）讚揚日本經濟表現，並展現兩國在經濟與貨幣領域的緊密溝通。",
+          "event_time": "2026-07-31T21:46:23+08:00"
         },
         {
-          "source_id": "0e6f83088be21aa8bae6ad69d93b22854f5ee7b2141a696594531cf99afcdddd",
+          "source_id": "98e7b01928ac310e108ed8f2d10f2011f9c1bd6ae79f745aa039b838d8220da0",
           "category": "財政政策",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "美中財政主管熱線會談 美方敦促中方落實稀土與農產品採購承諾",
-          "summary_zh": "美國財長貝森特（Bessent）及貿易代表格里爾（Greer）與中國副總理何立峰進行對話，表達對供應鏈新規與再工業化挑戰的關切。",
-          "event_time": "2026-07-31T02:37:27+08:00"
+          "headline_zh": "英國財政大臣希利定於10月28日發表預算案 並警告不排除加稅與削減支出",
+          "summary_zh": "英國財政大臣希利（John Healey）要求內閣部長準備削減預算，並表示可能加稅以彌補財政缺口，影響英國財政前景與公債市場。",
+          "event_time": "2026-07-31T22:04:20+08:00"
+        },
+        {
+          "source_id": "228c65da4f3172a903afb3286a11758d925b9ec5920af08d234c1cfc019be299",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "川普簽署行政命令 對石英表面產品進口實施為期4年的關稅配額",
+          "summary_zh": "美國總統川普（Donald Trump）宣佈新貿易保護措施，對進口石英產品實施關稅配額，體現美國關稅政策的持續推進。",
+          "event_time": "2026-08-01T05:03:12+08:00"
         }
       ]
     },
@@ -174,40 +119,13 @@
       "category": "經濟",
       "news": [
         {
-          "source_id": "39426f616b717665c0362e7b0dfa1e9161df31ff6d932b73440ee3d6c5c7fee1",
+          "source_id": "4372ad7a1433fae77a59cdb5db2848cc7c47416c8b08967bc4c35741aea2c65a",
           "category": "經濟",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "歐元區第二季GDP初值季增0.4% 年增1.0% 優於市場預期",
-          "summary_zh": "受德法意主要經濟體溫和成長推動，歐元區整體經濟表現展現韌性。",
-          "event_time": "2026-07-30T17:00:39+08:00"
-        },
-        {
-          "source_id": "ced53da8d1be0682e8f39b90da5bcd52f5767c74402d57045c7890219bf66f7d",
-          "category": "經濟",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "美國第二季GDP成長率1.5% 核心PCE物價指數放緩至3.4%",
-          "summary_zh": "美國第二季經濟成長放緩至1.5%（低於預期的2.0%），但月度核心PCE物價指數季調後微升0.1%，顯示通膨漸進降溫。",
-          "event_time": "2026-07-30T20:30:01+08:00"
-        },
-        {
-          "source_id": "f29698aa2c798ac73462e0df3086dd6fd5c3637cc01eb97a0e96ef698c5b9a32",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "俄羅斯延長柴油與燃料出口禁令至2027年1月底",
-          "summary_zh": "俄羅斯為穩定國內能源供應並因應煉油廠頻遭無人機襲擊，延長燃料出口限制，加劇全球柴油市場緊缺。",
-          "event_time": "2026-07-30T22:01:35+08:00"
-        },
-        {
-          "source_id": "50b8d659bcedf100e5d9e047b332b572bb618317656eada4ee268dbb9a255eed",
-          "category": "經濟",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "美國30年期固定房貸利率升至6.66% 創一年來新高",
-          "summary_zh": "房地美（Freddie Mac）數據顯示房貸利率跟隨長端收益率反彈，持續壓抑美國房市買氣。",
-          "event_time": "2026-07-31T00:01:08+08:00"
+          "headline_zh": "歐元區7月CPI年增率升至2.9% 核心通膨率升至2.5%",
+          "summary_zh": "歐元區通膨數據高於預期，受到能源價格與地緣政治波動影響，增加歐洲央行後續利率決策的複雜度。",
+          "event_time": "2026-07-31T17:00:41+08:00"
         }
       ]
     },
@@ -215,64 +133,55 @@
       "category": "戰爭",
       "news": [
         {
-          "source_id": "0ed6ebed055d2ebdf1fa8bbca790ad32a3349ca64ce48d26c483854e0ce7041a",
+          "source_id": "ae1b4c87493e4778bfbbd1882f7ae6f44eaa97d9295ffc72e819865165e31c32",
           "category": "戰爭",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "伊朗證實與阿曼就荷姆茲海峽管理及解除海上封鎖進行持續談判",
-          "summary_zh": "伊朗外交部表示正在阿曼馬斯喀特（Muscat）進行斡旋談判，潛在協議可能作為解除海上封鎖與石油制裁的契機。",
-          "event_time": "2026-07-30T18:41:04+08:00"
+          "headline_zh": "伊朗伊斯蘭革命衛隊於荷姆茲海峽攔截油輪 迫使多艘船隻改道",
+          "summary_zh": "伊朗革命衛隊阻止油輪通過荷姆茲海峽（Strait of Hormuz），導致關鍵海上能源通道運作受阻，引發市場對全球石油供應中斷的極度擔憂。",
+          "event_time": "2026-07-31T17:20:50+08:00"
         },
         {
-          "source_id": "885d3fd324655d9dbf4a716c232cf2381ea2e011b955e43d5b7455250739b1cf",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "波蘭與北約證實波蘭領空遭俄羅斯彈道飛彈侵犯並啟動防禦機制",
-          "summary_zh": "波蘭總理圖斯克（Tusk）與北約秘書長呂特（Rutte）確認飛彈事件，北約隨即強化邊境防禦體系。",
-          "event_time": "2026-07-30T21:58:16+08:00"
-        },
-        {
-          "source_id": "68764fe09536095bb8efa6b68964f88f6b7d8e7a075bed12e8be7f946983db2d",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "沙烏地阿拉伯召集43國與歐盟 代表團探討成立曼德海峽海上防禦聯盟",
-          "summary_zh": "沙烏地國防部主導多國會議，旨在組建多國聯合海軍以保障紅海、亞丁灣及曼德海峽的航行安全。",
-          "event_time": "2026-07-31T00:18:28+08:00"
-        },
-        {
-          "source_id": "2a394010b8e16ec1f75e4d6389e175a762b0e33d35ec9c67e6bbaafe8b7c30b9",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "伊朗軍方宣稱對巴林伊薩海軍基地美軍設施發動襲擊",
-          "summary_zh": "伊朗方面稱持續襲擊已重創美軍在巴林據點的作戰與後勤能力，美軍則回應無航空器損毀。",
-          "event_time": "2026-07-31T01:38:27+08:00"
-        },
-        {
-          "source_id": "82aaca53468670228703f7a09290924c97dd4b0ebb2c14bf7f6e499f801f577f",
+          "source_id": "b4922b9f1894548ade0351b1e9278c702b3cc6008deddd1a42732063314d8e3e",
           "category": "戰爭",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "川普宣佈和平委員會達成迦薩哈馬斯及武裝派系全面解除武裝歷史性協議",
-          "summary_zh": "川普（Trump）表示協議將分階段進行，伴隨以色列軍隊撤離，並由國際穩定部隊與新巴勒斯坦警察合作接管安全職責。",
-          "event_time": "2026-07-31T06:25:29+08:00"
+          "headline_zh": "川普談美伊局勢稱正對伊朗施加重擊 對和談漸失信心但特使仍參與對話",
+          "summary_zh": "川普（Donald Trump）表示美軍正重擊伊朗，並指伊朗在談判中不誠實，但也證實特使庫什納（Jared Kushner）與威特科夫（Steve Witkoff）等人持續參與對話與談判。",
+          "event_time": "2026-08-01T00:22:42+08:00"
+        },
+        {
+          "source_id": "d6c3e5c26658066c35ca26ffedf874f69fd5f031e89f8d2e72ca8c48537566f2",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "哥倫比亞廣播公司報導 美國與以色列正準備最快於本週末轟炸伊朗能源與煉油設施",
+          "summary_zh": "美以兩國正協調對伊朗電力與煉油廠等關鍵能源基礎設施發動直接打擊，地緣政治風險急劇攀升，推升國際原油價格。",
+          "event_time": "2026-08-01T04:53:43+08:00"
+        },
+        {
+          "source_id": "b5da8e57201863d6a275ca3e856094eeb914161f173fa7d7f5d8c8dfb7afadcc",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗高層安全官員回應美以可能打擊 稱已制定全面反擊計畫瞄準美以能源設施",
+          "summary_zh": "伊朗官方通訊社引述安全官員警告，若美國與以色列採取冒進行動，伊朗的反擊計畫將直接針對以色列關鍵基礎設施與美國在中東的能源設施。",
+          "event_time": "2026-08-01T06:18:18+08:00"
         }
       ]
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 4280,
-    "candidatesTokenCount": 407,
-    "totalTokenCount": 6556,
+    "promptTokenCount": 2670,
+    "candidatesTokenCount": 437,
+    "totalTokenCount": 4592,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 4280
+        "tokenCount": 2670
       }
     ],
-    "thoughtsTokenCount": 1869,
+    "thoughtsTokenCount": 1485,
     "serviceTier": "standard"
   }
 }
