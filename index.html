@@ -1092,6 +1092,113 @@
       .history-timeline-event::before { left: -42px; }
       .history-timeline-event::after { left: -31px; width: 26px; }
     }
+
+    /* AI custom archive analysis. */
+    .ai-action-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 9px;
+      margin-top: 10px;
+    }
+    .action-button {
+      min-height: 36px;
+      border: 0;
+      border-radius: 9px;
+      padding: 8px 14px;
+      background: var(--navy-2);
+      color: #fff;
+      font: inherit;
+      font-size: 11px;
+      font-weight: 900;
+      cursor: pointer;
+    }
+    .action-button.secondary { background: #16825f; }
+    .action-button:disabled { cursor: wait; opacity: .62; }
+    .ai-status {
+      min-height: 20px;
+      color: var(--muted);
+      font-size: 11px;
+    }
+    .ai-status.success { color: #147452; font-weight: 800; }
+    .ai-status.error { color: #b22424; font-weight: 800; }
+    .ai-controls {
+      margin-top: 10px;
+      padding: 14px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 11px;
+    }
+    .ai-prompt-field { grid-column: 1 / -1; }
+    .ai-prompt {
+      width: 100%;
+      min-height: 180px;
+      resize: vertical;
+      border: 1px solid #cfd7e3;
+      border-radius: 10px;
+      padding: 11px 12px;
+      background: #fff;
+      color: var(--text);
+      font: inherit;
+      font-size: 12px;
+      line-height: 1.65;
+      outline: none;
+    }
+    .ai-prompt:focus {
+      border-color: #7fa7da;
+      box-shadow: 0 0 0 3px rgba(50, 109, 181, .1);
+    }
+    .ai-result-card { margin-top: 12px; overflow: hidden; }
+    .ai-result-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfcfe;
+    }
+    .ai-result-title { margin: 0; color: var(--navy-2); font-size: 15px; }
+    .ai-result-meta { color: var(--muted); font-size: 10px; }
+    .ai-result {
+      min-height: 180px;
+      margin: 0;
+      padding: 15px;
+      overflow-x: auto;
+      background: #fff;
+      color: #213047;
+      font-family: inherit;
+      font-size: 12px;
+      line-height: 1.75;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    .copy-button {
+      border: 1px solid #cfd7e3;
+      border-radius: 8px;
+      padding: 6px 10px;
+      background: #fff;
+      color: var(--navy-2);
+      font-size: 10px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+    .ai-note {
+      margin-top: 10px;
+      padding: 11px 13px;
+      border-left: 4px solid #6f8fba;
+      border-radius: 8px;
+      background: #eef4fb;
+      color: #52667d;
+      font-size: 10px;
+      line-height: 1.65;
+    }
+    @media (max-width: 620px) {
+      .ai-controls { grid-template-columns: 1fr; }
+      .ai-prompt-field { grid-column: auto; }
+      .ai-action-row { align-items: stretch; flex-direction: column; }
+      .action-button { width: 100%; }
+    }
   </style>
 </head>
 <body>
@@ -1113,6 +1220,7 @@
     <div class="tab-bar" id="tabBar">
       <button class="tab-button active" type="button" data-page="market">市場新聞</button>
       <button class="tab-button" type="button" data-page="history">歷史新聞</button>
+      <button class="tab-button" type="button" data-page="ai-analysis">AI 自訂分析</button>
       <button class="tab-button" type="button" data-page="FED">Fed</button>
       <button class="tab-button" type="button" data-page="BOE">BoE</button>
       <button class="tab-button" type="button" data-page="ECB">ECB</button>
@@ -1197,6 +1305,47 @@
       <section id="historyResults"></section>
     </section>
 
+
+    <section id="aiAnalysisPage" class="page-panel" hidden>
+      <section class="card central-bank-header">
+        <div>
+          <h2 class="central-bank-name">AI 自訂新聞分析</h2>
+          <div class="central-bank-range">從 data/archive/YYYY/MM/YYYY-MM-DD.json 讀取指定日期範圍，再交由 Gemini 執行自訂 Prompt</div>
+        </div>
+      </section>
+      <section class="card ai-controls">
+        <div class="field">
+          <label for="aiStartDate">開始日期</label>
+          <input id="aiStartDate" type="date">
+        </div>
+        <div class="field">
+          <label for="aiEndDate">結束日期</label>
+          <input id="aiEndDate" type="date">
+        </div>
+        <div class="field ai-prompt-field">
+          <label for="aiPrompt">送給 Gemini 的 Prompt</label>
+          <textarea id="aiPrompt" class="ai-prompt" maxlength="20000" placeholder="例如：請依日期整理這段期間最重要的市場事件，說明事件發展、資產價格可能受到的影響，並列出仍需追蹤的變數。"></textarea>
+        </div>
+        <div class="ai-prompt-field">
+          <div class="ai-action-row">
+            <button id="triggerRssButton" class="action-button secondary" type="button">立即執行 fetch-rss.yml</button>
+            <button id="runGeminiButton" class="action-button" type="button">讀取 Archive 並執行 Gemini</button>
+            <span id="aiActionStatus" class="ai-status"></span>
+          </div>
+        </div>
+      </section>
+      <div class="ai-note">Gemini API Key只保存在Cloudflare Worker Secret「GEMINI_API_KEY_WORK」中，不會傳至瀏覽器。單次最多查詢31天，缺少的日期檔案會略過並列在結果資訊中。</div>
+      <section class="card ai-result-card">
+        <header class="ai-result-header">
+          <div>
+            <h3 class="ai-result-title">Gemini分析結果</h3>
+            <div id="aiResultMeta" class="ai-result-meta">尚未執行</div>
+          </div>
+          <button id="copyAiResult" class="copy-button" type="button">複製結果</button>
+        </header>
+        <pre id="aiResult" class="ai-result">請選擇日期範圍、輸入Prompt後執行。</pre>
+      </section>
+    </section>
     <section id="centralBankPage" class="page-panel" hidden>
       <section class="card central-bank-header">
         <div>
@@ -1238,6 +1387,8 @@
     const CENTRAL_BANK_DATA_URL = './data/central_banks/digests/latest.json';
     const HISTORY_INDEX_URL = './data/digests/history_index.json';
     const HISTORY_MAX_DAYS = 31;
+    const WORKER_URL = 'https://market-headline-trigger.bruce851117.workers.dev';
+    const AI_MAX_DAYS = 31;
     const CATEGORY_ORDER = ['債市', '股市', '央行', '財政政策', '經濟', '戰爭'];
     const CENTRAL_BANK_ORDER = ['FED', 'BOE', 'ECB', 'BOJ', 'RBA'];
 
@@ -1285,6 +1436,7 @@
     const blocksElement = document.getElementById('blocks');
     const marketPage = document.getElementById('marketPage');
     const historyPage = document.getElementById('historyPage');
+    const aiAnalysisPage = document.getElementById('aiAnalysisPage');
     const historyRangeText = document.getElementById('historyRangeText');
     const historyCount = document.getElementById('historyCount');
     const historyStartDate = document.getElementById('historyStartDate');
@@ -1304,6 +1456,16 @@
     const onlyWithTalks = document.getElementById('onlyWithTalks');
     const centralBankReset = document.getElementById('centralBankReset');
     const officialsContainer = document.getElementById('officialsContainer');
+    const aiStartDate = document.getElementById('aiStartDate');
+    const aiEndDate = document.getElementById('aiEndDate');
+    const aiPrompt = document.getElementById('aiPrompt');
+    const triggerRssButton = document.getElementById('triggerRssButton');
+    const runGeminiButton = document.getElementById('runGeminiButton');
+    const aiActionStatus = document.getElementById('aiActionStatus');
+    const aiResultMeta = document.getElementById('aiResultMeta');
+    const aiResult = document.getElementById('aiResult');
+    const copyAiResult = document.getElementById('copyAiResult');
+
 
     function escapeHtml(value) {
       return String(value ?? '')
@@ -1834,15 +1996,102 @@
         historySearchButton.disabled = false;
       }
     }
+
+    function setAiStatus(message, type = '') {
+      aiActionStatus.textContent = message;
+      aiActionStatus.className = `ai-status${type ? ` ${type}` : ''}`;
+    }
+    function setAiButtonsBusy(busy) {
+      triggerRssButton.disabled = busy;
+      runGeminiButton.disabled = busy;
+    }
+    function initializeAiDates() {
+      if (aiStartDate.value && aiEndDate.value) return;
+      const latest = historyIndex?.latest_date || new Date().toISOString().slice(0, 10);
+      const end = new Date(`${latest}T00:00:00+08:00`);
+      const start = new Date(end);
+      start.setDate(start.getDate() - 6);
+      aiStartDate.value = start.toISOString().slice(0, 10);
+      aiEndDate.value = latest;
+    }
+    async function workerPost(path, payload = {}) {
+      const response = await fetch(`${WORKER_URL}${path}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+      const data = await response.json().catch(() => ({}));
+      if (!response.ok || data.ok === false) {
+        const detail = data.message || data.error || data.github_response?.message || `HTTP ${response.status}`;
+        throw new Error(detail);
+      }
+      return data;
+    }
+    async function triggerRssWorkflow() {
+      setAiButtonsBusy(true);
+      setAiStatus('正在觸發 fetch-rss.yml…');
+      try {
+        const data = await workerPost('/trigger-rss');
+        setAiStatus(`已成功觸發 ${data.workflow || 'fetch-rss.yml'}，請至GitHub Actions查看進度。`, 'success');
+      } catch (error) {
+        setAiStatus(`觸發失敗：${error.message}`, 'error');
+      } finally {
+        setAiButtonsBusy(false);
+      }
+    }
+    function validateAiRequest() {
+      const startDate = aiStartDate.value;
+      const endDate = aiEndDate.value;
+      const prompt = aiPrompt.value.trim();
+      if (!startDate || !endDate) throw new Error('請選擇開始與結束日期。');
+      if (startDate > endDate) throw new Error('開始日期不可晚於結束日期。');
+      const days = Math.floor((new Date(`${endDate}T00:00:00Z`) - new Date(`${startDate}T00:00:00Z`)) / 86400000) + 1;
+      if (days > AI_MAX_DAYS) throw new Error(`單次最多分析 ${AI_MAX_DAYS} 天，目前選擇 ${days} 天。`);
+      if (!prompt) throw new Error('請輸入要送給Gemini的Prompt。');
+      return { startDate, endDate, prompt };
+    }
+    async function runGeminiAnalysis() {
+      let requestData;
+      try {
+        requestData = validateAiRequest();
+      } catch (error) {
+        setAiStatus(error.message, 'error');
+        return;
+      }
+      setAiButtonsBusy(true);
+      setAiStatus('正在讀取Archive並等待Gemini分析，請勿關閉頁面…');
+      aiResult.textContent = '處理中…';
+      aiResultMeta.textContent = `${requestData.startDate} ～ ${requestData.endDate}`;
+      try {
+        const data = await workerPost('/analyze-archive', {
+          start_date: requestData.startDate,
+          end_date: requestData.endDate,
+          prompt: requestData.prompt,
+        });
+        aiResult.textContent = data.result || 'Gemini沒有回傳文字內容。';
+        const loaded = (data.loaded_dates || []).length;
+        const missing = (data.missing_dates || []).length;
+        aiResultMeta.textContent = `${data.start_date} ～ ${data.end_date}｜載入 ${loaded} 天｜缺少 ${missing} 天｜模型 ${data.model || ''}`;
+        setAiStatus('Gemini分析完成。', 'success');
+      } catch (error) {
+        aiResult.textContent = `執行失敗：${error.message}`;
+        aiResultMeta.textContent = '執行失敗';
+        setAiStatus(`Gemini分析失敗：${error.message}`, 'error');
+      } finally {
+        setAiButtonsBusy(false);
+      }
+    }
     function activatePage(page) {
       activePage = page;
       marketPage.hidden = page !== 'market';
       historyPage.hidden = page !== 'history';
-      centralBankPage.hidden = page === 'market' || page === 'history';
+      aiAnalysisPage.hidden = page !== 'ai-analysis';
+      centralBankPage.hidden = page === 'market' || page === 'history' || page === 'ai-analysis';
       document.querySelectorAll('.tab-button').forEach(button => {
         button.classList.toggle('active', button.dataset.page === page);
       });
       if (page === 'history') renderHistoryPage();
+      else if (page === 'ai-analysis') initializeAiDates();
       else if (page !== 'market') renderCentralBankPage(page);
       history.replaceState(null, '', page === 'market' ? '#market' : `#${page.toLowerCase()}`);
     }
@@ -1886,9 +2135,12 @@
 
         const rawHash = location.hash.replace('#', '');
         const hash = rawHash.toUpperCase();
-        const initialPage = rawHash.toLowerCase() === 'history'
+        const normalizedPage = rawHash.toLowerCase();
+        const initialPage = normalizedPage === 'history'
           ? 'history'
-          : (CENTRAL_BANK_ORDER.includes(hash) ? hash : 'market');
+          : (normalizedPage === 'ai-analysis'
+            ? 'ai-analysis'
+            : (CENTRAL_BANK_ORDER.includes(hash) ? hash : 'market'));
         activatePage(initialPage);
       } catch (error) {
         summaryContent.className = 'error';
@@ -1900,6 +2152,16 @@
     document.getElementById('tabBar').addEventListener('click', event => {
       const button = event.target.closest('.tab-button');
       if (button) activatePage(button.dataset.page);
+    });
+    triggerRssButton.addEventListener('click', triggerRssWorkflow);
+    runGeminiButton.addEventListener('click', runGeminiAnalysis);
+    copyAiResult.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(aiResult.textContent || '');
+        setAiStatus('分析結果已複製。', 'success');
+      } catch (error) {
+        setAiStatus('無法自動複製，請手動選取結果文字。', 'error');
+      }
     });
     searchButton.addEventListener('click', renderBlocks);
 
