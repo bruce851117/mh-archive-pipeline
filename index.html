@@ -1551,10 +1551,13 @@
     function rowDate(value) {
       const date = dateObject(value);
       if (!date) return '';
-      return new Intl.DateTimeFormat('zh-TW', {
+      const parts = new Intl.DateTimeFormat('zh-TW', {
         timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit',
         weekday: 'short', hour: '2-digit', minute: '2-digit', hour12: false,
-      }).format(date);
+      }).formatToParts(date);
+      const get = type => (parts.find(p => p.type === type) || {}).value || '';
+      const wd = get('weekday').replace(/[週周]/, '');
+      return `${get('year')}/${get('month')}/${get('day')} ${wd} ${get('hour')}:${get('minute')}`;
     }
 
     function shortDate(value) {
