@@ -1553,7 +1553,7 @@
       if (!date) return '';
       return new Intl.DateTimeFormat('zh-TW', {
         timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit',
-        hour: '2-digit', minute: '2-digit', hour12: false,
+        weekday: 'short', hour: '2-digit', minute: '2-digit', hour12: false,
       }).format(date);
     }
 
@@ -2027,17 +2027,51 @@
       }
       return data;
     }
+    const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
     async function triggerRssWorkflow() {
       setAiButtonsBusy(true);
       setAiStatus('正在觸發 fetch-rss.yml…');
       try {
         const data = await workerPost('/trigger-rss');
-        setAiStatus(`已成功觸發 ${data.workflow || 'fetch-rss.yml'}，請至GitHub Actions查看進度。`, 'success');
+        const workflow = data.workflow || 'fetch-rss.yml';
+        const since = data.triggered_at_utc || new Date().toISOString();
+        setAiStatus(`已成功觸發 ${workflow}，正在等待執行結果…`, 'success');
+        await pollWorkflowStatus(workflow, since);
       } catch (error) {
         setAiStatus(`觸發失敗：${error.message}`, 'error');
       } finally {
         setAiButtonsBusy(false);
       }
+    }
+    async function pollWorkflowStatus(workflow, since) {
+      const deadline = Date.now() + 6 * 60 * 1000; // 最多等待6分鐘
+      while (Date.now() < deadline) {
+        await sleep(5000);
+        let statusData;
+        try {
+          statusData = await workerPost('/workflow-status', { workflow, since });
+        } catch (error) {
+          setAiStatus(`已觸發 ${workflow}，但查詢執行狀態失敗：${error.message}`, 'error');
+          return;
+        }
+        if (!statusData.found) {
+          setAiStatus(`已觸發 ${workflow}，正在等待 GitHub 建立執行紀錄…`, 'success');
+          continue;
+        }
+        if (statusData.status !== 'completed') {
+          const label = statusData.status === 'queued' ? '排隊中' : '執行中';
+          setAiStatus(`${workflow} ${label}…`, 'success');
+          continue;
+        }
+        if (statusData.conclusion === 'success') {
+          setAiStatus(`${workflow} 執行成功 ✅`, 'success');
+        } else {
+          setAiStatus(`${workflow} 執行失敗（${statusData.conclusion || '未知'}）❌`, 'error');
+        }
+        return;
+      }
+      setAiStatus(`已觸發 ${workflow}，但等待逾時，請至 GitHub Actions 查看最終結果。`, 'error');
     }
     function validateAiRequest() {
       const startDate = aiStartDate.value;
