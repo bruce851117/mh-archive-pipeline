@@ -1,28 +1,29 @@
 {
-  "generated_at": "2026-08-02T07:13:21.484974+08:00",
-  "summary_generated_at": "2026-08-02T07:13:21.484974+08:00",
-  "data_updated_at": "2026-08-02T06:51:15.262025+08:00",
+  "generated_at": "2026-08-03T07:10:17.834847+08:00",
+  "summary_generated_at": "2026-08-03T07:10:17.834847+08:00",
+  "data_updated_at": "2026-08-03T06:51:15.103945+08:00",
   "timezone": "Asia/Taipei",
   "period_start": "2026-07-31T17:00:00+08:00",
-  "period_end": "2026-08-02T06:51:15.262025+08:00",
+  "period_end": "2026-08-03T06:51:15.103945+08:00",
   "model": "gemini-3.6-flash",
   "source_digest_files": [
     "data/digests/2026/07/2026-07-30.json",
     "data/digests/2026/07/2026-07-31.json",
     "data/digests/2026/08/2026-08-01.json",
-    "data/digests/2026/08/2026-08-02.json"
+    "data/digests/2026/08/2026-08-02.json",
+    "data/digests/2026/08/2026-08-03.json"
   ],
-  "event_count": 27,
+  "event_count": 63,
   "summary_points": [
-    "據報導美國與以色列正準備打擊伊朗能源及煉油設施，且伊朗革命衛隊於荷姆茲海峽攔截油輪，地緣政治風險劇增推升國際原油價格並引發供應疑慮。",
-    "中東局勢顯著惡化，科威特北部政府設施遭伊朗導彈與無人機襲擊，伊朗官方亦警告若遭美以侵略將果斷反擊其能源與關鍵設施。",
-    "美國財政部與紐約聯儲指示銀行為潛在日圓干預做準備，媒體報導美方已進行匯率干預買入日圓，引發外匯市場強烈震盪。",
-    "美聯儲多位官員發表鷹派言論，警告通膨風險偏向上行並偏好進一步升息，防止通膨根深蒂固。",
-    "歐元區7月CPI年增率升至2.9%、核心通膨率升至2.5%，受能源價格與地緣政治波動影響，增加了歐洲央行利率決策的複雜度。",
-    "韓國7月出口年增率達62.8%，遠超市場預期，凸顯全球半導體與科技產品需求熱絡，單月貿易順差達303.2億美元。",
-    "英國財政大臣預告10月預算案可能加稅與削減支出，美國總統川普則簽署行政命令對進口石英產品實施4年關稅配額，反映主要國家財政與貿易政策動向。",
-    "OpenAI宣布旗下模型活躍用戶數突破10億大關，加上中國AI新創大規模採用輝達晶片訓練模型，顯示全球人工智慧需求持續強勁並支撐科技股信心。",
-    "俄羅斯向基輔發動大規模飛彈與無人機襲擊造成嚴重傷亡，烏克蘭坦言防空物資嚴重短缺，東歐地緣政治風險持續高企。"
+    "川普證實已叫停原定對伊朗的軍事空襲，並透露美伊雙方正透過談判進行對話，已就荷姆茲海峽通航與去核化條約展開協商；伊朗亦證實透過阿曼調停的會談已進入最後階段。",
+    "美國財政部與日本財務省展開協調性匯率干預，進場買入日圓以阻止日圓持續貶值，川普與美方官方證實該項干預操作仍在持續進行中。",
+    "美聯儲多位官員發表鷹派言論，警告通膨風險偏向上行，並表示偏好進一步微幅升息以防止通膨根深蒂固。",
+    "OPEC+發布官方聲明，同意自9月份起每日增加原油生產配額18.8萬桶，隨後將暫停進一步增產，同時對中東能源基礎設施頻繁受襲表達高度憂慮。",
+    "歐元區7月CPI年增率升至2.9%、核心通膨率升至2.5%，受到能源價格與地緣政治波動影響，增加了歐洲央行貨幣政策的複雜度。",
+    "韓國7月出口年增率爆發性成長62.8%，遠優於市場預期，反映全球半導體與科技產品需求持續強勁。",
+    "OpenAI宣佈旗下模型活躍用戶數突破10億大關，加上中國AI新創大規模採用輝達晶片集群，顯示全球對AI與算力基礎設施需求依然旺盛。",
+    "英國財政大臣希利定於10月28日發表預算案，並預先警告為彌補財政缺口，不排除採取加稅與削減部門支出的政策。",
+    "俄羅斯對烏克蘭基輔等港口設施發動大規模飛彈與無人機空襲，烏克蘭坦言因防空物資嚴重短缺，僅能攔截少數攻擊。"
   ],
   "blocks": [
     {
@@ -131,6 +132,51 @@
           "headline_zh": "川普簽署行政命令 對石英表面產品進口實施為期4年的關稅配額",
           "summary_zh": "美國總統川普（Donald Trump）宣佈新貿易保護措施，對進口石英產品實施關稅配額，體現美國關稅政策的持續推進。",
           "event_time": "2026-08-01T05:03:12+08:00"
+        },
+        {
+          "source_id": "7dffdf5756e4194a93c18f9481bd64ef40219f69c1eb276a10ad873e8ed06c30",
+          "category": "財政政策",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "日本財務大臣片山將宣布美日協調干預匯市以遏制日圓貶值",
+          "summary_zh": "日本官員透露，財務大臣片山皋月（Katayama）將於週一宣布東京與華盛頓已採取協調行動以阻止日圓跌勢。",
+          "event_time": "2026-08-02T09:10:10+08:00"
+        },
+        {
+          "source_id": "63ef2dfbd4ce6b503e57de75758b0eabc944c8f83bcdabad30a472009bbe3af4",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美國證實對日圓的匯率干預操作仍在持續進行中",
+          "summary_zh": "美方官方證實，旨在支撐日圓匯價的美日聯合匯市操作目前仍在進行。",
+          "event_time": "2026-08-02T09:10:11+08:00"
+        },
+        {
+          "source_id": "0a3701bd53e7d293a979308f06d2b3310d900cd81ed45d24d775fd8f46053fd9",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "川普談日圓：基於美日強健關係 美國決定出手協助干預",
+          "summary_zh": "川普（Trump）表示，由於美國與日本之間具備強健夥伴關係，美方已進場協助穩定日圓。",
+          "event_time": "2026-08-03T05:43:00+08:00"
+        },
+        {
+          "source_id": "dfc7133051a305fe0b549cf86f5eaf7d5cbedbcb41359a84780f0a81c3d94232",
+          "category": "財政政策",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "川普談日圓：美國將始終作為日本的堅強後盾",
+          "summary_zh": "川普強調，在匯率與經濟議題上，美國會隨時為日本提供必要支援。",
+          "event_time": "2026-08-03T05:43:10+08:00"
+        },
+        {
+          "source_id": "c7e08d236ce0425ea0ce057a2e78e0d3b6f6e731f95529a4d6d3e08d6ec5d897",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "川普談日圓：美國從美日匯率干預協議中獲得財務利益",
+          "summary_zh": "川普聲稱，美國在協助穩定日圓的協議與行動中獲得了相當程度的財務回饋與好處。",
+          "event_time": "2026-08-03T05:43:24+08:00"
         }
       ]
     },
@@ -172,6 +218,87 @@
           "headline_zh": "土耳其與伊拉克就傑伊漢輸油管道達成一年期協議 每日傳輸75萬桶",
           "summary_zh": "土耳其能源部長宣佈與伊拉克達成一年期輸油管道過境協議，每日運量達75萬桶，雙方將持續協商以期達成長期合作協議。",
           "event_time": "2026-08-01T20:03:19+08:00"
+        },
+        {
+          "source_id": "4f603665f1bd6a43dbff9737afd4e545776db173450af5cc980ff158d53fb14e",
+          "category": "經濟",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "OPEC+原則上同意9月起調升原油產量目標每日18.8萬桶",
+          "summary_zh": "知情人士透露，OPEC+原則上同意自9月起增加產量目標每日18.8萬桶，隨後暫停調增四個月。",
+          "event_time": "2026-08-02T16:53:03+08:00"
+        },
+        {
+          "source_id": "2d40385f15fe3c26579c49fcdbbbe8034308f3faa6e3b5516b6a05d0bb6407ed",
+          "category": "經濟",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "OPEC+代表稱9月擬上調產量配額每日18.8萬桶",
+          "summary_zh": "代表透露，OPEC+預計於9月調升產量配額每日18.8萬桶，之後將保持產量政策不變。",
+          "event_time": "2026-08-02T16:53:05+08:00"
+        },
+        {
+          "source_id": "b892ccfbb3a2c123fc75ec12bb28b4f5100fe7a26ca151f27e104b005ab67816",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "科威特7月原油產量顯著回升至每日197.1萬桶",
+          "summary_zh": "消息人士指出，科威特7月份原油日均產量由6月的165萬桶提升至197.1萬桶。",
+          "event_time": "2026-08-02T17:10:43+08:00"
+        },
+        {
+          "source_id": "3390a4f62188b16f9d9ee9ec7f4240c0190511fa0c179207e672595e670a8c61",
+          "category": "經濟",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "OPEC+正式聲明：同意9月份增加石油產量配額每日18.8萬桶",
+          "summary_zh": "OPEC+發布官方聲明，確認批准9月份將原油生產配額提升每日18.8萬桶。",
+          "event_time": "2026-08-02T19:25:15+08:00"
+        },
+        {
+          "source_id": "28ef0efc8dfe3fbd2d698da52510241c8f3694c9216dc356a69e948e033d783b",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "OPEC：沙烏地與俄羅斯等七國微調產量目標 重申穩定市場承諾",
+          "summary_zh": "沙烏地阿拉伯、俄羅斯、伊拉克、科威特、哈薩克、阿爾及利亞及阿曼等七國微調產量，並確認對維護市場穩定的承諾。",
+          "event_time": "2026-08-02T19:25:53+08:00"
+        },
+        {
+          "source_id": "934fb966f419dab164382a5e4bbb976a71ddb0eb80c03b7de15bcccac3bb5234",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "OPEC+最新聲明未包含2026年9月以後的政策規劃",
+          "summary_zh": "OPEC+產量聲明僅涵蓋至2026年9月，未提供遠期政策方向。",
+          "event_time": "2026-08-02T19:26:00+08:00"
+        },
+        {
+          "source_id": "8220ef26ec491e8de771f75d5e73f0f4ff3dd2fdb17596d43ff0c9fe55a3ad94",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "OPEC：七個參會國同意調整每日18.8萬桶產量限制",
+          "summary_zh": "OPEC聲明指七個主要產油國已針對每日18.8萬桶的產量調整達成協議。",
+          "event_time": "2026-08-02T19:26:26+08:00"
+        },
+        {
+          "source_id": "cd9faa6a157cff1c868994bd1c9763ca102025c5c5268253a8fc38816f45a288",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "OPEC：產量配額修改將於2026年9月正式執行",
+          "summary_zh": "OPEC確認產量調整措施將自2026年9月起嚴格執行。",
+          "event_time": "2026-08-02T19:26:51+08:00"
+        },
+        {
+          "source_id": "d35e8159babac43ae93b9b039d9f82d9c75ca6a76053dd2f8646a7a6d9a44a99",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "OPEC下一屆部長級會議定於9月6日舉行",
+          "summary_zh": "OPEC宣布下一次政策審查會議預定於9月6日召開。",
+          "event_time": "2026-08-02T19:27:04+08:00"
         }
       ]
     },
@@ -294,21 +421,219 @@
           "headline_zh": "伊朗外長強硬警告：美以或區域強權任何侵略將面臨果斷回應",
           "summary_zh": "伊朗外長發布聲明強調，美國、以色列或任何區域國家若發動侵略，伊朗必將做出果斷強烈的軍事回應，區域局勢面臨升級風險。",
           "event_time": "2026-08-02T04:29:50+08:00"
+        },
+        {
+          "source_id": "fb96a5659574195b6b0d8f7ab14f60a55a9854591ec60354b915f2060febb659",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "川普：美軍已完成裝備並準備好對抗伊朗",
+          "summary_zh": "川普（Trump）在 Truth Social 發文表示，美國軍事力量已準備就緒，隨時應對與伊朗的對抗。",
+          "event_time": "2026-08-02T10:05:53+08:00"
+        },
+        {
+          "source_id": "72dfa89f9deeadddae7afaaf9a34eace151194beb3b730ec8e6678da70313a2c",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "川普同意叫停對伊朗的軍事打擊行動",
+          "summary_zh": "最新消息指出川普已同意取消原定針對伊朗發動的軍事襲擊。",
+          "event_time": "2026-08-02T10:06:32+08:00"
+        },
+        {
+          "source_id": "f8f4104a0e41ddc704769985abf03962cd5f05c56481e28277beed7bea898ad6",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "川普證實已同意暫緩對伊朗空襲",
+          "summary_zh": "川普親自證實已同意叫停原先計畫對伊朗採取的空襲打擊。",
+          "event_time": "2026-08-02T10:07:39+08:00"
+        },
+        {
+          "source_id": "cf7f48e1e672b367d6f39852093c65dc0f4c06fc404a6c6561962dce2019d44e",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "川普：取消軍事打擊取決於能否迅速達成協議",
+          "summary_zh": "川普補充說明，取消打擊行動的前提是雙方必須能在短期內迅速達成正式協議。",
+          "event_time": "2026-08-02T10:10:18+08:00"
+        },
+        {
+          "source_id": "bf969bd6fb8ba44cfd7c6f6d073de7e9eaaeaecbbe2cca0586ef8954d2766558",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "沙烏地王儲與川普通話 討論緩和中東局勢之努力",
+          "summary_zh": "沙烏地官方通訊社報導，沙烏地王儲與川普就降低中東緊張局勢的途徑進行了溝通。",
+          "event_time": "2026-08-02T16:53:09+08:00"
+        },
+        {
+          "source_id": "0f97fedd4729b19eaad0e3fe5df073a4f4181319d02c8ba8cba586a64d15314b",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗代理國防部長：美方近期言論屬於心理戰",
+          "summary_zh": "伊朗代理國防部長表示，美方近期的威嚇言論屬於心理作戰手段之一。",
+          "event_time": "2026-08-02T16:53:12+08:00"
+        },
+        {
+          "source_id": "93988ff1defbcfaeb4bc7f612d907cc7a44540520d336093b3f3b8257a580e7a",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗國防部：德黑蘭絕不會被動應戰 任何威脅均極為真實",
+          "summary_zh": "伊朗軍方表示絕不會對威脅掉以輕心，強調任何外部軍事威脅都是真實且顯著的。",
+          "event_time": "2026-08-02T16:53:14+08:00"
+        },
+        {
+          "source_id": "17c09349cdf77999049c8dc11d81850917fad4b24092bbe5a14897e4d3ab0e34",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "OPEC JMMC會議強調保護國際航線對能源持續供應之關鍵性",
+          "summary_zh": "OPEC聯合部長級監督委員會（JMMC）開會指出，維護國際海上航線對保持全球能源流動至關重要。",
+          "event_time": "2026-08-02T20:06:36+08:00"
+        },
+        {
+          "source_id": "75af55a1bc914a1af6865b930cf4d4ab8bd567516e4fc3987151cf977fe5f17f",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "OPEC JMMC對能源基礎設施頻受襲擊表達強烈擔憂",
+          "summary_zh": "OPEC監督委員會對近來中東及相關海域能源設施遭受襲擊表達高度憂慮。",
+          "event_time": "2026-08-02T20:07:01+08:00"
+        },
+        {
+          "source_id": "1f87e38462e4f19ce93fe0484133f0460e6156e16f61bf9cf5955bd011ee4d9d",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "俄國防部：烏克蘭尼古拉耶夫港口設施及兩艘軍載船隻受損",
+          "summary_zh": "俄羅斯國防部宣稱，烏克蘭尼古拉耶夫港口設施及兩艘運載軍事物資的船隻在打擊中受損。",
+          "event_time": "2026-08-02T22:58:55+08:00"
+        },
+        {
+          "source_id": "b44c47d0b61a59a5ca3c72582a44c2185a8f4b2060a82a9ddb4992fa13f05d23",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美軍中央司令部：截至8月2日已協助35艘商船改道並登檢癱瘓多艘船隻",
+          "summary_zh": "美軍中央司令部（CENTCOM）發布海上安全數據，顯示已協助35艘商船改道以避開危險，並對違規船隻採取登檢與癱瘓行動。",
+          "event_time": "2026-08-02T23:24:17+08:00"
+        },
+        {
+          "source_id": "6d9925ce3410de188a2736a4443db64897552ebbef78e77b5a701fa07c4e7af1",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "伊朗外長：與阿曼就荷姆茲海峽之談判已進入最後階段",
+          "summary_zh": "伊朗外長證實，透過阿曼調停有關荷姆茲海峽通航安排的對話已進入最後協商階段。",
+          "event_time": "2026-08-03T00:34:41+08:00"
+        },
+        {
+          "source_id": "0ec7756535615f9710a3a255d34a4ab6b54efa3981cf5811c04c4b41b206942e",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗外交部：與阿曼會談旨在建立荷姆茲海峽聯合運作機制",
+          "summary_zh": "伊朗外交部發言人巴加埃（Baghaei）表示，與阿曼的對話目標是在荷姆茲海峽建立共同管理機制。",
+          "event_time": "2026-08-03T00:37:52+08:00"
+        },
+        {
+          "source_id": "7a6b1f372c76d95a399ae389cbbc772bc7ec08372ccc27c896b067c2fca885e9",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗外交部：與阿曼就新航線達成協議不代表海峽開放或關閉",
+          "summary_zh": "伊朗澄清與阿曼達成的新航線協議僅為技術性安排，不代表荷姆茲海峽全面開放或關閉。",
+          "event_time": "2026-08-03T00:39:26+08:00"
+        },
+        {
+          "source_id": "19a3577547a9571322b8eeb00d662e4141db6c220a8f8b5e455c0f68a16a2fed",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "以色列就哈瑪斯解繳武裝方案向美國表達實質擔憂",
+          "summary_zh": "納坦雅胡（Netanyahu）發言人透露，以色列已就擬議中的哈瑪斯解除武裝計畫向美方表達關注與擔憂。",
+          "event_time": "2026-08-03T03:11:52+08:00"
+        },
+        {
+          "source_id": "54a4115fc8bb611781f2992a6339296ed5ff29f6a6995703ce2d20efddb82507",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "川普談伊朗：已就荷姆茲海峽達成協議 將簽署去核化條約",
+          "summary_zh": "川普宣稱已就荷姆茲海峽通航達成協議，並預計未來將與伊朗簽署去核化協定。",
+          "event_time": "2026-08-03T05:40:35+08:00"
+        },
+        {
+          "source_id": "0b5242230d94972bb9f8e74649d3a4e7cec57091347e66e100a25e3aa37cc91e",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "川普談伊朗：美伊雙方正以談判形式開展對話",
+          "summary_zh": "川普表示美國正與伊朗進行實質談判與討論。",
+          "event_time": "2026-08-03T05:40:56+08:00"
+        },
+        {
+          "source_id": "6006cc703b63d79d9818d7538de57318b69085656c003fdbc23ff73bad9fb6f5",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "川普談伊朗：對話進程將於明日下午開始",
+          "summary_zh": "川普透露美伊相關協商對話將於明日下午正式展開。",
+          "event_time": "2026-08-03T05:41:02+08:00"
+        },
+        {
+          "source_id": "57348e1fe80fef60848247a0b2c71346d16ecf799c394de29a2040a56b30b8c5",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "川普談伊朗：美方已做好隨時採取行動的準備",
+          "summary_zh": "川普強調，若談判不順，美國已準備好在必要時隨時採取行動。",
+          "event_time": "2026-08-03T05:42:02+08:00"
+        },
+        {
+          "source_id": "fefc6bda7ed33372a4e3a82a47b3df8528f65ce82a9a3b335aa8698a312aa4c4",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "UKMTO報告阿曼卡薩布東北方發生海上安全事件",
+          "summary_zh": "英國海上貿易行動辦公室（UKMTO）通報阿曼卡薩布東北20海浬處發生海上安全事故。",
+          "event_time": "2026-08-03T06:09:50+08:00"
+        },
+        {
+          "source_id": "f8bcdde6e360cf5c4ca4c290bb058ffdd8b772db6fa0346c29edf2a2ef154fd7",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "UKMTO：油輪船長報告船隻附近傳出爆炸聲響",
+          "summary_zh": "UKMTO表示，行經該海域的油輪船長回報在船隻附近聽到爆炸聲。",
+          "event_time": "2026-08-03T06:10:41+08:00"
+        },
+        {
+          "source_id": "440030a84254a86a9479c6a573dcfdbaf5abe638619c9cff497292ee7a21fd3a",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "UKMTO：涉事船隻全體船員均回報安全",
+          "summary_zh": "UKMTO確認爆炸事件後，該油輪全體船員均平安無事。",
+          "event_time": "2026-08-03T06:11:03+08:00"
         }
       ]
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 5198,
-    "candidatesTokenCount": 456,
-    "totalTokenCount": 8095,
+    "promptTokenCount": 10899,
+    "candidatesTokenCount": 466,
+    "totalTokenCount": 12879,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 5198
+        "tokenCount": 10899
       }
     ],
-    "thoughtsTokenCount": 2441,
+    "thoughtsTokenCount": 1514,
     "serviceTier": "standard"
   }
 }
