@@ -82,7 +82,7 @@ SYSTEM_INSTRUCTION = """
 - 只輸出合法JSON，不要Markdown，不要額外說明。所有source_id只能使用輸入提供的id。
 - 跟美伊戰爭、中東戰爭、荷姆茲海峽、紅海的headline都盡可能留下來，這非常重要 請嚴格遵守，就算很多headline也沒關係
 
-請嚴格遵守：請盡量都把Headline留下來，不過以下我所提到的這些幫我刪除：
+以下我所提到的這些新聞類型幫我刪除：
 1.市場估計中國人民銀行可能將人民幣兌美元中間價設定在6.7734元。-->不會對市場造成影響
 2.日本財務大臣片山皋月表示，不會評論特定匯率水準。-->除非他提到要干預，不然也不會對市場造成影響
 3.台股跌幅超過2.7%。-->純講價格/漲跌幅 不重要
@@ -634,8 +634,7 @@ def build_user_prompt(
 本地去除完全相同內容後：{input_count}則
 實際送入模型：{included_count}則
 
-請完成分類、語意去重、繁體中文翻譯及重要性1至5分評估。
-同一事件的後續發展、修正、否認、推翻或正式確認，請各自作為獨立的新聞項目輸出，不要合併成階層結構。
+請完成分類、繁體中文翻譯及重要性1至5分評估。
 輸出必須符合以下JSON結構，六個分類均須出現：
 {{
   "title":"最近24小時全球市場重要新聞",
@@ -675,7 +674,7 @@ def build_user_prompt(
     if not breakfast_prompt:
         return prompt
 
-    insertion_point = "\n\n請完成分類、語意去重、繁體中文翻譯及重要性1至5分評估。"
+    insertion_point = "\n\n請完成分類、繁體中文翻譯及重要性1至5分評估。"
     if insertion_point not in prompt:
         return breakfast_prompt + "\n\n" + prompt
 
