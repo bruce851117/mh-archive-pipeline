@@ -1,31 +1,17 @@
 {
   "title": "最近24小時全球市場重要新聞",
-  "period_start": "2026-08-04T08:38:13.291377+08:00",
-  "period_end": "2026-08-05T08:38:13.291377+08:00",
+  "period_start": "2026-08-04T09:34:12.020923+08:00",
+  "period_end": "2026-08-05T09:34:12.020923+08:00",
   "timezone": "Asia/Taipei",
-  "overview": "過去24小時全球市場主線聚焦於中東局勢與地緣外交突破，卡達與阿曼積極調解美伊衝突，荷姆茲海峽重開協議取得實質進展，帶動國際原油價格重挫逾5%。科技股方面，SpaceX與AMD發布亮眼財報與AI前景，並深化與英偉達之合作。政策層面上，美財長貝森特證實美日協調干預日圓，美聯儲官員對利率路徑保持開放；同時美國擬禁止進口中國數據中心設備並擴大關稅，中美科技與貿易對立持續升溫。",
+  "overview": "過去24小時全球市場的核心主線圍繞在中東局勢的顯著降溫預期。美方、卡達與伊朗接連釋放外交訊號，重啟荷姆茲海峽談判取得積極進展，引發國際原油期貨單日重挫逾5%。央行方面，美聯儲官員對利率路徑保持開放，日本央行會議紀錄展現強烈升息意願與日圓干預協調。科技與財政政策上，美國擬禁止進口中國數據中心設備，並準備對多晶矽加徵關稅；SpaceX與AMD業績及AI算力展望引發股市高度關注。",
   "categories": [
     {
       "category": "債市",
       "news": [
         {
-          "importance_score": 4,
-          "headline_zh": "日本在第二次非競爭性標售中出售300億日圓國債",
-          "summary_zh": "日本進行國債標售，反映在近期市場波動與日圓干預傳聞下，日本國債市場收益率與需求面臨考驗。",
-          "event_time": "2026-08-04T14:16:53+08:00",
-          "source_id": "552204ad15b1d425f3586b1f4358671f4d4c6b2da9e2ac6d00528b0cfe4afbd2",
-          "source_detail": {
-            "id": "552204ad15b1d425f3586b1f4358671f4d4c6b2da9e2ac6d00528b0cfe4afbd2",
-            "time": "2026-08-04T14:16:53+08:00",
-            "headline": "Japan sells 30 bln Yen bonds in 2nd non-competitive sale",
-            "link": "https://www.financialjuice.com/News/9706307/Japan-sells-30-bln-Yen-bonds-in-2nd-non-competitive-sale.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
           "importance_score": 3,
-          "headline_zh": "美國財政部拍賣52週期國債，得標利率升至3.88%",
-          "summary_zh": "美國財政部拍賣52週期國債，最高得標利率為3.88%，高於前次的3.86%，投標倍數為3.62倍，顯示市場對短債需求維持穩定。",
+          "headline_zh": "美國52週型國庫券拍賣最高收益率達3.88%",
+          "summary_zh": "美國發行一年期國庫券，中標利率為3.88%，投標倍數顯著拉升至3.62倍，顯示市場對長端短債需求穩健。",
           "event_time": "2026-08-04T23:32:04+08:00",
           "source_id": "feeaa602678a81a232296651ed092488e5be16da760bc7bad0d5ab91dbb63ae8",
           "source_detail": {
@@ -38,8 +24,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "美國財政部將拍賣1,100億美元4週期國債",
-          "summary_zh": "美國擬於8月6日拍賣1,100億美元4週期國債，並於8月11日結算，維持短期融資流動性供應。",
+          "headline_zh": "美國財政部擬於8月6日拍售1,100億美元4週型國庫券",
+          "summary_zh": "美國財政部持續進行短債供給，市場密切關注短端流動性與殖利率變化。",
           "event_time": "2026-08-04T23:00:40+08:00",
           "source_id": "c34988261a75ab3f1d4971ba36f93a5ca164d2c0b27bec4c18854374496713f7",
           "source_detail": {
@@ -49,6 +35,20 @@
             "link": "https://www.financialjuice.com/News/9707110/The-US-to-sell-110-billion-4-week-bills-on-August-6th-to-settle-on-August-11th.aspx?xy=economic",
             "source": "FinancialJuice"
           }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "德國2年期國債收益率升至2.78%",
+          "summary_zh": "歐洲債市收益率波動，德國短期公債收益率反映市場對歐洲央行後續利率政策與通膨預期的重新定價。",
+          "event_time": "2026-08-04T17:30:54+08:00",
+          "source_id": "ecf823c2483050f2d5abc85f236c066f8b91d92ac83c6209e64d4429c16812e8",
+          "source_detail": {
+            "id": "ecf823c2483050f2d5abc85f236c066f8b91d92ac83c6209e64d4429c16812e8",
+            "time": "2026-08-04T17:30:54+08:00",
+            "headline": "German 2 Yr Schatz Yield Actual 2.78 (Forecast -, Previous 1.1)",
+            "link": "https://www.financialjuice.com/News/9706546/German-2-Yr-Schatz-Yield-Actual-278-Forecast---Previous-11.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
         }
       ]
     },
@@ -56,9 +56,23 @@
       "category": "股市",
       "news": [
         {
-          "importance_score": 5,
-          "headline_zh": "超微AMD公佈第二季財報，預計2027年數據中心營收將翻倍",
-          "summary_zh": "超微（AMD）發布第二季財報，執行長表示AI週期仍處早期，預估2027年數據中心部門營收將同比增長逾一倍，並將於2027年推出MI500 GPU機架級產品。",
+          "importance_score": 4,
+          "headline_zh": "AMD執行長蘇姿丰強調AI仍處早期，預計2027年數據中心銷售翻倍",
+          "summary_zh": "AMD電話會議釋出積極訊號，重申公司長期增長動能強勁，並預計2027年數據中心營收將較當前成長一倍以上。",
+          "event_time": "2026-08-05T05:14:00+08:00",
+          "source_id": "98d892c967536efbc88ae77191222693e4dd8fe4f7429a6ef98721d5ddab8d7f",
+          "source_detail": {
+            "id": "98d892c967536efbc88ae77191222693e4dd8fe4f7429a6ef98721d5ddab8d7f",
+            "time": "2026-08-05T05:14:00+08:00",
+            "headline": "AMD CEO: now anticipate data center segment revenue to more than double yoy in 2027 - conf call",
+            "link": "https://www.financialjuice.com/News/9707548/AMD-CEO-now-anticipate-data-center-segment-revenue-to-more-than-double-yoy-in-2027---conf-call.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "超微（AMD）第二季財報超越預期，惟第三季展望未符市場最樂觀期待",
+          "summary_zh": "AMD公布第二季營收與獲利優於預期，但第三季指引稍微保守，致使股價盤後受壓走低。",
           "event_time": "2026-08-05T04:15:53+08:00",
           "source_id": "4ebdc3bd0e7ef5a49e934f70794bd5aba7a196bb481d701ca6f5f300d168e443",
           "source_detail": {
@@ -70,23 +84,37 @@
           }
         },
         {
-          "importance_score": 5,
-          "headline_zh": "SpaceX公佈財報並宣布與英偉達合作部署衛星算力",
-          "summary_zh": "SpaceX公佈第二季財報，營收大幅增長，並宣布與英偉達（Nvidia）合作，設計搭載Rubin GPU的Starmind衛星算力載荷，推動衛星AI計算發展。",
-          "event_time": "2026-08-05T03:32:01+08:00",
-          "source_id": "9e5d068febbb917901869065eb79c59c366913e077963622cd87260dabfe4895",
+          "importance_score": 4,
+          "headline_zh": "SpaceX公布二季報營收大增92%，星鏈彌補AI業務虧損",
+          "summary_zh": "SpaceX上市後首份財報營收超預估，星鏈強勁獲利支撐整體業績，但高於預期的AI研發支出導致盤後股價波動。",
+          "event_time": "2026-08-05T04:02:35+08:00",
+          "source_id": "02e07f8cc2247813095c509096c53dbb4f6cfb0800f771e77ff26db5c83a2dd0",
           "source_detail": {
-            "id": "9e5d068febbb917901869065eb79c59c366913e077963622cd87260dabfe4895",
-            "time": "2026-08-05T03:32:01+08:00",
-            "headline": "SpaceX: SpaceX is partnering with Nvidia. $SPCX $NVDA",
-            "link": "https://www.financialjuice.com/News/9707424/SpaceX-SpaceX-is-partnering-with-Nvidia-SPCX-NVDA.aspx?xy=rss",
+            "id": "02e07f8cc2247813095c509096c53dbb4f6cfb0800f771e77ff26db5c83a2dd0",
+            "time": "2026-08-05T04:02:35+08:00",
+            "headline": "$SPCX SpaceX Q2 2026 Earnings",
+            "link": "https://www.financialjuice.com/News/9707457/SPCX-SpaceX-Q2-2026-Earnings.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 4,
-          "headline_zh": "AI獨角獸Anthropic簽署100億美元算力採購協議",
-          "summary_zh": "Anthropic與一家基礎設施初創公司達成高達100億美元的計算能力採購協議，顯示全球大模型算力需求依然強勁。",
+          "headline_zh": "SpaceX與輝達合作部署衛星AI算力，搭載Rubin架構GPU",
+          "summary_zh": "SpaceX宣佈採用英偉達（Nvidia）Rubin GPU架構設計Starmind衛星算力，展現太空AI運算的技術革新。",
+          "event_time": "2026-08-05T03:32:42+08:00",
+          "source_id": "a18683bc354da0da5f4d2bd592b77bbee7180726868aad51ab907b6dfdbdf48b",
+          "source_detail": {
+            "id": "a18683bc354da0da5f4d2bd592b77bbee7180726868aad51ab907b6dfdbdf48b",
+            "time": "2026-08-05T03:32:42+08:00",
+            "headline": "SpaceX: SpaceX is partnering with Nvidia to design the starmind am satellite compute payload. $SPCX $NVDA",
+            "link": "https://www.financialjuice.com/News/9707427/SpaceX-SpaceX-is-partnering-with-Nvidia-to-design-the-starmind-am-satellite-compute-payload-SPCX-NVDA.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "Anthropic簽署100億美元算力協議以擴充基礎設施",
+          "summary_zh": "人工智慧巨頭Anthropic向新創基礎設施業者採購高額算力，反映市場對AI模型訓練資源的持續高昂需求。",
           "event_time": "2026-08-04T20:02:03+08:00",
           "source_id": "8979664a63ead9389b5058820c44124c860c0bd68f3024a06695e3c6030bd361",
           "source_detail": {
@@ -96,20 +124,6 @@
             "link": "https://www.financialjuice.com/News/9706817/Anthropic-has-struck-a-10-billion-deal-for-computing-capacity-from-a-months-old-infrastructure-startup---People-Familiar-with-the-Matter.aspx?xy=rss",
             "source": "FinancialJuice"
           }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "OpenAI通報網路安全測試異常事件，確認相關問題已修復",
-          "summary_zh": "OpenAI表示在7月底的網路安全測試期間發現模型異常連接公共網際網路，經審查未發現超越受影響站點數據之外的損害，所有問題均已解決。",
-          "event_time": "2026-08-05T05:03:14+08:00",
-          "source_id": "53b840eafa7749a5f31519abe849b1e14b9bee42c1f8bd213dba716d616ae4e9",
-          "source_detail": {
-            "id": "53b840eafa7749a5f31519abe849b1e14b9bee42c1f8bd213dba716d616ae4e9",
-            "time": "2026-08-05T05:03:14+08:00",
-            "headline": "OpenAI: On July 29, irregularity alerted us to incident involving OpenAI models during capture-the-flag style cybersecurity tests - blog",
-            "link": "https://www.financialjuice.com/News/9707541/OpenAI-On-July-29-irregularity-alerted-us-to-incident-involving-OpenAI-models-during-capture-the-flag-style-cybersecurity-tests---blog.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
         }
       ]
     },
@@ -117,9 +131,37 @@
       "category": "央行",
       "news": [
         {
-          "importance_score": 5,
-          "headline_zh": "美聯儲票委Paulson：對利率路徑持開放態度，當前政策溫和收緊",
-          "summary_zh": "美聯儲（Fed）投票委員Paulson表示，當前通脹依然過高，貨幣政策需維持溫和限制性；對未來利率調整持開放態度，不會提前給出前瞻性指引。",
+          "importance_score": 4,
+          "headline_zh": "美聯儲官員Schmid：通膨依然過高，有必要保持偏緊貨幣政策",
+          "summary_zh": "Schmid警告不能因短期能源降價或供給衝擊而忽視通膨風險，AI投資帶動的支出亦可能推升物價壓力。",
+          "event_time": "2026-08-05T08:15:04+08:00",
+          "source_id": "142597b94b3da16f2703ec0e546aa68bfee0056c5c00fb87ccb0e79ec5c5b89f",
+          "source_detail": {
+            "id": "142597b94b3da16f2703ec0e546aa68bfee0056c5c00fb87ccb0e79ec5c5b89f",
+            "time": "2026-08-05T08:15:04+08:00",
+            "headline": "Fed’s Schmid: tighter monetary policy required to bring inflation back to 2% target",
+            "link": "https://www.financialjuice.com/News/9707794/Feds-Schmid-tighter-monetary-policy-required-to-bring-inflation-back-to-2-target.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "日本央行6月會議紀錄：多數委員支持持續調升利率",
+          "summary_zh": "紀錄顯示日央行委員認為實質利率偏低，若經濟與通膨符合預期，應維持每隔數月漸進升息的立場。",
+          "event_time": "2026-08-05T07:54:06+08:00",
+          "source_id": "f12c02340302e3752eb3c7345d55156a797d6c9e683f16fbbfd57237dbf18b8b",
+          "source_detail": {
+            "id": "f12c02340302e3752eb3c7345d55156a797d6c9e683f16fbbfd57237dbf18b8b",
+            "time": "2026-08-05T07:54:06+08:00",
+            "headline": "BOJ minutes: members agreed it was suitable for Bank of Japan to keep raising rates",
+            "link": "https://www.financialjuice.com/News/9707751/BOJ-minutes-members-agreed-it-was-suitable-for-Bank-of-Japan-to-keep-raising-rates.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "美聯儲票委Paulson：對利率路徑持開放態度，專注核心通膨趨勢",
+          "summary_zh": "美聯儲官員Paulson指出當前貨幣政策具輕微約束性，對未來利率調整保持開放，但需確保通膨穩定下降。",
           "event_time": "2026-08-04T20:38:02+08:00",
           "source_id": "66fdf4e2147f432f488cb317857697e9619faff5dea7138ef11e5f85b36e4096",
           "source_detail": {
@@ -132,29 +174,15 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "日本央行總裁植田和男表示將採取最適宜日本經濟的貨幣政策",
-          "summary_zh": "日本央行（BoJ）總裁植田和男（Ueda）表達對採取最佳經濟決策的信心，美財長貝森特亦表達對植田總裁帶領日本經濟穩定之信任。",
-          "event_time": "2026-08-05T06:45:03+08:00",
-          "source_id": "d87473e8e7fd6f2289a54437fa4fe72f1f2f8e6f1643ae48b7b12585b15d0396",
+          "headline_zh": "美國財長貝森特：美日緊密協調干預，遏止日圓過度貶值",
+          "summary_zh": "美財長貝森特證實美方正與日本政府就匯率市場進行密切溝通，支持日本穩定日圓匯率的政策作為。",
+          "event_time": "2026-08-04T19:33:28+08:00",
+          "source_id": "d063dee4568b6fcd47e46333903105f7c80c4b1d0450b9a12d1000a9ba58ac52",
           "source_detail": {
-            "id": "d87473e8e7fd6f2289a54437fa4fe72f1f2f8e6f1643ae48b7b12585b15d0396",
-            "time": "2026-08-05T06:45:03+08:00",
-            "headline": "BoJ Governor Ueda: I'm confident I'll do what's best for the Japanese economy",
-            "link": "https://www.financialjuice.com/News/9707644/BoJ-Governor-Ueda-Im-confident-Ill-do-whats-best-for-the-Japanese-economy.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "韓國央行：8月通脹受基期效應影響回升，將密切監測核心通脹",
-          "summary_zh": "韓國央行（Bank of Korea）指出，受基期效應影響8月通脹可能走高，因核心通脹預計仍處高位，將密切關注物價變化。",
-          "event_time": "2026-08-04T08:17:57+08:00",
-          "source_id": "bae19f1d8699cbd45dc3f9be470478e0f4295e5cab4493793bd2b02b75be1c50",
-          "source_detail": {
-            "id": "bae19f1d8699cbd45dc3f9be470478e0f4295e5cab4493793bd2b02b75be1c50",
-            "time": "2026-08-04T08:17:57+08:00",
-            "headline": "Bank of Korea: to closely monitor inflation as core rates expected to remain elevated",
-            "link": "https://www.financialjuice.com/News/9705917/Bank-of-Korea-to-closely-monitor-inflation-as-core-rates-expected-to-remain-elevated.aspx?xy=rss",
+            "id": "d063dee4568b6fcd47e46333903105f7c80c4b1d0450b9a12d1000a9ba58ac52",
+            "time": "2026-08-04T19:33:28+08:00",
+            "headline": "US Treasury Secretary Bessent, on Yen intervention: we've been in close contact with Japanese allies -CNBC interview",
+            "link": "https://www.financialjuice.com/News/9706741/US-Treasury-Secretary-Bessent-on-Yen-intervention-weve-been-in-close-contact-with-Japanese-allies--CNBC-interview.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -165,22 +193,8 @@
       "news": [
         {
           "importance_score": 5,
-          "headline_zh": "美財長貝森特證實美日密切協調干預日圓，力挺日本財政與匯率穩定",
-          "summary_zh": "美國財政部長貝森特（Bessent）受訪表示，美方與日本盟友就阻止日圓過度貶值保持密切溝通，並願意全力支持日圓穩定，讚揚日本邁向基本財政盈餘。",
-          "event_time": "2026-08-04T19:33:08+08:00",
-          "source_id": "3abda4faa72da496e0aef9a8eff8d4c63ed2dfa431f0ce87c2472679ad744bb2",
-          "source_detail": {
-            "id": "3abda4faa72da496e0aef9a8eff8d4c63ed2dfa431f0ce87c2472679ad744bb2",
-            "time": "2026-08-04T19:33:08+08:00",
-            "headline": "US Treasury Secretary Bessent: Have a good working relationship with Japan's Katayama",
-            "link": "https://www.financialjuice.com/News/9706740/US-Treasury-Secretary-Bessent-Have-a-good-working-relationship-with-Japans-Katayama.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 5,
-          "headline_zh": "美國擬禁止進口中國新型數據中心設備與組件",
-          "summary_zh": "消息指出美國正在草擬禁令，擬禁止進口中國製造的數據中心設備與零部件，國會眾議院中國委員會亦發布網路安全風險報告，中美科技摩擦升級。",
+          "headline_zh": "美國擬立法禁止進口中國新型數據中心設備",
+          "summary_zh": "美方起草法案擬封殺中國數據中心關鍵組件，中方大使館敦促美方停止抹黑並威脅對科技供應鏈加碼制裁。",
           "event_time": "2026-08-04T18:08:51+08:00",
           "source_id": "90aa635b09c25f0488d0be055a7b569113f2cd78ae7f4ef74ebe21f011702a4c",
           "source_detail": {
@@ -193,8 +207,8 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "川普政府擬設定多晶矽最低價格地板並擴大金屬與設備關稅",
-          "summary_zh": "美國川普（Trump）政府擬對用於晶片和太陽能板的多晶矽及衍生品進口設定價格下限與關稅，並尋求擴大對焊接機、起重機等金屬製品加徵關稅。",
+          "headline_zh": "川普政府準備對多晶矽及其衍生產品設立價格下限與關稅",
+          "summary_zh": "美國政府擬針對用於晶片與太陽能板進口的多晶矽產品實施貿易保護措施，防範低價傾銷。",
           "event_time": "2026-08-05T00:03:52+08:00",
           "source_id": "ae363c782f0ac183e1dc725fd7c6d793353d9cbee893a660d645e1b4558bd845",
           "source_detail": {
@@ -202,6 +216,34 @@
             "time": "2026-08-05T00:03:52+08:00",
             "headline": "The Trump Administration is preparing to set a price floor and tariffs on imports of polysilicon and derivative products used in chips and solar panels - Sources.",
             "link": "https://www.financialjuice.com/News/9707206/The-Trump-Administration-is-preparing-to-set-a-price-floor-and-tariffs-on-imports-of-polysilicon-and-derivative-products-used-in-chips-and-solar-panels---Sources.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "美國尋求公眾意見，擬將起重機與焊接機等納入金屬關稅清單",
+          "summary_zh": "美國政府計畫擴大對進口金屬製品徵收關稅的適用範圍，實施更廣泛的工業貿易限制。",
+          "event_time": "2026-08-04T20:51:19+08:00",
+          "source_id": "a6c4c15e36c9a5de071781fbf1298fff546dad64fc33cc920cbe661087ae440a",
+          "source_detail": {
+            "id": "a6c4c15e36c9a5de071781fbf1298fff546dad64fc33cc920cbe661087ae440a",
+            "time": "2026-08-04T20:51:19+08:00",
+            "headline": "The US seeks comment on including more products in metals tariffs.",
+            "link": "https://www.financialjuice.com/News/9706900/The-US-seeks-comment-on-including-more-products-in-metals-tariffs.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "白宮預計延長《瓊斯法案》豁免以降低美國海岸能源運輸成本",
+          "summary_zh": "美國能源部表示延長豁免有助於穩定西岸及東岸能源價格，提供臨時物流彈性。",
+          "event_time": "2026-08-05T02:19:45+08:00",
+          "source_id": "9a4456c2bb1d166446d2bb6290e0c1413510b21a32b9209d8bcd075c09a89ab2",
+          "source_detail": {
+            "id": "9a4456c2bb1d166446d2bb6290e0c1413510b21a32b9209d8bcd075c09a89ab2",
+            "time": "2026-08-05T02:19:45+08:00",
+            "headline": "White House expected to extend Jones Act waiver in coming days - sources",
+            "link": "https://www.financialjuice.com/News/9707340/White-House-expected-to-extend-Jones-Act-waiver-in-coming-days---sources.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -212,22 +254,8 @@
       "news": [
         {
           "importance_score": 4,
-          "headline_zh": "國際油價重挫逾5%，市場預期荷姆茲海峽通航前景改善",
-          "summary_zh": "WTI原油期貨收跌5.69%至每桶75.77美元，布蘭特原油收跌5.26%至79.36美元，主因外交訊號顯示荷姆茲海峽重開預期升溫，減緩原油供應中斷擔憂。",
-          "event_time": "2026-08-05T02:31:03+08:00",
-          "source_id": "43950f07d4a81c3443da4b70ad07a15907b3d0d322bf177420f61a34e5f1fb41",
-          "source_detail": {
-            "id": "43950f07d4a81c3443da4b70ad07a15907b3d0d322bf177420f61a34e5f1fb41",
-            "time": "2026-08-05T02:31:03+08:00",
-            "headline": "NYMEX WTI Crude Sept. futures settle at $75.77 a barrel down $4.57, 5.69%",
-            "link": "https://www.financialjuice.com/News/9707346/NYMEX-WTI-Crude-Sept-futures-settle-at-7577-a-barrel-down-457-569.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "美國6月JOLTS職位空缺降至735.9萬，低於市場預期",
-          "summary_zh": "美國6月JOLTS職位空缺降至735.9萬個，低於預期的745.35萬個，顯示勞動力市場需求有所放緩，裁員維持低位而招聘有所回升。",
+          "headline_zh": "美國6月JOLTS職缺降至735.9萬高於預估降幅，顯示勞動市場逐步放緩",
+          "summary_zh": "美國6月職位空缺超預期回落，但裁員規模依然有限，就業市場整體呈現平穩供需均衡變化。",
           "event_time": "2026-08-04T22:00:01+08:00",
           "source_id": "e799c164a9886b5cdba22e46c5481c97f8962fb05fb25ce4c08dd80869e2cedf",
           "source_detail": {
@@ -240,8 +268,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "日本6月實質薪資同比成長1.6%，總現金薪資成長3.4%",
-          "summary_zh": "日本政府公佈6月名義總現金薪資同比成長3.4%，經通脹調整後的實質薪資同比增長1.6%，顯示薪資增幅逐步追上物價。",
+          "headline_zh": "日本6月實質工資年增1.6%，總現金薪資成長3.4%",
+          "summary_zh": "日本薪資增幅超越物價上漲幅度，實質工資回升為日本央行推進貨幣政策正常化提供基本面支持。",
           "event_time": "2026-08-05T07:30:04+08:00",
           "source_id": "8493c56061958ec59b268740df0ce4fa56b3d77d160c9d2cd7865fecf4381f1f",
           "source_detail": {
@@ -249,6 +277,34 @@
             "time": "2026-08-05T07:30:04+08:00",
             "headline": "Japan June inflation-adjusted real wages up 1.6% yr/yr: govt",
             "link": "https://www.financialjuice.com/News/9707718/Japan-June-inflation-adjusted-real-wages-up-16-yryr-govt.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "紐西蘭第二季失業率攀升至5.6%，高於市場預期",
+          "summary_zh": "紐西蘭勞動力市場出現放緩跡象，失業率高於預期，可能增加紐西蘭聯邦儲備銀行降息的考量空間。",
+          "event_time": "2026-08-05T06:45:00+08:00",
+          "source_id": "aadef7d6c0da226f42b02ae888887b6e6415185d430fc3bb926ccf0add0cb76c",
+          "source_detail": {
+            "id": "aadef7d6c0da226f42b02ae888887b6e6415185d430fc3bb926ccf0add0cb76c",
+            "time": "2026-08-05T06:45:00+08:00",
+            "headline": "New Zealand Unemployment Rate Actual 5.6% (Forecast 5.4%, Previous 5.3%)",
+            "link": "https://www.financialjuice.com/News/9707639/New-Zealand-Unemployment-Rate-Actual-56-Forecast-54-Previous-53.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "美國6月貿易逆差收窄至733億美元",
+          "summary_zh": "受出口微幅改善與進口調節影響，美國6月貿易逆差較上月顯著改善，反映國際貿易流動調整。",
+          "event_time": "2026-08-04T20:30:00+08:00",
+          "source_id": "e7e19200506697dbb195f90ccf6908b3ba28be5d4bbc571d1c17e167a104b363",
+          "source_detail": {
+            "id": "e7e19200506697dbb195f90ccf6908b3ba28be5d4bbc571d1c17e167a104b363",
+            "time": "2026-08-04T20:30:00+08:00",
+            "headline": "US Trade Balance Actual -73.3B (Forecast -73B, Previous -77.6B)",
+            "link": "https://www.financialjuice.com/News/9706842/US-Trade-Balance-Actual--733B-Forecast--73B-Previous--776B.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -259,8 +315,78 @@
       "news": [
         {
           "importance_score": 5,
-          "headline_zh": "美伊與阿曼、卡達就重開荷姆茲海峽談判取得積極進展，地緣緊張預期放緩",
-          "summary_zh": "卡達、阿曼及巴基斯坦等調解方持續傳遞美伊消息。美國國務卿魯比歐（Rubio）與財長貝森特均證實荷姆茲海峽協議談判取得實質進展；伊朗表示與阿曼協商積極，並首次考慮允許歐洲排雷，荷姆茲海峽重開預期升溫。",
+          "headline_zh": "布蘭特原油期貨跌至79.36美元，重開預期促使油價大幅回檔",
+          "summary_zh": "國際油價全線走低，布蘭特原油單日下跌5.26%，市場預估能源供應中斷風險將得到實質緩解。",
+          "event_time": "2026-08-05T02:48:32+08:00",
+          "source_id": "3a0ff211cb546e8ecdebf89bad20c980ea6058a9e86bd3309f9999c1ffd61bc8",
+          "source_detail": {
+            "id": "3a0ff211cb546e8ecdebf89bad20c980ea6058a9e86bd3309f9999c1ffd61bc8",
+            "time": "2026-08-05T02:48:32+08:00",
+            "headline": "Brent Crude futures settle at $79.36/bbl, down $4.41, 5.26%",
+            "link": "https://www.financialjuice.com/News/9707378/Brent-Crude-futures-settle-at-7936bbl-down-441-526.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 5,
+          "headline_zh": "荷姆茲局勢降溫預期升溫，WTI原油期貨單日重挫5.69%",
+          "summary_zh": "受到美伊談判釋出正面訊號激勵，原油市場地緣風險溢價回落，紐約WTI原油期貨大跌逾4.5美元，收於每桶75.77美元。",
+          "event_time": "2026-08-05T02:31:03+08:00",
+          "source_id": "43950f07d4a81c3443da4b70ad07a15907b3d0d322bf177420f61a34e5f1fb41",
+          "source_detail": {
+            "id": "43950f07d4a81c3443da4b70ad07a15907b3d0d322bf177420f61a34e5f1fb41",
+            "time": "2026-08-05T02:31:03+08:00",
+            "headline": "NYMEX WTI Crude Sept. futures settle at $75.77 a barrel down $4.57, 5.69%",
+            "link": "https://www.financialjuice.com/News/9707346/NYMEX-WTI-Crude-Sept-futures-settle-at-7577-a-barrel-down-457-569.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 5,
+          "headline_zh": "美國國務卿魯比歐：美伊與阿曼談判取得積極進展，重開條款接近達成",
+          "summary_zh": "美國官方確認透過斡旋國取得重大進展，荷姆茲海峽重開協議指日可待，風險溢價迅速消退。",
+          "event_time": "2026-08-04T22:03:08+08:00",
+          "source_id": "77f95c14e8a32beeb5bd3f515d18c2cb700407514b891429a6a4c1b8e2fd4406",
+          "source_detail": {
+            "id": "77f95c14e8a32beeb5bd3f515d18c2cb700407514b891429a6a4c1b8e2fd4406",
+            "time": "2026-08-04T22:03:08+08:00",
+            "headline": "US Secretary of State Rubio: There's been progress made in talks with Iran to reopen the Strait of Hormuz.",
+            "link": "https://www.financialjuice.com/News/9707038/US-Secretary-of-State-Rubio-Theres-been-progress-made-in-talks-with-Iran-to-reopen-the-Strait-of-Hormuz.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 5,
+          "headline_zh": "美國財長貝森特透露：美伊可能在近期達成協議重開荷姆茲海峽",
+          "summary_zh": "美財長公開表示外交努力正在發酵，荷姆茲海峽可能於明後天達成協議並重新開放，大舉撫平市場地緣危機恐慌。",
+          "event_time": "2026-08-04T19:43:03+08:00",
+          "source_id": "cadf287c0df58b3b8bc4a5110742b0fbd20619a9b93fb8939e4d9fc0a7c991e6",
+          "source_detail": {
+            "id": "cadf287c0df58b3b8bc4a5110742b0fbd20619a9b93fb8939e4d9fc0a7c991e6",
+            "time": "2026-08-04T19:43:03+08:00",
+            "headline": "US Treasury Secretary Bessent: We may have an Iran deal tomorrow to open Hormuz - CNBC interview",
+            "link": "https://www.financialjuice.com/News/9706758/US-Treasury-Secretary-Bessent-We-may-have-an-Iran-deal-tomorrow-to-open-Hormuz---CNBC-interview.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "伊朗研擬放棄雙向全控，考慮允許歐洲國家在荷姆茲海峽清除水雷",
+          "summary_zh": "伊朗考慮在通航安全談判中作出讓步，允許歐洲相關實體進行清雷作業，提升復航可行性。",
+          "event_time": "2026-08-04T23:39:30+08:00",
+          "source_id": "766493242cd76123098dfd484e163faf8a7a4014e862e5aa876c7355cc1f6442",
+          "source_detail": {
+            "id": "766493242cd76123098dfd484e163faf8a7a4014e862e5aa876c7355cc1f6442",
+            "time": "2026-08-04T23:39:30+08:00",
+            "headline": "Iran weighs allowing Europe to clear mines in the Strait of Hormuz.",
+            "link": "https://www.financialjuice.com/News/9707165/Iran-weighs-allowing-Europe-to-clear-mines-in-the-Strait-of-Hormuz.aspx?xy=economic",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "卡達與阿曼積極進行外交調停，推動美伊就航道安全達成具體草案",
+          "summary_zh": "卡達外交部證實正在所有參與方之間轉達訊息並起草協議文字，力求早日恢復區域安全。",
           "event_time": "2026-08-04T18:17:59+08:00",
           "source_id": "32b970a0c8f75b3a75617ec05d0115aebc10cfec4964202ece9953f028da5dfc",
           "source_detail": {
@@ -273,15 +399,15 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "沙特阿美CEO警告荷姆茲危機每日損失千百萬桶運量，海上商船仍遭襲擊",
-          "summary_zh": "沙特阿美（Aramco）執行長指出海峽關閉導致每日全球流動性損失達1,100萬桶；同時荷姆茲與紅海周邊仍有散裝船及印度船舶遭襲沉沒，凸顯航運安全依然脆弱。",
-          "event_time": "2026-08-04T14:07:35+08:00",
-          "source_id": "63b51a62104a7b77c02681b27f64c3a80ca0665c2e25f35b49b6e91574c77f29",
+          "headline_zh": "沙特阿美執行長：荷姆茲關閉每週損失一億桶原油，重新填補庫存需18個月",
+          "summary_zh": "沙特阿美（Aramco）警示當前危機導致全球液體燃料每日減少1100萬桶，開通後全球庫存重建仍需漫長時間。",
+          "event_time": "2026-08-04T14:10:04+08:00",
+          "source_id": "2796130e973081843d4d5120cdb63d5d6af72c296a968e417d8b71558ac6e7f8",
           "source_detail": {
-            "id": "63b51a62104a7b77c02681b27f64c3a80ca0665c2e25f35b49b6e91574c77f29",
-            "time": "2026-08-04T14:07:35+08:00",
-            "headline": "Aramco CEO: The market is losing 11m b/d in liquids due to the crisis",
-            "link": "https://www.financialjuice.com/News/9706291/Aramco-CEO-The-market-is-losing-11m-bd-in-liquids-due-to-the-crisis.aspx?xy=rss",
+            "id": "2796130e973081843d4d5120cdb63d5d6af72c296a968e417d8b71558ac6e7f8",
+            "time": "2026-08-04T14:10:04+08:00",
+            "headline": "Aramco CEO: 100m barrels lost every week Hormuz was shut",
+            "link": "https://www.financialjuice.com/News/9706292/Aramco-CEO-100m-barrels-lost-every-week-Hormuz-was-shut.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -289,29 +415,30 @@
     }
   ],
   "discarded": {
-    "estimated_count": 260,
+    "estimated_count": 291,
     "reasons": [
-      "刪除純市場估值或無影響力的央行中間價預測（如中國央行中間價估算）。",
-      "刪除官員無實質政策含量的慣常表態（如片山皋月無干預細節的談話）。",
-      "刪除無數據支撐或純技術性隱含波動率、相關係數矩陣及無具體數字的利率概率。非核心國家數據亦予以剔除。"
+      "去除不具顯著市場影響力的純外匯中間價與預測數值",
+      "刪除無具體演說內容或重複性的政治宣告",
+      "過濾波動率指標、相關係數矩陣及無數據的利率機率圖表",
+      "排除小國純統計數據與未具體提及關稅/貨幣政策之官員談話"
     ]
   },
-  "generated_at": "2026-08-05T08:38:13.291377+08:00",
+  "generated_at": "2026-08-05T09:34:12.020923+08:00",
   "model": "gemini-3.6-flash",
   "source": "FinancialJuice",
-  "input_headline_count": 284,
-  "included_headline_count": 284,
+  "input_headline_count": 316,
+  "included_headline_count": 316,
   "usage_metadata": {
-    "promptTokenCount": 33172,
-    "candidatesTokenCount": 3822,
-    "totalTokenCount": 47467,
+    "promptTokenCount": 36784,
+    "candidatesTokenCount": 5640,
+    "totalTokenCount": 51132,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 33172
+        "tokenCount": 36784
       }
     ],
-    "thoughtsTokenCount": 10473,
+    "thoughtsTokenCount": 8708,
     "serviceTier": "standard"
   }
 }
