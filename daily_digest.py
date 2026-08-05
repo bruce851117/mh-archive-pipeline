@@ -726,6 +726,82 @@ def get_response_text(
     return "\n".join(text_parts)
 
 
+def save_gemini_invalid_json_debug(
+    *,
+    response_data: dict[str, Any],
+    response_text: str,
+    attempt: int,
+    model: str,
+    parse_error: Exception,
+) -> tuple[Path, Path]:
+    """只在 Gemini JSON 解析失敗時保存原始回傳與診斷資料。"""
+    DEBUG_DIRECTORY.mkdir(parents=True, exist_ok=True)
+
+    candidates = response_data.get("candidates", [])
+    first_candidate = (
+        candidates[0]
+        if isinstance(candidates, list)
+        and candidates
+        and isinstance(candidates[0], dict)
+        else {}
+    )
+    cause = parse_error.__cause__
+    json_error: dict[str, Any] = {}
+
+    if isinstance(cause, json.JSONDecodeError):
+        context_start = max(0, cause.pos - 500)
+        context_end = min(len(response_text), cause.pos + 500)
+        json_error = {
+            "message": cause.msg,
+            "line": cause.lineno,
+            "column": cause.colno,
+            "character_position": cause.pos,
+            "context_start": context_start,
+            "context_end": context_end,
+            "context": response_text[context_start:context_end],
+        }
+
+    timestamp = datetime.now(timezone.utc).strftime(
+        "%Y%m%dT%H%M%S%fZ"
+    )
+    stem = f"gemini_invalid_json_{timestamp}_attempt_{attempt}"
+    raw_file = DEBUG_DIRECTORY / f"{stem}.txt"
+    metadata_file = DEBUG_DIRECTORY / f"{stem}.json"
+    latest_raw_file = DEBUG_DIRECTORY / "latest_gemini_invalid_json.txt"
+    latest_metadata_file = (
+        DEBUG_DIRECTORY / "latest_gemini_invalid_json_debug.json"
+    )
+
+    metadata = {
+        "captured_at": datetime.now(timezone.utc).isoformat(),
+        "attempt": attempt,
+        "model": model,
+        "response_character_count": len(response_text),
+        "finish_reason": first_candidate.get(
+            "finishReason", "unknown"
+        ),
+        "finish_message": first_candidate.get(
+            "finishMessage", ""
+        ),
+        "usage_metadata": response_data.get(
+            "usageMetadata", {}
+        ),
+        "prompt_feedback": response_data.get(
+            "promptFeedback", {}
+        ),
+        "parse_error": str(parse_error),
+        "json_error": json_error,
+        "raw_response_text_file": str(raw_file),
+    }
+
+    raw_file.write_text(response_text, encoding="utf-8")
+    latest_raw_file.write_text(response_text, encoding="utf-8")
+    write_json(metadata_file, metadata)
+    write_json(latest_metadata_file, metadata)
+
+    return raw_file, metadata_file
+
+
 def parse_gemini_json(
     response_text: str,
 ) -> dict[str, Any]:
@@ -806,7 +882,24 @@ def call_gemini(
             if response.status_code == 200:
                 response_data = response.json()
                 response_text = get_response_text(response_data)
-                result = parse_gemini_json(response_text)
+                try:
+                    result = parse_gemini_json(response_text)
+                except RuntimeError as parse_error:
+                    raw_file, metadata_file = (
+                        save_gemini_invalid_json_debug(
+                            response_data=response_data,
+                            response_text=response_text,
+                            attempt=attempt,
+                            model=model,
+                            parse_error=parse_error,
+                        )
+                    )
+                    print(
+                        "Gemini invalid JSON debug saved: "
+                        f"{raw_file} | {metadata_file}",
+                        file=sys.stderr,
+                    )
+                    raise
                 usage = response_data.get("usageMetadata", {})
                 return result, usage
 

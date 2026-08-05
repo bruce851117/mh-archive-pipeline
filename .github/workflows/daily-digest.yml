@@ -451,3 +451,16 @@ jobs:
 
           git pull --rebase origin main
           git push origin main
+
+      - name: Upload Gemini invalid JSON debug files
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gemini-invalid-json-debug-${{ github.run_number }}-${{ github.run_attempt }}
+          path: |
+            data/debug/gemini_invalid_json_*.txt
+            data/debug/gemini_invalid_json_*.json
+            data/debug/latest_gemini_invalid_json.txt
+            data/debug/latest_gemini_invalid_json_debug.json
+          if-no-files-found: ignore
+          retention-days: 7
