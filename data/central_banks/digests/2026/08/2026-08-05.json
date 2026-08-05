@@ -2,19 +2,19 @@
   "date": "2026-08-05",
   "timezone": "Asia/Taipei",
   "model": "gemini-3.6-flash",
-  "source_generated_at": "2026-08-05T09:34:12.020923+08:00",
+  "source_generated_at": "2026-08-06T07:00:18.803401+08:00",
   "talk_count": 2,
   "talks": [
     {
-      "central_bank": "BOJ",
-      "central_bank_display_name": "BoJ",
-      "official": "Kazuo Ueda",
-      "headline_name": "Ueda",
-      "priority": 1,
-      "position": "Governor",
+      "central_bank": "FED",
+      "central_bank_display_name": "Fed",
+      "official": "Neel Kashkari",
+      "headline_name": "Kashkari",
+      "priority": 11,
+      "position": "Minneapolis Fed President",
       "active": true,
       "date": "2026-08-05",
-      "summary_zh": "表示有信心會採取對日本經濟最有利的行動。",
+      "summary_zh": "目前是開始緩慢調升利率以降低通膨的時間點，並非要求劇烈升息，同時強調明確溝通反應函數的重要性。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -24,14 +24,56 @@
         "balance_sheet": ""
       },
       "source_ids": [
-        "d87473e8e7fd6f2289a54437fa4fe72f1f2f8e6f1643ae48b7b12585b15d0396"
+        "0340d386b2b84ca6b7291bcbec267c2a63de508df97ec29a9ff931b6cf4b931f",
+        "b41ad293280c462c8bf50ddfcfb87ba93e1c1458f27f8fd7aff128ec85c3b0c8",
+        "1698ab3a7b30b367ecc253faf41053723215581f4fb3318257f4faab5e71e473",
+        "0bac2cb11edcfb7fe4f73d0dab77db4d64ee01d50a4510a639503acf2b9266d5",
+        "6b4a06114692115e24207317dcb1ff3be047bcabf467442f1cbf8e7aed80500c",
+        "ec316ad7c4e0f133eeaea8c8f1072b1b1b3fa1662f8f11e9ae5f87257a0e2b08",
+        "39b40f3294c3b0a126c7557a4d146ff1aa5b6f7bb2dd54c10d204f28429adcda"
       ],
       "source_headlines": [
         {
-          "id": "d87473e8e7fd6f2289a54437fa4fe72f1f2f8e6f1643ae48b7b12585b15d0396",
-          "time": "2026-08-05T06:45:03+08:00",
-          "central_bank": "BOJ",
-          "headline": "BoJ Governor Ueda: I'm confident I'll do what's best for the Japanese economy"
+          "id": "0340d386b2b84ca6b7291bcbec267c2a63de508df97ec29a9ff931b6cf4b931f",
+          "time": "2026-08-05T20:09:25+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Kashkari: My goal is not to slow the economy, my goal is to bring down inflation - CNBC."
+        },
+        {
+          "id": "b41ad293280c462c8bf50ddfcfb87ba93e1c1458f27f8fd7aff128ec85c3b0c8",
+          "time": "2026-08-05T20:09:52+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Kashkari: Most of the recent inflation is from supply shocks, with some demand layered on top."
+        },
+        {
+          "id": "1698ab3a7b30b367ecc253faf41053723215581f4fb3318257f4faab5e71e473",
+          "time": "2026-08-05T20:10:57+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Kashkari: I believe now is the time to start slowly moving interest rates up - CNBC Interview."
+        },
+        {
+          "id": "0bac2cb11edcfb7fe4f73d0dab77db4d64ee01d50a4510a639503acf2b9266d5",
+          "time": "2026-08-05T20:11:07+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Kashkari: I am not calling for a dramatic increase in rates."
+        },
+        {
+          "id": "6b4a06114692115e24207317dcb1ff3be047bcabf467442f1cbf8e7aed80500c",
+          "time": "2026-08-05T20:11:53+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Kashkari: Ultimately, thge committee has to decide on the right communications posture."
+        },
+        {
+          "id": "ec316ad7c4e0f133eeaea8c8f1072b1b1b3fa1662f8f11e9ae5f87257a0e2b08",
+          "time": "2026-08-05T20:12:39+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Kashkari: Communicating the Fed's reaction function is good for market participants. I think it is good for the market to understand the reaction function, there is value in continuing the tradition of explaining the reaction function - CNBC Interview."
+        },
+        {
+          "id": "39b40f3294c3b0a126c7557a4d146ff1aa5b6f7bb2dd54c10d204f28429adcda",
+          "time": "2026-08-05T20:12:48+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Kashkari: I don't think there is a magic number of meetings."
         }
       ]
     },
@@ -44,7 +86,7 @@
       "position": "Kansas City Fed President",
       "active": true,
       "date": "2026-08-05",
-      "summary_zh": "通膨依然過高且AI投資推升物價，當前政策立場並不緊繃，需要更緊縮的貨幣政策以使通膨回落至2%目標。",
+      "summary_zh": "當前政策立場不夠緊縮，通膨仍過高且AI投資推升通膨，需要更緊縮的貨幣政策以使通膨回到2%目標。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -63,7 +105,9 @@
         "73c16a8a65d95479e3b9f1b9ddc545e3f0b4d4ad82ff2fb871ccba1d4386936f",
         "e02bd22c2b3a946a678368d6609e78f4098aed0e6dac0670834a8e02fb621fb6",
         "0bbc741e2ec5c17d91a1618c5abdd1b985f8c424a84c6212028708820285984f",
-        "d9d6ca8bdc0f6ac3be121a0bb8f8a90a44f978951033d435f3b4ae4ba55a17d4"
+        "d9d6ca8bdc0f6ac3be121a0bb8f8a90a44f978951033d435f3b4ae4ba55a17d4",
+        "89130feb019bfd885bf134095984e5f54b6dc5b26465908f697fe81b5790ba41",
+        "8093a58d3eb748fa1fdb220eb3d55c0078d1abb84a98d600384378a6652bcf32"
       ],
       "source_headlines": [
         {
@@ -125,6 +169,18 @@
           "time": "2026-08-05T08:15:04+08:00",
           "central_bank": "FED",
           "headline": "Fed's Schmid: Economy doing well overall, growth remains resilient"
+        },
+        {
+          "id": "89130feb019bfd885bf134095984e5f54b6dc5b26465908f697fe81b5790ba41",
+          "time": "2026-08-05T08:53:45+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Schmid: worth debating technology investment leverage levels"
+        },
+        {
+          "id": "8093a58d3eb748fa1fdb220eb3d55c0078d1abb84a98d600384378a6652bcf32",
+          "time": "2026-08-05T08:57:51+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Schmid: Monetary policy guidance useful depending on circumstances"
         }
       ]
     }

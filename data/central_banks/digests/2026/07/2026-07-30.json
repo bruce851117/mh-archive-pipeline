@@ -2,7 +2,7 @@
   "date": "2026-07-30",
   "timezone": "Asia/Taipei",
   "model": "gemini-3.6-flash",
-  "source_generated_at": "2026-08-05T09:34:12.020923+08:00",
+  "source_generated_at": "2026-08-06T07:00:18.803401+08:00",
   "talk_count": 9,
   "talks": [
     {
@@ -14,7 +14,7 @@
       "position": "Governor",
       "active": true,
       "date": "2026-07-30",
-      "summary_zh": "表示國內通膨趨緩且勞動市場放緩，維持利率適當，雖無第二輪效應證據但若中東衝突持續並出現第二輪效應可能需要升息，目前並非走向升息。",
+      "summary_zh": "表示國內通膨放緩且勞動市場疲軟，按兵不動是適當的，雖尚無二輪效應證據，但若中東衝突持續引發二輪效應將準備升息。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -25,6 +25,7 @@
       },
       "source_ids": [
         "a3c20110981e588b0e4fd7c035d617627322c06606f6e34ca349d195a0f9a615",
+        "c10963900e90f55337696f7c8bc5c7daa73a235d4c095e64472eadccaa9e8bb1",
         "93f047f6e5a493878ae30c4a609e150b12fe764dfb063673e90ad608ee157299",
         "0136e758dd0e00f1ec30287dd3d5a2a425cfa9f59e4b59be84dcd74f52a55bf9",
         "e324b543224e15758e8e3ca3e571ed20bcdd019be191ecef2bdee6cdb4ad572c",
@@ -37,6 +38,7 @@
         "f21012027d3861111a23fa745a6f76a4f021ce0ef3cf801180b73de9cc868a03",
         "cc411effb98bcdb2a0a62dd288f4e1eb9d4bd8fb7c14b2020aa04fc2bcd53ad5",
         "eb96b3613c2c7b7507b63f73e21b102d62e625aa23f512db443046d6430b6363",
+        "c3306e67964537efe1f3f2f03518c770602dec9ac31483a410902944edb24e69",
         "3454b51b52a45156b895c405cd03210a8cea435d7c03332e04349a7a4728bbf2",
         "0a01da503706f2301de199cf86cec94efeb4a7dd281863f674a9928f27789986",
         "8a732d888623cf787c8a10c42dd3da031815894e14505ff12066a8229cada11e",
@@ -52,7 +54,6 @@
         "c96a41ceaa4d8855026c9bbeb85aa1a989a88a71c77a236b826f09b400b606fd",
         "82d65506687b1915d9105110be2581989b9c386dda139ff0f0ebc05f30ef3670",
         "9fcb08e024aa872f5b42fe4df1f4d1c1555a55dac1d9992a85e87aa11c433083",
-        "466e0129a17e3da86e0482eec5ce3a2ddbe9f0d0fb26c392b24f99ae472888af",
         "8468276e090285b738430031ceedc1f00f46164402b60aa5cce1bdd8b182d896",
         "e80154398e172da62097c563da33906dd9e975c6f9842f1105a63133bbfca350",
         "63aaad21d3b78604143118bafa4b8e6db3af9adb6a35dbc0fc2e90ad176a45cc",
@@ -64,6 +65,12 @@
           "time": "2026-07-30T19:07:16+08:00",
           "central_bank": "BOE",
           "headline": "BoE Gov. Bailey: Domestic inflation more benign, rate hold apt"
+        },
+        {
+          "id": "c10963900e90f55337696f7c8bc5c7daa73a235d4c095e64472eadccaa9e8bb1",
+          "time": "2026-07-30T20:02:40+08:00",
+          "central_bank": "BOE",
+          "headline": "BoE Gov. Bailey: There is no evidence of 2nd-round effects, but we cannot draw too much comfort from this."
         },
         {
           "id": "93f047f6e5a493878ae30c4a609e150b12fe764dfb063673e90ad608ee157299",
@@ -136,6 +143,12 @@
           "time": "2026-07-30T20:13:07+08:00",
           "central_bank": "BOE",
           "headline": "BoE Gov. Bailey: If the Middle East conflict persists and we get 2nd-round effects, we will likely need to raise rates."
+        },
+        {
+          "id": "c3306e67964537efe1f3f2f03518c770602dec9ac31483a410902944edb24e69",
+          "time": "2026-07-30T20:13:59+08:00",
+          "central_bank": "BOE",
+          "headline": "BoE Gov. Bailey: Current market pricing reflects risk premia rather than central expectations for the bank rate."
         },
         {
           "id": "3454b51b52a45156b895c405cd03210a8cea435d7c03332e04349a7a4728bbf2",
@@ -228,12 +241,6 @@
           "headline": "BoE Gov. Bailey: The UK may be seeing some downward impact on goods prices from trade redirection due to tariffs."
         },
         {
-          "id": "466e0129a17e3da86e0482eec5ce3a2ddbe9f0d0fb26c392b24f99ae472888af",
-          "time": "2026-07-30T21:00:36+08:00",
-          "central_bank": "BOE",
-          "headline": "BoE Gov. Bailey ends the BoE Press Conference."
-        },
-        {
           "id": "8468276e090285b738430031ceedc1f00f46164402b60aa5cce1bdd8b182d896",
           "time": "2026-07-30T23:30:23+08:00",
           "central_bank": "BOE",
@@ -268,7 +275,7 @@
       "position": "Deputy Governor, Monetary Policy",
       "active": true,
       "date": "2026-07-30",
-      "summary_zh": "表示第二輪效應可能顯著，但情境已根據能源價格下修，投票按兵不動並非艱難決定，且經濟活動與企業環境相對疲軟。",
+      "summary_zh": "指出二輪效應可能相當顯著，經濟活動相對疲軟，但對去通膨力量有更多了解。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -333,7 +340,7 @@
       "position": "Chief Economist / MPC Member",
       "active": true,
       "date": "2026-07-30",
-      "summary_zh": "表示需要清晰且無歧義的通膨訊號。",
+      "summary_zh": "表示需要關於通膨的明確且無歧義的訊號。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -363,7 +370,7 @@
       "position": "Deputy Governor, Markets and Banking",
       "active": true,
       "date": "2026-07-30",
-      "summary_zh": "指出量化緊縮（QT）的影響相較於金利期限溢價上升是微小的，銀行利率仍為主要工具，QT僅為背景。",
+      "summary_zh": "表示利率仍是主要工具，量化緊縮（QT）處於背景地位，其影響遠小於債券期限溢價的上升。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -430,7 +437,7 @@
       "position": "External MPC Member",
       "active": true,
       "date": "2026-07-30",
-      "summary_zh": "認為維護政策可信度需要升息一碼。",
+      "summary_zh": "主張需要升息1碼以維護政策公信力。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -460,7 +467,7 @@
       "position": "External MPC Member",
       "active": true,
       "date": "2026-07-30",
-      "summary_zh": "認為等待對衝擊有更明確了解具備價值。",
+      "summary_zh": "認為等待更清晰的衝擊解讀是有價值的。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -490,7 +497,7 @@
       "position": "Former External MPC Member",
       "active": false,
       "date": "2026-07-30",
-      "summary_zh": "預計第二輪通膨效應將會顯現。",
+      "summary_zh": "表示預期將會出現二輪效應。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -520,7 +527,7 @@
       "position": "Chair",
       "active": true,
       "date": "2026-07-30",
-      "summary_zh": "利率決議維持不變，美聯儲絕不對通膨讓步，當前無軟通膨目標，市場價格反應強勁經濟，美聯儲將視通膨發展採取行動。",
+      "summary_zh": "委員會堅決恢復物價穩定且2%目標絕不搖動，減少前瞻指引，若通膨持續居高利率可能成為解決方案之一。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -606,7 +613,8 @@
         "4e8b1c5084968f807d31fea49016766f667d06f56f6d5cf5dfb75c16b772ae49",
         "83808c731795364faee075bda69617f7eed34612fbeccf9a8c52aa71a80b76fd",
         "4f76321921b81de3917858bee508768497597682c8f97ab3265d48fa12b1afc5",
-        "443efae82c91885927abf6ab3384dce72adefaa227a337558147b9210a760a6e"
+        "443efae82c91885927abf6ab3384dce72adefaa227a337558147b9210a760a6e",
+        "3f6d7fad48300857c3d081009f286ac79fb44f96d4befdae50c74f97254b441e"
       ],
       "source_headlines": [
         {
@@ -1070,6 +1078,12 @@
           "time": "2026-07-30T03:14:27+08:00",
           "central_bank": "FED",
           "headline": "Fed's Chair Warsh: Between now and the year-end, I am committing to press conferences this year."
+        },
+        {
+          "id": "3f6d7fad48300857c3d081009f286ac79fb44f96d4befdae50c74f97254b441e",
+          "time": "2026-07-30T03:15:38+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Warsh ends press conference"
         }
       ]
     }
