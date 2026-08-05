@@ -1205,7 +1205,7 @@
       margin-top: 10px;
       padding: 13px;
       display: grid;
-      grid-template-columns: 1fr 1fr auto;
+      grid-template-columns: 1fr 1fr 1.4fr auto;
       gap: 10px;
       align-items: end;
     }
@@ -1394,7 +1394,7 @@
       <section class="card central-bank-header">
         <div>
           <h2 class="central-bank-name">全部原始新聞查詢</h2>
-          <div id="rawNewsRangeText" class="central-bank-range">直接讀取 data/archive/YYYY/MM/YYYY-MM-DD.json，依發布時間由新到舊顯示</div>
+          <div id="rawNewsRangeText" class="central-bank-range">直接讀取 data/archive/YYYY/MM/YYYY-MM-DD.json，依發布時間由舊到新顯示</div>
         </div>
         <div id="rawNewsCount" class="central-bank-count">0 則新聞</div>
       </section>
@@ -1406,6 +1406,10 @@
         <div class="field">
           <label for="rawNewsEndDate">結束日期</label>
           <input id="rawNewsEndDate" type="date">
+        </div>
+        <div class="field">
+          <label for="rawNewsKeyword">關鍵字</label>
+          <input id="rawNewsKeyword" type="search" placeholder="Fed / CPI / Oil / China">
         </div>
         <button id="rawNewsSearchButton" class="search-button" type="button">查詢原始新聞</button>
       </section>
@@ -1550,6 +1554,7 @@
     const rawNewsCount = document.getElementById('rawNewsCount');
     const rawNewsStartDate = document.getElementById('rawNewsStartDate');
     const rawNewsEndDate = document.getElementById('rawNewsEndDate');
+    const rawNewsKeyword = document.getElementById('rawNewsKeyword');
     const rawNewsSearchButton = document.getElementById('rawNewsSearchButton');
     const rawNewsStatus = document.getElementById('rawNewsStatus');
     const rawNewsResults = document.getElementById('rawNewsResults');
@@ -2189,7 +2194,7 @@
         if (!groups.has(dateKey)) groups.set(dateKey, []);
         groups.get(dateKey).push(item);
       }
-      return [...groups.entries()].sort((a, b) => b[0].localeCompare(a[0])).map(([dateKey, rows]) => `
+      return [...groups.entries()].sort((a, b) => a[0].localeCompare(b[0])).map(([dateKey, rows]) => `
         <section class="card raw-news-list" style="margin-top:12px;">
           <header class="raw-news-day-header">
             <span>${escapeHtml(rawNewsDateHeading(dateKey))}</span>
@@ -2254,13 +2259,22 @@
             if (!dedup.has(key)) dedup.set(key, item);
           }
         }
-        const items = [...dedup.values()].sort((a, b) => {
-          const timeCompare = String(b.publishedAt).localeCompare(String(a.publishedAt));
-          return timeCompare || a.headline.localeCompare(b.headline);
-        });
+        const term = rawNewsKeyword.value.trim().toLowerCase();
+        const items = [...dedup.values()]
+          .filter(item => {
+            if (!term) return true;
+            return [item.headline, item.source]
+              .join(' ')
+              .toLowerCase()
+              .includes(term);
+          })
+          .sort((a, b) => {
+            const timeCompare = String(a.publishedAt).localeCompare(String(b.publishedAt));
+            return timeCompare || a.headline.localeCompare(b.headline);
+          });
         rawNewsCount.textContent = `${items.length} 則新聞`;
-        rawNewsRangeText.textContent = `${rawNewsDateHeading(startDate)} ～ ${rawNewsDateHeading(endDate)}｜依發布時間由新到舊`;
-        const messages = [`已載入 ${loaded.length} 天，共 ${items.length} 則原始新聞`];
+        rawNewsRangeText.textContent = `${rawNewsDateHeading(startDate)} ～ ${rawNewsDateHeading(endDate)}｜依發布時間由舊到新`;
+        const messages = [`已載入 ${loaded.length} 天，共顯示 ${items.length} 則原始新聞${term ? `｜關鍵字：${rawNewsKeyword.value.trim()}` : ''}`];
         if (missing.length) messages.push(`無檔案 ${missing.length} 天：${missing.join('、')}`);
         if (failed.length) messages.push(`載入失敗 ${failed.length} 天：${failed.join('、')}`);
         rawNewsStatus.className = failed.length ? 'raw-news-status error' : 'raw-news-status';
@@ -2485,6 +2499,9 @@
 
     historySearchButton.addEventListener('click', renderHistoryPage);
     rawNewsSearchButton.addEventListener('click', renderRawNewsPage);
+    rawNewsKeyword.addEventListener('keydown', event => {
+      if (event.key === 'Enter') renderRawNewsPage();
+    });
     historyKeyword.addEventListener('keydown', event => {
       if (event.key === 'Enter') renderHistoryPage();
     });
