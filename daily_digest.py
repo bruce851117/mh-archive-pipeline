@@ -82,7 +82,7 @@ SYSTEM_INSTRUCTION = """
 - 只輸出合法JSON，不要Markdown，不要額外說明。所有source_id只能使用輸入提供的id。
 - 跟美伊戰爭、中東戰爭、荷姆茲海峽、紅海的headline都盡可能留下來，這非常重要 請嚴格遵守，就算很多headline也沒關係
 
-以下我所提到的這些新聞類型幫我刪除：
+請嚴格遵守：請盡量都把Headline留下來，不過以下我所提到的這些幫我刪除：
 1.市場估計中國人民銀行可能將人民幣兌美元中間價設定在6.7734元。-->不會對市場造成影響
 2.日本財務大臣片山皋月表示，不會評論特定匯率水準。-->除非他提到要干預，不然也不會對市場造成影響
 3.台股跌幅超過2.7%。-->純講價格/漲跌幅 不重要
@@ -634,7 +634,8 @@ def build_user_prompt(
 本地去除完全相同內容後：{input_count}則
 實際送入模型：{included_count}則
 
-請完成分類、繁體中文翻譯及重要性1至5分評估。
+請完成分類、語意去重、繁體中文翻譯及重要性1至5分評估。
+同一事件的後續發展、修正、否認、推翻或正式確認，請各自作為獨立的新聞項目輸出，不要合併成階層結構。
 輸出必須符合以下JSON結構，六個分類均須出現：
 {{
   "title":"最近24小時全球市場重要新聞",
@@ -674,7 +675,7 @@ def build_user_prompt(
     if not breakfast_prompt:
         return prompt
 
-    insertion_point = "\n\n請完成分類、繁體中文翻譯及重要性1至5分評估。"
+    insertion_point = "\n\n請完成分類、語意去重、繁體中文翻譯及重要性1至5分評估。"
     if insertion_point not in prompt:
         return breakfast_prompt + "\n\n" + prompt
 
@@ -723,72 +724,6 @@ def get_response_text(
         )
 
     return "\n".join(text_parts)
-
-
-def save_gemini_response_debug(
-    *,
-    response_data: dict[str, Any],
-    response_text: str,
-    attempt: int,
-    model: str,
-    error: Exception | None = None,
-) -> tuple[Path, Path]:
-    """保存 Gemini 原始回傳與解析資訊，不包含 API key 或完整 prompt。"""
-    DEBUG_DIRECTORY.mkdir(parents=True, exist_ok=True)
-
-    candidates = response_data.get("candidates", [])
-    first_candidate = (
-        candidates[0]
-        if isinstance(candidates, list)
-        and candidates
-        and isinstance(candidates[0], dict)
-        else {}
-    )
-    usage = response_data.get("usageMetadata", {})
-    timestamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
-    stem = f"gemini_response_{timestamp}_attempt_{attempt}"
-    text_file = DEBUG_DIRECTORY / f"{stem}.txt"
-    metadata_file = DEBUG_DIRECTORY / f"{stem}.json"
-
-    json_error: dict[str, Any] = {}
-    cause = error.__cause__ if error is not None else None
-    if isinstance(cause, json.JSONDecodeError):
-        context_start = max(0, cause.pos - 500)
-        context_end = min(len(response_text), cause.pos + 500)
-        json_error = {
-            "message": cause.msg,
-            "line": cause.lineno,
-            "column": cause.colno,
-            "character_position": cause.pos,
-            "context_start": context_start,
-            "context_end": context_end,
-            "context": response_text[context_start:context_end],
-        }
-
-    metadata = {
-        "captured_at": datetime.now(timezone.utc).isoformat(),
-        "attempt": attempt,
-        "model": model,
-        "response_character_count": len(response_text),
-        "finish_reason": first_candidate.get("finishReason", "unknown"),
-        "finish_message": first_candidate.get("finishMessage", ""),
-        "usage_metadata": usage if isinstance(usage, dict) else {},
-        "prompt_feedback": response_data.get("promptFeedback", {}),
-        "parse_status": "failed" if error is not None else "success",
-        "parse_error": str(error) if error is not None else "",
-        "json_error": json_error,
-        "raw_response_text_file": str(text_file),
-    }
-
-    text_file.write_text(response_text, encoding="utf-8")
-    write_json(metadata_file, metadata)
-
-    latest_text_file = DEBUG_DIRECTORY / "latest_gemini_response.txt"
-    latest_metadata_file = DEBUG_DIRECTORY / "latest_gemini_response_debug.json"
-    latest_text_file.write_text(response_text, encoding="utf-8")
-    write_json(latest_metadata_file, metadata)
-
-    return text_file, metadata_file
 
 
 def parse_gemini_json(
@@ -871,24 +806,7 @@ def call_gemini(
             if response.status_code == 200:
                 response_data = response.json()
                 response_text = get_response_text(response_data)
-
-                try:
-                    result = parse_gemini_json(response_text)
-                except RuntimeError as parse_error:
-                    text_file, metadata_file = save_gemini_response_debug(
-                        response_data=response_data,
-                        response_text=response_text,
-                        attempt=attempt,
-                        model=model,
-                        error=parse_error,
-                    )
-                    print(
-                        "Gemini invalid JSON debug saved: "
-                        f"{text_file} | {metadata_file}",
-                        file=sys.stderr,
-                    )
-                    raise
-
+                result = parse_gemini_json(response_text)
                 usage = response_data.get("usageMetadata", {})
                 return result, usage
 
