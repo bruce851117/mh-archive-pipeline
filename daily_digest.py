@@ -122,7 +122,7 @@ CENTRAL_BANK_SYSTEM_INSTRUCTION = """
 你是專業的全球央行政策研究員。你會收到最近90天FinancialJuice的Fed、BoE、ECB、BoJ及RBA官員英文Headline，以及官員正式姓名清單。
 
 請嚴格遵守：
-1. 五個央行必須放在同一次整理中完成。
+1. 只整理本次輸入資料與官員清單中提供的央行；不同批次將由Python合併。
 2. 依central_bank、official、date分組；同一官員同一天的多則Headline合併成一句繁體中文摘要。
 3. summary_zh只摘要官員對經濟、通膨、勞動市場、貨幣政策、利率、資產負債表、QE或QT的實質看法。
 4. 金融監管、銀行資本規範、支付系統、加密貨幣、行政事項、行程、開始演說、結束演說及無實質政策內容的Headline全部忽略。
@@ -1303,8 +1303,14 @@ def build_central_bank_prompt(
         for bank in bank_reference
     ]
 
+    group_codes = [
+        bank["central_bank"] for bank in bank_reference
+    ]
+    group_label = "+".join(group_codes)
+
     return f"""
-請整理以下五大央行最近90天的官員Headline。
+請整理以下央行群組（{group_label}）最近90天的官員Headline。
+只可輸出本批次包含的央行：{group_label}。
 統計期間：{period_start} 至 {period_end}
 時區：Asia/Taipei（GMT+8）
 輸入Headline數：{len(items)}
@@ -1468,6 +1474,34 @@ def normalize_central_bank_digest(
     }
 
 
+def merge_central_bank_usage(
+    usage_by_batch: dict[str, dict[str, Any]],
+) -> dict[str, Any]:
+    """加總三批 Gemini usage，並保留各批次明細。"""
+    summed_fields = (
+        "promptTokenCount",
+        "candidatesTokenCount",
+        "thoughtsTokenCount",
+        "totalTokenCount",
+        "cachedContentTokenCount",
+        "toolUsePromptTokenCount",
+    )
+    merged: dict[str, Any] = {
+        field: 0 for field in summed_fields
+    }
+
+    for usage in usage_by_batch.values():
+        if not isinstance(usage, dict):
+            continue
+        for field in summed_fields:
+            value = usage.get(field, 0)
+            if isinstance(value, (int, float)) and not isinstance(value, bool):
+                merged[field] += value
+
+    merged["by_batch"] = usage_by_batch
+    return merged
+
+
 def generate_central_bank_digest(
     api_key: str,
     model: str,
@@ -1493,25 +1527,72 @@ def generate_central_bank_digest(
         )
         return empty_digest
 
-    prompt = build_central_bank_prompt(
-        items=items,
-        bank_reference=bank_reference,
-        period_start=format_taipei_time(
-            run_at - timedelta(days=CENTRAL_BANK_LOOKBACK_DAYS)
-        ),
-        period_end=format_taipei_time(run_at),
+    batch_groups = (
+        ("FED+RBA", ("FED", "RBA")),
+        ("BOE+BOJ", ("BOE", "BOJ")),
+        ("ECB", ("ECB",)),
     )
+    period_start = format_taipei_time(
+        run_at - timedelta(days=CENTRAL_BANK_LOOKBACK_DAYS)
+    )
+    period_end = format_taipei_time(run_at)
+    merged_talks: list[dict[str, Any]] = []
+    usage_by_batch: dict[str, dict[str, Any]] = {}
 
     print("")
-    print("Generating five-central-bank 90-day digest...")
-    print(f"Central bank headlines sent to Gemini: {len(items)}")
+    print("Generating grouped five-central-bank 90-day digest...")
+    print(f"Central bank headlines prepared: {len(items)}")
 
-    raw_digest, usage = call_gemini(
-        api_key=api_key,
-        model=model,
-        prompt=prompt,
-        system_instruction=CENTRAL_BANK_SYSTEM_INSTRUCTION,
-    )
+    for batch_name, bank_codes in batch_groups:
+        allowed_banks = set(bank_codes)
+        batch_items = [
+            item
+            for item in items
+            if item["central_bank"] in allowed_banks
+        ]
+        batch_reference = [
+            bank
+            for bank in bank_reference
+            if bank["central_bank"] in allowed_banks
+        ]
+
+        print(
+            f"Central bank batch {batch_name} sent to Gemini: "
+            f"{len(batch_items)} headlines"
+        )
+
+        if not batch_items:
+            usage_by_batch[batch_name] = {}
+            continue
+
+        prompt = build_central_bank_prompt(
+            items=batch_items,
+            bank_reference=batch_reference,
+            period_start=period_start,
+            period_end=period_end,
+        )
+        batch_digest, batch_usage = call_gemini(
+            api_key=api_key,
+            model=model,
+            prompt=prompt,
+            system_instruction=CENTRAL_BANK_SYSTEM_INSTRUCTION,
+        )
+        batch_talks = batch_digest.get("talks", [])
+
+        if not isinstance(batch_talks, list):
+            raise RuntimeError(
+                f"Central bank batch {batch_name} returned invalid talks."
+            )
+
+        merged_talks.extend(
+            talk for talk in batch_talks if isinstance(talk, dict)
+        )
+        usage_by_batch[batch_name] = (
+            batch_usage if isinstance(batch_usage, dict) else {}
+        )
+
+    raw_digest = {"talks": merged_talks}
+    usage = merge_central_bank_usage(usage_by_batch)
 
     return normalize_central_bank_digest(
         raw_digest=raw_digest,
