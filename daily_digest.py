@@ -634,7 +634,7 @@ def build_user_prompt(
 本地去除完全相同內容後：{input_count}則
 實際送入模型：{included_count}則
 
-請完成分類、語意去重、繁體中文翻譯及重要性1至5分評估。
+請完成分類、繁體中文翻譯及重要性1至5分評估。
 同一事件的後續發展、修正、否認、推翻或正式確認，請各自作為獨立的新聞項目輸出，不要合併成階層結構。
 輸出必須符合以下JSON結構，六個分類均須出現：
 {{
@@ -675,7 +675,7 @@ def build_user_prompt(
     if not breakfast_prompt:
         return prompt
 
-    insertion_point = "\n\n請完成分類、語意去重、繁體中文翻譯及重要性1至5分評估。"
+    insertion_point = "\n\n請完成分類、繁體中文翻譯及重要性1至5分評估。"
     if insertion_point not in prompt:
         return breakfast_prompt + "\n\n" + prompt
 
