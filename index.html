@@ -1199,6 +1199,88 @@
       .ai-action-row { align-items: stretch; flex-direction: column; }
       .action-button { width: 100%; }
     }
+
+    /* All raw archive news query. */
+    .raw-news-controls {
+      margin-top: 10px;
+      padding: 13px;
+      display: grid;
+      grid-template-columns: 1fr 1fr auto;
+      gap: 10px;
+      align-items: end;
+    }
+    .raw-news-status {
+      margin: 10px 0;
+      color: var(--muted);
+      font-size: 11px;
+    }
+    .raw-news-status.error { color: #b22424; font-weight: 800; }
+    .raw-news-list { overflow: hidden; }
+    .raw-news-day-header {
+      position: sticky;
+      top: 52px;
+      z-index: 7;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(247, 250, 253, .97);
+      backdrop-filter: blur(8px);
+      color: var(--navy-2);
+      font-size: 12px;
+      font-weight: 900;
+    }
+    .raw-news-day-count {
+      color: #6f7f92;
+      font-size: 9px;
+      font-weight: 800;
+    }
+    .raw-news-row {
+      display: grid;
+      grid-template-columns: 142px minmax(0, 1fr) 90px;
+      gap: 12px;
+      align-items: start;
+      padding: 10px 14px;
+      border-bottom: 1px solid #edf1f5;
+      background: #fff;
+    }
+    .raw-news-row:last-child { border-bottom: 0; }
+    .raw-news-time {
+      color: #52677f;
+      font-size: 10px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+    .raw-news-headline {
+      min-width: 0;
+      color: #182333;
+      font-size: 11px;
+      font-weight: 650;
+      line-height: 1.55;
+      text-decoration: none;
+      word-break: break-word;
+    }
+    .raw-news-headline:hover { color: var(--blue); text-decoration: underline; }
+    .raw-news-source {
+      color: #748398;
+      font-size: 9px;
+      text-align: right;
+      word-break: break-word;
+    }
+    @media (max-width: 720px) {
+      .raw-news-controls { grid-template-columns: 1fr 1fr; }
+      .raw-news-controls .search-button { grid-column: 1 / -1; }
+      .raw-news-row { grid-template-columns: 118px minmax(0, 1fr); gap: 8px; }
+      .raw-news-source { grid-column: 2; text-align: left; }
+    }
+    @media (max-width: 480px) {
+      .raw-news-controls { grid-template-columns: 1fr; }
+      .raw-news-controls .search-button { grid-column: auto; }
+      .raw-news-row { grid-template-columns: 1fr; gap: 3px; }
+      .raw-news-source { grid-column: auto; }
+    }
   </style>
 </head>
 <body>
@@ -1220,6 +1302,7 @@
     <div class="tab-bar" id="tabBar">
       <button class="tab-button active" type="button" data-page="market">市場新聞</button>
       <button class="tab-button" type="button" data-page="history">歷史新聞</button>
+      <button class="tab-button" type="button" data-page="raw-news">全部原始新聞查詢</button>
       <button class="tab-button" type="button" data-page="ai-analysis">AI 自訂分析</button>
       <button class="tab-button" type="button" data-page="FED">Fed</button>
       <button class="tab-button" type="button" data-page="BOE">BoE</button>
@@ -1306,6 +1389,29 @@
     </section>
 
 
+
+    <section id="rawNewsPage" class="page-panel" hidden>
+      <section class="card central-bank-header">
+        <div>
+          <h2 class="central-bank-name">全部原始新聞查詢</h2>
+          <div id="rawNewsRangeText" class="central-bank-range">直接讀取 data/archive/YYYY/MM/YYYY-MM-DD.json，依發布時間由新到舊顯示</div>
+        </div>
+        <div id="rawNewsCount" class="central-bank-count">0 則新聞</div>
+      </section>
+      <section class="card raw-news-controls">
+        <div class="field">
+          <label for="rawNewsStartDate">開始日期</label>
+          <input id="rawNewsStartDate" type="date">
+        </div>
+        <div class="field">
+          <label for="rawNewsEndDate">結束日期</label>
+          <input id="rawNewsEndDate" type="date">
+        </div>
+        <button id="rawNewsSearchButton" class="search-button" type="button">查詢原始新聞</button>
+      </section>
+      <div id="rawNewsStatus" class="raw-news-status"></div>
+      <section id="rawNewsResults"></section>
+    </section>
     <section id="aiAnalysisPage" class="page-panel" hidden>
       <section class="card central-bank-header">
         <div>
@@ -1389,6 +1495,7 @@
     const HISTORY_MAX_DAYS = 31;
     const WORKER_URL = 'https://market-headline-trigger.bruce851117.workers.dev';
     const AI_MAX_DAYS = 31;
+    const RAW_NEWS_MAX_DAYS = 31;
     const CATEGORY_ORDER = ['債市', '股市', '央行', '財政政策', '經濟', '戰爭'];
     const CENTRAL_BANK_ORDER = ['FED', 'BOE', 'ECB', 'BOJ', 'RBA'];
 
@@ -1437,6 +1544,15 @@
     const marketPage = document.getElementById('marketPage');
     const historyPage = document.getElementById('historyPage');
     const aiAnalysisPage = document.getElementById('aiAnalysisPage');
+
+    const rawNewsPage = document.getElementById('rawNewsPage');
+    const rawNewsRangeText = document.getElementById('rawNewsRangeText');
+    const rawNewsCount = document.getElementById('rawNewsCount');
+    const rawNewsStartDate = document.getElementById('rawNewsStartDate');
+    const rawNewsEndDate = document.getElementById('rawNewsEndDate');
+    const rawNewsSearchButton = document.getElementById('rawNewsSearchButton');
+    const rawNewsStatus = document.getElementById('rawNewsStatus');
+    const rawNewsResults = document.getElementById('rawNewsResults');
     const historyRangeText = document.getElementById('historyRangeText');
     const historyCount = document.getElementById('historyCount');
     const historyStartDate = document.getElementById('historyStartDate');
@@ -2000,6 +2116,167 @@
       }
     }
 
+
+    function taipeiTodayText() {
+      return new Intl.DateTimeFormat('en-CA', {
+        timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit',
+      }).format(new Date());
+    }
+    function initializeRawNewsDates() {
+      if (rawNewsStartDate.value && rawNewsEndDate.value) return;
+      const today = taipeiTodayText();
+      rawNewsStartDate.value = today;
+      rawNewsEndDate.value = today;
+    }
+    function rawArchiveUrl(dateText) {
+      const [year, month] = dateText.split('-');
+      return `./data/archive/${year}/${month}/${dateText}.json`;
+    }
+    function datesInRange(startDate, endDate) {
+      const dates = [];
+      const cursor = new Date(`${startDate}T00:00:00Z`);
+      const finish = new Date(`${endDate}T00:00:00Z`);
+      while (cursor <= finish) {
+        dates.push(cursor.toISOString().slice(0, 10));
+        cursor.setUTCDate(cursor.getUTCDate() + 1);
+      }
+      return dates;
+    }
+    function rawNewsTimeLabel(value) {
+      const date = dateObject(value);
+      if (!date) return '時間未提供';
+      const parts = new Intl.DateTimeFormat('zh-TW', {
+        timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit',
+        weekday: 'short', hour: '2-digit', minute: '2-digit', hour12: false,
+      }).formatToParts(date);
+      const get = type => (parts.find(part => part.type === type) || {}).value || '';
+      const weekday = get('weekday').replace(/[週周]/g, '');
+      return `${get('year')}/${get('month')}/${get('day')} ${weekday} ${get('hour')}:${get('minute')}`;
+    }
+    function rawNewsDateHeading(dateText) {
+      const date = new Date(`${dateText}T00:00:00+08:00`);
+      if (Number.isNaN(date.getTime())) return dateText;
+      const parts = new Intl.DateTimeFormat('zh-TW', {
+        timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit', weekday: 'short',
+      }).formatToParts(date);
+      const get = type => (parts.find(part => part.type === type) || {}).value || '';
+      return `${get('year')}/${get('month')}/${get('day')} ${get('weekday').replace(/[週周]/g, '')}`;
+    }
+    async function loadRawArchiveDay(dateText) {
+      const url = rawArchiveUrl(dateText);
+      const response = await fetch(`${url}?t=${Date.now()}`, { cache: 'no-store' });
+      if (response.status === 404) return { date: dateText, items: [], missing: true, url };
+      if (!response.ok) throw new Error(`${dateText}: HTTP ${response.status}`);
+      const payload = await response.json();
+      const items = Array.isArray(payload) ? payload : (Array.isArray(payload.items) ? payload.items : []);
+      return { date: dateText, items, missing: false, url };
+    }
+    function normalizeRawNewsItem(item, archiveDate) {
+      const publishedAt = item.published_at || item.event_time || item.time || item.fetched_at || '';
+      return {
+        id: item.id || item.guid || `${archiveDate}|${publishedAt}|${item.headline || item.original_title || ''}`,
+        archiveDate,
+        publishedAt,
+        headline: item.headline || item.original_title || item.title || '(無標題)',
+        source: item.source || '',
+        link: item.link || item.url || '',
+      };
+    }
+    function renderRawNewsGroups(items) {
+      const groups = new Map();
+      for (const item of items) {
+        const dateKey = item.archiveDate || String(item.publishedAt).slice(0, 10) || 'unknown';
+        if (!groups.has(dateKey)) groups.set(dateKey, []);
+        groups.get(dateKey).push(item);
+      }
+      return [...groups.entries()].sort((a, b) => b[0].localeCompare(a[0])).map(([dateKey, rows]) => `
+        <section class="card raw-news-list" style="margin-top:12px;">
+          <header class="raw-news-day-header">
+            <span>${escapeHtml(rawNewsDateHeading(dateKey))}</span>
+            <span class="raw-news-day-count">${rows.length} 則</span>
+          </header>
+          <div>
+            ${rows.map(item => `
+              <article class="raw-news-row">
+                <time class="raw-news-time">${escapeHtml(rawNewsTimeLabel(item.publishedAt))}</time>
+                ${item.link
+                  ? `<a class="raw-news-headline" href="${escapeHtml(item.link)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.headline)}</a>`
+                  : `<div class="raw-news-headline">${escapeHtml(item.headline)}</div>`}
+                <div class="raw-news-source">${escapeHtml(item.source)}</div>
+              </article>`).join('')}
+          </div>
+        </section>`).join('');
+    }
+    async function renderRawNewsPage() {
+      initializeRawNewsDates();
+      const startDate = rawNewsStartDate.value;
+      const endDate = rawNewsEndDate.value;
+      if (!startDate || !endDate) {
+        rawNewsStatus.className = 'raw-news-status error';
+        rawNewsStatus.textContent = '請選擇開始與結束日期。';
+        return;
+      }
+      if (startDate > endDate) {
+        rawNewsStatus.className = 'raw-news-status error';
+        rawNewsStatus.textContent = '開始日期不可晚於結束日期。';
+        return;
+      }
+      const dates = datesInRange(startDate, endDate);
+      if (dates.length > RAW_NEWS_MAX_DAYS) {
+        rawNewsStatus.className = 'raw-news-status error';
+        rawNewsStatus.textContent = `單次最多查詢 ${RAW_NEWS_MAX_DAYS} 天，目前選擇 ${dates.length} 天。`;
+        return;
+      }
+      rawNewsSearchButton.disabled = true;
+      rawNewsStatus.className = 'raw-news-status';
+      rawNewsStatus.textContent = `正在讀取 ${dates.length} 個Archive檔案…`;
+      rawNewsResults.innerHTML = '<div class="card loading">正在載入原始新聞…</div>';
+      try {
+        const settled = await Promise.allSettled(dates.map(loadRawArchiveDay));
+        const loaded = [];
+        const missing = [];
+        const failed = [];
+        for (let index = 0; index < settled.length; index += 1) {
+          const result = settled[index];
+          if (result.status === 'rejected') {
+            failed.push(`${dates[index]}（${result.reason?.message || '載入失敗'}）`);
+          } else if (result.value.missing) {
+            missing.push(result.value.date);
+          } else {
+            loaded.push(result.value);
+          }
+        }
+        const dedup = new Map();
+        for (const day of loaded) {
+          for (const raw of day.items) {
+            const item = normalizeRawNewsItem(raw, day.date);
+            const key = item.id || `${item.publishedAt}|${item.headline}`;
+            if (!dedup.has(key)) dedup.set(key, item);
+          }
+        }
+        const items = [...dedup.values()].sort((a, b) => {
+          const timeCompare = String(b.publishedAt).localeCompare(String(a.publishedAt));
+          return timeCompare || a.headline.localeCompare(b.headline);
+        });
+        rawNewsCount.textContent = `${items.length} 則新聞`;
+        rawNewsRangeText.textContent = `${rawNewsDateHeading(startDate)} ～ ${rawNewsDateHeading(endDate)}｜依發布時間由新到舊`;
+        const messages = [`已載入 ${loaded.length} 天，共 ${items.length} 則原始新聞`];
+        if (missing.length) messages.push(`無檔案 ${missing.length} 天：${missing.join('、')}`);
+        if (failed.length) messages.push(`載入失敗 ${failed.length} 天：${failed.join('、')}`);
+        rawNewsStatus.className = failed.length ? 'raw-news-status error' : 'raw-news-status';
+        rawNewsStatus.textContent = messages.join('｜');
+        rawNewsResults.innerHTML = items.length
+          ? renderRawNewsGroups(items)
+          : '<div class="card empty">所選日期範圍沒有原始新聞資料。</div>';
+      } catch (error) {
+        rawNewsStatus.className = 'raw-news-status error';
+        rawNewsStatus.textContent = `原始新聞載入失敗：${error.message}`;
+        rawNewsResults.innerHTML = '<div class="card error">無法載入原始新聞，請稍後重試。</div>';
+      } finally {
+        rawNewsSearchButton.disabled = false;
+      }
+    }
+
     function setAiStatus(message, type = '') {
       aiActionStatus.textContent = message;
       aiActionStatus.className = `ai-status${type ? ` ${type}` : ''}`;
@@ -2122,12 +2399,14 @@
       activePage = page;
       marketPage.hidden = page !== 'market';
       historyPage.hidden = page !== 'history';
+      rawNewsPage.hidden = page !== 'raw-news';
       aiAnalysisPage.hidden = page !== 'ai-analysis';
-      centralBankPage.hidden = page === 'market' || page === 'history' || page === 'ai-analysis';
+      centralBankPage.hidden = page === 'market' || page === 'history' || page === 'raw-news' || page === 'ai-analysis';
       document.querySelectorAll('.tab-button').forEach(button => {
         button.classList.toggle('active', button.dataset.page === page);
       });
       if (page === 'history') renderHistoryPage();
+      else if (page === 'raw-news') renderRawNewsPage();
       else if (page === 'ai-analysis') initializeAiDates();
       else if (page !== 'market') renderCentralBankPage(page);
       history.replaceState(null, '', page === 'market' ? '#market' : `#${page.toLowerCase()}`);
@@ -2175,9 +2454,11 @@
         const normalizedPage = rawHash.toLowerCase();
         const initialPage = normalizedPage === 'history'
           ? 'history'
-          : (normalizedPage === 'ai-analysis'
-            ? 'ai-analysis'
-            : (CENTRAL_BANK_ORDER.includes(hash) ? hash : 'market'));
+          : (normalizedPage === 'raw-news'
+            ? 'raw-news'
+            : (normalizedPage === 'ai-analysis'
+              ? 'ai-analysis'
+              : (CENTRAL_BANK_ORDER.includes(hash) ? hash : 'market')));
         activatePage(initialPage);
       } catch (error) {
         summaryContent.className = 'error';
@@ -2203,6 +2484,7 @@
     searchButton.addEventListener('click', renderBlocks);
 
     historySearchButton.addEventListener('click', renderHistoryPage);
+    rawNewsSearchButton.addEventListener('click', renderRawNewsPage);
     historyKeyword.addEventListener('keydown', event => {
       if (event.key === 'Enter') renderHistoryPage();
     });
