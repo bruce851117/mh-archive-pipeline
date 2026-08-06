@@ -1,26 +1,27 @@
 {
-  "generated_at": "2026-08-06T07:48:51.365540+08:00",
-  "summary_generated_at": "2026-08-06T07:48:51.365540+08:00",
-  "data_updated_at": "2026-08-06T06:50:20.933317+08:00",
+  "generated_at": "2026-08-06T08:49:25.806935+08:00",
+  "summary_generated_at": "2026-08-06T08:49:25.806935+08:00",
+  "data_updated_at": "2026-08-06T07:50:21.890287+08:00",
   "timezone": "Asia/Taipei",
   "period_start": "2026-08-05T17:00:00+08:00",
-  "period_end": "2026-08-06T06:50:20.933317+08:00",
+  "period_end": "2026-08-06T07:50:21.890287+08:00",
   "model": "gemini-3.6-flash",
   "source_digest_files": [
     "data/digests/2026/08/2026-08-04.json",
     "data/digests/2026/08/2026-08-05.json",
     "data/digests/2026/08/2026-08-06.json"
   ],
-  "event_count": 19,
+  "event_count": 21,
   "summary_points": [
-    "美聯儲理事Cook與票委卡什卡利（Kashkari）相繼發表鷹派言論，強調若通脹未見降溫已準備好支持升息，甚至不排除今年採取多次升息措施。",
-    "中東地緣政治風險升溫，葉門青年運動於亞丁灣擊中沙烏地油輪並宣稱總動員，伊朗則表示霍爾木茲海峽重新開放仍取決於美方履行承諾。",
-    "美國經濟呈現滯脹隱憂，7月ADP就業僅增4.4萬人創年內新低，但7月ISM服務業價格支付指數卻陡升至70.3高位。",
-    "美國川普政府擬對太陽能與半導體材料多晶矽加徵至少15%關稅並實施價格下限，貿易保護舉措再度升級。",
-    "美國財政部宣布新一輪季度定額發債規模維持在1,250億美元，面對龐大財政債務壓力，市場持續密切關注長端國債殖利率表現。",
-    "谷歌（Google）高層發生重大變動，效力27年的首席科學家Jeff Dean離職創業，Demis Hassabis轉任DeepMind董事會主席，引發股價波動。",
-    "微軟（Microsoft）財務數據顯示OpenAI貢獻其約七成的AI銷售額，凸顯微軟AI營收對單一合作夥伴的高度依賴與技術獨立性疑慮。",
-    "受惠於減重藥物需求持續勁揚，禮來（Eli Lilly）第二季營收年增48%，並大幅上調全年營收指引至850億至870億美元。"
+    "美聯儲理事Cook與官員Kashkari接連發表鷹派言論，警告若通脹未如預期降溫，美聯儲已準備好重啟加息以防範通脹失控。",
+    "美國7月ADP新增就業僅4.4萬人創年內新低，加上7月ISM服務業投入價格指數暴漲至70.3，加劇市場對勞動力市場放緩與滯脹風險的憂慮。",
+    "美國財政部宣布新一季度發債規模維持於1,250億美元，符合市場預期，暫時緩和逼近40兆美元聯邦債務壓力下的市場不安。",
+    "葉門胡塞武裝於紅海發射飛彈擊中沙烏地油輪「Daisy」號，並宣稱將監控且不放行所有沙烏地船隻，衝擊國際油價劇烈波動。",
+    "伊朗與阿曼就荷姆茲海峽新方案接近達成協議，但強調重開海峽仍取決於美方解除封鎖；以色列則與海灣國家密商繞過該海峽的替代陸路與能源通道。",
+    "以色列總理納坦雅胡回應美伊會談壓力時強調，以色列的國家生存與安全絕不容許進行任何妥協或談判。",
+    "Google首席科學家Jeff Dean結束27年生涯離職創業，引發市場對Google AI研發進度的疑慮，導致其股價一度大幅下挫。",
+    "微軟文件顯示OpenAI在2026財年貢獻其約70%的AI總銷售額，凸顯出微軟AI業務高度依賴單一夥伴的營收集中度風險。",
+    "川普政府擬對多晶矽實施至少15%的關稅並設定價格底線，意圖透過貿易政策扶植美國國內太陽能供應鏈。"
   ],
   "blocks": [
     {
@@ -29,10 +30,10 @@
         {
           "source_id": "695c120d590ccc1870c366ccd7e5b9e97cef676e4bb546cc1968ba9de4bfe15e",
           "category": "債市",
-          "importance_score": 4,
+          "importance_score": 5,
           "highlight": true,
-          "headline_zh": "美國財政部宣布季度定額發售發債規模為1,250億美元",
-          "summary_zh": "美國財政部維持季度發債規模不變，公布新一輪1,250億美元的發債計畫，面對接近40萬億美元的債務壓力，債市持續關注長端國債殖利率表現。",
+          "headline_zh": "美國財政部公布季度發債規模為1,250億美元 維持穩定",
+          "summary_zh": "美國財政部宣布新一季度的發債規模維持在1,250億美元，面對逼近40兆美元的聯邦債務壓力，發債計畫符合市場預期。",
           "event_time": "2026-08-05T20:31:09+08:00"
         }
       ]
@@ -41,21 +42,12 @@
       "category": "股市",
       "news": [
         {
-          "source_id": "aa0b02dbaa842e6969be3a31d58908e32075eff3cc7b65fecc3b6c0bc2e6245e",
-          "category": "股市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "摩根大通CEO Dimon牽頭跨行業行動 共同應對AI潛在風險",
-          "summary_zh": "金融與科技界高層合作加強AI安全與風險管控，反映華爾街對AI科技合規的關注。",
-          "event_time": "2026-08-05T18:21:57+08:00"
-        },
-        {
           "source_id": "3ab0b3a292efc266a24b44d160a57476fe8b7a4c22df2e3e24fdeabfbe5a842d",
           "category": "股市",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "迪士尼公佈第三季財報 營運表現持穩",
-          "summary_zh": "迪士尼（Disney）發布最新季度財報，市場評估其串流媒體與主題樂園業務收益。",
+          "headline_zh": "迪士尼發布第三季財報 娛樂與醫療相關業務盈利強勁",
+          "summary_zh": "迪士尼（Disney）公佈第三季度業績，受樂園與娛樂業務推動，盈利表現超出市場預期。",
           "event_time": "2026-08-05T18:34:50+08:00"
         },
         {
@@ -63,35 +55,53 @@
           "category": "股市",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "禮來第二季營收年增48% 向上修訂全年營收指引至850-870億美元",
-          "summary_zh": "減重藥物需求持續勁揚，禮來（Eli Lilly）第二季業績超預期並大幅上調全年展望。",
+          "headline_zh": "禮來Q2營收年增48% 減重藥需求強勁並上調全年指引",
+          "summary_zh": "禮來（Eli Lilly）發布第二季財報，受減重藥物帶動營收大幅成長48%，並將全年營收目標上調至850-870億美元。",
           "event_time": "2026-08-05T18:47:06+08:00"
+        },
+        {
+          "source_id": "106b549ecc34ea0f9253b7e27ea6664da9806adac57a9a0cafd95214b3fdde2b",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "Uber公布第二季財報 乘車與外送業務穩健",
+          "summary_zh": "Uber公布第二季業績，顯示消費需求持續具有韌性。",
+          "event_time": "2026-08-05T18:58:59+08:00"
         },
         {
           "source_id": "261f4193ae4606ec8e21894a4de18aad22a54a7e8fe35a99a0c8c7b01d34bbbe",
           "category": "股市",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "Anthropic確認組建自研AI晶片團隊 以多晶片策略支援Claude擴張",
-          "summary_zh": "Anthropic為降低對單一晶片供應商的依賴，證實正建立內部晶片團隊推動Claude模型發展。",
+          "headline_zh": "Anthropic確認成立自研AI晶片團隊 採多晶片策略",
+          "summary_zh": "Anthropic證實正打造內部晶片團隊，以多晶片策略支援Claude模型擴展，降低對單一晶片供應商的依賴。",
           "event_time": "2026-08-05T20:52:14+08:00"
+        },
+        {
+          "source_id": "ab87f942090e31bc0d7a751541450b2563e7fa10056526445c5dea03bfc827f5",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "德意志銀行下調SpaceX目標價至235美元 解禁潮前夕重措",
+          "summary_zh": "面對史上最大規模股票解禁潮，德意志銀行下調SpaceX目標價，致使股價大跌超13%。",
+          "event_time": "2026-08-05T21:47:36+08:00"
         },
         {
           "source_id": "4ed2c6059d07e4cfea6bef2139ef1f65f777fdc9dc0edeeb6c2b4c40fbc7ed24",
           "category": "股市",
-          "importance_score": 4,
+          "importance_score": 5,
           "highlight": true,
-          "headline_zh": "谷歌首席科學家Jeff Dean離職創業 Hassabis轉任DeepMind董事會主席",
-          "summary_zh": "谷歌（Google）高層結構調整，效力27年的Jeff Dean攜科學家離職創業，Demis Hassabis轉任主席，引發谷歌股價波動。",
+          "headline_zh": "Google首席科學家Jeff Dean宣佈離職創業",
+          "summary_zh": "Google靈魂人物Jeff Dean結束27年生涯，帶領頂尖科學家離職創業，Demis Hassabis轉任董事長，引發市場對Google AI研發進度的擔憂，股價一度大跌。",
           "event_time": "2026-08-06T00:00:50+08:00"
         },
         {
           "source_id": "670cd93533a47b9b2ec800d10bedf7b8ef7cdfea6cd47a93ba6cdba6046b7af1",
           "category": "股市",
-          "importance_score": 4,
+          "importance_score": 5,
           "highlight": true,
-          "headline_zh": "微軟文件顯示AI營收嚴重依賴OpenAI 貢獻占比高達70%",
-          "summary_zh": "微軟（Microsoft）財務披露顯示OpenAI 2026財年營收達241億美元，佔微軟AI銷售額約七成，引發市場對其核心技術獨立性的討論。",
+          "headline_zh": "微軟文件顯示其AI業務高度依賴OpenAI 貢獻比例達70%",
+          "summary_zh": "微軟最新揭露數據顯示，OpenAI在2026財年帶來241億美元收入，佔微軟AI總銷售額約70%，凸顯其AI營收集中度風險。",
           "event_time": "2026-08-06T02:06:26+08:00"
         },
         {
@@ -99,18 +109,9 @@
           "category": "股市",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "Meta發布首款AI程式設計智能體Muse Code 正面挑戰OpenAI與Anthropic",
-          "summary_zh": "Meta推出名為Muse Code的AI程式設計工具，進一步加劇大語言模型在軟體開發領域的競爭。",
+          "headline_zh": "Meta推出首款AI編程代理Muse Code 正面迎戰競品",
+          "summary_zh": "Meta推出名為Muse Code的AI編程輔助工具，直接挑戰OpenAI與Anthropic在開發者工具領域的地位。",
           "event_time": "2026-08-06T03:16:06+08:00"
-        },
-        {
-          "source_id": "30d6327f2afbc99bec393fe9d715478b36e60173bfab68f3fb3a11ac9de12fa9",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "AWS與Anthropic及OpenAI合作 將AWS Continuum整合至開發者工作流",
-          "summary_zh": "亞馬遜AWS（Amazon AWS）擴大AI生態圈合作，將雲端工具深化整合至主流AI開發流程。",
-          "event_time": "2026-08-06T05:02:10+08:00"
         }
       ]
     },
@@ -122,8 +123,8 @@
           "category": "央行",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "美聯儲卡什卡利呼籲開始緩慢加息 稱今年三次加息並非不可能",
-          "summary_zh": "美聯儲票委卡什卡利（Kashkari）表示當前應開始緩慢調升利率以遏制通脹，防止通脹失控後採取激進政策。",
+          "headline_zh": "美聯儲官員Kashkari呼籲現在開始緩慢加息 防範通脹失控",
+          "summary_zh": "卡什卡利（Kashkari）表示目前是開始緩慢調高利率的時機，主張不要等通脹惡化才急煞車，今年加息數次並非不可能。",
           "event_time": "2026-08-05T20:10:57+08:00"
         },
         {
@@ -131,8 +132,8 @@
           "category": "央行",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "美聯儲理事Cook：若通脹未見降溫 已準備好支持加息",
-          "summary_zh": "美聯儲理事Cook發表鷹派言論，強調通脹上行風險高於勞動力市場風險，若反通脹進程停滯將不排除重啟加息。",
+          "headline_zh": "美聯儲理事Cook警告：若通脹未降溫已準備好支持加息",
+          "summary_zh": "美聯儲理事Cook發表鷹派演說，表示通脹威脅已超過勞動力市場疑慮，若去通脹進程中斷，美聯儲已準備好重啟加息。",
           "event_time": "2026-08-06T04:05:28+08:00"
         }
       ]
@@ -145,8 +146,8 @@
           "category": "財政政策",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "川普政府擬對多晶矽加徵至少15%關稅並實施價格下限 以振興美國本土製造",
-          "summary_zh": "美國計畫對太陽能與半導體材料多晶矽限制進口並施加關稅，同時補貼國內製造商，貿易保護舉措再度升級。",
+          "headline_zh": "川普擬對多晶矽加徵至少15%關稅並設價格下限",
+          "summary_zh": "美國官員討論對多晶矽實施至少15%的關稅，川普政府擬透過關稅與價格底線政策扶植國內太陽能供應鏈。",
           "event_time": "2026-08-06T03:18:25+08:00"
         }
       ]
@@ -155,31 +156,31 @@
       "category": "經濟",
       "news": [
         {
-          "source_id": "98c8cc051e70550389dec1000d37c5eb1dbb106f5f31f5ed631bcbf9778cc882",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "歐元區6月生產者物價指數（PPI）同比上漲4.6% 環比下降0.3%",
-          "summary_zh": "歐元區上游通脹壓力有所放緩，PPI環比下降符合市場預期。",
-          "event_time": "2026-08-05T17:00:01+08:00"
-        },
-        {
           "source_id": "3680ba9cc8b23e9cd0c9692040fba011c77a625bce9dd7cd192ce8595ec7916f",
           "category": "經濟",
-          "importance_score": 4,
+          "importance_score": 5,
           "highlight": true,
-          "headline_zh": "美國7月ADP就業僅增4.4萬人 遠遜於預期並創年內新低",
-          "summary_zh": "美國「小非農」就業數據大幅低於預估的6.5萬人，顯示勞動力市場明顯冷卻，市場聚焦周五官方非農報告。",
+          "headline_zh": "美國7月ADP就業僅增4.4萬人 創年內最低",
+          "summary_zh": "美國7月ADP私人領域新增就業遠低於預期的6.5萬人，顯示勞動力市場明顯放緩，週五非農就業報告成為關鍵。",
           "event_time": "2026-08-05T20:15:00+08:00"
         },
         {
-          "source_id": "5b81e7a56bbce218b1c515ef4b8d40c82ae99a8ef30fafa4b5503688beb58830",
+          "source_id": "8cbc83398cab790a96fdbbcd782dd2422b58464df3221a8c2fe47950a9ba4d1b",
           "category": "經濟",
-          "importance_score": 4,
+          "importance_score": 5,
           "highlight": true,
-          "headline_zh": "美國7月ISM服務業PMI為54.1 價格支付指數升至70.3高位",
-          "summary_zh": "美國服務業需求具韌性，但分項中價格指數陡升至70.3，就業分項降至47.4，引發市場對滯脹風險升溫的擔憂。",
-          "event_time": "2026-08-05T22:00:46+08:00"
+          "headline_zh": "美國7月ISM服務業PMI為54.1 但價格指數暴漲至70.3引發滯脹憂慮",
+          "summary_zh": "美國7月ISM服務業PMI維持擴張，但投入價格指數跳升至70.3，且就業分項指數滑落至47.4，市場對滯脹風險的擔憂加劇。",
+          "event_time": "2026-08-05T22:00:00+08:00"
+        },
+        {
+          "source_id": "bf3effda0a98038be812432039f1dc2f8b0c81235f76a15c496c0cb5be582588",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "美國EIA原油庫存意外增加248萬桶",
+          "summary_zh": "美國至8月1日當週EIA原油庫存增加247.9萬桶，預期為減少150萬桶；汽油與精煉油庫存則持續下降。",
+          "event_time": "2026-08-05T22:30:01+08:00"
         }
       ]
     },
@@ -191,17 +192,44 @@
           "category": "戰爭",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "以色列與真主黨衝突升級 以軍對黎巴嫩南部展開精準空襲",
-          "summary_zh": "以色列指責真主黨違反停火協議，在黎巴嫩南部發動多輪空襲，致使羅馬舉辦的以黎和平會談被迫暫緩並延至次日。",
+          "headline_zh": "以色列軍方針對黎巴嫩南部發動精準空襲 指控真主黨破壞停火",
+          "summary_zh": "以色列軍方宣布對黎巴嫩南部展開精準 strike，理由是真主黨違反停火協議，致使羅馬和平會談一度提早中斷。",
           "event_time": "2026-08-05T21:07:00+08:00"
+        },
+        {
+          "source_id": "911d9240516be79822be5d741145f0989f556ec7000ee1ad7bb1106325a91d68",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美國解除部分與伊朗相關的制裁 官員澄清係針對伊拉克條款",
+          "summary_zh": "美財政部官員取消部分涉伊制裁，隨後媒體澄清該措施旨在允許伊拉克支付能源費用，並非對伊朗政策的實質軟化。",
+          "event_time": "2026-08-05T22:02:49+08:00"
+        },
+        {
+          "source_id": "13248f0213a53806672a8cf0d339ea7806f7f0fa1f7da62507e069dc79c30046",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "納坦雅胡強調以色列生存權不可談判 回應美伊會談壓力",
+          "summary_zh": "以色列總理納坦雅胡發表聲明稱，感謝川普對對抗伊朗野心的努力，但強調以色列的國家生存與安全絕不容許進行任何妥協或談判。",
+          "event_time": "2026-08-05T22:43:17+08:00"
+        },
+        {
+          "source_id": "001c189284b512c66cfc686e4932639a8fb0549add9c530097c6e9a9134a3d77",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "以色列與多個海灣國家密商繞過荷姆茲海峽的替代油氣運輸路線",
+          "summary_zh": "因應海峽封鎖威脅，以色列與多個海灣國家進行秘密會談，擬建立繞過荷姆茲海峽與曼德海峽的陸路及替代能源出口通道。",
+          "event_time": "2026-08-05T23:25:10+08:00"
         },
         {
           "source_id": "77d4cd749cf505739b9083dbe79652bc3c1d5a0f8a06d6f975e06221946aa305",
           "category": "戰爭",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "伊朗外交部與副外長：與阿曼就霍爾木茲海峽通道協議接近完成 但重開海峽需美方履行承諾",
-          "summary_zh": "伊朗披露霍爾木茲海峽新方案，強調美國曾主動求談，但美方僅履約不足以重開海峽，後續仍需滿足額外條件與安排。",
+          "headline_zh": "伊朗與阿曼就荷姆茲海峽新方案接近達成協議 但強調重開海峽需美方履約",
+          "summary_zh": "伊朗外交部證實與阿曼就荷姆茲海峽航行安排即將達成協議，但澄清該協議本身不足以重啟海峽，仍取決於美國解除封鎖與履行承諾。",
           "event_time": "2026-08-06T00:37:22+08:00"
         },
         {
@@ -209,33 +237,24 @@
           "category": "戰爭",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "葉門青年運動於亞丁灣發射彈道飛彈擊中沙烏地油輪「Daisy」 並宣布總動員",
-          "summary_zh": "青年運動擴大紅海及海灣攻擊範圍，擊中沙烏地油輪並宣稱實施「封鎖對封鎖」，導致中東原油運輸風險持續高企。",
+          "headline_zh": "葉門胡塞武裝於紅海及亞丁灣發射飛彈擊中沙烏地油輪「Daisy」號",
+          "summary_zh": "胡塞武裝發射彈道飛彈成功打擊沙烏地油輪，並宣稱將密切監控所有沙烏地油輪航行，不會放行任何船隻，油價一度受此衝擊大幅波動。",
           "event_time": "2026-08-06T02:14:44+08:00"
-        },
-        {
-          "source_id": "0a65963cc9dcccae6fde8dd67a9026d55aee5a98234e878b41b95223cba42d5d",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "埃及、土耳其、巴基斯坦與沙烏地外長於安曼會晤 商討霍爾木茲海峽安全與降溫舉措",
-          "summary_zh": "中東多國外長展開緊急外交斡旋，尋求緩和區域安全危機並確保關鍵航道安全。",
-          "event_time": "2026-08-06T03:40:43+08:00"
         }
       ]
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 3583,
-    "candidatesTokenCount": 403,
-    "totalTokenCount": 5982,
+    "promptTokenCount": 3951,
+    "candidatesTokenCount": 444,
+    "totalTokenCount": 6718,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 3583
+        "tokenCount": 3951
       }
     ],
-    "thoughtsTokenCount": 1996,
+    "thoughtsTokenCount": 2323,
     "serviceTier": "standard"
   }
 }

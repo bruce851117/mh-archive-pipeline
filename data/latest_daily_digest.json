@@ -1,17 +1,17 @@
 {
   "title": "最近24小時全球市場重要新聞",
-  "period_start": "2026-08-05T07:40:17.493310+08:00",
-  "period_end": "2026-08-06T07:40:17.493310+08:00",
+  "period_start": "2026-08-05T08:41:54.488663+08:00",
+  "period_end": "2026-08-06T08:41:54.488663+08:00",
   "timezone": "Asia/Taipei",
-  "overview": "過去24小時全球市場焦點集中於美聯儲（Fed）官員的鷹派表態與中東局勢的最新進展。美聯儲理事Cook與卡什卡利（Kashkari）均警告若通脹未降溫已準備好重啟加息，打壓市場降息預期。地緣政治方面，伊朗與阿曼推進霍爾木茲海峽（Strait of Hormuz）安全協議，美伊多管道傳遞訊息，但伊朗強調美方僅履約不足以立即重開海峽，且青年運動（Houthis）持續襲擊沙烏地油輪，中東局勢仍具不確定性。科技領域，微軟（Microsoft）、Meta、谷歌（Google）及Anthropic等AI巨頭新動作頻出，科技股震盪加劇。",
+  "overview": "全球市場主線圍繞中東地緣政治與美聯儲貨幣政策。伊朗與阿曼積極協商荷姆茲海峽通行方案，但伊朗強調重開海峽取決於美國行動，胡塞武裝則對沙烏地油輪發動襲擊導致緊張局勢延燒。經濟數據顯示美國7月ADP就業人數放緩，但ISM服務業成本顯著上升，引發滯脹憂慮；美聯儲官員Cook與Kashkari相繼發表鷹派言論，甚至提及加息選項。科技股方面，Jeff Dean離開Google創業、SpaceX重挫以及微軟對OpenAI營收依賴度曝光，拖累大盤表現。",
   "categories": [
     {
       "category": "債市",
       "news": [
         {
-          "importance_score": 4,
-          "headline_zh": "美國財政部宣布季度定額發售發債規模為1,250億美元",
-          "summary_zh": "美國財政部維持季度發債規模不變，公布新一輪1,250億美元的發債計畫，面對接近40萬億美元的債務壓力，債市持續關注長端國債殖利率表現。",
+          "importance_score": 5,
+          "headline_zh": "美國財政部公布季度發債規模為1,250億美元 維持穩定",
+          "summary_zh": "美國財政部宣布新一季度的發債規模維持在1,250億美元，面對逼近40兆美元的聯邦債務壓力，發債計畫符合市場預期。",
           "event_time": "2026-08-05T20:31:09+08:00",
           "source_id": "695c120d590ccc1870c366ccd7e5b9e97cef676e4bb546cc1968ba9de4bfe15e",
           "source_detail": {
@@ -24,8 +24,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "中國財政部標售30年期超長期特別國債 得標利率2.1849%",
-          "summary_zh": "中國超長期特別國債發行順利，得標利率維持在歷史低位水準附近。",
+          "headline_zh": "中國財政部續發30年期超長期特別國債 得標利率2.1849%",
+          "summary_zh": "中國財政部拍賣30年期超長期特別國債，得標利率落在2.1849%。",
           "event_time": "2026-08-05T11:36:43+08:00",
           "source_id": "58b8d4d79b86a5b6917a34e7c722a1484bd864d7c1eabd3c9b89f97cbd064320",
           "source_detail": {
@@ -38,8 +38,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "中國財政部在香港發售20億元2年期人民幣國債 票面利率1.27%",
-          "summary_zh": "中國財政部完成在港人民幣國債發售，反映境外資金對離岸人民幣固定收益資產的需求。",
+          "headline_zh": "中國財政部於香港發行2年期人民幣國債 利率1.27%",
+          "summary_zh": "中國財政部在香港發行2年期離岸人民幣國債，票面利率定為1.27%。",
           "event_time": "2026-08-05T11:28:10+08:00",
           "source_id": "b78bca5fcdcae0092c7fec6011457a2febc607792cdb9278e31c7d5ef7889904",
           "source_detail": {
@@ -52,8 +52,8 @@
         },
         {
           "importance_score": 2,
-          "headline_zh": "韓國央行以3.605%殖利率標售2年期貨幣穩定債券",
-          "summary_zh": "韓國央行進行常規公開市場操作，調節短期市場流動性。",
+          "headline_zh": "韓國央行標售2年期貨幣穩定債券 得標利率3.605%",
+          "summary_zh": "韓國央行完成2年期貨幣穩定債券發售，得標殖利率為3.605%。",
           "event_time": "2026-08-05T09:40:06+08:00",
           "source_id": "61b9c6079990c5cc64faa63eb9dae328500b733c31713e5a34bc763fe2e84580",
           "source_detail": {
@@ -70,37 +70,9 @@
       "category": "股市",
       "news": [
         {
-          "importance_score": 4,
-          "headline_zh": "AWS與Anthropic及OpenAI合作 將AWS Continuum整合至開發者工作流",
-          "summary_zh": "亞馬遜AWS（Amazon AWS）擴大AI生態圈合作，將雲端工具深化整合至主流AI開發流程。",
-          "event_time": "2026-08-06T05:02:10+08:00",
-          "source_id": "30d6327f2afbc99bec393fe9d715478b36e60173bfab68f3fb3a11ac9de12fa9",
-          "source_detail": {
-            "id": "30d6327f2afbc99bec393fe9d715478b36e60173bfab68f3fb3a11ac9de12fa9",
-            "time": "2026-08-06T05:02:10+08:00",
-            "headline": "AWS partners with Anthropic and OpenAI to integrate AWS Continuum into developer workflows - blog",
-            "link": "https://www.financialjuice.com/News/9709457/AWS-partners-with-Anthropic-and-OpenAI-to-integrate-AWS-Continuum-into-developer-workflows---blog.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "Meta發布首款AI程式設計智能體Muse Code 正面挑戰OpenAI與Anthropic",
-          "summary_zh": "Meta推出名為Muse Code的AI程式設計工具，進一步加劇大語言模型在軟體開發領域的競爭。",
-          "event_time": "2026-08-06T03:16:06+08:00",
-          "source_id": "bee7be002687c76c0d570e11d34679d29df52a21fdd37b38baeb29dc62f0cc6f",
-          "source_detail": {
-            "id": "bee7be002687c76c0d570e11d34679d29df52a21fdd37b38baeb29dc62f0cc6f",
-            "time": "2026-08-06T03:16:06+08:00",
-            "headline": "META debuts its first AI coding agent called Muse Code - CNBC. $META",
-            "link": "https://www.financialjuice.com/News/9709300/META-debuts-its-first-AI-coding-agent-called-Muse-Code---CNBC-META.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "微軟文件顯示AI營收嚴重依賴OpenAI 貢獻占比高達70%",
-          "summary_zh": "微軟（Microsoft）財務披露顯示OpenAI 2026財年營收達241億美元，佔微軟AI銷售額約七成，引發市場對其核心技術獨立性的討論。",
+          "importance_score": 5,
+          "headline_zh": "微軟文件顯示其AI業務高度依賴OpenAI 貢獻比例達70%",
+          "summary_zh": "微軟最新揭露數據顯示，OpenAI在2026財年帶來241億美元收入，佔微軟AI總銷售額約70%，凸顯其AI營收集中度風險。",
           "event_time": "2026-08-06T02:06:26+08:00",
           "source_id": "670cd93533a47b9b2ec800d10bedf7b8ef7cdfea6cd47a93ba6cdba6046b7af1",
           "source_detail": {
@@ -112,9 +84,9 @@
           }
         },
         {
-          "importance_score": 4,
-          "headline_zh": "谷歌首席科學家Jeff Dean離職創業 Hassabis轉任DeepMind董事會主席",
-          "summary_zh": "谷歌（Google）高層結構調整，效力27年的Jeff Dean攜科學家離職創業，Demis Hassabis轉任主席，引發谷歌股價波動。",
+          "importance_score": 5,
+          "headline_zh": "Google首席科學家Jeff Dean宣佈離職創業",
+          "summary_zh": "Google靈魂人物Jeff Dean結束27年生涯，帶領頂尖科學家離職創業，Demis Hassabis轉任董事長，引發市場對Google AI研發進度的擔憂，股價一度大跌。",
           "event_time": "2026-08-06T00:00:50+08:00",
           "source_id": "4ed2c6059d07e4cfea6bef2139ef1f65f777fdc9dc0edeeb6c2b4c40fbc7ed24",
           "source_detail": {
@@ -127,8 +99,36 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "Anthropic確認組建自研AI晶片團隊 以多晶片策略支援Claude擴張",
-          "summary_zh": "Anthropic為降低對單一晶片供應商的依賴，證實正建立內部晶片團隊推動Claude模型發展。",
+          "headline_zh": "Meta推出首款AI編程代理Muse Code 正面迎戰競品",
+          "summary_zh": "Meta推出名為Muse Code的AI編程輔助工具，直接挑戰OpenAI與Anthropic在開發者工具領域的地位。",
+          "event_time": "2026-08-06T03:16:06+08:00",
+          "source_id": "bee7be002687c76c0d570e11d34679d29df52a21fdd37b38baeb29dc62f0cc6f",
+          "source_detail": {
+            "id": "bee7be002687c76c0d570e11d34679d29df52a21fdd37b38baeb29dc62f0cc6f",
+            "time": "2026-08-06T03:16:06+08:00",
+            "headline": "META debuts its first AI coding agent called Muse Code - CNBC. $META",
+            "link": "https://www.financialjuice.com/News/9709300/META-debuts-its-first-AI-coding-agent-called-Muse-Code---CNBC-META.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "德意志銀行下調SpaceX目標價至235美元 解禁潮前夕重措",
+          "summary_zh": "面對史上最大規模股票解禁潮，德意志銀行下調SpaceX目標價，致使股價大跌超13%。",
+          "event_time": "2026-08-05T21:47:36+08:00",
+          "source_id": "ab87f942090e31bc0d7a751541450b2563e7fa10056526445c5dea03bfc827f5",
+          "source_detail": {
+            "id": "ab87f942090e31bc0d7a751541450b2563e7fa10056526445c5dea03bfc827f5",
+            "time": "2026-08-05T21:47:36+08:00",
+            "headline": "Deutsche Bank cuts SpaceX target price to $235 from $255. $SPCX",
+            "link": "https://www.financialjuice.com/News/9708898/Deutsche-Bank-cuts-SpaceX-target-price-to-235-from-255-SPCX.aspx?xy=rss](https://www.financialjuice.com/feed.ashx?xy=rss)",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "Anthropic確認成立自研AI晶片團隊 採多晶片策略",
+          "summary_zh": "Anthropic證實正打造內部晶片團隊，以多晶片策略支援Claude模型擴展，降低對單一晶片供應商的依賴。",
           "event_time": "2026-08-05T20:52:14+08:00",
           "source_id": "261f4193ae4606ec8e21894a4de18aad22a54a7e8fe35a99a0c8c7b01d34bbbe",
           "source_detail": {
@@ -141,8 +141,8 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "禮來第二季營收年增48% 向上修訂全年營收指引至850-870億美元",
-          "summary_zh": "減重藥物需求持續勁揚，禮來（Eli Lilly）第二季業績超預期並大幅上調全年展望。",
+          "headline_zh": "禮來Q2營收年增48% 減重藥需求強勁並上調全年指引",
+          "summary_zh": "禮來（Eli Lilly）發布第二季財報，受減重藥物帶動營收大幅成長48%，並將全年營收目標上調至850-870億美元。",
           "event_time": "2026-08-05T18:47:06+08:00",
           "source_id": "00989c1420cdfb2c13384a33b8418ca5b22093dd7125634840688f3d978cf503",
           "source_detail": {
@@ -155,8 +155,22 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "迪士尼公佈第三季財報 營運表現持穩",
-          "summary_zh": "迪士尼（Disney）發布最新季度財報，市場評估其串流媒體與主題樂園業務收益。",
+          "headline_zh": "Uber公布第二季財報 乘車與外送業務穩健",
+          "summary_zh": "Uber公布第二季業績，顯示消費需求持續具有韌性。",
+          "event_time": "2026-08-05T18:58:59+08:00",
+          "source_id": "106b549ecc34ea0f9253b7e27ea6664da9806adac57a9a0cafd95214b3fdde2b",
+          "source_detail": {
+            "id": "106b549ecc34ea0f9253b7e27ea6664da9806adac57a9a0cafd95214b3fdde2b",
+            "time": "2026-08-05T18:58:59+08:00",
+            "headline": "$UBER Uber Q2 Earnings",
+            "link": "https://www.financialjuice.com/News/9708655/UBER-Uber-Q2-Earnings.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "迪士尼發布第三季財報 娛樂與醫療相關業務盈利強勁",
+          "summary_zh": "迪士尼（Disney）公佈第三季度業績，受樂園與娛樂業務推動，盈利表現超出市場預期。",
           "event_time": "2026-08-05T18:34:50+08:00",
           "source_id": "3ab0b3a292efc266a24b44d160a57476fe8b7a4c22df2e3e24fdeabfbe5a842d",
           "source_detail": {
@@ -164,20 +178,6 @@
             "time": "2026-08-05T18:34:50+08:00",
             "headline": "$DIS Disney Q3 Earnings",
             "link": "https://www.financialjuice.com/News/9708653/DIS-Disney-Q3-Earnings.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "摩根大通CEO Dimon牽頭跨行業行動 共同應對AI潛在風險",
-          "summary_zh": "金融與科技界高層合作加強AI安全與風險管控，反映華爾街對AI科技合規的關注。",
-          "event_time": "2026-08-05T18:21:57+08:00",
-          "source_id": "aa0b02dbaa842e6969be3a31d58908e32075eff3cc7b65fecc3b6c0bc2e6245e",
-          "source_detail": {
-            "id": "aa0b02dbaa842e6969be3a31d58908e32075eff3cc7b65fecc3b6c0bc2e6245e",
-            "time": "2026-08-05T18:21:57+08:00",
-            "headline": "JPMorgan CEO Dimon leads new cross-industry effort to tackle AI risks",
-            "link": "https://www.financialjuice.com/News/9708596/JPMorgan-CEO-Dimon-leads-new-cross-industry-effort-to-tackle-AI-risks.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -188,8 +188,8 @@
       "news": [
         {
           "importance_score": 5,
-          "headline_zh": "美聯儲理事Cook：若通脹未見降溫 已準備好支持加息",
-          "summary_zh": "美聯儲理事Cook發表鷹派言論，強調通脹上行風險高於勞動力市場風險，若反通脹進程停滯將不排除重啟加息。",
+          "headline_zh": "美聯儲理事Cook警告：若通脹未降溫已準備好支持加息",
+          "summary_zh": "美聯儲理事Cook發表鷹派演說，表示通脹威脅已超過勞動力市場疑慮，若去通脹進程中斷，美聯儲已準備好重啟加息。",
           "event_time": "2026-08-06T04:05:28+08:00",
           "source_id": "005dd667aff40be14e36037129a22d4abd34c0789b022b79d166f431c42a7d12",
           "source_detail": {
@@ -202,8 +202,8 @@
         },
         {
           "importance_score": 5,
-          "headline_zh": "美聯儲卡什卡利呼籲開始緩慢加息 稱今年三次加息並非不可能",
-          "summary_zh": "美聯儲票委卡什卡利（Kashkari）表示當前應開始緩慢調升利率以遏制通脹，防止通脹失控後採取激進政策。",
+          "headline_zh": "美聯儲官員Kashkari呼籲現在開始緩慢加息 防範通脹失控",
+          "summary_zh": "卡什卡利（Kashkari）表示目前是開始緩慢調高利率的時機，主張不要等通脹惡化才急煞車，今年加息數次並非不可能。",
           "event_time": "2026-08-05T20:10:57+08:00",
           "source_id": "1698ab3a7b30b367ecc253faf41053723215581f4fb3318257f4faab5e71e473",
           "source_detail": {
@@ -216,22 +216,22 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "美聯儲Schmid：當前政策立場尚未達到偏緊程度 通脹仍過高",
-          "summary_zh": "美聯儲官員Schmid指出當前貨幣政策並不算偏緊，且AI投資熱潮正在推進通脹，央行不應忽視。",
+          "headline_zh": "美聯儲官員Schmid：AI投資正在加劇通脹 政策立場尚未過緊",
+          "summary_zh": "美聯儲官員Schmid指出，人工智慧領域的大規模投資正在帶動通脹壓力，央行不應忽視，並強調當前貨幣政策並不算太緊。",
           "event_time": "2026-08-05T08:15:04+08:00",
-          "source_id": "0bbc741e2ec5c17d91a1618c5abdd1b985f8c424a84c6212028708820285984f",
+          "source_id": "564993cee8919d712d3050a1318c9542d9d73b725a6429b1e9406a3ed00afa78",
           "source_detail": {
-            "id": "0bbc741e2ec5c17d91a1618c5abdd1b985f8c424a84c6212028708820285984f",
+            "id": "564993cee8919d712d3050a1318c9542d9d73b725a6429b1e9406a3ed00afa78",
             "time": "2026-08-05T08:15:04+08:00",
-            "headline": "Fed’s Schmid: current Fed policy stance is not tight",
-            "link": "https://www.financialjuice.com/News/9707788/Feds-Schmid-current-Fed-policy-stance-is-not-tight.aspx?xy=rss",
+            "headline": "Fed's Schmid: AI investment is fueling inflation and Fed shouldn't overlook it",
+            "link": "https://www.financialjuice.com/News/9707791/Feds-Schmid-AI-investment-is-fueling-inflation-and-Fed-shouldnt-overlook-it.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 4,
-          "headline_zh": "日本央行6月會議記錄：委員同意維持升息軌道 並需關注通脹上行風險",
-          "summary_zh": "日央行紀錄顯示多數委員支持若經濟與物價符合預期將繼續加息，部分委員主張利率應儘快接近中性水準。",
+          "headline_zh": "日本央行6月會議紀錄：大多數委員同意需繼續推進加息",
+          "summary_zh": "日本央行公佈會議紀錄，顯示委員們一致認為經濟符合預期，且實質利率極低，有必要將利率逐步推向中性水準。",
           "event_time": "2026-08-05T07:54:06+08:00",
           "source_id": "f12c02340302e3752eb3c7345d55156a797d6c9e683f16fbbfd57237dbf18b8b",
           "source_detail": {
@@ -244,8 +244,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "中國人民銀行將人民幣兌美元中間價調升至2023年2月以來最強水準",
-          "summary_zh": "中國央行引導人民幣中間價升值，展現維穩匯率與資金雙向流動的政策意圖。",
+          "headline_zh": "中國人民銀行拉升人民幣中間價創2023年2月以來新高",
+          "summary_zh": "中國央行將人民幣兌美元中間價調升至近三載新高，展示維持匯率穩定的決心。",
           "event_time": "2026-08-05T09:16:39+08:00",
           "source_id": "71d219278bfd2f486e68c66061cd4c697f7203ea8f8deeacfedaebe4d8501c50",
           "source_detail": {
@@ -263,8 +263,8 @@
       "news": [
         {
           "importance_score": 4,
-          "headline_zh": "川普政府擬對多晶矽加徵至少15%關稅並實施價格下限 以振興美國本土製造",
-          "summary_zh": "美國計畫對太陽能與半導體材料多晶矽限制進口並施加關稅，同時補貼國內製造商，貿易保護舉措再度升級。",
+          "headline_zh": "川普擬對多晶矽加徵至少15%關稅並設價格下限",
+          "summary_zh": "美國官員討論對多晶矽實施至少15%的關稅，川普政府擬透過關稅與價格底線政策扶植國內太陽能供應鏈。",
           "event_time": "2026-08-06T03:18:25+08:00",
           "source_id": "14574e16b9673416bd387af1b2e391defb542884c3de94c5959b155a313f2af8",
           "source_detail": {
@@ -277,8 +277,8 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "中國商務部：加強對美出口無人機相關兩用物項管制 若美方出台新限制將進一步反制",
-          "summary_zh": "中國加強無人機相關物項出口管制，並明確警告若美方持續擴大限制將採取對等反制措施。",
+          "headline_zh": "中國商務部：加強對美出口兩用無人機管制 若美方出台新限制將進一步反制",
+          "summary_zh": "中國商務部宣布對美國強化無人機相關物項出口管制，並警告美方若執意出台新限制，中方將採取有力反制措施。",
           "event_time": "2026-08-05T16:06:03+08:00",
           "source_id": "a59f396a11d3e276faaf95d2ba4fd1ca5b44a1f3753e93daa150db5898830052",
           "source_detail": {
@@ -290,44 +290,30 @@
           }
         },
         {
-          "importance_score": 4,
-          "headline_zh": "歐盟撥款14億歐元被凍結俄羅斯資產收益 用於支援烏克蘭國防與重建",
-          "summary_zh": "歐盟正式運用俄羅斯被凍結資產所產生的利息回報向烏克蘭提供財務支援。",
-          "event_time": "2026-08-05T16:05:51+08:00",
-          "source_id": "b20b10b3d6f5499bc5c3722ffe1221c0e3d50b54822f8268dcc25c3165bd4ddc",
+          "importance_score": 3,
+          "headline_zh": "義大利財政部擬啟用歐盟豁免條款 擴大能源與國防支出",
+          "summary_zh": "義大利經濟部長Giorgetti表示，將利用歐盟財政規則中的逃生條款，確保能源與國防項目的融資需求。",
+          "event_time": "2026-08-05T15:18:11+08:00",
+          "source_id": "37971790839e97b1d435bea43ce0a82777c90953bf75b4859bd9608652327b4a",
           "source_detail": {
-            "id": "b20b10b3d6f5499bc5c3722ffe1221c0e3d50b54822f8268dcc25c3165bd4ddc",
-            "time": "2026-08-05T16:05:51+08:00",
-            "headline": "EU receives €1.4 billion in revenue from immobilised Russian assets to be used for supporting Ukraine",
-            "link": "https://www.financialjuice.com/News/9708372/EU-receives-14-billion-in-revenue-from-immobilised-Russian-assets-to-be-used-for-supporting-Ukraine.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "日本內閣批准食品消費稅由8%大幅下調至1% 實施期為期兩年",
-          "summary_zh": "日本政府推出重大財政刺激方案減輕民眾通脹負擔，財務大臣片山皋月表示將透過調整預算確保財政紀律。",
-          "event_time": "2026-08-05T15:19:34+08:00",
-          "source_id": "80f65dda2444fad69b8fcf1a36c7b9fe934b59a05c392d3f58899a7149a1a1c8",
-          "source_detail": {
-            "id": "80f65dda2444fad69b8fcf1a36c7b9fe934b59a05c392d3f58899a7149a1a1c8",
-            "time": "2026-08-05T15:19:34+08:00",
-            "headline": "Japan cabinet approves plan to slash consumption tax on food to 1% from 8% - Minister attending meeting",
-            "link": "https://www.financialjuice.com/News/9708304/Japan-cabinet-approves-plan-to-slash-consumption-tax-on-food-to-1-from-8---Minister-attending-meeting.aspx?xy=rss",
+            "id": "37971790839e97b1d435bea43ce0a82777c90953bf75b4859bd9608652327b4a",
+            "time": "2026-08-05T15:18:11+08:00",
+            "headline": "Italy's Economy Minister Giorgetti: Italy to use EU escape clause on energy and defense",
+            "link": "https://www.financialjuice.com/News/9708303/Italys-Economy-Minister-Giorgetti-Italy-to-use-EU-escape-clause-on-energy-and-defense.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 3,
-          "headline_zh": "智利國會批准總統Kast推動的重大經濟與稅制改革法案",
-          "summary_zh": "智利通過新稅改法案，旨在改善投資環境並優化國家財政結構。",
-          "event_time": "2026-08-05T07:26:23+08:00",
-          "source_id": "5b8320b3c7ef771b1e5e23e3ab16046708b286d223fbcb1a321af31d3b687c31",
+          "headline_zh": "日本內閣批准食品消費稅下調計畫 為期2年",
+          "summary_zh": "日本政府通過將食品消費稅率由8%調降至1%的草案，預計實施兩年以減輕民眾生活負擔。",
+          "event_time": "2026-08-05T15:15:34+08:00",
+          "source_id": "6645964645ef28d1805c258118d2c6fd7b671949388702fb497bb9b17d02e1ba",
           "source_detail": {
-            "id": "5b8320b3c7ef771b1e5e23e3ab16046708b286d223fbcb1a321af31d3b687c31",
-            "time": "2026-08-05T07:26:23+08:00",
-            "headline": "Chile's congress approves economic and tax overhaul championed by President Kast",
-            "link": "https://www.financialjuice.com/News/9707713/Chiles-congress-approves-economic-and-tax-overhaul-championed-by-President-Kast.aspx?xy=rss",
+            "id": "6645964645ef28d1805c258118d2c6fd7b671949388702fb497bb9b17d02e1ba",
+            "time": "2026-08-05T15:15:34+08:00",
+            "headline": "Japan cabinet approves food consumption tax cut -Kyodo",
+            "link": "https://www.financialjuice.com/News/9708296/Japan-cabinet-approves-food-consumption-tax-cut--Kyodo.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -337,23 +323,23 @@
       "category": "經濟",
       "news": [
         {
-          "importance_score": 4,
-          "headline_zh": "美國7月ISM服務業PMI為54.1 價格支付指數升至70.3高位",
-          "summary_zh": "美國服務業需求具韌性，但分項中價格指數陡升至70.3，就業分項降至47.4，引發市場對滯脹風險升溫的擔憂。",
-          "event_time": "2026-08-05T22:00:46+08:00",
-          "source_id": "5b81e7a56bbce218b1c515ef4b8d40c82ae99a8ef30fafa4b5503688beb58830",
+          "importance_score": 5,
+          "headline_zh": "美國7月ISM服務業PMI為54.1 但價格指數暴漲至70.3引發滯脹憂慮",
+          "summary_zh": "美國7月ISM服務業PMI維持擴張，但投入價格指數跳升至70.3，且就業分項指數滑落至47.4，市場對滯脹風險的擔憂加劇。",
+          "event_time": "2026-08-05T22:00:00+08:00",
+          "source_id": "8cbc83398cab790a96fdbbcd782dd2422b58464df3221a8c2fe47950a9ba4d1b",
           "source_detail": {
-            "id": "5b81e7a56bbce218b1c515ef4b8d40c82ae99a8ef30fafa4b5503688beb58830",
-            "time": "2026-08-05T22:00:46+08:00",
-            "headline": "US ISM Services PMI Actual 54.1 (Forecast 54.5, Previous 54.0)",
-            "link": "https://www.financialjuice.com/News/9708902/US-ISM-Services-PMI-Actual-541-Forecast-545-Previous-540.aspx?xy=rss",
+            "id": "8cbc83398cab790a96fdbbcd782dd2422b58464df3221a8c2fe47950a9ba4d1b",
+            "time": "2026-08-05T22:00:00+08:00",
+            "headline": "US ISM Services Prices Paid Actual 70.3 (Forecast 65, Previous 67.7)",
+            "link": "https://www.financialjuice.com/News/9708900/US-ISM-Services-Prices-Paid-Actual-703-Forecast-65-Previous-677.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
-          "importance_score": 4,
-          "headline_zh": "美國7月ADP就業僅增4.4萬人 遠遜於預期並創年內新低",
-          "summary_zh": "美國「小非農」就業數據大幅低於預估的6.5萬人，顯示勞動力市場明顯冷卻，市場聚焦周五官方非農報告。",
+          "importance_score": 5,
+          "headline_zh": "美國7月ADP就業僅增4.4萬人 創年內最低",
+          "summary_zh": "美國7月ADP私人領域新增就業遠低於預期的6.5萬人，顯示勞動力市場明顯放緩，週五非農就業報告成為關鍵。",
           "event_time": "2026-08-05T20:15:00+08:00",
           "source_id": "3680ba9cc8b23e9cd0c9692040fba011c77a625bce9dd7cd192ce8595ec7916f",
           "source_detail": {
@@ -366,8 +352,8 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "中國7月RatingDog服務業PMI降至50.4 創近期低位但連續43個月維持擴張",
-          "summary_zh": "中國服務業擴張放緩，但就業與出口新業務連三月成長，整體服務業景氣仍維持在榮枯線上。",
+          "headline_zh": "中國7月RatingDog服務業PMI降至50.4 創近期低位",
+          "summary_zh": "中國7月RatingDog服務業PMI由前值的54.1顯著回落至50.4，雖然維持在擴張區間，但增速大放緩。",
           "event_time": "2026-08-05T09:45:00+08:00",
           "source_id": "5b6dfad6f4f1e8e0abc01a76b8ab31952e0abbdc6b7a77597590ac2d5f854c00",
           "source_detail": {
@@ -380,29 +366,15 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "歐元區6月生產者物價指數（PPI）同比上漲4.6% 環比下降0.3%",
-          "summary_zh": "歐元區上游通脹壓力有所放緩，PPI環比下降符合市場預期。",
-          "event_time": "2026-08-05T17:00:01+08:00",
-          "source_id": "98c8cc051e70550389dec1000d37c5eb1dbb106f5f31f5ed631bcbf9778cc882",
+          "headline_zh": "美國EIA原油庫存意外增加248萬桶",
+          "summary_zh": "美國至8月1日當週EIA原油庫存增加247.9萬桶，預期為減少150萬桶；汽油與精煉油庫存則持續下降。",
+          "event_time": "2026-08-05T22:30:01+08:00",
+          "source_id": "bf3effda0a98038be812432039f1dc2f8b0c81235f76a15c496c0cb5be582588",
           "source_detail": {
-            "id": "98c8cc051e70550389dec1000d37c5eb1dbb106f5f31f5ed631bcbf9778cc882",
-            "time": "2026-08-05T17:00:01+08:00",
-            "headline": "Eurozone PPI YoY Actual 4.6% (Forecast 4.6%, Previous 5.9%)",
-            "link": "https://www.financialjuice.com/News/9708472/Eurozone-PPI-YoY-Actual-46-Forecast-46-Previous-59.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "日本6月實質工資同比增長1.6% 名義現金薪資增長3.4%",
-          "summary_zh": "日本實質工資維持增長，支持日本央行評估薪資與物價良性循環的形成。",
-          "event_time": "2026-08-05T07:30:04+08:00",
-          "source_id": "8493c56061958ec59b268740df0ce4fa56b3d77d160c9d2cd7865fecf4381f1f",
-          "source_detail": {
-            "id": "8493c56061958ec59b268740df0ce4fa56b3d77d160c9d2cd7865fecf4381f1f",
-            "time": "2026-08-05T07:30:04+08:00",
-            "headline": "Japan June inflation-adjusted real wages up 1.6% yr/yr: govt",
-            "link": "https://www.financialjuice.com/News/9707718/Japan-June-inflation-adjusted-real-wages-up-16-yryr-govt.aspx?xy=rss",
+            "id": "bf3effda0a98038be812432039f1dc2f8b0c81235f76a15c496c0cb5be582588",
+            "time": "2026-08-05T22:30:01+08:00",
+            "headline": "EIA Crude Oil Inventories Actual 2.479M (Forecast -1.5M, Previous -7.167M)",
+            "link": "https://www.financialjuice.com/News/9708948/EIA-Crude-Oil-Inventories-Actual-2479M-Forecast--15M-Previous--7167M.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -413,8 +385,8 @@
       "news": [
         {
           "importance_score": 5,
-          "headline_zh": "葉門青年運動於亞丁灣發射彈道飛彈擊中沙烏地油輪「Daisy」 並宣布總動員",
-          "summary_zh": "青年運動擴大紅海及海灣攻擊範圍，擊中沙烏地油輪並宣稱實施「封鎖對封鎖」，導致中東原油運輸風險持續高企。",
+          "headline_zh": "葉門胡塞武裝於紅海及亞丁灣發射飛彈擊中沙烏地油輪「Daisy」號",
+          "summary_zh": "胡塞武裝發射彈道飛彈成功打擊沙烏地油輪，並宣稱將密切監控所有沙烏地油輪航行，不會放行任何船隻，油價一度受此衝擊大幅波動。",
           "event_time": "2026-08-06T02:14:44+08:00",
           "source_id": "1fdb3cce240bc76e1d3d367b82667f81da3d32a6a48e8282c5b5c0b9127948c2",
           "source_detail": {
@@ -427,8 +399,8 @@
         },
         {
           "importance_score": 5,
-          "headline_zh": "伊朗外交部與副外長：與阿曼就霍爾木茲海峽通道協議接近完成 但重開海峽需美方履行承諾",
-          "summary_zh": "伊朗披露霍爾木茲海峽新方案，強調美國曾主動求談，但美方僅履約不足以重開海峽，後續仍需滿足額外條件與安排。",
+          "headline_zh": "伊朗與阿曼就荷姆茲海峽新方案接近達成協議 但強調重開海峽需美方履約",
+          "summary_zh": "伊朗外交部證實與阿曼就荷姆茲海峽航行安排即將達成協議，但澄清該協議本身不足以重啟海峽，仍取決於美國解除封鎖與履行承諾。",
           "event_time": "2026-08-06T00:37:22+08:00",
           "source_id": "77d4cd749cf505739b9083dbe79652bc3c1d5a0f8a06d6f975e06221946aa305",
           "source_detail": {
@@ -441,8 +413,36 @@
         },
         {
           "importance_score": 5,
-          "headline_zh": "川普表示與伊朗進行了全天談判 稱會談非常富有成效且進展順利",
-          "summary_zh": "美伊雙方展開密集的間接與直接談判，川普透露雙方溝通進展良好，釋放地緣政治緊張可能降溫的信號。",
+          "headline_zh": "以色列與多個海灣國家密商繞過荷姆茲海峽的替代油氣運輸路線",
+          "summary_zh": "因應海峽封鎖威脅，以色列與多個海灣國家進行秘密會談，擬建立繞過荷姆茲海峽與曼德海峽的陸路及替代能源出口通道。",
+          "event_time": "2026-08-05T23:25:10+08:00",
+          "source_id": "001c189284b512c66cfc686e4932639a8fb0549add9c530097c6e9a9134a3d77",
+          "source_detail": {
+            "id": "001c189284b512c66cfc686e4932639a8fb0549add9c530097c6e9a9134a3d77",
+            "time": "2026-08-05T23:25:10+08:00",
+            "headline": "Israel, several Gulf countries hold talks on alternative oil and gas export routes bypassing Strait of Hormuz, Bab el-Mandeb Strait - Israel's Hayom News",
+            "link": "https://www.financialjuice.com/News/9709034/Israel-several-Gulf-countries-hold-talks-on-alternative-oil-and-gas-export-routes-bypassing-Strait-of-Hormuz-Bab-el-Mandeb-Strait---Israels-Hayom-News.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 5,
+          "headline_zh": "納坦雅胡強調以色列生存權不可談判 回應美伊會談壓力",
+          "summary_zh": "以色列總理納坦雅胡發表聲明稱，感謝川普對對抗伊朗野心的努力，但強調以色列的國家生存與安全絕不容許進行任何妥協或談判。",
+          "event_time": "2026-08-05T22:43:17+08:00",
+          "source_id": "13248f0213a53806672a8cf0d339ea7806f7f0fa1f7da62507e069dc79c30046",
+          "source_detail": {
+            "id": "13248f0213a53806672a8cf0d339ea7806f7f0fa1f7da62507e069dc79c30046",
+            "time": "2026-08-05T22:43:17+08:00",
+            "headline": "Israel's Prime Minister Netanyahu: Trump is a great friend of ours, and we appreciate the efforts against Iran's aspirations - but the existence of Israel is not negotiable - Israel's Hayom News.",
+            "link": "https://www.financialjuice.com/News/9708972/Israels-Prime-Minister-Netanyahu-Trump-is-a-great-friend-of-ours-and-we-appreciate-the-efforts-against-Irans-aspirations---but-the-existence-of-Israel-is-not-negotiable---Israels-Hayom-News.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 5,
+          "headline_zh": "川普透露美伊談判極具成效 稱雙方展開全天候協商",
+          "summary_zh": "川普向媒體表示，美國與伊朗正進行非常富有成效的談判，雙方全天進行協商且進展順利，緩和市場對中東全面爆發衝突的焦慮。",
           "event_time": "2026-08-05T11:09:27+08:00",
           "source_id": "8077a82498af362ed3e590ab8c3267b3818da8c689dfd4ca6fb1446b65002c63",
           "source_detail": {
@@ -455,22 +455,22 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "埃及、土耳其、巴基斯坦與沙烏地外長於安曼會晤 商討霍爾木茲海峽安全與降溫舉措",
-          "summary_zh": "中東多國外長展開緊急外交斡旋，尋求緩和區域安全危機並確保關鍵航道安全。",
-          "event_time": "2026-08-06T03:40:43+08:00",
-          "source_id": "0a65963cc9dcccae6fde8dd67a9026d55aee5a98234e878b41b95223cba42d5d",
+          "headline_zh": "美國解除部分與伊朗相關的制裁 官員澄清係針對伊拉克條款",
+          "summary_zh": "美財政部官員取消部分涉伊制裁，隨後媒體澄清該措施旨在允許伊拉克支付能源費用，並非對伊朗政策的實質軟化。",
+          "event_time": "2026-08-05T22:02:49+08:00",
+          "source_id": "911d9240516be79822be5d741145f0989f556ec7000ee1ad7bb1106325a91d68",
           "source_detail": {
-            "id": "0a65963cc9dcccae6fde8dd67a9026d55aee5a98234e878b41b95223cba42d5d",
-            "time": "2026-08-06T03:40:43+08:00",
-            "headline": "The foreign ministers of Egypt, Turkey, Pakistan, and Saudi Arabia met in Amman, the capital of Jordan, to discuss ways to de-escalate tensions in the region, particularly concerning the security of the Strait of Hormuz - irib news",
-            "link": "https://www.financialjuice.com/News/9709344/The-foreign-ministers-of-Egypt-Turkey-Pakistan-and-Saudi-Arabia-met-in-Amman-the-capital-of-Jordan-to-discuss-ways-to-de-escalate-tensions-in-the-region-particularly-concerning-the-security-of-the-Strait-of-Hormuz---irib-news.aspx?xy=rss",
+            "id": "911d9240516be79822be5d741145f0989f556ec7000ee1ad7bb1106325a91d68",
+            "time": "2026-08-05T22:02:49+08:00",
+            "headline": "US removes Iran-related sanctions - Treasury Website.",
+            "link": "https://www.financialjuice.com/News/9708931/US-removes-Iran-related-sanctions---Treasury-Website.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 4,
-          "headline_zh": "以色列與真主黨衝突升級 以軍對黎巴嫩南部展開精準空襲",
-          "summary_zh": "以色列指責真主黨違反停火協議，在黎巴嫩南部發動多輪空襲，致使羅馬舉辦的以黎和平會談被迫暫緩並延至次日。",
+          "headline_zh": "以色列軍方針對黎巴嫩南部發動精準空襲 指控真主黨破壞停火",
+          "summary_zh": "以色列軍方宣布對黎巴嫩南部展開精準 strike，理由是真主黨違反停火協議，致使羅馬和平會談一度提早中斷。",
           "event_time": "2026-08-05T21:07:00+08:00",
           "source_id": "7db737e0c9ad964c7e837baf6e5b5922ae1ab6131acb8d48cfc2232b72aa33af",
           "source_detail": {
@@ -480,38 +480,52 @@
             "link": "https://www.financialjuice.com/News/9708837/IDF-Began-conducting-precise-strikes-in-South-Lebanon.aspx?xy=rss](https://www.financialjuice.com/feed.ashx?xy=rss)",
             "source": "FinancialJuice"
           }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "烏克蘭無人機襲擊俄羅斯圖拉州倉庫及工業園區",
+          "summary_zh": "烏克蘭對俄羅斯圖拉州發動無人機襲擊，導致大型電商Wildberries倉庫起火並波及當地兩座工業廠房。",
+          "event_time": "2026-08-05T10:44:26+08:00",
+          "source_id": "8f6529910c804ebab5646e3763aa05b7524586b7905acf3b18b65bdb4374ac44",
+          "source_detail": {
+            "id": "8f6529910c804ebab5646e3763aa05b7524586b7905acf3b18b65bdb4374ac44",
+            "time": "2026-08-05T10:44:26+08:00",
+            "headline": "Ukraine strikes Wildberries warehouse in Russia's Tula region, authorities say",
+            "link": "https://www.financialjuice.com/News/9708027/Ukraine-strikes-Wildberries-warehouse-in-Russias-Tula-region-authorities-say.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
         }
       ]
     }
   ],
   "discarded": {
-    "estimated_count": 223,
+    "estimated_count": 210,
     "reasons": [
-      "中國央行每日人民幣中間價預測數據（無市場實質影響）",
-      "純漲跌幅與個股指數即時價格走勢紀錄（如台股大漲3%）",
-      "政治人物演說開場但無具體政策內容新聞（如川普拉斯維加斯演說直播）",
-      "無實質市場意義或不具政策暗示之例行官員回應（如日本官員不評論特定匯率）",
-      "技術性統計指標（如30/60/90天相關係數矩陣、隱含波動率表、無具體數字之央行利率概率）",
-      "微小國家常態性產出數據與區域性基層初選結果",
-      "重複性或細節微小之地緣政治現場簡訊"
+      "重複或連續無實質變化的央行會議紀錄細項",
+      "純價格漲跌幅/技術性波動 headline（如台股漲跌、期貨結算價）",
+      "美國初選/地方選情新聞（與重大財政/關稅無關）",
+      "波動率矩陣、相關性矩陣及無具體數字之利率機率圖表",
+      "缺乏具體演說內容之政治人物預告 headline",
+      "日本政府對匯率水準無干預意圖之例行不予評論",
+      "小國數據及無實質市場影響之例行外交訪問活動"
     ]
   },
-  "generated_at": "2026-08-06T07:40:17.493310+08:00",
+  "generated_at": "2026-08-06T08:41:54.488663+08:00",
   "model": "gemini-3.6-flash",
   "source": "FinancialJuice",
-  "input_headline_count": 273,
-  "included_headline_count": 273,
+  "input_headline_count": 259,
+  "included_headline_count": 259,
   "usage_metadata": {
-    "promptTokenCount": 32384,
-    "candidatesTokenCount": 6714,
-    "totalTokenCount": 43154,
+    "promptTokenCount": 31238,
+    "candidatesTokenCount": 6895,
+    "totalTokenCount": 44356,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 32384
+        "tokenCount": 31238
       }
     ],
-    "thoughtsTokenCount": 4056,
+    "thoughtsTokenCount": 6223,
     "serviceTier": "standard"
   }
 }
