@@ -1652,6 +1652,7 @@ def load_optional_json_object(
 
 def build_central_bank_daily_archives(
     digest: dict[str, Any],
+    run_at: datetime,
 ) -> list[Path]:
     """
     將完整近90天央行Digest拆成「每個談話日期一個精簡檔」。
@@ -1659,7 +1660,12 @@ def build_central_bank_daily_archives(
     完整近90天資料仍只寫入digests/latest.json供網頁使用；
     每日歷史檔只保存該日期實際有談話的官員，不保存空白官員，
     也不再複製完整90天資料。
+
+    已存在的歷史檔只允許覆寫台灣日期最近5天（含今天）；
+    超過5天的既有檔案保持不變，但缺少的舊日期檔仍會首次建立。
     """
+    local_run_date = run_at.astimezone(TAIPEI_TIMEZONE).date()
+    overwrite_cutoff_date = local_run_date - timedelta(days=4)
     talks_by_date: dict[str, list[dict[str, Any]]] = {}
     central_banks = digest.get("central_banks", [])
 
@@ -1841,6 +1847,12 @@ def build_central_bank_daily_archives(
         }
 
         existing_output = load_optional_json_object(daily_file)
+        is_within_overwrite_window = (
+            parsed_date.date() >= overwrite_cutoff_date
+        )
+
+        if daily_file.exists() and not is_within_overwrite_window:
+            continue
 
         if existing_output != daily_output:
             write_json(daily_file, daily_output)
@@ -2081,7 +2093,8 @@ def main() -> int:
 
         central_bank_daily_files = (
             build_central_bank_daily_archives(
-                central_bank_digest
+                central_bank_digest,
+                run_at,
             )
         )
 
