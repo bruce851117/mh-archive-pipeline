@@ -1223,6 +1223,7 @@ def build_central_bank_reference(
             bank_config.get("display_name")
         ) or normalized_bank
         officials = bank_config.get("officials", [])
+        voter_version = normalize_text(config.get("version"))
         reference_officials: list[dict[str, Any]] = []
 
         if not isinstance(officials, list):
@@ -1251,6 +1252,7 @@ def build_central_bank_reference(
                 "priority": priority,
                 "position": normalize_text(official.get("position")),
                 "active": bool(official.get("active", True)),
+                "voter": bool(official.get("voter", False)),
             }
             reference_officials.append(normalized)
             official_lookup[f"{normalized_bank}|{display.casefold()}"] = normalized
@@ -1260,6 +1262,7 @@ def build_central_bank_reference(
             {
                 "central_bank": normalized_bank,
                 "display_name": display_name,
+                "voter_version": voter_version,
                 "officials": reference_officials,
             }
         )
@@ -1468,6 +1471,7 @@ def normalize_central_bank_digest(
                     "priority": official["priority"],
                     "position": official["position"],
                     "active": official["active"],
+                    "voter": official["voter"],
                     "talks": official_talks,
                 }
             )
@@ -1476,6 +1480,7 @@ def normalize_central_bank_digest(
             {
                 "central_bank": bank_code,
                 "display_name": bank["display_name"],
+                "voter_version": bank["voter_version"],
                 "officials": output_officials,
             }
         )
@@ -1488,6 +1493,11 @@ def normalize_central_bank_digest(
         ),
         "period_end": format_taipei_time(run_at),
         "lookback_days": CENTRAL_BANK_LOOKBACK_DAYS,
+        "voter_version": (
+            bank_reference[0].get("voter_version", "")
+            if bank_reference
+            else ""
+        ),
         "model": model,
         "input_headline_count": len(source_lookup),
         "talk_count": len(talks_by_key),
@@ -1764,6 +1774,7 @@ def build_central_bank_daily_archives(
                         "active": bool(
                             official.get("active", True)
                         ),
+                        "voter": bool(official.get("voter", False)),
                         "date": talk_date,
                         "summary_zh": summary_zh,
                         "topics": {

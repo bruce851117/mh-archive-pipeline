@@ -649,6 +649,32 @@
     .official-name-details > summary::-webkit-details-marker {
       display: none;
     }
+    .official-name-line {
+      display: inline-flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .voter-badge {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid #a9c4e8;
+      border-radius: 999px;
+      padding: 1px 6px;
+      background: #eaf3ff;
+      color: #0c4f9e;
+      font-size: 8px;
+      font-weight: 900;
+      line-height: 1.45;
+      letter-spacing: .04em;
+      vertical-align: middle;
+    }
+    .voter-version {
+      margin-top: 3px;
+      color: #6f7f92;
+      font-size: 9px;
+      font-weight: 700;
+    }
 
     .official-name-details > summary::after {
       content: '＋';
@@ -1879,7 +1905,7 @@
         <section class="card official-card">
           <aside class="official-side ${stanceClass(savedStance)}">
             <details class="official-name-details">
-              <summary>${escapeHtml(officialName)}</summary>
+              <summary><span class="official-name-line"><span>${escapeHtml(officialName)}</span>${((bankCode === 'FED' || bankCode === 'ECB') && official.voter === true) ? '<span class="voter-badge">VOTER</span>' : ''}</span></summary>
               <div class="official-position-compact">${escapeHtml(official.position || '')}</div>
               ${official.active === false ? '<span class="official-inactive">已卸任</span>' : ''}
               ${renderStanceSelector(bankCode, officialName)}
@@ -1949,9 +1975,13 @@
       for (const official of officials) totalTalks += (official.filteredTalks || []).length;
       centralBankName.textContent = `${bank.display_name || bankCode} 官員談話`;
       const actualRange = getBankActualRange(bank);
-      centralBankRange.textContent = actualRange
+      const rangeLabel = actualRange
         ? `實際資料範圍｜${fullDate(actualRange.start)} ～ ${fullDate(actualRange.end)}`
         : '目前沒有可顯示的談話資料';
+      const voterVersion = String(bank.voter_version || centralBankData?.voter_version || '').trim();
+      centralBankRange.innerHTML = `${escapeHtml(rangeLabel)}${((bankCode === 'FED' || bankCode === 'ECB') && voterVersion)
+        ? `<div class="voter-version">Voter version｜${escapeHtml(voterVersion)}</div>`
+        : ''}`;
       centralBankCount.textContent = `${totalTalks} 筆每日摘要`;
 
       officialsContainer.innerHTML = officials.length
