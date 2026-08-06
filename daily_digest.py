@@ -308,13 +308,16 @@ def build_compact_input(
 
 
 class WallstreetCNHeadlineParser(HTMLParser):
-    """只解析早餐文章中「要闻」标题后的第一个blockquote。"""
+    """解析早餐文章的「市场概述」及「要闻」区块。"""
 
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
+        self.found_market_overview_heading = False
         self.found_headline_heading = False
         self.in_h2 = False
         self.h2_parts: list[str] = []
+        self.in_market_overview = False
+        self.market_overview_events: list[str] = []
         self.in_target_blockquote = False
         self.blockquote_depth = 0
         self.capture_tag = ""
@@ -333,7 +336,7 @@ class WallstreetCNHeadlineParser(HTMLParser):
         del attrs
         tag = tag.lower()
 
-        if tag == "h2" and not self.found_headline_heading:
+        if tag == "h2" and not self.in_target_blockquote:
             self.in_h2 = True
             self.h2_parts = []
             return
@@ -347,10 +350,10 @@ class WallstreetCNHeadlineParser(HTMLParser):
             self.blockquote_depth = 1
             return
 
-        if not self.in_target_blockquote:
+        if not self.in_market_overview and not self.in_target_blockquote:
             return
 
-        if tag == "blockquote":
+        if tag == "blockquote" and self.in_target_blockquote:
             self.blockquote_depth += 1
 
         if not self.capture_tag and tag in {"p", "li"}:
@@ -373,11 +376,18 @@ class WallstreetCNHeadlineParser(HTMLParser):
         if tag == "h2" and self.in_h2:
             heading = normalize_text("".join(self.h2_parts))
             self.in_h2 = False
+
+            if heading in {"市场概述", "市場概述"}:
+                self.found_market_overview_heading = True
+                self.in_market_overview = True
+            else:
+                self.in_market_overview = False
+
             if heading in {"要闻", "要聞"}:
                 self.found_headline_heading = True
             return
 
-        if not self.in_target_blockquote:
+        if not self.in_market_overview and not self.in_target_blockquote:
             return
 
         if self.capture_tag:
@@ -388,7 +398,7 @@ class WallstreetCNHeadlineParser(HTMLParser):
                 if self.capture_depth == 0:
                     self._finish_item()
 
-        if tag == "blockquote":
+        if tag == "blockquote" and self.in_target_blockquote:
             self.blockquote_depth -= 1
             if self.blockquote_depth <= 0:
                 self.in_target_blockquote = False
@@ -397,7 +407,10 @@ class WallstreetCNHeadlineParser(HTMLParser):
         if self.in_h2:
             self.h2_parts.append(data)
 
-        if not self.in_target_blockquote or not self.capture_tag:
+        if (
+            (not self.in_market_overview and not self.in_target_blockquote)
+            or not self.capture_tag
+        ):
             return
 
         self.capture_parts.append(data)
@@ -408,20 +421,24 @@ class WallstreetCNHeadlineParser(HTMLParser):
         text = normalize_text("".join(self.capture_parts))
         strong_text = normalize_text("".join(self.strong_parts))
 
-        # 分类标题必须是独立的粗体短行，避免把事件内粗体误判为分类。
-        is_section_heading = (
-            bool(text)
-            and text == strong_text
-            and len(text) <= 30
-            and not re.search(r"[。！？!?：:；;]", text)
-        )
+        if self.in_market_overview:
+            if text:
+                self.market_overview_events.append(text)
+        else:
+            # 分类标题必须是独立的粗体短行，避免把事件内粗体误判为分类。
+            is_section_heading = (
+                bool(text)
+                and text == strong_text
+                and len(text) <= 30
+                and not re.search(r"[。！？!?：:；;]", text)
+            )
 
-        if is_section_heading:
-            self.current_section = text
-            self.sections.setdefault(text, [])
-        elif text:
-            section = self.current_section or "未分類"
-            self.sections.setdefault(section, []).append(text)
+            if is_section_heading:
+                self.current_section = text
+                self.sections.setdefault(text, [])
+            elif text:
+                section = self.current_section or "未分類"
+                self.sections.setdefault(section, []).append(text)
 
         self.capture_tag = ""
         self.capture_depth = 0
@@ -558,17 +575,22 @@ def fetch_wallstreetcn_breakfast(
         )
         return None
 
-    sections = {
-        section: events
-        for section, events in parser.sections.items()
-        if events
-    }
+    sections: dict[str, list[str]] = {}
+    if parser.market_overview_events:
+        sections["市场概述"] = parser.market_overview_events
+    sections.update(
+        {
+            section: events
+            for section, events in parser.sections.items()
+            if events
+        }
+    )
     event_count = sum(len(events) for events in sections.values())
 
     if not parser.found_headline_heading or event_count == 0:
         print(
-            "WallstreetCN breakfast: headline section unavailable or empty; "
-            "skipped."
+            "WallstreetCN breakfast: overview/headline sections unavailable "
+            "or empty; skipped."
         )
         return None
 
@@ -612,7 +634,7 @@ def build_wallstreetcn_breakfast_prompt(
     return """
 【最高优先必保留事件】
 
-以下内容来自今日華爾街早餐的「要闻」区块，仅用于判断输入的FinancialJuice Headline是否必须保留，不是额外新闻来源。
+以下内容来自今日華爾街早餐的「市场概述」及「要闻」区块，仅用于判断输入的FinancialJuice Headline是否必须保留，不是额外新闻来源。
 若FinancialJuice Headline与以下任一事件属于同一事件，就算用字有點不同，必须保留，再強調一次，必須保留!!!!!。本规则优先于其他删除规则!!!!!
 
 今日早餐必保留事件：
