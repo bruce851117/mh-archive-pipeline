@@ -2,9 +2,40 @@
   "date": "2026-08-05",
   "timezone": "Asia/Taipei",
   "model": "gemini-3.6-flash",
-  "source_generated_at": "2026-08-06T09:04:41.073709+08:00",
-  "talk_count": 2,
+  "source_generated_at": "2026-08-06T10:25:16.077070+08:00",
+  "talk_count": 3,
   "talks": [
+    {
+      "central_bank": "BOJ",
+      "central_bank_display_name": "BoJ",
+      "official": "Kazuo Ueda",
+      "headline_name": "Ueda",
+      "priority": 1,
+      "position": "Governor",
+      "active": true,
+      "voter": true,
+      "date": "2026-08-05",
+      "summary_zh": "表示有信心採取最符合日本經濟利益的行動。",
+      "topics": {
+        "economy": "",
+        "inflation": "",
+        "labor_market": "",
+        "monetary_policy": "",
+        "interest_rates": "",
+        "balance_sheet": ""
+      },
+      "source_ids": [
+        "d87473e8e7fd6f2289a54437fa4fe72f1f2f8e6f1643ae48b7b12585b15d0396"
+      ],
+      "source_headlines": [
+        {
+          "id": "d87473e8e7fd6f2289a54437fa4fe72f1f2f8e6f1643ae48b7b12585b15d0396",
+          "time": "2026-08-05T06:45:03+08:00",
+          "central_bank": "BOJ",
+          "headline": "BoJ Governor Ueda: I'm confident I'll do what's best for the Japanese economy"
+        }
+      ]
+    },
     {
       "central_bank": "FED",
       "central_bank_display_name": "Fed",
@@ -13,8 +44,9 @@
       "priority": 11,
       "position": "Minneapolis Fed President",
       "active": true,
+      "voter": true,
       "date": "2026-08-05",
-      "summary_zh": "政策目標為壓低通膨而非減緩經濟，現在是開始小幅緩慢升息的時機，並應向市場清晰溝通反應函數。",
+      "summary_zh": "目標是壓低通膨而非減緩經濟，認為現在是開始緩步調升利率的時候，但並非主張大幅加息。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -85,8 +117,9 @@
       "priority": 17,
       "position": "Kansas City Fed President",
       "active": true,
+      "voter": false,
       "date": "2026-08-05",
-      "summary_zh": "通膨依然過高且當前政策不夠緊縮，即使衝擊源於供給或AI投資亦不應忽視，需進一步緊縮以回歸2%目標。",
+      "summary_zh": "表示通膨仍高且令人擔憂，政策立場並不偏緊，需要更緊縮的貨幣政策以使通膨回落至2%目標，AI投資正助長通膨不應忽視。",
       "topics": {
         "economy": "",
         "inflation": "",
