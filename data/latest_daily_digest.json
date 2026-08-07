@@ -1,265 +1,17 @@
 {
   "title": "最近24小時全球市場重要新聞",
-  "period_start": "2026-08-07T07:01:22.107531+08:00",
-  "period_end": "2026-08-08T07:01:22.107531+08:00",
+  "period_start": "2026-08-07T07:41:22.821987+08:00",
+  "period_end": "2026-08-08T07:41:22.821987+08:00",
   "timezone": "Asia/Taipei",
-  "overview": "過去24小時全球市場主線聚焦於美國重磅經濟數據發布與中東地緣政治破冰契機。美國7月非農就業人數意外減少2.3萬人，大幅低於預期，推升市場對聯準會未來降息的預期；與此同時，美伊兩國透過阿曼調解針對荷姆茲海峽通航與解除港口封鎖取得重大突破，伊朗總統與美方官員均釋放降溫訊號。此外，日圓外匯干預細節揭曉與加美關稅談判亦引發市場高度關注。",
+  "overview": "過去24小時全球市場焦點集中於美國7月非農就業數據意外萎縮，打壓市場對美聯儲（Fed）9月加息的預期，推動美債價格大漲、收益率急跌，美元大幅走弱。地緣政治方面，美方官員透露與伊朗及阿曼就荷姆茲海峽（Strait of Hormuz）航運協議取得實質進展，若協議達成美國將解除對伊封鎖，原油價格隨之轉降但全周仍維持強勢。科技板塊方面，OpenAI因安全隱患暫緩Astra模型發布，而Alphabet則披露巨額持股SpaceX並計畫發行高達250億美元債券。",
   "categories": [
     {
       "category": "債市",
       "news": [
         {
-          "importance_score": 3,
-          "headline_zh": "Alphabet 申報發行最高250億美元的10部分公司債券",
-          "summary_zh": "科技巨頭 Alphabet（Alphabet Inc.）發行大規模多天期公司債，籌集資金投入 AI 與資本支出，對企業債市場流動性產生擠壓效應。",
-          "event_time": "2026-08-08T04:16:03+08:00",
-          "source_id": "2590173a76fe9737289911a4f1bf03e1f18d0adeb7fa7d763956fdcc61f53d82",
-          "source_detail": {
-            "id": "2590173a76fe9737289911a4f1bf03e1f18d0adeb7fa7d763956fdcc61f53d82",
-            "time": "2026-08-08T04:16:03+08:00",
-            "headline": "Alphabet files for 10-part notes offering of up to $25 bln - SEC filing. $GOOGL",
-            "link": "https://www.financialjuice.com/News/9712918/Alphabet-files-for-10-part-notes-offering-of-up-to-25-bln---SEC-filing-GOOGL.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "中國財政部擬於8月14日拍賣900億元首發10年期國債",
-          "summary_zh": "中國補充指標10年期國債發行規模，進一步充實國債收益率基準。",
-          "event_time": "2026-08-07T09:51:17+08:00",
-          "source_id": "7a0082d70b0910befd3a8fa94de5abbeab631a517be8b290deb32a997ea7bcf7",
-          "source_detail": {
-            "id": "7a0082d70b0910befd3a8fa94de5abbeab631a517be8b290deb32a997ea7bcf7",
-            "time": "2026-08-07T09:51:17+08:00",
-            "headline": "China finance ministry: will auction inaugural 90 billion RMB 10-year bonds on August 14",
-            "link": "https://www.financialjuice.com/News/9711463/China-finance-ministry-will-auction-inaugural-90-billion-RMB-10-year-bonds-on-August-14.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "中國財政部將於8月14日招標發行730億元30年期超長期特別國債",
-          "summary_zh": "中國財政部宣佈首發30年期超長期特別國債，供給增加對發行利率與債市收益率曲線產生定價影響。",
-          "event_time": "2026-08-07T09:50:34+08:00",
-          "source_id": "629d1e31bd38d85f91e50899a980c2a201b5488ffb677fe4d7e609804459f518",
-          "source_detail": {
-            "id": "629d1e31bd38d85f91e50899a980c2a201b5488ffb677fe4d7e609804459f518",
-            "time": "2026-08-07T09:50:34+08:00",
-            "headline": "China finance ministry: to hold tender on August 14 for inaugural issuance of 73 billion rmb ultra-long-term special government bonds with 30-year maturity",
-            "link": "https://www.financialjuice.com/News/9711462/China-finance-ministry-to-hold-tender-on-August-14-for-inaugural-issuance-of-73-billion-rmb-ultra-long-term-special-government-bonds-with-30-year-maturity.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 2,
-          "headline_zh": "美國擔保隔夜融資利率（SOFR）8月6日報3.65%",
-          "summary_zh": "美聯儲貨幣市場基準利率微升，反映貨幣市場流動性狀況穩定。",
-          "event_time": "2026-08-07T20:00:33+08:00",
-          "source_id": "c6e09f7fe4fc0659a26d6f11a6f6468535d1885dc5e2dc01c6586c427d4f4088",
-          "source_detail": {
-            "id": "c6e09f7fe4fc0659a26d6f11a6f6468535d1885dc5e2dc01c6586c427d4f4088",
-            "time": "2026-08-07T20:00:33+08:00",
-            "headline": "Secured Overnight Financing Rate 3.65% August 6 vs 3.64% August 5.",
-            "link": "https://www.financialjuice.com/News/9712236/Secured-Overnight-Financing-Rate-365-August-6-vs-364-August-5.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 2,
-          "headline_zh": "中國財政部拍賣7年期國債，得標利率為1.5039%",
-          "summary_zh": "交易員透露中國中期國債得標利率水平，反映當前債市資金面與發行需求。",
-          "event_time": "2026-08-07T11:38:29+08:00",
-          "source_id": "63f8920932151f59790f25d724f4a1927552d415e8ba1ecf90e4e3d1cb2dcb4e",
-          "source_detail": {
-            "id": "63f8920932151f59790f25d724f4a1927552d415e8ba1ecf90e4e3d1cb2dcb4e",
-            "time": "2026-08-07T11:38:29+08:00",
-            "headline": "China finance ministry auctions 7-year bonds at 1.5039% yield: traders",
-            "link": "https://www.financialjuice.com/News/9711636/China-finance-ministry-auctions-7-year-bonds-at-15039-yield-traders.aspx",
-            "source": "FinancialJuice"
-          }
-        }
-      ]
-    },
-    {
-      "category": "股市",
-      "news": [
-        {
-          "importance_score": 4,
-          "headline_zh": "OpenAI 評估資安風險，暫緩 Astra 模型之發布並將供政府進行安全測試",
-          "summary_zh": "OpenAI 因考量網路安全防護能力的突破，延後 Astra 新模型的公開推廣，並開放給政府機構測試，顯示 AI 監管與風險控制影響產品上市時程。",
-          "event_time": "2026-08-08T00:31:50+08:00",
-          "source_id": "ad93d3ff61735dff4f94dadfe17ebd18e3914dc8894b472d5acac4ab12689e2c",
-          "source_detail": {
-            "id": "ad93d3ff61735dff4f94dadfe17ebd18e3914dc8894b472d5acac4ab12689e2c",
-            "time": "2026-08-08T00:31:50+08:00",
-            "headline": "OpenAI slows release of Astra model on cyber capabilities - Axios",
-            "link": "https://www.financialjuice.com/News/9712652/OpenAI-slows-release-of-Astra-model-on-cyber-capabilities---Axios.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "字節跳動研發超大 AI 模型，目標追趕 Anthropic 的 Mythos-FT",
-          "summary_zh": "字節跳動（ByteDance）加速投入頂尖人工智慧模型研發，顯示全球科技巨頭的 AI 軍備競賽持續升溫。",
-          "event_time": "2026-08-07T12:38:17+08:00",
-          "source_id": "4d090a2d241b05c9a01c0e686323ccc0061a207eb2dc10b68c426ff3fa3eb950",
-          "source_detail": {
-            "id": "4d090a2d241b05c9a01c0e686323ccc0061a207eb2dc10b68c426ff3fa3eb950",
-            "time": "2026-08-07T12:38:17+08:00",
-            "headline": "Bytedance targets mega AI model approaching Anthropic’s Mythos-FT",
-            "link": "https://www.financialjuice.com/News/9711699/Bytedance-targets-mega-AI-model-approaching-Anthropics-Mythos-FT.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "SpaceX 最快於下週末完成對程式碼初創公司600億美元的收購",
-          "summary_zh": "SpaceX 透過大規模併購補強軟體開發生態系，擴大其在科技與工程應用的領先地位。",
-          "event_time": "2026-08-08T03:19:51+08:00",
-          "source_id": "0ce6bc94b7a8989e45f1a26cca68a387d0860c4b689bb7cbe4b6e8a6894757a9",
-          "source_detail": {
-            "id": "0ce6bc94b7a8989e45f1a26cca68a387d0860c4b689bb7cbe4b6e8a6894757a9",
-            "time": "2026-08-08T03:19:51+08:00",
-            "headline": "SpaceX could complete its $60 bln acquisition of the coding startup as soon as the end of next week - The Information. $SPCX",
-            "link": "https://www.financialjuice.com/News/9712850/SpaceX-could-complete-its-60-bln-acquisition-of-the-coding-startup-as-soon-as-the-end-of-next-week---The-Information-SPCX.aspx",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "西門子計劃投資逾2億美元在德州新建兩座美國製造工廠",
-          "summary_zh": "西門子（Siemens）擴大美國在地製造供應鏈，符合近岸外包與美國供應鏈安全趨勢。",
-          "event_time": "2026-08-07T22:19:23+08:00",
-          "source_id": "3c35c285938a748bee26b89a94fb1727aaf1283f12be75e7887db03da70ba678",
-          "source_detail": {
-            "id": "3c35c285938a748bee26b89a94fb1727aaf1283f12be75e7887db03da70ba678",
-            "time": "2026-08-07T22:19:23+08:00",
-            "headline": "Siemens plans to invest more than $200m in two new US manufacturing facilities in Texas.",
-            "link": "https://www.financialjuice.com/News/9712484/Siemens-plans-to-invest-more-than-200m-in-two-new-US-manufacturing-facilities-in-Texas.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "Alphabet 申報持有 SpaceX 約5.512億股 A 類股票",
-          "summary_zh": "SEC 文件顯示 Alphabet 持有大量 SpaceX 股權，凸顯商業航太與衛星通訊投資對科技巨頭資產價值的支撐。",
-          "event_time": "2026-08-07T18:02:42+08:00",
-          "source_id": "e23a2203f709cf4a37198649c45be43aa0c72c14de51cce556c954c6381c3605",
-          "source_detail": {
-            "id": "e23a2203f709cf4a37198649c45be43aa0c72c14de51cce556c954c6381c3605",
-            "time": "2026-08-07T18:02:42+08:00",
-            "headline": "Alphabet reports holding of 551.2 million Class A shares in Space Exploration Techn Corp - SEC filing",
-            "link": "https://www.financialjuice.com/News/9712089/Alphabet-reports-holding-of-5512-million-Class-A-shares-in-Space-Exploration-Techn-Corp---SEC-filing.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "SK 海力士計劃投資19.1兆韓元擴建清州 M17 晶圓廠並注資龍仁晶圓廠",
-          "summary_zh": "SK 海力士（SK Hynix）大幅增加記憶體晶片與高級封裝資本支出，以滿足高頻寬記憶體（HBM）的需求增長。",
-          "event_time": "2026-08-07T15:21:16+08:00",
-          "source_id": "0ca663f829047a668b55ed6b7bbf0122edb34e0525f38e6616049452ece2c5ef",
-          "source_detail": {
-            "id": "0ca663f829047a668b55ed6b7bbf0122edb34e0525f38e6616049452ece2c5ef",
-            "time": "2026-08-07T15:21:16+08:00",
-            "headline": "SK Hynix to spend 19.1T won on Cheongju M17 plant",
-            "link": "https://www.financialjuice.com/News/9711885/SK-Hynix-to-spend-191T-won-on-Cheongju-M17-plant.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "Firmus 宣布完成20億美元戰略股權融資，用於加速輝達 AI 工廠建設",
-          "summary_zh": "獲得輝達（Nvidia）、黑石（Blackstone）等機構注資，Firmus 將推動亞太地區 AI 基礎設施部署，利好 AI 供應鏈。",
-          "event_time": "2026-08-07T09:36:48+08:00",
-          "source_id": "1555d8c2b2140ca5e450d44c0857275c8a838ddd5ef7a1594761e97991b98118",
-          "source_detail": {
-            "id": "1555d8c2b2140ca5e450d44c0857275c8a838ddd5ef7a1594761e97991b98118",
-            "time": "2026-08-07T09:36:48+08:00",
-            "headline": "Firmus announces fully subscribed $2 billion strategic equity injection",
-            "link": "https://www.financialjuice.com/News/9711445/Firmus-announces-fully-subscribed-2-billion-strategic-equity-injection.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "新墨西哥州法院判決 Meta 須支付5.67億美元基金以解決青少年保護訴訟",
-          "summary_zh": "Meta 公司因涉嫌使兒童面臨安全風險遭法院判處鉅額罰款與預防基金，對其營運成本及監管壓力造成短期衝擊。",
-          "event_time": "2026-08-07T07:21:41+08:00",
-          "source_id": "e6360cd58505609d537deb0dd858d8d3b71665ce3efa4aded8f69d7f9da3fda5",
-          "source_detail": {
-            "id": "e6360cd58505609d537deb0dd858d8d3b71665ce3efa4aded8f69d7f9da3fda5",
-            "time": "2026-08-07T07:21:41+08:00",
-            "headline": "New Mexico court orders Meta to pay $567 million over state lawsuit alleging exposure of children to sexual exploitation",
-            "link": "https://www.financialjuice.com/News/9711326/New-Mexico-court-orders-Meta-to-pay-567-million-over-state-lawsuit-alleging-exposure-of-children-to-sexual-exploitation.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 2,
-          "headline_zh": "Meta 表示不認同新墨西哥州法院判決，計劃提出上訴",
-          "summary_zh": "針對鉅額裁罰，Meta 選擇採取法律訴訟程序抗告，試圖減輕財務負擔。",
-          "event_time": "2026-08-07T07:53:19+08:00",
-          "source_id": "b90e83bd30b1ccbc59d941726055cf752141d13487c9e0d3d0c0570448b1d757",
-          "source_detail": {
-            "id": "b90e83bd30b1ccbc59d941726055cf752141d13487c9e0d3d0c0570448b1d757",
-            "time": "2026-08-07T07:53:19+08:00",
-            "headline": "Meta on New Mexico court ruling: disagrees with decision, plans to appeal",
-            "link": "https://www.financialjuice.com/News/9711372/Meta-on-New-Mexico-court-ruling-disagrees-with-decision-plans-to-appeal.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        }
-      ]
-    },
-    {
-      "category": "央行",
-      "news": [
-        {
-          "importance_score": 4,
-          "headline_zh": "最高法院裁決後，川普政府仍企圖推動解雇美聯儲理事庫克",
-          "summary_zh": "川普（Trump）持續挑戰聯準會人事管理權，引發市場對央行政策獨立性與治理架構的擔憂。",
-          "event_time": "2026-08-08T00:49:25+08:00",
-          "source_id": "82769a12f55221730f09b53b7a150d8839be3f05c61de29bb8d3da9ca303ac09",
-          "source_detail": {
-            "id": "82769a12f55221730f09b53b7a150d8839be3f05c61de29bb8d3da9ca303ac09",
-            "time": "2026-08-08T00:49:25+08:00",
-            "headline": "Trump moving forward with attempt to fire Fed's Cook after Supreme Court setback - ABC News",
-            "link": "https://www.financialjuice.com/News/9712678/Trump-moving-forward-with-attempt-to-fire-Feds-Cook-after-Supreme-Court-setback---ABC-News.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "美聯儲巴爾金：勞動力市場處於脆弱平衡狀態，企業定價權受到限制",
-          "summary_zh": "里奇蒙聯儲主席巴爾金（Barkin）指出就業市場呈現「低招聘、低解雇」特徵，並強調將致力於將通膨降至2%目標。",
-          "event_time": "2026-08-07T22:09:48+08:00",
-          "source_id": "d6a30ff1175141f052f83fe082bb21087db9688cc53f5a9ba26a8b4c21dc852b",
-          "source_detail": {
-            "id": "d6a30ff1175141f052f83fe082bb21087db9688cc53f5a9ba26a8b4c21dc852b",
-            "time": "2026-08-07T22:09:48+08:00",
-            "headline": "Fed's Barkin: Job market is in a weak balance.",
-            "link": "https://www.financialjuice.com/News/9712459/Feds-Barkin-Job-market-is-in-a-weak-balance.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "日本財務大臣片山皋月：與美國財長貝森特一致認為匯市存在偏離實體需求的波動，雙方隨時準備干預",
-          "summary_zh": "美日財政首長就外匯市場投機行為達成共識，並發出強烈的共同干預警告，支撐日圓走勢。",
-          "event_time": "2026-08-07T20:33:15+08:00",
-          "source_id": "bc1e12b917442a3f96107d129847b068cc79c714f12cc12f8b1bba6d6575ea58",
-          "source_detail": {
-            "id": "bc1e12b917442a3f96107d129847b068cc79c714f12cc12f8b1bba6d6575ea58",
-            "time": "2026-08-07T20:33:15+08:00",
-            "headline": "Japan's Fin. Min. Katayama: We have agreed with Bessent that Forex markets have been affected by moves not backed by real demand.",
-            "link": "https://www.financialjuice.com/News/9712317/Japans-Fin-Min-Katayama-We-have-agreed-with-Bessent-that-Forex-markets-have-been-affected-by-moves-not-backed-by-real-demand.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "非農數據公布後，利率期貨市場顯示交易員降低對聯準會9月升息的押注",
-          "summary_zh": "由於非農就業數據遠不及預期，市場對聯準會繼續升息的預期迅速降溫，降息預期重新抬頭。",
+          "importance_score": 5,
+          "headline_zh": "非農就業數據疲軟促使交易員削減美聯儲加息押注，美債收益率跳水",
+          "summary_zh": "美國7月非農就業人數意外減少2.3萬人，市場對美聯儲於2026年繼續加息的預期快速降溫，利率期貨顯示9月加息機率顯著下降，帶動各天期美債價格顯著拉升、收益率急挫。",
           "event_time": "2026-08-07T20:32:24+08:00",
           "source_id": "4ba7d04974aa57748c7cae525f30c3dbd1dbd543b6367fb5b70c8478791ab616",
           "source_detail": {
@@ -272,8 +24,130 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "川普談及升息：這在某種程度上取決於沃爾什，但並非全由其決定",
-          "summary_zh": "美國總統川普（Trump）對聯準會潛在官員沃爾什（Warsh）及利率政策發表看法，市場高度關注白宮對央行獨立性與利率路徑的干擾。",
+          "headline_zh": "Alphabet向美國SEC提交申請，擬發行高達250億美元的10部分債券",
+          "summary_zh": "科技巨頭Alphabet（Google母公司）計畫進行大規模多天期債券融資，發行規模最高達250億美元，預期將引發公司債市場高度關注並吸納大量機構資金。",
+          "event_time": "2026-08-08T04:16:03+08:00",
+          "source_id": "2590173a76fe9737289911a4f1bf03e1f18d0adeb7fa7d763956fdcc61f53d82",
+          "source_detail": {
+            "id": "2590173a76fe9737289911a4f1bf03e1f18d0adeb7fa7d763956fdcc61f53d82",
+            "time": "2026-08-08T04:16:03+08:00",
+            "headline": "Alphabet files for 10-part notes offering of up to $25 bln - SEC filing. $GOOGL",
+            "link": "https://www.financialjuice.com/News/9712918/Alphabet-files-for-10-part-notes-offering-of-up-to-25-bln---SEC-filing-GOOGL.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "中國財政部定於8月14日招標發行730億元30年期超長期特別國債及900億元10年期國債",
+          "summary_zh": "中國財政部持續推動特別國債發行計畫，補充市場中長期無風險資產供給，並落實積極財政政策以支持實體經濟發展。",
+          "event_time": "2026-08-07T09:50:34+08:00",
+          "source_id": "629d1e31bd38d85f91e50899a980c2a201b5488ffb677fe4d7e609804459f518",
+          "source_detail": {
+            "id": "629d1e31bd38d85f91e50899a980c2a201b5488ffb677fe4d7e609804459f518",
+            "time": "2026-08-07T09:50:34+08:00",
+            "headline": "China finance ministry: to hold tender on August 14 for inaugural issuance of 73 billion rmb ultra-long-term special government bonds with 30-year maturity",
+            "link": "https://www.financialjuice.com/News/9711462/China-finance-ministry-to-hold-tender-on-August-14-for-inaugural-issuance-of-73-billion-rmb-ultra-long-term-special-government-bonds-with-30-year-maturity.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        }
+      ]
+    },
+    {
+      "category": "股市",
+      "news": [
+        {
+          "importance_score": 4,
+          "headline_zh": "OpenAI因發現潛在零日漏洞安全疑慮，減緩Astra模型發布進度",
+          "summary_zh": "OpenAI透露旗下Astra模型具備發現並利用零日漏洞的強大網路能力，出於安全防範考量，決定暫緩向大眾發布並將模型提供給政府機構進行安全測試。",
+          "event_time": "2026-08-08T00:31:50+08:00",
+          "source_id": "ad93d3ff61735dff4f94dadfe17ebd18e3914dc8894b472d5acac4ab12689e2c",
+          "source_detail": {
+            "id": "ad93d3ff61735dff4f94dadfe17ebd18e3914dc8894b472d5acac4ab12689e2c",
+            "time": "2026-08-08T00:31:50+08:00",
+            "headline": "OpenAI slows release of Astra model on cyber capabilities - Axios",
+            "link": "https://www.financialjuice.com/News/9712652/OpenAI-slows-release-of-Astra-model-on-cyber-capabilities---Axios.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "Alphabet申報持有SpaceX 5.512億股A類股；SpaceX傳最快下周完成600億美元併購案",
+          "summary_zh": "監管文件顯示Alphabet對SpaceX進行大量持股，同時消息指出SpaceX正加速推動對程式碼新創公司高達600億美元的併購計畫，帶動太空科技板塊市場情緒。",
+          "event_time": "2026-08-07T18:02:42+08:00",
+          "source_id": "e23a2203f709cf4a37198649c45be43aa0c72c14de51cce556c954c6381c3605",
+          "source_detail": {
+            "id": "e23a2203f709cf4a37198649c45be43aa0c72c14de51cce556c954c6381c3605",
+            "time": "2026-08-07T18:02:42+08:00",
+            "headline": "Alphabet reports holding of 551.2 million Class A shares in Space Exploration Techn Corp - SEC filing",
+            "link": "https://www.financialjuice.com/News/9712089/Alphabet-reports-holding-of-5512-million-Class-A-shares-in-Space-Exploration-Techn-Corp---SEC-filing.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "新墨西哥州法院判決Meta需支付近9.42億美元罰金與賠償基金，Meta表示將提出上訴",
+          "summary_zh": "美國新墨西哥州法院認定Meta產品損害青少年心理健康並使其面臨剝削風險，裁定其支付3.75億美元罰款及5.67億美元減緩基金；Meta表達強烈反對並計畫上訴。",
+          "event_time": "2026-08-07T07:28:19+08:00",
+          "source_id": "5dd50895e637a585cbebe2a56e496b787522f0f3de328bf17b002c668e4800b6",
+          "source_detail": {
+            "id": "5dd50895e637a585cbebe2a56e496b787522f0f3de328bf17b002c668e4800b6",
+            "time": "2026-08-07T07:28:19+08:00",
+            "headline": "New Mexico jury orders Meta to pay $375 million in penalties, plus $567 million court-ordered fund",
+            "link": "https://www.financialjuice.com/News/9711327/New-Mexico-jury-orders-Meta-to-pay-375-million-in-penalties-plus-567-million-court-ordered-fund.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "防禦科技公司AeroVironment預計獲得美陸軍4000萬美元反無人機合約",
+          "summary_zh": "由於地緣政治衝突增加對反無人機裝備的需求，美國陸軍擬向AeroVironment採購Locust反無人機雷射系統，帶動軍工板塊關注度。",
+          "event_time": "2026-08-08T02:19:15+08:00",
+          "source_id": "fea6f8e0fb66106fd5f9890a1d6c52e25c22cb3281a4f60c468eaa938a2d4d0d",
+          "source_detail": {
+            "id": "fea6f8e0fb66106fd5f9890a1d6c52e25c22cb3281a4f60c468eaa938a2d4d0d",
+            "time": "2026-08-08T02:19:15+08:00",
+            "headline": "AeroVironment set to win $400 million anti-drone US army award. $AVAV",
+            "link": "https://www.financialjuice.com/News/9712764/AeroVironment-set-to-win-400-million-anti-drone-US-army-award-AVAV.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "SK海力士宣布數十萬億韓元資本支出計畫，並考慮處理重慶30億美元資產",
+          "summary_zh": "SK Hynix（SK海力士）宣布將分別投資19.1萬億韓元與35.2萬億韓元建置清州M17及龍仁FAB 2晶圓廠，同時研議出售或調整中國重慶資產股權組合。",
+          "event_time": "2026-08-07T15:21:16+08:00",
+          "source_id": "0ca663f829047a668b55ed6b7bbf0122edb34e0525f38e6616049452ece2c5ef",
+          "source_detail": {
+            "id": "0ca663f829047a668b55ed6b7bbf0122edb34e0525f38e6616049452ece2c5ef",
+            "time": "2026-08-07T15:21:16+08:00",
+            "headline": "SK Hynix to spend 19.1T won on Cheongju M17 plant",
+            "link": "https://www.financialjuice.com/News/9711885/SK-Hynix-to-spend-191T-won-on-Cheongju-M17-plant.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "Firmus獲Coatue、英偉達及黑石加碼20億美元股權融資，加速亞太AI工廠擴展",
+          "summary_zh": "Firmus完成20億美元戰略股權融資，將進一步提升Nvidia（英偉達）AI基礎設施在澳洲與亞太地區的建設進度，凸顯全球AI算力基礎設施需求依然強勁。",
+          "event_time": "2026-08-07T09:36:48+08:00",
+          "source_id": "1555d8c2b2140ca5e450d44c0857275c8a838ddd5ef7a1594761e97991b98118",
+          "source_detail": {
+            "id": "1555d8c2b2140ca5e450d44c0857275c8a838ddd5ef7a1594761e97991b98118",
+            "time": "2026-08-07T09:36:48+08:00",
+            "headline": "Firmus announces fully subscribed $2 billion strategic equity injection",
+            "link": "https://www.financialjuice.com/News/9711445/Firmus-announces-fully-subscribed-2-billion-strategic-equity-injection.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        }
+      ]
+    },
+    {
+      "category": "央行",
+      "news": [
+        {
+          "importance_score": 5,
+          "headline_zh": "川普再次發表降息言論並重申重啟解雇美聯儲理事庫克程序",
+          "summary_zh": "美國前總統川普（Trump）表示希望利率下降，並指稱降息決策「不完全取決於沃什（Warsh）一人」；同時川普正式推進撤換美聯儲理事庫克（Cook）的法律程序，衝擊美聯儲獨立性預期。",
           "event_time": "2026-08-07T17:09:08+08:00",
           "source_id": "979197b7dc8eac1dc2ad9a5c2cf7f581bd9dc3ea98272bb6faf103211a8243fb",
           "source_detail": {
@@ -286,36 +160,22 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "英媒報導：美國拋售歐元購買日圓後已知會歐洲央行",
-          "summary_zh": "美國配合日本在匯市開展協同干預行動，顯示主要央行與財政部在匯率問題上的協調默契。",
-          "event_time": "2026-08-07T08:38:14+08:00",
-          "source_id": "ec0817e132d1c871ec7a84aaf186b1478300f6f4556be051ce01b7ad3578a13d",
+          "headline_zh": "日本財務大臣片山皋月表示與美財長貝森特密切溝通，必要時毫不猶豫干預匯市",
+          "summary_zh": "日本財務大臣片山皋月（Katayama）強調已與美國財長貝森特（Bessent）達成共識，認為近期外匯市場波動脫離實體需求，日本政府與央行隨時準備進行直接外匯干預以捍衛日圓。",
+          "event_time": "2026-08-07T20:33:15+08:00",
+          "source_id": "bc1e12b917442a3f96107d129847b068cc79c714f12cc12f8b1bba6d6575ea58",
           "source_detail": {
-            "id": "ec0817e132d1c871ec7a84aaf186b1478300f6f4556be051ce01b7ad3578a13d",
-            "time": "2026-08-07T08:38:14+08:00",
-            "headline": "ECB was informed of US selling euros to buy yen on Friday after the transaction - FT",
-            "link": "https://www.financialjuice.com/News/9711402/ECB-was-informed-of-US-selling-euros-to-buy-yen-on-Friday-after-the-transaction---FT.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "日本財務省數據顯示：4月至6月季度最大單日干預匯市金額達6.28兆日圓",
-          "summary_zh": "官方公開數據證實日本政府在4月30日進行了創紀錄規模的買日圓干預，揭示當局維穩匯率的決心與動用資源。",
-          "event_time": "2026-08-07T07:50:24+08:00",
-          "source_id": "032db24c1662d592d91d1b79c99c1736f248d75ef67d69234b0ff36f86a45cef",
-          "source_detail": {
-            "id": "032db24c1662d592d91d1b79c99c1736f248d75ef67d69234b0ff36f86a45cef",
-            "time": "2026-08-07T07:50:24+08:00",
-            "headline": "Japan's biggest daily intervention in April-June quarter reached 6.2787 trillion yen on April 30, finance ministry data shows",
-            "link": "https://www.financialjuice.com/News/9711370/Japans-biggest-daily-intervention-in-April-June-quarter-reached-62787-trillion-yen-on-April-30-finance-ministry-data-shows.aspx?xy=rss",
+            "id": "bc1e12b917442a3f96107d129847b068cc79c714f12cc12f8b1bba6d6575ea58",
+            "time": "2026-08-07T20:33:15+08:00",
+            "headline": "Japan's Fin. Min. Katayama: We have agreed with Bessent that Forex markets have been affected by moves not backed by real demand.",
+            "link": "https://www.financialjuice.com/News/9712317/Japans-Fin-Min-Katayama-We-have-agreed-with-Bessent-that-Forex-markets-have-been-affected-by-moves-not-backed-by-real-demand.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 3,
-          "headline_zh": "紐約聯儲7月調查顯示一年期通膨預期下降至3.63%，五年期穩定在3%",
-          "summary_zh": "消費者通膨預期微幅下行，為聯邦公開市場委員會（FOMC）評估物價壓力和貨幣政策空間提供依據。",
+          "headline_zh": "紐約聯儲7月調查顯示1年期通脹預期下降至3.63%，5年期維持在3.0%",
+          "summary_zh": "紐約聯儲公布最新消費者預期調查，民眾對短期通脹壓力看法有所放緩，長期通脹預期保持穩定，為美聯儲評估政策提供參考。",
           "event_time": "2026-08-07T23:00:00+08:00",
           "source_id": "ecf203029a4d344f53a247725e78c58c3fbea0a134d1f9f4f7d6216e57de427e",
           "source_detail": {
@@ -323,6 +183,20 @@
             "time": "2026-08-07T23:00:00+08:00",
             "headline": "NY Fed 1 Yr Inflation Expectations Actual 3.63% (Forecast 3.69%, Previous 3.67%)",
             "link": "https://www.financialjuice.com/News/9712523/NY-Fed-1-Yr-Inflation-Expectations-Actual-363-Forecast-369-Previous-367.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "美聯儲官員巴爾金形容就業市場處於弱平衡，重申控制通脹至2%目標",
+          "summary_zh": "里奇蒙美聯儲主席巴爾金（Barkin）指出最新非農數據反映出「低招聘、低解僱」的低迷平衡狀態，並表示若通脹風險持續，貨幣政策仍須保持緊縮。",
+          "event_time": "2026-08-07T22:09:48+08:00",
+          "source_id": "d6a30ff1175141f052f83fe082bb21087db9688cc53f5a9ba26a8b4c21dc852b",
+          "source_detail": {
+            "id": "d6a30ff1175141f052f83fe082bb21087db9688cc53f5a9ba26a8b4c21dc852b",
+            "time": "2026-08-07T22:09:48+08:00",
+            "headline": "Fed's Barkin: Job market is in a weak balance.",
+            "link": "https://www.financialjuice.com/News/9712459/Feds-Barkin-Job-market-is-in-a-weak-balance.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -333,22 +207,8 @@
       "news": [
         {
           "importance_score": 4,
-          "headline_zh": "美國財長貝森特：財政部將透過金融制裁加強對伊朗的經濟施壓",
-          "summary_zh": "美國財政部針對支持伊朗伊斯蘭革命衛隊（IRGC）與 Rahbar 銀行的加密貨幣交易所與金融網路實施全面打擊。",
-          "event_time": "2026-08-08T02:21:01+08:00",
-          "source_id": "32f57bddc381bf7d96079fe32153fdcb68d165ef52cf5ec5bbabcfaf071cf767",
-          "source_detail": {
-            "id": "32f57bddc381bf7d96079fe32153fdcb68d165ef52cf5ec5bbabcfaf071cf767",
-            "time": "2026-08-08T02:21:01+08:00",
-            "headline": "US Treasury Secretary Bessent on Iran: US will continue increasing economic pressure on Iran",
-            "link": "https://www.financialjuice.com/News/9712765/US-Treasury-Secretary-Bessent-on-Iran-US-will-continue-increasing-economic-pressure-on-Iran.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "加拿大與美國進行密集協商，爭取在8月19日前獲得關稅豁免或緩衝",
-          "summary_zh": "加拿大願在農產品與汽車領域做出讓步，換取美國免除 Section 232 鋼鋁等新關稅，若談判破裂恐引發雙邊貿易戰升級。",
+          "headline_zh": "加拿大與美國就關稅讓步展開密集談判，冀在8月19日前爭取關稅豁免",
+          "summary_zh": "加拿大政府官員透露正與美方進行每日會談，願意就乳製品、酒類及汽車行業等美方關切問題進行調整，以爭取豁免Section 232鋼鐵與鋁關稅或推遲新關稅實施。",
           "event_time": "2026-08-08T02:06:44+08:00",
           "source_id": "18ac4e6c5624da1fae42d5db3c22e3b4a3deed3361740ab58b431886cf4853e6",
           "source_detail": {
@@ -361,8 +221,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "川普政府宣布向四家電池及關鍵礦物公司提供超過20億美元資金補貼",
-          "summary_zh": "白宮動用聯邦專款扶持本土關鍵礦物與電池供應鏈，促進能源獨立與產業回流。",
+          "headline_zh": "川普政府宣布提供逾20億美元資金資助電池及礦產企業，並推動30億美元礦業項目",
+          "summary_zh": "美國政府深化關鍵供應鏈本土化轉型，通過財政補貼與產業政策直接資助國內關鍵礦產與電池製造企業，降低對外部供應鏈的依賴。",
           "event_time": "2026-08-08T03:18:14+08:00",
           "source_id": "024c534e2c717f65aaab396c0b3f06fb8d6dda3188b26b0f0a5890b5ac76852f",
           "source_detail": {
@@ -375,8 +235,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "日本政府計劃將2027財年國防預算提高至創紀錄的8.9兆日圓",
-          "summary_zh": "日本因應周邊地緣政治局勢持續擴增財政軍費支出，將帶動相關國防產業與國家財政負擔。",
+          "headline_zh": "日本政府研議將2027財年防衛預算提升至創紀錄的8.9萬億韓元",
+          "summary_zh": "因應區域地緣政治局勢緊張，日本防衛省擬大幅增加國防預算支出，顯示擴大財政支出用於安保領域的決心。",
           "event_time": "2026-08-07T20:13:01+08:00",
           "source_id": "d932cdf6735536bda5cfaa96f216c6fced84e6393a4c72b0f3f897b4027daa66",
           "source_detail": {
@@ -394,8 +254,8 @@
       "news": [
         {
           "importance_score": 5,
-          "headline_zh": "美國7月非農就業人數意外減少2.3萬人，失業率微降至4.1%",
-          "summary_zh": "美國非農就業大幅低於預估的增加8萬人，出現負成長；時薪增速同步放緩至0.1%，顯示就業市場出現顯著降溫跡象，市場強烈轉向預期美聯儲放緩緊縮步伐。",
+          "headline_zh": "美國7月非農就業人數意外下滑2.3萬人，失業率降至4.1%",
+          "summary_zh": "美國勞工部公布7月就業報告遠弱於市場預期（原預期增長8萬人），前兩月數據亦下修逾10萬人，顯示就業市場動能急劇放緩；白宮顧問哈塞特（Hassett）及財長貝森特（Bessent）則均指數據受到極端因素打壓，實體經濟依然強勁。",
           "event_time": "2026-08-07T20:30:03+08:00",
           "source_id": "24936434ec533d29acab46e3e5cd6885388e1af977e89d0ec0334023595fb264",
           "source_detail": {
@@ -408,8 +268,8 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "中國7月以美元計價出口同比大幅成長23.9%，貿易順差達1,125億美元",
-          "summary_zh": "中國外貿出口表現強勁且高於預期，其中對美貿易順差擴大至280億美元，顯示全球需求韌性但也可能加劇貿易摩擦。",
+          "headline_zh": "中國7月出口以美元計同比大增23.9%，貿易順差達1125億美元",
+          "summary_zh": "中國海關總署數據顯示7月外貿出口表現優異，遠超市場預期，其中晶片出口同比激增117%，對美貿易順差擴大至280億美元，展現出較強的外需韌性。",
           "event_time": "2026-08-07T10:33:35+08:00",
           "source_id": "1fa5e0f818de2321f43defcf39aac3050d7627fd59dba7d6c24b2416359f1071",
           "source_detail": {
@@ -422,71 +282,29 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "紐約原油與布蘭特原油期貨單日上漲超1%，布蘭特原油收報每桶83.55美元",
-          "summary_zh": "能源市場受中東變局與油輪受襲消息支撐，原油期貨價格小幅走高。",
-          "event_time": "2026-08-08T02:51:18+08:00",
-          "source_id": "c5dfba3f2aeb283daaaa5a6734dc35a28ced43e41410e86b01f92ab547f12602",
+          "headline_zh": "原油期貨結算價反彈上揚，WTI原油收於每桶78.18美元、布倫特原油達83.55美元",
+          "summary_zh": "儘管中東航運協議有所進展，但地緣政治溢價仍存，原油期貨週五收高超1%，全周在大宗商品波動作背景下維持區間震盪。",
+          "event_time": "2026-08-08T02:31:23+08:00",
+          "source_id": "61884cda8f727ca8b3be64029045eecc24db72b1daf2e65c63e75133b48fe052",
           "source_detail": {
-            "id": "c5dfba3f2aeb283daaaa5a6734dc35a28ced43e41410e86b01f92ab547f12602",
-            "time": "2026-08-08T02:51:18+08:00",
-            "headline": "Brent Crude futures settle at $83.55/bbl, up $1.06, 1.29%",
-            "link": "https://www.financialjuice.com/News/9712810/Brent-Crude-futures-settle-at-8355bbl-up-106-129.aspx",
+            "id": "61884cda8f727ca8b3be64029045eecc24db72b1daf2e65c63e75133b48fe052",
+            "time": "2026-08-08T02:31:23+08:00",
+            "headline": "NYMEX WTI Crude Sept. futures settle at $78.18 a barrel. up 89 cents, 1.15%",
+            "link": "https://www.financialjuice.com/News/9712772/NYMEX-WTI-Crude-Sept-futures-settle-at-7818-a-barrel-up-89-cents-115.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 3,
-          "headline_zh": "白宮經濟顧問哈塞特：就業數據受政府僱員變動影響，實體經濟平衡就業需求約為每月4萬人",
-          "summary_zh": "白宮官員出面安撫市場情緒，強調失業率下降與扣除特殊因素後的私營部門就業依然穩健。",
-          "event_time": "2026-08-07T21:45:13+08:00",
-          "source_id": "bf15b89beb1ae5085323bb43aadef132d764bc346426a298ab2a8a180ac775b9",
+          "headline_zh": "日本6月全戶消費支出同比下滑3.3%，因惡劣天氣抑制餐飲與飲料消費",
+          "summary_zh": "日本官方公布6月家庭消費顯著轉弱，降幅高於預期，政府官員解釋主要受颱風與降雨偏多等天候因素影響，市場密切關注消費疲軟對日聯儲後續政策步調的干擾。",
+          "event_time": "2026-08-07T07:30:04+08:00",
+          "source_id": "426bd60c044b04d81f928b0f69f8449ab0e2634a209ec35ab3e127f9e8078e2e",
           "source_detail": {
-            "id": "bf15b89beb1ae5085323bb43aadef132d764bc346426a298ab2a8a180ac775b9",
-            "time": "2026-08-07T21:45:13+08:00",
-            "headline": "WH Sr. Adviser Hassett: Take out govt workers, the World Cup and jobs rose 100,000 - Fox Business",
-            "link": "https://www.financialjuice.com/News/9712412/WH-Sr-Adviser-Hassett-Take-out-govt-workers-the-World-Cup-and-jobs-rose-100000---Fox-Business.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "加拿大7月失業率下降至6.4%，就業人數意外勁增7.51萬人",
-          "summary_zh": "加拿大勞動市場表現出相當強勁的韌性，遠超市場預測的增加2萬人，降低了央行連續大幅降息的急迫性。",
-          "event_time": "2026-08-07T20:30:01+08:00",
-          "source_id": "1cc0d8f931e56feaeadc958a9b7e660b4a6a90b1274bfbe87e289754a653e185",
-          "source_detail": {
-            "id": "1cc0d8f931e56feaeadc958a9b7e660b4a6a90b1274bfbe87e289754a653e185",
-            "time": "2026-08-07T20:30:01+08:00",
-            "headline": "Canadian Unemployment Rate Actual 6.4% (Forecast 6.5%, Previous 6.5%)",
-            "link": "https://www.financialjuice.com/News/9712283/Canadian-Unemployment-Rate-Actual-64-Forecast-65-Previous-65.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "德國6月工業產出月增0.2%，進口大幅增長4.4%",
-          "summary_zh": "歐洲最大經濟體製造業產出微幅改善，進口反彈致使貿易順差收窄至154億歐元。",
-          "event_time": "2026-08-07T14:00:02+08:00",
-          "source_id": "1a93253bea91d74bd94f5943bfb05b78f711a09c3871f97da9c549e744e010ff",
-          "source_detail": {
-            "id": "1a93253bea91d74bd94f5943bfb05b78f711a09c3871f97da9c549e744e010ff",
-            "time": "2026-08-07T14:00:02+08:00",
-            "headline": "German Industrial Production MoM Actual 0.2% (Forecast 0.2%, Previous 0.9%)",
-            "link": "https://www.financialjuice.com/News/9711755/German-Industrial-Production-MoM-Actual-02-Forecast-02-Previous-09.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "日本6月實質家庭支出年減3.3%，大幅不及市場預期",
-          "summary_zh": "受極端天氣與雨季影響，日本家庭餐飲與消費開支大幅下滑，顯示內需復甦動能依然脆弱。",
-          "event_time": "2026-08-07T07:30:07+08:00",
-          "source_id": "490b0a965ec5a948f0889171b1b2374bbd74b18e2197f73916b25de127005742",
-          "source_detail": {
-            "id": "490b0a965ec5a948f0889171b1b2374bbd74b18e2197f73916b25de127005742",
-            "time": "2026-08-07T07:30:07+08:00",
-            "headline": "Japan June household spending declines 3.3% year on year: govt (Poll +1.0%)",
-            "link": "https://www.financialjuice.com/News/9711330/Japan-June-household-spending-declines-33-year-on-year-govt-Poll-10.aspx?xy=rss",
+            "id": "426bd60c044b04d81f928b0f69f8449ab0e2634a209ec35ab3e127f9e8078e2e",
+            "time": "2026-08-07T07:30:04+08:00",
+            "headline": "Japanese All Household Spending YoY Actual -3.3% (Forecast 0.9%, Previous -0.4%)",
+            "link": "https://www.financialjuice.com/News/9711329/Japanese-All-Household-Spending-YoY-Actual--33-Forecast-09-Previous--04.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -497,22 +315,8 @@
       "news": [
         {
           "importance_score": 5,
-          "headline_zh": "美國官員：一旦宣佈恢復商業航運協議，美國將解除對伊朗港口的封鎖",
-          "summary_zh": "美方明確表態將以解除港口封鎖作為伊朗履行通航承諾的對等回報，雙方終結海上對峙迎來曙光。",
-          "event_time": "2026-08-08T03:01:20+08:00",
-          "source_id": "f7a79599c848075e0ca02a5800c9a9bc26f8014f97079320524a7f6f4f3f0121",
-          "source_detail": {
-            "id": "f7a79599c848075e0ca02a5800c9a9bc26f8014f97079320524a7f6f4f3f0121",
-            "time": "2026-08-08T03:01:20+08:00",
-            "headline": "US official: Once a deal is announced to resume commercial shipping without obstacles, the US will lift blockade of Iranian ports",
-            "link": "https://www.financialjuice.com/News/9712827/US-official-Once-a-deal-is-announced-to-resume-commercial-shipping-without-obstacles-the-US-will-lift-blockade-of-Iranian-ports.aspx",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 5,
-          "headline_zh": "美國官員：阿曼與伊朗就荷姆茲海峽談判取得進展，預計很快達成協議",
-          "summary_zh": "美方透露調解管道取得重大突破，協議達成後將恢復商船自由通航，地緣政治風險溢價急劇回落。",
+          "headline_zh": "美方官員透露與伊朗及阿曼就荷姆茲海峽通航達成協議進展，官宣後將解除封鎖",
+          "summary_zh": "美國官員證實伊朗與阿曼就荷姆茲海峽商業航運協議取得重大突破，預計很快達成協議；一旦確認無障礙復航，美國將同步解除對伊朗港口的封鎖行動。",
           "event_time": "2026-08-08T03:00:33+08:00",
           "source_id": "4d2c8ca40bb09181630411e85e8949fe33fcb34e5c6f70da88530c259bb5ae7e",
           "source_detail": {
@@ -525,8 +329,8 @@
         },
         {
           "importance_score": 5,
-          "headline_zh": "伊朗總統佩澤什基安：若停止對伊朗的壓力與威脅，將沒有理由繼續保持緊張局勢",
-          "summary_zh": "伊朗最高行政首長公開表態願意結束對峙，條件是西方停止施壓，為美伊緩和局勢提供關鍵談判基礎。",
+          "headline_zh": "伊朗總統佩澤什基安表示若威脅與壓力停止，伊朗沒有理由繼續維持緊張局勢",
+          "summary_zh": "伊朗總統佩澤什基安（Pezeshkian）釋出緩和信號，強調只要對伊朗的經濟封鎖與軍事威脅終止，地區局勢即可迎來降溫，此表態大幅提振市場對中東談判的信心。",
           "event_time": "2026-08-08T02:52:45+08:00",
           "source_id": "8707573bb00435950c63133898abf0525be56bfb3b8b7dcafb1e8201ec230645",
           "source_detail": {
@@ -539,36 +343,22 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "以色列軍隊在敘利亞南部一村莊發起地面進入行動",
-          "summary_zh": "以色列在敘利亞邊境地區展開地面突襲，顯示中東多條戰線邊緣衝突仍持續發生。",
-          "event_time": "2026-08-08T04:18:07+08:00",
-          "source_id": "e85c04923572d3dd68284a98f8cb8fd938726a63531900d0ada18acc3b40c1b2",
+          "headline_zh": "美國財政部針對支持伊朗伊斯蘭革命衛隊及金融網絡的加密貨幣交易所實施新一輪制裁",
+          "summary_zh": "美國財務部宣布將13個實體及非法加密資產交易網絡列入黑名單，切斷伊朗獲取美元、里亞爾及加密貨幣的渠道，持續對伊施加極限經濟壓力。",
+          "event_time": "2026-08-08T01:31:53+08:00",
+          "source_id": "40d9d0a5ad62030a5683a62a4fb58b1f4c5533941d72d6968299fe6afd1bca78",
           "source_detail": {
-            "id": "e85c04923572d3dd68284a98f8cb8fd938726a63531900d0ada18acc3b40c1b2",
-            "time": "2026-08-08T04:18:07+08:00",
-            "headline": "Israeli ground incursion occures in a village in Southern Syria - Tasnim News",
-            "link": "https://www.financialjuice.com/News/9712927/Israeli-ground-incursion-occures-in-a-village-in-Southern-Syria---Tasnim-News.aspx?xy=rss",
+            "id": "40d9d0a5ad62030a5683a62a4fb58b1f4c5533941d72d6968299fe6afd1bca78",
+            "time": "2026-08-08T01:31:53+08:00",
+            "headline": "The US Treasury sanctions crypto exchanges funding Iran’s IRGC and enabling illicit finance - Treasury Website",
+            "link": "https://www.financialjuice.com/News/9712712/The-US-Treasury-sanctions-crypto-exchanges-funding-Irans-IRGC-and-enabling-illicit-finance---Treasury-Website.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 4,
-          "headline_zh": "德黑蘭市長：恢復荷姆茲海峽通行取決於取消對伊朗的制裁並支付賠償",
-          "summary_zh": "伊朗官員就荷姆茲海峽通航權提出具體談判條件，顯示航道封鎖問題具備談判與外交解決空間。",
-          "event_time": "2026-08-07T23:48:22+08:00",
-          "source_id": "e9feaaa67d396e36ef2e80bdc3c48046b388e291b7b125c18c5eff55b3a295fe",
-          "source_detail": {
-            "id": "e9feaaa67d396e36ef2e80bdc3c48046b388e291b7b125c18c5eff55b3a295fe",
-            "time": "2026-08-07T23:48:22+08:00",
-            "headline": "Tehran's Mayor Zakeri: Passing through the Strait of Hormuz depends on lifting sanctions and paying compensation - Tasnim News",
-            "link": "https://www.financialjuice.com/News/9712611/Tehrans-Mayor-Zakeri-Passing-through-the-Strait-of-Hormuz-depends-on-lifting-sanctions-and-paying-compensation---Tasnim-News.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "伊朗外交部副部長：波斯灣國家重啟安全對話的基礎正在鋪平",
-          "summary_zh": "伊朗釋放外交緩和訊號，強調波斯灣安全應由區域國家共同維護、無需外國干涉，有助於降低區域衝突升級風險。",
+          "headline_zh": "伊朗外交部副部長表示波斯灣安全談判基礎正在鋪平；德黑蘭市長稱通航須以取銷制裁為前提",
+          "summary_zh": "伊朗外交部副部長加里巴巴迪（Gharibabadi）表示波斯灣國家間恢復安全會談的條件正趨成熟；然而德黑蘭市長札克里（Zakeri）則稱通過海峽的權利仍取決於美國解除制裁與賠償。",
           "event_time": "2026-08-07T23:43:32+08:00",
           "source_id": "55d594ae387fc2d8aae2831f3ba0bc8bd79f04ee20428928436a2ade371b3d57",
           "source_detail": {
@@ -581,8 +371,8 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "阿布達比國家石油公司（ADNOC）：自衝突開始以來已有15艘船隻遭到襲擊，本週已有3艘受襲",
-          "summary_zh": "阿聯酋國營石油公司船隻頻繁在波斯灣與紅海區域遭受攻擊，凸顯航運水域安全風險高企。",
+          "headline_zh": "阿布達比國家石油公司表示衝突爆發以來已有15艘船隻遭襲；胡塞武裝襲擊沙烏地支持的軍營",
+          "summary_zh": "ADNOC（阿布達比國家石油公司）透露本週內又有3艘船隻受襲，凸顯紅海與波斯灣航運風險未完全消除；同時胡塞武裝與葉門政府軍在馬里卜爆發新一輪衝突。",
           "event_time": "2026-08-07T22:04:15+08:00",
           "source_id": "3524edc1e24d32e7484d912966b1094bb379b4b2a6920ddd9140787bc2bbde74",
           "source_detail": {
@@ -594,9 +384,23 @@
           }
         },
         {
-          "importance_score": 4,
-          "headline_zh": "土耳其、沙烏地阿拉伯與巴基斯坦簽署聯合防務協議",
-          "summary_zh": "中東與南亞三大伊斯蘭國家深化國防安全聯盟，重塑區域地緣安全戰略格局。",
+          "importance_score": 3,
+          "headline_zh": "以軍地面部隊進入敘利亞南部村莊；俄羅斯Wildberries大型物流中心遭襲引發大火",
+          "summary_zh": "以色列對敘利亞南部展開地面行動，俄烏戰事延燒至物流設施，地緣政治衝突多點擴散持續引發市場不安。",
+          "event_time": "2026-08-08T04:18:07+08:00",
+          "source_id": "e85c04923572d3dd68284a98f8cb8fd938726a63531900d0ada18acc3b40c1b2",
+          "source_detail": {
+            "id": "e85c04923572d3dd68284a98f8cb8fd938726a63531900d0ada18acc3b40c1b2",
+            "time": "2026-08-08T04:18:07+08:00",
+            "headline": "Israeli ground incursion occures in a village in Southern Syria - Tasnim News",
+            "link": "https://www.financialjuice.com/News/9712927/Israeli-ground-incursion-occures-in-a-village-in-Southern-Syria---Tasnim-News.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "土耳其、沙烏地阿拉伯與巴基斯坦簽署聯合防禦協定，伊朗議員對此表達批評",
+          "summary_zh": "三國簽署聯合防禦協定引發中東力量格局調整，伊朗國家安全委員會成員表示此協定無法為利雅德帶來實質安全，呼籲改變對伊政策。",
           "event_time": "2026-08-07T18:30:12+08:00",
           "source_id": "e613bbbbe3b9d4c4c1b2e5a72fa0ba8a719bf377099dff8fe302bb4ba177a99a",
           "source_detail": {
@@ -611,32 +415,31 @@
     }
   ],
   "discarded": {
-    "estimated_count": 21,
+    "estimated_count": 218,
     "reasons": [
-      "中國央行人民幣中間價預測（無實質市場影響）",
-      "純漲跌幅或價格報價無背景原因（如台股跌幅、期貨波動等）",
-      "無具體內容之演說開場通知（如川普演說直播）",
-      "純統計波動率與相關係數矩陣數據（如30-120日相關矩陣、隱含波動率）",
-      "未附帶具體數值之央行利率機率列表（如 RBA Interest Rate Probabilities）",
-      "純政務行程與政治造勢（如川普選務電話造勢）"
+      "刪除無具體影響力的央行中間價估計（如人民幣中間價估計）",
+      "刪除重複、無數據內涵的利率機率圖表及波動率指標",
+      "刪除純價格漲跌幅/不具市場政策影響力的台股或個別資產短線報價",
+      "刪除未包含具體政策發言的行程或直播連結公告",
+      "刪除缺乏市場傳播影響力的邊緣小國例行數據及重複報告"
     ]
   },
-  "generated_at": "2026-08-08T07:01:22.107531+08:00",
+  "generated_at": "2026-08-08T07:41:22.821987+08:00",
   "model": "gemini-3.6-flash",
   "source": "FinancialJuice",
   "input_headline_count": 246,
   "included_headline_count": 246,
   "usage_metadata": {
-    "promptTokenCount": 28320,
-    "candidatesTokenCount": 8396,
-    "totalTokenCount": 42185,
+    "promptTokenCount": 29288,
+    "candidatesTokenCount": 6358,
+    "totalTokenCount": 45012,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 28320
+        "tokenCount": 29288
       }
     ],
-    "thoughtsTokenCount": 5469,
+    "thoughtsTokenCount": 9366,
     "serviceTier": "standard"
   }
 }
