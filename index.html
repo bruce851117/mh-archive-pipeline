@@ -1315,11 +1315,6 @@
       <div>
         <div class="eyebrow">AI MARKET MONITOR</div>
         <h1>Market News Dashboard</h1>
-        <div class="subtitle">華爾街即時快訊｜Gemini 整理｜交易員版分類晨報</div>
-      </div>
-      <div class="updated-card">
-        <div class="updated-label">資料更新時間</div>
-        <div id="updatedTime" class="updated-value">載入中…</div>
       </div>
     </div>
   </header>
@@ -1345,7 +1340,6 @@
         <div class="tiny-label">新聞資料時間範圍</div>
         <div id="rangeText" class="range-value">載入中…</div>
       </div>
-      <div class="range-hint">依RSS最近一次成功抓取時間計算，不受摘要重跑影響</div>
     </section>
 
     <section class="card controls-card">
@@ -1561,7 +1555,6 @@
     const historyDigestCache = new Map();
     let activePage = 'market';
 
-    const updatedTime = document.getElementById('updatedTime');
     const rangeText = document.getElementById('rangeText');
     const startTime = document.getElementById('startTime');
     const endTime = document.getElementById('endTime');
@@ -2470,8 +2463,6 @@
 
         if (marketResult.status === 'fulfilled') {
           dashboardData = marketResult.value;
-          const actualUpdatedAt = dashboardData.data_updated_at || dashboardData.period_end;
-          updatedTime.textContent = fullDate(actualUpdatedAt);
           rangeText.textContent = `${fullDate(dashboardData.period_start)} ～ ${fullDate(dashboardData.period_end)}`;
           initializeControls(dashboardData);
           renderSummary(dashboardData.summary_points);
