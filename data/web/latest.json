@@ -1,26 +1,25 @@
 {
-  "generated_at": "2026-08-07T07:48:28.883451+08:00",
-  "summary_generated_at": "2026-08-07T07:48:28.883451+08:00",
-  "data_updated_at": "2026-08-07T06:50:40.961347+08:00",
+  "generated_at": "2026-08-07T08:47:20.289560+08:00",
+  "summary_generated_at": "2026-08-07T08:47:20.289560+08:00",
+  "data_updated_at": "2026-08-07T07:50:45.799508+08:00",
   "timezone": "Asia/Taipei",
   "period_start": "2026-08-06T17:00:00+08:00",
-  "period_end": "2026-08-07T06:50:40.961347+08:00",
+  "period_end": "2026-08-07T07:50:45.799508+08:00",
   "model": "gemini-3.6-flash",
   "source_digest_files": [
     "data/digests/2026/08/2026-08-05.json",
     "data/digests/2026/08/2026-08-06.json",
     "data/digests/2026/08/2026-08-07.json"
   ],
-  "event_count": 23,
+  "event_count": 17,
   "summary_points": [
-    "美國總統川普簽署行政命令，自 2026 年 12 月起對多晶矽及其衍生產品徵收 15% 的從價關稅並設定最低進口價格，持續推進貿易保護政策。",
-    "荷姆茲海峽地緣風險升溫，伊朗擬與阿曼協議禁止美以船隻通行並傳出打擊區域目標，美方則強調該海峽為國際航道，川普亦稱正在參與談判並期待局勢緩和。",
-    "受荷姆茲海峽供應中斷疑慮衝擊，國際油價大幅收高，紐約原油期貨與布蘭特原油期貨分別上漲 2.75% 與 3.83%。",
-    "聖路易斯聯儲主席穆薩萊姆釋出鷹派訊號，表示偏向在近期會議上升息，並警告核心通脹風險高企且通脹預期有脫錨危險。",
-    "美國上週初次申請失業金人數降至 19.9 萬人，低於預期的 20.5 萬人，且第二季單位勞工成本增幅放緩，顯示勞動力市場穩健且成本壓力減緩。",
-    "科技巨頭發債獲市場追捧，Alphabet 啟動規模達 250 億美元的投資級債券發售，並獲得高達 1,150 億美元的超額認購。",
-    "人工智慧市場熱度持續，輝達積極評估高頻寬記憶體（HBM）短缺對策並測試新晶片，中國 AI 獨角獸 DeepSeek 則重啟融資擬募集 80 億美元。",
-    "因應中東安全局勢變化，土耳其、沙烏地阿拉伯與巴基斯坦預計簽署三方聯合防衛協定，以加強區域防禦合作。"
+    "中東局勢方面，伊朗與阿曼草擬法案擬禁止美以船隻通行荷姆茲海峽，但美國總統川普透露正親自參與談判，認為美伊衝突將迅速結束且海峽基本保持開放。",
+    "美國財政政策重拳出擊，川普簽署行政命令對多晶矽衍生產品加徵 15% 關稅並設定最低進口價，同時簽署禁令限制出生公民權以嚴打「生育旅遊」。",
+    "美聯儲官員姆薩萊姆（Musalem）發出鷹派訊號，表示傾向於在近期會議升息以抑制位於 2.5% 至 3% 的核心通膨風險，主張漸進式升息勝過突發調整。",
+    "美國最新單週初領失業金人數降至 19.9 萬人，優於市場預期的 20.5 萬人，加上第二季單位勞動成本成長放緩至 1.3%，反映勞工市場穩健且薪資通膨壓力減輕。",
+    "公司債市場需求強勁，Alphabet 啟動高達 250 億美元的投資級發債計畫，獲得約 1,150 億美元資金超額認購，顯示機構資金熱烈追捧。",
+    "AI 產業資本與技術發展迅速，DeepSeek 重啟談判擬融資 80 億美元、估值衝上 740 億美元；英偉達則積極測試多款 Rubin Ultra GPU 變體以因應高頻寬記憶體（HBM）短缺問題。",
+    "科技巨頭面臨法律監管風險，Meta 因青少年心理健康與保護問題，遭新墨西哥州法院判處罰款及設立基金共約 9.42 億美元，並被要求刪除 13 歲以下用戶帳戶。"
   ],
   "blocks": [
     {
@@ -31,8 +30,8 @@
           "category": "債市",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "Alphabet 啟動高達 250 億美元發債案，獲得超額認購",
-          "summary_zh": "Alphabet（$GOOGL）啟動包含 10 個部分的美元投資級債券發售，規模達 250 億美元，吸引高達 1,150 億美元資金申購，熱度超越亞馬遜（Amazon）與 SpaceX。",
+          "headline_zh": "Alphabet 啟動 250 億美元發債計畫 獲超額認購",
+          "summary_zh": "Alphabet 展開 10 部分的美元投資級債券發售計畫，預計融資高達 250 億美元，吸引約 1,150 億美元資金認購，熱度顯著。",
           "event_time": "2026-08-06T19:49:39+08:00"
         },
         {
@@ -40,18 +39,9 @@
           "category": "債市",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "美國財政部拍賣 4 週期國庫券，得標利率 3.64%",
-          "summary_zh": "美國財政部完成 4 週期國庫券拍賣，高得標利率為 3.64%（前次為 3.630%），投標倍數為 2.68 倍（前次為 2.800 倍）。",
+          "headline_zh": "美國財政部拍賣 4 週期國庫券 利率升至 3.64%",
+          "summary_zh": "美國發行 4 週期國庫券中标利率為 3.64%，投標倍數為 2.68，顯示短債需求維持穩定。",
           "event_time": "2026-08-06T23:32:04+08:00"
-        },
-        {
-          "source_id": "b6998c18685db221c750c504fe24bdc77e2ba44eb52fffb9dcfe2c3fcb9e5860",
-          "category": "債市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美國 30 年期固定房貸利率升至 6.69%",
-          "summary_zh": "房地美（Freddie Mac）資料顯示，截至 8 月 6 日當週，美國 30 年期固定房貸平均利率自前一週的 6.66% 升至 6.69%，創下 2025 年 7 月底以來的新高。",
-          "event_time": "2026-08-07T00:00:51+08:00"
         }
       ]
     },
@@ -59,30 +49,21 @@
       "category": "股市",
       "news": [
         {
-          "source_id": "a83a4b8f7522a2e5f29cb09c6694759b5429b4d54ab2488e56726b208e25c1e0",
-          "category": "股市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "Google 與 Mirendil 達成逾 1 億美元雲端算力合作案",
-          "summary_zh": "Mirendil 與 Google Cloud（$GOOGL）達成價值超過 1 億美元的交易，利用 AI 超級電腦與 GPU 進行模型的預訓練與後訓練應用。",
-          "event_time": "2026-08-06T21:03:25+08:00"
-        },
-        {
           "source_id": "f57ca0ca8bd61d7552e61e0de547dba0a1c96c789e7c1e3fe502e4d43875dc6f",
           "category": "股市",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "DeepSeek 重啟融資，擬以 740 億美元估值募集 80 億美元",
-          "summary_zh": "中國 AI 獨角獸 DeepSeek 重啟融資計畫，尋求以 740 億美元的估值募集 80 億美元資金。",
+          "headline_zh": "DeepSeek 尋求 80 億美元融資 估值升至 740 億美元",
+          "summary_zh": "DeepSeek 重啟融資談判，擬募集 80 億美元資金，目標估值達到 740 億美元。",
           "event_time": "2026-08-06T22:06:47+08:00"
         },
         {
           "source_id": "9f763f7d3116f87fa616268a94040cece57a4752146c6ebd206c2959406ed1ca",
           "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "SpaceX 預計與特斯拉合作的晶片算力需求將超過 1 TW",
-          "summary_zh": "馬斯克（Musk）表示，Terafab AI 算力產出預計約有 25% 用於特斯拉（Tesla）人形機器人 Optimus，約 75% 用於 AI 航太器，與特斯拉（Tesla）的晶片需求預計突破 1 TW 算力規模。",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "SpaceX 預測與特斯拉（Tesla）合作晶片算力需求將突破 1TW",
+          "summary_zh": "SpaceX 執行長馬斯克（Musk）表示，與特斯拉合作的晶片需求預計超過 1TW 算力，預計 25% 用於 Optimus 人形機器人，75% 用於 AI 航太器。",
           "event_time": "2026-08-06T22:07:21+08:00"
         },
         {
@@ -90,8 +71,8 @@
           "category": "股市",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "輝達評估應對高頻寬記憶體短缺，並測試 Rubin Ultra GPU 多種變體",
-          "summary_zh": "據外媒報導，輝達（Nvidia, $NVDA）正考慮採取大膽舉措以解決先進高頻寬記憶體（HBM）晶片短缺問題，並正測試至少 3 款 Rubin Ultra GPU 的變體。",
+          "headline_zh": "英偉達（Nvidia）評估多款 Rubin Ultra GPU 應對高頻寬記憶體短缺",
+          "summary_zh": "英偉達正測試至少 3 款 Rubin Ultra GPU 變體，並研擬大膽舉措以解決高頻寬記憶體（HBM）晶片短缺問題。",
           "event_time": "2026-08-07T00:17:51+08:00"
         },
         {
@@ -99,9 +80,18 @@
           "category": "股市",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "OpenAI 擬推出售價逾 300 美元的圓環狀硬體裝置",
-          "summary_zh": "OpenAI 擬推出一款外觀類似小甜甜圈（doughnut）的硬體裝置，售價超過 300 美元，採用動態零件與燈光以展現逼真效果，並澄清該產品並未侵犯蘋果（Apple, $AAPL）商業機密。",
+          "headline_zh": "OpenAI 推出全新甜甜圈造型智慧裝置 定價超過 300 美元",
+          "summary_zh": "OpenAI 研發的小型環形硬體產品定價將超過 300 美元，採用移動組件與燈光設計，並澄清未侵犯蘋果（Apple）商業機密。",
           "event_time": "2026-08-07T03:59:49+08:00"
+        },
+        {
+          "source_id": "e6360cd58505609d537deb0dd858d8d3b71665ce3efa4aded8f69d7f9da3fda5",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "Meta 因青少年保護問題被新墨西哥州法院判罰 5.67 億美元",
+          "summary_zh": "新墨西哥州陪審團與法院指控 Meta 產品引發青少年心理健康危機，判處支付 3.75 億美元罰款及 5.67 億美元基金，並要求刪除 13 歲以下帳戶。",
+          "event_time": "2026-08-07T07:21:41+08:00"
         }
       ]
     },
@@ -111,28 +101,19 @@
         {
           "source_id": "9d2017fd059f5062bd949c3b74740bde7a87a73321906f1f0307a315fc325103",
           "category": "央行",
-          "importance_score": 2,
-          "highlight": false,
-          "headline_zh": "歐洲央行納格爾爭取接任拉加德總裁職位的談判在柏林推進",
-          "summary_zh": "歐洲央行（ECB）管理委員會委員納格爾（Joachim Nagel）爭取接替拉加德（Christine Lagarde）出任歐洲央行總裁的談判正在柏林取得進展。",
-          "event_time": "2026-08-06T18:20:06+08:00"
-        },
-        {
-          "source_id": "fe1b58636bf858ed1d366608aab0f27b4b2ab9835c3ac0c6911b4f5de090a456",
-          "category": "央行",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "美聯儲向伊拉克央行運送 5 億美元現金",
-          "summary_zh": "伊拉克官方通訊社引述官員消息稱，美聯儲已向伊拉克中央銀行運送了 5 億美元的美元現金現鈔。",
-          "event_time": "2026-08-07T00:36:28+08:00"
+          "headline_zh": "歐洲央行納格爾（Nagel）展開柏林會談 尋求接任拉加德（Lagarde）總裁職位",
+          "summary_zh": "德國聯邦總行行長納格爾角逐歐洲央行（ECB）下一任總裁的競選活動在柏林政界會談後取得推進。",
+          "event_time": "2026-08-06T18:20:06+08:00"
         },
         {
           "source_id": "c7beb9c2a21e153d5618275ec6cce771dd213ac6bb3c62efc452d95f74cb351c",
           "category": "央行",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "美聯儲穆薩萊姆發出鷹派訊號：傾向於在近期會議上升息",
-          "summary_zh": "聖路易斯聯邦儲備銀行主席穆薩萊姆（Alberto Musalem）透露其在最近的 FOMC 會議上偏好升息，認為核心通脹率可能在 2.5% 至 3% 之間，且通脹高於目標的風險較高，警告通脹預期有脫錨風險。",
+          "headline_zh": "美聯儲姆薩萊姆（Musalem）：傾向於近期會議升息 以應對通膨高企風險",
+          "summary_zh": "聖路易斯聯儲主席姆薩萊姆表示，他在近期 FOMC 會議上傾向升息，預計核心通膨率位於 2.5% 至 3% 之間，漸進式升息成本低於突發性調整。",
           "event_time": "2026-08-07T05:46:46+08:00"
         }
       ]
@@ -141,30 +122,21 @@
       "category": "財政政策",
       "news": [
         {
-          "source_id": "1e05a2076db40ea05e9a27e06c4cac3be900cb61c7e014f4fa1e3207c8867e8c",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美國以古巴相關制裁為由懲罰中國與俄羅斯實體及個人",
-          "summary_zh": "美國財政部網站顯示，美國針對古巴相關的新制裁對象包括中國和俄羅斯的個人與實體。",
-          "event_time": "2026-08-06T23:41:08+08:00"
-        },
-        {
           "source_id": "c2df3cb27ecff452e7debf1e3c2305d0706619e358f4b1ba86d52080abe849f6",
           "category": "財政政策",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "川普簽署行政命令對多晶矽進口徵收 15% 從價關稅並設定最低進口價",
-          "summary_zh": "白宮宣布川普（Trump）簽署行政命令，自 2026 年 12 月 4 日起對多晶矽及其衍生產品進口徵收 15% 的從價關稅，並設定多晶矽最低進口價為每公斤 21 美元、矽錠與矽晶圓每公斤 100 美元、太陽能電池每瓦 0.22 美元。",
+          "headline_zh": "川普（Trump）簽署行政命令 對多晶矽衍生產品加徵關稅並設定最低進口價",
+          "summary_zh": "白宮宣布自 2026 年 12 月 4 日起，對多晶矽衍生產品進口加徵 15% 從價關稅，並設定多晶矽最低進口價為每公斤 21 美元、矽錠與矽片每公斤 100 美元、太陽能電池每瓦 0.22 美元。",
           "event_time": "2026-08-07T05:05:57+08:00"
         },
         {
           "source_id": "0708c77862e4730b4422b30d850577ef5bf89cb8fbfb730649e52aaa4260cf34",
           "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "川普簽署行政命令嚴厲打擊生育旅遊並限制出生公民權",
-          "summary_zh": "川普簽署行政命令，永久禁止試圖透過「生育旅遊」進入美國的人員入境，國土安全部部長可出於人道主義或國家利益給予豁免。",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "川普（Trump）簽署行政禁令 永久阻斷打擊「生育旅遊」行為",
+          "summary_zh": "川普簽署行政命令限制使用出生公民權，永久禁止試圖以生育旅遊目的進入美國的人士入境，國土安全部可在特定人道或國家利益情況下豁免。",
           "event_time": "2026-08-07T05:10:16+08:00"
         }
       ]
@@ -177,18 +149,18 @@
           "category": "經濟",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "美國初請失業金人數 19.9 萬人低於預期，單位勞工成本增幅放緩",
-          "summary_zh": "美國上週初次申請失業金人數為 19.9 萬人，低於預期的 20.5 萬人；第二季初值單位勞工成本年化季調後上漲 1.3%（預期 2.1%），非農生產力成長 1.4%（預期 0.6%），顯示勞動力市場穩定且成本壓力減緩。",
+          "headline_zh": "美國上週初領失業金人數降至 19.9 萬人 好於市場預期",
+          "summary_zh": "美國最新一週初領失業金人數錄得 19.9 萬人，低於預期的 20.5 萬人；第二季單位勞動成本初值成長 1.3%，低於預期的 2.1%。",
           "event_time": "2026-08-06T20:30:01+08:00"
         },
         {
-          "source_id": "6442c4ec152eb2a1d148809aa694386967bf8938f624264b945de8d89f488025",
+          "source_id": "426bd60c044b04d81f928b0f69f8449ab0e2634a209ec35ab3e127f9e8078e2e",
           "category": "經濟",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "荷姆茲海峽風險引發供應憂慮，原油期貨價格大幅收高",
-          "summary_zh": "由於伊朗打擊荷姆茲海峽附近敵方目標的消息傳出，NYMEX 原油期貨 9 月合約上漲 2.75% 收於每桶 77.29 美元；倫敦布蘭特原油（Brent Crude）期貨大漲 3.83% 收於每桶 82.49 美元。",
-          "event_time": "2026-08-07T02:31:02+08:00"
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "日本 6 月全戶消費支出年減 3.3% 受氣候因素壓抑",
+          "summary_zh": "日本 6 月家庭消費支出實質年減 3.3%，遠遜於市場預期的成長 1.0%，官方指出颱風與降雨減少了餐飲與飲料開支。",
+          "event_time": "2026-08-07T07:30:04+08:00"
         }
       ]
     },
@@ -196,48 +168,30 @@
       "category": "戰爭",
       "news": [
         {
-          "source_id": "e4fe3836def67daee9e9e8c58cc605a3e1d9e5e3817fd6d97e282e19508058b3",
+          "source_id": "e98d73c10bc6b41afa4870615613d8427bda8c69bb308f4c3a2c340629fcef47",
           "category": "戰爭",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "胡塞武裝對沙烏地聯軍目標發動大規模軍事行動",
-          "summary_zh": "葉門胡塞武裝（Houthis）對葉門馬里卜和哈德拉毛省的政府軍軍營及沙烏地指揮中心發動大規模軍事行動，造成數十人傷亡，並警告沙烏地勿採取敵對行動。",
-          "event_time": "2026-08-06T19:59:55+08:00"
+          "headline_zh": "也門胡塞武裝對沙烏地邊境與聯軍營地發動大規模軍事行動",
+          "summary_zh": "胡塞武裝對沙烏地阿拉伯支持的部隊陣地及沙烏地奈季蘭（Najran）發動打擊，造成多名人員與平民受傷，沙烏地聯軍警告將採取必要回應。",
+          "event_time": "2026-08-06T20:09:02+08:00"
         },
         {
           "source_id": "a2b0fc40dbfcca0bfd06b798932da506f84b0d72b5273729dc09398ac4f6167a",
           "category": "戰爭",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "伊朗與阿曼擬協議禁止美以船隻通過荷姆茲海峽，伊媒稱在海峽擊中敵方目標",
-          "summary_zh": "據伊朗媒體報導，伊朗與阿曼研擬框架協定，計劃禁止美國與以色列等敵對國船隻通行荷姆茲海峽，伊朗並證實已在格什姆島（Qeshm Island）附近及海峽入口打擊了敵對目標。",
+          "headline_zh": "伊朗與阿曼擬草案禁止美以船隻穿荷姆茲海峽 伊方打擊海峽附近敵方目標",
+          "summary_zh": "伊朗媒體稱伊方在荷姆茲海峽附近打擊敵對目標，並與阿曼草擬法案計畫禁止美國與以色列船隻通航；美國官員回應荷姆茲為國際水道，任何臨時航線不得受阻。",
           "event_time": "2026-08-06T23:49:55+08:00"
-        },
-        {
-          "source_id": "dcac4bc0505f3f676ce9d72757f865456c63b41a72d0ade8b0ed0eeeeb88242e",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "美國國務院表示以色列與黎巴嫩談判已結束且具建設性",
-          "summary_zh": "美國國務院發言人證實，以色列與黎巴嫩之間的邊境緩和談判已經結束，會談過程具有建設性與成效。",
-          "event_time": "2026-08-07T00:49:05+08:00"
-        },
-        {
-          "source_id": "42097a6ba0fd78f4ac08084b73b62f72bfd9652087d6fecc5db77a756f6ad453",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "美國官員強調荷姆茲海峽為國際航道，無任何一方能控制航線",
-          "summary_zh": "針對伊朗封鎖警告，美國官員回應指出荷姆茲海峽是國際航道，沒有任何一方能控制航道與通行，強調臨時通行航線將維持無阻礙狀態。",
-          "event_time": "2026-08-07T01:12:00+08:00"
         },
         {
           "source_id": "d842a60d1b6f3af9ea7c88b1a11e38baf4fe53a749717d071f9b030913374244",
           "category": "戰爭",
-          "importance_score": 5,
+          "importance_score": 4,
           "highlight": true,
-          "headline_zh": "川普與沙烏地領袖通話討論伊朗問題，沙烏地官員證實正推動緩和局勢",
-          "summary_zh": "川普與沙烏地阿拉伯領袖通話討論伊朗局勢。沙烏地官員表示，關於擬議攻擊的報導令人震驚，但強調談判正朝著正確方向發展，並維持與美軍中央司令部的密切合作。",
+          "headline_zh": "川普（Trump）與沙烏地領袖通電話 討論伊朗事務與區域去風險談判",
+          "summary_zh": "川普與沙烏地阿拉伯領袖進行電話會談，沙烏地官員證實美沙合作密切，並指出緩和緊張局勢的談判正朝正確方向進行。",
           "event_time": "2026-08-07T02:08:02+08:00"
         },
         {
@@ -245,33 +199,24 @@
           "category": "戰爭",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "川普稱中東戰爭可能很快結束，並透露參與荷姆茲海峽相關談判",
-          "summary_zh": "美國總統川普（Trump）公開表示「認為戰爭很快就會結束」、「不認為伊朗能撐太久」，並稱自己正在參與圍繞荷姆茲海峽的談判，同時強調美軍擁有無限的彈藥供應。",
+          "headline_zh": "川普（Trump）：我參與了荷姆茲海峽談判 相信美伊戰爭很快會結束",
+          "summary_zh": "川普表示他正親自參與荷姆茲海峽談判，認為伊朗無法維持太久，戰爭相當快就會結束，並稱「海峽目前處於基本開放狀態」。",
           "event_time": "2026-08-07T04:25:12+08:00"
-        },
-        {
-          "source_id": "93a86acf42f42250ee9e0188b1674fc7140cab69060b0d011d4388481487b992",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "土耳其、沙烏地阿拉伯與巴基斯坦將簽署聯合防衛協定",
-          "summary_zh": "區域消息人士指出，土耳其、沙烏地阿拉伯與巴基斯坦預計於週五在沙烏地阿拉伯簽署三方聯合防衛協定，以應對中東區域安全挑戰。",
-          "event_time": "2026-08-07T05:52:18+08:00"
         }
       ]
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 4738,
-    "candidatesTokenCount": 448,
-    "totalTokenCount": 7033,
+    "promptTokenCount": 3488,
+    "candidatesTokenCount": 443,
+    "totalTokenCount": 5957,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 4738
+        "tokenCount": 3488
       }
     ],
-    "thoughtsTokenCount": 1847,
+    "thoughtsTokenCount": 2026,
     "serviceTier": "standard"
   }
 }
