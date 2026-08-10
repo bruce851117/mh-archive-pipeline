@@ -1,51 +1,40 @@
 {
-  "generated_at": "2026-08-10T07:48:57.001154+08:00",
-  "summary_generated_at": "2026-08-10T07:48:57.001154+08:00",
-  "data_updated_at": "2026-08-10T06:51:14.895361+08:00",
+  "generated_at": "2026-08-11T07:08:32.542602+08:00",
+  "summary_generated_at": "2026-08-11T07:08:32.542602+08:00",
+  "data_updated_at": "2026-08-11T06:51:13.274690+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-08-07T17:00:00+08:00",
-  "period_end": "2026-08-10T06:51:14.895361+08:00",
+  "period_start": "2026-08-10T17:00:00+08:00",
+  "period_end": "2026-08-11T06:51:13.274690+08:00",
   "model": "gemini-3.6-flash",
   "source_digest_files": [
-    "data/digests/2026/08/2026-08-06.json",
-    "data/digests/2026/08/2026-08-07.json",
-    "data/digests/2026/08/2026-08-08.json",
     "data/digests/2026/08/2026-08-09.json",
-    "data/digests/2026/08/2026-08-10.json"
+    "data/digests/2026/08/2026-08-10.json",
+    "data/digests/2026/08/2026-08-11.json"
   ],
-  "event_count": 70,
+  "event_count": 24,
   "summary_points": [
-    "美國7月非農就業人數意外減少2.3萬人且前值遭下修，顯示就業市場動能急劇放緩，促使交易員顯著削減對聯準會的加息押注。",
-    "受疲軟就業數據影響，美國公債殖利率應聲急跌；同時科技巨頭Alphabet提交高達250億美元的債券發行申請，引發公司債市場高度關注。",
-    "美國前總統川普再次呼籲降息，並推進撤換聯準會理事庫克的法律程序，衝擊市場對央行獨立性與貨幣政策預期。",
-    "伊朗與阿曼就建立荷姆茲海峽臨時航運走廊進行談判並接近達成協議，美方亦表示確認復航後將解除港口封鎖，中東局勢迎來降溫曙光。",
-    "日本財務大臣片山皋月表示已與美國財長達成共識，認為日圓匯率波動脫離實體需求，政府與央行隨時準備進行外匯干預以穩定匯價。",
-    "美國參議院通過臨時撥款法案，成功避免在選前出現聯邦政府關門危機，穩定市場對美國財政運作的預期。",
-    "輝達計劃投入高達30億美元佈局AI數據中心能源供應鏈並參股Lancium，顯示科技巨頭正全力擴大在AI基礎設施上的戰略投資。",
-    "土耳其、巴基斯坦與沙烏地阿拉伯締結共同防衛協定，同時烏克蘭襲擊俄羅斯煉油廠，地緣政治防禦聯盟與能源安全持續影響市場。",
-    "加拿大與美國就乳製品與汽車等行業調款進行密集談判，爭取豁免關稅或延後實施，以減緩北美貿易緊張情勢。"
+    "美聯儲具投票權官員哈馬克發表鷹派言論，指出當前利率並未對經濟構成實質約束，通膨難以自行回落，暗示未來可能需要進一步升息。",
+    "據報導日本央行釋放9月份升息訊號，成為促成美國參與共同干預匯市、進而推升日圓走強的主因。",
+    "華爾街金融巨頭與輝達結盟推出5,000億美元AI融資協議，資金全數來自第三方資本，專門用於支持AI資料中心建置與算力擴展。",
+    "川普宣稱美軍已控制荷姆茲海峽並完成掃雷，並要求伊朗賠償衝突損失；伊朗則表示海峽安全前提為美方停止軍事行動並補償侵權。",
+    "受到中東局勢緊張、利比亞煉油廠遭無人機襲擊，以及美國戰略石油儲備降至1983年以來新低等因素影響，國際原油期貨價格大漲約5%。",
+    "美國總統川普簽署行政命令，將《瓊斯法案》航運豁免延長90天，但將適用範圍縮減至僅限能源商品與化肥運送。",
+    "摩根士丹利發起1.5兆美元的美國創新基礎設施倡議，預計投入龐大資金聚焦人工智慧、基礎設施與國防工業領域。",
+    "微軟規劃大幅提升自研AI晶片產量並正與台積電洽談代工；英特爾則擬公開發行150億美元普通股以籌集成長資金。",
+    "亞洲國家推出重大財政與產業政策，韓國宣布設立5兆韓元基金專注半導體供應鏈投資，日本則透露將尋求5兆日圓進行消費稅減稅。"
   ],
   "blocks": [
     {
       "category": "債市",
       "news": [
         {
-          "source_id": "4ba7d04974aa57748c7cae525f30c3dbd1dbd543b6367fb5b70c8478791ab616",
+          "source_id": "8d5e6249b645e88241de803dd0ee2fad4c73011b2b911d586cca1e31806e1c3f",
           "category": "債市",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "非農就業數據疲軟促使交易員削減美聯儲加息押注，美債收益率跳水",
-          "summary_zh": "美國7月非農就業人數意外減少2.3萬人，市場對美聯儲於2026年繼續加息的預期快速降溫，利率期貨顯示9月加息機率顯著下降，帶動各天期美債價格顯著拉升、收益率急挫。",
-          "event_time": "2026-08-07T20:32:24+08:00"
-        },
-        {
-          "source_id": "2590173a76fe9737289911a4f1bf03e1f18d0adeb7fa7d763956fdcc61f53d82",
-          "category": "債市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "Alphabet向美國SEC提交申請，擬發行高達250億美元的10部分債券",
-          "summary_zh": "科技巨頭Alphabet（Google母公司）計畫進行大規模多天期債券融資，發行規模最高達250億美元，預期將引發公司債市場高度關注並吸納大量機構資金。",
-          "event_time": "2026-08-08T04:16:03+08:00"
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "美國財政部拍賣3個月期與6個月期國庫券，拍賣收益率分別為3.735%與3.83%",
+          "summary_zh": "美國財政部完成短期國庫券拍賣，3個月期拍賣收益率為3.735%（投標倍數2.88），6個月期拍賣收益率為3.83%（投標倍數2.85），反映市場對美聯儲短期利率走勢之預期。",
+          "event_time": "2026-08-10T23:32:06+08:00"
         }
       ]
     },
@@ -53,76 +42,67 @@
       "category": "股市",
       "news": [
         {
-          "source_id": "e23a2203f709cf4a37198649c45be43aa0c72c14de51cce556c954c6381c3605",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "Alphabet申報持有SpaceX 5.512億股A類股；SpaceX傳最快下周完成600億美元併購案",
-          "summary_zh": "監管文件顯示Alphabet對SpaceX進行大量持股，同時消息指出SpaceX正加速推動對程式碼新創公司高達600億美元的併購計畫，帶動太空科技板塊市場情緒。",
-          "event_time": "2026-08-07T18:02:42+08:00"
-        },
-        {
-          "source_id": "ad93d3ff61735dff4f94dadfe17ebd18e3914dc8894b472d5acac4ab12689e2c",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "OpenAI因發現潛在零日漏洞安全疑慮，減緩Astra模型發布進度",
-          "summary_zh": "OpenAI透露旗下Astra模型具備發現並利用零日漏洞的強大網路能力，出於安全防範考量，決定暫緩向大眾發布並將模型提供給政府機構進行安全測試。",
-          "event_time": "2026-08-08T00:31:50+08:00"
-        },
-        {
-          "source_id": "fea6f8e0fb66106fd5f9890a1d6c52e25c22cb3281a4f60c468eaa938a2d4d0d",
+          "source_id": "aa1d0e9165e948658b88ad7ab3af9aae538f740cb71be5d26a694c7338386f4d",
           "category": "股市",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "防禦科技公司AeroVironment預計獲得美陸軍4000萬美元反無人機合約",
-          "summary_zh": "由於地緣政治衝突增加對反無人機裝備的需求，美國陸軍擬向AeroVironment採購Locust反無人機雷射系統，帶動軍工板塊關注度。",
-          "event_time": "2026-08-08T02:19:15+08:00"
+          "headline_zh": "傑富瑞下調蘋果股票評級至跑輸大盤，目標價降至263.66美元",
+          "summary_zh": "投資機構傑富瑞（Jefferies）將蘋果（Apple）評級從「持有」調降至「跑輸大盤」，目標價由285.56美元下修至263.66美元。",
+          "event_time": "2026-08-10T18:40:39+08:00"
         },
         {
-          "source_id": "91678013776dce9e45edad035e540475db353064625952d84a88a18393f65d0e",
+          "source_id": "90db8c0613707d28ea969552305c1382edddf8fc6ea289e1c5b48f7139d3e19f",
           "category": "股市",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "輝達擬向黑石背後的AI能源公司投資最多30億美元",
-          "summary_zh": "據《The Information》報導，輝達（Nvidia）計劃向由黑石（Blackstone）支持、為Stargate計畫提供能源的公司承諾投資高達30億美元，展現大型科技公司積極佈局AI基礎設施能源供應鏈。",
-          "event_time": "2026-08-08T09:24:14+08:00"
+          "headline_zh": "英特爾擬發行150億美元普通股以籌集成長資金",
+          "summary_zh": "英特爾（Intel）計畫公開發行150億美元普通股，用於推動業務成長與資本支出，市場傳出該增資案已獲得數倍超額認購。",
+          "event_time": "2026-08-10T19:43:22+08:00"
         },
         {
-          "source_id": "c643f3aae81c85150cea6573ea0a3b9fbd0f7b2a501a26117fb78a00eb4f3bab",
+          "source_id": "4b050f115a09411c1f51e4a89cdfbffc593a96bea9dd61d61e3729eb6cbd1c14",
           "category": "股市",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "輝達擬在Lancium首輪20億美元融資中取得20%股權",
-          "summary_zh": "輝達擬在Lancium的首輪20億美元融資中收購其20%股權，持續擴大在電力與數據中心基礎設施的戰略投資。",
-          "event_time": "2026-08-08T09:24:50+08:00"
+          "headline_zh": "微軟規劃大幅提升自研AI晶片產量，並正與台積電洽談代工",
+          "summary_zh": "外媒報導，微軟（Microsoft）在自研AI晶片研發取得進展後，計畫顯著擴大晶片產量，目前正與台積電（TSMC）就晶片製造進行實質洽談。",
+          "event_time": "2026-08-10T21:03:50+08:00"
         },
         {
-          "source_id": "e17295189f452236a43c4f2bfe1e6f6df59acdec0d00500fc78834de83c225cc",
+          "source_id": "28a9933dacdbf1976f0edd094a1366ea6c59bbd0f370988f3ac9c19b04a63499",
+          "category": "股市",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "華爾街金融巨頭與輝達合作推出5,000億美元AI融資協議",
+          "summary_zh": "阿波羅（Apollo）、黑石（Blackstone）、高盛（Goldman Sachs）及黑石集團（BlackRock）等巨頭與輝達（Nvidia）結盟，建立高達5,000億美元的融資架構，專門用於支持AI資料中心的建置與擴展。",
+          "event_time": "2026-08-11T00:24:29+08:00"
+        },
+        {
+          "source_id": "63958ac169fe5df443a72e6df017871f417f02e952a110893f247cc598513758",
           "category": "股市",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "消息指出輝達對Lancium持股比例因額外投資最高可擴至30%",
-          "summary_zh": "消息人士指出，若輝達追加10億美元投資，對Lancium的持股比例可能進一步擴大至30%左右。",
-          "event_time": "2026-08-08T09:25:30+08:00"
+          "headline_zh": "OpenAI推出ChatGPT企業版付費席位與GPT-5.6-Cyber網路安全模型",
+          "summary_zh": "OpenAI針對企業用戶推出每月每人125美元（年繳100美元）的高級席位方案，並同步發布全新的GPT-5.6-Cyber專用模型。",
+          "event_time": "2026-08-11T00:51:00+08:00"
         },
         {
-          "source_id": "62c1a6fafa9b02e823a6a94fbe2d96dbbbd6371357c8b30cc43c862065a7fc3e",
-          "category": "股市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "波克夏海瑟威：截至二季度末66%股票投資集中於五大龍頭股",
-          "summary_zh": "波克夏海瑟威（Berkshire Hathaway）表示，截至6月30日，其股票投資總公允價值的66%集中於美國運通（American Express）、蘋果（Apple）、美國銀行（Bank of America）、Alphabet及可口可樂（Coca-Cola）。",
-          "event_time": "2026-08-08T20:14:03+08:00"
-        },
-        {
-          "source_id": "f043f8108d867981553851a1fbe613df74cf97c827c5c3854ec835c05775812e",
+          "source_id": "4cbf8e8cf283b9e110f6fdb80bc462afcf2f68b074dbc38d2c1fa3188c0b9f24",
           "category": "股市",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "華爾街日報：蘋果正於iPhone及MacBook等產品線測試中國長鑫存儲記憶體晶片",
-          "summary_zh": "蘋果（Apple）傳出正全面評估中國長鑫存儲（CXMT）的記憶體晶片，若通過測試並導入供應鏈，將顯著影響全球記憶體晶片市場格局與供應鏈動態。",
-          "event_time": "2026-08-09T19:01:11+08:00"
+          "headline_zh": "摩根士丹利發起1.5兆美元美國創新基礎設施倡議，聚焦AI與國防領域",
+          "summary_zh": "摩根士丹利（Morgan Stanley）推出龐大的創新基礎設施倡議，預估推動約1.5兆美元資金，主要針對人工智慧、基礎設施與國防工業進行投資部署。",
+          "event_time": "2026-08-11T04:13:46+08:00"
+        },
+        {
+          "source_id": "ce75d608745afb9c47c5495b2b68fcaa27c510cec3c8cfbeda4344875304128f",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "輝達執行長黃仁勳表示5,000億美元AI融資資金全數來自第三方資本",
+          "summary_zh": "輝達（Nvidia）執行長黃仁勳（Jensen Huang）表示，新的5,000億美元AI融資計畫將全力支援算力擴建，且資金全部來自第三方資本，AI實驗室與新創公司對算力需求極其強勁。",
+          "event_time": "2026-08-11T04:20:51+08:00"
         }
       ]
     },
@@ -130,40 +110,40 @@
       "category": "央行",
       "news": [
         {
-          "source_id": "979197b7dc8eac1dc2ad9a5c2cf7f581bd9dc3ea98272bb6faf103211a8243fb",
+          "source_id": "6d4d093033b003756a062dc476cbb86f006dc475a07c6812ae3763eabb2edc50",
+          "category": "央行",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "白宮高級顧問哈塞特表示若其在美聯儲任職將主張按兵不動或降息",
+          "summary_zh": "白宮高級經濟顧問哈塞特（Hassett）評論利率政策時指出，若其當前為美聯儲官員，將選擇維持利率不變或進行降息；並稱沃爾什（Warsh）具備高度獨立性。",
+          "event_time": "2026-08-10T19:39:48+08:00"
+        },
+        {
+          "source_id": "1ac7e1bfe3367fa965d2cd90d05f79aae0d8cb41182e3293872ce2b3a8a08cbd",
           "category": "央行",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "川普再次發表降息言論並重申重啟解雇美聯儲理事庫克程序",
-          "summary_zh": "美國前總統川普（Trump）表示希望利率下降，並指稱降息決策「不完全取決於沃什（Warsh）一人」；同時川普正式推進撤換美聯儲理事庫克（Cook）的法律程序，衝擊美聯儲獨立性預期。",
-          "event_time": "2026-08-07T17:09:08+08:00"
+          "headline_zh": "日媒報導日本央行9月升息訊號促使美國參與聯合匯市干預",
+          "summary_zh": "據共同社（Kyodo）報導，日本央行（BOJ）釋放之9月份升息訊號，是促成美國加入共同干預匯市、進而推升日圓走強的主因。",
+          "event_time": "2026-08-10T20:07:10+08:00"
         },
         {
-          "source_id": "bc1e12b917442a3f96107d129847b068cc79c714f12cc12f8b1bba6d6575ea58",
+          "source_id": "6c1af10ddd15f6dfbb0b2d1d13a05fa701d2d7426a557790723a6f66a16f7aca",
           "category": "央行",
-          "importance_score": 4,
+          "importance_score": 5,
           "highlight": true,
-          "headline_zh": "日本財務大臣片山皋月表示與美財長貝森特密切溝通，必要時毫不猶豫干預匯市",
-          "summary_zh": "日本財務大臣片山皋月（Katayama）強調已與美國財長貝森特（Bessent）達成共識，認為近期外匯市場波動脫離實體需求，日本政府與央行隨時準備進行直接外匯干預以捍衛日圓。",
-          "event_time": "2026-08-07T20:33:15+08:00"
+          "headline_zh": "美聯儲官員哈馬克發表鷹派言論，稱現行利率未能有效抑制經濟，可能需要繼續升息",
+          "summary_zh": "美聯儲（Fed）今年具投票權的官員哈馬克（Hammack）明確指出，當前利率水準並未對經濟構成實質約束，通膨難以自行回落，現在是美聯儲採取行動的時候，未來可能需要進一步升息。",
+          "event_time": "2026-08-11T02:44:58+08:00"
         },
         {
-          "source_id": "d6a30ff1175141f052f83fe082bb21087db9688cc53f5a9ba26a8b4c21dc852b",
+          "source_id": "e56f14db7997fb745eac30175cadcfeb0250a5867076867ab854abf3f9ddd865",
           "category": "央行",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "美聯儲官員巴爾金形容就業市場處於弱平衡，重申控制通脹至2%目標",
-          "summary_zh": "里奇蒙美聯儲主席巴爾金（Barkin）指出最新非農數據反映出「低招聘、低解僱」的低迷平衡狀態，並表示若通脹風險持續，貨幣政策仍須保持緊縮。",
-          "event_time": "2026-08-07T22:09:48+08:00"
-        },
-        {
-          "source_id": "ecf203029a4d344f53a247725e78c58c3fbea0a134d1f9f4f7d6216e57de427e",
-          "category": "央行",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "紐約聯儲7月調查顯示1年期通脹預期下降至3.63%，5年期維持在3.0%",
-          "summary_zh": "紐約聯儲公布最新消費者預期調查，民眾對短期通脹壓力看法有所放緩，長期通脹預期保持穩定，為美聯儲評估政策提供參考。",
-          "event_time": "2026-08-07T23:00:00+08:00"
+          "headline_zh": "川普否認《華爾街日報》有關其與沃爾什對話的報導",
+          "summary_zh": "美國前總統川普（Trump）公開否認《華爾街日報》（WSJ）關於其與前美聯儲理事沃爾什（Kevin Warsh）頻繁對話的報導，澄清僅於數日前進行過一次簡短通話。",
+          "event_time": "2026-08-11T03:35:15+08:00"
         }
       ]
     },
@@ -171,58 +151,31 @@
       "category": "財政政策",
       "news": [
         {
-          "source_id": "d932cdf6735536bda5cfaa96f216c6fced84e6393a4c72b0f3f897b4027daa66",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "日本政府研議將2027財年防衛預算提升至創紀錄的8.9萬億韓元",
-          "summary_zh": "因應區域地緣政治局勢緊張，日本防衛省擬大幅增加國防預算支出，顯示擴大財政支出用於安保領域的決心。",
-          "event_time": "2026-08-07T20:13:01+08:00"
-        },
-        {
-          "source_id": "18ac4e6c5624da1fae42d5db3c22e3b4a3deed3361740ab58b431886cf4853e6",
+          "source_id": "d9d7d01054e139e9737bdf4d7e277d2132da02afd658a4223092d6dbd082095b",
           "category": "財政政策",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "加拿大與美國就關稅讓步展開密集談判，冀在8月19日前爭取關稅豁免",
-          "summary_zh": "加拿大政府官員透露正與美方進行每日會談，願意就乳製品、酒類及汽車行業等美方關切問題進行調整，以爭取豁免Section 232鋼鐵與鋁關稅或推遲新關稅實施。",
-          "event_time": "2026-08-08T02:06:44+08:00"
+          "headline_zh": "韓國總統府宣布設立5兆韓元新基金，專注於半導體設備與材料投資",
+          "summary_zh": "韓國總統府宣布將設立規模達5兆韓元的國家級基金，集中投資於前景良好的半導體材料、零件與設備企業，以鞏固供應鏈安全。",
+          "event_time": "2026-08-10T17:00:21+08:00"
         },
         {
-          "source_id": "024c534e2c717f65aaab396c0b3f06fb8d6dda3188b26b0f0a5890b5ac76852f",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "川普政府宣布提供逾20億美元資金資助電池及礦產企業，並推動30億美元礦業項目",
-          "summary_zh": "美國政府深化關鍵供應鏈本土化轉型，通過財政補貼與產業政策直接資助國內關鍵礦產與電池製造企業，降低對外部供應鏈的依賴。",
-          "event_time": "2026-08-08T03:18:14+08:00"
-        },
-        {
-          "source_id": "454bd73eb39cac6a61bf2f68eff69ba1756ddb315f767f65780ee4211168d37a",
-          "category": "財政政策",
-          "importance_score": 2,
-          "highlight": false,
-          "headline_zh": "哥倫比亞新總統De la Espriella宣佈將頒布命令凍結公共支出",
-          "summary_zh": "哥倫比亞新政府宣布凍結公共支出以強化財政紀律。",
-          "event_time": "2026-08-08T07:13:15+08:00"
-        },
-        {
-          "source_id": "1a14599c6ae95e7db5044855822f53627a68094ddb4873b9b5819cae4101990f",
-          "category": "財政政策",
-          "importance_score": 2,
-          "highlight": false,
-          "headline_zh": "哥倫比亞新總統提議進行稅改以促進就業並簡化稅制",
-          "summary_zh": "哥倫比亞政府擬提出稅改方案，旨在增加就業崗位並簡化現行稅收制度。",
-          "event_time": "2026-08-08T07:15:29+08:00"
-        },
-        {
-          "source_id": "2fa14dedc8c1abf800d593978a3d98e826e9498c25e10a2a905e82fdfb2461ad",
+          "source_id": "3efa1e362b7eb5c4c374e5e773d665ebb3c38ee4ff5b631832fd5f31d84e881a",
           "category": "財政政策",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "美國參議院批准臨時支出法案，避免選前政府關門",
-          "summary_zh": "美國參議院通過臨時撥款措施，成功避免在即將到來的選舉前出現政府停擺危機，穩定市場對美國財政運作的預期。",
-          "event_time": "2026-08-08T15:58:40+08:00"
+          "headline_zh": "日本經濟成長大臣木內表示財政狀況改善，尋求5兆日圓進行消費稅減稅並不困難",
+          "summary_zh": "日本經濟成長大臣木內（Kiuchi）表示，日本財政正在改善，籌集5兆日圓來實施消費稅減稅「並非難事」，且擴大投資有助於日圓走勢。",
+          "event_time": "2026-08-10T19:00:49+08:00"
+        },
+        {
+          "source_id": "8204ff9f0738c480c6560e52bb1c23327a32022ec48e17fae081a6a249166a51",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "川普延長並縮減《瓊斯法案》航運豁免，為期90天且僅限能源與化肥",
+          "summary_zh": "美國總統川普簽署行政命令，將《瓊斯法案》（Jones Act）的航運豁免期延長90天，但將適用範圍縮減至僅限能源商品及化肥運送，國防部與海事局將逐案評估。",
+          "event_time": "2026-08-11T01:00:49+08:00"
         }
       ]
     },
@@ -230,58 +183,22 @@
       "category": "經濟",
       "news": [
         {
-          "source_id": "24936434ec533d29acab46e3e5cd6885388e1af977e89d0ec0334023595fb264",
+          "source_id": "8bdfb728bc9842efaf56b3d262296a9c243e386670f61afa3f9dd17a1adc215b",
           "category": "經濟",
-          "importance_score": 5,
+          "importance_score": 4,
           "highlight": true,
-          "headline_zh": "美國7月非農就業人數意外下滑2.3萬人，失業率降至4.1%",
-          "summary_zh": "美國勞工部公布7月就業報告遠弱於市場預期（原預期增長8萬人），前兩月數據亦下修逾10萬人，顯示就業市場動能急劇放緩；白宮顧問哈塞特（Hassett）及財長貝森特（Bessent）則均指數據受到極端因素打壓，實體經濟依然強勁。",
-          "event_time": "2026-08-07T20:30:03+08:00"
+          "headline_zh": "美國戰略石油儲備降至2.987億桶，創1983年以來最低水準",
+          "summary_zh": "美國政府數據顯示，上周美國戰略石油儲備（SPR）庫存減少約610萬桶至2.987億桶，降至1983年以來的歷史新低。",
+          "event_time": "2026-08-10T23:21:41+08:00"
         },
         {
-          "source_id": "61884cda8f727ca8b3be64029045eecc24db72b1daf2e65c63e75133b48fe052",
+          "source_id": "c6c899f6450bea96fb2479e4c90c603518f5ddf7c37d98a0b21a2ee6f1d70ff5",
           "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "原油期貨結算價反彈上揚，WTI原油收於每桶78.18美元、布倫特原油達83.55美元",
-          "summary_zh": "儘管中東航運協議有所進展，但地緣政治溢價仍存，原油期貨週五收高超1%，全周在大宗商品波動作背景下維持區間震盪。",
-          "event_time": "2026-08-08T02:31:23+08:00"
-        },
-        {
-          "source_id": "d64e8a1586b9f76b581d011b282c148b1ffa2819f671e97a65e3be68e6596a97",
-          "category": "經濟",
-          "importance_score": 2,
-          "highlight": false,
-          "headline_zh": "哥倫比亞新總統宣布將允許負責任的水力壓裂技術",
-          "summary_zh": "哥倫比亞將允許進行負責任的油氣水力壓裂（fracking）開發，預計對當地能源產業發展帶來衝擊與轉機。",
-          "event_time": "2026-08-08T07:19:12+08:00"
-        },
-        {
-          "source_id": "82a94b57e0d2843e8e7f8b7f4eeeed8e0437f591b4e4517420b14970955e984f",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "利比亞瓦哈石油公司修復管線洩漏並恢復營運",
-          "summary_zh": "利比亞瓦哈石油公司（Waha Oil）表示，Zaqout-Sidra管道的洩漏已得到控制，經修復後已恢復正常營運，有助於穩定當地原油出口供應。",
-          "event_time": "2026-08-08T22:13:47+08:00"
-        },
-        {
-          "source_id": "1282fb2c83ce3e089edbdacce07a1f1a27cec410afa41c2e43fae3d90e83514b",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "中國7月CPI同比上漲0.5%，低於預期的0.8%",
-          "summary_zh": "中國國家統計局公布7月居民消費價格指數（CPI）同比增長0.5%，低於市場預期的0.8%；環比則下降0.1%。食品CPI同比下降1.5%，非食品CPI同比上漲0.9%。",
-          "event_time": "2026-08-09T09:30:21+08:00"
-        },
-        {
-          "source_id": "16dc4b51a3a78f8c2f4c2e6c94050ca8897bd2c8b4d91c964be7d03ee357286f",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "中國7月PPI環比下降0.7%",
-          "summary_zh": "中國7月工業生產者出廠價格指數（PPI）較上月下降0.7%，顯示上游製造業端仍面臨價格下行壓力。",
-          "event_time": "2026-08-09T09:30:24+08:00"
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "國際原油期貨價格大漲約5%，WTI收在82.13美元，布蘭特收在87.72美元",
+          "summary_zh": "受地緣政治緊張與利比亞供應中斷疑慮影響，NYMEX 9月WTI原油期貨大漲3.95美元（+5.05%）收於每桶82.13美元；倫敦布蘭特原油期貨大漲4.17美元（+4.99%）收於87.72美元。",
+          "event_time": "2026-08-11T02:31:12+08:00"
         }
       ]
     },
@@ -289,415 +206,82 @@
       "category": "戰爭",
       "news": [
         {
-          "source_id": "e613bbbbe3b9d4c4c1b2e5a72fa0ba8a719bf377099dff8fe302bb4ba177a99a",
+          "source_id": "7af0c2632ec8cc392c5c3beac36528d716867587b7729f110166d3a1bde183e2",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "俄羅斯外交官警告將把德涅斯特河沿岸的任何軍事挑釁視為對俄本土襲擊",
+          "summary_zh": "塔斯社（TASS）引述俄羅斯外交官發言，俄方將把在德涅斯特河沿岸（Transdniestria）發生的任何針對俄軍或當地的軍事挑釁，直接視同對俄羅斯聯邦的攻擊。",
+          "event_time": "2026-08-10T21:32:29+08:00"
+        },
+        {
+          "source_id": "27dabaec3d5cf6b380f3bc436a51284175c3fde53e3f44a392f391f3ec00e747",
           "category": "戰爭",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "土耳其、沙烏地阿拉伯與巴基斯坦簽署聯合防禦協定，伊朗議員對此表達批評",
-          "summary_zh": "三國簽署聯合防禦協定引發中東力量格局調整，伊朗國家安全委員會成員表示此協定無法為利雅德帶來實質安全，呼籲改變對伊政策。",
-          "event_time": "2026-08-07T18:30:12+08:00"
+          "headline_zh": "巴基斯坦與伊朗外長通電話，討論麥加協議與區域和平局勢",
+          "summary_zh": "巴基斯坦外長與伊朗外長阿拉格奇（Araghchi）舉行電話會談，重點討論「麥加共同防衛協議」（Makkah Agreement）及推進區域和平穩定的最新局勢。",
+          "event_time": "2026-08-10T21:58:10+08:00"
         },
         {
-          "source_id": "3524edc1e24d32e7484d912966b1094bb379b4b2a6920ddd9140787bc2bbde74",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "阿布達比國家石油公司表示衝突爆發以來已有15艘船隻遭襲；胡塞武裝襲擊沙烏地支持的軍營",
-          "summary_zh": "ADNOC（阿布達比國家石油公司）透露本週內又有3艘船隻受襲，凸顯紅海與波斯灣航運風險未完全消除；同時胡塞武裝與葉門政府軍在馬里卜爆發新一輪衝突。",
-          "event_time": "2026-08-07T22:04:15+08:00"
-        },
-        {
-          "source_id": "55d594ae387fc2d8aae2831f3ba0bc8bd79f04ee20428928436a2ade371b3d57",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "伊朗外交部副部長表示波斯灣安全談判基礎正在鋪平；德黑蘭市長稱通航須以取銷制裁為前提",
-          "summary_zh": "伊朗外交部副部長加里巴巴迪（Gharibabadi）表示波斯灣國家間恢復安全會談的條件正趨成熟；然而德黑蘭市長札克里（Zakeri）則稱通過海峽的權利仍取決於美國解除制裁與賠償。",
-          "event_time": "2026-08-07T23:43:32+08:00"
-        },
-        {
-          "source_id": "40d9d0a5ad62030a5683a62a4fb58b1f4c5533941d72d6968299fe6afd1bca78",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "美國財政部針對支持伊朗伊斯蘭革命衛隊及金融網絡的加密貨幣交易所實施新一輪制裁",
-          "summary_zh": "美國財務部宣布將13個實體及非法加密資產交易網絡列入黑名單，切斷伊朗獲取美元、里亞爾及加密貨幣的渠道，持續對伊施加極限經濟壓力。",
-          "event_time": "2026-08-08T01:31:53+08:00"
-        },
-        {
-          "source_id": "8707573bb00435950c63133898abf0525be56bfb3b8b7dcafb1e8201ec230645",
+          "source_id": "83631498f95c9137144e2f319c89f828da85888ad862e2e01ee177315602cf7d",
           "category": "戰爭",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "伊朗總統佩澤什基安表示若威脅與壓力停止，伊朗沒有理由繼續維持緊張局勢",
-          "summary_zh": "伊朗總統佩澤什基安（Pezeshkian）釋出緩和信號，強調只要對伊朗的經濟封鎖與軍事威脅終止，地區局勢即可迎來降溫，此表態大幅提振市場對中東談判的信心。",
-          "event_time": "2026-08-08T02:52:45+08:00"
+          "headline_zh": "伊朗外交部發言人回應與阿曼談判：荷姆茲海峽安全取決於美方停止軍事行動與賠償侵權",
+          "summary_zh": "伊朗外交部發言人巴加埃（Baghaei）表示，與阿曼的談判正在推進且諒解近在咫尺，但荷姆茲海峽的安全前提是侵略者停止軍事行動並補償過往違規；同時證實中介者持續轉達美國訊息，但伊方目前不與華府直接對話。",
+          "event_time": "2026-08-10T22:43:24+08:00"
         },
         {
-          "source_id": "4d2c8ca40bb09181630411e85e8949fe33fcb34e5c6f70da88530c259bb5ae7e",
+          "source_id": "7d84ae1e80775c30d2adc67eadc71b287cc7aadd9e98b82ed8a59ecbb0c1a04b",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗最高領袖任命6名新任資深軍事指揮官",
+          "summary_zh": "在經過長時間國安會議後，伊朗最高領袖哈米尼（Supreme Leader）正式任命6名高階軍事指揮官，重新調整國防與革命衛隊高層部署。",
+          "event_time": "2026-08-10T23:35:30+08:00"
+        },
+        {
+          "source_id": "720a338681621c9d85849a4ee4c167d3ac7bd4dab9c733e1633ae5d9bad9e70c",
           "category": "戰爭",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "美方官員透露與伊朗及阿曼就荷姆茲海峽通航達成協議進展，官宣後將解除封鎖",
-          "summary_zh": "美國官員證實伊朗與阿曼就荷姆茲海峽商業航運協議取得重大突破，預計很快達成協議；一旦確認無障礙復航，美國將同步解除對伊朗港口的封鎖行動。",
-          "event_time": "2026-08-08T03:00:33+08:00"
+          "headline_zh": "川普要求伊朗就過去5個月衝突損失進行賠償，並命令談判代表納入此條件",
+          "summary_zh": "美國總統川普（Trump）表示，針對伊朗要求美國賠償軍事衝突損失，美方亦要求伊朗賠償，且已指示談判代表將此嚴格納入所有未來談判，並要求伊朗為黎巴嫩、敘利亞、葉門與加薩之損失負責。",
+          "event_time": "2026-08-11T00:31:47+08:00"
         },
         {
-          "source_id": "e85c04923572d3dd68284a98f8cb8fd938726a63531900d0ada18acc3b40c1b2",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "以軍地面部隊進入敘利亞南部村莊；俄羅斯Wildberries大型物流中心遭襲引發大火",
-          "summary_zh": "以色列對敘利亞南部展開地面行動，俄烏戰事延燒至物流設施，地緣政治衝突多點擴散持續引發市場不安。",
-          "event_time": "2026-08-08T04:18:07+08:00"
-        },
-        {
-          "source_id": "2637a851e7e6767c8f046d5314424de79deabb668e8239e84d7ec1a3ef87c236",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "烏克蘭基輔傳出數起強烈爆炸聲響",
-          "summary_zh": "目擊者稱烏克蘭首都基輔（Kyiv）傳出多起強烈爆炸聲。",
-          "event_time": "2026-08-08T08:21:25+08:00"
-        },
-        {
-          "source_id": "b7dfa2520ad7a3075180ba85624a82a2e0362dec2bb99c6dc1c182aa5562ec68",
-          "category": "戰爭",
-          "importance_score": 2,
-          "highlight": false,
-          "headline_zh": "美國國務院：與國會合作推進對哥倫比亞10億美元安全援助計畫",
-          "summary_zh": "美國國務院表示正與國會合作揭露安全協議中對哥倫比亞10億美元的援助細節。",
-          "event_time": "2026-08-08T08:37:28+08:00"
-        },
-        {
-          "source_id": "9e1c2c7f973d11de65ec5c916ddb4ec59014f10ee13424d27dacd31499de93b4",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "基輔市長證實基輔兩區傳出空襲火災",
-          "summary_zh": "基輔市長證實，在遭到空襲爆炸後，基輔市內兩個分區傳出火災報告。",
-          "event_time": "2026-08-08T08:38:28+08:00"
-        },
-        {
-          "source_id": "8817daba3aadfa7fa783d415b05e988d39738df1181e863cfd5631238e6ca420",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "俄國稱無人機擊中奧德薩以東載有烏軍武器之船隻",
-          "summary_zh": "俄羅斯國際文傳電訊社報導，俄軍無人機在奧德薩（Odesa）以東擊中一艘為烏克蘭軍隊運送武器的船隻。",
-          "event_time": "2026-08-08T15:37:34+08:00"
-        },
-        {
-          "source_id": "e0a9bb7c63ab8b03a2def967afeda8bfe8c83d6a7453c57c524d17b55169a13b",
+          "source_id": "33e9d8e39d9bafeeef059e20658057c04910ddb3b9a17ebe8f810c5777ecbb45",
           "category": "戰爭",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "烏軍襲擊俄羅斯伊爾斯基與瑟茲蘭兩座煉油廠並引發大火",
-          "summary_zh": "烏克蘭參謀總部證實，烏軍成功襲擊俄羅斯伊爾斯基（Ilsky）與瑟茲蘭（Syzran）兩座煉油廠，造成現場大火，持續打擊俄國能源設施。",
-          "event_time": "2026-08-08T16:14:12+08:00"
+          "headline_zh": "利比亞扎維亞煉油廠遭無人機襲擊引發大火，國家石油公司警告可能面臨不可抗力而停工",
+          "summary_zh": "利比亞扎維亞（Zawiya）煉油廠之柴油儲槽遭無人機轟炸起火，利比亞國家石油公司（NOC）警告若襲擊持續，可能不得不宣告不可抗力並全面暫停煉油廠運作，加劇全球柴油供應緊張。",
+          "event_time": "2026-08-11T02:44:52+08:00"
         },
         {
-          "source_id": "90378e0eab3b4440b8ce29eca51b2796902e124b5165bd0e1d4fd60471b3230c",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "俄當局稱克拉斯諾達爾地區伊爾斯基煉油廠火勢已撲滅",
-          "summary_zh": "俄羅斯官方聲稱，遭到烏軍打擊的克拉斯諾達爾（Krasnodar）地區伊爾斯基煉油廠火勢已完全撲滅。",
-          "event_time": "2026-08-08T16:42:19+08:00"
-        },
-        {
-          "source_id": "279631ad492eb77755a7f9b3326010a1357de450aa599153646f7f6bac1cced8",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "俄國防部：俄軍已控制烏克蘭哈爾科夫地區伊萬尼夫卡村",
-          "summary_zh": "俄羅斯國防部聲稱，俄軍已控制烏克蘭哈爾科夫（Kharkiv）地區的伊萬尼夫卡（Ivanivka）。",
-          "event_time": "2026-08-08T17:06:29+08:00"
-        },
-        {
-          "source_id": "3dd05c9e32abeac3e33aa64ab84b6c2cfba2d7e7f035302074293d1dc1f365ce",
+          "source_id": "987392f140ebdf4949dfa6da761f0d5132dd69eaa4bd75b6cf47cff4f4dc42d5",
           "category": "戰爭",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "伊朗伊斯蘭革命衛隊：重啟荷姆茲海峽前提為美國全面接受伊朗條件",
-          "summary_zh": "伊朗伊斯蘭革命衛隊（IRGC）發言人表示，重啟荷姆茲海峽（Strait of Hormuz）完全取決於美國是否全面接受伊朗條件，且與伊朗與阿曼（Oman）之間的談判無關。",
-          "event_time": "2026-08-08T18:18:15+08:00"
-        },
-        {
-          "source_id": "dc46ca4ce75ab00455c198b82b655a1d787eb7310a5c63b23836cf1106a8153c",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "土耳其因襲擊事件增加限制黑海船隻通行動向",
-          "summary_zh": "鑑於黑海海上襲擊事件顯著增加，土耳其政府決定對黑海船隻的通行實施限制以保護航行安全。",
-          "event_time": "2026-08-08T18:20:49+08:00"
-        },
-        {
-          "source_id": "514983fbf3e1750757a85eec9eecaed88e649a80edb577b9e81880df49d38be4",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "伊朗外長：伊朗與阿曼就荷姆茲海峽新航線協議「極為接近」達成",
-          "summary_zh": "伊朗外長表示，伊朗與阿曼針對通過荷姆茲海峽的新航行路線協議已達到極為接近達成的階段。",
-          "event_time": "2026-08-08T19:25:51+08:00"
-        },
-        {
-          "source_id": "bcbc78ed3a58bba9c445eaaf100594f00d81d81b51a8121223d11c39184559b4",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "伊朗外長：重新開放荷姆茲海峽需包含美方賠償伊斯蘭馬巴德協議違約金等條件",
-          "summary_zh": "伊朗外長表示，重啟荷姆茲海峽的條件包括對美國違反伊斯蘭馬巴德協議進行賠償。",
-          "event_time": "2026-08-08T19:28:15+08:00"
-        },
-        {
-          "source_id": "45872f4e8aa6db0536c3b469d67077395437181c30384da40f1bc1bb97eb0223",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "伊朗外長阿拉格齊：無法接受舊有荷姆茲航線分流方案，尋求新路線",
-          "summary_zh": "伊朗外長阿拉格齊（Aragchi）指出，德黑蘭認為過往荷姆茲海峽的交通分流方案不可接受，正在尋求制定全新的航行路線。",
-          "event_time": "2026-08-08T19:30:15+08:00"
-        },
-        {
-          "source_id": "99cda29f9a56c7bc3b0c5d9279dc02ce1bcb38bf3b2345e4cf6b8331d8364050",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "伊朗外長阿拉格齊：德黑蘭與馬斯喀特正在談判臨時荷姆茲航運走廊",
-          "summary_zh": "伊朗外長阿拉格齊證實，伊朗與阿曼首都馬斯喀特目前正就建立臨時荷姆茲航運走廊進行談判。",
-          "event_time": "2026-08-08T19:31:01+08:00"
-        },
-        {
-          "source_id": "c71be5d68fa988ffcb12b61e55ca9f5f11e7a751b714e587df5fe9228638c0d3",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "UKMTO通報阿曼卡薩卜以東18海浬處發生海上事件",
-          "summary_zh": "英國海事貿易行動辦公室（UKMTO）通報在阿曼卡薩卜（Khasab）以東18海浬處發生安全事件。",
-          "event_time": "2026-08-08T21:08:30+08:00"
-        },
-        {
-          "source_id": "ed215f9afc602f0ff4ef224b03e33ce5c3f2b01a80b6cdb8f22f9b896902d142",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "UKMTO：阿曼海域船隻遭未明發射物擊中，火勢已撲滅",
-          "summary_zh": "UKMTO證實消息指出，一艘船隻遭未具名發射物擊中引發火災，目前火勢已被撲滅。",
-          "event_time": "2026-08-08T21:09:19+08:00"
-        },
-        {
-          "source_id": "ef84649e5de76aad27187183272167fb23a4b3718fe709853120e1ee2081d9f2",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "UKMTO：受襲船隻船員安全且未造成環境危害",
-          "summary_zh": "UKMTO表示受襲船隻的船員均回報安全，且未造成生態或海洋環境損害。",
-          "event_time": "2026-08-08T21:09:34+08:00"
-        },
-        {
-          "source_id": "8ea68f4945c4c3607d34cbdece9f553b7414e29be17fcc125e4ebcedc59a6d72",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "阿曼官方譴責荷姆茲海峽通行船隻屢遭襲擊",
-          "summary_zh": "阿曼國家通訊社報導，阿曼政府對通過荷姆茲海峽的商船屢遭襲擊表示強烈譴責。",
-          "event_time": "2026-08-08T21:56:35+08:00"
-        },
-        {
-          "source_id": "c0246b7b0aed5cb57f42a6bbb6d735adb0b3041d34f8416cc17cd2befe71be8d",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "阿曼：就荷姆茲海峽安排的持續談判展現積極與建設性",
-          "summary_zh": "阿曼官方表示，目前針對荷姆茲海峽航運安排的談判過程相當積極且極具建設性。",
-          "event_time": "2026-08-08T21:57:39+08:00"
-        },
-        {
-          "source_id": "13485feafe6ba4f7496e2f10bd3582e13348a2a9ebdf42e761c17e2868f563db",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "伊朗總統裴澤斯基安：伊朗強大團結，目前是達成協議最佳時機",
-          "summary_zh": "伊朗總統裴澤斯基安（Pezeshkian）表示，伊朗目前強大且團結，被視為戰爭勝者，現在是進行與達成協議的最佳時機。",
-          "event_time": "2026-08-08T22:41:11+08:00"
-        },
-        {
-          "source_id": "9efed2d5437e342c7bb6ddc6730cea7920a3d82bbd20b18d59da3fd45f7141d6",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "葉門政府軍發言人：對青年運動及盟友民兵發動打擊行動",
-          "summary_zh": "葉門武裝部隊發言人證實，已對青年運動（Houthis）及其盟友民兵採取打擊行動。",
-          "event_time": "2026-08-08T22:45:00+08:00"
-        },
-        {
-          "source_id": "a30abfb27bb19108b988e81f4fddb663b1021f4d4a26eaf4097af512ee57f45e",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美國國務院駁斥中國在黃岩島設立自然保護區之試圖",
-          "summary_zh": "美國國務院駁斥中國在黃岩島（Scarborough Reef）強制設立破壞穩定之自然保護區的持續嘗試。",
-          "event_time": "2026-08-09T00:52:41+08:00"
-        },
-        {
-          "source_id": "31c033f0cbc3e1e6d62b68c201a66b3c4a837179e26199c7418b4026aedfbdc3",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美國國務院指責中國在南海採取單邊行動推動領土主張",
-          "summary_zh": "美國國務院指出，中國再次採取單邊行動，以犧牲鄰國利益為代價擴展其在南海的廣泛主張。",
-          "event_time": "2026-08-09T00:53:40+08:00"
-        },
-        {
-          "source_id": "5cca875abf2acf8afef6d2c168bd7466727365ff636f2a195f1b43f69703e9b4",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "土耳其外長：土耳其、巴基斯坦與沙烏地三國防衛協定效力等同北約第五條",
-          "summary_zh": "土耳其外長表示，土耳其、巴基斯坦及沙烏地阿拉伯締結的共同防衛協定，實質效力與北約（NATO）公約第五條集體防禦條款相同。",
-          "event_time": "2026-08-09T01:14:18+08:00"
-        },
-        {
-          "source_id": "845e4456706d6f1390c140a0b922474345e59173dfdb9a48b20479c8c9f61764",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "土耳其外長：新防衛協定將設立部長級委員會與總秘書處",
-          "summary_zh": "土耳其外長補充說明，該防禦夥伴關係將仿照北約架構，設立部長級委員會與總秘書處。",
-          "event_time": "2026-08-09T01:17:21+08:00"
-        },
-        {
-          "source_id": "3c751610c338952b6d56b717cb569b2167839a8659b52632f101a184b5c94fee",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "土耳其外長：三國防衛協定並非針對伊朗",
-          "summary_zh": "土耳其外長澄清，該防禦協定並非以伊朗為目標，除非成員國遭受攻擊，否則不會針對任何國家。",
-          "event_time": "2026-08-09T01:22:22+08:00"
-        },
-        {
-          "source_id": "d8b4708eb46d2fc35c7c2448848cb6e278cad6aef0bd09105e3686422a490471",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "土耳其外長：紅海安全攸關自身利益，將加入沙烏地引導之全球聯盟",
-          "summary_zh": "土耳其外長表示紅海航行安全直接攸關土國利益，因此土耳其將加入沙烏地阿拉伯領導的全球聯盟。",
-          "event_time": "2026-08-09T01:32:00+08:00"
-        },
-        {
-          "source_id": "5ca97ab732ca1286a7e9d9d5d142f7c18486f4bf49c31541dee953693283e818",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "土耳其外長：埃及在解決技術問題後可能加入該防衛聯盟",
-          "summary_zh": "土耳其外長指出，待技術性細節解決後，埃及未來也有可能加入該地區防衛聯盟。",
-          "event_time": "2026-08-09T01:42:19+08:00"
-        },
-        {
-          "source_id": "3f21109bd3cbf492ed877bdebf822fd2f24fb3461e8fd4b8855bb9facc13cc70",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "土耳其外長敦促俄烏雙方就黑海襲擊聲明暫停令",
-          "summary_zh": "土耳其外長呼籲俄羅斯與烏克蘭宣佈暫停在黑海區域進行武力襲擊，以維護商業航行。",
-          "event_time": "2026-08-09T01:57:43+08:00"
-        },
-        {
-          "source_id": "d4bed59d7895e5b64f21456e85f24f1cb12db2c71137bc4a2343c516ead8bff8",
-          "category": "戰爭",
-          "importance_score": 2,
-          "highlight": false,
-          "headline_zh": "俄國國防部聲稱打擊烏克蘭蘇梅地區兩座煉油廠並佔領東部村莊",
-          "summary_zh": "俄烏衝突持續，俄方聲稱擊中烏克蘭蘇梅地區煉油廠並佔領東部 settlement，烏方則指出敖德薩港口（Odesa port）遭俄軍襲擊受損。",
-          "event_time": "2026-08-09T15:55:05+08:00"
-        },
-        {
-          "source_id": "a53500f1fa728cbd85914c5fa697a41c0819641bf04706aaca497c8bfc645bb8",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "伊朗外長阿拉格齊：目前與美國無直接對話，僅透過中間人傳達訊息",
-          "summary_zh": "伊朗外長阿拉格齊（Araqchi）表示，只要美國繼續違反臨時協議，談判就不會發生，目前雙方未開展直接對話，僅透過調解人傳達訊息。",
-          "event_time": "2026-08-09T16:13:44+08:00"
-        },
-        {
-          "source_id": "079db2a2b22ec7d3535a90250af8ba03f9f7d45eb2a276c6712f5367452df5ea",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "以色列總理納坦雅胡駁回加薩15點提案，強調哈瑪斯解除武裝前絕不撤軍",
-          "summary_zh": "納坦雅胡（Netanyahu）表示以色列無法接受加薩提案的所有內容，並明確表態在其任內絕不會建立巴勒斯坦國，且在哈瑪斯完全解除武裝前不會自加薩撤軍。",
-          "event_time": "2026-08-09T18:56:19+08:00"
-        },
-        {
-          "source_id": "a1984cda96c1628e880fa5f147bfbeafc7fcc29f464aa25053ab00daa1e85f6f",
-          "category": "戰爭",
-          "importance_score": 2,
-          "highlight": false,
-          "headline_zh": "伊朗總統佩澤什基安與最高領袖會面討論經濟與軍事事務",
-          "summary_zh": "伊朗官方媒體報導，伊朗總統佩澤什基安（Pezeshkian）近期與最高領袖會面商討軍事與經濟對策。",
-          "event_time": "2026-08-09T19:18:13+08:00"
-        },
-        {
-          "source_id": "5117876c2d4f33c27f86959682bc1bb94c4468a5037746eb5bd37f4ad76b4561",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "哈瑪斯高級官員：期待調解國與美國向納坦雅胡政府施壓以遵循路線圖",
-          "summary_zh": "哈瑪斯（Hamas）高層奈姆（Basem Naim）表示，該組織仍致力於10天前在開羅達成的和平路線圖，並期待調解人與美國向以色列總理納坦雅胡（Netanyahu）施壓。",
-          "event_time": "2026-08-09T19:52:21+08:00"
-        },
-        {
-          "source_id": "f79d5318795fcad2575eabab088022c212ee953c79eeadda097fd2265592d8db",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "敘利亞與俄羅斯達成諒解備忘錄，重新重組俄軍在敘沿海軍事基地",
-          "summary_zh": "敘利亞外交部宣布與俄羅斯就塔爾圖斯（Tartous）和赫梅米姆（Hmeimim）軍事基地的未來達成備忘錄，將重組俄軍在敘利亞沿海的軍事存在。",
-          "event_time": "2026-08-09T20:12:11+08:00"
-        },
-        {
-          "source_id": "bda6db632185c5237d3b187cc32d8eb8ae2eab0d44d87e24a7439c3ed83e52e5",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "川普談伊朗情勢：目前對伊朗採取低調態度，強調德黑蘭正面臨經濟痛楚",
-          "summary_zh": "川普（Trump）在專訪中指出，美國對伊朗正採取低調策略（low-keying it），並點出伊朗當前承受嚴重的經濟壓力。",
-          "event_time": "2026-08-10T01:00:12+08:00"
-        },
-        {
-          "source_id": "7870260aa19745765714349adfec4e2cb44ad2ea80666f7ae168b75d1e251719",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "前瞻一週：美國CPI成市場焦點，伊朗與阿曼接近達成協議",
-          "summary_zh": "市場預期本週聚焦美國CPI數據，同時中東局勢傳出伊朗與阿曼接近達成相關協議，為地緣政治談判帶來新動態。",
-          "event_time": "2026-08-10T04:49:34+08:00"
-        },
-        {
-          "source_id": "cabccdfb4fddc225fbd8f680b8dd70fc27cff677440f66ceb87bb089d00236e6",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "也門胡塞武裝恢復對摩卡港的飛彈與無人機襲擊",
-          "summary_zh": "也門軍方發言人證實，青年運動（Houthis）對摩卡港（Mocha port）發動飛彈與無人機襲擊，造成人員傷亡，紅海及周邊航道安全威脅持續升溫。",
-          "event_time": "2026-08-10T05:20:39+08:00"
+          "headline_zh": "川普稱美國仍有能力升級衝突，並宣稱美國控制荷姆茲海峽且已完成掃雷",
+          "summary_zh": "川普就美伊局勢發表談話，強調美國仍具備軍事升級能力；同時宣稱荷姆茲海峽現已開放，美國是唯一控制該海峽的力量，並已完成全區掃雷作業。",
+          "event_time": "2026-08-11T03:24:06+08:00"
         }
       ]
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 12784,
-    "candidatesTokenCount": 433,
-    "totalTokenCount": 15807,
+    "promptTokenCount": 4990,
+    "candidatesTokenCount": 436,
+    "totalTokenCount": 8188,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 12784
+        "tokenCount": 4990
       }
     ],
-    "thoughtsTokenCount": 2590,
+    "thoughtsTokenCount": 2762,
     "serviceTier": "standard"
   }
 }
