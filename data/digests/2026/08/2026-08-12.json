@@ -1,17 +1,31 @@
 {
   "title": "最近24小時全球市場重要新聞",
-  "period_start": "2026-08-11T07:00:30.440739+08:00",
-  "period_end": "2026-08-12T07:00:30.440739+08:00",
+  "period_start": "2026-08-11T07:40:30.395922+08:00",
+  "period_end": "2026-08-12T07:40:30.395922+08:00",
   "timezone": "Asia/Taipei",
-  "overview": "過去24小時全球市場焦點圍繞於地緣政治局勢演變、央行貨幣政策及科技業巨頭動向。中東方面，美伊兩國透過斡旋進行多管道談判的同時，美軍於荷姆茲海峽實施封鎖並擊中違規船隻，川普亦發表強硬言論，使局勢處於和談與升級並存的臨界點。央行方面，澳洲央行（RBA）維持利率於4.35%不變，但主席布洛克（Bullock）警告通膨上行風險仍高，保留升息選項；美聯儲官員則強調通膨降溫進展仍需觀察中東衝突發展。科技業方面，台積電擴大資本支出並深化與索尼（Sony）合作，Google、Anthropic與Amazon等AI領域進展迅速，成為股市撐盤主軸。",
+  "overview": "過去24小時全球市場呈現高度震盪。中東地緣政治局勢持續緊繃，美軍於荷姆茲海峽針對試圖突破封鎖的伊朗相關船隻開火，且伊朗重申若未滿足條件不會重新開放海峽；然而巴基斯坦與卡達傳出美伊雙方接近達成某種和平安排，致使原油價格劇烈波動。此外，市場在關鍵美國CPI通膨數據公布前保持謹慎，美聯儲官員對通膨降溫及利率政策態度謹慎。科技巨頭AI融資與監管疑慮令美股承壓，而債券市場則受美國房市數據疲軟與3年期國債拍賣影響，收益率小幅下行。",
   "categories": [
     {
       "category": "債市",
       "news": [
         {
           "importance_score": 4,
-          "headline_zh": "美國財政部拍賣580億美元3年期國債，得標利率為4.291%",
-          "summary_zh": "美國財政部完成580億美元3年期國債拍賣，得標利率落在4.291%（高於前次4.179%），投標倍數（Bid-to-Cover）升至2.71，顯示市場在利率路徑不確定下對短債需求仍維持穩健。",
+          "headline_zh": "美債策略師調查：多數認為10年期美債收益率未來三個月高於預期機率較高",
+          "summary_zh": "調查顯示，市場預期10年期美債收益率將在三個月內回落至4.50%，但多數策略師指出收益率高於預期的風險較大。",
+          "event_time": "2026-08-11T19:51:51+08:00",
+          "source_id": "d44d34e8c17fa7bb4a53e9e8c8b49c40541151bf29513a8ae50b9b2d68d73493",
+          "source_detail": {
+            "id": "d44d34e8c17fa7bb4a53e9e8c8b49c40541151bf29513a8ae50b9b2d68d73493",
+            "time": "2026-08-11T19:51:51+08:00",
+            "headline": "US 10-year treasury yield more likely to come in higher than expectations than lower over the next three months, said 18 of 22 bond strategists - Poll.",
+            "link": "https://www.financialjuice.com/News/9716307/US-10-year-treasury-yield-more-likely-to-come-in-higher-than-expectations-than-lower-over-the-next-three-months-said-18-of-22-bond-strategists---Poll.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "美國財政部拍賣580億美元3年期國債 得標利率4.291%",
+          "summary_zh": "美國財政部完成580億美元3年期國債拍賣，投標倍數為2.71，高於前次的2.60，顯示短端國債需求維持穩健。",
           "event_time": "2026-08-12T01:02:04+08:00",
           "source_id": "c0bccaba60ea9360a0bd2cd0fa5085736b7219f02eeadee1c3796801fcb7ae4f",
           "source_detail": {
@@ -24,22 +38,22 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "路透調查：預期美國10年期公債殖利率三個月內降至4.50%",
-          "summary_zh": "最新分析師調查顯示，市場預期美國10年期公債殖利率將於未來三個月降至4.50%，一年內降至4.34%。然而多數債券策略師補充表示，未來三個月殖利率高於預期的風險偏高。",
-          "event_time": "2026-08-11T19:51:27+08:00",
-          "source_id": "0a4cb3645f5cb0f631ef32308100b4d2e471a9db67ba068e9560fbe4f3fb6294",
+          "headline_zh": "比利時發行短期國庫券 融資額達19.1億歐元",
+          "summary_zh": "比利時順利標售2027年8月到期之國庫券，收益率為2.765%，投標倍數達1.80。",
+          "event_time": "2026-08-11T17:36:29+08:00",
+          "source_id": "870b8e5794fc1616b277fcb487330b37a4222ec4cd8d468c9c9a26aaf671821c",
           "source_detail": {
-            "id": "0a4cb3645f5cb0f631ef32308100b4d2e471a9db67ba068e9560fbe4f3fb6294",
-            "time": "2026-08-11T19:51:27+08:00",
-            "headline": "Poll: US 10-year Treasury yield to decline to 4.50% in three months, hold for the next three months, and 4.34% in a year (vs 4.48%, 4.48%, and 4.39%, respectively, in the July poll)",
-            "link": "https://www.financialjuice.com/News/9716305/Poll-US-10-year-Treasury-yield-to-decline-to-450-in-three-months-hold-for-the-next-three-months-and-434-in-a-year-vs-448-448-and-439-respectively-in-the-July-poll.aspx?xy=rss",
+            "id": "870b8e5794fc1616b277fcb487330b37a4222ec4cd8d468c9c9a26aaf671821c",
+            "time": "2026-08-11T17:36:29+08:00",
+            "headline": "Belgium sells 1.91 billion euros Aug. 2027 T-bills at 2.765% yield; b/c 1.80",
+            "link": "https://www.financialjuice.com/News/9716124/Belgium-sells-191-billion-euros-Aug-2027-T-bills-at-2765-yield-bc-180.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 3,
-          "headline_zh": "德國發行5年期聯邦債券，得標殖利率升至2.93%",
-          "summary_zh": "德國拍賣5年期聯邦債券（Bobl），得標殖利率由前次的2.89%升至2.93%，投標倍數維持在1.5，反映歐洲債券市場對歐洲央行利率維持高位更久（Higher for longer）的預期。",
+          "headline_zh": "德國發行5年期政府債券Bobls 得標利率升至2.93%",
+          "summary_zh": "德國拍賣5年期Bobls債券，得標利率由前次的2.89%上升至2.93%，投標倍數維持在1.5。",
           "event_time": "2026-08-11T17:31:05+08:00",
           "source_id": "9ea55d7e8954209a5803c9e8ad41750ba6fe5ae15248481b6ac5694a2f5e8250",
           "source_detail": {
@@ -57,8 +71,22 @@
       "news": [
         {
           "importance_score": 4,
-          "headline_zh": "Google皮查伊表示Gemini月活躍用戶突破10億，為成長最快產品",
-          "summary_zh": "Google（Alphabet）執行長皮查伊（Sundar Pichai）證實，旗下AI模型Gemini月活躍用戶已突破10億人，為公司歷史上使用者成長最快的產品，展現強勁的商業化推動力。",
+          "headline_zh": "美參議員桑德斯致信OpenAI、Anthropic及Meta CEO 要求暫停AI開發",
+          "summary_zh": "桑德斯（Sanders）警告AI發展可能帶來的社會風險，若科技巨頭不主動暫停開發，美國國會將會介入監管。",
+          "event_time": "2026-08-12T04:09:18+08:00",
+          "source_id": "224b76580d85ba7b5fcaa1acec65e2799945a9d66d00d73e5c2bb4a4b7ad62fe",
+          "source_detail": {
+            "id": "224b76580d85ba7b5fcaa1acec65e2799945a9d66d00d73e5c2bb4a4b7ad62fe",
+            "time": "2026-08-12T04:09:18+08:00",
+            "headline": "Senator Sanders calls on AI companies to pause development, sends letter to OpenAI, Anthropic and Meta CEOs - NYT $META",
+            "link": "https://www.financialjuice.com/News/9716947/Senator-Sanders-calls-on-AI-companies-to-pause-development-sends-letter-to-OpenAI-Anthropic-and-Meta-CEOs---NYT-META.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "Google皮查伊：Gemini月活躍用戶突破10億人 為成長最快產品",
+          "summary_zh": "Alphabet旗下的Google執行長皮查伊（Pichai）宣布Gemini用戶數達到新里程碑，反映生成式AI強勁的應用需求。",
           "event_time": "2026-08-12T01:42:05+08:00",
           "source_id": "2cf57e555cb3099da05ea504bc187d71a7097c5484167cf19d91b8361c0602af",
           "source_detail": {
@@ -71,8 +99,8 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "台積電董事會核准294.4億美元資本支出，索尼預計投資合資企業約4650億日圓",
-          "summary_zh": "台積電（TSMC）董事會通過高達294.4億美元資本支出預算，用於先進製程與封裝產能擴充。同時，台積電預計出資約2820億日圓，聯合索尼（Sony）等夥伴生產下一代影像感測器，該合資企業預計2029年量產。",
+          "headline_zh": "台積電董事會核准約294.4億美元資本支出 並擴大日本合資事業",
+          "summary_zh": "台積電（TSMC）批准巨額資本支出，並計畫出資約2,820億日圓與索尼（Sony）等夥伴合作研發次世代影像感測器，預計2029年量產。",
           "event_time": "2026-08-11T17:34:46+08:00",
           "source_id": "e69246a91f93c6a30bd4e73ab26acb181e12c02d0dadcc1b93165d09f5472b73",
           "source_detail": {
@@ -85,22 +113,22 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "Anthropic推動首次公開募股計畫，擬進一步拓展醫療與生物學領域",
-          "summary_zh": "據《華爾街日報》（WSJ）報導，AI獨角獸Anthropic正會見潛在投資者，為預計於9月或10月初進行的IPO（首次公開募股）鋪路，並向投資人表明將營運觸角進一步延伸至醫療與生物科學領域。",
-          "event_time": "2026-08-11T09:01:11+08:00",
-          "source_id": "aa62176b614ef076c789199f71f2a25cd55a7011f588b7effa3e622f542a609b",
+          "headline_zh": "Anthropic與雲端運算公司Riot達成90億美元合作協議",
+          "summary_zh": "AI巨頭Anthropic進一步擴充算力基礎設施，並傳出正積極會見潛在投資人，為今年9月或10月初的IPO鋪路。",
+          "event_time": "2026-08-11T08:11:23+08:00",
+          "source_id": "5b28a0490155c851f6af691c365a742868694bcb89263ab15bf450915b986330",
           "source_detail": {
-            "id": "aa62176b614ef076c789199f71f2a25cd55a7011f588b7effa3e622f542a609b",
-            "time": "2026-08-11T09:01:11+08:00",
-            "headline": "Anthropic is meeting with potential investors to boost confidence ahead of IPO expected in September or early October: WSJ",
-            "link": "https://www.financialjuice.com/News/9715505/Anthropic-is-meeting-with-potential-investors-to-boost-confidence-ahead-of-IPO-expected-in-September-or-early-October-WSJ.aspx?xy=rss",
+            "id": "5b28a0490155c851f6af691c365a742868694bcb89263ab15bf450915b986330",
+            "time": "2026-08-11T08:11:23+08:00",
+            "headline": "Anthropic seals $9 billion agreement with cloud computing company Riot",
+            "link": "https://www.financialjuice.com/News/9715461/Anthropic-seals-9-billion-agreement-with-cloud-computing-company-Riot.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 3,
-          "headline_zh": "亞馬遜AWS開放 qualified 客戶於 Amazon Bedrock 存取 OpenAI Daybreak 模型",
-          "summary_zh": "亞馬遜（Amazon）宣布， qualified 客戶現可在 Amazon Bedrock 平台上正式存取 OpenAI 最新推出的 Daybreak 模型，進一步擴大雲端 AI 生態系競爭力。",
+          "headline_zh": "亞馬遜 Bedrock 平台上架 OpenAI Daybreak 模型",
+          "summary_zh": "亞馬遜（Amazon）宣布符合資格的客戶即日起可在Amazon Bedrock網站上存取OpenAI的新模型服務。",
           "event_time": "2026-08-12T05:50:14+08:00",
           "source_id": "791117181113dd937d19251cd89444a6b9f8c84160d1f7677429c3c7675dc2fd",
           "source_detail": {
@@ -113,8 +141,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "甲骨文據報計畫本月進行新一輪裁員，並即將預覽OCI量子服務",
-          "summary_zh": "據知情人士透露，甲骨文（Oracle）已制定新一輪裁員計畫並預計於本月執行；同時，公司計畫於未來幾個月推出 OCI Quantum 量子雲端服務預覽。",
+          "headline_zh": "甲骨文擬於本月進行新一輪裁員 並將推出OCI量子服務 preview",
+          "summary_zh": "甲骨文（Oracle）一方面計畫縮減人力成本，另一方面積極拓展前瞻技術，預告將推出雲端量子計算服務。",
           "event_time": "2026-08-12T04:06:03+08:00",
           "source_id": "acd3459e517d3c4b018688c6516aaddc2e9b630de3757425cad984f0752dbcc3",
           "source_detail": {
@@ -127,8 +155,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "IBM與輝達合作，將於IBM Cloud部署NVIDIA HGX B300伺服器集群",
-          "summary_zh": "IBM宣布將在IBM Cloud上部署輝達（NVIDIA）HGX B300晶片集群，以滿足企業客戶日益增長的高效能AI算力需求，深化雙方在企業級AI基礎設施的結盟。",
+          "headline_zh": "IBM Cloud將部署英偉達HGX B300晶片集群",
+          "summary_zh": "IBM宣布將在雲端平台導入英偉達（Nvidia）最新晶片，持續加碼AI雲端運算服務能力。",
           "event_time": "2026-08-11T20:01:54+08:00",
           "source_id": "be856f6e350e4f02468b3703b2b343bc9818e5829095e5a1c68d5342a1e009ba",
           "source_detail": {
@@ -141,8 +169,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "River AI完成11億美元新一輪融資，輝達與超微投資部門參投",
-          "summary_zh": "新創公司River AI在由General Catalyst和Amp PBC領投的融資中籌集了11億美元，輝達（NVIDIA）與超微（AMD）旗下的風險投資部門亦參與本輪投資。",
+          "headline_zh": "River AI完成11億美元融資 英偉達與AMD風險投資基金參投",
+          "summary_zh": "AI初創公司River AI獲得由General Catalyst領投的新一輪融資，晶片雙雄英偉達（Nvidia）與超微（AMD）旗下的創投基金亦加入投資。",
           "event_time": "2026-08-11T19:31:57+08:00",
           "source_id": "dc9ed5b083f25525cac16c579f278befbe01c66ec7acd2a6d178e7b097f84d5d",
           "source_detail": {
@@ -160,8 +188,8 @@
       "news": [
         {
           "importance_score": 5,
-          "headline_zh": "澳洲央行維持基準利率於4.35%不變，主席布洛克警告不排除繼續升息",
-          "summary_zh": "澳洲央行（RBA）政策委員會一致決議將現金利率目標維持在4.35%不變。主席布洛克（Michele Bullock）表示通膨居高不下且具上行風險，經濟仍處於產出過剩狀態，若有需要仍會毫不猶豫升息，會議中並未討論降息選項。",
+          "headline_zh": "澳洲聯邦儲備銀行維持利率於4.35%不變 總裁布洛克重申不排除升息",
+          "summary_zh": "澳洲央行（RBA）決議維持基準利率於4.35%。總裁布洛克（Bullock）表示會議僅討論升息或按兵不動，通膨仍有上行風險，若有需要將再次升息。",
           "event_time": "2026-08-11T12:30:06+08:00",
           "source_id": "89dbc6ce2b107b134e615b2393feda027cdf402d89f4ee97ebefa8d696d40a2c",
           "source_detail": {
@@ -174,8 +202,22 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "美聯儲古爾斯比：通膨仍是當前經濟最大挑戰，勞動力市場維持穩定",
-          "summary_zh": "芝加哥聯邦準備銀行總裁古爾斯比（Austan Goolsbee）表示，美國經濟目前面臨的最大問題是通膨。只要消費者支出保持健康，經濟就能維持成長，勞動力市場目前處於穩定狀態。",
+          "headline_zh": "「新美聯儲通訊社」：7月CPI數據對評估美聯儲是否能避免進一步緊縮至關重要",
+          "summary_zh": "華爾街日報記者Nick Timiraos撰文表示，美聯儲官員正密切觀察7月通膨數據，以尋求通膨回落至2%目標的確鑿證據。",
+          "event_time": "2026-08-12T01:48:45+08:00",
+          "source_id": "891c8f6dd05772a4931a7d95ed0632ff6379a3f6b09241226d7faf08bb5fd230",
+          "source_detail": {
+            "id": "891c8f6dd05772a4931a7d95ed0632ff6379a3f6b09241226d7faf08bb5fd230",
+            "time": "2026-08-12T01:48:45+08:00",
+            "headline": "WSJ's Nick Timiraos: July CPI monthly inflation readings will be closely watched as more Fed officials look for evidence that inflation can return to 2% without further tightening.",
+            "link": "https://www.financialjuice.com/News/9716781/WSJs-Nick-Timiraos-July-CPI-monthly-inflation-readings-will-be-closely-watched-as-more-Fed-officials-look-for-evidence-that-inflation-can-return-to-2-without-further-tightening.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "美聯儲官員古爾斯比：通膨是當前經濟最大問題 消費者強韌支撐經濟",
+          "summary_zh": "芝加哥聯儲主席古爾斯比（Goolsbee）指出勞動力市場穩定但談不上強勁，只要消費者支出健康，美國經濟就能維持成長。",
           "event_time": "2026-08-12T00:17:04+08:00",
           "source_id": "b803cfbde06ee4ba4a1f7bb438e78d737c80bb21bb3ddeb91cea77e3d77245a5",
           "source_detail": {
@@ -188,22 +230,22 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "美聯儲官員維納布爾：通膨率依然過高，地緣衝突將決定價格壓力走勢",
-          "summary_zh": "亞特蘭大聯邦準備銀行官員維納布爾（Venable）指出，當前通膨壓力依然太高，就業市場則大致穩定。未來幾個月物價壓力能否緩解，高度取決於中東衝突的最終演變。",
-          "event_time": "2026-08-11T22:35:25+08:00",
-          "source_id": "78b007e385c9fdbdb1e7ac3bfeae3f68982416dc16faa0b30845988862ec3e6d",
+          "headline_zh": "美聯儲官員韋納布爾：通膨依然過高 政策走向取決於中東衝突發展",
+          "summary_zh": "亞特蘭大聯儲官員韋納布爾（Venable）表示，價格壓力是否消退很大程度上取決於中東局勢，就業市場目前保持大體穩定。",
+          "event_time": "2026-08-11T22:36:58+08:00",
+          "source_id": "d0d9b7e536f98dcc928c90bab178582e268856e2c3979c1f24a5e5dd61e6c009",
           "source_detail": {
-            "id": "78b007e385c9fdbdb1e7ac3bfeae3f68982416dc16faa0b30845988862ec3e6d",
-            "time": "2026-08-11T22:35:25+08:00",
-            "headline": "Atlanta Fed's Venable: Inflation is too high, with the same message heard from contacts across the southeast",
-            "link": "https://www.financialjuice.com/News/9716544/Atlanta-Feds-Venable-Inflation-is-too-high-with-the-same-message-heard-from-contacts-across-the-southeast.aspx?xy=rss",
+            "id": "d0d9b7e536f98dcc928c90bab178582e268856e2c3979c1f24a5e5dd61e6c009",
+            "time": "2026-08-11T22:36:58+08:00",
+            "headline": "Fed's Venable: Central question is whether price pressures will recede in coming months, with much depending on the outcome of the Middle East conflict.",
+            "link": "https://www.financialjuice.com/News/9716545/Feds-Venable-Central-question-is-whether-price-pressures-will-recede-in-coming-months-with-much-depending-on-the-outcome-of-the-Middle-East-conflict.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
-          "importance_score": 4,
-          "headline_zh": "韓國央行高級副總裁柳相大：韓國仍有額外升息的空間與必要",
-          "summary_zh": "韓國央行（Bank of Korea）高級副總裁柳相大（Ryoo Sang-dai）公開表示，考量到通膨壓力與匯率波動，韓國央行未來將會有追加升息的行動。",
+          "importance_score": 3,
+          "headline_zh": "韓國央行高級副總裁劉相大：韓國仍有額外升息空間",
+          "summary_zh": "韓國央行（BOK）副總裁表明偏鷹派立場，指出因應潛在物價風險，未來不排除進一步調整利率。",
           "event_time": "2026-08-11T14:00:57+08:00",
           "source_id": "1bd30f1ead8f2f472604bfded7ae73e8014cd5fcad2cc247baa80fb12c58e289",
           "source_detail": {
@@ -216,8 +258,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "新加坡金管局官員：當前貨幣政策立場依然適宜",
-          "summary_zh": "新加坡金融管理局（MAS）官員發表聲明指出，考量到全球經濟情勢與國內通膨動向，目前緊縮的貨幣政策設定依然相當適宜。",
+          "headline_zh": "新加坡金融管理局官員：當前貨幣政策立場依然適宜",
+          "summary_zh": "新加坡央行（MAS）官員確認維持現有貨幣政策，暫無立即調整政策區間的必要。",
           "event_time": "2026-08-11T08:41:53+08:00",
           "source_id": "a71c160bdf46671bdd8679d96dedfea69509db8397177cc093fdac7fd7a2b18f",
           "source_detail": {
@@ -235,22 +277,22 @@
       "news": [
         {
           "importance_score": 4,
-          "headline_zh": "美國財政部長貝森特讚揚Meta發布Muse Glimmer，強調維護美AI領導地位",
-          "summary_zh": "美國財政部長貝森特（Scott Bessent）發表聲明，對Meta發布Muse Glimmer模型表示歡迎，並強調維持美國在AI領域的全球領導地位意味著必須同時推進開源與閉源模型，確保技術基礎安全可靠。",
-          "event_time": "2026-08-12T03:08:07+08:00",
-          "source_id": "b878d4214a797f0181528f1942dd38014f5303f650322bbd58421239ee8e4522",
+          "headline_zh": "美國財長貝森特：維持美國AI領先地位需兼顧開源與閉源模型",
+          "summary_zh": "美國財政部長貝森特（Bessent）讚揚Meta推出 Muse Glimmer 開源模型，強調美國政策將繼續支持技術創新以確保戰略競爭力。",
+          "event_time": "2026-08-12T03:08:31+08:00",
+          "source_id": "dac23602a028f8f2f76584e4091b90cfc33eae35725a903fbd54178a2d19bf48",
           "source_detail": {
-            "id": "b878d4214a797f0181528f1942dd38014f5303f650322bbd58421239ee8e4522",
-            "time": "2026-08-12T03:08:07+08:00",
-            "headline": "US Treasury Secretary Bessent: We welcome Meta’s release of Muse Glimmer $META",
-            "link": "https://www.financialjuice.com/News/9716890/US-Treasury-Secretary-Bessent-We-welcome-Metas-release-of-Muse-Glimmer-META.aspx?xy=rss",
+            "id": "dac23602a028f8f2f76584e4091b90cfc33eae35725a903fbd54178a2d19bf48",
+            "time": "2026-08-12T03:08:31+08:00",
+            "headline": "US Treasury Secretary Bessent: Sustaining US leadership in AI means advancing both open- and closed-weight models, ensuring the future is built on trusted foundations.",
+            "link": "https://www.financialjuice.com/News/9716891/US-Treasury-Secretary-Bessent-Sustaining-US-leadership-in-AI-means-advancing-both-open--and-closed-weight-models-ensuring-the-future-is-built-on-trusted-foundations.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 4,
-          "headline_zh": "加拿大美加貿易部長會見美國貿易代表格里爾，磋商潛在貿易協議",
-          "summary_zh": "加拿大負責美加貿易關係的部長於華府會見美國貿易代表（USTR）格里爾（Greer）。雙方官員正制定一項潛在貿易協議草案，預計於下周提交予美國總統川普（Donald Trump）。",
+          "headline_zh": "美加貿易官員密會 擬定貿易協議框架準備提交川普",
+          "summary_zh": "加拿大負責對美貿易關係部長與美國貿易代表（USTR）格里爾（Greer）會面談判，擬定可行協議以避免新一輪關稅升級。",
           "event_time": "2026-08-12T00:54:19+08:00",
           "source_id": "dbb86108401e9d465071d8b1d9c1cbe4287cc7bf8f2acf3b575652f4e68f699a",
           "source_detail": {
@@ -263,22 +305,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "美國參議員桑德斯呼籲AI巨頭暫緩開發，致函OpenAI、Anthropic與Meta執行長",
-          "summary_zh": "美國參議員桑德斯（Bernie Sanders）公開要求頂尖AI公司暫緩先進模型的開發，並已致函OpenAI、Anthropic及Meta執行長，主張政府應優先制定相關監管法規。",
-          "event_time": "2026-08-12T04:09:18+08:00",
-          "source_id": "224b76580d85ba7b5fcaa1acec65e2799945a9d66d00d73e5c2bb4a4b7ad62fe",
-          "source_detail": {
-            "id": "224b76580d85ba7b5fcaa1acec65e2799945a9d66d00d73e5c2bb4a4b7ad62fe",
-            "time": "2026-08-12T04:09:18+08:00",
-            "headline": "Senator Sanders calls on AI companies to pause development, sends letter to OpenAI, Anthropic and Meta CEOs - NYT $META",
-            "link": "https://www.financialjuice.com/News/9716947/Senator-Sanders-calls-on-AI-companies-to-pause-development-sends-letter-to-OpenAI-Anthropic-and-Meta-CEOs---NYT-META.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "哥倫比亞財政部長：強震後將宣布國家經濟緊急狀態",
-          "summary_zh": "哥倫比亞財政部長戈梅斯（Gomez）表示，在遭受嚴重地震災害後，政府將宣布進入經濟緊急狀態以調配財政資源進行救災與重建。",
+          "headline_zh": "哥倫比亞政府因震災與經濟危機宣告進入經濟緊急狀態",
+          "summary_zh": "哥倫比亞財政部長戈麥斯（Gomez）警告該國正面臨歷史上最嚴重的經濟危機，政府將採取緊急財政措施應對。",
           "event_time": "2026-08-12T01:38:31+08:00",
           "source_id": "4274b48afee35df062595d76de469fc66b4a6c42afa3ccb5a64a2df122f725e6",
           "source_detail": {
@@ -288,6 +316,20 @@
             "link": "https://www.financialjuice.com/News/9716770/Colombia-Finance-Minister-Colombia-to-declare-economic-emergency-after-quake.aspx?xy=rss",
             "source": "FinancialJuice"
           }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "英國大曼徹斯特市長伯納姆敦促加速執行司法基礎設施計畫",
+          "summary_zh": "伯納姆（Burnham）要求司法大臣加快監獄容量擴建計畫，反映英國財政支出與公共服務緊繃的壓力。",
+          "event_time": "2026-08-11T17:55:05+08:00",
+          "source_id": "6e1a8d2e37713bf6efccac55c76e73563c69482f5fdfd6eceec9ef5e75358684",
+          "source_detail": {
+            "id": "6e1a8d2e37713bf6efccac55c76e73563c69482f5fdfd6eceec9ef5e75358684",
+            "time": "2026-08-11T17:55:05+08:00",
+            "headline": "Burnham urges UK justice secretary to accelerate prison capacity plan",
+            "link": "https://www.financialjuice.com/News/9716153/Burnham-urges-UK-justice-secretary-to-accelerate-prison-capacity-plan.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
         }
       ]
     },
@@ -295,23 +337,37 @@
       "category": "經濟",
       "news": [
         {
-          "importance_score": 3,
-          "headline_zh": "美國能源資訊署EIA報告：中產油國減產擾動預計持續至2027年底",
-          "summary_zh": "美國能源資訊署（EIA）發布8月短期能源展望（STEO），預計中東地區原油產量每日約60萬桶的持續中斷影響將延續至2027年底。",
-          "event_time": "2026-08-12T00:17:25+08:00",
-          "source_id": "a6663878988207584f2291db0a3ce10f8084b7f19d1aa574199edc420337f1bf",
+          "importance_score": 4,
+          "headline_zh": "美國7月成屋銷售按月下降1.7% 年化總數為406萬戶",
+          "summary_zh": "美國成屋銷售表現低於預期，顯示高房貸利率與高房價持續對美國房市成交量構成顯著抑制。",
+          "event_time": "2026-08-11T22:00:00+08:00",
+          "source_id": "88f0411f7dc23b649ef77d251a799673b41521cb3205c9ca1182348dbef7b083",
           "source_detail": {
-            "id": "a6663878988207584f2291db0a3ce10f8084b7f19d1aa574199edc420337f1bf",
-            "time": "2026-08-12T00:17:25+08:00",
-            "headline": "EIA expects ongoing disruptions to Mideast crude output of about 600k BPD to continue through end of 2027.",
-            "link": "https://www.financialjuice.com/News/9716689/EIA-expects-ongoing-disruptions-to-Mideast-crude-output-of-about-600k-BPD-to-continue-through-end-of-2027.aspx?xy=rss",
+            "id": "88f0411f7dc23b649ef77d251a799673b41521cb3205c9ca1182348dbef7b083",
+            "time": "2026-08-11T22:00:00+08:00",
+            "headline": "US Existing Home Sales change Actual -1.7% (Forecast -1%, Previous -2.4%)",
+            "link": "https://www.financialjuice.com/News/9716474/US-Existing-Home-Sales-change-Actual--17-Forecast--1-Previous--24.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "韓國8月前10天出口額強勁成長45.3% 半導體與貿易順差雙放量",
+          "summary_zh": "韓國海關數據顯示8月1-10日出口同比大增45.3%，實現貿易順差18億美元，為全球科技供應鏈需求復甦提供有力佐證。",
+          "event_time": "2026-08-11T08:00:03+08:00",
+          "source_id": "9302907e0f5d56b17c3a16f161c8229c3099ab1df9ab107b38c72cf79c82b4f6",
+          "source_detail": {
+            "id": "9302907e0f5d56b17c3a16f161c8229c3099ab1df9ab107b38c72cf79c82b4f6",
+            "time": "2026-08-11T08:00:03+08:00",
+            "headline": "S.Korea Aug 1-10 exports rise 45.3% y/y: customs agency",
+            "link": "https://www.financialjuice.com/News/9715456/SKorea-Aug-1-10-exports-rise-453-yy-customs-agency.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 3,
-          "headline_zh": "紐約聯邦準備銀行：美國第二季家庭債務總額微降0.1%，信用卡與車貸違約率趨穩",
-          "summary_zh": "紐約聯邦準備銀行報告顯示，美國第二季家庭債務總額微降0.1%至18.8兆美元，其中汽車貸款達到創紀錄的2110億美元。經濟學家指出信用卡違約率已逐漸趨穩。",
+          "headline_zh": "紐約聯儲報告：美家庭債務達18.8兆美元 汽車貸款創新高",
+          "summary_zh": "紐約聯儲第二季報告顯示美家庭債務微降0.1%，但汽車貸款與信用卡欠款持續增加，整體違約率小幅改善至4.7%。",
           "event_time": "2026-08-11T23:00:30+08:00",
           "source_id": "b59bf6ef64ffd29a4c79433348f1cb6f955b6056044e6cf6060b9f9fdbb24f07",
           "source_detail": {
@@ -324,22 +380,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "美國7月成屋銷售小幅下降1.7%，年化總數為406萬戶",
-          "summary_zh": "美國7月成屋銷售年化總數為406萬戶（預期405萬戶），月減1.7%，顯示高房貸利率對美國房市交易量持續構成壓抑壓力。",
-          "event_time": "2026-08-11T22:00:00+08:00",
-          "source_id": "52d3a23d68723279cae88597a72def99a86349aa08a43882530aca1792d543d8",
-          "source_detail": {
-            "id": "52d3a23d68723279cae88597a72def99a86349aa08a43882530aca1792d543d8",
-            "time": "2026-08-11T22:00:00+08:00",
-            "headline": "US Existing Home Sales Actual 4.06M (Forecast 4.05M, Previous 4.09M, Revised 4.13M)",
-            "link": "https://www.financialjuice.com/News/9716475/US-Existing-Home-Sales-Actual-406M-Forecast-405M-Previous-409M-Revised-413M.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "美國7月小型企業信心指數升至99.8，優於市場預期",
-          "summary_zh": "美國全美獨立企業聯盟（NFIB）公布7月小型企業信心指數由前值的97.4升至99.8，高於市場預期的97.5，反映中小企業對營運前景信心有所回升。",
+          "headline_zh": "美國NFIB中小企業信心指數升至99.8 超出預期",
+          "summary_zh": "美國7月NFIB中小企業信心指數表現強勁（前值97.4），顯示企業對經濟前景與營運環境的樂觀程度上升。",
           "event_time": "2026-08-11T18:00:00+08:00",
           "source_id": "a5bd386e8f8c66a5a44e6b897d3d9d38bcbec52c5b104059fa63ecfe4903981f",
           "source_detail": {
@@ -351,16 +393,16 @@
           }
         },
         {
-          "importance_score": 2,
-          "headline_zh": "英國7月BRC同店零售銷售同比增長1.0%",
-          "summary_zh": "英國零售商協會（BRC）數據顯示，7月同店零售銷售年增率由6月的1.7%降至1.0%，顯示英國消費者在生活成本壓力下支出態度轉趨審慎。",
-          "event_time": "2026-08-11T07:01:00+08:00",
-          "source_id": "37cd1bc799f2c925418c5d52e6c9eda06d54e1bdc36d944f5c3eee2a406d8988",
+          "importance_score": 3,
+          "headline_zh": "澳洲NAB 7月商業狀況指數微升至+4 信心指數維持在-6",
+          "summary_zh": "澳洲國民銀行（NAB）調查顯示當地商業狀況微幅改善，但受利率高企與成本壓力影響，企業信心仍處於負值區域。",
+          "event_time": "2026-08-11T09:30:03+08:00",
+          "source_id": "05966793b1184645313cf5e0155f5da4778ff278c5ef2f9f1f69f586b2cee698",
           "source_detail": {
-            "id": "37cd1bc799f2c925418c5d52e6c9eda06d54e1bdc36d944f5c3eee2a406d8988",
-            "time": "2026-08-11T07:01:00+08:00",
-            "headline": "UK BRC Retail Sales YoY Actual 1% (Forecast 1.5%, Previous 1.7%)",
-            "link": "https://www.financialjuice.com/News/9715398/UK-BRC-Retail-Sales-YoY-Actual-1-Forecast-15-Previous-17.aspx?xy=rss",
+            "id": "05966793b1184645313cf5e0155f5da4778ff278c5ef2f9f1f69f586b2cee698",
+            "time": "2026-08-11T09:30:03+08:00",
+            "headline": "Australia July business conditions index rises to +4 from +3 in June: NAB",
+            "link": "https://www.financialjuice.com/News/9715529/Australia-July-business-conditions-index-rises-to-4-from-3-in-June-NAB.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -371,8 +413,8 @@
       "news": [
         {
           "importance_score": 5,
-          "headline_zh": "美軍於荷姆茲海峽擊中試圖突破封鎖之巴拿馬籍貨輪舵機",
-          "summary_zh": "美軍中央司令部（CENTCOM）證實，美軍直升機發射武器破壞了違反美國封鎖禁令、試圖開往伊朗港口的巴拿馬籍貨輪 M/V Vela Nova 的舵機，使其無法繼續航向伊朗。",
+          "headline_zh": "美軍於伊朗封鎖區對巴拿馬籍貨輪開火 擊毀轉向系統遏止通行",
+          "summary_zh": "美軍中央司令部（CENTCOM）證實，因該貨輪忽視警告試圖前往伊朗港口，直升機開火癱瘓其轉向裝置，成功阻斷其違反美國封鎖令的行程。",
           "event_time": "2026-08-12T02:58:14+08:00",
           "source_id": "7535a5b668fa8cce7217a7e414cd6e6b2c9fed822ba2b05d09f425e8f6c6e0c0",
           "source_detail": {
@@ -385,8 +427,8 @@
         },
         {
           "importance_score": 5,
-          "headline_zh": "伊朗最高領袖顧問穆赫貝爾：在訴求獲得滿足前不會開放荷姆茲海峽",
-          "summary_zh": "伊朗最高領袖顧問穆赫貝爾（Mokhbar）於社交平台發文強調，在伊朗提出的條件獲得美國滿足之前，荷姆茲海峽將不會重新開放。伊朗前官員雷扎伊（Rezai）則補充要求美方結束戰爭並釋放被凍結資金。",
+          "headline_zh": "伊朗最高領袖顧問穆赫巴爾：未滿足條件前絕不重新開放荷姆茲海峽",
+          "summary_zh": "伊朗高層重申強硬立場，要求美國必須停止戰爭並解凍伊朗資產，否則荷姆茲海峽將保持封鎖狀態。",
           "event_time": "2026-08-11T23:28:01+08:00",
           "source_id": "7786a1a904127f1679bbd7139f5996503ec4c333979de5b85784db388e4808eb",
           "source_detail": {
@@ -399,36 +441,78 @@
         },
         {
           "importance_score": 5,
-          "headline_zh": "川普表示美國已完全控制伊朗資金，並具備充分能力給予嚴厲打擊",
-          "summary_zh": "美國總統川普接受《美國之音》（VOA）專訪時表示，美國完全控制了伊朗的資金，且美國並不缺乏飛彈彈藥，有能力對伊朗實施非常強烈的打擊。",
-          "event_time": "2026-08-11T22:18:29+08:00",
-          "source_id": "fc84cd0f5f8225c5197d3a124bdf427545acb49df153bf38f4c9c5012441f8e3",
+          "headline_zh": "川普：美國控制伊朗資金且飛彈彈藥充足 必要時可給予重擊",
+          "summary_zh": "美國總統川普（Trump）受訪時對伊朗發出強烈警告，宣稱美軍擁有充分的軍事能力與資金控制權來壓制伊朗。",
+          "event_time": "2026-08-11T22:19:18+08:00",
+          "source_id": "ecb5afa119b2d9b67007779f7f7a0c383147032ae3bb6313e5bbd6979d834d04",
           "source_detail": {
-            "id": "fc84cd0f5f8225c5197d3a124bdf427545acb49df153bf38f4c9c5012441f8e3",
-            "time": "2026-08-11T22:18:29+08:00",
-            "headline": "Trump: We control Iran's money and have complete control over it - Voice of America Interview",
-            "link": "https://www.financialjuice.com/News/9716533/Trump-We-control-Irans-money-and-have-complete-control-over-it---Voice-of-America-Interview.aspx?xy=rss",
+            "id": "ecb5afa119b2d9b67007779f7f7a0c383147032ae3bb6313e5bbd6979d834d04",
+            "time": "2026-08-11T22:19:18+08:00",
+            "headline": "Trump: The US has no shortage of missile munitions. We can hit Iran very hard - Voice of America Interview",
+            "link": "https://www.financialjuice.com/News/9716534/Trump-The-US-has-no-shortage-of-missile-munitions-We-can-hit-Iran-very-hard---Voice-of-America-Interview.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 5,
-          "headline_zh": "卡達外交部發言人：阿曼與伊朗間的美伊和平斡旋談判已進入高級階段",
-          "summary_zh": "卡達外交部發言人表示，阿曼作為主要調解人促進美伊兩國談判已取得實質進展，目前談判進入高級階段，並已收到兩國積極回應。巴基斯坦亦稱美伊非常接近達成某種和平安排。",
-          "event_time": "2026-08-11T18:23:06+08:00",
-          "source_id": "33853f7fbefe77f0e684f1f0994ee90b7e7f9749810a29189c4aaac34f6d3dbb",
+          "headline_zh": "巴基斯坦與卡達官員：美伊談判進入高級階段 接近達成和平安排",
+          "summary_zh": "巴基斯坦內政部長抵達德黑蘭調停，卡達外交部亦證實阿曼與伊朗的間接斡旋取得積極進展，美伊雙方對談判反饋正面。",
+          "event_time": "2026-08-11T20:09:35+08:00",
+          "source_id": "583fd894cad8712a991940da107bfcda7d690a05e6dde4d1b0e49615e0a372b7",
           "source_detail": {
-            "id": "33853f7fbefe77f0e684f1f0994ee90b7e7f9749810a29189c4aaac34f6d3dbb",
-            "time": "2026-08-11T18:23:06+08:00",
-            "headline": "Qatar's foreign ministry spokesperson: Negotiations between Oman and Iran are now in an advanced stage",
-            "link": "https://www.financialjuice.com/News/9716201/Qatars-foreign-ministry-spokesperson-Negotiations-between-Oman-and-Iran-are-now-in-an-advanced-stage.aspx?xy=rss",
+            "id": "583fd894cad8712a991940da107bfcda7d690a05e6dde4d1b0e49615e0a372b7",
+            "time": "2026-08-11T20:09:35+08:00",
+            "headline": "Pakistan: US-Iran are close to some arrangement on peace.",
+            "link": "https://www.financialjuice.com/News/9716337/Pakistan-US-Iran-are-close-to-some-arrangement-on-peace.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 4,
-          "headline_zh": "北韓向日本海方向發射短程彈道飛彈，已落於日本專屬經濟區之外",
-          "summary_zh": "南韓軍方與日本海上保安廳證實，北韓發射了一枚疑似短程彈道飛彈的飛行物，該飛彈隨後落入日本專屬經濟區（EEZ）以外的海域。",
+          "headline_zh": "胡塞組織於曼德海峽攻擊沙烏地運軍備船隻 並砲轟沙烏地指揮部",
+          "summary_zh": "葉門胡塞組織宣稱在曼德海峽及馬里卜省針對沙烏地軍力集中點、武器庫及指揮部發動多起飛彈與無人機襲擊。",
+          "event_time": "2026-08-12T03:13:56+08:00",
+          "source_id": "960b3ea57bdcc996f59c1c3b1fe29a7339b4553a7fb8fcb0e86eb4af8e807e2d",
+          "source_detail": {
+            "id": "960b3ea57bdcc996f59c1c3b1fe29a7339b4553a7fb8fcb0e86eb4af8e807e2d",
+            "time": "2026-08-12T03:13:56+08:00",
+            "headline": "Yemen Houthi Spokesperson: Yemeni armed forces targeted Saudi troop concentrations, weapons depots and command headquarters in Al-Makha and Marib Governorate - Post on X",
+            "link": "https://www.financialjuice.com/News/9716893/Yemen-Houthi-Spokesperson-Yemeni-armed-forces-targeted-Saudi-troop-concentrations-weapons-depots-and-command-headquarters-in-Al-Makha-and-Marib-Governorate---Post-on-X.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "伊朗核問題將成為談判複雜焦點 伊朗內部對核權益呼聲高漲",
+          "summary_zh": "伊朗國家安全委員會官員指出，核議題已成為國內核心訴求，這將使美伊之間的協商談判變得極為艱難。",
+          "event_time": "2026-08-12T01:44:26+08:00",
+          "source_id": "d38f5ef16f7565b2417789475d0f13a42ecbc6e438cebeae01e3564370da2d8d",
+          "source_detail": {
+            "id": "d38f5ef16f7565b2417789475d0f13a42ecbc6e438cebeae01e3564370da2d8d",
+            "time": "2026-08-12T01:44:26+08:00",
+            "headline": "Iran National Security Committee's Azizi on nuclear issue: Negotiating about it will be very difficult.",
+            "link": "https://www.financialjuice.com/News/9716774/Iran-National-Security-Committees-Azizi-on-nuclear-issue-Negotiating-about-it-will-be-very-difficult.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "伊朗革命衛隊警告：若受威脅將打擊能源管道與全球網路基礎設施",
+          "summary_zh": "伊朗伊斯蘭革命衛隊（IRGC）發言人表示波斯灣內已無美軍戰艦，但警告若本土安全遭受攻擊，報復範圍將擴大至全球網路與電力系統。",
+          "event_time": "2026-08-11T23:59:44+08:00",
+          "source_id": "a7c5cdb295abdd710af409fbae7a9e4b81d7b51a0440d3249fba9aab89e0789e",
+          "source_detail": {
+            "id": "a7c5cdb295abdd710af409fbae7a9e4b81d7b51a0440d3249fba9aab89e0789e",
+            "time": "2026-08-11T23:59:44+08:00",
+            "headline": "IRGC Spokesperson: If a threat to Iran arises again, energy pipelines, power plants and global internet infrastructure would be at risk - Fars News",
+            "link": "https://www.financialjuice.com/News/9716648/IRGC-Spokesperson-If-a-threat-to-Iran-arises-again-energy-pipelines-power-plants-and-global-internet-infrastructure-would-be-at-risk---Fars-News.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "北韓向日本海方向發射短程彈道飛彈 落於專屬經濟區外",
+          "summary_zh": "南韓軍方與日本海上保安廳證實北韓再次發射彈道飛彈，顯示東亞地緣政治局勢亦維持高壓狀態。",
           "event_time": "2026-08-12T05:57:11+08:00",
           "source_id": "da281fce150148f7f94ae0db391c099d841e679faacbcec96f61bdf3f4fb432d",
           "source_detail": {
@@ -440,9 +524,9 @@
           }
         },
         {
-          "importance_score": 4,
-          "headline_zh": "烏克蘭總統澤倫斯基向美國談判人員提交結束俄烏戰爭之計劃建議",
-          "summary_zh": "烏克蘭總統澤倫斯基（Volodymyr Zelenskiy）證實，烏方已向美國談判代表遞交了一份完整建議計劃，旨在推動結束與俄羅斯的戰爭。",
+          "importance_score": 3,
+          "headline_zh": "澤倫斯基：烏克蘭已向美國談判代表遞交結束烏俄戰爭建議方案",
+          "summary_zh": "烏克蘭總統澤倫斯基（Zelenskiy）證實已將和平計畫草案轉交美方，尋求外交途徑終結東歐衝突。",
           "event_time": "2026-08-12T02:15:04+08:00",
           "source_id": "23a81f8952d313e0c451d56bd92dccca3775343fc9b8a8c8ede78c044bccbe16",
           "source_detail": {
@@ -452,50 +536,36 @@
             "link": "https://www.financialjuice.com/News/9716806/Ukraines-President-Zelenskiy-Ukraine-has-turned-over-proposals-to-US-negotiators-for-a-plan-to-end-the-war-with-Russia.aspx?xy=1",
             "source": "FinancialJuice"
           }
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "葉門胡塞武裝於曼德海峽襲擊沙烏地軍事運輸船及沙特據點",
-          "summary_zh": "葉門胡塞武裝（Houthis）發言人宣布，於曼德海峽（Bab-el-Mandeb Strait）成功擊中一艘載有沙烏地阿拉伯軍事裝備的船隻，並打擊了位於阿爾莫哈（Al-Makha）與馬里卜（Marib）的沙烏地軍隊集結地與彈藥庫。",
-          "event_time": "2026-08-12T02:00:05+08:00",
-          "source_id": "fc0df81fc5b5c778ec1ab5aba2d51791c109cd2d75a044bd81115b9deb106ba9",
-          "source_detail": {
-            "id": "fc0df81fc5b5c778ec1ab5aba2d51791c109cd2d75a044bd81115b9deb106ba9",
-            "time": "2026-08-12T02:00:05+08:00",
-            "headline": "Yemen's Houthis: Attacked Saudi ship carrying military equipment in Bab el-Mandeb - Houthi-run news agency Saba.",
-            "link": "https://www.financialjuice.com/News/9716784/Yemens-Houthis-Attacked-Saudi-ship-carrying-military-equipment-in-Bab-el-Mandeb---Houthi-run-news-agency-Saba.aspx?xy=1",
-            "source": "FinancialJuice"
-          }
         }
       ]
     }
   ],
   "discarded": {
-    "estimated_count": 18,
+    "estimated_count": 182,
     "reasons": [
-      "中國人民銀行中間價估算（無直接市場影響）",
-      "純價格或無實質內容之短線漲跌（如美元/日圓純漲跌數據）",
-      "重複或無具體數字之央行利率機率統計",
-      "無實質內容之宣示或例行性訪問活動",
-      "市場波動率指標及相關性矩陣等純技術性數據"
+      "刪除人民銀行中間價估計值數據（無市場實質影響）",
+      "刪除純價格漲跌幅與幾何波動率數據（如Correlation Matrix、Implied Volatility等無實質政策新聞項目）",
+      "刪除無具體預期數字之央行利率機率統計新聞（Interest Rate Probabilities）",
+      "刪除非關稅/財政/貨幣政策之常態性官員談話與小國例行經濟數據",
+      "刪除重複、預告性質或缺乏具體實質內容之市場報導"
     ]
   },
-  "generated_at": "2026-08-12T07:00:30.440739+08:00",
+  "generated_at": "2026-08-12T07:40:30.395922+08:00",
   "model": "gemini-3.6-flash",
   "source": "FinancialJuice",
   "input_headline_count": 233,
   "included_headline_count": 233,
   "usage_metadata": {
-    "promptTokenCount": 27326,
-    "candidatesTokenCount": 7143,
-    "totalTokenCount": 41873,
+    "promptTokenCount": 28310,
+    "candidatesTokenCount": 7522,
+    "totalTokenCount": 44588,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 27326
+        "tokenCount": 28310
       }
     ],
-    "thoughtsTokenCount": 7404,
+    "thoughtsTokenCount": 8756,
     "serviceTier": "standard"
   }
 }
