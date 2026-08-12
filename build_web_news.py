@@ -133,7 +133,7 @@ def calculate_display_window(now: datetime) -> tuple[datetime, datetime]:
         start_date.year,
         start_date.month,
         start_date.day,
-        17,
+        5,
         0,
         0,
         tzinfo=TAIPEI_TIMEZONE,
