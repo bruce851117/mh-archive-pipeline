@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-13T07:00:28.385327+08:00",
+  "generated_at": "2026-08-13T07:40:30.430118+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-05-15T07:00:28.385327+08:00",
-  "period_end": "2026-08-13T07:00:28.385327+08:00",
+  "period_start": "2026-05-15T07:40:30.430118+08:00",
+  "period_end": "2026-08-13T07:40:30.430118+08:00",
   "lookback_days": 90,
   "voter_version": "2026-08-06",
   "model": "gemini-3.6-flash",
   "input_headline_count": 879,
-  "talk_count": 156,
+  "talk_count": 154,
   "central_banks": [
     {
       "central_bank": "FED",
@@ -24,7 +24,7 @@
           "talks": [
             {
               "date": "2026-07-30",
-              "summary_zh": "表示經濟具強勁韌性與資本支出增長，若通膨居高不下將傾向緊縮利率以確保2%目標。",
+              "summary_zh": "美聯儲主席 Warsh 強調美聯儲將堅定實現2%物價穩定目標，減少前瞻指引，且若通膨持續偏高，利率仍可能是應對工具。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -102,6 +102,7 @@
                 "989842554ef54d6204d014f1220654c9c05b7a26e50fae8eea39fc36039f5479",
                 "533a46387f0f5343692ff3433adc3b7967b731cfa801bbc0e7e8aadf88070315",
                 "4b263344ffd925af9b567e425ce0c1c8f68ff37a408353183c90a712ad34b62a",
+                "d5bca64bfa31d282342f1b2ab07cfbc714bb2608ce5a5652262626a3ddf214a7",
                 "57ab9809e5297f8b0c447698277305358dbc1ef37ae811de004c0c2c7b86134d",
                 "e19bf409e11c14598673fa0b7359c26c398e776f872a1781ea461eb85c3e6f03",
                 "b93e6a3c7d33ad04e3fe4ce8a4147b28ccfa25260c0584e47ab588f953955833",
@@ -109,8 +110,7 @@
                 "4e8b1c5084968f807d31fea49016766f667d06f56f6d5cf5dfb75c16b772ae49",
                 "83808c731795364faee075bda69617f7eed34612fbeccf9a8c52aa71a80b76fd",
                 "4f76321921b81de3917858bee508768497597682c8f97ab3265d48fa12b1afc5",
-                "443efae82c91885927abf6ab3384dce72adefaa227a337558147b9210a760a6e",
-                "3f6d7fad48300857c3d081009f286ac79fb44f96d4befdae50c74f97254b441e"
+                "443efae82c91885927abf6ab3384dce72adefaa227a337558147b9210a760a6e"
               ],
               "source_headlines": [
                 {
@@ -522,6 +522,12 @@
                   "headline": "Fed's Warsh: It is not a perfect science, but we have a data project to separate noise from signal."
                 },
                 {
+                  "id": "d5bca64bfa31d282342f1b2ab07cfbc714bb2608ce5a5652262626a3ddf214a7",
+                  "time": "2026-07-30T03:07:34+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Warsh: If I look at the Treasury curve, the dollar, what they are broadly saying is the FOMC does own it, has the credibility to deliver."
+                },
+                {
                   "id": "57ab9809e5297f8b0c447698277305358dbc1ef37ae811de004c0c2c7b86134d",
                   "time": "2026-07-30T03:08:39+08:00",
                   "central_bank": "FED",
@@ -568,18 +574,12 @@
                   "time": "2026-07-30T03:14:27+08:00",
                   "central_bank": "FED",
                   "headline": "Fed's Chair Warsh: Between now and the year-end, I am committing to press conferences this year."
-                },
-                {
-                  "id": "3f6d7fad48300857c3d081009f286ac79fb44f96d4befdae50c74f97254b441e",
-                  "time": "2026-07-30T03:15:38+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Warsh ends press conference"
                 }
               ]
             },
             {
               "date": "2026-07-15",
-              "summary_zh": "表示通膨不令人滿意，可能調整利率與縮減資產負債表，AI長期將帶來通膨減緩效果。",
+              "summary_zh": "美聯儲主席 Warsh 表示通膨仍令人不滿意，美聯儲可能調整利率與資產負債表，並傾向維持盡可能小的資產負債表規模。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -602,7 +602,7 @@
             },
             {
               "date": "2026-07-14",
-              "summary_zh": "強調對持續通膨零容忍並重申2%目標，將對政策與資產負債表框架進行全面審視。",
+              "summary_zh": "美聯儲主席 Warsh 表示美聯儲對持續通膨零容忍並重申2%目標，勞動市場具韌性，將檢討政策與資產負債表框架。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -625,7 +625,7 @@
             },
             {
               "date": "2026-07-10",
-              "summary_zh": "重申聯準會對實現物價穩定與充分就業雙重使命的堅定承諾。",
+              "summary_zh": "美聯儲主席 Warsh 表示美聯儲追求物價穩定與最大就業的決心不可動搖，並將嚴格執行。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -648,7 +648,7 @@
             },
             {
               "date": "2026-07-01",
-              "summary_zh": "強調絕不容忍通膨高於2%，偏好將利率作為主要工具，並縮減資產負債表規模。",
+              "summary_zh": "美聯儲主席 Warsh 表示物價依然過高，美聯儲絕不容忍通膨高於2%，偏好將利率作為主要工具並縮減資產負債表。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -671,7 +671,7 @@
             },
             {
               "date": "2026-06-18",
-              "summary_zh": "表示維持利率不變因無人支持立即緊縮，但政策未廣泛具限制性，已成立任務小組檢討框架。",
+              "summary_zh": "美聯儲主席 Warsh 表示美聯儲致力於實現2%通膨目標並已放棄前瞻指引，目前政策未廣泛具限制性，需防止能源與糧食衝擊擴大。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -718,7 +718,7 @@
           "talks": [
             {
               "date": "2026-08-03",
-              "summary_zh": "支持利率按兵不動，預計通膨將逐漸放緩，若通膨未能回落至2%將及時採取行動干預。",
+              "summary_zh": "美聯儲官員 Williams 力挺最新利率決議，認為利率政策依然處於良好位置，並預計中東戰爭帶來的通膨效應將會緩解。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -818,7 +818,7 @@
             },
             {
               "date": "2026-07-15",
-              "summary_zh": "指出通膨近4%過高，預計年底降至3.25%並於2028年達標，目前政策位置適宜。",
+              "summary_zh": "美聯儲官員 Williams 表示通膨偏高但預計年底降至3.25%並於2028年達標，經濟與勞動市場穩健，政策立場適宜。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -841,7 +841,7 @@
             },
             {
               "date": "2026-07-09",
-              "summary_zh": "表示通膨居高不下且上行風險偏大，政策須回應能源、關稅及AI帶來的挑戰。",
+              "summary_zh": "美聯儲官員 Williams 表示通膨依然過高且風險偏向上行，政策必須應對能源、關稅與 AI 帶來的影響。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -864,7 +864,7 @@
             },
             {
               "date": "2026-07-07",
-              "summary_zh": "認為政策處於良好位置並依賴數據，通膨雖高但能源價格下降有助緩解，經濟穩健。",
+              "summary_zh": "美聯儲官員 Williams 表示政策處於良好位置且依賴數據，通膨仍高但能源價格下降有所幫助，經濟與就業維持穩定。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -887,7 +887,7 @@
             },
             {
               "date": "2026-06-26",
-              "summary_zh": "預計今年通膨降至3.5%左右，但達到2%目標延至2028年，目前政策位置適宜。",
+              "summary_zh": "美聯儲官員 Williams 表示預計通膨今年放緩至3.5%左右，達到2%目標時間延至2028年，當前政策立場適宜。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -910,7 +910,7 @@
             },
             {
               "date": "2026-06-03",
-              "summary_zh": "認為政策具適度限制性且位置恰當，目前無升降息理由，通膨預計觸頂後回落。",
+              "summary_zh": "美聯儲官員 Williams 表示政策具溫和限制性且相當合適，目前無升降息理由，預計通膨達峰後將回落。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -943,7 +943,7 @@
           "talks": [
             {
               "date": "2026-07-17",
-              "summary_zh": "認為政策位置良好能靈活回應數據，能源與AI等反複衝擊可能使通膨預期失安。",
+              "summary_zh": "美聯儲官員 Jefferson 表示政策處於應對數據的良好位置，能源、貿易及 AI 衝擊可能影響產出與通膨並動搖預期。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -976,7 +976,7 @@
           "talks": [
             {
               "date": "2026-07-14",
-              "summary_zh": "警告若核心通膨再次偏高可能需要近期升息，縮表取決於準備金需求，反對持有MBS。",
+              "summary_zh": "美聯儲官員 Waller 表示若核心通膨再次偏高將傳遞需要近期升息的訊號，縮表取決於準備金需求，並反對持有房貸抵押證券。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1006,7 +1006,7 @@
             },
             {
               "date": "2026-07-06",
-              "summary_zh": "表示勞動市場風險趨穩但通膨加速，堅守2%目標承諾，過於僵化的前瞻指引反成障礙。",
+              "summary_zh": "美聯儲官員 Waller 表示勞動市場風險趨穩但通膨加速，堅定致力於2%目標，過於僵化的前瞻指引會成為阻礙。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1039,7 +1039,7 @@
           "talks": [
             {
               "date": "2026-05-29",
-              "summary_zh": "表示通膨降溫停滯，若中東能源衝擊持續可能擴大通膨並促使政策轉向。",
+              "summary_zh": "美聯儲官員 Bowman 表示通膨放緩停滯，若中東能源衝擊持續可能擴大通膨並促使政策轉變，但暫時衝擊可予以忽略。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1072,7 +1072,7 @@
           "talks": [
             {
               "date": "2026-08-06",
-              "summary_zh": "表示若通膨減緩趨勢未能再現已準備升息，通膨威脅已超過就業疑慮，將堅定恢復物價穩定。",
+              "summary_zh": "美聯儲官員 Cook 表示若通膨放緩趨勢未再現已準備升息，通膨風險高於勞動市場，且通膨根深蒂固的風險正上升。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1172,7 +1172,7 @@
             },
             {
               "date": "2026-07-16",
-              "summary_zh": "表示政策具微幅限制性，可等待更多數據，但若通膨未放緩已準備好近期採取行動。",
+              "summary_zh": "美聯儲官員 Cook 表示政策具溫和限制性，若通膨未能如預期放緩已準備好儘快採取行動，風險已轉向通膨。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1223,7 +1223,7 @@
           "talks": [
             {
               "date": "2026-08-11",
-              "summary_zh": "指出當前利率未能有效抑制經濟，通膨不會自行回落且就業市場仍穩健，現在是採取升息行動的時機。",
+              "summary_zh": "美聯儲官員 Hammack 表示現在是開始行動的時機，當前利率並未實質限制經濟，通膨不會自發回落，可能需要進行幾次升息。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1237,7 +1237,6 @@
                 "d46b44258a46ea7baa072c1ec70d0058d964cf3312318af43c3e388e1aeea929",
                 "51e9dd66c6a85a13abe848f7ec856b540dc06bb8ba2241986b2dc33bc54825df",
                 "d0f2de2c4f1e466cf864d2a2c77f06a7d2becd9fa8b41d6af21e7336689767a2",
-                "bd725a142b2a8e387ab5e061d5834d57b83705117f6b4affd446a238a59d5185",
                 "f5cf5f38bde5fa07099a7a5d915a94a8b35e018a0034c5a0ff4ca5c95e1df47b",
                 "2979ba54756b7fae17d0eb04e3d3802641cfabd2b78185e91998ec677b13192f",
                 "0e1258340cbde36d29070261cbf4ffe8d584353c6a0bd713a4d39d05c823bdba"
@@ -1268,12 +1267,6 @@
                   "headline": "Fed's Hammack: Now is the time for us to start acting."
                 },
                 {
-                  "id": "bd725a142b2a8e387ab5e061d5834d57b83705117f6b4affd446a238a59d5185",
-                  "time": "2026-08-11T02:46:32+08:00",
-                  "central_bank": "FED",
-                  "headline": "WATCH LIVE: Fed's Hammack Speaks"
-                },
-                {
                   "id": "f5cf5f38bde5fa07099a7a5d915a94a8b35e018a0034c5a0ff4ca5c95e1df47b",
                   "time": "2026-08-11T02:49:31+08:00",
                   "central_bank": "FED",
@@ -1295,7 +1288,7 @@
             },
             {
               "date": "2026-07-31",
-              "summary_zh": "認為目前利率限制性不足，在就業市場穩定的情況下，聯聯會應立即採取行動以降低通膨。",
+              "summary_zh": "美聯儲官員 Hammack 表示美聯儲應採取行動降低高通膨，並認為目前的利率政策不夠具限制性。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1346,7 +1339,7 @@
             },
             {
               "date": "2026-07-17",
-              "summary_zh": "指出通膨過高且廣泛，就業接近充分水準，持續高通膨是目前最大隱憂。",
+              "summary_zh": "美聯儲官員 Hammack 表示通膨過高且廣泛，就業接近最大化，持續的高通膨是當前主要關切，需採取行動加以抑制。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1439,7 +1432,7 @@
             },
             {
               "date": "2026-06-30",
-              "summary_zh": "指出通膨高企且廣泛，政策缺乏足夠限制性，可能需要提高利率以使通膨回落至目標。",
+              "summary_zh": "美聯儲官員 Hammack 表示通膨廣泛且過高，政策缺乏限制性，可能需要提高利率以使通膨回到目標水平。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1462,7 +1455,7 @@
             },
             {
               "date": "2026-06-05",
-              "summary_zh": "表示按兵不動是合理的，但若通膨未能如期降溫，近期採取行動將是適當的。",
+              "summary_zh": "美聯儲官員 Hammack 表示按兵不動是合理的，但若通膨無法降溫，不久後採取行動將是適當的選擇。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1485,7 +1478,7 @@
             },
             {
               "date": "2026-06-02",
-              "summary_zh": "表示目前可維持利率不變，但若廣泛且持續的通膨未降溫，可能需要儘快採取行動。",
+              "summary_zh": "美聯儲官員 Hammack 表示利率目前可維持穩定，但若通膨未能冷卻可能需儘快採取行動，當前政策限制性恐有所不足。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1518,7 +1511,7 @@
           "talks": [
             {
               "date": "2026-07-31",
-              "summary_zh": "表示傾向升息1碼以更好地平衡前景與風險，警告缺乏政策抑制將使通膨持續高於目標。",
+              "summary_zh": "美聯儲官員 Logan 表示通膨存在上行風險，傾向升息一碼以平衡前景，近期適度行動可降低未來大幅加碼的必要性。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1562,7 +1555,7 @@
             },
             {
               "date": "2026-07-17",
-              "summary_zh": "指出通膨難以自行回落至2%，適度升息將更佳平衡前景，AI投資增加短期物價壓力。",
+              "summary_zh": "美聯儲官員 Logan 表示通膨無法自發可持續地回到2%，適度提高利率能更好平衡前景，AI 投資亦帶來近期物價壓力。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1592,7 +1585,7 @@
             },
             {
               "date": "2026-06-04",
-              "summary_zh": "指出通膨回落至2%過慢，目前政策偏中性或偏鬆，今年稍晚可能需適度緊縮或升息。",
+              "summary_zh": "美聯儲官員 Logan 表示通膨回落至2%過慢，政策偏向中性或寬鬆，今年晚些時候可能需要升息或加強限制。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1625,7 +1618,7 @@
           "talks": [
             {
               "date": "2026-08-05",
-              "summary_zh": "主張目前是開始緩慢調升利率的時候，目標是拉低通膨而非減緩經濟，無意劇烈升息。",
+              "summary_zh": "美聯儲官員 Kashkari 表示其目標是降低通膨而非放緩經濟，並主張現在是開始緩慢調升利率的時機。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1690,7 +1683,7 @@
             },
             {
               "date": "2026-07-31",
-              "summary_zh": "表示投下反對票主張升息1碼，偏好採取小幅度的持續緊縮以應對供給衝擊與高通膨風險。",
+              "summary_zh": "美聯儲官員 Kashkari 表示因供給衝擊與數據中心投資推升通膨，他支持升息25個基點，並偏好採取小幅漸進方式調控利率。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1762,7 +1755,7 @@
             },
             {
               "date": "2026-06-26",
-              "summary_zh": "預測2026年將升息一次，廣泛的通膨與近期的AI投資浪潮可能需要政策進一步緊縮。",
+              "summary_zh": "美聯儲官員 Kashkari 表示他預計2026年升息一次，廣泛的通膨與近期的 AI 投資需求可能需要貨幣政策進一步緊縮。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1785,7 +1778,7 @@
             },
             {
               "date": "2026-05-29",
-              "summary_zh": "表示伊朗戰爭加劇通膨與政策前景的不確定性，但斷定近期需升息仍過早。",
+              "summary_zh": "美聯儲官員 Kashkari 表示，伊朗戰爭使通膨與政策前景蒙上陰影，但目前斷定近期需要升息還為時過早。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1818,7 +1811,7 @@
           "talks": [
             {
               "date": "2026-08-12",
-              "summary_zh": "表示當前經濟面臨的最大問題是通膨，只要消費者保持健康經濟就會持續成長，就業市場則保持穩定。",
+              "summary_zh": "美聯儲官員 Goolsbee 表示勞動市場維持穩定，經濟面臨的最大問題仍是通膨，只要消費者保持健康，經濟也會維持健康。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1829,7 +1822,6 @@
               },
               "source_ids": [
                 "f0452ef71e49fd98f5bc3d7111c5c305da4236974a995a814a4a04bce5dcc305",
-                "05bdbe515ecef8129d341781b13a2921e43205b5bc1b999204278761cf2f9f07",
                 "e9248e2f74aa7a33c1880520a10d2c36d643839b15c13fcd6b16d707b3e85b3e",
                 "b803cfbde06ee4ba4a1f7bb438e78d737c80bb21bb3ddeb91cea77e3d77245a5"
               ],
@@ -1839,12 +1831,6 @@
                   "time": "2026-08-12T00:11:43+08:00",
                   "central_bank": "FED",
                   "headline": "Fed's Goolsbee: Indicators say labor market stable without being good."
-                },
-                {
-                  "id": "05bdbe515ecef8129d341781b13a2921e43205b5bc1b999204278761cf2f9f07",
-                  "time": "2026-08-12T00:12:06+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Goolsbee Speaks (Pre-recorded)"
                 },
                 {
                   "id": "e9248e2f74aa7a33c1880520a10d2c36d643839b15c13fcd6b16d707b3e85b3e",
@@ -1862,7 +1848,7 @@
             },
             {
               "date": "2026-07-15",
-              "summary_zh": "表示6月通膨數據令人鼓舞，但仍需連續數月放緩數據才能增強信心，勞動市場穩定但非強勁。",
+              "summary_zh": "美聯儲官員 Goolsbee 表示6月 CPI 數據令人鼓舞，但單月數據不足以建立信心，勞動市場穩定但並不強勁。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1885,7 +1871,7 @@
             },
             {
               "date": "2026-06-26",
-              "summary_zh": "強調核心與服務通膨過高且走勢不佳，AI相關支出可能使需求過熱，應避免僵化的前瞻指引。",
+              "summary_zh": "美聯儲官員 Goolsbee 表示核心與服務業通膨過高且方向不佳，AI 相關支出可能使需求過熱，應避免僵化的前瞻指引。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1918,7 +1904,7 @@
           "talks": [
             {
               "date": "2026-08-07",
-              "summary_zh": "表示勞工市場處於脆弱平衡且未見薪資通膨，若面臨通膨逆風仍需採取緊縮政策以達目標。",
+              "summary_zh": "美聯儲官員 Barkin 表示就業市場處於弱平衡狀態，若面臨通膨逆風必須收緊政策，並強調美聯儲將使通膨回到2%。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1944,8 +1930,7 @@
                 "a6361781f5874eea4d8f63789f41555aa45a13cd53c6582cb5f29b3821bfedad",
                 "c9263090689a392aedab1ad862343087d3aba67a310f5c569c7fe0abb45f9328",
                 "9980b9675a2f9e5e1cb6e1ecad74560ebf7ade574477f963b10cc1180c3ffe86",
-                "022548afa06be3b8a16d813732e1d37bad45a91dcae8920938e048d9cc72fe03",
-                "745a96930cfcf540d102f7b6e9ceaa44830105adbc57d3676e8d1e50e072caa2"
+                "022548afa06be3b8a16d813732e1d37bad45a91dcae8920938e048d9cc72fe03"
               ],
               "source_headlines": [
                 {
@@ -2049,18 +2034,12 @@
                   "time": "2026-08-07T22:47:53+08:00",
                   "central_bank": "FED",
                   "headline": "Fed's Barkin: impact of AI on broad productivity levels still uncertain"
-                },
-                {
-                  "id": "745a96930cfcf540d102f7b6e9ceaa44830105adbc57d3676e8d1e50e072caa2",
-                  "time": "2026-08-07T23:01:32+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Barkin concludes webinar with NABE"
                 }
               ]
             },
             {
               "date": "2026-08-01",
-              "summary_zh": "認為當前利率是否高到足以壓低通膨仍難斷定，勞動市場未顯緊張，物價上漲分佈不均。",
+              "summary_zh": "美聯儲官員 Barkin 表示利率是否足夠高以降低通膨仍難下結論，勞動市場未顯緊張，價格上漲在經濟中分佈不均。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2111,7 +2090,7 @@
             },
             {
               "date": "2026-05-29",
-              "summary_zh": "指出人工智慧投資正在創造通膨壓力，並可能推升中性利率。",
+              "summary_zh": "美聯儲官員 Barkin 表示，人工智慧投資正帶來通膨壓力，並可能推升中性利率。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2144,7 +2123,7 @@
           "talks": [
             {
               "date": "2026-08-06",
-              "summary_zh": "支持7月維持利率不變，認為供給衝擊影響正在消退，若通膨再次捲土重來將採取積極升息應對。",
+              "summary_zh": "美聯儲官員 Daly 完全支持7月維持利率不變，並表示若通膨壓力再度惡化，將需要採取積極的升息回應。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2279,7 +2258,7 @@
             },
             {
               "date": "2026-07-02",
-              "summary_zh": "主張漸進調整政策，雖然關稅與油價推升通膨，但勞動市場與消費者仍具韌性。",
+              "summary_zh": "美聯儲官員 Daly 表示政策僅輕微具限制性並傾向漸進主義，勞動與消費具韌性，對高通膨或弱成長情境持開放態度。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2302,7 +2281,7 @@
             },
             {
               "date": "2026-06-05",
-              "summary_zh": "指出關稅與油價推升當前通膨，首要任務是在不損害經濟的前提下恢復物價穩定。",
+              "summary_zh": "美聯儲官員 Daly 表示關稅與油價推升當前通膨，首要任務是在不損害經濟的情況下恢復物價穩定。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2325,7 +2304,7 @@
             },
             {
               "date": "2026-06-04",
-              "summary_zh": "認為政策立場良好，應依賴數據且不給予前瞻指引，通膨仍是首要關切焦點。",
+              "summary_zh": "美聯儲官員 Daly 表示政策立場良好，應保持依賴數據並不提供前瞻指引，通膨是首要關注點，勞動市場依然穩定。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2348,7 +2327,7 @@
             },
             {
               "date": "2026-05-30",
-              "summary_zh": "表示AI終將提升生產力並降低通膨，但必須在不損害經濟的前提下恢復物價穩定。",
+              "summary_zh": "美聯儲官員 Daly 表示，AI 最終可能提高生產力並在避免大量失業下降低通膨，但必須在不損害經濟的前提下恢復物價穩定。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2381,7 +2360,7 @@
           "talks": [
             {
               "date": "2026-08-12",
-              "summary_zh": "表示若通膨持續居高不下，將支持在9月會議上採取升息舉措。",
+              "summary_zh": "波士頓聯邦儲備銀行總裁 Susan Collins 表示，若通膨居高不下，她將支持在9月份進行升息。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2414,7 +2393,7 @@
           "talks": [
             {
               "date": "2026-08-07",
-              "summary_zh": "表示偏好在近期會議升息，認為漸進升息代價低於突發轉折，通膨持續高於目標的可能較高。",
+              "summary_zh": "美聯儲官員 Musalem 表示在近期會議上偏好升息，因通膨持續高於目標機率較大，且漸進式升息成本低於突然調整。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2442,10 +2421,6 @@
                 "616e552defff7fe701a9131924bb0eed09826f6a8c9cfe0a156b9df5a51f789c",
                 "313ea21112c39e0785156e923ea52347701d62ed9c93b8b6bf3ce7fc27c79336",
                 "b3c8ab52974b3371ba1d71a26f1f4910f18a71e793130483aef99cbc5660533f",
-                "b1988bf1a891614287a24d5a41f7159e36352c323b4c44f2641794d24d69e28b",
-                "f5be54dad721381d336daa1bf40200e8e085920f2d4f6e2e22d571f0ccc594ce",
-                "23f8278d6418705415b16fc946ab1758a333f43af19c271ba0f29f86b90bc297",
-                "7940025811623f0ccad43e08017d743866a85115c148cb89418bfa2091b75df7",
                 "6c87532aaa9111562db31f3b421d492241de5e0c92b0023e01ca14d05966b5a6",
                 "24279ada87d58d8c5ffd0bc5f7dbcebdda4d56145d18af055bdcba2adaeda219",
                 "cda2da3228d34d09a2cbb6e27200e0f408c76d0b86cbb6c33f242fe6dd444f70",
@@ -2562,30 +2537,6 @@
                   "headline": "Fed's Musalem: central banks face increased supply disruptions"
                 },
                 {
-                  "id": "b1988bf1a891614287a24d5a41f7159e36352c323b4c44f2641794d24d69e28b",
-                  "time": "2026-08-07T06:13:03+08:00",
-                  "central_bank": "FED",
-                  "headline": "Tunes Out Political Noise, Focuses on Fed's Mandate"
-                },
-                {
-                  "id": "f5be54dad721381d336daa1bf40200e8e085920f2d4f6e2e22d571f0ccc594ce",
-                  "time": "2026-08-07T06:13:03+08:00",
-                  "central_bank": "FED",
-                  "headline": "there are times when it's acceptable for Fed to surprise markets:"
-                },
-                {
-                  "id": "23f8278d6418705415b16fc946ab1758a333f43af19c271ba0f29f86b90bc297",
-                  "time": "2026-08-07T06:13:04+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed must prioritize what's right, not be led by markets: officials"
-                },
-                {
-                  "id": "7940025811623f0ccad43e08017d743866a85115c148cb89418bfa2091b75df7",
-                  "time": "2026-08-07T06:13:04+08:00",
-                  "central_bank": "FED",
-                  "headline": "Financial conditions remain very accommodative: Fed is monitoring that"
-                },
-                {
                   "id": "6c87532aaa9111562db31f3b421d492241de5e0c92b0023e01ca14d05966b5a6",
                   "time": "2026-08-07T06:16:23+08:00",
                   "central_bank": "FED",
@@ -2629,7 +2580,7 @@
           "talks": [
             {
               "date": "2026-08-05",
-              "summary_zh": "認為通膨過高，當前政策並非偏緊，需要更緊縮的貨幣政策以引導通膨回落至2%目標。",
+              "summary_zh": "美聯儲官員 Schmid 表示通膨仍過高且政策並不緊縮，即使通膨由供給衝擊或 AI 投資引起也不應忽視，需更緊縮政策以達標。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2729,7 +2680,7 @@
             },
             {
               "date": "2026-07-17",
-              "summary_zh": "表示通膨過高且具持續性，近期數據雖改善但仍顯不足，勞動市場大致維持穩定。",
+              "summary_zh": "美聯儲官員 Schmid 表示通膨過熱且具持續性，近期數據雖鼓舞但仍顯不足，勞動市場大致維持穩定。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2752,7 +2703,7 @@
             },
             {
               "date": "2026-06-05",
-              "summary_zh": "強調通膨是最大風險，聯準會需在保持耐心與升息間作抉擇，不應將石油衝擊視為暫時性。",
+              "summary_zh": "美聯儲官員 Schmid 表示通膨是最大風險，美聯儲必須明確2%目標訊息，不應假設石油衝擊只是暫時現象。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2775,7 +2726,7 @@
             },
             {
               "date": "2026-05-29",
-              "summary_zh": "認為通膨過高且非暫時性，政策限制性不足，可能需要進一步升息或緊縮資產負債表。",
+              "summary_zh": "美聯儲官員 Schmid 表示通膨過熱且不應視為暫時現象，政策限制性不足，可能需要進一步升息或緊縮資產負債表。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2808,7 +2759,7 @@
           "talks": [
             {
               "date": "2026-08-04",
-              "summary_zh": "認為當前需適度限制性政策且目前已具備，支持維持利率不變，忽略供給衝擊是合理的。",
+              "summary_zh": "美聯儲官員 Paulson 表示經濟強勁且通膨過高，目前政策具溫和限制性，忽略供應衝擊並維持利率穩定是正確的。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2908,7 +2859,7 @@
             },
             {
               "date": "2026-05-29",
-              "summary_zh": "認為通膨過高拖累經濟，但輕度限制性政策立場適宜，維持利率可等待更多數據。",
+              "summary_zh": "美聯儲官員 Paulson 表示通膨過高並壓抑經濟，但溫和限制性政策立場適宜，維持利率不變可在成長溫和時評估數據。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2957,7 +2908,7 @@
           "talks": [
             {
               "date": "2026-07-30",
-              "summary_zh": "國內通膨溫和且經濟疲軟支持維持利率，雖無二次效應證據但仍警惕，若衝突持續並出現二次效應將需升息，強調央行並非趨向升息，市場定價已合理反映風險。",
+              "summary_zh": "表示國內通膨放緩且經濟與勞動市場疲軟適宜按兵不動，但若中東衝突持續並出現第二輪效應將需升息。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2997,7 +2948,6 @@
                 "c96a41ceaa4d8855026c9bbeb85aa1a989a88a71c77a236b826f09b400b606fd",
                 "82d65506687b1915d9105110be2581989b9c386dda139ff0f0ebc05f30ef3670",
                 "9fcb08e024aa872f5b42fe4df1f4d1c1555a55dac1d9992a85e87aa11c433083",
-                "466e0129a17e3da86e0482eec5ce3a2ddbe9f0d0fb26c392b24f99ae472888af",
                 "8468276e090285b738430031ceedc1f00f46164402b60aa5cce1bdd8b182d896",
                 "e80154398e172da62097c563da33906dd9e975c6f9842f1105a63133bbfca350",
                 "63aaad21d3b78604143118bafa4b8e6db3af9adb6a35dbc0fc2e90ad176a45cc",
@@ -3185,12 +3135,6 @@
                   "headline": "BoE Gov. Bailey: The UK may be seeing some downward impact on goods prices from trade redirection due to tariffs."
                 },
                 {
-                  "id": "466e0129a17e3da86e0482eec5ce3a2ddbe9f0d0fb26c392b24f99ae472888af",
-                  "time": "2026-07-30T21:00:36+08:00",
-                  "central_bank": "BOE",
-                  "headline": "BoE Gov. Bailey ends the BoE Press Conference."
-                },
-                {
                   "id": "8468276e090285b738430031ceedc1f00f46164402b60aa5cce1bdd8b182d896",
                   "time": "2026-07-30T23:30:23+08:00",
                   "central_bank": "BOE",
@@ -3218,7 +3162,7 @@
             },
             {
               "date": "2026-07-14",
-              "summary_zh": "波斯灣局勢不穩定蒙上陰影，成品油價格未如預期下跌，英國經濟成長是關鍵問題。",
+              "summary_zh": "表示波斯灣局勢動盪蒙上陰影，精煉油價降幅不如預期，英國經濟成長為核心問題。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3241,7 +3185,7 @@
             },
             {
               "date": "2026-07-01",
-              "summary_zh": "降息已不在考量範圍內，維持利率不變反映了經濟放緩，決策者正評估能源價格傳導。",
+              "summary_zh": "表示降息已不在考慮範圍內，按兵不動反映了經濟疲軟，同時正評估能源價格的傳導情況。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3264,7 +3208,7 @@
             },
             {
               "date": "2026-06-18",
-              "summary_zh": "若二次效應增強將快速因應，決不能讓能源價格高漲演變為持續性通膨。",
+              "summary_zh": "強調若第二輪效應加劇應迅速反應，高能源價格絕不能轉化為持續性通膨。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3287,7 +3231,7 @@
             },
             {
               "date": "2026-05-29",
-              "summary_zh": "經濟與勞動市場放緩支持容忍暫時高於目標的通膨，除非出現二次效應。",
+              "summary_zh": "表示經濟與勞動市場疲軟合理化了對暫時高於目標通膨的容忍，除非出現第二輪效應。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3320,7 +3264,7 @@
           "talks": [
             {
               "date": "2026-07-30",
-              "summary_zh": "表示二次效應可能相當顯著，企業面臨挑戰環境且經濟活動相對疲軟，本月投票並非拉鋸決定，極端能源價格風險已降低。",
+              "summary_zh": "表示第二輪效應可能顯著，經濟活動較疲軟且企業面臨挑戰，但對國內通膨降溫強度已有更多了解。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3378,7 +3322,7 @@
             },
             {
               "date": "2026-06-18",
-              "summary_zh": "在進一步瞭解衝擊時按兵不動是合適的且需求未快速惡化，若二次效應增強將快速因應以防高能源價格演變為持續通膨。",
+              "summary_zh": "表示在進一步了解衝擊時維持利率不變是適當的，並強調若第二輪效應加劇應迅速反應，避免高能源價格轉為持續通膨。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3418,7 +3362,7 @@
           "talks": [
             {
               "date": "2026-07-31",
-              "summary_zh": "局勢極具不確定性，整體通膨風險偏向上行且能源價格可能波動至2027年，目前雖未見二次效應，但須注意緩慢演變的自我維持物價設定風險。",
+              "summary_zh": "表示前景極具不確定性且標頭通膨風險偏向上行，目前未見第二輪效應但有緩慢顯現的可能，正密切關注自我維持的定價跡象。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3483,7 +3427,7 @@
             },
             {
               "date": "2026-07-30",
-              "summary_zh": "需要發出清晰且明確的通膨訊號。",
+              "summary_zh": "表示需要明確且無歧義的通膨訊號。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3506,7 +3450,7 @@
             },
             {
               "date": "2026-07-10",
-              "summary_zh": "生產力成長已放緩，未來一年利率將需要上升。",
+              "summary_zh": "指出生產力放緩，未來一年內利率將需要上升。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3529,7 +3473,7 @@
             },
             {
               "date": "2026-06-29",
-              "summary_zh": "英國脫歐使英國更容易出現自我維持的通膨，短中期通膨預期變得更加重要。",
+              "summary_zh": "表示脫歐使英國更容易出現自我維持的通膨，短中期通膨預期變得更為重要。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3562,7 +3506,7 @@
           "talks": [
             {
               "date": "2026-07-30",
-              "summary_zh": "量化緊縮（QT）的影響相較於長天期公債期限風險溢價的上升非常微小，利率仍是主要工具，QT僅作為背景輔助。",
+              "summary_zh": "表示量化收縮的影響微小且屬於背景工具，政策利率仍是主要工具。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3602,7 +3546,7 @@
           "talks": [
             {
               "date": "2026-07-30",
-              "summary_zh": "指出金融條件已實質緊縮。",
+              "summary_zh": "表示金融條件已實質性收緊。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3625,7 +3569,7 @@
             },
             {
               "date": "2026-07-16",
-              "summary_zh": "若無戰爭通膨將處於2%，央行對通膨風險保持警惕。",
+              "summary_zh": "表示若非戰爭因素通膨本應在2%，央行對通膨風險保持警惕。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3648,7 +3592,7 @@
             },
             {
               "date": "2026-06-18",
-              "summary_zh": "若二次效應增強將快速因應，決不能讓能源價格高漲演變為持續性通膨。",
+              "summary_zh": "強調若第二輪效應加劇應迅速反應，高能源價格絕不能轉化為持續性通膨。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3681,7 +3625,7 @@
           "talks": [
             {
               "date": "2026-07-30",
-              "summary_zh": "為維護政策公信力，需要升息一碼。",
+              "summary_zh": "表示為了維護政策公信力需要升息一碼。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3704,7 +3648,7 @@
             },
             {
               "date": "2026-07-02",
-              "summary_zh": "通膨持續性與高企的預期支持更長時間按兵不動並可能採取積極行動，下半年數據至關重要。",
+              "summary_zh": "表示通膨持續性與高企的通膨預期合理化了更長時間的按兵不動，甚至可能需要採取積極行動。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3727,7 +3671,7 @@
             },
             {
               "date": "2026-05-20",
-              "summary_zh": "2026年底的通膨可能會嵌入2027年的薪資協議，且勞動市場放緩並非廣泛現象。",
+              "summary_zh": "警告2026年底的通膨可能會嵌入2027年的工資協議中，且勞動市場放緩並非廣泛現象。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3760,7 +3704,7 @@
           "talks": [
             {
               "date": "2026-07-30",
-              "summary_zh": "等待更清晰的衝擊數據具有價值。",
+              "summary_zh": "表示等待更清晰的衝擊數據具有價值。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3783,7 +3727,7 @@
             },
             {
               "date": "2026-06-18",
-              "summary_zh": "物價風險偏向上行，而經濟活動風險偏向下行。",
+              "summary_zh": "表示價格風險偏向上行，而經濟活動風險偏向下行。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3806,7 +3750,7 @@
             },
             {
               "date": "2026-06-05",
-              "summary_zh": "未來利率決策取決於能源價格，就業疲軟與物價壓力之間的平衡仍具不確定性。",
+              "summary_zh": "表示未來利率決策取決於能源價格，就業疲軟與價格壓力之間的平衡仍具不確定性。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3829,7 +3773,7 @@
             },
             {
               "date": "2026-05-20",
-              "summary_zh": "經濟過於疲軟無法支撐消費熱潮，在情境B下當前的限制性政策程度可能已足夠。",
+              "summary_zh": "表示經濟過於疲軟無法支撐消費熱潮，且在情境B下當前的政策限制性可能已足夠。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3862,7 +3806,7 @@
           "talks": [
             {
               "date": "2026-06-23",
-              "summary_zh": "經濟疲軟與限制性政策支持延長按兵不動，若在二次效應有限的良好情境下應準備降息。",
+              "summary_zh": "表示經濟疲軟與限制性政策支持延長觀望，並準備在第二輪效應有限的溫和情境下降息。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3885,7 +3829,7 @@
             },
             {
               "date": "2026-05-21",
-              "summary_zh": "經濟疲軟且政策已具限制性，僅在二次風險無法接受時才升息，衰退機率為30-40%。",
+              "summary_zh": "表示經濟疲軟且政策已具限制性，僅在第二輪風險不可接受時才升息，並指出衰退機率為30%至40%。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3918,7 +3862,7 @@
           "talks": [
             {
               "date": "2026-07-30",
-              "summary_zh": "預計通膨的二次效應將會顯現。",
+              "summary_zh": "表示預期第二輪通膨效應將會顯現。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3941,7 +3885,7 @@
             },
             {
               "date": "2026-06-02",
-              "summary_zh": "儘早採取行動可能較理想，若衝突持續且二次效應增強可能需要升息。",
+              "summary_zh": "表示提早採取行動可能更佳，隨著衝突持續及第二輪效應增強，可能需要升息。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3964,7 +3908,7 @@
             },
             {
               "date": "2026-05-18",
-              "summary_zh": "能源衝擊的二次效應可能要再過一年才會顯現。",
+              "summary_zh": "表示能源衝擊引發的第二輪效應可能要在一年後才會顯現。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4004,7 +3948,7 @@
           "talks": [
             {
               "date": "2026-07-23",
-              "summary_zh": "近期經濟略有改善且中期成長動能完好，但能源衝擊使通膨偏向上行並可能維持至2027上半年，目前政策立場適宜且未見第二輪效應，將依數據決定9月政策而不作預先指引。",
+              "summary_zh": "近期數據顯示經濟活動略有改善但近期的成長仍將溫和，通膨風險上行且能源衝擊可能使通膨維持高於目標至2027年上半年，目前無二次效應，政策處於適當位置以觀察後續數據。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4042,6 +3986,7 @@
                 "3ff4d1b4561d94cc9eb20d5cdfa8bfc9d889095f48575b6a061afb312742db2c",
                 "04bf3db4ed3fadacdba9951ad097a92bf679939ce50553c5fb0cc1669b8adf49",
                 "77413c2a910b297d9488751ec0e9adc584376c0b0677f118e614c493fc9a4053",
+                "b27ef969a446b9f55b3d9943e1202847f1b50df66778289d1499b80e0c4c7e30",
                 "057ad16c27564a97647883f59461330e57fd3778a2ed4f4a7917bddf1c8920d5",
                 "e06a2c56f42cf63f31e9e0ec648db3f41728aa144f0976cb6c3242a793d9c2bc",
                 "b2b8d94d07e41f8971872e2914916ad877d05cea4e133b3e9d2dcd034a98ed7e",
@@ -4225,6 +4170,12 @@
                   "headline": "ECB's President Lagarde: There were some who asked whether we should consider a hike"
                 },
                 {
+                  "id": "b27ef969a446b9f55b3d9943e1202847f1b50df66778289d1499b80e0c4c7e30",
+                  "time": "2026-07-23T21:10:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: We will have a lot more data available in September."
+                },
+                {
                   "id": "057ad16c27564a97647883f59461330e57fd3778a2ed4f4a7917bddf1c8920d5",
                   "time": "2026-07-23T21:11:40+08:00",
                   "central_bank": "ECB",
@@ -4323,7 +4274,7 @@
             },
             {
               "date": "2026-07-03",
-              "summary_zh": "6月升息是正確的，供給衝擊正在擴散，但第二輪效應尚未實現。",
+              "summary_zh": "6月升息是正確的，雖然供給衝擊正在擴散，但二次效應尚未實質化。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4346,7 +4297,7 @@
             },
             {
               "date": "2026-07-01",
-              "summary_zh": "歐元區未陷入停滯性通膨且風險更加平衡，應避免給予預先設定的前瞻指引。",
+              "summary_zh": "歐元區並未陷入滯脹且風險更趨平衡，應避免給出預設的前瞻性指引。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4369,7 +4320,7 @@
             },
             {
               "date": "2026-06-30",
-              "summary_zh": "戰爭帶來重大通膨壓力，但歐洲具備韌性，歐洲央行必要時可提升利率。",
+              "summary_zh": "戰爭帶來了重大通膨壓力，但歐洲具備韌性，歐洲央行若有需要可進一步升息。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4392,7 +4343,7 @@
             },
             {
               "date": "2026-06-22",
-              "summary_zh": "通膨風險偏向上行且成長風險偏向下行，若無通膨預期脫錨或第二輪效應，目前尚無須採取強烈行動。",
+              "summary_zh": "通膨風險偏向上行且經濟成長風險偏向下行，若未出現通膨預期脫錨或二次效應，目前尚無採取強烈行動的必要。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4415,7 +4366,7 @@
             },
             {
               "date": "2026-06-11",
-              "summary_zh": "歐洲央行升息25個基點且無預設路徑，預計通膨將於2027年下半年回落至目標，並面臨通膨上行與經濟成長下行風險。",
+              "summary_zh": "歐洲央行升息25個基點且無預設利率路徑，預計通膨將在2027年下半年回落至目標，並面臨通膨上行與經濟成長下行風險。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4456,31 +4407,8 @@
           "voter": true,
           "talks": [
             {
-              "date": "2026-07-25",
-              "summary_zh": "當前衝擊屬於中等程度衝擊，而非紅燈警報類型的嚴重衝擊。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "737ca5e58e5aaab6dc8b3a191360e76eddd0f38591f60f347be3e9cc7e8123b5"
-              ],
-              "source_headlines": [
-                {
-                  "id": "737ca5e58e5aaab6dc8b3a191360e76eddd0f38591f60f347be3e9cc7e8123b5",
-                  "time": "2026-07-25T00:09:03+08:00",
-                  "central_bank": "ECB",
-                  "headline": "ECB's Lane: This is a medium shock, not a red-alert type shock."
-                }
-              ]
-            },
-            {
               "date": "2026-07-24",
-              "summary_zh": "歐洲經濟持續成長，央行將依據數據逐次會議決策，並於未來一年左右指引通膨回落至目標。",
+              "summary_zh": "歐洲經濟持續成長且當前衝擊屬中等規模，央行將依據數據採取被動且逐次會議決定，以利未來一年左右引導通膨回歸目標。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4493,7 +4421,8 @@
                 "50a1684a1716f4eb11b92cec01eab75be3fcb3d1fc9e2568c12f8bde993abdb7",
                 "413926587ecd7164e1e9865e222f7f67a32318b1779a02f1d849fb84123636ba",
                 "cf569c7d8c8dce42fc0c205671ce2fe2c777e6bdc6fde56cfa1eb208620280d1",
-                "931d3a203e8d9ae94e2798b4b1d2c91a345370828c57628adb5e8dc4ef806d46"
+                "931d3a203e8d9ae94e2798b4b1d2c91a345370828c57628adb5e8dc4ef806d46",
+                "737ca5e58e5aaab6dc8b3a191360e76eddd0f38591f60f347be3e9cc7e8123b5"
               ],
               "source_headlines": [
                 {
@@ -4519,12 +4448,18 @@
                   "time": "2026-07-24T23:47:41+08:00",
                   "central_bank": "ECB",
                   "headline": "ECB's Lane: The European economy continues to grow."
+                },
+                {
+                  "id": "737ca5e58e5aaab6dc8b3a191360e76eddd0f38591f60f347be3e9cc7e8123b5",
+                  "time": "2026-07-25T00:09:03+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Lane: This is a medium shock, not a red-alert type shock."
                 }
               ]
             },
             {
               "date": "2026-06-30",
-              "summary_zh": "較低的油價必須傳導至經濟體，且2027至2028年的油價仍高於戰前水準。",
+              "summary_zh": "較低的油價必須傳導至整體經濟，但2027至2028年的油價仍高於戰前水準。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4547,7 +4482,7 @@
             },
             {
               "date": "2026-06-23",
-              "summary_zh": "能源衝擊正擴大通膨範疇，勞動市場與家庭資產負債表展現韌性，通膨可能持續高於2%直至2027年。",
+              "summary_zh": "能源衝擊擴大了通膨範圍，儘管勞動市場與家庭資產負債表具備韌性，但通膨可能持續高於2%直至2027年。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4570,7 +4505,7 @@
             },
             {
               "date": "2026-06-19",
-              "summary_zh": "今年通膨將維持在3%以上，同時經濟將保持穩定成長動能。",
+              "summary_zh": "今年通膨率將保持在3%以上，而經濟將保持穩定的成長動能。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4593,7 +4528,7 @@
             },
             {
               "date": "2026-06-18",
-              "summary_zh": "採取溫和回應是合理的，即使在較緩和的情境下升息亦具合理性，同時應避免利率劇烈變動。",
+              "summary_zh": "政策應採取審慎應對措施，即使在較溫和的情景下升息也是合理的，同時應避免過於突兀的利率變動。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4616,7 +4551,7 @@
             },
             {
               "date": "2026-06-16",
-              "summary_zh": "未來一年通膨高於目標需要主動採取政策，能源衝擊將對食品、商品和服務產生間接影響。",
+              "summary_zh": "通膨在一後年仍高於目標需要主動採取政策，能源衝擊將對食品、商品和服務產生間接影響。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4649,7 +4584,7 @@
           "talks": [
             {
               "date": "2026-07-06",
-              "summary_zh": "衝擊無法輕易忽視，儘管油價下跌，供應鏈壓力依然偏高。",
+              "summary_zh": "供給衝擊無法輕易忽略，儘管油價下跌，供應鏈壓力仍居高不下。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4672,7 +4607,7 @@
             },
             {
               "date": "2026-06-25",
-              "summary_zh": "需要進一步升息以使通膨回到2%，停火並非放鬆警惕的理由。",
+              "summary_zh": "需要進一步升息以使通膨回到2%目標，停火並不是放鬆警惕的理由。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4705,7 +4640,7 @@
           "talks": [
             {
               "date": "2026-07-01",
-              "summary_zh": "應暫停進一步升息，直到新的經濟預測公布。",
+              "summary_zh": "建議在新的經濟預測公布前暫停進一步升息。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4747,7 +4682,7 @@
           "talks": [
             {
               "date": "2026-07-24",
-              "summary_zh": "歐洲央行目前處於良好位置，能密切追蹤未來的經濟與政策發展。",
+              "summary_zh": "央行處於有利位置，能夠密切追蹤即將發生的發展。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4770,7 +4705,7 @@
             },
             {
               "date": "2026-07-15",
-              "summary_zh": "6月後的利率水準是適當的，若有需要將謹慎但果斷地做出反應。",
+              "summary_zh": "6月會議後的利率水準是合適的，必要時將審慎但果斷地採取回應。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4793,7 +4728,7 @@
             },
             {
               "date": "2026-07-08",
-              "summary_zh": "採取逐次會議評估的方法是適當的。",
+              "summary_zh": "採取逐次會議評估的方式是適當的。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4816,7 +4751,7 @@
             },
             {
               "date": "2026-07-03",
-              "summary_zh": "在能源狀況波動之際，應保持警惕並保留政策選擇權。",
+              "summary_zh": "在能源形勢動盪之際，應保持警惕並保留政策選擇權。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4839,7 +4774,7 @@
             },
             {
               "date": "2026-07-01",
-              "summary_zh": "通膨依然過高且高於目標直至2027年，應對7月與9月的政策選項保持開放。",
+              "summary_zh": "通膨持續過高並將高於目標至2027年，應對7月與9月的政策選項保持開放。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4862,7 +4797,7 @@
             },
             {
               "date": "2026-06-30",
-              "summary_zh": "能源衝擊仍存於系統中，通膨可能持續顯著高於目標。",
+              "summary_zh": "能源衝擊影響仍在系統中，通膨可能會持續顯著高於目標。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4895,7 +4830,7 @@
           "talks": [
             {
               "date": "2026-07-24",
-              "summary_zh": "將評估石油衝擊的規模與持續時間，川普關稅政策亦為全球經濟與成長增加額外不確定性。",
+              "summary_zh": "將評估石油衝擊的規模與持續時間，並指出關稅政策為全球經濟與成長增添了更多不確定性。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4925,7 +4860,7 @@
             },
             {
               "date": "2026-07-15",
-              "summary_zh": "歐洲央行需要為通膨的任何可能狀況做好準備。",
+              "summary_zh": "歐洲央行需要為通膨的任何可能性做好準備。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4948,7 +4883,7 @@
             },
             {
               "date": "2026-07-03",
-              "summary_zh": "6月升息是正確的且並未釋放新升息週期的訊號，經濟成長可能維持疲弱，9月預測將指引後續步驟。",
+              "summary_zh": "6月升息是正確的且並未預示新一輪升息週期，經濟成長可能維持疲軟，9月的預測將指引下一步行動。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4971,7 +4906,7 @@
             },
             {
               "date": "2026-06-12",
-              "summary_zh": "6月升息旨在抑制第二輪效應，儘管工資尚未做出反應，但油價已傳導至其他價格。",
+              "summary_zh": "6月升息旨在抑制二次效應，雖然工資尚未有所反應，但油價正轉嫁至其他物價。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5004,7 +4939,7 @@
           "talks": [
             {
               "date": "2026-07-15",
-              "summary_zh": "歐元區通膨約為3%且預計高於該水準至2027年初，政策必須維持預期錨定並限制第二輪效應。",
+              "summary_zh": "歐元區通膨率約為3%且預計將維持至2027年初，貨幣政策必須錨定預期並限制二次效應。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5027,7 +4962,7 @@
             },
             {
               "date": "2026-07-07",
-              "summary_zh": "隨著供應衝擊更加頻繁，經濟前景脆弱，面臨通膨上行與成長下行風險。",
+              "summary_zh": "前景脆弱，隨著供給衝擊越發頻繁，通膨面臨上行風險而經濟成長面臨下行風險。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5060,7 +4995,7 @@
           "talks": [
             {
               "date": "2026-07-08",
-              "summary_zh": "應在逐次會議的基礎上保留所有政策選項。",
+              "summary_zh": "應在逐次會議的基礎上對所有政策選項保持開放。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5083,7 +5018,7 @@
             },
             {
               "date": "2026-06-23",
-              "summary_zh": "高度不確定性下服務業通膨具黏性，且油價正傳導至其他部門。",
+              "summary_zh": "高度不確定性下服務業通膨具黏性，且油價正向其他部門傳導。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5116,7 +5051,7 @@
           "talks": [
             {
               "date": "2026-06-30",
-              "summary_zh": "較低的能源價格將影響通膨，而第二輪效應仍是主要的政策風險。",
+              "summary_zh": "能源價格下跌將影響通膨，而二次效應仍是核心政策風險。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5149,7 +5084,7 @@
           "talks": [
             {
               "date": "2026-07-24",
-              "summary_zh": "能源危機尚未結束，決策者需保持冷靜，目前尚無第二輪效應的跡象。",
+              "summary_zh": "能源危機尚未結束，但目前尚無二次效應跡象，決策者需要保持冷靜。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5186,7 +5121,7 @@
             },
             {
               "date": "2026-06-30",
-              "summary_zh": "能源衝擊具有滯脹性質，但通膨預期仍錨定，應逐次會議做出決定而不作預先承諾。",
+              "summary_zh": "能源衝擊帶來滯脹風險但通膨預期維持錨定，政策應按逐次會議做出決定而不作預先承諾。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5219,7 +5154,7 @@
           "talks": [
             {
               "date": "2026-07-06",
-              "summary_zh": "工資發展溫和，進一步行動是有可能的，但目前不需要大幅緊縮。",
+              "summary_zh": "工資發展保持良性，雖然可能再次升息，但目前不需要大幅緊縮。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5242,7 +5177,7 @@
             },
             {
               "date": "2026-07-01",
-              "summary_zh": "在沒有重大第二輪效應的情況下，再升息一次可能就已足夠。",
+              "summary_zh": "在沒有重大二次效應的情況下，再升息一次可能就足夠了。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5265,7 +5200,7 @@
             },
             {
               "date": "2026-06-30",
-              "summary_zh": "通膨將在數個季度內高於目標，可能需要再次升息，但不一定在7月進行。",
+              "summary_zh": "通膨將在幾個季度內保持在目標之上，可能需要再次升息，但不一定在7月。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5298,7 +5233,7 @@
           "talks": [
             {
               "date": "2026-07-02",
-              "summary_zh": "7月可能按兵不動，需監測戰爭對物價的間接影響，並在一段時間內維持現行利率。",
+              "summary_zh": "7月可能按兵不動，需密切關注戰爭對物價的間接影響，並維持當前利率一段時間。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5331,7 +5266,7 @@
           "talks": [
             {
               "date": "2026-07-24",
-              "summary_zh": "通膨壓力尚未消除，歐洲央行將在9月獲得更多資訊後評估局勢。",
+              "summary_zh": "通膨壓力並未消失，央行將在9月獲得更多資訊。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5361,7 +5296,7 @@
             },
             {
               "date": "2026-07-03",
-              "summary_zh": "歐洲央行具備將通膨率達標至2%的絕對決心。",
+              "summary_zh": "歐洲央行具有實現2%通膨目標的絕對決心。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5394,7 +5329,7 @@
           "talks": [
             {
               "date": "2026-07-27",
-              "summary_zh": "若前景惡化將需要採取比預期更多的緊縮措施，由於第二輪效應逆轉成本高昂，歐洲央行必須在其顯現前行動。",
+              "summary_zh": "前景惡化將需要採取比預期更多的緊縮措施，二次效應難以逆轉，央行必須在其顯現前採取行動。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5424,7 +5359,7 @@
             },
             {
               "date": "2026-06-12",
-              "summary_zh": "升息週期尚未結束，第二輪效應可能會顯現，且經濟有能力吸收更高的利率。",
+              "summary_zh": "升息週期尚未結束，二次效應可能會顯現，且經濟有能力承受更高的利率。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5457,7 +5392,7 @@
           "talks": [
             {
               "date": "2026-07-31",
-              "summary_zh": "地緣政治迅速改變能源價格與通膨前景，秋季管理委員會將依據數據做決策，以使通膨永續回落至2%目標。",
+              "summary_zh": "地緣政治迅速改變能源價格與通膨前景，央行將在秋季依據最新數據做出決策，以使通膨永續回落至2%目標。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5494,7 +5429,7 @@
             },
             {
               "date": "2026-07-24",
-              "summary_zh": "油價上漲令人擔憂，雖未見第二輪效應且不致衰退，但若通膨前景惡化，歐洲央行已準備好隨時採取行動。",
+              "summary_zh": "原油市場發展令人擔憂，但未見二次效應，若通膨前景惡化將採取行動，且經濟雖成長放緩但未陷衰退。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5545,7 +5480,7 @@
             },
             {
               "date": "2026-07-15",
-              "summary_zh": "未觀察到第二輪效應，歐洲央行已準備好隨時採取必要行動以實現2%通膨目標。",
+              "summary_zh": "未觀察到二次效應，歐洲央行已準備好在必要時採取行動以實現2%通膨目標。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5568,7 +5503,7 @@
             },
             {
               "date": "2026-07-01",
-              "summary_zh": "下次決策將是升息或按兵不動，通膨威脅雖降低但未受控，工資協議可能維持高通膨。",
+              "summary_zh": "下次決策將是升息或按兵不動，雖然通膨威脅降低但未受控，工資協議可能使通膨居高不下。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5610,7 +5545,7 @@
           "talks": [
             {
               "date": "2026-07-01",
-              "summary_zh": "連續升息的緊迫性已降低，目前無需採取強烈回應，若狀況改善可避免進一步升息。",
+              "summary_zh": "連續升息的緊迫性有所下降，目前無需強烈回應，若形勢改善可避免進一步升息。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5643,7 +5578,7 @@
           "talks": [
             {
               "date": "2026-07-24",
-              "summary_zh": "高油價推升通膨環境並長期高於目標，雖無第二輪效應，但無需急於決策，9月升息機率仍高於按兵不動。",
+              "summary_zh": "油價居高不下將對通膨產生影響，儘管未見二次效應但升息機率仍高於維持不變，無需急於做出決策。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5715,7 +5650,7 @@
             },
             {
               "date": "2026-06-17",
-              "summary_zh": "可能需要至少再升息一次，以壓制通膨預期。",
+              "summary_zh": "可能需要至少再升息一次，以抑制通膨預期。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5757,7 +5692,7 @@
           "talks": [
             {
               "date": "2026-07-01",
-              "summary_zh": "再升息一次是合理的，油價長期影響可能顯現，秋季工資數據將使前景更加明朗。",
+              "summary_zh": "再升息一次是合理的，油價的長期影響可能顯現，秋季的工資數據將進一步提供線索。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5790,7 +5725,7 @@
           "talks": [
             {
               "date": "2026-07-29",
-              "summary_zh": "若油價居高不下將推升通膨風險，目前尚不清楚9月數據的具體走向。",
+              "summary_zh": "若油價持續高企將增加通膨風險，目前仍難以預料9月數據表現。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5839,7 +5774,7 @@
           "talks": [
             {
               "date": "2026-07-01",
-              "summary_zh": "額外緊縮可等待新的經濟預測，目前並無第二輪工資或預期效應需要倉促行動。",
+              "summary_zh": "進一步緊縮可等待新的經濟預測，目前並無二次工資效應或通膨預期脫錨等需要匆忙行動的情況。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5872,7 +5807,7 @@
           "talks": [
             {
               "date": "2026-07-08",
-              "summary_zh": "9月預測將使前景更加明朗，7月決策仍具不確定性。",
+              "summary_zh": "9月的經濟預測將使前景更加明朗，7月的決策仍具不確定性。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5895,7 +5830,7 @@
             },
             {
               "date": "2026-07-01",
-              "summary_zh": "7月暫停升息可能是適當的，若油價保持溫和，決策可等待至9月。",
+              "summary_zh": "7月暫停升息可能是適當的，若油價保持低迷，可等至9月再做決定。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5928,7 +5863,7 @@
           "talks": [
             {
               "date": "2026-07-24",
-              "summary_zh": "將在9月全面評估最新的經濟與通膨狀況。",
+              "summary_zh": "歐洲央行將在9月份評估整體形勢。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5967,31 +5902,8 @@
           "voter": true,
           "talks": [
             {
-              "date": "2026-08-05",
-              "summary_zh": "對為日本經濟做出的最佳政策決策充滿信心。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "d87473e8e7fd6f2289a54437fa4fe72f1f2f8e6f1643ae48b7b12585b15d0396"
-              ],
-              "source_headlines": [
-                {
-                  "id": "d87473e8e7fd6f2289a54437fa4fe72f1f2f8e6f1643ae48b7b12585b15d0396",
-                  "time": "2026-08-05T06:45:03+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BoJ Governor Ueda: I'm confident I'll do what's best for the Japanese economy"
-                }
-              ]
-            },
-            {
               "date": "2026-07-31",
-              "summary_zh": "日本經濟溫和復甦，基調通膨逼近2%且可能自2026下半年明顯超越2%，若金融條件過於寬鬆可加速升息，並強調須高度關注通膨過頭風險及中東與匯率對物價的影響。",
+              "summary_zh": "表示經濟溫和復甦且金融條件寬鬆，基調通膨接近2%，若金融條件過於寬鬆可加快升息，且政策能在通膨趨勢完全確立前採取行動。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6196,7 +6108,7 @@
             },
             {
               "date": "2026-06-24",
-              "summary_zh": "經濟正溫和復甦且金融條件維持寬鬆，當基調通膨接近或超過2%時將繼續升息。",
+              "summary_zh": "表示經濟溫和復甦且金融條件維持寬鬆，當基調通膨接近或超過2%時將繼續升息。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6219,7 +6131,7 @@
             },
             {
               "date": "2026-06-03",
-              "summary_zh": "基本立場是持續升息，原油擴大了物價壓力，薪資成長接近5%，且通膨上行風險正在增加。",
+              "summary_zh": "重申持續升息的基本立場，並指出原油擴大了價格壓力、薪資成長接近5%且通膨上行風險增加。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6242,7 +6154,7 @@
             },
             {
               "date": "2026-05-27",
-              "summary_zh": "暫時性的石油衝擊可能演變為持續性衝擊，寬鬆的金融條件則持續支持經濟活動。",
+              "summary_zh": "指出暫時性的石油衝擊可能變為持續性，而寬鬆的金融條件持續支持經濟活動。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6265,7 +6177,7 @@
             },
             {
               "date": "2026-05-20",
-              "summary_zh": "GDP接近預測但中東情勢影響已開始顯現，且長期殖利率正快速上升。",
+              "summary_zh": "指出國內生產毛額接近預期但中東影響已開始顯現，且長期國債殖利率正在快速上升。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6298,7 +6210,7 @@
           "talks": [
             {
               "date": "2026-06-16",
-              "summary_zh": "將隨經濟、物價與金融狀況持續升息，延後調整可能需要大幅升息；每月購債2兆日圓可調整資產負債表，若殖利率暴增將靈活增加購買。",
+              "summary_zh": "表示將隨經濟與金融狀況推進升息，且每月2兆日圓的國債購買可調整資產負債表，若殖利率飆升將靈活增加購買。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6338,7 +6250,7 @@
           "talks": [
             {
               "date": "2026-06-19",
-              "summary_zh": "暫停縮減購債給予投資人吸收國債時間，薪資物價循環日益穩固且核心通膨接近2%，延後調整有過頭風險，將依數據持續升息。",
+              "summary_zh": "表示暫停縮債可讓市場吸收，且薪資物價循環日益穩固，延遲調整恐面臨超調風險，將依據數據持續升息。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6368,7 +6280,7 @@
             },
             {
               "date": "2026-05-26",
-              "summary_zh": "中東局勢發展與全球通膨疑慮將影響下一次利率決策的時間點。",
+              "summary_zh": "表示中東局勢發展與全球通膨擔憂將影響下一次利率決策的時間點。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6401,7 +6313,7 @@
           "talks": [
             {
               "date": "2026-07-31",
-              "summary_zh": "對利率決策持異議，提議將短期利率目標上調至1.25%，並指出形勢已轉入新階段，需要靈活應對海外需求衝擊帶來的物價上行風險。",
+              "summary_zh": "對利率決策提出異議並提議將短期利率目標調升至1.25%，認為形勢已進入需敏捷應對海外需求衝擊帶來的通膨上行風險的新階段。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6448,7 +6360,7 @@
           "talks": [
             {
               "date": "2026-06-25",
-              "summary_zh": "反對暫停縮減購債並支持加快持股正常化，基調通膨已達2%，應每幾個月升息朝約2%中性利率邁進，若超調風險上升將加快或加大升息。",
+              "summary_zh": "反對暫停縮債並支持加速國債持有正常化，指出基調通膨已達2%，應每隔幾個月朝中性利率升息。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6478,7 +6390,7 @@
             },
             {
               "date": "2026-06-16",
-              "summary_zh": "基調消費者物價指數已與物價穩定目標一致。",
+              "summary_zh": "表示基礎消費者物價指數已符合物價穩定目標。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6511,7 +6423,7 @@
           "talks": [
             {
               "date": "2026-05-21",
-              "summary_zh": "核心通膨接近2%且通膨風險顯現，應在推動日本國債持股正常化的同時以適當步伐升息。",
+              "summary_zh": "表示核心通膨接近2%且通膨風險顯現，應以適當節奏升息並推進國債持有量正常化。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6553,7 +6465,7 @@
           "talks": [
             {
               "date": "2026-07-07",
-              "summary_zh": "不反對升息但希望實現由薪資與需求支持的2%通膨，油價成本傳導迅速且政策應保持靈活。",
+              "summary_zh": "表示不反對升息但希望通膨由薪資與需求支撐達2%，油價傳導迅速且政策應保持靈活。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6576,7 +6488,7 @@
             },
             {
               "date": "2026-06-16",
-              "summary_zh": "中東情勢對產出與就業的下行風險大於物價上行風險，政策應謹慎因應。",
+              "summary_zh": "表示中東對產出與就業的下行風險大於價格上行風險，因此政策應審慎應對。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6609,7 +6521,7 @@
           "talks": [
             {
               "date": "2026-06-30",
-              "summary_zh": "日圓走軟推升進口成本並降低實質收入，企業正調升薪資與價格，增加匯率對通膨的傳導。",
+              "summary_zh": "指出日圓疲軟推高進口成本並降低實質收入，企業正提高薪資與價格，推升匯率對通膨的傳導。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6658,7 +6570,7 @@
           "talks": [
             {
               "date": "2026-08-11",
-              "summary_zh": "表示國內經濟仍超出產能，需較慢增長以壓低通膨，會議僅討論升息與按兵不動，必要時會再升息。",
+              "summary_zh": "澳洲聯邦儲備銀行總裁 Michele Bullock 表示國內經濟仍超能運作，需要低成長與較高失業率以冷卻通膨，若有需要將再次升息。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6765,7 +6677,7 @@
             },
             {
               "date": "2026-07-28",
-              "summary_zh": "表示如有必要準備進一步升息，需進一步抑制需求與勞動市場以使高通膨回落。",
+              "summary_zh": "澳洲聯邦儲備銀行總裁 Michele Bullock 表示，若有必要委員會準備進一步提高利率，且可能需要額外放緩需求與勞動市場以降低過高的核心通膨。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6907,7 +6819,7 @@
             },
             {
               "date": "2026-06-16",
-              "summary_zh": "指出數據符合預期，但仍不排除進一步緊縮，若太遲行動可能無法有效遏止通膨。",
+              "summary_zh": "澳洲聯邦儲備銀行總裁 Michele Bullock 表示數據符合預期，但仍有進一步緊縮可能，等待通膨自發緩解可能為時已晚。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6930,7 +6842,7 @@
             },
             {
               "date": "2026-06-04",
-              "summary_zh": "表示通膨與失業率之間的權衡正在惡化，但目前尚未出現工資物價螺旋上升的隱憂。",
+              "summary_zh": "澳洲聯邦儲備銀行總裁 Michele Bullock 表示通膨與失業間的權衡正在惡化，但目前尚未出現工資-物價螺旋上升的隱憂。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6963,7 +6875,7 @@
           "talks": [
             {
               "date": "2026-06-24",
-              "summary_zh": "表示通膨依然過高，及時的政策與先前升息可降低產能過熱壓力並減輕失業代價。",
+              "summary_zh": "澳洲聯邦儲備銀行官員 Andrew Hauser 表示通膨依然過高，適時的政策與過往升息能減緩產能過熱壓力並降低失業代價。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6996,7 +6908,7 @@
           "talks": [
             {
               "date": "2026-07-08",
-              "summary_zh": "警惕石油衝擊可能推升通膨預期，政策需抑止二次效應，甚至可能需容忍失業率上升。",
+              "summary_zh": "澳洲聯邦儲備銀行官員 Sarah Hunter 表示石油衝擊可能推升通膨預期，政策應抑制二次效應，必要時可能需要提高失業率以穩定物價。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -7019,7 +6931,7 @@
             },
             {
               "date": "2026-05-19",
-              "summary_zh": "表示通膨預期風險偏高，油價成本可能更快且更廣泛傳遞至零售價格。",
+              "summary_zh": "澳洲聯邦儲備銀行官員 Sarah Hunter 表示通膨預期風險偏高，油價成本傳遞速度可能更快且更廣，企業並計劃調升零售價格。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -7070,7 +6982,7 @@
           "talks": [
             {
               "date": "2026-06-02",
-              "summary_zh": "指出通膨持續性仍是當前面臨的重要問題。",
+              "summary_zh": "澳洲聯邦儲備銀行官員 Ian Harper 表示，通膨持續性仍是一個重大問題。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -7152,49 +7064,49 @@
   ],
   "usage_metadata": {
     "promptTokenCount": 101937,
-    "candidatesTokenCount": 40728,
-    "thoughtsTokenCount": 84290,
-    "totalTokenCount": 226955,
+    "candidatesTokenCount": 43046,
+    "thoughtsTokenCount": 61917,
+    "totalTokenCount": 206900,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
       "FED+RBA": {
         "promptTokenCount": 52704,
-        "candidatesTokenCount": 20153,
-        "totalTokenCount": 116364,
+        "candidatesTokenCount": 22818,
+        "totalTokenCount": 96606,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
             "tokenCount": 52704
           }
         ],
-        "thoughtsTokenCount": 43507,
+        "thoughtsTokenCount": 21084,
         "serviceTier": "standard"
       },
       "BOE+BOJ": {
         "promptTokenCount": 31960,
-        "candidatesTokenCount": 10051,
-        "totalTokenCount": 63269,
+        "candidatesTokenCount": 9774,
+        "totalTokenCount": 61415,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
             "tokenCount": 31960
           }
         ],
-        "thoughtsTokenCount": 21258,
+        "thoughtsTokenCount": 19681,
         "serviceTier": "standard"
       },
       "ECB": {
         "promptTokenCount": 17273,
-        "candidatesTokenCount": 10524,
-        "totalTokenCount": 47322,
+        "candidatesTokenCount": 10454,
+        "totalTokenCount": 48879,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
             "tokenCount": 17273
           }
         ],
-        "thoughtsTokenCount": 19525,
+        "thoughtsTokenCount": 21152,
         "serviceTier": "standard"
       }
     }
