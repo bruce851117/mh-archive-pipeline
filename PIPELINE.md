@@ -1,8 +1,7 @@
 # mh-archive-pipeline 專案完整技術說明
 
-> 分析基準：`main` 分支，Commit `7d5c2dd609c9d30af511c8bc176b715461a22a3a`  
+> 分析基準：`main` 分支，Commit `c9678a2`（2026-08-12 更新）  
 > Repo：`bruce851117/mh-archive-pipeline`  
-> 匯出內容：163 個 Git 追蹤文字檔，未略過任何檔案  
 > 文件用途：說明所有主要程式、GitHub Actions、設定檔、資料目錄、輸入／輸出路徑、更新方式及維護風險。
 
 ---
@@ -164,7 +163,7 @@ TZ             = Asia/Taipei
 
 ### 觸發方式
 
-同樣只有 `workflow_dispatch`。`PIPELINE.md` 記載每天台灣時間 07:00 由 Cloudflare Worker 觸發；排程不在此 Repo 的 YAML 內。
+同樣只有 `workflow_dispatch`。目前 Cloudflare Worker 設有**兩個每日 cron**：台灣時間 07:00（UTC 23:00）及 07:40（UTC 23:40），兩次都觸發 `daily-digest.yml`（第二次作為第一次失敗時的補跑）。排程不在此 Repo 的 YAML 內，Worker 程式碼另外維護於 Cloudflare。
 
 ---
 
@@ -355,12 +354,14 @@ https://api-one.wallstcn.com/apiv1/content/articles/{article_id}?extract=0
 #### 處理規則
 
 - 涵蓋 Fed、BoE、ECB、BoJ、RBA。
+- **分三批送給 Gemini**（`FED+RBA`、`BOE+BOJ`、`ECB`），各批獨立整理後由 Python 合併，降低單次輸入過大與 token 上限風險。
 - 依央行、官員、日期分組。
 - 同一官員同一天多則 headline 合併為一句。
 - 只保留經濟、通膨、勞動市場、利率、貨幣政策、資產負債表、QE／QT。
 - 排除金融監管、銀行資本、支付、加密貨幣、行政與行程內容。
 - 官員必須能對應設定檔的 `display_name`。
 - 每筆摘要100個中文字以內。
+- token 用量以 `by_batch` 分批記錄後彙總。
 
 #### 輸出
 
@@ -548,21 +549,29 @@ central_banks
 
 ## 5.4 `index.html`
 
-純靜態前端，讀取：
+純靜態前端（部署於 GitHub Pages `https://bruce851117.github.io`），讀取多個 JSON：
 
 ```text
-./data/web/latest.json
+./data/web/latest.json                     市場新聞主資料
+./data/central_banks/digests/latest.json   五大央行官員談話
+./data/digests/history_index.json          歷史新聞索引
 ```
 
-依 `summary_points` 與 `blocks` 渲染首頁摘要及六大新聞分類。它不是資料生成者，而是最終資料消費端。
+包含以下分頁：
+
+- **市場新聞**：依 `summary_points` 渲染首頁重點摘要，再依 `blocks` 顯示六大分類新聞。每則新聞日期後面加上星期（格式 `2026/08/12 三 07:50`）。新聞為扁平列表，不再有事件軌跡（trajectory）階層。
+- **歷史新聞**：依 `history_index.json` 載入過往 digest 做時間軸瀏覽與關鍵字搜尋。
+- **全部原始新聞查詢**：查詢原始 archive headline。
+- **AI 自訂分析**：可手動觸發 `fetch-rss.yml`，並輪詢執行狀態顯示「排隊中／執行中／成功／失敗」；也可選定日期範圍 + 自訂 prompt，透過 Cloudflare Worker 呼叫 Gemini 分析該區間 archive（詳見第 8 節）。
+- **Fed / BoE / ECB / BoJ / RBA**：分別顯示各央行官員近 90 日談話摘要。
+
+它不是資料生成者，而是最終資料消費端；AI 自訂分析頁的觸發／分析功能都是呼叫外部 Cloudflare Worker 完成。
 
 ---
 
 ## 5.5 `PIPELINE.md`
 
-Repo 原有的流程說明文件，描述 Cloudflare Worker、GitHub Actions、三階段新聞流程、時區與手動觸發方式。
-
-需注意其中模型名稱曾寫為 `gemini-3.5-flash`，但目前 Workflow 與 Python 預設值為 `gemini-3.6-flash`；應以實際 Workflow／程式為準，並修正文檔避免版本不一致。
+Repo 原有的流程說明文件（即本檔），描述 Cloudflare Worker、GitHub Actions、新聞流程、時區與手動觸發方式。目前 Workflow、`daily_digest.py`、`build_web_news.py` 與 Cloudflare Worker 的預設模型皆統一為 `gemini-3.6-flash`。
 
 ---
 
@@ -699,10 +708,24 @@ usage_metadata
 | FinancialJuice RSS | 原始金融快訊 | 未見 API Key |
 | Google Gemini API | 分類、翻譯、評分、摘要、央行談話整理 | `GEMINI_API_KEY` GitHub Secret |
 | WallstreetCN API | 早餐要聞補充與測試 | 未見 API Key，以 HTTP Header 模擬瀏覽器 |
-| GitHub Actions API | 由 Cloudflare Worker觸發 Workflow | Worker 端 `GITHUB_TOKEN` |
-| Cloudflare Worker | 外部 Cron 與手動 trigger endpoint | 不在本 Repo 內 |
+| GitHub Actions API | 由 Cloudflare Worker觸發 Workflow、查詢執行狀態 | Worker 端 `GITHUB_TOKEN` |
+| Cloudflare Worker | 外部 Cron、手動 trigger、workflow 狀態查詢、AI archive 分析 | 不在本 Repo 內 |
 
 不得將真實 Token、API Key 或密碼放進 Repo、JSON 或 `REPO_FULL_DUMP.txt`。
+
+### Cloudflare Worker endpoint 一覽
+
+Worker（`market-headline-trigger.bruce851117.workers.dev`）供 `index.html` 呼叫，主要端點：
+
+| Method / Path | 用途 |
+|---|---|
+| `POST /trigger-rss` | 觸發 `fetch-rss.yml`，回傳 `triggered_at_utc` |
+| `POST /trigger-daily-digest` | 觸發 `daily-digest.yml` |
+| `POST /workflow-status` | 帶 `workflow` + `since`，查該 workflow 觸發後最新一筆 run 的 `status` / `conclusion`，供前端輪詢 |
+| `POST /analyze-archive` | 帶日期範圍 + prompt，Worker 抓對應 `data/archive` 後呼叫 Gemini 回傳分析結果 |
+| `GET /health`、`GET /` | 健康檢查與服務資訊 |
+
+Worker 端 secret／變數：`GITHUB_TOKEN`、`GEMINI_API_KEY_WORK`、`ALLOWED_ORIGIN`（限定只有 GitHub Pages 網站可呼叫）。`/analyze-archive` 的 Gemini 呼叫使用 `temperature=0.2`，並在 system instruction 中將 archive 內容一律視為不可信資料以防 prompt injection。
 
 ---
 
@@ -777,9 +800,9 @@ Cloudflare Cron 使用 UTC，因此台灣07:00對應前一日23:00 UTC。
 
 ## 11. 已發現的重要維護問題與風險
 
-### 11.1 文件與實際模型版本不一致
+### 11.1 模型版本（已統一）
 
-`PIPELINE.md` 部分文字寫 `gemini-3.5-flash`，實際 `daily-digest.yml`、`daily_digest.py`、`build_web_news.py` 使用 `gemini-3.6-flash`。應統一，避免未來維護者誤判。
+`daily-digest.yml`、`daily_digest.py`、`build_web_news.py` 與 Cloudflare Worker 目前皆使用 `gemini-3.6-flash`。日後升版時務必同步四處，避免版本漂移。
 
 ### 11.2 外部排程不在 Repo 內
 
