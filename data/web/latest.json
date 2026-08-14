@@ -1,144 +1,62 @@
 {
-  "generated_at": "2026-08-14T08:37:35.820015+08:00",
-  "summary_generated_at": "2026-08-14T08:37:35.820015+08:00",
-  "data_updated_at": "2026-08-14T05:50:18.169927+08:00",
+  "generated_at": "2026-08-15T07:08:37.276327+08:00",
+  "summary_generated_at": "2026-08-15T07:08:37.276327+08:00",
+  "data_updated_at": "2026-08-15T06:55:26.419247+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-08-13T05:00:00+08:00",
-  "period_end": "2026-08-14T05:50:18.169927+08:00",
+  "period_start": "2026-08-14T05:00:00+08:00",
+  "period_end": "2026-08-15T06:55:26.419247+08:00",
   "model": "gemini-3.6-flash",
   "source_digest_files": [
-    "data/digests/2026/08/2026-08-12.json",
     "data/digests/2026/08/2026-08-13.json",
-    "data/digests/2026/08/2026-08-14.json"
+    "data/digests/2026/08/2026-08-14.json",
+    "data/digests/2026/08/2026-08-15.json"
   ],
   "event_count": 36,
   "summary_points": [
-    "中東地緣政治危機加劇，阿聯酋兩艘油輪於荷姆茲海峽遭襲，美軍調派新航母打擊群前往中東，並與以色列密討聯合打擊伊朗能源與電力設施。",
-    "美國7月PPI同比上升4.7%、月率持平，顯示通膨超預期顯著降溫，促使市場對美聯儲今年內升息的押注顯著放緩，國際油價同步跌逾2%。",
-    "美聯儲內部對利率政策立場分歧，官員哈马克主張通膨具粘性需繼續加息，而巴爾金則強調通膨正逐漸放緩且勞動市場脆弱，傾向維持利率不變。",
-    "美國財政部拍賣250億美元30年期國債得標利率達5.216%，創2001年以來新高，投標倍數降至2.39，凸顯市場對長端美債需求疲軟。",
-    "信用評級機構惠譽確認美國主權評級為AA+，警告醫療與社保支出激增將惡化赤字，並預計美國將於2027年中觸及債務上限。",
-    "川普簽署行政命令對進口無人機及零件徵收高達100%關稅，對歐盟、日本、台灣與韓國徵收15%，美執法部門亦嚴查經第三國轉口的規避行為。",
-    "日本7月國內企業物價指數（PPI）同比大增7.2%，報導指出日本首相高市早苗支持日本央行加快加息步伐，推進貨幣政策正常化。",
-    "AI領域競逐加劇，Anthropic展開史上最大規模IPO準備且估值傳衝上2萬億美元，OpenAI與谷歌亦陸續推出極速推理新架構與降價AI模型。"
+    "美伊局勢與荷姆茲海峽危機全面升級，美國總統川普警告對海峽實施嚴密封鎖，伊朗強硬強調掌控航道權並否認直接談判，加上商船與石油設施相繼遭襲擊，引發全球能源供應與運輸安全的高度恐慌。",
+    "美國7月零售銷售月率急劇下滑0.6%，且8月密西根大學消費者信心指數大幅降至51.0、1年期通膨預期上升至4.3%，顯示美國消費需求轉弱並面臨通膨黏性，引發對經濟放緩的疑慮。",
+    "美國總統川普簽署行政命令，對進口無人機及零件徵收高達100%的關稅，並對歐盟、日本、台灣與韓國等地區徵收15%關稅，展現堅定維護國家安全與本土產業的關稅保護立場。",
+    "中國7月新增人民幣貸款意外轉為縮減3,400億元，大幅低於市場預期，反映實體經濟融資需求疲軟，市場對當局推出更多貨幣與財政刺激政策的期待持續增加。",
+    "前日本外匯官員預測日本央行最快可能於9月及年底再次升息，並將最終利率推升至1.5%-1.75%，推升市場對日圓政策加速緊縮及日美聯合干預匯市的預期。",
+    "科技業與機構資金出現顯著調整，軟銀顯著減持台積電ADR達71.5%，而輝達則申報持有SpaceX近1.228億股並獲索羅斯基金增持，凸顯法人對半導體及AI航太供應鏈的資金重新布局。",
+    "美國經濟數據公布後，債券市場利率期貨重新定價聯準會未來的降息路徑，交易員削減對中期降息的押注，聯準會官員則表示單月消費數據仍需持續觀察。"
   ],
   "blocks": [
     {
       "category": "債市",
       "news": [
         {
-          "source_id": "6da3d3536ef345e0d786c55b6364404857fe14a34e29555ff6418a8c0ef4b446",
-          "category": "債市",
-          "importance_score": 2,
-          "highlight": false,
-          "headline_zh": "美國擔保隔夜融資利率（SOFR）降至3.62%",
-          "summary_zh": "8月12日SOFR利率自前一日的3.64%小幅回落至3.62%。",
-          "event_time": "2026-08-13T19:59:43+08:00"
-        },
-        {
-          "source_id": "17d3d8ebb71215a9bebb58426e469405e9818119cdb8f76fccceb68496a9854c",
+          "source_id": "e0432333f0a1a1ba69cef45852c4f844c4c7d52c58b4baba017c483ad4f0dd00",
           "category": "債市",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "惠譽指出2026年7月美國私募信用違約率仍處於歷史高位",
-          "summary_zh": "評級機構惠譽報告指出，高利率環境持續對私募信貸借款人造成壓力，違約率維持歷史高點。",
-          "event_time": "2026-08-13T22:07:50+08:00"
+          "headline_zh": "中國財政部拍賣30年期超特別國債 得標利率為2.14%",
+          "summary_zh": "中國財政部發行超長期特別國債，市場需求與發行利率反映當前國債市場資金面狀況。",
+          "event_time": "2026-08-14T11:38:19+08:00"
         },
         {
-          "source_id": "da7ea80bba1c75ca6c7db78a0a778930bf4a04d39913e8728e70085e8ae59afb",
-          "category": "債市",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "交易員不再完全押注美聯儲今年內將加息",
-          "summary_zh": "受低於預期的美國PPI數據驅動，市場對美聯儲緊縮政策的預期顯著放緩，美債收益率全線下行。",
-          "event_time": "2026-08-13T22:13:52+08:00"
-        },
-        {
-          "source_id": "b2bf6cc223d6ee1b3a3720c07b71f796b428a4d626e49a14afb0db08c6631636",
-          "category": "債市",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "美國30年期國債拍賣得標利率達5.216% 創2001年以來新高",
-          "summary_zh": "美國財政部拍賣250億美元30年期國債，得標利率顯著高於前次的5.058%，投標倍數降至2.39，顯示市場對長端美債需求疲軟。",
-          "event_time": "2026-08-14T01:02:04+08:00"
-        },
-        {
-          "source_id": "9ebb15b1f82b083cc036c2f7a4349693a87b3d043cfc38f917f8501f91d941e0",
+          "source_id": "1506126bb4700b8f4ef27d21b60af9c341e205e1e7ff0b153d4fdc41d493bede",
           "category": "債市",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "美國貨幣市場基金資產規模升至7.93兆美元",
-          "summary_zh": "美國投資公司協會（ICI）數據顯示，貨幣市場基金資產規模繼續刷新紀錄，反映資金避險與高現金收益需求。",
-          "event_time": "2026-08-14T03:12:55+08:00"
+          "headline_zh": "中國財政部拍賣10年期國債 得標利率為1.66%",
+          "summary_zh": "10年期基準國債發行利率持續維持低位，顯示中國債市收益率壓力仍存。",
+          "event_time": "2026-08-14T11:39:25+08:00"
+        },
+        {
+          "source_id": "df11725cce1552c277819733678d0100905084c98aa3bee71ce7b2c4e7c4c23e",
+          "category": "債市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "交易員在美國零售銷售數據發布後削減對2027年中期前多次降息的押注",
+          "summary_zh": "由於消費數據疲軟，債券市場利率期貨重新定價聯準會未來的政策路徑。",
+          "event_time": "2026-08-14T20:33:16+08:00"
         }
       ]
     },
     {
       "category": "股市",
       "news": [
-        {
-          "source_id": "9030f59d2ff31414d6b62f42d5152f8862d30322906e8ecd1fc5f83ced95ff09",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "蘋果擬向出版商支付鉅款補償 以強化 Siri 語音助手AI功能",
-          "summary_zh": "華爾街日報報導，蘋果（Apple）正與多家出版商洽談數億美元補償合作，獲取授權內容以升級 AI Siri 能力。",
-          "event_time": "2026-08-13T06:32:00+08:00"
-        },
-        {
-          "source_id": "a878bd747f4b12c696e46d033ae266e5088c38497e494277a751d76e4a833055",
-          "category": "股市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "蘋果公司與出版商洽談數億美元授權 升級AI驅動的Siri",
-          "summary_zh": "Apple（蘋果）擬向合作出版商支付九位數高額費用，以取得內容授權，進一步增強Siri的生成式AI能力。",
-          "event_time": "2026-08-13T06:32:56+08:00"
-        },
-        {
-          "source_id": "81227e0a83efe8333618318cf9040806042865f11e40f1bddea8d7a87ac349f5",
-          "category": "股市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "Databricks完成50億美元新一輪融資 估值達1,900億美元",
-          "summary_zh": "大數據與AI平台Databricks完成巨額融資，凸顯私募市場對AI基礎設施企業的強勁需求。",
-          "event_time": "2026-08-13T22:12:57+08:00"
-        },
-        {
-          "source_id": "06b6248e60f757e464990b465d7b26429cce346a473c7e4215fe88d99a7ae7dd",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "谷歌發布Gemini 3.7 Flash AI模型並調降價格 旗艦模型延後推出",
-          "summary_zh": "Google（谷歌）發布Gemini 3.7 Flash，提升長文本與複雜文件處理能力，每百萬輸入Token起價降至0.75美元，大幅降低調用成本。",
-          "event_time": "2026-08-14T01:00:54+08:00"
-        },
-        {
-          "source_id": "db826b1760cf8221675ed5b0c22a09cb3867d685483a4dec622ade196b17b481",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "OpenAI推出極速推理層 並與Cerebras合作低延遲晶片架構",
-          "summary_zh": "OpenAI預覽超高速等級運算，最高可實現14倍速度提升，運行GPT-5.6 Sol生成速度達每秒750個 Token。",
-          "event_time": "2026-08-14T01:01:30+08:00"
-        },
-        {
-          "source_id": "4e8c830bffd98145623869e9be18b56a51aaeb114cb3213930d72c68664f33b1",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "Anthropic財務長展開早期IPO準備 估值傳衝上2萬億美元",
-          "summary_zh": "AI獨角獸Anthropic高層積極推動史上規模最大的上市計劃，投資人押注其市場估值翻倍。",
-          "event_time": "2026-08-14T01:02:35+08:00"
-        },
-        {
-          "source_id": "08a277f885981938746107bad094638c9447ed732d5bbe5d146fc59a7c31a530",
-          "category": "股市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "蘋果公司於休士頓成立先進製造中心",
-          "summary_zh": "Apple在德州休士頓設立新的製造設施，持續推動美國本土製造與供應鏈佈局。",
-          "event_time": "2026-08-14T02:30:44+08:00"
-        },
         {
           "source_id": "7124a8b19c90f9bccafba4070fd532f641266bc2d3efaecc95c89a54a405872b",
           "category": "股市",
@@ -147,6 +65,60 @@
           "headline_zh": "AMD定價47.5億美元優先債券 發行融資支持業務成長",
           "summary_zh": "Advanced Micro Devices（AMD）分四部分發行高級債券，募資近50億美元，用於強化營運與研發投資。",
           "event_time": "2026-08-14T05:27:40+08:00"
+        },
+        {
+          "source_id": "6f9f05013385fb6b17386edb89d028660b927fb446ae4b0df3add2f8b72f2f65",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "高盛與潛在投資者就輝達5,000億美元AI融資計畫進行洽談",
+          "summary_zh": "高盛參與輝達龐大的AI基礎建設融資籌劃，凸顯資本市場對人工智慧算力的巨額投資渴望。",
+          "event_time": "2026-08-14T12:00:04+08:00"
+        },
+        {
+          "source_id": "29670ae4528cda14965b4eed1ae036903562dc4cf5b86e312947a0754fdcf9d8",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "蘋果在阿里巴巴支持下專為中國市場訓練AI模型",
+          "summary_zh": "蘋果深化與阿里巴巴的合作，以加快Apple Intelligence在中國市場的在地化合規與推廣。",
+          "event_time": "2026-08-14T12:19:22+08:00"
+        },
+        {
+          "source_id": "92b268d9093b3264693f5e2026471cfae1ede1ffbb66fcfeb109dcc9b8359c87",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "軟銀集團減持台積電美國存託憑證股份達71.5%",
+          "summary_zh": "SEC申報文件顯示軟銀顯著削減台積電持股至56.5萬股，引發市場對機構法人調配半導體持股的關注。",
+          "event_time": "2026-08-15T00:27:06+08:00"
+        },
+        {
+          "source_id": "63efe8be90893fbcb8fc95d842874626e1705a54d09319c0b6f06213b7ad4f97",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "索羅斯基金管理公司增持輝達39.1萬股至146.4萬股",
+          "summary_zh": "13F申報文件顯示知名對沖基金索羅斯基金繼續加碼輝達，強化對AI龍頭的看好情緒。",
+          "event_time": "2026-08-15T04:20:15+08:00"
+        },
+        {
+          "source_id": "6047aeaff790a198074469fe10123d8e1d080c9b39599745180c1d7c593ce844",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "輝達向SEC申報持有SpaceX近1.228億股A類股票",
+          "summary_zh": "輝達揭露對SpaceX的大額股權投資，展現大型科技巨頭在太空及航太通訊領域的縱向布局。",
+          "event_time": "2026-08-15T04:29:17+08:00"
+        },
+        {
+          "source_id": "05c8f01b2b84dd14ff55c804fcebb89268e680c640b67c5e9fcfbac263e8c33c",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "Jane Street 7月交易收入出現自2016年以來首次轉負並收緊風險",
+          "summary_zh": "量化巨頭Jane Street高層告知員工7月業績貧弱，並已平倉大部分帶來虧損的風險部位。",
+          "event_time": "2026-08-15T05:50:20+08:00"
         }
       ]
     },
@@ -154,91 +126,55 @@
       "category": "央行",
       "news": [
         {
-          "source_id": "a8cb8554493e368ed3a89c262825af9e5b91d827dbd9fd67aefc27ab99410e17",
-          "category": "央行",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "澳洲聯邦儲備銀行助理總裁Kent：現行利率已發揮抑制通膨效果",
-          "summary_zh": "RBA（澳洲央行）Kent表示現金利率已接近中性利率區間頂部，若未來通膨風險上升，仍保留進一步升息的可能性。",
-          "event_time": "2026-08-13T08:24:31+08:00"
-        },
-        {
-          "source_id": "415eedf142dae213a386927d4a90e447d4b4dcf67e2f0703f953e5dd926c1e2e",
-          "category": "央行",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "挪威央行宣布維持基準利率於4.25%不變",
-          "summary_zh": "挪威央行符合預期地維持政策利率在4.25%，以平衡通膨壓力與經濟成長。",
-          "event_time": "2026-08-13T16:00:02+08:00"
-        },
-        {
-          "source_id": "fb7b26647b83484ef572478c970b4c02898aac7e9df89f21518b4aeafbbf1737",
-          "category": "央行",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "美聯儲官員觀點分歧：哈马克堅持加息 巴爾金主張按兵不動",
-          "summary_zh": "Fed（美聯儲）官員Hammack指出通膨具有粘性且政策未達足夠限制性，主張需採取行動加息；而Barkin則強調通膨正逐漸放緩，勞動市場脆弱，傾向維持利率不變。",
-          "event_time": "2026-08-13T20:36:43+08:00"
-        },
-        {
-          "source_id": "e9f89f71253adc62d6899c35f930a1a878154f2b6402cf50c4c9df715359afef",
+          "source_id": "87cd771700e346091bb836214e4a2af6f03388cdb38a6844be8d0e75d9bef820",
           "category": "央行",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "美聯儲Barkin：聯邦政府債務水準已成為通膨逆風",
-          "summary_zh": "美聯儲官員Barkin表示，美國當前龐大的聯邦赤字與債務規模，構成了美聯儲對抗通膨時必須面對的持續阻力。",
-          "event_time": "2026-08-13T20:56:37+08:00"
+          "headline_zh": "日本前外匯官員古澤滿宏：日本央行最終可能將利率提高至1.5%-1.75%",
+          "summary_zh": "前日本財務省高層對日本央行升息終點做出預測，增添市場對日圓中長期利率走勢的預期。",
+          "event_time": "2026-08-14T08:00:04+08:00"
         },
         {
-          "source_id": "9edaffa67e1dbad4ed6622b97d7b4cdc692eb098e76442a11a12a11b75b36ff3",
+          "source_id": "7b83ac70b0bd944f9e1397fd14592d02413ea757cf238d5b2e0810f60061f0cb",
           "category": "央行",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "報導稱日本首相高市早苗支持日本央行加快加息步伐",
-          "summary_zh": "日本政府高層支持BOJ（日本央行）加速貨幣政策正常化，以應對持續高企的生產者物價指數（PPI）。",
-          "event_time": "2026-08-13T21:16:49+08:00"
+          "headline_zh": "日本前外匯官員古澤滿宏：日本央行可能在9月升息，隨後於12月或1月再次升息",
+          "summary_zh": "古澤滿宏給出明確的日央升息時點預估，推升市場對下半年日圓政策轉緊的關注。",
+          "event_time": "2026-08-14T08:00:04+08:00"
         },
         {
-          "source_id": "60f336ec7e16de4b4536b7d420393a1752c5fa7d3b12621aea17b9045214f7f4",
+          "source_id": "18f59f262e61d0ed6c092686e8e8c47f904d11bc1ee688c424cabb83bf995e6c",
+          "category": "央行",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "日本前外匯官員古澤滿宏：日美聯合干預日圓行動隨時可能再次發生",
+          "summary_zh": "若日圓大幅貶值回7月底前水準，美日當局隨時有再次聯合干預匯市的可能性。",
+          "event_time": "2026-08-14T08:00:04+08:00"
+        },
+        {
+          "source_id": "e5297c4a58eafbeda9c5486fd3d97498e0d924d1688d6a767018b721cfb1f967",
           "category": "央行",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "英國央行Pill：英國GDP數據顯示經濟並未陷入急劇衰退",
-          "summary_zh": "BoE（英國央行）首席經濟學家Pill指出，最新第二季GDP成長反映經濟韌性，減輕市場對深度衰退的疑慮。",
-          "event_time": "2026-08-13T23:29:51+08:00"
+          "headline_zh": "中國人民銀行將人民幣兌美元中間價調升至2023年2月以來最強水準",
+          "summary_zh": "中國央行透過中間價設定展現穩定匯率及引導人民幣走強的意圖。",
+          "event_time": "2026-08-14T09:17:39+08:00"
+        },
+        {
+          "source_id": "04171c71180fc1201b015c4cb2bea119eb4537aefe69b80a5aa9b0c4151b968a",
+          "category": "央行",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "聯準會古爾斯比：支持7月維持利率不變決定，零售銷售疲軟僅為單月數據",
+          "summary_zh": "芝加哥聯審銀行總裁Goolsbee表示通脹數據令人鼓舞，但強調單月消費疲軟仍需觀察，若生產率持續下滑將改變AI敘事。",
+          "event_time": "2026-08-15T00:34:14+08:00"
         }
       ]
     },
     {
       "category": "財政政策",
       "news": [
-        {
-          "source_id": "5276bf4f77569b9589ef85bff1c2ff8f48456f01485da5df237f95b375f25106",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "特朗普貿易顧問納瓦羅：美海關正嚴加打擊轉口貿易與關稅規避行為",
-          "summary_zh": "Navarro表示，美國執法部門正對經由第三國轉運以規避美國關稅的違規行為進行全面嚴查，打擊對象擴及全球多個地區。",
-          "event_time": "2026-08-13T19:22:01+08:00"
-        },
-        {
-          "source_id": "9733cc6075284d8761ce504391da5b9128ff098700bfbc91c7eb126c889aaf91",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "美加緊密展開USMCA貿易談判 8月19日關稅截止日在即",
-          "summary_zh": "加拿大官員與美國貿易代表進行密集會談，就乳製品及汽車供應鏈關稅條款進行談判，底特律車企警告條款修改可能造成數十億美元損失。",
-          "event_time": "2026-08-14T00:28:26+08:00"
-        },
-        {
-          "source_id": "5c1d206ae722f36e6720b13919b8a90036409cd5c41112de80f535b00f0ed372",
-          "category": "財政政策",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "惠譽確認美國主權評級為AA+ 警告財政赤字與債務上限隱憂",
-          "summary_zh": "評級機構Fitch（惠譽）預計美國將於2027年中觸及債務上限，並指責美國政府未採取有效行動處置財政赤字，醫療保險與社會保障支出增加將使財政壓力持續上升。",
-          "event_time": "2026-08-14T04:37:33+08:00"
-        },
         {
           "source_id": "32eb9ce07019587064b1c5d4b783142fa4c99e3f1e909921169fde886e8bf373",
           "category": "財政政策",
@@ -256,6 +192,51 @@
           "headline_zh": "特朗普簽署備忘錄 要求國防部加大美國造船業直接投資",
           "summary_zh": "白宮備忘錄指示五角大廈借鏡芬蘭模式，直接資助並強化美國本土造船及修船工業產能。",
           "event_time": "2026-08-14T05:27:43+08:00"
+        },
+        {
+          "source_id": "00ecf345ef2c5a4c80e5d4ea74c14efd2a2143bb3a213046b87c2c855812018a",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美國財政部長貝森特：我們將對伊朗採取前所未有的制裁與經濟措施",
+          "summary_zh": "美國財政部擬發動升級版的經濟封鎖與財政制裁，全面打擊伊朗經濟與資金鏈。",
+          "event_time": "2026-08-14T07:14:13+08:00"
+        },
+        {
+          "source_id": "ed41ea529d62ea0a40aae2abf21d300cfd1010b616199748939cfcd45b4fbc26",
+          "category": "財政政策",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "英國改革黨領袖法拉奇贏得克拉克頓補選 重返國會席位",
+          "summary_zh": "法拉奇重返國會可能影響英國未來的右翼政黨競爭與財政政策討論。",
+          "event_time": "2026-08-14T13:04:31+08:00"
+        },
+        {
+          "source_id": "f03fbbec2835ac1ceed0f4d6aed5faf76bc7b51ae76715924563c500205fb974",
+          "category": "財政政策",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "白宮預算局局長沃特：福特級航母成本過高，造船廠面臨嚴重積壓",
+          "summary_zh": "白宮預算管理當局針對軍費與海軍國防預算開支效率發表評論，凸顯國防財政預算審查壓力。",
+          "event_time": "2026-08-14T21:38:09+08:00"
+        },
+        {
+          "source_id": "ef79973ecc329eaa48a81e8a3ff252e24f2e0c1f4198ab0e1611d920a7567549",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "川普：我們正在透過關稅政策賺取巨額財富",
+          "summary_zh": "美國總統川普再次強調關稅政策對美國財政收入的貢獻，暗示關稅牆將持續堅固。",
+          "event_time": "2026-08-15T03:50:28+08:00"
+        },
+        {
+          "source_id": "3300575a9c3380cbcf40c6538d5206ed4e2dd06670a0b2dd8144e0bd426c5c1f",
+          "category": "財政政策",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "加拿大負責對美貿易部長表示美加雙方距離達成貿易協定仍很遙遠",
+          "summary_zh": "雙邊貿易談判陷入僵局，涉及關稅與國防關鍵礦產供應鏈等財政經濟議題。",
+          "event_time": "2026-08-15T05:27:47+08:00"
         }
       ]
     },
@@ -263,58 +244,49 @@
       "category": "經濟",
       "news": [
         {
-          "source_id": "caa3635fc05569f5c2cb199df93c6c8a3549bf0fc1892bd658358a2109a58698",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "委內瑞拉7月通脹率升至19.9%",
-          "summary_zh": "委內瑞拉央行公布7月單月通脹率達19.9%，顯示該國物價持續維持極高波動。",
-          "event_time": "2026-08-13T05:37:48+08:00"
-        },
-        {
-          "source_id": "c7d11b800779c321cf0cde02076571c60f5bffc666656a7d2632f60c0f54efe1",
+          "source_id": "0b94c2185ce9fe08273d120629529f3c8a7bab02b2b31b4ee11b5ca0b897dfad",
           "category": "經濟",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "日本7月國內企業物價指數（PPI）同比上漲7.2% 高於預期",
-          "summary_zh": "日本央行公布7月企業物價指數年增7.2%，持續處於高位，加劇市場對日本央行進一步升息的預期。",
-          "event_time": "2026-08-13T07:50:07+08:00"
+          "headline_zh": "中國7月新增人民幣貸款轉為縮減3,400億元 遠低於市場預期",
+          "summary_zh": "中國信貸數據大幅不及預期，顯示實體經濟融資需求疲軟，市場呼籲更多刺激政策。",
+          "event_time": "2026-08-14T16:32:41+08:00"
         },
         {
-          "source_id": "26ba45b4481409e7cdbdade4c787d0d447c35657e17e84dd0abc1199cab0fb86",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "英國第二季GDP初值月增0.3% 高於市場預期",
-          "summary_zh": "英國二季度經濟成長展現韌性，月度GDP成長0.3%，服務業表現強勁成為主要支撐動力。",
-          "event_time": "2026-08-13T14:00:01+08:00"
-        },
-        {
-          "source_id": "2b98a61168ce5cb5536259e65e1e2c74f343355851c86a9e5ee2ba637d16e970",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美國初請失業金人數升至20.9萬人 勞動市場保持平穩",
-          "summary_zh": "截至8月8日當周，美國初請失業金人數小幅升至20.9萬，續請失業金人數降至177.7萬，整體就業市場維持相對健康。",
-          "event_time": "2026-08-13T20:30:00+08:00"
-        },
-        {
-          "source_id": "9f9bfbf11b309ab98a573798a2dceb677b09dfa380ccc1c4345fd23b7af203a7",
+          "source_id": "6e44d71dc0ee11418b00fa5be0632aca39c32de6880a6a19149d0b89b0db4030",
           "category": "經濟",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "美國7月PPI同比上升4.7% 通膨超預期顯著降溫",
-          "summary_zh": "美國7月PPI月率持平（0.0%），年增率自前值的5.5%大幅收窄至4.7%，核心PPI年增4.2%，主要受能源成本下降推動，顯著緩解通膨壓力。",
-          "event_time": "2026-08-13T20:30:03+08:00"
+          "headline_zh": "美國7月零售銷售月率下降0.6% 遠低於預期的成長0.1%",
+          "summary_zh": "美國消費成長動能急劇放緩，創近期最大跌幅，大幅引發市場對美國經濟走弱的擔憂。",
+          "event_time": "2026-08-14T20:30:03+08:00"
         },
         {
-          "source_id": "b2265a389af5175d6989454a821c4060c75e098be5781e495c79861326e20689",
+          "source_id": "5fb413428febd538fc2d34cba396f84ab5bddb722d9e0b950e0acc4c271e4435",
+          "category": "經濟",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "美國7月核心零售銷售月率下降0.3% 不及市場預估的成長0.2%",
+          "summary_zh": "扣除汽車等高波動項目後的核心零售銷售同樣轉負，證實消費者需求普遍萎縮。",
+          "event_time": "2026-08-14T20:30:06+08:00"
+        },
+        {
+          "source_id": "6f9ce72b1b96d94fb4315070fede3c89a080b1c34403744e2f414555092eab16",
           "category": "經濟",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "國際油價受通膨降溫與戰術局勢影響 收盤下跌超2%",
-          "summary_zh": "NYMEX原油期貨結算價報81.25美元/桶，下跌2.43%；布蘭特原油結算價報87.07美元/桶，下跌2.15%。",
-          "event_time": "2026-08-14T02:31:39+08:00"
+          "headline_zh": "美國8月密西根大學消費者信心指數初值降至51.0 低於預期的55.0",
+          "summary_zh": "美國消費者信心指數顯著下滑，反映對通膨與經濟前景的悲觀情緒上升。",
+          "event_time": "2026-08-14T22:01:02+08:00"
+        },
+        {
+          "source_id": "5b596e30bbdf82727b92770c1364af5f7f745b98720faa4cb817f8b63fd248f1",
+          "category": "經濟",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美國8月密西根大學1年期通膨預期初值上升至4.3%",
+          "summary_zh": "短期通膨預期反彈，高於前值與預期的4.2%，增加了聯準會平衡通膨與經濟成長的難度。",
+          "event_time": "2026-08-14T22:01:05+08:00"
         }
       ]
     },
@@ -322,73 +294,100 @@
       "category": "戰爭",
       "news": [
         {
-          "source_id": "5ecb6606828602b4a33a851e0d8fbc9e894b4ff5e49211d4eed22437c948fe9e",
+          "source_id": "5718d1c4e57246d6eda85c3ab283cf5c9735235188fa605418e86f5bdd5d3463",
           "category": "戰爭",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "伊朗軍方宣稱完全控制荷姆茲海峽 警告無許可船舶不得通行",
-          "summary_zh": "伊朗民兵與官媒聲稱荷姆茲海峽完全處於伊朗掌控之下，駁斥美方說法，並警告無許可船隻無法安全通過。",
-          "event_time": "2026-08-13T15:02:59+08:00"
+          "headline_zh": "英國海事貿易行動辦公室：一艘油輪在駛出荷姆茲海峽時遭無人機擊中",
+          "summary_zh": "荷姆茲海峽商船遭襲事件再度發生，引發全球能源運輸安全與原油風險溢價飆升。",
+          "event_time": "2026-08-14T15:59:58+08:00"
         },
         {
-          "source_id": "e9586143395793016a046009bf4988658c499b78b3f95b6cc7bc73bf257dc5d9",
+          "source_id": "ab1b4cb40e80ac8cd3bd075b5e8d53844edea37f1d9a9509ed39422976d9df56",
           "category": "戰爭",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "胡塞武裝無人機襲擊沙烏地阿美位於吉贊的煉油廠",
-          "summary_zh": "葉門胡塞武裝聲稱發射兩架無人機精準打擊沙烏地阿美（Aramco）煉油廠，中東能源基礎設施面臨直接威脅。",
-          "event_time": "2026-08-13T23:08:27+08:00"
+          "headline_zh": "俄羅斯黑海新羅西斯克石油終端在無人機襲擊後暫停裝載",
+          "summary_zh": "俄烏戰爭影響俄國黑海原油出口出口港，對全球石油供應鏈構成額外威脅。",
+          "event_time": "2026-08-14T22:18:52+08:00"
         },
         {
-          "source_id": "014ab71495294d19c0b5cd410b4e41934cb61a01e996b90e25428f66032c2848",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "美國調派新航母打擊群前往中東 應對美伊戰爭緊張局勢",
-          "summary_zh": "華爾街日報報導，因應伊朗戰爭壓力，美國向中東增派航母，國防部長赫格塞斯表示美軍有能力長期實施海上封鎖。",
-          "event_time": "2026-08-13T23:28:03+08:00"
-        },
-        {
-          "source_id": "0adaae1614aa07d14bc6c0e02e9301fbca41f507c8300e7a535c2ba7c4962cbf",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "美軍中央司令部司令密訪以色列 討論對伊朗能源與電力設施發動聯合打擊",
-          "summary_zh": "以色列媒體報導，美軍CENTCOM司令Cooper敦促對伊朗石油、天然氣與電力基礎設施重啟打擊，美國可能迫於局勢重新參戰。",
-          "event_time": "2026-08-14T01:55:45+08:00"
-        },
-        {
-          "source_id": "b94546ba99025edd0147814458e09bc94370f017d23d19861cc9dd178e5bd28a",
+          "source_id": "25fa3f1cf1fffdd264eb62cba1cb69e2e4e8b039174c7e52415b3dca315d2d34",
           "category": "戰爭",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "庫什納擬於下週訪問以色列與開羅 進行加薩與停火談判磋商",
-          "summary_zh": "Axios引述消息報導，Jared Kushner將前往中東與埃及調解人及以色列高層會談，設法推動停火外交談判。",
-          "event_time": "2026-08-14T04:05:58+08:00"
+          "headline_zh": "以軍越境進入敘利亞庫奈特拉郊區並設立檢查站",
+          "summary_zh": "以色列軍隊再次跨越邊境進入敘利亞南部，顯示中東地面衝突區域有擴大趨勢。",
+          "event_time": "2026-08-15T00:21:46+08:00"
         },
         {
-          "source_id": "82ae4cb64404c340913ba6873d37d15d5831ec94655b3d9dda69238789e9a610",
+          "source_id": "684136e28995468891464a4f1b05feb9135d0dc309881e724dd89f2ffbb0bc9d",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "胡塞武裝無人機襲擊沙烏地阿美位於奈季蘭的設施",
+          "summary_zh": "中東戰火蔓延至沙烏地石油設施，葉門胡塞武裝擴大對周邊目標的打擊範圍。",
+          "event_time": "2026-08-15T01:12:59+08:00"
+        },
+        {
+          "source_id": "10e70ca7ad90ce3ec5ff7b20e2648b7798fc168fa91872529525cb1dc643711d",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "白宮新聞秘書：美方有多種手段打擊並癱瘓伊朗經濟",
+          "summary_zh": "白宮證實正在考慮進一步的制裁與軍事施壓選項，對伊朗維繫最高施壓立場。",
+          "event_time": "2026-08-15T02:12:14+08:00"
+        },
+        {
+          "source_id": "7fd06cf278e1de097ce2ef603c0f7142d0420e86f9e1b0eb02a75e7787e2621d",
           "category": "戰爭",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "阿聯酋證實兩艘ADNOC油輪於荷姆茲海峽遭襲 航運安全嚴重受威脅",
-          "summary_zh": "阿布達比國家石油公司（ADNOC）旗下兩艘油輪在荷姆茲海峽遭襲，UKMTO證實該海峽商業通行量已降至個位數。",
-          "event_time": "2026-08-14T04:59:31+08:00"
+          "headline_zh": "川普警告：很快將宣佈荷姆茲海峽為美國領土 並進行鋼鐵般的封鎖",
+          "summary_zh": "美國總統川普對伊朗發表極端強硬言論，宣稱美軍已全面部署且具備摧毀伊朗的能力。",
+          "event_time": "2026-08-15T03:53:51+08:00"
+        },
+        {
+          "source_id": "0a1e1cfeb5c0ae9d46c29ad77bfa27bc80cfc8880bf8746199a8f8d6bd49dcb7",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "伊朗副外長加里巴巴迪：荷姆茲海峽的開啟或關閉完全由伊朗掌控",
+          "summary_zh": "伊朗官方強硬回應川普言論，強調不會在美方威脅下屈服，航道控制權屬於伊朗。",
+          "event_time": "2026-08-15T05:00:03+08:00"
+        },
+        {
+          "source_id": "7f015518aca9bb60462990f910a52cea4790699378b6c9942a24e00356ab2f8f",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "伊朗外長阿拉格齊：尚未做出恢復與美國談判的決定",
+          "summary_zh": "伊朗外交部澄清雖然卡達與巴基斯坦傳遞訊息，但目前並未進行或決定重啟美伊談判，使局勢降溫希望落空。",
+          "event_time": "2026-08-15T05:06:07+08:00"
+        },
+        {
+          "source_id": "56b3af0c72ee95c73836f397ac4df21423badc6127d04e879e674d247af6d83e",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "伊朗外交部：卡達與巴基斯坦轉達美方訊息 但並不代表美伊正在談判",
+          "summary_zh": "伊朗再次否認直接會談，證實雙方僅透過調解國傳遞訊息，局勢仍處於僵局。",
+          "event_time": "2026-08-15T05:07:08+08:00"
         }
       ]
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 6550,
-    "candidatesTokenCount": 445,
-    "totalTokenCount": 9056,
+    "promptTokenCount": 6269,
+    "candidatesTokenCount": 479,
+    "totalTokenCount": 8505,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 6550
+        "tokenCount": 6269
       }
     ],
-    "thoughtsTokenCount": 2061,
+    "thoughtsTokenCount": 1757,
     "serviceTier": "standard"
   }
 }
