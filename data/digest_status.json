@@ -2,24 +2,24 @@
   "status": "success",
   "timezone": "Asia/Taipei",
   "utc_offset": "+08:00",
-  "run_at": "2026-08-16T07:36:36.364621+08:00",
+  "run_at": "2026-08-17T07:00:45.423970+08:00",
   "model": "gemini-3.6-flash",
-  "input_headline_count": 41,
-  "included_headline_count": 41,
-  "output_news_count": 29,
+  "input_headline_count": 21,
+  "included_headline_count": 21,
+  "output_news_count": 18,
   "usage_metadata": {
-    "promptTokenCount": 6148,
-    "candidatesTokenCount": 5897,
-    "totalTokenCount": 15826,
+    "promptTokenCount": 5306,
+    "candidatesTokenCount": 3977,
+    "totalTokenCount": 16803,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 6148
+        "tokenCount": 5306
       }
     ],
-    "thoughtsTokenCount": 3781,
+    "thoughtsTokenCount": 7520,
     "serviceTier": "standard"
   },
   "error": "",
-  "last_success_at": "2026-08-16T07:36:36.364621+08:00"
+  "last_success_at": "2026-08-17T07:00:45.423970+08:00"
 }
