@@ -1,0 +1,33 @@
+{
+  "captured_at": "2026-08-20T23:06:13.600881+00:00",
+  "attempt": 1,
+  "model": "gemini-3.6-flash",
+  "response_character_count": 36826,
+  "finish_reason": "MAX_TOKENS",
+  "finish_message": "",
+  "usage_metadata": {
+    "promptTokenCount": 70747,
+    "candidatesTokenCount": 24997,
+    "totalTokenCount": 136279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 70747
+      }
+    ],
+    "thoughtsTokenCount": 40535,
+    "serviceTier": "standard"
+  },
+  "prompt_feedback": {},
+  "parse_error": "Gemini returned invalid JSON: Unterminated string starting at: line 820 column 9 (char 36793)",
+  "json_error": {
+    "message": "Unterminated string starting at",
+    "line": 820,
+    "column": 9,
+    "character_position": 36793,
+    "context_start": 36293,
+    "context_end": 36826,
+    "context": "f175e83ce5490ddb17b8a875cd2ec0c1e3d440fb96\",\n        \"76144751a89263a1c46655a516bf474bd5aed848271be56f6dfc40ca5e6850fc\",\n        \"f4597d27ca7986f107d6392ccb2a409366cb584deaaedba2a28ca3fcec44083f\",\n        \"f7fd5c6f03134f90ba8691f62ff4ab160de520e2969df3be61a3213d39390098\"\n      ]\n    },\n    {\n      \"central_bank\": \"FED\",\n      \"official\": \"Thomas Barkin\",\n      \"date\": \"2026-08-13\",\n      \"summary_zh\": \"Barkin表示部分通膨驅動因素（如AI）可能具持續性，勞動市場脆弱且企業偏好減少招聘而非解僱，美聯儲目前未實施前瞻指引。\",\n      \"source_ids\":\n[\n        \"fb597365a36f9d9b350e59a04b4d15cd"
+  },
+  "raw_response_text_file": "data/debug/gemini_invalid_json_20260820T230613600839Z_attempt_1.txt"
+}
