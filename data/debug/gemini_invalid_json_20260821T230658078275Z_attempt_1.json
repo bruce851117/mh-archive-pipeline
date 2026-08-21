@@ -1,0 +1,33 @@
+{
+  "captured_at": "2026-08-21T23:06:58.078319+00:00",
+  "attempt": 1,
+  "model": "gemini-3.6-flash",
+  "response_character_count": 19685,
+  "finish_reason": "MAX_TOKENS",
+  "finish_message": "",
+  "usage_metadata": {
+    "promptTokenCount": 71196,
+    "candidatesTokenCount": 12587,
+    "totalTokenCount": 136725,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 71196
+      }
+    ],
+    "thoughtsTokenCount": 52942,
+    "serviceTier": "standard"
+  },
+  "prompt_feedback": {},
+  "parse_error": "Gemini returned invalid JSON: Unterminated string starting at: line 511 column 21 (char 19683)",
+  "json_error": {
+    "message": "Unterminated string starting at",
+    "line": 511,
+    "column": 21,
+    "character_position": 19683,
+    "context_start": 19183,
+    "context_end": 19685,
+    "context": "25ebeffec8a3caeb2a29289c2aa1081d439d6700468c21f16e6079b8827416e\",\n        \"4f90c2edf3a70e1136c0633081d06505f54571ec60267fdd56cd1f64cab371ff\",\n        \"36b7546567dcefefa5d0762658089a48f6331a6239a864148e61260dd369a636\",\n        \"21db6d53f386b1b967d381bbc3e11a80c89492652065ef5530671642fb25ab59\",\n        \"42b33d08759f8466173f1e209f5cffb23ebb898c1818767fec138283c7915550\"\n      ]\n    },\n    {\n      \"central_bank\": \"FED\",\n      \"official\": \"Lorie Logan\",\n      \"date\": \"2026-07-31\",\n      \"summary_zh\": \"通"
+  },
+  "raw_response_text_file": "data/debug/gemini_invalid_json_20260821T230658078275Z_attempt_1.txt"
+}
