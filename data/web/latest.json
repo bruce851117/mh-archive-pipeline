@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-08-23T07:53:37.777167+08:00",
-  "summary_generated_at": "2026-08-23T07:53:37.777167+08:00",
-  "data_updated_at": "2026-08-23T06:54:32.099882+08:00",
+  "generated_at": "2026-08-24T07:12:51.020582+08:00",
+  "summary_generated_at": "2026-08-24T07:12:51.020582+08:00",
+  "data_updated_at": "2026-08-24T06:54:29.744073+08:00",
   "timezone": "Asia/Taipei",
   "period_start": "2026-08-21T05:00:00+08:00",
-  "period_end": "2026-08-23T06:54:32.099882+08:00",
+  "period_end": "2026-08-24T06:54:29.744073+08:00",
   "model": "gemini-3.6-flash",
   "source_digest_files": [
     "data/digests/2026/08/2026-08-20.json",
     "data/digests/2026/08/2026-08-21.json",
     "data/digests/2026/08/2026-08-22.json",
-    "data/digests/2026/08/2026-08-23.json"
+    "data/digests/2026/08/2026-08-23.json",
+    "data/digests/2026/08/2026-08-24.json"
   ],
-  "event_count": 79,
+  "event_count": 101,
   "summary_points": [
-    "加拿大總理卡尼宣佈暫停與美國的雙邊貿易談判，並決定於9月8日起對美國商品實施「一美元對一美元」的等額報復性關稅，以反制美方高達50%的高額關稅威脅。",
-    "中東地緣局勢顯著惡化，美軍中央司令部對伊朗實施海上封鎖並登船檢查數十艘商船；伊朗高層則警告將打擊協助美方經濟戰的國家資產，致荷姆茲海峽通航量降至個位數。",
-    "美國經濟動能強勁，8月標普綜合PMI初值攀升至56.0，創逾四年來新高，主要由服務業的強勁成長所推升。",
-    "輝達（Nvidia）已通知客戶將調漲AI晶片系統售價超過15%，新價格將於明年初出貨的Vera Rubin與Grace Blackwell架構系統生效，反映高階AI算力需求持續火熱。",
-    "債市與財政政策方面，美國總統川普澄清並未指示財政部長貝森特干預國債市場，市場持續關注美債發行節奏與市場消化能力。",
-    "歐元區8月綜合PMI初值升至52.1，創下9個月以來新高，其中德國製造業PMI回升至54.1，顯示歐洲區域經濟展現回穩擴張跡象。",
-    "俄烏戰局持續升級，烏克蘭空襲俄羅斯煉油廠與軍事空軍基地，俄羅斯總統普丁隨後警告烏方打擊關鍵經濟目標已打開局勢惡化的「潘朵拉盒子」。",
-    "全球央行官員頻發聲，瑞士央行官員透露若通膨需要不排除重返負利率政策，歐洲央行官員則重申9月利率決策將完全視經濟數據而定。"
+    "美軍中央司令部對伊朗實施海上封鎖並攔截數十艘商船，導致荷姆茲海峽通航流量降至個位數；伊朗高層則警告將打擊協助美國對其發動經濟戰的國家資產。",
+    "因應美國祭出高額關稅，加拿大總理卡尼宣布全面暫停雙邊貿易談判，並定於9月8日起針對美國鋼鐵與乳製品等商品啟動「一美元對一美元」的等額報復性關稅。",
+    "經濟數據方面，美國8月標普綜合PMI初值升至56.0，創逾四年新高；歐元區8月綜合PMI初值亦升至52.1，顯示兩大經濟體景氣均呈回穩擴張態勢。",
+    "輝達已通知客戶將於明年初出貨的AI晶片系統售價調漲逾15%，以因應強勁運算需求；三星則公布最高達110萬億韓元的歷史最大規模股東回報方案。",
+    "在中東與俄烏地緣局勢上，美國斡旋敘利亞與以色列於約旦會談以緩和衝突；烏軍打擊俄國煉油廠，俄羅斯總統普丁則警告烏方襲擊經濟目標將開啟局勢升級的潘朵拉盒子。",
+    "美國總統川普澄清並未指示財政部長貝森特干預美債市場，並強調強勁的經濟成長將能化解聯邦國債壓力。",
+    "央行動態方面，歐洲央行官員重申9月利率決策將完全視數據而定，瑞士央行官員則表示若通膨有需要，不排除將利率降至0%以下。"
   ],
   "blocks": [
     {
@@ -130,6 +130,15 @@
           "headline_zh": "輝達新一波漲價將於明年初出貨系統生效 涵蓋Vera Rubin與Grace Blackwell晶片",
           "summary_zh": "輝達的價格調漲計畫將針對明年初開始出貨的系統生效，受影響產品包含搭載Vera Rubin與Grace Blackwell架構晶片的最新系統。",
           "event_time": "2026-08-23T02:56:35+08:00"
+        },
+        {
+          "source_id": "ae8e775ea0ae76059f47fda402dafb578300031959daf1e0c967a739e10cae44",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "開源AI平台Hugging Face傳出獲得至少130億美元收購意向",
+          "summary_zh": "據Business Insider報導，著名人工智慧（AI）社群與模型託管平台Hugging Face收到金額高達130億美元以上的併購意向，顯示市場對AI基礎設施與生態系資產的強勁需求。",
+          "event_time": "2026-08-24T03:05:18+08:00"
         }
       ]
     },
@@ -554,6 +563,24 @@
           "headline_zh": "加拿大聲明：勞動節後首個週二將啟動一對一等額對美反制關稅",
           "summary_zh": "加拿大官方聲明確認，為保護國內產業利益，將於勞動節（Labour Day）過後的第一個週二正式啟動對美國商品的一對一等額報復性關稅。",
           "event_time": "2026-08-23T03:31:01+08:00"
+        },
+        {
+          "source_id": "c95b4249347e44648a5e2b205c9a3098e31d2449f5e594daf2e8475e858ad146",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "川普指責加拿大多年來對美國農產品徵收巨額關稅",
+          "summary_zh": "美國前總統川普（Trump）表示加拿大長期對美國農民開徵高額關稅，再次釋出貿易保護主義與關稅施壓訊號，市場密切關注未來的貿易政策走向。",
+          "event_time": "2026-08-23T16:49:58+08:00"
+        },
+        {
+          "source_id": "d004d9a4cc9522d705c64472ed4fdd586823c3ee071111fd1497f83566bfdc66",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "澤倫斯基表示烏克蘭國防部今年面臨270億美元資金缺口",
+          "summary_zh": "烏克蘭總統澤倫斯基（Zelenskiy）透露，烏克蘭國防部今年度正面臨高達270億美元的預算缺口，凸顯戰爭持續給該國財政與國際援助帶來極大壓力。",
+          "event_time": "2026-08-23T17:13:45+08:00"
         }
       ]
     },
@@ -595,6 +622,24 @@
           "headline_zh": "美國8月標普綜合PMI初值攀升至56 創逾四年新高",
           "summary_zh": "美國8月S&P綜合PMI初值升至56.0，其中服務業PMI強勁升至56.8，抵消了製造業降至53.2的微幅放緩。",
           "event_time": "2026-08-21T21:45:00+08:00"
+        },
+        {
+          "source_id": "109df2a4d47796d81fb83ef0d142b2003e0c72b76bef0ec257e5301855570df2",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "伊朗於法爾斯省南部發現超過7.5兆立方英尺天然氣田",
+          "summary_zh": "伊朗石油部長宣布在法爾斯省（Fars）南部發現大型天然氣田，蘊藏量估計超過7.5兆立方英尺，增添中東地區能量資源儲備資訊。",
+          "event_time": "2026-08-23T19:02:01+08:00"
+        },
+        {
+          "source_id": "06cb63e54ad25f6c42b205323fc87ff47a27c50b9df88f199bbd3945ae0bbcd8",
+          "category": "經濟",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "紐西蘭第二季實質零售銷售季減0.5% 低於市場預期",
+          "summary_zh": "紐西蘭公布2026年第二季經季節調整後實質零售銷售季增率下滑0.5%（預期為0.2%），顯示高利率環境下國內消費需求仍顯疲弱。",
+          "event_time": "2026-08-24T06:46:16+08:00"
         }
       ]
     },
@@ -762,21 +807,174 @@
           "headline_zh": "伊朗高層安保官員雷扎伊警告：將打擊協助美國對伊朗進行經濟戰的國家資產",
           "summary_zh": "伊朗國家電視台報導，高層安全官員雷扎伊（Rezaei）發出嚴厲警告，伊朗將直接鎖定並打擊任何協助美國對伊斯蘭共和國發動經濟戰爭的國家資產。",
           "event_time": "2026-08-23T03:12:49+08:00"
+        },
+        {
+          "source_id": "062f608b053a677682d494fe22f4b431a92f972b706b29ed447149d8c4ca8b53",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "伊朗外交部：巴基斯坦陸軍參謀長將訪問德黑蘭",
+          "summary_zh": "巴基斯坦軍方高層訪問伊朗，旨在持續促進區域和平與安全，顯示周邊國家正積極參與緩和區域緊張局勢。",
+          "event_time": "2026-08-23T16:50:13+08:00"
+        },
+        {
+          "source_id": "e4b3fd302e39d79e7f95e9028b0b711ba9d60a10dc2bebf7b94c33b35be913e3",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "敘利亞官員：8月18日空軍基地遭襲後與以色列聯繫中斷",
+          "summary_zh": "敘利亞外長指出，在8月18日空軍基地遭空襲後，敘利亞與以色列間的聯繫已中斷，凸顯雙方緊張局勢升溫。",
+          "event_time": "2026-08-23T16:50:44+08:00"
+        },
+        {
+          "source_id": "fd1188fb60bfe16ac01aed8054dffc29c4b952bcd282a291e0c4cf57601e36a2",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "敘利亞表示對以色列缺乏信任 首要任務為停止空襲",
+          "summary_zh": "敘利亞外長表態目前對以色列極不信任，當前最優先事項是停止以色列對敘利亞領土的持續空襲。",
+          "event_time": "2026-08-23T16:50:46+08:00"
+        },
+        {
+          "source_id": "9459c099643ee81bef5c718c1954ade39c1a8c317fe2e9af6908be915a37f342",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "敘利亞向以色列伸出外交之手 呼籲把握歷史契機",
+          "summary_zh": "敘利亞外交部長表達進行外交對話的開放態度，呼籲以色列抓住歷史機會推動局勢降溫。",
+          "event_time": "2026-08-23T16:50:50+08:00"
+        },
+        {
+          "source_id": "fcdd73b5fab23408d168929b0853eaa789d00859ae37485835a086cba0ad909a",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "伊朗指巴基斯坦參謀長訪問係促進區域和平努力之延續",
+          "summary_zh": "伊朗外交部發言人強調，巴基斯坦陸軍參謀長的訪問符合加強中東區域和平與安全的大方向。",
+          "event_time": "2026-08-23T16:51:11+08:00"
+        },
+        {
+          "source_id": "9068c9812fc579b4534c296187520c77953094d48f39a3b1634e4984960632af",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "敘利亞預計近期將與以色列重啟安全協議談判",
+          "summary_zh": "敘利亞外交部消息來源透露，預計敘利亞與以色列近期將就簽署安全協議重新展開談判，給地緣政治降溫帶來曙光。",
+          "event_time": "2026-08-23T16:52:09+08:00"
+        },
+        {
+          "source_id": "bc69de90ee227a303bad88a659602a8e2462c125df7c88ea48d80b757b42ebd1",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "澤倫斯基重申烏克蘭未參與北溪管道爆炸案",
+          "summary_zh": "烏克蘭總統澤倫斯基（Zelenskiy）再次否認烏方涉及北溪天然氣管道（Nord Stream）爆炸事件，並強調烏方正配合相關調查工作。",
+          "event_time": "2026-08-24T00:33:16+08:00"
+        },
+        {
+          "source_id": "b60f74f936ae5be9084ca89c444c6b15de97377b7c2ed7f0b551786ba7738314",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "以色列警告哈瑪斯：若持續攻擊將升級對加薩空襲",
+          "summary_zh": "以色列總理辦公室向哈瑪斯（Hamas）發出警告，若繼續發射無人機、氣球與風箏襲擊，以軍將加劇對加薩地區的空襲力道。",
+          "event_time": "2026-08-24T00:36:59+08:00"
+        },
+        {
+          "source_id": "7af9e5d89215a6317e56a3f3b5be9ef8152f518a5c2c763527db45ed2a9b2c00",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "以色列發布撤離令：將下令撤離加薩襲擊發射區域",
+          "summary_zh": "以色列總理辦公室宣布，將對加薩境內用於發射無人機及氣球等武器的區域發布強制撤離令。",
+          "event_time": "2026-08-24T00:37:19+08:00"
+        },
+        {
+          "source_id": "b7af82c37e36c459fc301154b456353a1f480cebd2aed812483102f054029e04",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "歐盟敦促以色列撤回約旦河西岸E1區屯墾區計劃",
+          "summary_zh": "歐盟外交與安全政策高級代表呼籲以色列政府撤回西岸E1區域的屯墾區建設招標，並暫停相關開發項目。",
+          "event_time": "2026-08-24T04:24:26+08:00"
+        },
+        {
+          "source_id": "2a44233d30719fb7090910d913782bdaba7c596d287315ee42d6b7b1f2ab2a10",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "歐盟重申以色列於約旦河西岸屯墾區違反國際法",
+          "summary_zh": "歐盟官方聲明強調，以色列在包括E1區域在內的約旦河西岸屯墾活動依據國際法均屬非法行為。",
+          "event_time": "2026-08-24T04:25:52+08:00"
+        },
+        {
+          "source_id": "f6e4654208a51aa592829763a873b2c629a0179c4484b98d46fffc874f3453a5",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美方斡旋下 敘利亞與以色列高層代表團於約旦展開會談",
+          "summary_zh": "敘利亞外長及情報首長在美國（US）居中斡旋下，於約旦與以色列高級代表團舉行會談，尋求緩和緊張局勢。",
+          "event_time": "2026-08-24T04:56:43+08:00"
+        },
+        {
+          "source_id": "88dfe71fd7129b7c03a29086ca990a00993dd874dc2c2afe1d04007504520e08",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "敘以會談旨在降低近期空襲引發的地緣衝突風險",
+          "summary_zh": "敘利亞官方聲明指出，與以色列代表團的會談是為了緩和近期以軍空襲敘利亞後的緊張局勢。",
+          "event_time": "2026-08-24T04:58:23+08:00"
+        },
+        {
+          "source_id": "4cbe105e60c555b373ad8366e3c2d3d45142bf2babb88635f468f8d5f1f23c67",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "敘以討論建立停止軍事打擊與逮捕行動之協調機制",
+          "summary_zh": "敘利亞國家通訊社報導，雙方討論重點聚焦於建立具體機制，以停止以色列對敘方的空襲、逮捕及針對性軍事行動。",
+          "event_time": "2026-08-24T04:58:56+08:00"
+        },
+        {
+          "source_id": "5df9a78b839292aae69257b37b295e67125d250c1a1ddc3cb9952a660eb2c20c",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "敘利亞重申戈蘭高地主權 稱討論最終地位言之過早",
+          "summary_zh": "敘利亞官方重申戈蘭高地（Golan Heights）為被佔領的敘利亞領土，目前討論其最終地位尚屬過早。",
+          "event_time": "2026-08-24T05:00:55+08:00"
+        },
+        {
+          "source_id": "4ccaffde6ecca858f947efc33f5c83da212eb93d5553eb94504eb7b7744aac34",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "敘利亞要求以軍撤回至2024年底防線並執行1974年協議",
+          "summary_zh": "敘利亞提出當前首要任務是以色列軍隊撤回至2024年12月8日前防線，並完全執行1974年的脫離接觸協議。",
+          "event_time": "2026-08-24T05:02:00+08:00"
+        },
+        {
+          "source_id": "2b0f42e32b58bd969ed39303eaf33301a640baa0cae3f076c760649d18c4b98e",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "俄羅斯擊退針對斯塔夫羅波爾地區工業區的無人機襲擊",
+          "summary_zh": "俄羅斯南部斯塔夫羅波爾地區（Stavropol）州長表示，防空系統成功擊退針對內文諾姆斯克工業區的烏克蘭無人機襲擊。",
+          "event_time": "2026-08-24T06:21:46+08:00"
         }
       ]
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 13559,
-    "candidatesTokenCount": 460,
-    "totalTokenCount": 16878,
+    "promptTokenCount": 17310,
+    "candidatesTokenCount": 415,
+    "totalTokenCount": 19387,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 13559
+        "tokenCount": 17310
       }
     ],
-    "thoughtsTokenCount": 2859,
+    "thoughtsTokenCount": 1662,
     "serviceTier": "standard"
   }
 }
