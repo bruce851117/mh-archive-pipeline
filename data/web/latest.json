@@ -1,59 +1,57 @@
 {
-  "generated_at": "2026-08-24T08:00:39.702998+08:00",
-  "summary_generated_at": "2026-08-24T08:00:39.702998+08:00",
-  "data_updated_at": "2026-08-24T06:54:29.744073+08:00",
+  "generated_at": "2026-08-25T07:08:32.400807+08:00",
+  "summary_generated_at": "2026-08-25T07:08:32.400807+08:00",
+  "data_updated_at": "2026-08-25T06:57:32.505091+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-08-21T05:00:00+08:00",
-  "period_end": "2026-08-24T06:54:29.744073+08:00",
+  "period_start": "2026-08-24T05:00:00+08:00",
+  "period_end": "2026-08-25T06:57:32.505091+08:00",
   "model": "gemini-3.6-flash",
   "source_digest_files": [
-    "data/digests/2026/08/2026-08-20.json",
-    "data/digests/2026/08/2026-08-21.json",
-    "data/digests/2026/08/2026-08-22.json",
     "data/digests/2026/08/2026-08-23.json",
-    "data/digests/2026/08/2026-08-24.json"
+    "data/digests/2026/08/2026-08-24.json",
+    "data/digests/2026/08/2026-08-25.json"
   ],
-  "event_count": 92,
+  "event_count": 27,
   "summary_points": [
-    "因不滿美國加徵高額關稅，加拿大總理卡尼宣佈全面暫停對美貿易談判，並定於9月8日對美國鋼鐵、乳製品等商品啟動「一對一」等額報復性關稅，美加貿易戰全面升級。",
-    "美軍中央司令部對伊朗實施海上封鎖並攔截登檢多艘商船，導致荷姆茲海峽通航船隻降至低個位數；伊朗高層則強硬警告將打擊協助美方經濟戰的國家資產，地緣政治與航運風險顯著升高。",
-    "在美國斡旋下，敘利亞與以色列高層代表團於約旦重啟緩和局勢談判，敘方主張以軍撤回至2024年底防線並落實停火協議，為中東局勢帶來緩和契機。",
-    "美國8月標普綜合PMI初值攀升至56.0，創逾四年新高，其中服務業強勁擴張抵消了製造業微幅放緩，顯示美國經濟基本面仍具韌性。",
-    "歐元區8月綜合PMI初值升至52.1，創9個月新高，主要受德國製造業PMI回升至54.1遠超預期所帶動，反映歐洲經濟呈現回穩復甦跡象。",
-    "輝達宣布因應強勁AI模型運算需求，搭載Vera Rubin與Grace Blackwell的新晶片系統售價將調漲逾15%；開源AI平台Hugging Face亦傳出獲至少130億美元收購意向，凸顯AI產業鏈需求依然熾熱。",
-    "美國總統川普澄清並未指示財政部長貝森特干預國債市場，減輕市場對政策介入債市的疑慮；中國財政部則升級促消費補貼並擴大中小企業貸款貼息，發揮財政支持效應。",
-    "烏克蘭對俄羅斯煉油廠與空軍基地發動打擊，俄羅斯總統普丁警告襲擊經濟目標已開啟局勢升級的「潘朵拉盒子」；同時法國承諾加速向烏交付最新防空裝備，俄烏地緣衝突持續膠著。"
+    "美伊地緣局勢持續升溫，美軍不排除在荷姆茲海峽動用軍力並已實施海事封鎖登檢，美國財政部亦啟動大規模二次制裁，儘管巴基斯坦與阿曼正積極進行外交調解。",
+    "美國貿易政策大幅加碼，川普宣佈自2027年起對加拿大汽車、零組件及鋼鐵加徵50%關稅，美方亦傳出考慮在習川會前對中國過剩產能加徵7.5%關稅。",
+    "債市波動引發政策介入疑慮，華爾街透露美財長貝森特擬透過國債買回等手段控制10年期美債殖利率，德國財長則將全球殖利率飆升歸咎於川普政策與地緣風險。",
+    "全球能源市場面臨供應緊縮風險，美國戰略石油儲備降至2.897億桶創1982年以來新低，國際能源署亦警告歐洲今冬天然氣供應面臨中斷威脅。",
+    "科技巨頭深化AI與航太布局，SpaceXAI宣佈採用輝達Vera CPU，且輝達Vera Rubin系統預計於明年第四季部署至軌道。",
+    "中東航運安全威脅持續擴大，葉門胡塞組織宣稱在沙烏地延布外海襲擊船隻，導致週末通過荷姆茲海峽的大宗商品船舶數量顯著下滑。",
+    "中央銀行動態方面，歐洲央行執委指出歐洲目前無滯脹風險並需精確調控政策，中國央行則進行3,400億元人民幣逆回購操作以維持流動性。",
+    "敘利亞外交談判推進，官方聲明指出當前核心目標為促使以色列軍隊撤回至2024年底前防線，並全面落實1974年脫離接觸協議。"
   ],
   "blocks": [
     {
       "category": "債市",
       "news": [
         {
-          "source_id": "f620111f26a7977a52f4d1c12d4f36496bfc8a280c54989ed50d30a3b7d32197",
-          "category": "債市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "韓國企劃財政部長：將密切監控國債市場狀況",
-          "summary_zh": "韓國財政部長表示官方將持續監督國債市場狀況，積極評估各項金融風險因素。",
-          "event_time": "2026-08-21T08:43:06+08:00"
-        },
-        {
-          "source_id": "7d8bec7deb9299f04f35e99d8c1c6f223db8e4c1f789e324c0a34627efbd59d2",
+          "source_id": "af8b4d75e5d12dee15ccc1d0f7be4fd3bfcbc347b5b524288823069cc2d8551a",
           "category": "債市",
           "importance_score": 2,
           "highlight": false,
-          "headline_zh": "中國財政部標售2年期國債得標利率1.2088%",
-          "summary_zh": "中國財政部最新發行的2年期國債得標利率定於1.2088%。",
-          "event_time": "2026-08-21T11:39:20+08:00"
+          "headline_zh": "中國財政部拍賣3年期國債，得標殖利率1.23%",
+          "summary_zh": "中國財政部完成3年期國債拍賣，市場交易員透露得標殖利率落在1.23%。",
+          "event_time": "2026-08-24T11:41:03+08:00"
         },
         {
-          "source_id": "b57cfb33be19793b780a966ac9d18ad58e6c55196b728bf0ce902a3ae67fcac9",
+          "source_id": "7379ca6955c583ae4c368ec639612fa0a390fc38d97739f6c017da68fdf17837",
           "category": "債市",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "川普表示未指示貝森特干預債券市場",
-          "summary_zh": "美國總統川普（Trump）澄清他並未指示財政部長貝森特（Bessent）干預美國國債市場，市場持續關注財政部發債與回購動向。",
-          "event_time": "2026-08-22T04:54:03+08:00"
+          "headline_zh": "德國財長將殖利率飆升歸咎於川普的政策與戰爭風險",
+          "summary_zh": "德國財政部長克林拜爾（Klingbeil）表示，近期全球債券殖利率大幅上升，主因是川普政府政策與地緣衝突所帶來的市場波動與不確定性。",
+          "event_time": "2026-08-24T22:01:16+08:00"
+        },
+        {
+          "source_id": "60f5cbc39c87bbf90d5b2498dec74e7426ac323842a87af015db0f2d5cbeb7a8",
+          "category": "債市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "美國財政部拍賣3個月期與6個月期國庫券",
+          "summary_zh": "美國財政部完成3個月期與6個月期國庫券拍賣，得標殖利率分別為3.715%與3.790%，投標倍數維持在3倍以上的穩健水準。",
+          "event_time": "2026-08-24T23:32:05+08:00"
         }
       ]
     },
@@ -61,85 +59,58 @@
       "category": "股市",
       "news": [
         {
-          "source_id": "a7bec070c829da65c679887fe7b95bb1398fd7b6c31f892a7919892e11d2eedc",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "三星公布最高達110萬億韓元的歷史最大股東回報方案",
-          "summary_zh": "三星（Samsung）宣布90萬億至110萬億韓元的股東回報計畫，顯著提升市場對大型科技股資本分配的信心。",
-          "event_time": "2026-08-21T16:14:24+08:00"
-        },
-        {
-          "source_id": "49b03b3eef7c375a6086299b8c8ad32714691768422b09f6be5fab0d9fc46bb6",
+          "source_id": "fcb75da8e05383a449855a1937018fb67b36cf21fc421a1abb1f4b28d99dd9e3",
           "category": "股市",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "特斯拉在中國市場召回近196萬輛Model 3與Model Y",
-          "summary_zh": "中國市場監管總局公告，特斯拉將在中國召回1,956,713輛國產Model 3及Model Y汽車。",
-          "event_time": "2026-08-21T18:16:25+08:00"
+          "headline_zh": "輝達洽談參與Perplexity新一輪融資，估值衝上300億美元",
+          "summary_zh": "據報導，輝達正洽談參與AI搜尋新創Perplexity的新一輪融資，後者估值已超過300億美元，合作內容可能包含技術授權協議。",
+          "event_time": "2026-08-24T11:07:59+08:00"
         },
         {
-          "source_id": "e8c31a4fa6b92c4daff298dbf0036d0d28c3e1a990765ce78c1eadb33b9b1830",
+          "source_id": "e2a5fa2c1ed3e8703876207d07bb13f81818dcba2a2903c97ba52854e5fb2954",
           "category": "股市",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "輝達與Cloverleaf合作在美國建置吉瓦級AI工廠",
-          "summary_zh": "輝達（NVIDIA）與Cloverleaf Infrastructure達成合作夥伴關係，將在美國AI場址部署NVIDIA DSX平台。",
-          "event_time": "2026-08-21T21:31:44+08:00"
+          "headline_zh": "Google Cloud與威瑞森達成企業級AI戰略合作",
+          "summary_zh": "威瑞森（Verizon）將部署Google Gemini Enterprise AI模型與Google Cloud技術全棧，用於客服通話與營運效率提升。",
+          "event_time": "2026-08-24T21:00:59+08:00"
         },
         {
-          "source_id": "db1dc210f04f191b18376909fc64e1d57ba1dd1e38eb1f17c82cdb3dbaee5e1d",
+          "source_id": "249b74a7dbe452538d2adc1dd000aa70bac271864adf1091ea0277cdbe492481",
           "category": "股市",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "特斯拉獲准在內華達州部署高達5,000輛全自動駕駛車輛",
-          "summary_zh": "特斯拉（Tesla）獲得美國內華達州批准部署最多5,000輛自駕車，帶動自動駕駛業務發展預期。",
-          "event_time": "2026-08-22T01:19:20+08:00"
+          "headline_zh": "SpaceXAI採用輝達Vera CPU；輝達Groq 3 LPX進入全量生產",
+          "summary_zh": "SpaceXAI宣佈採用輝達（Nvidia）Vera CPU以加速代理人AI（Agentic AI）運行；同時輝達Groq 3 LPX已全面量產，輸出速度達每秒3,400個Token。",
+          "event_time": "2026-08-24T23:00:40+08:00"
         },
         {
-          "source_id": "ae9fc415c9fab8eca7a8a71cf899e80ed6a4d2515fe44aaa64926ec8f00d17f3",
+          "source_id": "a5d999128cba57366fa8699e63eeb5cbe5516bee71317ba705e82dde0b343fe0",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "馬斯克透露輝達Vera Rubin系統將於明年第四季部署至軌道",
+          "summary_zh": "馬斯克（Musk）表示，輝達Vera Rubin NVL72系統預計於明年第四季發射升空，並將於2028年實現太空優化版的大規模部署。",
+          "event_time": "2026-08-25T01:25:21+08:00"
+        },
+        {
+          "source_id": "c786ec771a8ec3f2bdf9fa5bf89a28a0d7910ca0d29562f7898d0a8b864d3e91",
           "category": "股市",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "蘋果裁減Siri與Vision Pro團隊逾200名員工",
-          "summary_zh": "蘋果（Apple）對Siri、Vision Pro 3D影片及遊戲團隊進行人力調整，影響超過200名員工。",
-          "event_time": "2026-08-22T02:45:51+08:00"
+          "headline_zh": "亞馬遜計劃投資逾5.3億美元推動自動化物流倉庫項目",
+          "summary_zh": "亞馬遜（Amazon）規劃針對配送站與物流倉庫進行自動化升級，預計總投資金額將超過5.3億美元。",
+          "event_time": "2026-08-25T03:28:12+08:00"
         },
         {
-          "source_id": "917a34ff478b7450dc530cb670ff281cbfcfbb6d510e24613b1588daf4cdf0cf",
+          "source_id": "6b11b8f12e958e2931efd8db1892fa1f722503129546c4387e5feafbd74b26bf",
           "category": "股市",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "Anthropic挖角Google晶片高階主管擴張硬體業務",
-          "summary_zh": "前Google主管Amir Salek加盟Anthropic計算團隊，推動AI硬體與晶片研發與佈局。",
-          "event_time": "2026-08-22T04:00:33+08:00"
-        },
-        {
-          "source_id": "a035e4fe15c7ae3099214439fd32dae4fc474b62827cd15c7fb05aa31b2844e7",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "輝達通知客戶AI晶片系統售價將調漲逾15%",
-          "summary_zh": "輝達（Nvidia）已向客戶發出通知，因應強勁的AI模型運算需求，其AI晶片系統價格將調漲超過15%。",
-          "event_time": "2026-08-23T02:55:11+08:00"
-        },
-        {
-          "source_id": "6ca331c8f605eb82721fe81171e0df8f34482ce78766ec5dd57cbf0a936169fb",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "輝達新一波漲價將於明年初出貨系統生效 涵蓋Vera Rubin與Grace Blackwell晶片",
-          "summary_zh": "輝達的價格調漲計畫將針對明年初開始出貨的系統生效，受影響產品包含搭載Vera Rubin與Grace Blackwell架構晶片的最新系統。",
-          "event_time": "2026-08-23T02:56:35+08:00"
-        },
-        {
-          "source_id": "ae8e775ea0ae76059f47fda402dafb578300031959daf1e0c967a739e10cae44",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "傳知名AI開源平台 Hugging Face 獲得至少 130 億美元的收購意向",
-          "summary_zh": "據 Business Insider 報導，開源人工智慧平台 Hugging Face 收到併購興趣，估值或交易金額至少達 130 億美元，顯示市場對 AI 基礎設施與開源生態系資產的熱烈追捧。",
-          "event_time": "2026-08-24T03:05:18+08:00"
+          "headline_zh": "Meta預計於未來數週推出「Hatch」AI代理人平台",
+          "summary_zh": "據外媒報導，Meta預計在未來幾週內公開全新的AI代理人平台「Hatch」，持續深化企業與消費端AI布局。",
+          "event_time": "2026-08-25T06:41:36+08:00"
         }
       ]
     },
@@ -147,40 +118,22 @@
       "category": "央行",
       "news": [
         {
-          "source_id": "9a59d32e6ea53568d54a72cfcbc473de86f1f2ed08faf3f44da7acb7312eeb52",
+          "source_id": "9f8c21c77246966190743b3e95d5a97eb6f7be695760750a39a0c5fab9fca0d8",
           "category": "央行",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "韓國央行副總裁：經濟成長超乎預期但仍需留意通膨與匯率波動",
-          "summary_zh": "韓國央行（BOK）副總裁Kwon表示韓國經濟成長優於預期，將根據數據彈性評估利率政策，並預計美元兌韓元長期將回落。",
-          "event_time": "2026-08-21T08:30:03+08:00"
+          "headline_zh": "中國央行進行3,400億元人民幣7天期逆回購操作",
+          "summary_zh": "中國人民銀行（PBOC）公開市場開展3,400億元人民幣7天期逆回購操作，中標利率維持在1.40%。",
+          "event_time": "2026-08-24T09:20:30+08:00"
         },
         {
-          "source_id": "cbf0023c2d331e60a8864958cefdefa64eb0bb18e2582939e6ba92dea7199e84",
-          "category": "央行",
-          "importance_score": 2,
-          "highlight": false,
-          "headline_zh": "中國央行進行950億元7天期逆回購操作",
-          "summary_zh": "中國人民銀行（PBOC）公開市場開展950億元人民幣7天期逆回購操作，維護銀行體系流動性合理充裕。",
-          "event_time": "2026-08-21T09:22:36+08:00"
-        },
-        {
-          "source_id": "630868951c4001a92e09bbb09180ef8d7f97096a6550c305dc2a8591a6c452d4",
+          "source_id": "f314138d418040ea690e9793aac82b9777f2e337301378c7fa0121509a7be12c",
           "category": "央行",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "歐洲央行管委Kazaks：9月利率決策將完全視數據而定",
-          "summary_zh": "歐洲央行（ECB）官員Kazaks指出通膨預期仍錨定在目標附近，未來是否進一步調整利率將依據9月數據決定。",
-          "event_time": "2026-08-21T15:14:28+08:00"
-        },
-        {
-          "source_id": "30b009eb4db0e6cbd5f62d9332fbb6f47ff5a952a47fb9f91fa4384d3a854758",
-          "category": "央行",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "瑞士央行官員：若通膨需要，不排除將利率降至0%以下",
-          "summary_zh": "瑞士國家銀行（SNB）管理委員會成員Tschudin表示，若通膨展望有需要，央行願意將利率裁降至0%以下。",
-          "event_time": "2026-08-21T23:00:43+08:00"
+          "headline_zh": "歐洲央行執委Cipollone：貨幣政策需精確調控，目前無滯脹風險",
+          "summary_zh": "歐洲央行（ECB）執行委員契波隆內（Cipollone）表示，通貨膨脹遠未達到極端惡化情境，目前沒有跡象顯示歐洲經濟正走向滯脹。",
+          "event_time": "2026-08-24T14:04:26+08:00"
         }
       ]
     },
@@ -188,400 +141,49 @@
       "category": "財政政策",
       "news": [
         {
-          "source_id": "60355e59d3b58582870eb81917e790bd33bac761072c34a0cd57237d99eb676a",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "中國財政部升級促消費補貼政策並擴大中小企業貸款貼息範圍",
-          "summary_zh": "中國財政部官員表示將精準配置財政資源，及時謀劃增量政策，擴大對民營與中小企業的利息補貼範圍與額度。",
-          "event_time": "2026-08-21T11:43:23+08:00"
-        },
-        {
-          "source_id": "4c8fd01b530db0f29d7d966547a132420e18c459757a052063931da2aa2dc5b0",
+          "source_id": "aaaa24af9b9fde3a343736a5b69091b0f659ce66c335f929c9bed57d60207521",
           "category": "財政政策",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "英國政府公布7月公共部門淨借款數據",
-          "summary_zh": "英國7月扣除銀行業的公共部門淨借款（PSNB ex Banks）錄得18億英鎊，較前值的159.89億英鎊大幅下降。",
-          "event_time": "2026-08-21T14:01:14+08:00"
+          "headline_zh": "川普新提案擬針對H-1B工作簽證加收10萬美元費用",
+          "summary_zh": "川普政府計劃在新的政策提案中，對H-1B高科技工作簽證申請額外徵收10萬美元費用，引發科技業與外國人才高度關注。",
+          "event_time": "2026-08-24T20:53:20+08:00"
         },
         {
-          "source_id": "66d564b93ece9a101083f4cf641403a7a4436af2226f820a95ff420e38dd6510",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "日本財務省擬將2027/28財年預算編列的想定利率上調至3.8%",
-          "summary_zh": "日經報導，日本財務省考慮在2027/28財年預算要求中，將用於計算債務服務成本的想定利率設為3.8%。",
-          "event_time": "2026-08-21T15:04:42+08:00"
-        },
-        {
-          "source_id": "66a7106e2fa283a9d5957797939e12f49248b953c3c8865057cf03d2d2d4b0e3",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "美加貿易談判進行衝刺 報導指協議擬設立鋼鐵配額與25%關稅",
-          "summary_zh": "加拿大負責美國貿易談判的部長赴華盛頓與美國貿易代表談判，外媒稱美加協議擬設立鋼鐵配額並將配額內關稅降至25%。",
-          "event_time": "2026-08-21T23:34:12+08:00"
-        },
-        {
-          "source_id": "b916c4216a08cf03ab0a00f633783e02d88d833ddb460df7bf096173fed41a31",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "國會文件顯示美國擬向聯合國支付7.25億美元債務",
-          "summary_zh": "美國國會文件顯示，美國政府打算支付7.25億美元以償還其拖欠聯合國的會費債務。",
-          "event_time": "2026-08-22T00:56:02+08:00"
-        },
-        {
-          "source_id": "6437f9108e3e8fb2dc6e73ec772ed23c7ef4d19ef71718d2ee9f520acc98d416",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "川普表示經濟成長將解決國債問題 並透露美加美墨談判進展",
-          "summary_zh": "美國總統川普表示強勁的經濟成長將化解聯邦政府國債壓力，並稱應能與加拿大達成協議，且正展開與墨西哥的協議談判。",
-          "event_time": "2026-08-22T04:54:55+08:00"
-        },
-        {
-          "source_id": "74faa0ab657e6c0acd0aae3f1c5f1ac9810a8f46229a388d67991ccc04fa7947",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "加拿大主導美國貿易事務部長李白蘭：與美貿易對話仍有許多工作待完成",
-          "summary_zh": "加拿大主導對美貿易事務部長李白蘭（Dominic LeBlanc）表示，加美貿易談判仍有許多實質問題需要解決。",
-          "event_time": "2026-08-22T07:26:59+08:00"
-        },
-        {
-          "source_id": "e1b6437725efcdffe4527a1f2238cf7494cdf8beaa890f7294215d87dbc6a3d0",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "美國海關及邊境保護局對特定加拿大商品發布Section 338額外關稅指引",
-          "summary_zh": "美國海關及邊境保護局（CBP）發布最新執行指引，針對部分加拿大進口商品實施Section 338額外關稅。",
-          "event_time": "2026-08-22T11:27:07+08:00"
-        },
-        {
-          "source_id": "4d381443f7e3156345c4d4f40cdb2594bbfe8bf0e9f9ee0a83e416d19fd090a4",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "美國海關及邊境保衛局發布特定加拿大商品Section 338附加關稅細則",
-          "summary_zh": "美國CBP進一步說明針對特定加拿大商品徵收Section 338附加關稅的行政作業流程。",
-          "event_time": "2026-08-22T11:28:33+08:00"
-        },
-        {
-          "source_id": "543869a6d931052e1633d7662609fa4c1e27be8a55a949376dee0eaaa0cd5c4d",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "美國貿易代表格里爾：加拿大已拒絕完成貿易協定",
-          "summary_zh": "美國貿易代表格里爾（Jamieson Greer）證實，加拿大已拒絕簽署最終雙邊貿易協定。",
-          "event_time": "2026-08-22T11:32:02+08:00"
-        },
-        {
-          "source_id": "425dc9882d22564b7ef26339688fd4d800249d393efa1e761449834282037b47",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "美國貿易代表格里爾：加拿大持續對美國採取報復措施",
-          "summary_zh": "美貿易代表格里爾指出，加拿大在雙邊談判過程中持續採取對美報復性關稅手段。",
-          "event_time": "2026-08-22T11:32:40+08:00"
-        },
-        {
-          "source_id": "a9421b4c7b56c81dd4bc943848fde432e21853445195025dba1532f8ae5bcef5",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美國貿易代表格里爾：美方曾提議給予加拿大更優惠的美國市場准入條件",
-          "summary_zh": "格里爾表示，美方在談判中曾向加拿大提出非常優惠的美國市場准入條款。",
-          "event_time": "2026-08-22T11:34:00+08:00"
-        },
-        {
-          "source_id": "8b68d459cf8dc27e4017e515498ce33ac8ef4b9c3a58b88fb6056cb80676188f",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "川普政府高層官員：針對加拿大特定商品的5% Section 338關稅於美東週六凌晨生效",
-          "summary_zh": "川普（Trump）政府高層透露，美國自美東時間週六凌晨12:01起，對部分加拿大進口商品正式課徵5%的Section 338關稅。",
-          "event_time": "2026-08-22T11:35:19+08:00"
-        },
-        {
-          "source_id": "73da063f2352b0e0b1c7e4e289290aa12c4717993569e472b7c0c46c933ed30d",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "川普政府高層官員：若達成協定本可大幅降低關稅",
-          "summary_zh": "川普政府官員強調，若加方接受協定草案，原可使雙邊關稅水準顯著下降。",
-          "event_time": "2026-08-22T11:35:56+08:00"
-        },
-        {
-          "source_id": "797648a0f950344b220ecda05e2c4ba26fded527199ab56806ed94cc0e0db8ee",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美國官員：美方提案本將使加拿大獲得所有對美出口國中的最有利地位",
-          "summary_zh": "美方官員表示，提出的協定草案給予加拿大超越其他主要貿易夥伴的優惠地位。",
-          "event_time": "2026-08-22T11:36:35+08:00"
-        },
-        {
-          "source_id": "d561a56798eef01f41895f428847c3ccb9447f71702e4b619af07aad34fe5016",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美國官員：加拿大曾提出給予美國優厚的汽車出口配額",
-          "summary_zh": "美方官員透露，加拿大在談判中曾提議給予美國汽車製造商相當慷慨的出口配額。",
-          "event_time": "2026-08-22T11:38:56+08:00"
-        },
-        {
-          "source_id": "e2225d9ea72f1846d52fd4254334542d3ba8caaa6ee29ea4ac4fff8658bbd083",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "川普政府高級官員：美加談判過程非常坦誠且無敵意",
-          "summary_zh": "美國高級官員形容美加貿易談判過程雖然溝通坦率，但並未帶有敵對色彩。",
-          "event_time": "2026-08-22T11:40:52+08:00"
-        },
-        {
-          "source_id": "2a028b977eb1dd690c92b818d5074e62bcfe58b57563dfd4c78e60fe561a8b87",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美國貿易代表格里爾：美方向加拿大提供了進入美國市場的優惠條件",
-          "summary_zh": "格里爾再次重申美方在談判桌上已展現最大誠意，提供加拿大優惠市場准入。",
-          "event_time": "2026-08-22T11:40:53+08:00"
-        },
-        {
-          "source_id": "98da5fb734164662c28870210d493a4444edb3cfc7bccfcc1493891bda606a52",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "川普政府高層官員：加拿大尋求額外的讓步條件",
-          "summary_zh": "美方官員指出談判破裂的主因之一是加拿大在最後階段持續索求額外讓步。",
-          "event_time": "2026-08-22T11:41:06+08:00"
-        },
-        {
-          "source_id": "6fa0fe735ec9da512a201a082dfff95fb8b1d6cba06d52479beaf8f56c474553",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "川普政府高層官員：目前並未安排與加拿大進行後續談判",
-          "summary_zh": "美方官員證實，目前美國與加拿大之間已完全停止談判且未規劃後續對話安排。",
-          "event_time": "2026-08-22T11:41:19+08:00"
-        },
-        {
-          "source_id": "9ce3e332f2083eef56fe8b61f1cbb8c65ed50e480a02f97f069e4d6735c58c92",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "川普政府高級官員：預期加拿大不會針對新關稅採取報復",
-          "summary_zh": "美高層官員原本預估加拿大不會對美國開徵的新關稅展開立即性的報復。",
-          "event_time": "2026-08-22T11:41:49+08:00"
-        },
-        {
-          "source_id": "7ce48192a03f996dcbad1c0663c8ea11cd0409f3d26dffc63c2276cd5e0b418e",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "川普政府官員：原協定草案本可妥善解決加拿大早前的報復措施",
-          "summary_zh": "美官員說明若先前協議達成，將一併清理加拿大過去對美施加的各項報復關稅。",
-          "event_time": "2026-08-22T11:42:48+08:00"
-        },
-        {
-          "source_id": "5f8bf0989bfe921f8d44414c84cefc716f3736a52078648820d6e26283846a6a",
+          "source_id": "7fdafa2f2635b12ac5478995f71378edb71e49bec166c7d0d765c5774596dd0b",
           "category": "財政政策",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "加拿大總理卡尼宣佈：暫停與美國的所有貿易談判",
-          "summary_zh": "加拿大總理卡尼（Mark Carney）正式聲明，由於立場分歧過大，加拿大已全面暫停與美國的雙邊貿易談判。",
-          "event_time": "2026-08-22T11:43:06+08:00"
+          "headline_zh": "川普宣佈自2027年起對加拿大汽車、零組件及鋼鐵加徵50%關稅",
+          "summary_zh": "川普（Trump）表示，由於談判未果，自2027年1月1日起，美國對加拿大所有大小型汽車、汽車零組件和鋼鐵的關稅將提高至50%，並強調在美國本土建廠即可享受零關稅。",
+          "event_time": "2026-08-24T21:38:33+08:00"
         },
         {
-          "source_id": "98f5dba93be8b964113ac374ad6dd7c8dd3d7a977bf84706ef420bae0d868056",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美官員：若達成協議原本將會展開加拿大與美墨加協定（USMCA）的專題對話",
-          "summary_zh": "川普政府官員指出，協議若順利簽署，原定隨後進入USMCA框架下的具體議題對話。",
-          "event_time": "2026-08-22T11:43:37+08:00"
-        },
-        {
-          "source_id": "0c0d939a11b40b78a05f00678609e81caf4b2179e5333ea323e052e2ff02a3e5",
+          "source_id": "0bfae8b408826c58875890f12676e170e160fc730b415cb0e4f753a4a98bd515",
           "category": "財政政策",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "加拿大總理卡尼：談判進展不足以實現保護加拿大人民目標",
-          "summary_zh": "總理卡尼表示，美國提出的方案無法滿足保護加拿大國家與經濟利益的基本要求。",
-          "event_time": "2026-08-22T11:43:52+08:00"
+          "headline_zh": "美高層透露將於習川會前研擬對中國過剩產能加徵7.5%關稅",
+          "summary_zh": "知情人士透露，在美中元首會晤之前，美國正考慮對中國產能過剩領域加徵7.5%的關稅，白宮對此回應非官方發布訊息皆屬市場臆測。",
+          "event_time": "2026-08-24T23:29:06+08:00"
         },
         {
-          "source_id": "e17bbf2f51c94da38111d12aef103d00ab7742c7ed89ece31c4a3f1dd9be0811",
+          "source_id": "77044467b76714f94ee065fde96b131e9d504ad4a56e853d7eacdf2886e00a63",
           "category": "財政政策",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "加拿大總理卡尼：因應美國加徵50%關稅 加拿大將採取一對一等額關稅報復",
-          "summary_zh": "面對美國祭出最高50%的高額關稅，加拿大總理卡尼宣佈加方將實施「一美元對一美元」的等額報復性關稅，以捍衛本國工人與企業。",
-          "event_time": "2026-08-22T11:44:49+08:00"
+          "headline_zh": "華爾街高層透露美財長貝森特擬採取激進手段將10年期美債殖利率推向5%",
+          "summary_zh": "華爾街高層表示，美國財政部長貝森特（Bessent）考慮採取國債買回、增加短期國債發行，甚至取消20年期國債等措施，以控制長債殖利率並避免中期選舉前殖利率進一步飆升。",
+          "event_time": "2026-08-25T00:05:54+08:00"
         },
         {
-          "source_id": "908dfbcfeb3d5420f4006d89815dfac47b210c7fa8db10e8b0562bd2bfb36304",
+          "source_id": "fdabe830b708c3a749b960f070d25c33994403d2ca33d890701d32ec2cb3926a",
           "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "川普政府高層官員：美方唯一焦點是保護美國就業、供應鏈與製造業回流",
-          "summary_zh": "美國官員強調，美方在貿易談判中的核心價值在於保護國內就業機會、確保供應鏈安全並推動製造業重返美國。",
-          "event_time": "2026-08-22T11:45:36+08:00"
-        },
-        {
-          "source_id": "bd6960bc4efc80b7ca6bddc3cd7d0556afd73068f8bfaf168b693bc563a68209",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美官員：加拿大要求的Section 232關稅豁免超出美方所能給予的範圍",
-          "summary_zh": "川普政府官員透露，加拿大要求獲得更多的鋼鋁Section 232關稅豁免，超過美方的讓步底線。",
-          "event_time": "2026-08-22T11:47:55+08:00"
-        },
-        {
-          "source_id": "a51d513b84e40b7ecb939857253c5c71c1485057db8075becfdd523a800de4fe",
-          "category": "財政政策",
-          "importance_score": 4,
+          "importance_score": 5,
           "highlight": true,
-          "headline_zh": "美國貿易代表格里爾接受福斯新聞專訪：目前未安排與加拿大進行新輪討論",
-          "summary_zh": "美國貿易代表格里爾在福斯新聞（Fox News）專訪中證實，美加之間目前完全沒有安排任何新的談判時程。",
-          "event_time": "2026-08-22T21:26:45+08:00"
-        },
-        {
-          "source_id": "6fa97b2506cbdc442b250d264986ef5cde5f9d6bb8e1084a17487a40fb7ac462",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "加拿大總理卡尼：絕不接受美方條件 亦不會向美方訴求妥協",
-          "summary_zh": "總理卡尼再度重申硬朗立場，強調加拿大絕不可能接受美方無理的貿易條件與條款需求。",
-          "event_time": "2026-08-22T23:09:32+08:00"
-        },
-        {
-          "source_id": "9474ead20a4859efcbb33d4509eca8057a5c67983a94e5e4bfaaa11b1c191c60",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "加拿大總理卡尼：不認為美國意圖阻撓加拿大的能源計畫",
-          "summary_zh": "卡尼表示，儘管雙邊貿易摩擦劇烈，但並不認為美方意圖干擾加拿大的能源出口與開發項目。",
-          "event_time": "2026-08-22T23:10:53+08:00"
-        },
-        {
-          "source_id": "38761edc695da5b20b582bffe60dc53916856cbe29f2179837265362e6b4ab96",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "加拿大總理卡尼：加方原本準備撤銷針對美國鋼鐵、鋁材與汽車業的剩餘反制關稅",
-          "summary_zh": "卡尼透露，在先前的談判中，加拿大原本已準備好取消對美國鋼鐵、鋁材及汽車等關鍵產業的報復關稅。",
-          "event_time": "2026-08-22T23:14:43+08:00"
-        },
-        {
-          "source_id": "679f2961274a57a16e8f4ca90dddf3411450535acfe762cf125bc211e0f37cd8",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "加拿大總理卡尼：加方絕不能以損害本國關鍵產業為代價達成協議",
-          "summary_zh": "卡尼強調，加方談判底線是絕不能犧牲國內重點核心產業的長遠利益。",
-          "event_time": "2026-08-22T23:15:25+08:00"
-        },
-        {
-          "source_id": "cb209512564440d036f7e02e72527855ff6f0a101e6bc667bacdd06d89fa201b",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "加拿大總理卡尼：對美反制措施將鎖定鋼鐵、乳製品與其他產業",
-          "summary_zh": "卡尼明確指出，加拿大即將實施的報復性關稅清單將重點打擊美國的鋼鐵、乳製品等敏感領域。",
-          "event_time": "2026-08-22T23:17:33+08:00"
-        },
-        {
-          "source_id": "b4ba7ab9abe8a63746733e61395732d94624813dd6e1f891e234693097fc4e52",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "加拿大總理卡尼：將於未來數日內公布新關稅措施細節",
-          "summary_zh": "加拿大政府預計將於未來幾天內公佈對美關稅報復項目的具體品項與稅率細節。",
-          "event_time": "2026-08-22T23:18:14+08:00"
-        },
-        {
-          "source_id": "1bc7acaea3f519197d828e0a3544f88b03071065adeb2cdc43beb985db0125c0",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "加拿大總理卡尼：對美反制關稅措施定於9月8日起生效",
-          "summary_zh": "加拿大政府宣布，對美國商品施加的報復性關稅措施將於9月8日正式開始執行。",
-          "event_time": "2026-08-22T23:26:31+08:00"
-        },
-        {
-          "source_id": "14dac9a0e081de114f1278aa6d297ecfe3fbe98d149b101029b473f945f6ed97",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "加拿大總理卡尼：美國企圖限制加拿大與其他國家簽署貿易協定的能力",
-          "summary_zh": "卡尼指責美方在談判中提出條款，試圖限制加拿大未來與第三國展開自由貿易協定的自主權。",
-          "event_time": "2026-08-22T23:30:25+08:00"
-        },
-        {
-          "source_id": "4497dba905380cbc202db6e33cc5f75160aad0beb7232b31c1915d08c2e9c11b",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "加拿大總理卡尼：美方最後一刻提出的修改意見亦涵蓋汽車產業",
-          "summary_zh": "卡尼透露，美方在談判最後階段臨時提出的修改建議中，觸及了汽車產業的敏感條款。",
-          "event_time": "2026-08-22T23:32:29+08:00"
-        },
-        {
-          "source_id": "94c92f67f66e02f52c2b1ba7f8a79aece6e65e005aa72ea7575b5ce36a549824",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "加拿大總理卡尼：將為受影響的特定產業提供關稅保障補貼",
-          "summary_zh": "加拿大官方承諾，政府將為因貿易戰遭受衝擊的國內特定行業提供相應的關稅與財政安全保障措施。",
-          "event_time": "2026-08-22T23:36:11+08:00"
-        },
-        {
-          "source_id": "f770847737144a1ed63fd581bee88a642b076a0849d6e94022c7348063a2c926",
-          "category": "財政政策",
-          "importance_score": 2,
-          "highlight": false,
-          "headline_zh": "加拿大總理卡尼：美方提案的部分要件確實存在於特定領域",
-          "summary_zh": "卡尼補充說明美方談判提案在部分特定行業條款上的細節狀況。",
-          "event_time": "2026-08-22T23:47:19+08:00"
-        },
-        {
-          "source_id": "326cca69916e9559842169609787de4b885ab4b5cff451a41e9685337dd1a572",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "加拿大總理卡尼與各省及領地總理召開視訊會議 研商對美談判中斷應對策略",
-          "summary_zh": "加拿大總理卡尼與國內各省及領地首長召開緊急線上會議，就暫停與美貿易談判及後續國內經濟防禦措施達成共識。",
-          "event_time": "2026-08-23T03:30:28+08:00"
-        },
-        {
-          "source_id": "a16cbb7be5cfc948e6219c385b30a533e56f7bc03947d93b127b048879cb5af4",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "加拿大聲明：勞動節後首個週二將啟動一對一等額對美反制關稅",
-          "summary_zh": "加拿大官方聲明確認，為保護國內產業利益，將於勞動節（Labour Day）過後的第一個週二正式啟動對美國商品的一對一等額報復性關稅。",
-          "event_time": "2026-08-23T03:31:01+08:00"
-        },
-        {
-          "source_id": "c95b4249347e44648a5e2b205c9a3098e31d2449f5e594daf2e8475e858ad146",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "川普指責加拿大多年來對美國農民徵收巨額關稅",
-          "summary_zh": "美國前總統川普（Donald Trump）公開批評加拿大對美國農產品長期課徵高額關稅。此表態呼應美加貿易談判破裂背景，加劇市場對北方邊境貿易戰及關稅升級的疑慮。",
-          "event_time": "2026-08-23T16:49:58+08:00"
-        },
-        {
-          "source_id": "d004d9a4cc9522d705c64472ed4fdd586823c3ee071111fd1497f83566bfdc66",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "澤倫斯基：烏克蘭國防部今年面臨 270 億美元資金缺口",
-          "summary_zh": "烏克蘭總統澤倫斯基（Volodymyr Zelenskiy）表示，烏國國防部今年面臨高達 270 億美元的預算赤字，凸顯烏克蘭對西方軍事與財政援助的持續依賴。",
-          "event_time": "2026-08-23T17:13:45+08:00"
+          "headline_zh": "美國財政部對伊朗啟動大規模二次制裁，涵蓋金融、科技與航運五大領域",
+          "summary_zh": "財政部長貝森特宣佈對近60個與伊朗相關的個人、實體和船隻實施制裁，並針對數位資產、科技、黃金、航空和航運等五大領域擴大二次制裁警告，要求各國停止與伊朗的經濟往來。",
+          "event_time": "2026-08-25T01:02:49+08:00"
         }
       ]
     },
@@ -589,280 +191,37 @@
       "category": "經濟",
       "news": [
         {
-          "source_id": "1a853a7467afe1f315f10d6e0557001b820de1a538e548db56bf461a48446b97",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "日本7月全國核心CPI年增1.8% 符合市場預期",
-          "summary_zh": "日本政府公布7月全國整體CPI年增1.9%，扣除生鮮食品的核心CPI年增1.8%，顯示通膨壓力維持溫和。",
-          "event_time": "2026-08-21T07:30:03+08:00"
-        },
-        {
-          "source_id": "434197de0617bafd98d628f0ff06399809184ccf83db28ad147029c35b92448b",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "德國8月製造業PMI初值回升至54.1 超出市場預期",
-          "summary_zh": "德國8月製造業PMI初值反彈至54.1，強於前值52.2，帶動歐元區整體製造業回暖。",
-          "event_time": "2026-08-21T15:30:00+08:00"
-        },
-        {
-          "source_id": "72634ba7b4f40e98053879661f1df55389ec73022764bf54d421bf8ca1eea088",
+          "source_id": "34a4dac9df199ca2c77d5ff7d0c7171168adff2db3276ae4fcd6821fee0fc743",
           "category": "經濟",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "歐元區8月綜合PMI初值52.1 創9個月以來新高",
-          "summary_zh": "歐元區8月綜合PMI初值升至52.1，高於市場預期的51.7，製造業與服務業同呈擴張，顯示經濟回穩。",
-          "event_time": "2026-08-21T16:00:00+08:00"
+          "headline_zh": "國際能源署署長警告歐洲今冬天然氣面臨供應中斷風險",
+          "summary_zh": "國際能源署（IEA）署長比羅爾（Birol）表示，由於庫存偏低、中東供應受阻及俄羅斯LNG終止，對今年冬季歐洲的天然氣供應情勢感到擔憂。",
+          "event_time": "2026-08-24T19:32:54+08:00"
         },
         {
-          "source_id": "ea71def0d578c628baa8ea04ceee506da562183e0d746010084f3f0378b718a3",
+          "source_id": "fd467ec6e664eedae4df2bf7e780f0767803543cfc32829a409363168d9f92e1",
           "category": "經濟",
-          "importance_score": 5,
+          "importance_score": 4,
           "highlight": true,
-          "headline_zh": "美國8月標普綜合PMI初值攀升至56 創逾四年新高",
-          "summary_zh": "美國8月S&P綜合PMI初值升至56.0，其中服務業PMI強勁升至56.8，抵消了製造業降至53.2的微幅放緩。",
-          "event_time": "2026-08-21T21:45:00+08:00"
+          "headline_zh": "美國戰略石油儲備（SPR）降至2.897億桶，創1982年以來新低",
+          "summary_zh": "最新數據顯示，美國上週戰略石油儲備（SPR）減少約370萬桶至2.897億桶，降至1982年以來的最低水準。",
+          "event_time": "2026-08-24T23:22:09+08:00"
         },
         {
-          "source_id": "109df2a4d47796d81fb83ef0d142b2003e0c72b76bef0ec257e5301855570df2",
+          "source_id": "c3e9444f40f8690776c436d2514092855427244b06d6fbbd04ff28fcca286377",
           "category": "經濟",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "伊朗宣布於法爾斯省南部發現逾 7.5 兆立方英尺天然氣田",
-          "summary_zh": "伊朗石油部長透露，該國於法爾斯省（Fars）南部發現蘊藏量超過 7.5 兆立方英尺的新天然氣田，增強其能源儲備底氣。",
-          "event_time": "2026-08-23T19:02:01+08:00"
+          "headline_zh": "紐約原油期貨收盤下跌2.35%，報每桶85.01美元",
+          "summary_zh": "NYMEX 10月WTI原油期貨結算價下跌2.05美元，跌幅2.35%，收於每桶85.01美元；倫敦布蘭特原油期貨收報每桶92.17美元。",
+          "event_time": "2026-08-25T02:31:20+08:00"
         }
       ]
     },
     {
       "category": "戰爭",
       "news": [
-        {
-          "source_id": "80d1b18691710c197162598b38c0ba28ea849eddd9577912d715ccc8490bff8d",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "荷姆茲海峽通行船隻數量持續降至個位數",
-          "summary_zh": "數據顯示，通過荷姆茲海峽（Strait of Hormuz）的船隻流量較前一日進一步放緩，維持在低個位數水準。",
-          "event_time": "2026-08-21T10:32:23+08:00"
-        },
-        {
-          "source_id": "26418ce4be649f489f86b14ae2560852873255f0779d28e143e78c6649329090",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "烏克蘭武裝部隊擊中俄羅斯煉油廠與軍事空軍基地",
-          "summary_zh": "烏克蘭總統澤倫斯基（Zelenskiy）證實，烏軍打擊了俄羅斯位於彼爾姆的煉油廠及伏爾加格勒地區的空軍基地。",
-          "event_time": "2026-08-21T16:23:52+08:00"
-        },
-        {
-          "source_id": "fac2ad19fb144b75b8cd5223e3a4fbf9454ed3b7026010e5d3426665906ef7b7",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "伊朗總統佩澤什基安：伊朗應在處於實力地位時結束戰爭",
-          "summary_zh": "伊朗總統佩澤什基安（Pezeshkian）表示，世界已承認伊朗的勝利，伊朗應在當前處於實力地位時結束戰爭。",
-          "event_time": "2026-08-21T19:23:01+08:00"
-        },
-        {
-          "source_id": "262a22458738a9044a36bb7222a155c1b67c480fc24d1f60fd291f83fee57f04",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "伊朗海軍司令警告將給予敵方海上歷史性教訓",
-          "summary_zh": "伊朗海軍司令警告不會允許敵人接近伊朗領土，並稱很快會在海上給予敵方歷史性教訓。",
-          "event_time": "2026-08-21T23:16:48+08:00"
-        },
-        {
-          "source_id": "59c839fc90a5a42a90cf03a825e76e85275cff861967617b6c0dea7dcb322837",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "伊朗與阿曼外長通話討論恢復美伊談判與荷姆茲海峽通航條件",
-          "summary_zh": "伊朗外長阿拉格齊（Araghchi）與阿曼外長通話，探討恢復支持荷姆茲海峽恢復安全通航的會談與談判條件。",
-          "event_time": "2026-08-22T00:21:40+08:00"
-        },
-        {
-          "source_id": "662e5e473f2dcafef830c0ef8b47bb2ea15e944bc8a58d880b5f81e980ce0129",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "伊朗與伊拉克簽署全面安全協定",
-          "summary_zh": "伊朗國家電視台報導，伊朗與伊拉克已正式簽署一項全面安全協定，深化區域安全合作。",
-          "event_time": "2026-08-22T01:51:59+08:00"
-        },
-        {
-          "source_id": "d190df9ac413f5d95dfa4f7bd10987313358b092334cd7935d98272458640464",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "川普對伊朗發表強硬談話 表示美方全面掌控中東局勢但適當協議未臻成熟",
-          "summary_zh": "川普（Trump）表示美軍已全面控制中東地區，並稱伊朗渴望達成協議但尚未準備好達成「正確的協議」。",
-          "event_time": "2026-08-22T04:57:35+08:00"
-        },
-        {
-          "source_id": "c1f2cc694d7befa312a448be728abd848859edccaa48c7e5a114e471625ba510",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "美軍中央司令部：已轉向68艘商船、破壞3艘並登上3艘以實施海上法令",
-          "summary_zh": "美軍中央司令部（Centcom）宣布，為確保合規，美軍在相關海域強制改變68艘商船航向，並對多艘違規船隻進行癱瘓與登船檢查。",
-          "event_time": "2026-08-22T07:01:22+08:00"
-        },
-        {
-          "source_id": "302f1b4e9490c3b45831a580ccd9ad1e505efc6880937ff7947af64834aa51f4",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "美軍中央司令部：對伊朗實施海上封鎖 已轉向68艘商船並登船檢查",
-          "summary_zh": "美軍中央司令部進一步證實，相關海上行動旨在對伊朗執行嚴格的海上封鎖，迄今已轉向68艘商船、癱瘓3艘並登船扣押2艘。",
-          "event_time": "2026-08-22T07:12:37+08:00"
-        },
-        {
-          "source_id": "ab31105a24ab8cfbcda95f97cd60a770d3ef4374359098f2619059acadeaec4f",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美軍：海軍P-8A反潛巡邏機於國際空域飛越台灣海峽",
-          "summary_zh": "美軍表示，海軍一架P-8A波賽頓（Poseidon）反潛巡邏機於8月21日在國際空域過境飛越台灣海峽。",
-          "event_time": "2026-08-22T08:34:36+08:00"
-        },
-        {
-          "source_id": "87e1286b64eb2ac61ae95e270429386b53712398a4b9884943d2a95dec7d6954",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美軍：軍機穿越台海展現美國對自由開放印太地區的承諾",
-          "summary_zh": "美軍發表聲明指出，P-8A巡邏機穿越台海行動再次重申美方對維護自由與開放印太地區的堅定承諾。",
-          "event_time": "2026-08-22T08:34:57+08:00"
-        },
-        {
-          "source_id": "b7c7371fb9c95371972efbf52d17c4349d09169cdc41699f4a83fba90c0756fd",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "伊朗回應伊拉克請求 允許數艘伊拉克油輪通行荷姆茲海峽",
-          "summary_zh": "據伊朗官方通訊社（IRNA）報導，應伊拉克政府請求，伊朗當局已放行數艘伊拉克油輪安全通過荷姆茲海峽（Strait of Hormuz）。",
-          "event_time": "2026-08-22T14:35:58+08:00"
-        },
-        {
-          "source_id": "abab93f83728c00bbab70fbfbcea090d77ed969dbe3822bdb3da976df4ba1f03",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "伊朗官員呼籲卡達將遭扣押的伊朗飛行員轉移至陸上醫院",
-          "summary_zh": "塔斯尼姆通訊社（Tasnim）報導，伊朗官員敦促卡達當局將目前在海上遭到拘留的伊朗飛行員送往陸地醫院救治。",
-          "event_time": "2026-08-22T16:41:04+08:00"
-        },
-        {
-          "source_id": "17b930f640249df8e15cd37d1d1406e85dcd1cb7fcb5494247c048cdb9d8da86",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "伊朗官員：被扣押在海上艦艇的伊朗飛行員身體狀況不佳",
-          "summary_zh": "伊朗官員透露，被關押在海上船隻上的伊朗飛行員健康狀況出現嚴重惡化。",
-          "event_time": "2026-08-22T16:41:34+08:00"
-        },
-        {
-          "source_id": "69feaf85e40df53071d6792031d49ba2eaffe1e76760390f7b773aa37733494c",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "伊朗議長加里巴夫：收到鄰國關於建立新安全架構與經濟合作的訊息",
-          "summary_zh": "伊朗國會議長加里巴夫（Galibaf）表示，德黑蘭當局已收到周邊鄰國傳遞的訊息，商討建立區域新安全機制與經濟合作關係。",
-          "event_time": "2026-08-22T18:27:08+08:00"
-        },
-        {
-          "source_id": "a03c0c0826495dc39db35a747b858b7b548e1bce7731bdeb5ba63b09148e9e32",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "烏克蘭總統澤倫斯基與馬克宏會談 法國同意加速交付最新防空裝備",
-          "summary_zh": "澤倫斯基（Volodymyr Zelenskiy）表示，已與法國總統馬克宏（Emmanuel Macron）討論烏克蘭防空系統短缺問題，法方已承諾加速向烏克蘭交付最新型防空武器。",
-          "event_time": "2026-08-22T21:24:58+08:00"
-        },
-        {
-          "source_id": "caa15544b550e5bfe724869b4d4f892454bf4af26a008ba695cfd4000183ec31",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "俄羅斯總統普丁：烏克蘭襲擊經濟目標已開啟「潘朵拉的盒子」",
-          "summary_zh": "據塔斯社（TASS）報導，普丁（Vladimir Putin）警告指出，烏克蘭針對俄羅斯關鍵經濟目標的打擊行動已經打開了局勢升級的潘朵拉盒子。",
-          "event_time": "2026-08-22T22:41:41+08:00"
-        },
-        {
-          "source_id": "6eadb210d59c6126bc232f26fcaa747c2308bb6e0f74f14166d2431bd480bee2",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "伊朗高層安保官員雷扎伊警告：將打擊協助美國對伊朗進行經濟戰的國家資產",
-          "summary_zh": "伊朗國家電視台報導，高層安全官員雷扎伊（Rezaei）發出嚴厲警告，伊朗將直接鎖定並打擊任何協助美國對伊斯蘭共和國發動經濟戰爭的國家資產。",
-          "event_time": "2026-08-23T03:12:49+08:00"
-        },
-        {
-          "source_id": "062f608b053a677682d494fe22f4b431a92f972b706b29ed447149d8c4ca8b53",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "巴基斯坦陸軍參謀長訪問伊朗，強化區域和平與安全斡旋",
-          "summary_zh": "伊朗外交部證實巴基斯坦軍方高層訪問德黑蘭，延續巴方協調區域和平與安全的努力，顯示中東周邊國家積極介入外交斡旋。",
-          "event_time": "2026-08-23T16:50:13+08:00"
-        },
-        {
-          "source_id": "9068c9812fc579b4534c296187520c77953094d48f39a3b1634e4984960632af",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "敘利亞預計短期內將與以色列重啟安全協議談判",
-          "summary_zh": "敘利亞外長透露，儘管日前基地遭襲後接觸一度中斷，但敘方伸出外交之手，預期近期將與以色列重啟安全協議談判，以建立止戰機制。",
-          "event_time": "2026-08-23T16:52:09+08:00"
-        },
-        {
-          "source_id": "ca5e97e3af6cc67a437a9250a0b9e83821a6bb0f4ffabfeed3ba87db214045d3",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "中國外交部證實副外長於北京會見伊朗副外長",
-          "summary_zh": "中國外交部發表聲明，證實中伊兩國副外長在北京舉行會晤，反映中國在伊朗及中東局勢中維持外交溝通管道。",
-          "event_time": "2026-08-23T16:52:11+08:00"
-        },
-        {
-          "source_id": "bc69de90ee227a303bad88a659602a8e2462c125df7c88ea48d80b757b42ebd1",
-          "category": "戰爭",
-          "importance_score": 2,
-          "highlight": false,
-          "headline_zh": "澤倫斯基重申烏克蘭從未參與北溪管道爆炸事件",
-          "summary_zh": "烏克蘭總統澤倫斯基表示，烏克蘭絕未參與北溪（Nord Stream）天然氣管道爆炸案，並正積極配合相關調查。",
-          "event_time": "2026-08-24T00:33:16+08:00"
-        },
-        {
-          "source_id": "b60f74f936ae5be9084ca89c444c6b15de97377b7c2ed7f0b551786ba7738314",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "以色列警告哈瑪斯：若襲擊持續將升級加薩空襲並進行區域撤離",
-          "summary_zh": "以色列總理辦公室向哈瑪斯發出警告，若無人機、氣球與風箏襲擊持續，加薩空襲行動將會升級，並將下令撤離用於發射襲擊的加薩區域。",
-          "event_time": "2026-08-24T00:36:59+08:00"
-        },
-        {
-          "source_id": "b7af82c37e36c459fc301154b456353a1f480cebd2aed812483102f054029e04",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "歐盟外交高級代表指責以色列西岸E1區屯墾區計劃違法並促其撤回",
-          "summary_zh": "歐盟外交與安全政策高級代表重申，以色列在西岸地區（包括E1區）劃設屯墾區違反國際法，敦促以色列政府撤回招標並暫停開發計畫。",
-          "event_time": "2026-08-24T04:24:26+08:00"
-        },
-        {
-          "source_id": "f6e4654208a51aa592829763a873b2c629a0179c4484b98d46fffc874f3453a5",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "敘利亞與以色列代表團在美國斡旋下於約旦展開緩和局勢談判",
-          "summary_zh": "敘利亞外長及情報首長在美國斡旋下，於約旦與以色列高層代表團舉行會談，旨在建立機制以停止以色列的空襲與軍事行動，降低近期因空襲升級的緊張局勢。",
-          "event_time": "2026-08-24T04:56:43+08:00"
-        },
         {
           "source_id": "4ccaffde6ecca858f947efc33f5c83da212eb93d5553eb94504eb7b7744aac34",
           "category": "戰爭",
@@ -880,21 +239,75 @@
           "headline_zh": "俄羅斯擊退針對斯塔夫羅波爾邊疆區工業區的無人機襲擊",
           "summary_zh": "俄羅斯南部斯塔夫羅波爾邊疆區州長證實，俄軍在內溫諾米斯克（Nevinnomyssk）工業區擊退了無人機襲擊。",
           "event_time": "2026-08-24T06:21:46+08:00"
+        },
+        {
+          "source_id": "563e6d6e366db6521c16699982a0e6b2a7c46436265c907cbd2a5dd4ba4f7fab",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "阿曼外交部長造訪德黑蘭，延續荷姆茲海峽相關會談",
+          "summary_zh": "伊朗外務省發言人證實，阿曼外長於週二訪問德黑蘭，持續就荷姆茲海峽安全與美伊訊息傳遞進行協商。",
+          "event_time": "2026-08-24T12:26:25+08:00"
+        },
+        {
+          "source_id": "9654406e28dd10595eb831cd2922c1d695c40b26818d1c41463fda8eb5ed9ded",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "川普稱伊朗正全面崩潰；伊朗官員反擊稱回應將比以往更果斷",
+          "summary_zh": "川普稱伊朗內部正面臨全面崩潰；伊朗第一副總統莫赫貝爾（Mokhber）則回應表示，若遭到進一步侵犯，伊朗的回應將比以往任何時候都更加果斷。",
+          "event_time": "2026-08-24T20:42:36+08:00"
+        },
+        {
+          "source_id": "f1e0f6601c81a46918e687ce21de87690e21e09fbdb177315a3377e70ce3fd5e",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "胡塞組織聲稱在沙烏地延布外海襲擊船隻；荷姆茲海峽通行量下降",
+          "summary_zh": "葉門胡塞組織宣稱在沙烏地延布（Yanbu）外海襲擊船隻。同時數據顯示週末通過荷姆茲海峽的大宗商品船舶降至20艘以下。",
+          "event_time": "2026-08-24T21:51:12+08:00"
+        },
+        {
+          "source_id": "225f89f7583d317dcff83184d23758f1f7d3882c632027dc82df50d986156b1e",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美軍中央司令部在封鎖伊朗行動中癱瘓3艘船隻並登檢2艘",
+          "summary_zh": "美國中央司令部（CENTCOM）發布聲明指出，在對伊朗實施的海事封鎖行動中，美軍已成功使3艘船隻失能並登船檢查2艘船隻。",
+          "event_time": "2026-08-25T02:10:30+08:00"
+        },
+        {
+          "source_id": "adc7d4e2ef2ada4cc39dda4457fd12b29b0a1f13ff2247b455397fc289198a88",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "美國國防部長黑格塞斯：不排除在荷姆茲海峽動用軍事力量",
+          "summary_zh": "美國國防部長黑格塞斯（Hegseth）針對伊朗局勢表示，美軍不排除在荷姆茲海峽或其他任何地區使用軍事力量以維護航行安全。",
+          "event_time": "2026-08-25T03:33:25+08:00"
+        },
+        {
+          "source_id": "c2946030f705efe2ad725164d903ee4eccb8b3efc37262110d6477bccb904dfc",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "巴基斯坦調解人攜解決美伊爭端意向離開德黑蘭",
+          "summary_zh": "消息指出，巴基斯坦調解人已結束德黑蘭訪問，隨身攜帶了旨在通過書面協議解決美伊爭端的善意與初步方案。",
+          "event_time": "2026-08-25T04:28:53+08:00"
         }
       ]
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 15939,
-    "candidatesTokenCount": 531,
-    "totalTokenCount": 18776,
+    "promptTokenCount": 5214,
+    "candidatesTokenCount": 460,
+    "totalTokenCount": 8102,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 15939
+        "tokenCount": 5214
       }
     ],
-    "thoughtsTokenCount": 2306,
+    "thoughtsTokenCount": 2428,
     "serviceTier": "standard"
   }
 }
