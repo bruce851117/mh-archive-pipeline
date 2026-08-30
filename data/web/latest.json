@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-08-29T07:59:45.162034+08:00",
-  "summary_generated_at": "2026-08-29T07:59:45.162034+08:00",
-  "data_updated_at": "2026-08-29T06:50:43.944343+08:00",
+  "generated_at": "2026-08-30T09:37:09.979074+08:00",
+  "summary_generated_at": "2026-08-30T09:37:09.979074+08:00",
+  "data_updated_at": "2026-08-30T08:50:50.435335+08:00",
   "timezone": "Asia/Taipei",
   "period_start": "2026-08-28T05:00:00+08:00",
-  "period_end": "2026-08-29T06:50:43.944343+08:00",
+  "period_end": "2026-08-30T08:50:50.435335+08:00",
   "model": "gemini-3.6-flash",
   "source_digest_files": [
     "data/digests/2026/08/2026-08-27.json",
     "data/digests/2026/08/2026-08-28.json",
-    "data/digests/2026/08/2026-08-29.json"
+    "data/digests/2026/08/2026-08-29.json",
+    "data/digests/2026/08/2026-08-30.json"
   ],
-  "event_count": 36,
+  "event_count": 61,
   "summary_points": [
-    "聯準會主席沃什於全球央行年會發表鷹派演講，強調當前金融條件並未足夠緊縮，若通膨未能快速降至 2% 目標將採取行動；聯準會官員哈馬克亦主張應適時升息以防通膨持續。",
-    "沃什發表鷹派言論後，美國短天期利率期貨應聲下跌，市場升息預期顯著回升，巴克萊與法興銀行等多家投行隨之修改預測，轉為預期聯準會將於今年 9 月及 12 月兩度升息。",
-    "美國就業與製造業數據雙雙走弱，最新基準非農就業人數大幅下修 7.9 萬人，遠遜於市場預期，同時 8 月芝加哥 PMI 暴跌至 47.1 陷入萎縮區間。",
-    "伊朗革命衛隊宣佈已完全控制荷姆茲海峽並對通航船舶關閉水道，美方則警告以色列切勿對伊朗採取單邊軍事打擊，以防中東局勢全面失控。",
-    "美國總統川普宣佈美方已與委內瑞拉達成石油協定，取得該國逾 650 億桶石油儲量的多數控制權，雪佛龍等美國能源巨頭亦接近達成數十億美元的油田投資協議。",
-    "日圓兌美元貶破 160 關卡，美國財長貝森特警告日圓市場失序恐提高美國政府融資成本，並重申財政部在總統批准下擁有干預外匯市場的法定權利。",
-    "英偉達證實引進新商業模式並終止部分 AI 雲端分潤協議，市場對 AI 晶片需求依然高企，Blue Owl 帶頭完成 24 億美元私營債務融資案專門用於採購英偉達晶片。",
-    "美國政府正在擬定新的人工智慧限制規範與出口替代方案，擬進一步縮緊對中國獲取先進 AI 晶片及運算資源的管制。",
-    "為防止美國政府陷入停擺危機，美國國會眾議院預計於下週二就短期營運撥款法案進行表決。"
+    "聯準會主席沃什與官員發表鷹派言論，指出當前金融條件並未足夠緊縮，若核心通膨無法快速降至2%目標將採取升息行動，推升市場對聯準會於今年下半年重啟升息的預期。",
+    "美國最新公佈的基準非農就業人數大幅下修7.9萬人，且8月芝加哥PMI暴跌至47.1陷入萎縮區間，反映美國就業市場成長動能先前被高估，且製造業活動快速降溫。",
+    "美國總統川普宣佈已與委內瑞拉達成協議，取得該國超過650億桶證實石油儲量的多數控制權，美企雪佛龍等能源巨頭亦傳出接近達成數十億美元的油田投資協議。",
+    "中東地緣政治風險加劇，伊朗革命衛隊宣佈全面控制荷姆茲海峽並對通航船舶關閉航道；伊朗總統則提出若美方解除制裁與恢復投資，願與區域國家合作開放航線。",
+    "日圓兌美元跌破160關卡，美財長貝森特警告日圓市場失序可能動搖全球市場並提高美國政府融資成本，並強調法律賦予財政部干預匯市以維持市場秩序的權限。",
+    "美國國會眾議院預計於下週二就短期營運撥款法案進行表決，以確保政府持續運作，避免陷入停擺危機。",
+    "美國政府正擬定新的人工智慧限制規範，以進一步限制中國獲取先進晶片與運算資源；英偉達（Nvidia）則證實推出全新商業模式，並終止與部分AI雲端提供商的收入分潤協議。",
+    "在聯準會鷹派言論衝擊下，美國短天期利率期貨走低，主要投行預測聯準會下半年可能兩度升息，債市正針對未來的利率路徑進行重新定價。"
   ],
   "blocks": [
     {
@@ -148,6 +148,24 @@
           "headline_zh": "微軟試圖安撫員工關於資料中心建設影響之疑慮",
           "summary_zh": "微軟（Microsoft）針對大規模 AI 資料中心建置帶來的電力與環保爭議向員工進行溝通。",
           "event_time": "2026-08-28T23:49:52+08:00"
+        },
+        {
+          "source_id": "66e97fc3756875d0278c547a960077ae41917e7106f5a8ee2c43811052187367",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "OpenAI於SpaceX收購Cursor後終止與Cursor之合作夥伴關係",
+          "summary_zh": "OpenAI宣佈在Cursor被埃隆·馬斯克（Elon Musk）旗下的SpaceX收購後，終止與Cursor的合作關係，顯示大型科技公司與AI供應鏈間的競合變化。",
+          "event_time": "2026-08-29T09:47:09+08:00"
+        },
+        {
+          "source_id": "6ecf4bc1b16fa354fd63a33cc0f1048ac5bcd123545e5aa0675b59bf018e7046",
+          "category": "股市",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "xAI：Grok聊天機器人現已兼容X平台",
+          "summary_zh": "xAI宣佈其人工智慧模型Grok現已全面兼容社交平台X（前身為Twitter），持續推進AI應用生態圈整合。",
+          "event_time": "2026-08-30T06:01:47+08:00"
         }
       ]
     },
@@ -216,6 +234,33 @@
           "headline_zh": "巴克萊與法興銀行預測聯聯準會將於9月及12月分別升息",
           "summary_zh": "主要投行在沃什發表演說後修改利率預測，轉為預估聯準會在今年下半年將兩度升息。",
           "event_time": "2026-08-29T02:45:14+08:00"
+        },
+        {
+          "source_id": "e6ee932e4562468afdf9a9672769d333a190da899570b0f8eaf7f3f246672cd7",
+          "category": "央行",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "阿聯酋央行：米斯爾銀行在阿聯酋分行受當地法律法規約束",
+          "summary_zh": "阿拉伯聯合大公國中央銀行（UAE Central Bank）發表聲明，強調埃及米斯爾銀行（Banque Misr）於阿聯酋之分行營運均嚴格遵守當地法律監管框架。",
+          "event_time": "2026-08-30T01:32:34+08:00"
+        },
+        {
+          "source_id": "aac6b875658e5105d45a3bc0fa4b97d750dc746d5f6de4a9668d59f8799df2fd",
+          "category": "央行",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "阿聯酋央行針對美國當局所指期間展開特別緊急深入審查",
+          "summary_zh": "阿聯酋央行宣布將針對美國財政部等當局所提及的特定期間，進行特別緊急的深入鑑識審查（forensic review）。",
+          "event_time": "2026-08-30T01:34:40+08:00"
+        },
+        {
+          "source_id": "3c3468466fa5fc3c9e9a2c22d963cb4347c7a06d2d9ac461de3d7ef8c1a721d4",
+          "category": "央行",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "阿聯酋央行警告持照銀行避免使金融體系承受聲譽風險",
+          "summary_zh": "阿聯酋央行向所有獲得許可的金融機構發出警示，要求各銀行務必加強合規管理，防止金融體系暴露於聲譽風險之中。",
+          "event_time": "2026-08-30T01:35:33+08:00"
         }
       ]
     },
@@ -316,6 +361,60 @@
           "headline_zh": "日圓兌美元貶破 160 關卡 創7月底以來新低",
           "summary_zh": "由於美日利差維持及美央行鷹派預期，日圓狂跌至 1 歐美美元兌 160 日圓，加劇市場對日本財政部干預的關注。",
           "event_time": "2026-08-28T23:40:12+08:00"
+        },
+        {
+          "source_id": "179ceea920c84e3b3de0aa8c655ca6efb1c52388357c8634a9f47e986f62ecb0",
+          "category": "經濟",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "米斯爾銀行：於美國制裁發布後申明完全尊重法規框架",
+          "summary_zh": "埃及米斯爾銀行（Banque Misr）發布聲明，表示在美國實施相關制裁措施後，該行全面尊重並恪守相關合規與法律框架。",
+          "event_time": "2026-08-29T17:17:20+08:00"
+        },
+        {
+          "source_id": "07159f32bc6d9515d43b380ed5a8e64f017f58ce57a918f597934e70643eb751",
+          "category": "經濟",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "米斯爾銀行：阿聯酋分行維持正常客戶金融服務",
+          "summary_zh": "埃及米斯爾銀行表示，其位於阿拉伯聯合大公國的分行將維持正常營運與客戶金融服務。",
+          "event_time": "2026-08-29T17:17:34+08:00"
+        },
+        {
+          "source_id": "fbcb1e7a04d15aba982338ff5076663349461b2423283fdc451ea55db99eec25",
+          "category": "經濟",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "米斯爾銀行：極度審慎對待美國規則制定通知並進行全面審查",
+          "summary_zh": "米斯爾銀行聲明指出，正以極其嚴肅的態度對待美國擬議規則制定通知，並展開內部詳盡審查。",
+          "event_time": "2026-08-29T17:17:48+08:00"
+        },
+        {
+          "source_id": "7f423617c89a0e6b2dee3a3cc8277140b4e6da93d3c59f64b02f8faf7cadb219",
+          "category": "經濟",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "米斯爾銀行：正審閱美國財政部通知並將聯繫獲取更多細節",
+          "summary_zh": "米斯爾銀行表示將持續研判美國財政部（US Treasury）發布之通知，並主動與美方部門溝通以獲取進一步細節。",
+          "event_time": "2026-08-29T17:18:02+08:00"
+        },
+        {
+          "source_id": "97fd5592719edfee499f0d99c002a1bf0989cc2fb6eda7a5415b7b71d100bb55",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "伊拉克庫德自治區經土耳其傑伊漢港原油出口量約每日15萬桶",
+          "summary_zh": "伊拉克石油部發言人表示，庫德自治區（Kurdistan）向土耳其傑伊漢港（Ceyhan）的原油出口量目前維持在每日約15萬桶，提供中東區域能源供應數據。",
+          "event_time": "2026-08-30T02:31:49+08:00"
+        },
+        {
+          "source_id": "9fe7d29a07caa0ee5cea54199d155350914f066eba571bcdcebcff59eb222a2e",
+          "category": "經濟",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "冰島重啟加入歐盟談判公投初步結果顯示贊成票微幅領先",
+          "summary_zh": "根據冰島國家廣播公司（RUV）報導，冰島針對是否重啟加入歐盟（EU）談判的全民公投初步計票結果顯示，贊成陣營呈現微幅領先。",
+          "event_time": "2026-08-30T08:24:52+08:00"
         }
       ]
     },
@@ -375,21 +474,147 @@
           "headline_zh": "川普宣佈：美國與委內瑞拉達成協議 取得超 650 億桶石油儲量控制權",
           "summary_zh": "美國總統川普宣佈美方已與委內瑞拉達成石油協定，取得該國超過650億桶證實石油儲量的多數控制權，並配合空間技術執行海上封鎖。",
           "event_time": "2026-08-29T06:48:28+08:00"
+        },
+        {
+          "source_id": "7659c1a3bdd5b5a574d839031e61e170ee834541b59cc76cea9ebbc343fcd118",
+          "category": "戰爭",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "尼日首都尼亞美多地傳出持續槍響與爆炸聲",
+          "summary_zh": "西非國家尼日（Niger）首都尼亞美（Niamey）數個區域傳出持續性槍砲與爆炸聲響，顯示政治形勢出現劇烈動盪。",
+          "event_time": "2026-08-29T08:51:20+08:00"
+        },
+        {
+          "source_id": "af6a91396f46a14b6793fbeaf37d5707cc37e1bc19fe06fdc40f6834e2a84e26",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗政府誓言抵抗美國制裁，稱外交與國防不可分割",
+          "summary_zh": "伊朗政府發表官方聲明，誓言抵抗美國（US）的經濟與政治制裁，並強調外交談判與國防防衛為「互補且不可分割」的政策立場，地緣政治風險居高不下。",
+          "event_time": "2026-08-29T12:48:43+08:00"
+        },
+        {
+          "source_id": "a6de62ad1030ced03f2b63fbab2e65aab071ade910325271b3333f2aca798ce1",
+          "category": "戰爭",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "烏克蘭襲擊俄羅斯別爾哥羅德州造成三人死亡",
+          "summary_zh": "俄羅斯地方當局表示，烏克蘭針對俄境內別爾哥羅德（Belgorod）地區發動打擊，造成至少3名平民死亡。",
+          "event_time": "2026-08-29T15:20:29+08:00"
+        },
+        {
+          "source_id": "2c28ec234f0a28d544d1e4c6395f0033291e64ced304695a1a76c7c40c2de341",
+          "category": "戰爭",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "俄羅斯夜襲烏克蘭布恰區造成27人死亡",
+          "summary_zh": "烏克蘭基輔州州長表示，俄軍夜間對布恰（Bucha）地區發動空襲，造成27名平民喪生。",
+          "event_time": "2026-08-29T16:34:05+08:00"
+        },
+        {
+          "source_id": "88e9bea463b8bd2aaa446b804853ce9843e0236b83537e00ffddcf63e55f7c50",
+          "category": "戰爭",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "烏克蘭襲擊區域受傷人數增至42人、撤離逾380人",
+          "summary_zh": "基輔州州長更新數據指出，受俄軍打擊影響區域已有42人受傷，超過380名居民緊急撤離。",
+          "event_time": "2026-08-29T16:38:45+08:00"
+        },
+        {
+          "source_id": "64c6901e14b25c69db348cd6a2041d8ff3360af46630be2484243c3832a4ab17",
+          "category": "戰爭",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "尼日國家電視台因首都遭受襲擊而斷訊訊號中斷",
+          "summary_zh": "隨著尼日首都尼亞美爆發軍事衝突與襲擊，尼日國營電視台訊號已斷線離線。",
+          "event_time": "2026-08-29T16:46:42+08:00"
+        },
+        {
+          "source_id": "a4f9a573dba12d66757727b6d8bc37fc43d5f8d916c1a6c534f72a4998da4249",
+          "category": "戰爭",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "尼日政府呼籲民眾保持平靜，安全部隊正在部署應對襲擊",
+          "summary_zh": "尼日政府發表聲明呼籲民眾保持平靜，並表示安全部隊已動員以應對首都發生的襲擊事件。",
+          "event_time": "2026-08-29T16:50:44+08:00"
+        },
+        {
+          "source_id": "f872347feb9fc23d8527206e64854212f5292594ab3a00dfd09d3df4fbcaf854",
+          "category": "戰爭",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "澤倫斯基誓言懲罰引發基輔倉庫二次爆炸的俄軍襲擊責任人",
+          "summary_zh": "烏克蘭總統澤倫斯基（Volodymyr Zelenskiy）表示，針對俄羅斯襲擊基輔地區倉庫引發二次爆炸並造成重大人員傷亡，將嚴加懲處責任人。",
+          "event_time": "2026-08-29T16:59:56+08:00"
+        },
+        {
+          "source_id": "83e6f11315946740685c842a0ce74bd8a3ae4b00371d4a08c455fd45e26e8d5e",
+          "category": "戰爭",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "俄羅斯宣稱攻佔烏克蘭頓內茨克州的魯比日內",
+          "summary_zh": "據塔斯社（TASS）報導，俄羅斯國防部宣稱軍隊已控制烏克蘭頓內茨克（Donetsk）地區的魯比日內（Rubizhne）。",
+          "event_time": "2026-08-29T17:59:48+08:00"
+        },
+        {
+          "source_id": "b08e3f9a27c09f4e0da90a48918d395f919fee94fc2777ba2cc8e4abb9392f7f",
+          "category": "戰爭",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "俄羅斯宣稱攻佔烏克蘭蘇梅州的赫拉皮夫什契納",
+          "summary_zh": "塔斯社報導指出，俄軍已進一步控制烏克蘭蘇梅（Sumy）地區的赫拉皮夫什契納（Khrapivshchyna）。",
+          "event_time": "2026-08-29T18:00:20+08:00"
+        },
+        {
+          "source_id": "2eceb2b2a5349f1acf2f585db9aad7b84942972c54369ffd56a0c87f8d03cca2",
+          "category": "戰爭",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "俄羅斯宣稱攻佔烏克蘭頓內茨克州的諾沃安德里伊夫卡",
+          "summary_zh": "俄羅斯官方媒體報導，俄軍已拿下頓內茨克地區的諾沃安德里伊夫卡（Novoandriivka）。",
+          "event_time": "2026-08-29T18:01:11+08:00"
+        },
+        {
+          "source_id": "b1e8d2425a48d36877db828b9b81291fc915afe48bc93cadf92e5b22b113f977",
+          "category": "戰爭",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "尼日軍隊聲明已奪回首都遇襲據點之控制權",
+          "summary_zh": "尼日武裝部隊發表聲明表示，在首都遭受襲擊後，政府軍已重新奪回關鍵據點的控制權。",
+          "event_time": "2026-08-29T19:14:17+08:00"
+        },
+        {
+          "source_id": "277f5e1001219e7febf1759dff1615974c2875b93b259a0e443e6e94ef6876c8",
+          "category": "戰爭",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "俄軍襲擊基輔地區倉庫死亡人數攀升至37人",
+          "summary_zh": "基輔州州長表示，俄羅斯空襲基輔周邊倉庫事件的死亡人數已進一步上升至37人。",
+          "event_time": "2026-08-29T19:17:58+08:00"
+        },
+        {
+          "source_id": "5bc044ad771061d61d71ed736ed7c9b0d22dba80434eb1ac005d7e3595ee3727",
+          "category": "戰爭",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "尼日叛亂士兵於首都基地向敏感設施開火",
+          "summary_zh": "消息指出尼日首都尼亞美基地的叛亂士兵向當地多處敏感設施與官署進行開火，局勢一度高度緊張。",
+          "event_time": "2026-08-29T19:21:18+08:00"
         }
       ]
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 6675,
-    "candidatesTokenCount": 536,
-    "totalTokenCount": 9208,
+    "promptTokenCount": 10874,
+    "candidatesTokenCount": 479,
+    "totalTokenCount": 13977,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 6675
+        "tokenCount": 10874
       }
     ],
-    "thoughtsTokenCount": 1997,
+    "thoughtsTokenCount": 2624,
     "serviceTier": "standard"
   }
 }
