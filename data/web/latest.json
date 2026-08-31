@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-08-30T09:37:09.979074+08:00",
-  "summary_generated_at": "2026-08-30T09:37:09.979074+08:00",
-  "data_updated_at": "2026-08-30T08:50:50.435335+08:00",
+  "generated_at": "2026-08-31T08:31:25.400198+08:00",
+  "summary_generated_at": "2026-08-31T08:31:25.400198+08:00",
+  "data_updated_at": "2026-08-31T07:50:51.166385+08:00",
   "timezone": "Asia/Taipei",
   "period_start": "2026-08-28T05:00:00+08:00",
-  "period_end": "2026-08-30T08:50:50.435335+08:00",
+  "period_end": "2026-08-31T07:50:51.166385+08:00",
   "model": "gemini-3.6-flash",
   "source_digest_files": [
     "data/digests/2026/08/2026-08-27.json",
     "data/digests/2026/08/2026-08-28.json",
     "data/digests/2026/08/2026-08-29.json",
-    "data/digests/2026/08/2026-08-30.json"
+    "data/digests/2026/08/2026-08-30.json",
+    "data/digests/2026/08/2026-08-31.json"
   ],
-  "event_count": 61,
+  "event_count": 100,
   "summary_points": [
-    "聯準會主席沃什與官員發表鷹派言論，指出當前金融條件並未足夠緊縮，若核心通膨無法快速降至2%目標將採取升息行動，推升市場對聯準會於今年下半年重啟升息的預期。",
-    "美國最新公佈的基準非農就業人數大幅下修7.9萬人，且8月芝加哥PMI暴跌至47.1陷入萎縮區間，反映美國就業市場成長動能先前被高估，且製造業活動快速降溫。",
-    "美國總統川普宣佈已與委內瑞拉達成協議，取得該國超過650億桶證實石油儲量的多數控制權，美企雪佛龍等能源巨頭亦傳出接近達成數十億美元的油田投資協議。",
-    "中東地緣政治風險加劇，伊朗革命衛隊宣佈全面控制荷姆茲海峽並對通航船舶關閉航道；伊朗總統則提出若美方解除制裁與恢復投資，願與區域國家合作開放航線。",
-    "日圓兌美元跌破160關卡，美財長貝森特警告日圓市場失序可能動搖全球市場並提高美國政府融資成本，並強調法律賦予財政部干預匯市以維持市場秩序的權限。",
-    "美國國會眾議院預計於下週二就短期營運撥款法案進行表決，以確保政府持續運作，避免陷入停擺危機。",
-    "美國政府正擬定新的人工智慧限制規範，以進一步限制中國獲取先進晶片與運算資源；英偉達（Nvidia）則證實推出全新商業模式，並終止與部分AI雲端提供商的收入分潤協議。",
-    "在聯準會鷹派言論衝擊下，美國短天期利率期貨走低，主要投行預測聯準會下半年可能兩度升息，債市正針對未來的利率路徑進行重新定價。"
+    "美伊軍事衝突劇烈升級，美軍空襲伊朗拉拉克島後，伊朗革命衛隊向駐約旦美軍基地發射彈道飛彈報復，並宣稱全面控制荷姆茲海峽，致行經航道的大宗商品貨輪銳減至每日僅5艘。",
+    "美國財政部長貝森特宣布每週對伊朗實施二次制裁，首波鎖定金融銀行機構，並指封鎖行動已有效限制中國進口伊朗原油，要求全球金融機構切斷對伊朗的資金支持。",
+    "聯準會主席沃什於傑克森霍爾央行年會發表鷹派演說，強調當前金融條件缺乏限制性，若核心通膨無法趨向2%將採取行動；市場與投行隨即重估利率路徑，轉為預估下半年將實施升息。",
+    "美中貿易關係出現和緩跡象，雙方將尋求各調減300億美元非戰略商品關稅，但美方同時正制定新的人工智慧出口管制規則，以限制中國獲取先進晶片與運算資源。",
+    "美國與委內瑞拉達成最長達25年的能源合作協議，美方取得該國超過650億桶石油儲備控制權並擬用於補充戰略石油儲備，雪佛龍等美企亦將投資數十億美元開發油田。",
+    "美國最新公布的初步基準非農就業大幅下修7.9萬人，遠低於預期的增加18.3萬人，顯示美國勞動市場先前的成長動能遭到嚴重高估。",
+    "私募債務市場持續推動AI產業巨額融資，Blue Owl牽頭24億美元債務融資案及獲英偉達支持的Lambda簽署10億美元合約，資金均專用於採購英偉達高階AI晶片。",
+    "受到美日利差及聯準會鷹派預期影響，日圓兌美元跌破160關卡；美財長貝森特則表示日圓近期波動控制得當，並認為日本央行會在首相支持下做出適當貨幣政策決策。"
   ],
   "blocks": [
     {
@@ -261,6 +262,78 @@
           "headline_zh": "阿聯酋央行警告持照銀行避免使金融體系承受聲譽風險",
           "summary_zh": "阿聯酋央行向所有獲得許可的金融機構發出警示，要求各銀行務必加強合規管理，防止金融體系暴露於聲譽風險之中。",
           "event_time": "2026-08-30T01:35:33+08:00"
+        },
+        {
+          "source_id": "a7c238dbcde4b55c61368fedd31662720bb9fa7684ddc3313bd3c469237a8c20",
+          "category": "央行",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "阿聯央行對米斯爾銀行分行展開緊急法證調查",
+          "summary_zh": "阿聯央行（UAE Central Bank）針對美方制裁引述的期間，對埃及米斯爾銀行阿聯分行展開特別緊急法證審查。",
+          "event_time": "2026-08-30T09:51:56+08:00"
+        },
+        {
+          "source_id": "c12d030540ec2c0987af84bb6922f6ee89ea175e83603483a4b40a1c67b06819",
+          "category": "央行",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "阿聯與埃及央行發表聯合聲明，強調針對米斯爾銀行阿聯分行保持全面合作",
+          "summary_zh": "阿聯與埃及央行發布聯合聲明，確認雙方正就米斯爾銀行阿聯分行的營運與規範進行密切協調與合作。",
+          "event_time": "2026-08-30T23:35:16+08:00"
+        },
+        {
+          "source_id": "ac6d3601d747d61672703820d18cde8817f4eef889bd7cf31741d6c163cac093",
+          "category": "央行",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "貝森特表示在高市早苗領導下日本政府干預減少，應讓安倍經濟學發揮成效",
+          "summary_zh": "美國財長貝森特（Scott Bessent）談及日本經濟時表示，在高市早苗（Takaichi）首相政策下，政府對經濟政策干預減少，應讓安倍經濟學（Abenomics）發揮成效。",
+          "event_time": "2026-08-31T06:25:57+08:00"
+        },
+        {
+          "source_id": "e61e03f4caba30afe68b730d7f39c83b9e41647bc4235cd9bd6c055f122f80c6",
+          "category": "央行",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "貝森特指在日本首相支持下，日本央行總裁植田和男將就貨幣政策採取適當行動",
+          "summary_zh": "美國財長貝森特表示，在日本首相支持下，日本央行（BOJ）總裁植田和男（Kazuo Ueda）會在貨幣政策上做出適當決策。",
+          "event_time": "2026-08-31T06:25:57+08:00"
+        },
+        {
+          "source_id": "2a6fe771d47c36ce8c3e0191713ac1cc671a3e1de4702dbfd708e62acbdc628e",
+          "category": "央行",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美國財長貝森特表示日圓匯率近期波動控制得當",
+          "summary_zh": "美國財政部長貝森特被問及匯市無序波動時表示，日圓（JPY）匯率近期波動狀況控制良好。",
+          "event_time": "2026-08-31T06:25:57+08:00"
+        },
+        {
+          "source_id": "4a15718f6b3675d820dff499654ed696f4047842232bc78c84614155f3da5751",
+          "category": "央行",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "貝森特將於G20峰會期間會見日央總裁植田和男，並稱讚其精通市場",
+          "summary_zh": "貝森特表示將在G20財長與央行行長會議邊緣與植田和男會面，並讚揚其為被低估且精通市場的經濟學家。",
+          "event_time": "2026-08-31T06:25:57+08:00"
+        },
+        {
+          "source_id": "a52dbbd84edc1c8ca199a6cee160dad19aa68d8c2ad5a2a457ae8613234d68ca",
+          "category": "央行",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "貝森特表示不會對日本央行是否應連續升息提供建議",
+          "summary_zh": "美國財長貝森特指出，他不會對日本央行是否應考慮連續升息（rate increases）發表或給予具體建議。",
+          "event_time": "2026-08-31T06:25:58+08:00"
+        },
+        {
+          "source_id": "e023cc52d4880a60ccd45bc00b1cc04e7814d560ef9b013ba2739259cf0289c4",
+          "category": "央行",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "貝森特警告美方未來可能直接對違規金融機構實施全面制裁",
+          "summary_zh": "在美國限制埃及米斯爾銀行（Banque Misr）於阿聯的分行後，美財長貝森特警告下一次美方可能直接對違規銀行進行全面制裁。",
+          "event_time": "2026-08-31T07:47:16+08:00"
         }
       ]
     },
@@ -311,6 +384,69 @@
           "headline_zh": "美國眾議院預計於週二就臨時撥款法案進行表決",
           "summary_zh": "美國國會眾議院計畫於下週二就短期營運撥款法案（stopgap bill）進行投票，以避免政府陷入停擺。",
           "event_time": "2026-08-29T03:23:20+08:00"
+        },
+        {
+          "source_id": "0562edc3f8cbe7f26dbe93f247457c960d8de076ca2474c2b193abd5467a6393",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "川普表示計畫利用委內瑞拉原油補充美國戰略石油儲備",
+          "summary_zh": "美國總統川普（Donald Trump）表示，計畫透過與委內瑞拉的新協議，進口委內瑞拉原油來補充美國國家戰略石油儲備（SPR）。",
+          "event_time": "2026-08-30T22:11:10+08:00"
+        },
+        {
+          "source_id": "34a05f4944f027bed51811e14bd73e5170e2f6f68b588589fd9e9bd1780f5937",
+          "category": "財政政策",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "貝森特宣布美中將尋求各降低300億美元非戰略商品關稅",
+          "summary_zh": "美國財政部長貝森特表示，美中直接貿易關係有所改善，雙方將尋求各對價值300億美元的非戰略商品進行關稅（tariff）調減。",
+          "event_time": "2026-08-31T07:04:49+08:00"
+        },
+        {
+          "source_id": "10bc36e0f243adc12200225c48bb5af89f5907fbb557e04e0259462eec9af6a9",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "貝森特表示將與中國進行實質談判，重點限制高端AI模型落入非國家主體手中",
+          "summary_zh": "美國財長貝森特指出，美方將與中國展開強有力的貿易與科技談判，核心集中在防止先進人工智慧模型（AI models）落入非國家行為者手中。",
+          "event_time": "2026-08-31T07:04:49+08:00"
+        },
+        {
+          "source_id": "aae5d38adbee7a1ed74feb1e0aaf2d1cb9d8121cfbcd14d7aca966a9a4e18017",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "貝森特稱對中國商品設置更高貿易壁壘將促使其轉向內需驅動",
+          "summary_zh": "美財長貝森特表示，對中國出口商品設置更嚴格的貿易壁壘，將促使北京當局將經濟重心從出口導向轉為擴大國內需求。",
+          "event_time": "2026-08-31T07:04:49+08:00"
+        },
+        {
+          "source_id": "eefae0a416cbb370d7bfdf057d1ce92d468adf6f0c05322aac59dc7970bb4dc5",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "貝森特將於G20財長會議敦促各國重新評估對華貿易條件以降低全球失衡",
+          "summary_zh": "貝森特表示，將在G20財長會議上呼籲全球主要經濟體重新審視與中國的貿易條款，以減緩全球貿易不平衡。",
+          "event_time": "2026-08-31T07:04:49+08:00"
+        },
+        {
+          "source_id": "30119502f65fd419e16281df9acf755447eb020b633fa95d33bf7eb390c9fe83",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "貝森特指出全球無法長期承受中國高達1.2兆美元的貿易順差",
+          "summary_zh": "美財長貝森特於受訪時強調，國際社會無法接受中國持續維持每年高達1.2兆美元的龐大貿易順差。",
+          "event_time": "2026-08-31T07:04:50+08:00"
+        },
+        {
+          "source_id": "f26938b6b43d33af31d010a632946b0b78bdb423d76bf3b904a58715c90244f7",
+          "category": "財政政策",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "貝森特稱尚不確定是否會在9月下旬川習會前與中國副總理何立峰會面",
+          "summary_zh": "貝森特表示，在9月下旬川普與習近平峰會之前，他是否會與中國國務院副總理何立峰（He Lifeng）進行面對面會談尚未確定。",
+          "event_time": "2026-08-31T07:04:52+08:00"
         }
       ]
     },
@@ -415,6 +551,51 @@
           "headline_zh": "冰島重啟加入歐盟談判公投初步結果顯示贊成票微幅領先",
           "summary_zh": "根據冰島國家廣播公司（RUV）報導，冰島針對是否重啟加入歐盟（EU）談判的全民公投初步計票結果顯示，贊成陣營呈現微幅領先。",
           "event_time": "2026-08-30T08:24:52+08:00"
+        },
+        {
+          "source_id": "5b00a0e6130702baa569b9ec165df5f1bc53c09015fb044974bfaf863a7ec24e",
+          "category": "經濟",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "委內瑞拉臨時總統羅德里格斯表示與美國的能源協議將長達25年",
+          "summary_zh": "委內瑞拉臨時總統羅德里格斯（Delcy Rodriguez）宣布，委內瑞拉與美國簽署的能源合作協議期限將長達25年。",
+          "event_time": "2026-08-30T09:51:56+08:00"
+        },
+        {
+          "source_id": "3b9c1de4dfb83754cbabb6be6cf2c444c908fec44586aa9e90854984e1405575",
+          "category": "經濟",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "委內瑞拉臨時總統稱美委協議旨在將日產量提升至150萬桶",
+          "summary_zh": "委內瑞拉當局表示，與美國的能源協議目標是將委國原油日產量大幅提升至150萬桶。",
+          "event_time": "2026-08-30T09:53:35+08:00"
+        },
+        {
+          "source_id": "fe9e75abb85580d080eca854a65f565646167759e26ae57a28f855b269d7e951",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "南韓7月工業產出經季調月增0.2%略低於預期",
+          "summary_zh": "南韓統計局公布7月經季調工業產量月增0.2%，稍低於市場預期的0.3%。",
+          "event_time": "2026-08-31T07:00:02+08:00"
+        },
+        {
+          "source_id": "94034bc3674f066f795b6f826aa5d346fa85aeb4954c64e8e0f74285f3a0cd0f",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "日本7月工業產出初值月增0.1%優於市場預期",
+          "summary_zh": "日本政府公布7月工業產出初值月增0.1%，大幅優於市場預期的下降0.7%。",
+          "event_time": "2026-08-31T07:50:06+08:00"
+        },
+        {
+          "source_id": "64e67836ac775af1a79b742f5106682e1d9d8eabe0ab415c563946eaa179c6ef",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "日本7月零售銷售年增4.0%顯著超越預期",
+          "summary_zh": "日本7月零售銷售額同比增長4.0%，優於市場預期的2.9%，展現國內消費韌性。",
+          "event_time": "2026-08-31T07:50:09+08:00"
         }
       ]
     },
@@ -600,21 +781,192 @@
           "headline_zh": "尼日叛亂士兵於首都基地向敏感設施開火",
           "summary_zh": "消息指出尼日首都尼亞美基地的叛亂士兵向當地多處敏感設施與官署進行開火，局勢一度高度緊張。",
           "event_time": "2026-08-29T19:21:18+08:00"
+        },
+        {
+          "source_id": "807c78caeab5deb5d5605d8463da90ece4b22fc84be05db4f05777095b33591a",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗最高領袖哈米尼呼籲海灣國家統治者對抗真正敵人",
+          "summary_zh": "伊朗最高領袖哈米尼（Mojtaba Khamenei）發表書面聲明，敦促海灣國家統治者識別其「真正的敵人」，掌握其計畫並加以對抗。",
+          "event_time": "2026-08-30T13:49:24+08:00"
+        },
+        {
+          "source_id": "636c1c12aa2a986d9f4f924a6dd259920f82e32f5fd2b7f2760a2a804f1d9491",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "俄羅斯國防部表示俄軍準備對烏克蘭能源基礎設施發動大規模打擊",
+          "summary_zh": "俄羅斯國防部表示，俄羅斯軍隊已開始準備對烏克蘭能源基礎設施進行大規模打擊，加劇區域能源緊張。",
+          "event_time": "2026-08-30T15:12:27+08:00"
+        },
+        {
+          "source_id": "f1dc0442ecb9d169565433bbee7af41e9eec6cdfedc1ad16c1d6136c66d62f0f",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "澤倫斯基表示烏克蘭正準備與美國總統代表進行更多會談",
+          "summary_zh": "烏克蘭總統澤倫斯基（Volodymyr Zelenskiy）表示，烏克蘭正準備與美國總統代表舉行更多會談（talks），溝通和平談判與軍事援助。",
+          "event_time": "2026-08-30T23:52:28+08:00"
+        },
+        {
+          "source_id": "867e49458008e5383cb4d80f327ae3ed83dd46988dc7228aa6a257b87b71d72f",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "UKMTO報告一艘油輪在阿曼卡薩布以北12海浬處遭發射物擊中",
+          "summary_zh": "英國海事貿易行動辦公室（UKMTO）指出，一艘油輪在阿曼（Oman）卡薩布（Khasab）以北12海浬處遭發射物擊中，突顯中東航道安全風險升溫。",
+          "event_time": "2026-08-31T00:24:07+08:00"
+        },
+        {
+          "source_id": "54c6234a0d924fc3a9ed759ccbd85a30588c784b782f18ec4643b162198b87ed",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "UKMTO確認阿曼附近油輪遇襲事件未造成人員傷亡或環境影響",
+          "summary_zh": "針對阿曼卡薩布附近的油輪遇襲事件，UKMTO後續回報目前未造成人員傷亡或環境破壞。",
+          "event_time": "2026-08-31T00:24:29+08:00"
+        },
+        {
+          "source_id": "0427c7a738283ec08218de4c8e22c30a71973aa303a3eaa6127b608a9293c0c0",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "巴基斯坦表示麥加聯合防禦協議戰略政治與防禦委員會首次會議於伊斯坦堡舉行",
+          "summary_zh": "巴基斯坦外長及軍方代表與土耳其、沙烏地阿拉伯外長與國防部長於伊斯坦堡召開《麥加協定》（Makkah Accord）聯合防禦委員會首屆會議。",
+          "event_time": "2026-08-31T01:36:47+08:00"
+        },
+        {
+          "source_id": "501ddb4d4162c5470dac6531a2f0372cec51a833b8d67a41fd4348fcb5718084",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "美軍空襲伊朗拉拉克島上的兩座發射器",
+          "summary_zh": "美國官員證實，美軍打擊了位於伊朗拉拉克島（Larak Island）上的兩座發射器，美伊軍事衝突顯著升級。",
+          "event_time": "2026-08-31T03:46:43+08:00"
+        },
+        {
+          "source_id": "b8a54262ac28bfcce0d9e7a60193d5bc50a505b69af889a71dc3c3e00181aa04",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "美官員指伊朗革命衛隊準備向荷姆茲海峽發射載有水雷的火箭",
+          "summary_zh": "美國官員指出，觀察到伊朗伊斯蘭革命衛隊（IRGC）正準備向荷姆茲海峽（Strait of Hormuz）發射配備水雷的火箭，極度危及原油與航運安全。",
+          "event_time": "2026-08-31T03:47:11+08:00"
+        },
+        {
+          "source_id": "b209eb452545385b0de20ad71fa8a3daa1ed35a5862aeabf0b31c270a5e08770",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "伊朗革命衛隊警告美軍對拉拉克島的襲擊將遭到報復與懲罰",
+          "summary_zh": "伊朗伊斯蘭革命衛隊透過官方媒體表示，美軍對拉拉克島的襲擊必將面臨強烈回應與懲罰。",
+          "event_time": "2026-08-31T04:00:06+08:00"
+        },
+        {
+          "source_id": "c5131109694645c852ceb7f8747c941f30e2ff793b245c239cea6fda6788fb79",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "伊朗革命衛隊發言人稱美國將因襲擊拉拉克島面臨經濟與軍事報復",
+          "summary_zh": "伊朗伊斯蘭革命衛隊發言人警告，美國襲擊拉拉克島將招致嚴重的軍事與經濟後果。",
+          "event_time": "2026-08-31T04:34:13+08:00"
+        },
+        {
+          "source_id": "0ecbe0c5714a1d842c8a68c17523771ee8853325204b01cbc03b45f101ecbebe",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "美方消息指出伊朗發射飛彈打擊駐約旦美軍基地",
+          "summary_zh": "美國消息來源顯示，伊朗開始發射飛彈目標打擊位於約旦（Jordan）的美軍基地。",
+          "event_time": "2026-08-31T06:24:41+08:00"
+        },
+        {
+          "source_id": "4a1ed1c2f92f0b680229afefec0c04238e8344a2ad8de163112c81656c4c12b7",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美方消息稱伊朗對約旦美軍基地的飛彈襲擊幾乎全數被攔截",
+          "summary_zh": "美國官員表示，目前針對約旦美軍基地的來襲飛彈幾乎全數被攔截，尚未造成重大實質損害。",
+          "event_time": "2026-08-31T06:25:18+08:00"
+        },
+        {
+          "source_id": "3739973974cf7954bee8fc92daf7dce02b9c11b61c1b5599918cee0f6f2c6435",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "週末通過荷姆茲海峽的大宗商品貨輪降至每日僅5艘",
+          "summary_zh": "數據顯示，受美伊局勢極度緊張影響，週末期間行經荷姆茲海峽（Strait of Hormuz）的大宗商品船舶大幅銳減至每日僅5艘，全球能源供應鏈風險劇增。",
+          "event_time": "2026-08-31T06:45:08+08:00"
+        },
+        {
+          "source_id": "ae71d73f1fd8ad878a26be1d5f3a5e3404ff0a28353cc73b7d649f894f24d41e",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "伊朗革命衛隊證實向約旦兩座美軍基地發射彈道飛彈以進行報復",
+          "summary_zh": "伊朗革命衛隊證實，為報復美軍打擊拉拉克島，已向位於約旦的兩座美軍基地發射彈道飛彈。",
+          "event_time": "2026-08-31T06:58:37+08:00"
+        },
+        {
+          "source_id": "7aca50b4b9ad6152b658b1ce86dcbd518b256b191de85ef37aac977a37aadffe",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "約旦武裝部隊表示於領空內成功攔截八枚飛彈",
+          "summary_zh": "約旦國家電視台引述軍方消息稱，約旦武裝部隊週一在其領空內成功攔截了八枚襲擊飛彈。",
+          "event_time": "2026-08-31T07:29:51+08:00"
+        },
+        {
+          "source_id": "1a8acc827bbd766cff8c64b1e92d96c0597dc49ffa4cb4d150cc109c3bbb3acc",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "貝森特宣布美國財政部將每週對伊朗實施新的二次制裁並以銀行為首要目標",
+          "summary_zh": "美國財長貝森特表示，美財政部將開始每週針對伊朗實施二次制裁（secondary sanctions），首波聚焦於金融銀行機構。",
+          "event_time": "2026-08-31T07:47:15+08:00"
+        },
+        {
+          "source_id": "3a37b9670755f30ef20a5935bb83f83519b95768f26a117ee9b0fad523827068",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美國財長貝森特要求各銀行不得持有伊朗資金或支持伊朗政權",
+          "summary_zh": "美國財政部長貝森特指示全球金融機構不得持有伊朗相關資金或提供資助，加強財務封鎖。",
+          "event_time": "2026-08-31T07:47:15+08:00"
+        },
+        {
+          "source_id": "08c06077cf0caaf07ea93f65c0719e4bd4233780ba5cec69dd074e65df72a38f",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "貝森特表示美國對伊朗港口的封鎖已有效限制中國進口伊朗原油",
+          "summary_zh": "美國財政部長貝森特指出，美軍與美國對伊朗港口採取的海上封鎖手段，已顯著限制了中國從伊朗進口原油的能力。",
+          "event_time": "2026-08-31T07:47:18+08:00"
+        },
+        {
+          "source_id": "3044ed7af6273c6a2bd266a6130df9f8270f4897d99e25088507e3cc064f0104",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "貝森特稱若不對中國企業實施二次制裁，對伊朗的極限施壓將難以成功",
+          "summary_zh": "貝森特強調，除非對購買伊朗原油或合作的中國企業開展二次制裁，否則美國對伊朗的施壓戰略將無法全面發揮效果。",
+          "event_time": "2026-08-31T07:47:18+08:00"
         }
       ]
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 10874,
-    "candidatesTokenCount": 479,
-    "totalTokenCount": 13977,
+    "promptTokenCount": 17549,
+    "candidatesTokenCount": 512,
+    "totalTokenCount": 20145,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 10874
+        "tokenCount": 17549
       }
     ],
-    "thoughtsTokenCount": 2624,
+    "thoughtsTokenCount": 2084,
     "serviceTier": "standard"
   }
 }
