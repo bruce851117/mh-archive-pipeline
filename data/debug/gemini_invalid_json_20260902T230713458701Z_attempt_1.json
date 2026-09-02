@@ -1,0 +1,33 @@
+{
+  "captured_at": "2026-09-02T23:07:13.458742+00:00",
+  "attempt": 1,
+  "model": "gemini-3.6-flash",
+  "response_character_count": 5227,
+  "finish_reason": "MAX_TOKENS",
+  "finish_message": "",
+  "usage_metadata": {
+    "promptTokenCount": 93284,
+    "candidatesTokenCount": 2618,
+    "totalTokenCount": 158816,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 93284
+      }
+    ],
+    "thoughtsTokenCount": 62914,
+    "serviceTier": "standard"
+  },
+  "prompt_feedback": {},
+  "parse_error": "Gemini returned invalid JSON: Unterminated string starting at: line 193 column 9 (char 5215)",
+  "json_error": {
+    "message": "Unterminated string starting at",
+    "line": 193,
+    "column": 9,
+    "character_position": 5215,
+    "context_start": 4715,
+    "context_end": 5227,
+    "context": "e_ids\": [\n        \"manual-4b0695e0e32b5d32f8b2\"\n      ]\n    },\n    {\n      \"central_bank\": \"FED\",\n      \"official\": \"Kevin Warsh\",\n      \"date\": \"2026-07-15\",\n      \"summary_zh\": \"表示通膨仍令人不滿意，美聯儲可能調整利率與資產負債表，並指出AI需求初期具通膨性，但隨後生產力提升將帶來去通膨效果。\",\n      \"source_ids\": [\n        \"manual-9f1c77af65e026c93a70\"\n      ]\n    },\n    {\n      \"central_bank\": \"FED\",\n      \"official\": \"Lisa Cook\",\n      \"date\": \"2026-07-16\",\n      \"summary_zh\": \"表示政策適度限制並可等待更多數據，但若通膨未能放緩已準備好很快採取行動。\",\n      \"source_ids\":\n[\n        \"manual-785e"
+  },
+  "raw_response_text_file": "data/debug/gemini_invalid_json_20260902T230713458701Z_attempt_1.txt"
+}
