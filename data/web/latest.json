@@ -1,26 +1,25 @@
 {
-  "generated_at": "2026-09-05T09:16:25.770486+08:00",
-  "summary_generated_at": "2026-09-05T09:16:25.770486+08:00",
-  "data_updated_at": "2026-09-05T08:50:24.869674+08:00",
+  "generated_at": "2026-09-06T16:31:32.312972+08:00",
+  "summary_generated_at": "2026-09-06T16:31:32.312972+08:00",
+  "data_updated_at": "2026-09-06T15:50:22.909712+08:00",
   "timezone": "Asia/Taipei",
   "period_start": "2026-09-04T05:00:00+08:00",
-  "period_end": "2026-09-05T08:50:24.869674+08:00",
+  "period_end": "2026-09-06T15:50:22.909712+08:00",
   "model": "gemini-3.6-flash",
   "source_digest_files": [
     "data/digests/2026/09/2026-09-03.json",
-    "data/digests/2026/09/2026-09-05.json"
+    "data/digests/2026/09/2026-09-05.json",
+    "data/digests/2026/09/2026-09-06.json"
   ],
-  "event_count": 39,
+  "event_count": 75,
   "summary_points": [
-    "美國8月非農就業人數大增16.2萬人遠優於預期，勞動市場展現極強韌性，促使市場大幅增加美聯儲9月重啟升息的押注。",
-    "美聯儲官員哈馬克發表極鷹派言論，強調當前通膨過高且政策尚未具緊縮性，提議應盡速升息以控制通膨。",
-    "中東地緣局勢劇烈升溫，美軍對伊朗實施打擊並宣稱控制荷姆茲海峽，伊朗則以重啟海峽為談判條件，通行船隻銳減導致全球原油風險溢價顯著攀升。",
-    "川普公開將利率政策與貿易懲罰掛鉤，要求降低利率否則將終止與貿易逆差國合作，並擴大關稅威脅至瑞士等金融發達國家，增添全球貿易不確定性。",
-    "英國央行總裁貝利警告，全球高主權債務水平正顯著加劇債券市場壓力，並表示央行將在平衡通膨與經濟成長間維持政策選擇權。",
-    "AI 獨角獸 Anthropic 尋求摩根士丹利與高盛籌備 IPO，預計9月下旬發布招股書，有望成為年度資本市場最大的 AI 焦點事件。",
-    "消息指出中國稀土企業暫停部分對美出貨，恐打擊美高科技供應鏈；同時美中財政高層擬於9月初會晤，討論關稅與貿易問題。",
-    "美方特使預計訪問莫斯科與基輔推動俄烏停火方案，烏克蘭官方表達期待，俄烏和平談判出現重啟轉機。",
-    "中國 AI 廠商 DeepSeek 擬於內蒙古部署華為頂級晶片，顯示在美中科技限制下，中國本土 AI 算力替代進程正在加速。"
+    "美國8月非農就業人口大增16.2萬人遠超預期，顯示勞工市場強勁韌性，美聯儲官員隨後釋出鷹派訊號，促使利率期貨交易員大幅增加美聯儲9月升息押注。",
+    "美伊在中東軍事衝突急遽升級，美軍空襲伊朗油輪以反制飛彈攻擊，伊朗亦警告將擴大襲擊美軍船隻，導致荷姆茲海峽通行船隻數量驟降近七成，全球原油供應風險顯著攀升。",
+    "美俄高層於莫斯科就烏俄衝突舉行會談並提出和平解決方案建議，雙方於訪問期間達成階段性暫停空襲，白宮預計於未來數週內公布後續和談詳細計畫。",
+    "川普要求美聯儲降低利率，並發出關稅與貿易威脅，聲稱將停止與存在貿易逆差的國家及瑞士等金融精英國家進行貿易，再度引發全球對潛在貿易戰的焦慮。",
+    "全球債券市場持續消化美聯聯準會更趨鷹派的政策定價，同時英國央行總裁貝利警告高債務水平正加劇債市壓力，投資人正密切關注即將公布的美國CPI通膨數據。",
+    "AI獨角獸 Anthropic 擬籌備公開上市並預計9月下旬發布招股書，同時 DeepSeek 擬安裝華為頂級晶片，凸顯中美科技博弈下 AI 資本融資與本土算力替代同步加速。",
+    "消息指出中國稀土企業已暫停部分對美出貨，關鍵戰略物資供應若受限制，恐直接打擊美國高科技與國防製造業供應鏈。"
   ],
   "blocks": [
     {
@@ -70,6 +69,15 @@
           "headline_zh": "美國擔保隔夜融資利率（SOFR）9月3日升至3.66%",
           "summary_zh": "反映美國短期貨幣市場流動性與隔夜借貸成本輕微上升。",
           "event_time": "2026-09-04T20:00:23+08:00"
+        },
+        {
+          "source_id": "efe9744476b88c15a53d113ec1cdadeb28677c0536e830265e0d787789f2e1d0",
+          "category": "債市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "未來一週展望：市場定價美聯準會更趨鷹派，債市靜待通膨CPI數據公布",
+          "summary_zh": "美債市場持續消化美聯準會（Fed）維持偏鷹派立場的預期，投資人密切關注即將公布的消費者物價指數（CPI），利率預期升溫壓抑債券走勢。",
+          "event_time": "2026-09-06T06:01:54+08:00"
         }
       ]
     },
@@ -147,6 +155,15 @@
           "headline_zh": "美國官員否認白宮計劃於9月中旬進行美中 AI 對話或接待中國 CEO 代表團",
           "summary_zh": "美方澄清並翻轉先前媒體關於兩國 AI 談判與經貿高層訪問的報導，打壓市場對美中緩和的樂觀預期。",
           "event_time": "2026-09-05T04:19:09+08:00"
+        },
+        {
+          "source_id": "63dd2a9ffd9c6e4d2b850af06fc30e12e13685dcfc8040a1c4a0d88463030d1d",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "烏克蘭鋼鐵巨頭 Metinvest 廠房遭俄軍飛彈襲擊致5死，產線被迫停工",
+          "summary_zh": "俄羅斯對烏克蘭第聶伯羅地區的鋼鐵廠發射彈道飛彈，造成人員傷亡並致使產線停擺，引發市場對基礎工業與大宗商品供應鏈影響的關注。",
+          "event_time": "2026-09-05T17:11:05+08:00"
         }
       ]
     },
@@ -256,6 +273,15 @@
           "headline_zh": "川普宣稱美國有權對瑞士及金融精英國家課徵關稅甚至停止貿易",
           "summary_zh": "川普擴大關稅警告對象至瑞士等歐洲金融發達國家，增加全球貿易課稅的不確定性。",
           "event_time": "2026-09-05T02:45:20+08:00"
+        },
+        {
+          "source_id": "2daa0b14d109bfb799df7880696be5a661e6b1e497e87618f3e82778cda025e4",
+          "category": "財政政策",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "希臘總理公布2027年總額22億歐元的減稅與加薪計畫",
+          "summary_zh": "希臘政府推動規模22億歐元的財政刺激方案，包含降低稅負及提高勞工與退休人員薪資，展現對財政擴張與改善民生經濟的承諾。",
+          "event_time": "2026-09-06T01:27:54+08:00"
         }
       ]
     },
@@ -306,6 +332,24 @@
           "headline_zh": "川普表示 AI 競賽僅存在於中美之間，強調絕不可浪費數據中心發展機會",
           "summary_zh": "川普將 AI 與數據中心列為國家競爭力核心，預計推動電力設施與 AI 基礎設施投資擴張。",
           "event_time": "2026-09-05T03:03:46+08:00"
+        },
+        {
+          "source_id": "123b60113dc8606784f41ac057047c3948285ff7d8dd3b9a8f445192a79eac52",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "德國總理梅爾茨發表演說：歐洲正面臨深遠轉折與自我保護決心",
+          "summary_zh": "德國總理梅爾茨（Merz）強調歐洲面臨超乎以往的歷史性體制轉折，展現強化自身安全與經濟防衛能力的決心。",
+          "event_time": "2026-09-05T20:08:19+08:00"
+        },
+        {
+          "source_id": "48187610f5797a02a736e1cb65e8e23d2f0d817e18bf4fcdd98ef2d23f5d6595",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "克里姆林宮顧問烏沙科夫表示美俄高層會談中亦討論經濟議題",
+          "summary_zh": "美俄特使於莫斯科舉行會談期間，除談判烏俄衝突外，亦就雙邊經濟與制裁相關議題進行了交流。",
+          "event_time": "2026-09-06T05:25:04+08:00"
         }
       ]
     },
@@ -401,21 +445,300 @@
           "headline_zh": "川普聲稱美軍對伊朗進行間歇性打擊並實質控制荷姆茲海峽",
           "summary_zh": "川普公開談及美軍摧毀多艘海峽船隻與打擊伊朗石油設施，強調軍事控制力，促使原油風險溢價高企。",
           "event_time": "2026-09-05T02:40:51+08:00"
+        },
+        {
+          "source_id": "0f6d11a32174d475dfb510d69917d0988a5702b90896ce791e7be441deabfa44",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "俄軍於特使訪問前夕襲擊基輔與鮑里斯波爾機場",
+          "summary_zh": "澤倫斯基表示，俄軍在美國特使抵達莫斯科前夕對基輔周邊機場發動打擊，顯示談判前的軍事施壓。",
+          "event_time": "2026-09-05T16:58:13+08:00"
+        },
+        {
+          "source_id": "42bb0d8c27f642dc8f94f2f33749317e980c4bac79f71916d17c0a0d11424ddb",
+          "category": "戰爭",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "烏克蘭打擊俄羅斯控制的盧甘斯克地區造成5死5傷",
+          "summary_zh": "俄方指派的官員表示，烏克蘭軍方對盧甘斯克地區發動襲擊，造成當地人員傷亡。",
+          "event_time": "2026-09-05T17:40:23+08:00"
+        },
+        {
+          "source_id": "68dfae06ae0ae4a0f824042a358dd9685c7dda5237dfe272168e03c39e67e9e9",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美國和平特使維特科夫與庫許納搭機抵達莫斯科",
+          "summary_zh": "美國特使維特科夫（Witkoff）與庫許納（Kushner）飛抵莫斯科，準備與俄羅斯高層進行烏俄和平談判。",
+          "event_time": "2026-09-05T18:10:41+08:00"
+        },
+        {
+          "source_id": "5fe677c383c5020d35e7b8b5f5947d2b33cbf50aa362ddae49ebb0481ab19f97",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "普丁下令在美代表團訪俄期間暫停對基輔的空襲三日",
+          "summary_zh": "俄羅斯總統普丁（Putin）命令俄軍在美國和平特使訪問莫斯科期間，對烏克蘭首都基輔實施為期三天的暫停空襲。",
+          "event_time": "2026-09-05T19:46:05+08:00"
+        },
+        {
+          "source_id": "d6c3391e1f5b4d7b5ead861549ffd899f38b8de363f1a17d6abe4015016a3c01",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "俄國國防部：軍方在黑海港口打擊兩艘運載烏軍物資的船隻",
+          "summary_zh": "俄羅斯國防部聲明宣稱在黑爾諾莫斯克港（Chornomorsk）擊中兩艘載有烏克蘭軍事補給的貨船。",
+          "event_time": "2026-09-05T19:52:10+08:00"
+        },
+        {
+          "source_id": "ef239b68b7bbcf122e03f4114604baa7db9dea183ae46e2d6844f483047d6921",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "俄國軍方攻擊奧德薩港附近的貨船",
+          "summary_zh": "俄羅斯持續對烏克蘭主要出口港口奧德薩（Odesa）附近的商業貨船發行軍事打擊。",
+          "event_time": "2026-09-05T19:53:55+08:00"
+        },
+        {
+          "source_id": "5cb2427cb87e636d37c8647f74932e0d5b4162025a03d6be7922d94263b29b02",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "美軍中央司令部：空襲打擊三艘伊朗原油油輪",
+          "summary_zh": "美軍中央司令部（Centcom）證實攻擊三艘伊朗原油油輪，使中東原油運輸與荷姆茲海峽局勢陷入極度緊張。",
+          "event_time": "2026-09-05T21:40:44+08:00"
+        },
+        {
+          "source_id": "6fe3c43ffc1191f1a027fb07edb3842a3996e01f72faa6c59578a0134826b242",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "美軍表示空襲係因伊朗向兩艘美國海軍艦艇發射彈道飛彈",
+          "summary_zh": "美軍中央司令部指出，對伊朗油輪的襲擊是對伊朗先前發射彈道飛彈攻擊兩艘美軍軍艦的反制行動，美伊衝突急遽升級。",
+          "event_time": "2026-09-05T21:41:35+08:00"
+        },
+        {
+          "source_id": "5a30b72fb7cc2147e13f16bddf97b84ccf2fb3e7b7d7739ad49b3b4476ff6c57",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "烏克蘭總統澤倫斯基表示已與美國和平調解人進行通話",
+          "summary_zh": "澤倫斯基（Zelenskiy）證實與美國和平談判調停人員對話，討論美俄會談及停火條件。",
+          "event_time": "2026-09-05T22:24:31+08:00"
+        },
+        {
+          "source_id": "a22e737c28cbc20700d546ad4a184e0f2f96c78f8643343ff4bbe92c87dfb87d",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "澤倫斯基：烏克蘭準備好在週一前遵守對談判相關城市的空襲停火",
+          "summary_zh": "澤倫斯基表明烏方願在談判期間暫停對相關城市的空襲，展現推進和平對話的意願。",
+          "event_time": "2026-09-05T22:28:39+08:00"
+        },
+        {
+          "source_id": "f5f11d28155fb9d8610e9cfc1b0a056a2b6b88ea13088a352d2f3c14b3a3658a",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "烏克蘭準備停止對莫斯科攻擊，期望俄方對基輔做出對等停火",
+          "summary_zh": "烏克蘭表示願停止對莫斯科的打擊行動，前提是俄羅斯亦需對基輔停止攻擊，形成雙向停火默契。",
+          "event_time": "2026-09-05T22:30:43+08:00"
+        },
+        {
+          "source_id": "b90c96df96f0fdc34c6d8910a872fc9a90456225f86f69e957d59ad534618e89",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "俄羅斯總統普丁於克里姆林宮展開與美國特使維特科夫及庫許納的會談",
+          "summary_zh": "普丁與美國特使維特科夫及庫許納在莫斯科正式舉行會談，尋求烏俄衝突的突破性解決方案。",
+          "event_time": "2026-09-06T00:55:52+08:00"
+        },
+        {
+          "source_id": "cd5a64ae07435f5a5399ba62583d307d962514d2f29675e38d96b3af07475b67",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗軍方警告：若美國維持海上封鎖，對美軍艦艇的打擊將升級",
+          "summary_zh": "伊朗聯合軍事指揮部發出警告，若華府持續執行海上封鎖或騷擾伊朗船隻，伊朗將擴大對區域內美軍軍艦的襲擊範圍。",
+          "event_time": "2026-09-06T01:30:52+08:00"
+        },
+        {
+          "source_id": "40bff5e5e9e98b6be7c92f3e5f7c7424d9cdd5a05e22ec218917ab18580c244b",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗最高聯合軍事指揮部：若美軍持續騷擾，襲擊行動將會擴大",
+          "summary_zh": "伊朗軍方透過國營媒體再次表明，美軍若不停止對伊朗船隻的行動，軍事打擊目標將進一步擴展。",
+          "event_time": "2026-09-06T01:33:28+08:00"
+        },
+        {
+          "source_id": "0353448dd3c35d97461cdef95899be16f0dcc59337934e003dc240ae7f52319b",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "普丁向美方表達：與維特科夫及庫許納的接觸始終具有建設性",
+          "summary_zh": "普丁在會談期間強調與川普（Trump）特使團隊維持溝通管道對俄方極具效益。",
+          "event_time": "2026-09-06T01:36:35+08:00"
+        },
+        {
+          "source_id": "5d7d985ff53e6ceb37afc40772d471961a11a130c39f02f737e4c492bad06818",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "美國特使維特科夫轉達川普對普丁的問候",
+          "summary_zh": "維特科夫在克里姆林宮會談開場時，向普丁轉達了美國前總統川普的問候。",
+          "event_time": "2026-09-06T01:38:18+08:00"
+        },
+        {
+          "source_id": "4016a9efd74607f5586a3133501c844df88be95bbc18dd1820e2ff75059b963b",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "維特科夫感謝普丁於美方代表團造訪期間實施停火",
+          "summary_zh": "美方特使對俄方在外交訪問期間暫停軍事襲擊表示感謝，有利於談判氛圍建立。",
+          "event_time": "2026-09-06T01:39:55+08:00"
+        },
+        {
+          "source_id": "d3a04b8f33cd600a09534c11124aa83cdf2019bd73f93f3faeb6762a2ed6013a",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "普丁表明：俄方將盡全力確保談判人員的安全",
+          "summary_zh": "普丁承諾將全力保障美方談判代表團在俄期間的安全，維護和平對話進行。",
+          "event_time": "2026-09-06T01:41:26+08:00"
+        },
+        {
+          "source_id": "ae4586bff2c58a7ba4ff82e731a22d1cc9cf8b94eff00b19e73203d22c753011",
+          "category": "戰爭",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "烏克蘭無人機襲擊俄羅斯別爾哥羅德州造成一人死亡",
+          "summary_zh": "烏克蘭無人機對俄羅斯邊境別爾哥羅德州（Belgorod）發動襲擊，造成一名平民死亡。",
+          "event_time": "2026-09-06T02:31:54+08:00"
+        },
+        {
+          "source_id": "3f478e9cad0e35c599da4c07cdbdd52ebfbc63bb546d96c156726133185ac130",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗革命衛隊海軍：在荷姆茲海峽擊中三艘未經授權航行的船隻",
+          "summary_zh": "伊朗革命衛隊（IRGC）海軍聲明表示，在荷姆茲海峽對三艘行經未授權航道的船隻發動攻擊，嚴重威脅航道安全。",
+          "event_time": "2026-09-06T03:37:58+08:00"
+        },
+        {
+          "source_id": "8e68fa2165f4001dbf8d3ed8277f72662ecbd28c80d1593b326f9f3011380cc7",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗革命衛隊宣稱在其他海域擊中三艘美軍船隻，美方未證實",
+          "summary_zh": "伊朗革命衛隊海軍稱在其他海域成功攻擊三艘美國船隻，目前美軍官方尚未證實此訊息。",
+          "event_time": "2026-09-06T03:40:09+08:00"
+        },
+        {
+          "source_id": "733ef62524017bc3c170201ef8fcac90502cec1a87b42a46df33f6ad02ba605d",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗革命衛隊警告波斯灣及荷姆茲海峽所有船隻防範可疑活動",
+          "summary_zh": "伊朗海軍對波斯灣及荷姆茲海峽附近的航行船隻發布安全警示，航運風險指標急劇攀升。",
+          "event_time": "2026-09-06T03:59:10+08:00"
+        },
+        {
+          "source_id": "2bbc49e3ebf127268ac2f25de2b9fa811acfef2db0db3dc84627375d1c4ed32d",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "普丁與美國特使維特科夫、庫許納的莫斯科會談結束",
+          "summary_zh": "歷經數小時討論後，俄美高層會談於莫斯科正式結束，雙方已就核心立場充分交換意見。",
+          "event_time": "2026-09-06T04:03:52+08:00"
+        },
+        {
+          "source_id": "7d53bcf87f9ad2061eba2eb52ac84b2cf4b9970ca92c9bd43559350091ea29a2",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "克里姆林宮顧問烏沙科夫：美方承諾將普丁的評估納入對基輔的和談中",
+          "summary_zh": "克宮官員透露，美國特使已承諾將普丁對終戰條款的評估帶回並納入與烏克蘭的後續談判中。",
+          "event_time": "2026-09-06T05:25:04+08:00"
+        },
+        {
+          "source_id": "9e3f3ba6b83773be1347adefbab510a29f75a565208d3a10e60a9274c595e20b",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "烏沙科夫：普丁強調俄國將實現目標，必須解決衝突的根源",
+          "summary_zh": "俄方在會談中明確表達，任何和平協議均需徹底解決導致衝突爆發的根本原因，且俄方戰略目標不變。",
+          "event_time": "2026-09-06T05:25:04+08:00"
+        },
+        {
+          "source_id": "51cc206665c11a242d718aa9a19017ed41e5f61c4437a1d0cefa927fad2f9342",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "烏沙科夫：會談已制訂出系列和平解決方案建議",
+          "summary_zh": "克里姆林宮表示，美俄會談已成功塑造出促進烏俄衝突和平解決的框架建議與具體提案。",
+          "event_time": "2026-09-06T05:25:04+08:00"
+        },
+        {
+          "source_id": "ca20989e289d53106058a0a18c09b8065010045b2347a101e2210bee8f9233ec",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "美國特使維特科夫與庫許納結束會談離開莫斯科",
+          "summary_zh": "美方特使團隊結束與普丁及克宮高層的談判後離開莫斯科，和平進程轉入下一階段細節擬定。",
+          "event_time": "2026-09-06T05:30:53+08:00"
+        },
+        {
+          "source_id": "fd9d3e28f052a4a812b85faa7b67c46a96231866f5ee9b8443a5574f27460e80",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗革命衛隊宣稱以彈道飛彈擊中美軍航空母艦與驅逐艦",
+          "summary_zh": "伊朗革命衛隊宣稱對美國航空母艦與驅逐艦發射彈道飛彈並成功命中，美方目前未對此發表核實聲明。",
+          "event_time": "2026-09-06T06:36:51+08:00"
+        },
+        {
+          "source_id": "e4c63581be3d5b18ef4b168f894e179c13e1dbce4dbccdb8ab0ebd350b43c807",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "白宮官員：美俄官員已討論烏俄和談下一階段詳細計畫，將於未來數週公布",
+          "summary_zh": "白宮官員確認美俄雙方已針對烏俄和平談判的後續步驟制定具體計畫，預計於未來數週內對外公布細節。",
+          "event_time": "2026-09-06T11:09:28+08:00"
+        },
+        {
+          "source_id": "a49abb2658a062d5472bc936d3883f0532c257dd76ce0ff0a256e3305bc48861",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "伊朗外長阿拉格齊與沙烏地阿拉伯及土耳其外長就區域局勢進行外交通話",
+          "summary_zh": "伊朗外長阿拉格齊（Aragchi）與沙烏地、土耳其外長通話，針對中東緊張局勢與可能的外交斡旋展開溝通。",
+          "event_time": "2026-09-06T11:09:28+08:00"
+        },
+        {
+          "source_id": "650cee615071b9a5e1bff9996d137c7d2dc097a5fe384019c2da66d243e85f17",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "以色列軍方對黎巴嫩南部展開空襲，反制真主黨無人機襲擊",
+          "summary_zh": "真主黨向安全區內的以色列士兵發射無人機後，以軍隨即對黎巴嫩南部發動空襲報復，以黎邊境衝突持續擴大。",
+          "event_time": "2026-09-06T11:25:47+08:00"
         }
       ]
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 6750,
-    "candidatesTokenCount": 451,
-    "totalTokenCount": 9363,
+    "promptTokenCount": 12857,
+    "candidatesTokenCount": 418,
+    "totalTokenCount": 15587,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 6750
+        "tokenCount": 12857
       }
     ],
-    "thoughtsTokenCount": 2162,
+    "thoughtsTokenCount": 2312,
     "serviceTier": "standard"
   }
 }
