@@ -1,85 +1,48 @@
 {
-  "generated_at": "2026-09-07T07:51:51.018432+08:00",
-  "summary_generated_at": "2026-09-07T07:51:51.018432+08:00",
-  "data_updated_at": "2026-09-07T06:50:54.423570+08:00",
+  "generated_at": "2026-09-08T07:10:37.569715+08:00",
+  "summary_generated_at": "2026-09-08T07:10:37.569715+08:00",
+  "data_updated_at": "2026-09-08T06:58:36.253658+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-09-04T05:00:00+08:00",
-  "period_end": "2026-09-07T06:50:54.423570+08:00",
+  "period_start": "2026-09-07T05:00:00+08:00",
+  "period_end": "2026-09-08T06:58:36.253658+08:00",
   "model": "gemini-3.6-flash",
   "source_digest_files": [
-    "data/digests/2026/09/2026-09-03.json",
-    "data/digests/2026/09/2026-09-05.json",
     "data/digests/2026/09/2026-09-06.json",
-    "data/digests/2026/09/2026-09-07.json"
+    "data/digests/2026/09/2026-09-07.json",
+    "data/digests/2026/09/2026-09-08.json"
   ],
-  "event_count": 113,
+  "event_count": 36,
   "summary_points": [
-    "美國8月非農就業新增16.2萬人遠超預期，帶動市場大幅增加對美聯儲9月升息的押注，美聯儲官員哈馬克亦釋出極鷹派訊號，強勁的勞動市場徹底打亂降息預期並推升利率趨勢。",
-    "中東地緣政治局勢急遽升級，美軍針對伊朗原油油輪發動空襲並實施海上封鎖，伊朗則反擊並宣佈將於荷姆茲海峽劃設限制區域，導致全球能源供應與航道安全陷入極度緊張。",
-    "川普將貨幣政策與極端關稅威脅掛鉤，公開要求降低利率，並警告否則將停止與存在貿易逆差的國家進行貿易，再度引發全球對潛在貿易戰與供應鏈中斷的焦慮。",
-    "俄烏和平談判出現外交突破契機，美國特使維特科夫與庫許納相繼訪問莫斯科與基輔，分別與俄羅斯總統普丁及烏克蘭總統澤倫斯基會晤，積極推動包含安全保障的綜合和平方案。",
-    "全球債市持續承壓，美債市場在鷹派升息預期增溫下靜待最新CPI通膨數據，英國央行總裁貝利亦警告高負債水平正加劇全球債務風險與債市壓力。",
-    "AI產業與股市焦點集中於公開上市與美中科技博弈，AI獨角獸Anthropic正籌備上市並預計9月下旬提交招股書，而美方澄清無意進行美中AI高層對話，中國企業則加速推進本土算力替代。",
-    "原油與戰略物資供應引發關注，OPEC+宣佈維持現行石油產量配額不變以穩定市場供給，同時傳出中國稀土企業暫停部分對美出貨，美中財政高層預計於9月初會晤商討貿易政策。",
-    "北美與歐洲貿易關係添變數，川普批加拿大元對美元匯率折價過大無法接受，並聲稱美國有權對瑞士等金融國家課徵關稅或中斷貿易，加劇全球匯率與經貿環境動盪。"
+    "沙烏地阿美煉油設施遭受新一輪空襲打擊，導致中東能源基礎設施直接受損，急遽拉升全球原油供應中斷風險。",
+    "伊朗宣佈將於荷姆茲海峽外圍劃設新海事限制區域並警告未許可船隻將遭制裁，致使該海峽每日商品船通航量降至 10 艘的低點，能源與商品供應鏈面臨嚴峻考驗。",
+    "美國總統川普對加拿大開出強硬貿易條件，禁止龐巴迪產品於美國銷售，並重申外國企業若欲使用美國市場必須在美設廠製造，加劇保護主義與貿易緊張關係。",
+    "歐洲多國債務與預算疑慮升溫，英國財長表示政府借貸成本已升至歷史高點，法國財長亦警告預算案若未順利通過將導致市場利率顯著攀升。",
+    "倫敦金屬交易所（LME）銅價暴漲突破每噸 14,530 美元歷史新高，反映全球供應鏈瓶頸與工業需求對基本金屬價格的強勁推升。",
+    "巴拿馬運河管理當局警告每日船舶通行量可能大幅降至 27 艘，進一步加重全球運費與航運供應鏈轉向壓力。",
+    "歐元區公布第二季 GDP 修正值年增 1.2%、季增 0.6%，表現優於預期，顯示歐元區經濟復甦動能呈現改善跡象。",
+    "中國人民銀行設定人民幣中間價大幅低於預估值 709 個基點，創 2026 年 2 月以來最大偏離，反映央行對匯率波動的政策調節態度。"
   ],
   "blocks": [
     {
       "category": "債市",
       "news": [
         {
-          "source_id": "84b0116c1f53f4ccd50a1d8fe9821c7c015bab6a9d9f95503a827ec5ce5a329a",
-          "category": "債市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "日本財務大臣片山皋月表示正以高度緊迫感密切關注債券市場",
-          "summary_zh": "日本財政當局對公債市場波動表達高度關注，市場密切留意日本政府債務負擔與利率走勢。",
-          "event_time": "2026-09-04T10:16:57+08:00"
-        },
-        {
-          "source_id": "297e99dd34ea475b4149c657c7f3447b0f3a03f70adee534ed3e90cd2d9511ae",
-          "category": "債市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "日本財務大臣片山皋月關注首相高市早苗關於新設國債發行量接近40兆日圓的言論",
-          "summary_zh": "日本政府發行新國債規模成為市場對日本財政可持續性評估的核心焦點。",
-          "event_time": "2026-09-04T10:20:56+08:00"
-        },
-        {
-          "source_id": "e602c09809e6779ab0101bdfbb3fab1eef4b25822cd52326c15b964770467cc8",
-          "category": "債市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "中國財政部發行20年期超長期特別國債，得標利率2.127%",
-          "summary_zh": "中國持續推進超長期特別國債發行，反映政府財政刺激與債市融資成本現狀。",
-          "event_time": "2026-09-04T11:39:11+08:00"
-        },
-        {
-          "source_id": "6e7309c5abc57e81d0e8f0d4c3869cb0a02e9629bb9b85138969957f29fc1bd2",
+          "source_id": "e7767f67f0672b61a42a06961ad92cf1455f1bbb6ef2c04a7aec0d36da9c611f",
           "category": "債市",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "英國央行總裁貝利警告高債務水平對政府構成重大挑戰並增加債市壓力",
-          "summary_zh": "貝利直接指出主權債務負擔過重正在加劇全球債券市場壓力，影響市場對公債收益率的定價。",
-          "event_time": "2026-09-04T17:24:42+08:00"
+          "headline_zh": "法國財政部長警告若無預算案市場利率將顯著上升",
+          "summary_zh": "法國財政部長萊斯庫爾（Lescure）警告，若無法通過預算案，法國債券市場利率將顯著攀升，引發對歐元區核心國債風險溢價的關注。",
+          "event_time": "2026-09-07T13:53:52+08:00"
         },
         {
-          "source_id": "214a0c220f793612556a715eeaef503bc6faf7851dd8889769178735c077d02b",
-          "category": "債市",
-          "importance_score": 2,
-          "highlight": false,
-          "headline_zh": "美國擔保隔夜融資利率（SOFR）9月3日升至3.66%",
-          "summary_zh": "反映美國短期貨幣市場流動性與隔夜借貸成本輕微上升。",
-          "event_time": "2026-09-04T20:00:23+08:00"
-        },
-        {
-          "source_id": "efe9744476b88c15a53d113ec1cdadeb28677c0536e830265e0d787789f2e1d0",
+          "source_id": "68041e487245ffcd4ac29f15df99694931f7417e6ed54b98e7713bcae3c4205e",
           "category": "債市",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "未來一週展望：市場定價美聯準會更趨鷹派，債市靜待通膨CPI數據公布",
-          "summary_zh": "美債市場持續消化美聯準會（Fed）維持偏鷹派立場的預期，投資人密切關注即將公布的消費者物價指數（CPI），利率預期升溫壓抑債券走勢。",
-          "event_time": "2026-09-06T06:01:54+08:00"
+          "headline_zh": "英國財政部長希利指出英國借貸成本處於歷史高位",
+          "summary_zh": "英國財政部長希利（Healey）表示國際衝擊深刻影響英國，且政府借貸成本已升至歷史高點，凸顯債務壓力與公債殖利率上行風險。",
+          "event_time": "2026-09-07T16:49:35+08:00"
         }
       ]
     },
@@ -87,85 +50,31 @@
       "category": "股市",
       "news": [
         {
-          "source_id": "22dad7c722ec755b0c54595dfe8a45b99fb77da85c02497f58b92f3786db628f",
+          "source_id": "c76f87687640578f81a68eefd5041151cfa775e7d489a6960e4eda9204d22ca8",
           "category": "股市",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "美國汽車安全監管機構就 Cybercab 推出事宜與特斯拉保持聯繫並評估狀況",
-          "summary_zh": "監管機構對 Tesla 自動駕駛計程車 Cybercab 的合規評估將直接影響該業務上市時程與股價。",
-          "event_time": "2026-09-04T09:06:25+08:00"
+          "headline_zh": "英國財政部長表示不會錯失 AI 發展機會但將確保監管",
+          "summary_zh": "英國財政部長希利（Healey）強調政府將積極推動人工智慧應用以提升生產力，但同時會建立相關監管體系。",
+          "event_time": "2026-09-07T17:11:44+08:00"
         },
         {
-          "source_id": "3a35e318dcf9dd5b8e7312808c7f49c9919ed7885a7efaa3802ee306a0b3f807",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "DeepSeek 擬於內蒙古安裝華為頂級 AI 晶片",
-          "summary_zh": "中國 AI 廠商進一步擴大採用華為（Huawei）頂級晶片，顯示中美科技戰背景下本土算力替代加速。",
-          "event_time": "2026-09-04T17:10:19+08:00"
-        },
-        {
-          "source_id": "a9693137caed77bc3e51c23d048715728337662e3ed41335e7ee154fa754f9dd",
+          "source_id": "5207c64f368c00e62bfd67fee240179c4d132b0177bbf20d3aa634fb132af4af",
           "category": "股市",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "阿布達比 G42 考慮調整美資所有權結構以確保獲取美國 AI 晶片",
-          "summary_zh": "中東科技巨頭積極透過轉變股權結構以符合美國出口管制規範，避免 AI 晶片供應中斷。",
-          "event_time": "2026-09-04T20:51:41+08:00"
+          "headline_zh": "字節跳動人工智慧部門將推出全新 AI 模型",
+          "summary_zh": "字節跳動（ByteDance）計畫發表新一代 AI 模型，帶動市場對科技巨頭人工智慧資本支出與競賽的關注。",
+          "event_time": "2026-09-07T20:27:05+08:00"
         },
         {
-          "source_id": "e1c6ca69aaedfe868ba43dc7d20d3a4f805cc6e8d59c8c2a176fb501f16db99c",
+          "source_id": "23e6de3a4bea9e71f3b18e0ca37324c4f69b69f6d94656f9b655f7cf728c3492",
           "category": "股市",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "日本防衛省計劃與本國企業合作研製 AI 衛星以加速反擊決策",
-          "summary_zh": "日本提高國防預算並引入 AI 國防科技，提振國防航太類股市場關注度。",
-          "event_time": "2026-09-04T23:09:19+08:00"
-        },
-        {
-          "source_id": "30bd38ce9e9854229a53203ef493415da12853827d04efcc9b3b6e05d941cee5",
-          "category": "股市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "AI 雲端公司 Nscale 尋求 35 億美元 IPO 前融資，Third Point 領投可轉換債銷售",
-          "summary_zh": "大型基金持續向 AI 基礎設施巨頭注入資金，顯示 AI 資本支出熱潮仍在延續。",
-          "event_time": "2026-09-05T01:42:11+08:00"
-        },
-        {
-          "source_id": "7eb0c61ee6db7d4f2458ede8d25c40f35ab9eb7405dee36ded0fdbc956a52fc8",
-          "category": "股市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "波音獲選為沙烏地阿拉伯可能高達 50 億美元軍售案之承包商",
-          "summary_zh": "巨額國防訂單消息利好波音（Boeing, $BA）股價及其供應鏈。",
-          "event_time": "2026-09-05T02:38:33+08:00"
-        },
-        {
-          "source_id": "fef056cb69d81e46f759ad8ec0984f2467ff79890f1a2e5a6ea454ba61014fd2",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "Anthropic 擬尋求摩根士丹利與高盛籌備 IPO，預計9月下旬發布招股書",
-          "summary_zh": "AI 獨角獸 Anthropic 推進公開上市進程，若順利上市將成為資本市場年度最大 AI 焦點事件。",
-          "event_time": "2026-09-05T03:48:53+08:00"
-        },
-        {
-          "source_id": "d238068e3c0d36d4ff0ebe08fcf2180de012025d826f854b0be9e5a08cbcfced",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "美國官員否認白宮計劃於9月中旬進行美中 AI 對話或接待中國 CEO 代表團",
-          "summary_zh": "美方澄清並翻轉先前媒體關於兩國 AI 談判與經貿高層訪問的報導，打壓市場對美中緩和的樂觀預期。",
-          "event_time": "2026-09-05T04:19:09+08:00"
-        },
-        {
-          "source_id": "63dd2a9ffd9c6e4d2b850af06fc30e12e13685dcfc8040a1c4a0d88463030d1d",
-          "category": "股市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "烏克蘭鋼鐵巨頭 Metinvest 廠房遭俄軍飛彈襲擊致5死，產線被迫停工",
-          "summary_zh": "俄羅斯對烏克蘭第聶伯羅地區的鋼鐵廠發射彈道飛彈，造成人員傷亡並致使產線停擺，引發市場對基礎工業與大宗商品供應鏈影響的關注。",
-          "event_time": "2026-09-05T17:11:05+08:00"
+          "headline_zh": "輝達執行長黃仁勳獲列英王查爾斯 AI 會議賓客名單",
+          "summary_zh": "輝達（Nvidia）執行長黃仁勳出席英國高層 AI 會議，顯示大型科技企業在政經及全球 AI 政策制定中的影響力。",
+          "event_time": "2026-09-08T03:43:25+08:00"
         }
       ]
     },
@@ -173,40 +82,31 @@
       "category": "央行",
       "news": [
         {
-          "source_id": "56d98bab5aa75ebec1d1ea5bd53d6953b04959b892675f9dbecc720a0f04ae62",
+          "source_id": "82ce95136ff9aa3500f950d476f0a6ddcbc2c76304cfb51fe9d483783ac63410",
           "category": "央行",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "英國央行總裁貝利表示就通膨回落至目標的推進速度擁有政策選擇權",
-          "summary_zh": "貝利表明央行將平衡抗通膨與經濟成長，不急於過度激進地調整利率。",
-          "event_time": "2026-09-04T17:17:31+08:00"
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "中國人民銀行設定人民幣中間價大幅低於預期",
+          "summary_zh": "中國人民銀行（PBOC）將人民幣中間價設定為較預估值弱709個基點，為2026年2月以來最大偏離，反映央行對匯率波動的政策態度與調節。",
+          "event_time": "2026-09-07T09:18:48+08:00"
         },
         {
-          "source_id": "6b480a0f1fcf2869122f2d9cc9dfc24802eab6ba3d37358b380d66a533f88845",
+          "source_id": "8445399b961994013198afab74a15742878125f8eba2e37b2f201d578d69532a",
           "category": "央行",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "美國非農數據公布後，利率期貨交易員大幅增加美聯儲9月升息押注",
-          "summary_zh": "強勁的非農就業數據徹底打亂市場降息預期，利率期貨開始對美聯儲9月重啟升息進行定價，引發金融市場劇烈重新定價。",
-          "event_time": "2026-09-04T20:33:02+08:00"
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "中國人民銀行進行5億元人民幣逆回購操作",
+          "summary_zh": "中國人民銀行透過7天期逆回購操作注入5億元人民幣資金，維持短期流動性穩定。",
+          "event_time": "2026-09-07T09:22:22+08:00"
         },
         {
-          "source_id": "3aabaf1b719433962b3e643ba621ae51955b09bda36a9ff305c9c7ceba47778a",
+          "source_id": "707ec315775ef92572c9c63deb66025c6ea25616b9d745cc1a981eef3f4ff4da",
           "category": "央行",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "白宮進一步高級顧問哈塞特表示美聯儲維持利率不變的理由相當強充分",
-          "summary_zh": "白宮經濟顧問就美聯儲貨幣政策發聲，指出升息可能性已重回討論桌面，但強調尊重美聯儲獨立性。",
-          "event_time": "2026-09-04T21:14:30+08:00"
-        },
-        {
-          "source_id": "a1a15f9547f724eefedcc6ccbfc3f92955ef37d991744527b2bbebbfc91ff5ba",
-          "category": "央行",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "美聯儲官員哈馬克表示政策尚未具緊縮性且通膨過高，是時候升息了",
-          "summary_zh": "美聯儲官員 Hammack 發放極度鷹派訊號，明確提議應升息以抑制通膨，顯著推升利率預期。",
-          "event_time": "2026-09-05T00:30:35+08:00"
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "韓國央行以 3.040% 殖利率發行貨幣穩定債券",
+          "summary_zh": "韓國央行（Bank of Korea）發售91天期貨幣穩定債券，殖利率定為3.040%，用於調節市場流動性。",
+          "event_time": "2026-09-07T09:40:05+08:00"
         }
       ]
     },
@@ -214,85 +114,40 @@
       "category": "財政政策",
       "news": [
         {
-          "source_id": "62787213f80e9285fc4684d50552a795fc40965b6b0a1d63f48025e78dc8f209",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "日本財務大臣片山皋月重申維持財政可持續性與降低債務佔 GDP 比重之目標",
-          "summary_zh": "片山皋月向全球領袖與市場強調日本致力於維護財政信用，減緩市場對日本債務擴張的擔憂。",
-          "event_time": "2026-09-04T10:17:45+08:00"
-        },
-        {
-          "source_id": "b303407a0243c4d4195c7763da2cf48a33d06fde060d6bfcdd548e3565a1b3bc",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "日本財務大臣片山皋月表示美國財長貝森特理解並支持日本財政目標，認同日圓因利差被低估",
-          "summary_zh": "美日財長溝通顯示美方理解日方的財政與貨幣架構，未提出單邊政策要求。",
-          "event_time": "2026-09-04T10:22:29+08:00"
-        },
-        {
-          "source_id": "3cddb405d151015075e73fbeb9890818b7eeb8436ccf455787badd12bca17e41",
-          "category": "財政政策",
-          "importance_score": 2,
-          "highlight": false,
-          "headline_zh": "法國政府擬宣布10億歐元農民援助計畫以因應夏季熱浪衝擊",
-          "summary_zh": "法國財政轉移支付增加以紓解農業困境，屬於特定產業財政補貼措施。",
-          "event_time": "2026-09-04T14:38:14+08:00"
-        },
-        {
-          "source_id": "05453973ca287d29c6a2509e6af6cfd6d51b84d6fd42fcc3fc320989fbf5ef88",
+          "source_id": "dcd25d8f92a92acca7ae5f16fe03803076e82b1f202e409b7c876a79cde3ad5d",
           "category": "財政政策",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "美國財政部長貝森特與格里爾將於9月初會見中國副總理",
-          "summary_zh": "美中財政與貿易高層會晤，預計聚焦關稅、貿易逆差及兩國經濟政策協調。",
-          "event_time": "2026-09-04T18:56:30+08:00"
+          "headline_zh": "英國財政部長承諾恢復財政紀律並發表財政分權路線圖",
+          "summary_zh": "英國財政部長希利（Healey）宣布將延續先前財政方針恢復紀律，並計畫在預算案中明確規劃財政分權路線圖以應對高昂成本。",
+          "event_time": "2026-09-07T16:50:09+08:00"
         },
         {
-          "source_id": "c8c9afa6f89c7fe5843222fbc955debcc2e16c256d92aad0871d2b2eb265fa82",
-          "category": "財政政策",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "川普喊話要求降低利率，否則將停止與存在貿易逆差的國家進行貿易",
-          "summary_zh": "川普將利率政策與極端關稅貿易威脅掛鉤，再度引發全球對潛在貿易戰與供應鏈中斷的焦慮。",
-          "event_time": "2026-09-04T21:43:26+08:00"
-        },
-        {
-          "source_id": "dd6fbdc0dbbb62a40cb1d6326e7e9df5081f6b8024a73c52a0fbb0e415eccd3a",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "美國財政部長貝森特稱強勁就業數據證明經濟並非僅由 AI 建設熱潮驅動",
-          "summary_zh": "貝森特解讀最新就業表現，強調美國廣泛經濟韌性，為政府的財政與經濟政策提供背書。",
-          "event_time": "2026-09-04T22:09:34+08:00"
-        },
-        {
-          "source_id": "46edbe2e35e39a208d95b1753a974f51bfe9869b5d7fda951ee09c2a31e99eff",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "川普宣稱美國有權對瑞士及金融精英國家課徵關稅甚至停止貿易",
-          "summary_zh": "川普擴大關稅警告對象至瑞士等歐洲金融發達國家，增加全球貿易課稅的不確定性。",
-          "event_time": "2026-09-05T02:45:20+08:00"
-        },
-        {
-          "source_id": "2daa0b14d109bfb799df7880696be5a661e6b1e497e87618f3e82778cda025e4",
+          "source_id": "eb5572bd6cdf9320efa624842bdbf8e129947123fba1605457c7a1f93464445f",
           "category": "財政政策",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "希臘總理公布2027年總額22億歐元的減稅與加薪計畫",
-          "summary_zh": "希臘政府推動規模22億歐元的財政刺激方案，包含降低稅負及提高勞工與退休人員薪資，展現對財政擴張與改善民生經濟的承諾。",
-          "event_time": "2026-09-06T01:27:54+08:00"
+          "headline_zh": "白宮重申川普將堅定捍衛「美國製造」政策",
+          "summary_zh": "白宮發表聲明強調川普（Trump）政府推動「美國製造」（Made in America）政策的決心，持續釋放關稅與本土產業保護訊號。",
+          "event_time": "2026-09-08T00:31:22+08:00"
         },
         {
-          "source_id": "ec53a8328efffc07cc7b63932dcfe8edf0397bfdb3514e8b13da405509befa55",
+          "source_id": "c8688eded194eea222604b25bf9593e9953689b062e5adcd67cc4eaba737961c",
           "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "中國財政部將向中國進出口銀行注資300億元人民幣",
-          "summary_zh": "中國進出口銀行（Export-Import Bank of China）聲明指出，財政部將對其進行300億元人民幣資本注資，以增強政策性銀行資本實力。",
-          "event_time": "2026-09-06T17:09:33+08:00"
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "川普禁止龐巴迪產品於美國銷售並要挾製造業移回美國",
+          "summary_zh": "川普（Trump）強硬表示禁止龐巴迪（Bombardier）產品繼續在美銷售，並警告加拿大等國若欲進入美國市場必須在美投資生產，展現關稅與保護主義壓制。",
+          "event_time": "2026-09-08T01:40:26+08:00"
+        },
+        {
+          "source_id": "0afca448b3505bce62625847066c2a4d306c78b041cddcffeca899bb7782828b",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "川普警告加拿大企業若欲使用美國市場必須在美設廠製造",
+          "summary_zh": "川普（Trump）對加拿大開出貿易條件，重申製造業回流政策，加劇北美貿易關係緊張。",
+          "event_time": "2026-09-08T01:41:04+08:00"
         }
       ]
     },
@@ -300,685 +155,64 @@
       "category": "經濟",
       "news": [
         {
-          "source_id": "632c23fce74692f336db8df2dec1be8bf72f4219e41a2cfcca252a79d1563801",
+          "source_id": "249c4618f3a80032e128f363fbecc7a5eaf7cd3ffef6f99175576ef37770bd15",
           "category": "經濟",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "德國7月製造業訂單月增2.5%，遠超預期的0.3%",
-          "summary_zh": "歐洲最大經濟體工業訂單大幅回升，減緩市場對歐元區經濟衰退的擔憂。",
-          "event_time": "2026-09-04T14:00:03+08:00"
+          "headline_zh": "韓國國民年金基金據悉暫停外匯避險操作",
+          "summary_zh": "市場消息指出韓國國民年金基金（NPS）已暫停外匯避險，此舉將影響韓元流動性與市場匯率走勢。",
+          "event_time": "2026-09-07T10:26:07+08:00"
         },
         {
-          "source_id": "099baafccd3658ba33cf0171e089d552998ab92536ad9fc5d9fd815fa562f887",
+          "source_id": "275da8dcdf171d8b9543e7ea2538f5e4785849d64154a214848288eb54fac750",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "德國工業生產月率下降 1.1% 遠遜於預期",
+          "summary_zh": "德國 7 月工業生產月率錄得 -1.1%，顯著低於預期的 0.2%，凸顯歐洲最大經濟體製造業仍深陷疲態。",
+          "event_time": "2026-09-07T14:00:03+08:00"
+        },
+        {
+          "source_id": "25c2726def5af788f5a674a09ca487c9519c65521dfeda846ef1c718e34f32fb",
           "category": "經濟",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "消息指中國稀土企業暫停部分對美出貨",
-          "summary_zh": "關鍵戰略物資稀土供應若遭到限制，將直接打擊美國高科技與國防製造業供應鏈。",
-          "event_time": "2026-09-04T16:47:40+08:00"
+          "headline_zh": "歐元區二季度 GDP 修正值年增 1.2% 優於預期",
+          "summary_zh": "歐元區公布二季度 GDP 季率修正值升至 0.6%、年率修正值升至 1.2%，高於預期，顯示歐元區經濟復甦動能改善。",
+          "event_time": "2026-09-07T17:00:01+08:00"
         },
         {
-          "source_id": "2cc2a7835ad057320c90e06f35225b0bacf5097c8eb329b657f759645ebb0bff",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "加拿大8月就業人數減少4.17萬人，遠低於預期的增加1.5萬人",
-          "summary_zh": "加拿大勞動市場超預期惡化，加劇加拿大央行轉向更激進降息的市場預期。",
-          "event_time": "2026-09-04T20:30:03+08:00"
-        },
-        {
-          "source_id": "acbe7e33ba0fa98c151906140be6f381aafe37a959ff629899839f983dce8f22",
-          "category": "經濟",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "美國8月非農就業人口大增16.2萬人，失業率維持在 4.1%",
-          "summary_zh": "美國非農就業新增人數遠超預期的5.5萬人，勞動市場展現極強韌性，衝擊全球資產定價。",
-          "event_time": "2026-09-04T20:30:05+08:00"
-        },
-        {
-          "source_id": "0e104434742cb068ffe3fcc819e0041e4f8244123685bffa5a9d1a57e2fa8a39",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "川普表示 AI 競賽僅存在於中美之間，強調絕不可浪費數據中心發展機會",
-          "summary_zh": "川普將 AI 與數據中心列為國家競爭力核心，預計推動電力設施與 AI 基礎設施投資擴張。",
-          "event_time": "2026-09-05T03:03:46+08:00"
-        },
-        {
-          "source_id": "123b60113dc8606784f41ac057047c3948285ff7d8dd3b9a8f445192a79eac52",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "德國總理梅爾茨發表演說：歐洲正面臨深遠轉折與自我保護決心",
-          "summary_zh": "德國總理梅爾茨（Merz）強調歐洲面臨超乎以往的歷史性體制轉折，展現強化自身安全與經濟防衛能力的決心。",
-          "event_time": "2026-09-05T20:08:19+08:00"
-        },
-        {
-          "source_id": "48187610f5797a02a736e1cb65e8e23d2f0d817e18bf4fcdd98ef2d23f5d6595",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "克里姆林宮顧問烏沙科夫表示美俄高層會談中亦討論經濟議題",
-          "summary_zh": "美俄特使於莫斯科舉行會談期間，除談判烏俄衝突外，亦就雙邊經濟與制裁相關議題進行了交流。",
-          "event_time": "2026-09-06T05:25:04+08:00"
-        },
-        {
-          "source_id": "38e85103b3112a0782dad572c85b34dd50bd8af812a0c007f877c530a6d6d30f",
+          "source_id": "252788a145fd47b4d6b92b010e2c351f6016785524ac58c07048bfa6744a6753",
           "category": "經濟",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "OPEC+在週日會議上維持石油產量配額不變",
-          "summary_zh": "OPEC+發布聲明確認保持現行產量配額不變，反映出產油國在當前地緣政治與需求前景下選擇維持市場供給穩定。",
-          "event_time": "2026-09-06T19:21:18+08:00"
+          "headline_zh": "巴拿馬運河警告每日通行量可能大幅降至 27 艘衝擊航運",
+          "summary_zh": "巴拿馬運河（Panama Canal）管理當局警告每日船舶通行數可能由 32 艘下降至 27 艘，全球運費與供應鏈轉向壓力顯著增加。",
+          "event_time": "2026-09-07T19:01:44+08:00"
         },
         {
-          "source_id": "e36e184bc8bddb991e09c53fd4c17a78a91dd33b1c985d58f2e36638be2302ab",
+          "source_id": "a93bea3469b9f39303dce42847f2bf5ae0d07b07b3d6d5c7ddd58528c17ecc73",
           "category": "經濟",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "美國能源部長Wright預估汽油價格下跌可能性大於上漲",
-          "summary_zh": "美國能源部長Wright（Wright）表示，若必須做出預測，他認為未來汽油價格更有可能呈現下跌而非上漲趨勢。",
-          "event_time": "2026-09-06T21:08:37+08:00"
+          "headline_zh": "中國商務部長表態尋求透過對話處理與歐盟的貿易衝突",
+          "summary_zh": "中國商務部長王文濤在會見芬蘭官員時表示，穩定的中歐關係至關重要，中方尋求透過談判解決中歐貿易摩擦。",
+          "event_time": "2026-09-07T20:44:50+08:00"
         },
         {
-          "source_id": "2b4b3312a9d893877cdbcedef2d69f5ebd4acbde720f686cd86a7532064a51a4",
+          "source_id": "e4c28076074fcd0ad9fcef423efdb457a2e3ecc64eee3d62647c1cdb07a64d29",
           "category": "經濟",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "川普稱加拿大元與美元匯率差距無法令人接受",
-          "summary_zh": "川普（Trump）公開指出加拿大元（CAD）與美元（USD）之間的匯率折價過大且無法接受，為北美貿易與匯率政策增添不確定性。",
-          "event_time": "2026-09-06T21:12:57+08:00"
+          "headline_zh": "倫敦金屬交易所銅價暴漲突破每噸 14,530 美元歷史新高",
+          "summary_zh": "倫敦金屬交易所（LME）銅價強勢上漲並刷新歷史高點，反映全球供應鏈瓶頸與工業需求韌性對基本金屬價格的推升。",
+          "event_time": "2026-09-07T23:01:58+08:00"
         }
       ]
     },
     {
       "category": "戰爭",
       "news": [
-        {
-          "source_id": "6b6954c8ebb252941c9a401b95ad27faf4aef7569f88b4132275f6d187a0c4c2",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "南韓青瓦台表示研議中的荷姆茲海峽實質貢獻方案包括軍事措施",
-          "summary_zh": "南韓評估派兵或提供軍事支援護航荷姆茲海峽，顯示中東水道安全問題已拉升至全球層級。",
-          "event_time": "2026-09-04T10:02:04+08:00"
-        },
-        {
-          "source_id": "33dbc7555e5023d29864c55f32fbaf51f15c82d5741aad17f3e396d38b156600",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "數據顯示週四僅4艘大宗商品船隻通過荷姆茲海峽，顯著低於每日平均約15艘",
-          "summary_zh": "荷姆茲海峽實際通行船隻數量驟降近七成，證實中東封鎖風險正顯著壓抑實體原油與商品運輸。",
-          "event_time": "2026-09-04T12:51:17+08:00"
-        },
-        {
-          "source_id": "3efc018343565962e3a0ae6fffe2443a93b829edf388021d556d0ab9a9675890",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "俄羅斯國家石油公司負責人稱中國透過建立儲備及與俄合作已克服荷姆茲危機",
-          "summary_zh": "俄羅斯強調中俄能源安全合作，凸顯地緣衝突下能源貿易供應鏈的重組。",
-          "event_time": "2026-09-04T14:09:00+08:00"
-        },
-        {
-          "source_id": "ad2f62dfbea5f745c26f77b602bf30675ae8532f3da8d974d36f956763a8d984",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "美國特使威特科夫與庫許納將於9月5日至6日先後訪問莫斯科與基輔",
-          "summary_zh": "川普陣營關鍵特使赴俄烏兩國進行停火和平方案談判，市場密切關注烏俄和平協議進展。",
-          "event_time": "2026-09-04T16:43:07+08:00"
-        },
-        {
-          "source_id": "c42a8c4ff0abe506dce3bc79507ecfe5853a7f0d11cac835986708b33721bf8b",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "烏克蘭表示期待與美國就和平努力進行談判帶來新動態",
-          "summary_zh": "烏克蘭官方確認與美方特使談判時程，透露和平談判重啟的可能性。",
-          "event_time": "2026-09-04T19:20:27+08:00"
-        },
-        {
-          "source_id": "3adb2a5a675ec89760444f3c118890da5e9d37cac2bf4839102cd9252d7f1ee3",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "伊朗軍方發言人警告將在感到受威脅的任何地方採取先發制人行動",
-          "summary_zh": "伊朗發出強硬軍事警告，市場擔憂中東戰事可能擴大至周邊國家或美軍基地。",
-          "event_time": "2026-09-04T20:44:23+08:00"
-        },
-        {
-          "source_id": "176d27beeefe0bd0a7febff995c9da1834f6244ffd0e0770c7071af61f3150a9",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "美國對涉伊朗實體實施新一輪制裁，涵蓋土耳其黃金全球投資銀行",
-          "summary_zh": "美國財政部加碼伊朗金融封鎖，打擊協助伊朗資產轉移的第三國金融機構。",
-          "event_time": "2026-09-04T22:07:29+08:00"
-        },
-        {
-          "source_id": "f6a690d6b6fc88a27e0c18187a939b3eca07a0deee1b5e1c097b8ed55df90630",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "伊朗外交官強調滿足伊朗條件與重啟荷姆茲海峽為與美談判之首要前置前提",
-          "summary_zh": "伊朗明確回應斡旋方，否定當前直接談判，並將荷姆茲海峽開通與美方讓步直接掛鉤，關係到全球能源供應命脈。",
-          "event_time": "2026-09-04T23:26:18+08:00"
-        },
-        {
-          "source_id": "14e8c6e3508eb61f993cbc20e3068d576ed1271a56e0f32221bd37da4e203d19",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "消息指川普政府正在起草戰後中東和平與安全架構計畫",
-          "summary_zh": "美方開始著手規劃中東局勢戰後終局方案，試圖在打擊與談判間鋪路。",
-          "event_time": "2026-09-05T01:51:34+08:00"
-        },
-        {
-          "source_id": "2661cc9065f845f0162b17e4c8f0a9efec32e15368d4799c8540727d94bb4edc",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "川普聲稱美軍對伊朗進行間歇性打擊並實質控制荷姆茲海峽",
-          "summary_zh": "川普公開談及美軍摧毀多艘海峽船隻與打擊伊朗石油設施，強調軍事控制力，促使原油風險溢價高企。",
-          "event_time": "2026-09-05T02:40:51+08:00"
-        },
-        {
-          "source_id": "0f6d11a32174d475dfb510d69917d0988a5702b90896ce791e7be441deabfa44",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "俄軍於特使訪問前夕襲擊基輔與鮑里斯波爾機場",
-          "summary_zh": "澤倫斯基表示，俄軍在美國特使抵達莫斯科前夕對基輔周邊機場發動打擊，顯示談判前的軍事施壓。",
-          "event_time": "2026-09-05T16:58:13+08:00"
-        },
-        {
-          "source_id": "42bb0d8c27f642dc8f94f2f33749317e980c4bac79f71916d17c0a0d11424ddb",
-          "category": "戰爭",
-          "importance_score": 2,
-          "highlight": false,
-          "headline_zh": "烏克蘭打擊俄羅斯控制的盧甘斯克地區造成5死5傷",
-          "summary_zh": "俄方指派的官員表示，烏克蘭軍方對盧甘斯克地區發動襲擊，造成當地人員傷亡。",
-          "event_time": "2026-09-05T17:40:23+08:00"
-        },
-        {
-          "source_id": "68dfae06ae0ae4a0f824042a358dd9685c7dda5237dfe272168e03c39e67e9e9",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "美國和平特使維特科夫與庫許納搭機抵達莫斯科",
-          "summary_zh": "美國特使維特科夫（Witkoff）與庫許納（Kushner）飛抵莫斯科，準備與俄羅斯高層進行烏俄和平談判。",
-          "event_time": "2026-09-05T18:10:41+08:00"
-        },
-        {
-          "source_id": "5fe677c383c5020d35e7b8b5f5947d2b33cbf50aa362ddae49ebb0481ab19f97",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "普丁下令在美代表團訪俄期間暫停對基輔的空襲三日",
-          "summary_zh": "俄羅斯總統普丁（Putin）命令俄軍在美國和平特使訪問莫斯科期間，對烏克蘭首都基輔實施為期三天的暫停空襲。",
-          "event_time": "2026-09-05T19:46:05+08:00"
-        },
-        {
-          "source_id": "d6c3391e1f5b4d7b5ead861549ffd899f38b8de363f1a17d6abe4015016a3c01",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "俄國國防部：軍方在黑海港口打擊兩艘運載烏軍物資的船隻",
-          "summary_zh": "俄羅斯國防部聲明宣稱在黑爾諾莫斯克港（Chornomorsk）擊中兩艘載有烏克蘭軍事補給的貨船。",
-          "event_time": "2026-09-05T19:52:10+08:00"
-        },
-        {
-          "source_id": "ef239b68b7bbcf122e03f4114604baa7db9dea183ae46e2d6844f483047d6921",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "俄國軍方攻擊奧德薩港附近的貨船",
-          "summary_zh": "俄羅斯持續對烏克蘭主要出口港口奧德薩（Odesa）附近的商業貨船發行軍事打擊。",
-          "event_time": "2026-09-05T19:53:55+08:00"
-        },
-        {
-          "source_id": "5cb2427cb87e636d37c8647f74932e0d5b4162025a03d6be7922d94263b29b02",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "美軍中央司令部：空襲打擊三艘伊朗原油油輪",
-          "summary_zh": "美軍中央司令部（Centcom）證實攻擊三艘伊朗原油油輪，使中東原油運輸與荷姆茲海峽局勢陷入極度緊張。",
-          "event_time": "2026-09-05T21:40:44+08:00"
-        },
-        {
-          "source_id": "6fe3c43ffc1191f1a027fb07edb3842a3996e01f72faa6c59578a0134826b242",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "美軍表示空襲係因伊朗向兩艘美國海軍艦艇發射彈道飛彈",
-          "summary_zh": "美軍中央司令部指出，對伊朗油輪的襲擊是對伊朗先前發射彈道飛彈攻擊兩艘美軍軍艦的反制行動，美伊衝突急遽升級。",
-          "event_time": "2026-09-05T21:41:35+08:00"
-        },
-        {
-          "source_id": "5a30b72fb7cc2147e13f16bddf97b84ccf2fb3e7b7d7739ad49b3b4476ff6c57",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "烏克蘭總統澤倫斯基表示已與美國和平調解人進行通話",
-          "summary_zh": "澤倫斯基（Zelenskiy）證實與美國和平談判調停人員對話，討論美俄會談及停火條件。",
-          "event_time": "2026-09-05T22:24:31+08:00"
-        },
-        {
-          "source_id": "a22e737c28cbc20700d546ad4a184e0f2f96c78f8643343ff4bbe92c87dfb87d",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "澤倫斯基：烏克蘭準備好在週一前遵守對談判相關城市的空襲停火",
-          "summary_zh": "澤倫斯基表明烏方願在談判期間暫停對相關城市的空襲，展現推進和平對話的意願。",
-          "event_time": "2026-09-05T22:28:39+08:00"
-        },
-        {
-          "source_id": "f5f11d28155fb9d8610e9cfc1b0a056a2b6b88ea13088a352d2f3c14b3a3658a",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "烏克蘭準備停止對莫斯科攻擊，期望俄方對基輔做出對等停火",
-          "summary_zh": "烏克蘭表示願停止對莫斯科的打擊行動，前提是俄羅斯亦需對基輔停止攻擊，形成雙向停火默契。",
-          "event_time": "2026-09-05T22:30:43+08:00"
-        },
-        {
-          "source_id": "b90c96df96f0fdc34c6d8910a872fc9a90456225f86f69e957d59ad534618e89",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "俄羅斯總統普丁於克里姆林宮展開與美國特使維特科夫及庫許納的會談",
-          "summary_zh": "普丁與美國特使維特科夫及庫許納在莫斯科正式舉行會談，尋求烏俄衝突的突破性解決方案。",
-          "event_time": "2026-09-06T00:55:52+08:00"
-        },
-        {
-          "source_id": "cd5a64ae07435f5a5399ba62583d307d962514d2f29675e38d96b3af07475b67",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "伊朗軍方警告：若美國維持海上封鎖，對美軍艦艇的打擊將升級",
-          "summary_zh": "伊朗聯合軍事指揮部發出警告，若華府持續執行海上封鎖或騷擾伊朗船隻，伊朗將擴大對區域內美軍軍艦的襲擊範圍。",
-          "event_time": "2026-09-06T01:30:52+08:00"
-        },
-        {
-          "source_id": "40bff5e5e9e98b6be7c92f3e5f7c7424d9cdd5a05e22ec218917ab18580c244b",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "伊朗最高聯合軍事指揮部：若美軍持續騷擾，襲擊行動將會擴大",
-          "summary_zh": "伊朗軍方透過國營媒體再次表明，美軍若不停止對伊朗船隻的行動，軍事打擊目標將進一步擴展。",
-          "event_time": "2026-09-06T01:33:28+08:00"
-        },
-        {
-          "source_id": "0353448dd3c35d97461cdef95899be16f0dcc59337934e003dc240ae7f52319b",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "普丁向美方表達：與維特科夫及庫許納的接觸始終具有建設性",
-          "summary_zh": "普丁在會談期間強調與川普（Trump）特使團隊維持溝通管道對俄方極具效益。",
-          "event_time": "2026-09-06T01:36:35+08:00"
-        },
-        {
-          "source_id": "5d7d985ff53e6ceb37afc40772d471961a11a130c39f02f737e4c492bad06818",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美國特使維特科夫轉達川普對普丁的問候",
-          "summary_zh": "維特科夫在克里姆林宮會談開場時，向普丁轉達了美國前總統川普的問候。",
-          "event_time": "2026-09-06T01:38:18+08:00"
-        },
-        {
-          "source_id": "4016a9efd74607f5586a3133501c844df88be95bbc18dd1820e2ff75059b963b",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "維特科夫感謝普丁於美方代表團造訪期間實施停火",
-          "summary_zh": "美方特使對俄方在外交訪問期間暫停軍事襲擊表示感謝，有利於談判氛圍建立。",
-          "event_time": "2026-09-06T01:39:55+08:00"
-        },
-        {
-          "source_id": "d3a04b8f33cd600a09534c11124aa83cdf2019bd73f93f3faeb6762a2ed6013a",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "普丁表明：俄方將盡全力確保談判人員的安全",
-          "summary_zh": "普丁承諾將全力保障美方談判代表團在俄期間的安全，維護和平對話進行。",
-          "event_time": "2026-09-06T01:41:26+08:00"
-        },
-        {
-          "source_id": "ae4586bff2c58a7ba4ff82e731a22d1cc9cf8b94eff00b19e73203d22c753011",
-          "category": "戰爭",
-          "importance_score": 2,
-          "highlight": false,
-          "headline_zh": "烏克蘭無人機襲擊俄羅斯別爾哥羅德州造成一人死亡",
-          "summary_zh": "烏克蘭無人機對俄羅斯邊境別爾哥羅德州（Belgorod）發動襲擊，造成一名平民死亡。",
-          "event_time": "2026-09-06T02:31:54+08:00"
-        },
-        {
-          "source_id": "3f478e9cad0e35c599da4c07cdbdd52ebfbc63bb546d96c156726133185ac130",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "伊朗革命衛隊海軍：在荷姆茲海峽擊中三艘未經授權航行的船隻",
-          "summary_zh": "伊朗革命衛隊（IRGC）海軍聲明表示，在荷姆茲海峽對三艘行經未授權航道的船隻發動攻擊，嚴重威脅航道安全。",
-          "event_time": "2026-09-06T03:37:58+08:00"
-        },
-        {
-          "source_id": "8e68fa2165f4001dbf8d3ed8277f72662ecbd28c80d1593b326f9f3011380cc7",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "伊朗革命衛隊宣稱在其他海域擊中三艘美軍船隻，美方未證實",
-          "summary_zh": "伊朗革命衛隊海軍稱在其他海域成功攻擊三艘美國船隻，目前美軍官方尚未證實此訊息。",
-          "event_time": "2026-09-06T03:40:09+08:00"
-        },
-        {
-          "source_id": "733ef62524017bc3c170201ef8fcac90502cec1a87b42a46df33f6ad02ba605d",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "伊朗革命衛隊警告波斯灣及荷姆茲海峽所有船隻防範可疑活動",
-          "summary_zh": "伊朗海軍對波斯灣及荷姆茲海峽附近的航行船隻發布安全警示，航運風險指標急劇攀升。",
-          "event_time": "2026-09-06T03:59:10+08:00"
-        },
-        {
-          "source_id": "2bbc49e3ebf127268ac2f25de2b9fa811acfef2db0db3dc84627375d1c4ed32d",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "普丁與美國特使維特科夫、庫許納的莫斯科會談結束",
-          "summary_zh": "歷經數小時討論後，俄美高層會談於莫斯科正式結束，雙方已就核心立場充分交換意見。",
-          "event_time": "2026-09-06T04:03:52+08:00"
-        },
-        {
-          "source_id": "7d53bcf87f9ad2061eba2eb52ac84b2cf4b9970ca92c9bd43559350091ea29a2",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "克里姆林宮顧問烏沙科夫：美方承諾將普丁的評估納入對基輔的和談中",
-          "summary_zh": "克宮官員透露，美國特使已承諾將普丁對終戰條款的評估帶回並納入與烏克蘭的後續談判中。",
-          "event_time": "2026-09-06T05:25:04+08:00"
-        },
-        {
-          "source_id": "9e3f3ba6b83773be1347adefbab510a29f75a565208d3a10e60a9274c595e20b",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "烏沙科夫：普丁強調俄國將實現目標，必須解決衝突的根源",
-          "summary_zh": "俄方在會談中明確表達，任何和平協議均需徹底解決導致衝突爆發的根本原因，且俄方戰略目標不變。",
-          "event_time": "2026-09-06T05:25:04+08:00"
-        },
-        {
-          "source_id": "51cc206665c11a242d718aa9a19017ed41e5f61c4437a1d0cefa927fad2f9342",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "烏沙科夫：會談已制訂出系列和平解決方案建議",
-          "summary_zh": "克里姆林宮表示，美俄會談已成功塑造出促進烏俄衝突和平解決的框架建議與具體提案。",
-          "event_time": "2026-09-06T05:25:04+08:00"
-        },
-        {
-          "source_id": "ca20989e289d53106058a0a18c09b8065010045b2347a101e2210bee8f9233ec",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美國特使維特科夫與庫許納結束會談離開莫斯科",
-          "summary_zh": "美方特使團隊結束與普丁及克宮高層的談判後離開莫斯科，和平進程轉入下一階段細節擬定。",
-          "event_time": "2026-09-06T05:30:53+08:00"
-        },
-        {
-          "source_id": "fd9d3e28f052a4a812b85faa7b67c46a96231866f5ee9b8443a5574f27460e80",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "伊朗革命衛隊宣稱以彈道飛彈擊中美軍航空母艦與驅逐艦",
-          "summary_zh": "伊朗革命衛隊宣稱對美國航空母艦與驅逐艦發射彈道飛彈並成功命中，美方目前未對此發表核實聲明。",
-          "event_time": "2026-09-06T06:36:51+08:00"
-        },
-        {
-          "source_id": "066ff2d659a10d2b9094596bb59898c8abb7410672fa0549a5244327d33f19e2",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "白宮官員：美俄代表已討論俄烏和談下一步詳細計劃",
-          "summary_zh": "白宮官員表示美俄官員已就俄烏戰爭和談的下一步詳細計劃進行討論，後續將對外公開。",
-          "event_time": "2026-09-06T09:16:41+08:00"
-        },
-        {
-          "source_id": "e4c63581be3d5b18ef4b168f894e179c13e1dbce4dbccdb8ab0ebd350b43c807",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "白宮官員：美俄官員已討論烏俄和談下一階段詳細計畫，將於未來數週公布",
-          "summary_zh": "白宮官員確認美俄雙方已針對烏俄和平談判的後續步驟制定具體計畫，預計於未來數週內對外公布細節。",
-          "event_time": "2026-09-06T11:09:28+08:00"
-        },
-        {
-          "source_id": "a49abb2658a062d5472bc936d3883f0532c257dd76ce0ff0a256e3305bc48861",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "伊朗外長與沙烏地阿拉伯及土耳其外長通話討論區域局勢",
-          "summary_zh": "伊朗外長Aragchi（Aragchi）與沙烏地阿拉伯及土耳其外長通電話，就中東區域局勢發展與外交斡旋努力進行溝通。",
-          "event_time": "2026-09-06T11:09:28+08:00"
-        },
-        {
-          "source_id": "650cee615071b9a5e1bff9996d137c7d2dc097a5fe384019c2da66d243e85f17",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "真主黨無人機襲擊後 以色列軍空襲黎巴嫩南部",
-          "summary_zh": "真主黨（Hezbollah）向安全區內的以色列士兵派遣無人機後，以色列軍方對黎巴嫩南部發動打擊。",
-          "event_time": "2026-09-06T11:25:47+08:00"
-        },
-        {
-          "source_id": "cc87355ebbd78c7377206ebc079477673808fe20c10892628853560b9693f85b",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "俄羅斯表示不排除舉行俄美中三方領袖峰會",
-          "summary_zh": "俄羅斯塔斯社（TASS）報導，俄方並未排除俄羅斯、美國與中國三國總統舉行三方峰會的可能性。",
-          "event_time": "2026-09-06T16:16:48+08:00"
-        },
-        {
-          "source_id": "e79baf822be04254cdd5edf31b5ac1e0c6df96809760b9e294511634882cee1e",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "伊朗國會議長Qalibaf警告美方：遊戲規則已改變",
-          "summary_zh": "伊朗國會議長Qalibaf（Qalibaf）表示，美國必須趁早意識到區域博弈規則已經發生改變。",
-          "event_time": "2026-09-06T17:16:30+08:00"
-        },
-        {
-          "source_id": "744da573b6dbb628ff91f227e59dfc4f9d97b180e837548c6199179309e7b9ff",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "伊朗警告若國家安全受侵犯將引發更強烈反擊",
-          "summary_zh": "伊朗國會議長Qalibaf表示，未來任何對伊朗安全或利益的攻擊都將引發更快、更強且更嚴厲的回應。",
-          "event_time": "2026-09-06T17:16:45+08:00"
-        },
-        {
-          "source_id": "a3245a05b21cb4cd48810c26bb77242405789d54ffa6f3ee8a3412b0b81c9214",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "澤倫斯基於基輔會晤美國特使前強調烏克蘭需要安全保證",
-          "summary_zh": "烏克蘭總統澤倫斯基（Zelenskiy）在會見美國和平特使前表示，烏克蘭渴望衝突結束，但必須獲得明確的安全保證。",
-          "event_time": "2026-09-06T17:49:45+08:00"
-        },
-        {
-          "source_id": "3ab5202673eb3e3913bdbba48b2eb1d4145e555a98ade78d95e4cc1b974c11a6",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "美國和平特使Witkoff與Kushner抵達基輔展開和談",
-          "summary_zh": "美國特使Witkoff（Witkoff）與Kushner（Kushner）抵達烏克蘭首都基輔，準備進行俄烏和平談判。",
-          "event_time": "2026-09-06T18:18:37+08:00"
-        },
-        {
-          "source_id": "4204069a710646a28f960d6730e71db4926290f9e8281aad9ca168d9a683824a",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "俄外長拉夫羅夫指西方對萊比錫無人機事件指控接近真正開戰",
-          "summary_zh": "俄羅斯外長拉夫羅夫（Lavrov）表示，西方聲稱莫斯科涉及萊比錫無人機事件的指控，本質上已接近真正戰爭的開端。",
-          "event_time": "2026-09-06T18:36:48+08:00"
-        },
-        {
-          "source_id": "7238ef24fd3db89b7dcc7d518df2f6a6855cc5b76a60bc53da6ff945b2c7d5df",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "英法德國家安全顧問於基輔預先協調對美談判立場",
-          "summary_zh": "英國、法國和德國的國家安全顧問在美國特使展開會談前率先抵達基輔，進行歐洲多方的立場協調。",
-          "event_time": "2026-09-06T18:46:40+08:00"
-        },
-        {
-          "source_id": "c244306c7a65228c04e69ae146f6c973bf8f7c3a3f5912a06f50c03c71eacc05",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "美軍中央司令部執行對伊朗封鎖 攔截處置多艘商船",
-          "summary_zh": "美軍中央司令部（CENTCOM）宣布截至9月6日，美軍為對伊朗執行海上封鎖，已將92艘商船改道、癱瘓3艘並登船搜查2艘。",
-          "event_time": "2026-09-06T19:49:18+08:00"
-        },
-        {
-          "source_id": "8722acc009b1d00fdd5f9b02a4fac3a7d31c14b80c3d537d9e79ba1a9e090ef7",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "澤倫斯基宣佈烏美第一輪談判結束",
-          "summary_zh": "烏克蘭總統澤倫斯基證實，烏克蘭與美國談判代表團之間的第一輪和平對話已經結束。",
-          "event_time": "2026-09-06T22:20:42+08:00"
-        },
-        {
-          "source_id": "8c18a7152358e127cb416184a9c03ed8b61aab17ab4d2fb6e309bab7a9c20548",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "美國特使Witkoff對美烏富有成效的會談感到鼓舞",
-          "summary_zh": "美國特使Witkoff表示，美烏雙方進行了具實質意義且重要的談判，對會談進展感到受到鼓舞。",
-          "event_time": "2026-09-06T22:21:16+08:00"
-        },
-        {
-          "source_id": "a139eab59143a791fb183cd22f8b50301463ead6f125c9cb37878b7315be205f",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "美國談判代表Kushner預期談判將取得進一步突破",
-          "summary_zh": "美國談判代表Kushner表示，美方團隊預計後續談判將取得進一步顯著進展。",
-          "event_time": "2026-09-06T22:21:52+08:00"
-        },
-        {
-          "source_id": "7c07bd052930827e98fb64956b72cc347b805ae1c719980c674e51298f9b8a00",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "俄羅斯軍方在黑海擊中烏克蘭貨輪",
-          "summary_zh": "塔斯社報導，俄羅斯軍方聲稱已在黑海海域擊中一艘烏克蘭貨輪，黑海航運安全持續惡化。",
-          "event_time": "2026-09-06T22:28:33+08:00"
-        },
-        {
-          "source_id": "b0287b5e1581c5f91a4920e621d070c46681c0072c97817ac72c05547190e9f2",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "澤倫斯基呼籲全力推動與俄羅斯的三方會談",
-          "summary_zh": "澤倫斯基表示烏方必須竭盡全力實現包含俄羅斯在內的三方會談，目前正等待俄方的正式回應。",
-          "event_time": "2026-09-07T00:01:58+08:00"
-        },
-        {
-          "source_id": "ada29ac513ffa4523a7abb618165e6d0bbd94ba9b88c6922eb785d3fb3ac77d3",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "烏美討論防空飛彈供應與冬季援助方案",
-          "summary_zh": "澤倫斯基證實，美烏團隊在會談中詳細討論了防空飛彈的持續供應以及針對即將到來冬季的援助計畫。",
-          "event_time": "2026-09-07T00:01:58+08:00"
-        },
-        {
-          "source_id": "128514e056bb32d5f57b9e2ae1b72c761e9e226ab7cac885de3e05f81eff53ff",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "澤倫斯基：美歐均承認烏克蘭實力有所提升",
-          "summary_zh": "澤倫斯基表示，美國與歐洲合作夥伴均承認烏克蘭在戰局與軍事能力上已變得更加強大。",
-          "event_time": "2026-09-07T00:01:58+08:00"
-        },
-        {
-          "source_id": "b764cc7eda029a5c0497d1c9056da0587e53af6688f32d42a00f7aff392aa1bd",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "澤倫斯基期望美國和平談判代表再次返回基輔",
-          "summary_zh": "澤倫斯基表達希望美國和平談判代表團能在後續協商中再次前往基輔進行深談。",
-          "event_time": "2026-09-07T00:01:58+08:00"
-        },
-        {
-          "source_id": "96d413bd69b37426a3bb6e407f2e939b31216fada2c82919193bbf5082f6efa8",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "烏美團隊探討安全及經濟保證與繁榮計畫",
-          "summary_zh": "澤倫斯基指出，美烏代表團就基輔未來的安全及經濟保障機制以及戰後繁榮計畫進行了討論。",
-          "event_time": "2026-09-07T00:01:59+08:00"
-        },
-        {
-          "source_id": "f9a3e0d4f253866553954b7e46d04b0513cd42075f13fcbb258d301de673be47",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "澤倫斯基形容與美國代表團的談判非常實質",
-          "summary_zh": "澤倫斯基評價與美方特使團隊的談判過程非常深入且具實質性成果。",
-          "event_time": "2026-09-07T00:01:59+08:00"
-        },
-        {
-          "source_id": "8eca224846b48bda6f9f7afdd24dfe32307a7126cf40ec643d66cd94988df063",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "美國特使Witkoff對莫斯科與基輔和平會談前景持樂觀態度",
-          "summary_zh": "美國特使Witkoff對未來涉及莫斯科與基輔的和平對話前景表達樂觀期待。",
-          "event_time": "2026-09-07T00:02:59+08:00"
-        },
-        {
-          "source_id": "ca1a1dc9adb6fdf8ce485938056f572d6b28c54201471ab54a54e7be5470ce29",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "美國特使Witkoff強調尋求外交途徑而非武力解決衝突",
-          "summary_zh": "美國特使Witkoff明確表示，美方目標是尋求俄烏衝突的外交解決方案，而非軍事衝突手段。",
-          "event_time": "2026-09-07T00:02:59+08:00"
-        },
-        {
-          "source_id": "bfb02685c7dc41dbcbb560f897614d2f58fae56d61e3c084284f4bf0d679b723",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "美國談判代表Kushner希望重啟美烏俄三方談判架構",
-          "summary_zh": "美國談判代表Kushner表示，希望談判能以包含烏克蘭與俄羅斯的三方形式重新展開。",
-          "event_time": "2026-09-07T00:02:59+08:00"
-        },
-        {
-          "source_id": "383d20a3689c77359723c2b38dc556566f2b28c4fd6491a547f7b24f59d05cae",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "美談判代表Kushner透露美國正在制定「和平方案」",
-          "summary_zh": "Kushner透露，美國政府目前正著手制定一項針對俄烏衝突的綜合「和平方案」（Peace Package）。",
-          "event_time": "2026-09-07T00:02:59+08:00"
-        },
-        {
-          "source_id": "60009efacee213b008eafda2f54f58a5866ab746e7d63cccde5f7878d2c65726",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "澤倫斯基計畫訪問挪威與加拿大洽談飛彈防禦系統",
-          "summary_zh": "烏克蘭總統澤倫斯基透露，計畫訪問挪威與加拿大，就採購與合作飛彈防禦系統進行商討。",
-          "event_time": "2026-09-07T00:09:59+08:00"
-        },
         {
           "source_id": "451267c474d7186e9d06f56005cda9cc68acb65ccbfa01a804ab58f02cc7c44f",
           "category": "戰爭",
@@ -1068,21 +302,93 @@
           "headline_zh": "金正恩：正在執行海軍擴軍計畫 8個月內展現成果",
           "summary_zh": "金正恩透露北韓目前正在執行提升海軍戰力的核心計畫，並預告將於8個月內對外展現顯著成果。",
           "event_time": "2026-09-07T06:10:56+08:00"
+        },
+        {
+          "source_id": "54cbc2ec7f9639270303997002dcf1b811a17f698437d168e86c2245881fde88",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "荷姆茲海峽每日商品船通航量降至 10 艘創 5 月以來新低",
+          "summary_zh": "數據顯示每日穿越南海樞紐荷姆茲海峽（Strait of Hormuz）的商品船隻平均降至 10 艘，顯示戰事導致航運風險與保費高企，大幅壓抑航量。",
+          "event_time": "2026-09-07T07:26:46+08:00"
+        },
+        {
+          "source_id": "f23a644f2f9484a6de0577a0ba031b445b0af43a476d509567d1821127d17d72",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗警告韓國若參與波斯灣及荷姆茲海峽行動將面臨嚴重後果",
+          "summary_zh": "伊朗外交部發言人公開警告韓國勿參與波斯灣及荷姆茲海峽護航行動，中東戰局區域擴散風險增加。",
+          "event_time": "2026-09-07T15:01:56+08:00"
+        },
+        {
+          "source_id": "1fec333ad8b05709e43c506a94e48ca0f388e583ecea320a792dadc1b74908e2",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "以色列國防部長警告巴勒斯坦安全部隊若襲擊將引發全面戰爭",
+          "summary_zh": "以色列國防部長卡茨（Katz）發出強烈警告，指出若巴勒斯坦安全部隊發動襲擊，以軍將發動全面戰爭。",
+          "event_time": "2026-09-07T17:03:34+08:00"
+        },
+        {
+          "source_id": "4e03773bb871b3e8a5d3b0faab38efa450f34876a9ea72454cdc4601efc9a5fc",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "克里姆林宮稱尚未收到關於基輔烏克蘭三方會談的消息",
+          "summary_zh": "克里姆林宮就烏克蘭潛在三方和平會談回應稱，目前尚未收到任何來自基輔的具體對接訊息。",
+          "event_time": "2026-09-07T18:10:33+08:00"
+        },
+        {
+          "source_id": "83573993ba6b5e62b314c15c1584b66f456fd8821431ef5ffa302eb6ffd74b22",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "沙烏地阿美煉油廠與基礎設施遭受新一輪空襲打擊",
+          "summary_zh": "《金融時報》（FT）報導沙烏地阿美（Saudi Aramco）煉油設施遭遇空襲並受損，中東能源基礎設施遭受直接打擊，急遽拉升原油供應中斷風險。",
+          "event_time": "2026-09-07T18:54:35+08:00"
+        },
+        {
+          "source_id": "f1b88e9c4dbf0551b917f6d751a4b4a437006411747dd3730699e43ed5c05fb3",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "法國官方確認將向基輔交付 SAMP/T 防空系統",
+          "summary_zh": "法國官員正式確認向烏克蘭發送 SAMP/T 防空系統，提供進一步軍事支援。",
+          "event_time": "2026-09-07T22:01:12+08:00"
+        },
+        {
+          "source_id": "34e657658485f425a64c236eb2e39b56e9a659e7440c9ab958eeb2b8f1ea015f",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗發出警告稱阿曼卡薩卜附近船隻面臨襲擊風險",
+          "summary_zh": "伊朗媒體指出軍方警告行經阿曼卡薩卜（Khasab）附近水域的船隻正面臨高襲擊風險，周邊海域緊張態勢升級。",
+          "event_time": "2026-09-07T22:56:03+08:00"
+        },
+        {
+          "source_id": "ef0f32f03a5505c80434b14e8c090af21212feeb0030be3e76c7543f493ce1e7",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "卡達液化天然氣船隻接近荷姆茲海峽嘗試駛離危險海域",
+          "summary_zh": "追蹤數據顯示卡達 LNG 船隻冒險接近並嘗試通過荷姆茲海峽，反映氣體能源供應鏈在戰火下的嚴峻挑戰。",
+          "event_time": "2026-09-07T23:44:12+08:00"
         }
       ]
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 18955,
-    "candidatesTokenCount": 528,
-    "totalTokenCount": 22136,
+    "promptTokenCount": 6364,
+    "candidatesTokenCount": 421,
+    "totalTokenCount": 9101,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 18955
+        "tokenCount": 6364
       }
     ],
-    "thoughtsTokenCount": 2653,
+    "thoughtsTokenCount": 2316,
     "serviceTier": "standard"
   }
 }
