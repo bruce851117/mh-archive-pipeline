@@ -839,6 +839,23 @@
     .official-side.stance-n .official-name-details > summary { color: #596575; }
     .official-side.stance-md .official-name-details > summary { color: #276895; }
     .official-side.stance-d .official-name-details > summary { color: #164f9b; }
+    .voter-control {
+      margin-top: 10px;
+    }
+    .voter-control label {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      color: #35465a;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: .04em;
+      cursor: pointer;
+    }
+    .voter-control input {
+      cursor: pointer;
+      margin: 0;
+    }
     .stance-control {
       margin-top: 10px;
     }
@@ -1532,6 +1549,7 @@
       MD: 'stance-md',
       D: 'stance-d',
     };
+    const VOTER_STORAGE_KEY = 'centralBankOfficialVotersV1';
     const CATEGORY_DESCRIPTIONS = {
       '債市': '利率、央債、殖利率、信用與債市政策',
       '股市': '股市、科技股、AI供應鏈與主要股指',
@@ -1672,6 +1690,42 @@
               <option value="${value}" ${savedRating === value ? 'selected' : ''}>${label}</option>
             `).join('')}
           </select>
+        </div>`;
+    }
+    function loadVoterMarks() {
+      try {
+        const saved = JSON.parse(localStorage.getItem(VOTER_STORAGE_KEY) || '{}');
+        return saved && typeof saved === 'object' && !Array.isArray(saved) ? saved : {};
+      } catch (error) {
+        console.warn('Unable to read voter marks:', error);
+        return {};
+      }
+    }
+    function getVoterMark(bankCode, officialName) {
+      const saved = loadVoterMarks();
+      return saved[stanceKey(bankCode, officialName)] === true;
+    }
+    function saveVoterMark(bankCode, officialName, isVoter) {
+      const saved = loadVoterMarks();
+      const key = stanceKey(bankCode, officialName);
+      if (isVoter) {
+        saved[key] = true;
+      } else {
+        delete saved[key];
+      }
+      localStorage.setItem(VOTER_STORAGE_KEY, JSON.stringify(saved));
+    }
+    function renderVoterToggle(bankCode, officialName) {
+      const marked = getVoterMark(bankCode, officialName);
+      return `
+        <div class="voter-control">
+          <label>
+            <input type="checkbox" class="voter-checkbox"
+              data-bank="${escapeHtml(bankCode)}"
+              data-official="${escapeHtml(officialName)}"
+              ${marked ? 'checked' : ''}>
+            標記為 Voter
+          </label>
         </div>`;
     }
     function dateObject(value) {
@@ -1894,13 +1948,15 @@
       );
       const officialName = official.official || '';
       const savedStance = getStanceRating(bankCode, officialName);
+      const isVoterMarked = getVoterMark(bankCode, officialName);
       return `
         <section class="card official-card">
           <aside class="official-side ${stanceClass(savedStance)}">
             <details class="official-name-details">
-              <summary><span class="official-name-line"><span>${escapeHtml(officialName)}</span>${((bankCode === 'FED' || bankCode === 'ECB') && official.voter === true) ? '<span class="voter-badge">VOTER</span>' : ''}</span></summary>
+              <summary><span class="official-name-line"><span>${escapeHtml(officialName)}</span><span class="voter-badge-slot">${isVoterMarked ? '<span class="voter-badge">VOTER</span>' : ''}</span></span></summary>
               <div class="official-position-compact">${escapeHtml(official.position || '')}</div>
               ${official.active === false ? '<span class="official-inactive">已卸任</span>' : ''}
+              ${renderVoterToggle(bankCode, officialName)}
               ${renderStanceSelector(bankCode, officialName)}
             </details>
           </aside>
@@ -1946,7 +2002,12 @@
       const hasDateFilter = Boolean(selectedStart || selectedEnd);
       let totalTalks = 0;
       const officials = [...(bank.officials || [])].sort(
-        (a, b) => Number(a.priority || 999) - Number(b.priority || 999)
+        (a, b) => {
+          const av = a.voter === true ? 0 : 1;
+          const bv = b.voter === true ? 0 : 1;
+          if (av !== bv) return av - bv;
+          return Number(a.priority || 999) - Number(b.priority || 999);
+        }
       ).map(official => {
         const filteredTalks = (official.talks || []).filter(talk => {
           const talkDate = String(talk.date || '').slice(0, 10);
@@ -1971,10 +2032,7 @@
       const rangeLabel = actualRange
         ? `實際資料範圍｜${fullDate(actualRange.start)} ～ ${fullDate(actualRange.end)}`
         : '目前沒有可顯示的談話資料';
-      const voterVersion = String(bank.voter_version || centralBankData?.voter_version || '').trim();
-      centralBankRange.innerHTML = `${escapeHtml(rangeLabel)}${((bankCode === 'FED' || bankCode === 'ECB') && voterVersion)
-        ? `<div class="voter-version">Voter version｜${escapeHtml(voterVersion)}</div>`
-        : ''}`;
+      centralBankRange.textContent = rangeLabel;
       centralBankCount.textContent = `${totalTalks} 筆每日摘要`;
 
       officialsContainer.innerHTML = officials.length
@@ -2548,6 +2606,13 @@
     });
 
     officialsContainer.addEventListener('change', event => {
+      const voterBox = event.target.closest('.voter-checkbox');
+      if (voterBox) {
+        saveVoterMark(voterBox.dataset.bank, voterBox.dataset.official, voterBox.checked);
+        const slot = voterBox.closest('.official-name-details')?.querySelector('.voter-badge-slot');
+        if (slot) slot.innerHTML = voterBox.checked ? '<span class="voter-badge">VOTER</span>' : '';
+        return;
+      }
       const select = event.target.closest('.stance-select');
       if (!select) return;
       saveStanceRating(select.dataset.bank, select.dataset.official, select.value);
