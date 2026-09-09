@@ -1,7 +1,7 @@
 {
-  "version": "2026-08-06",
+  "version": "2026-09-09",
   "timezone": "Asia/Taipei",
-  "description": "每小時僅以央行名稱加所有格前綴篩選Headline；官員名單依政策重要性排序，供Gemini統一姓名與網頁呈現。priority越小越重要。voter表示2026-08-06當下的貨幣政策投票權；ECB voter依2026年8月輪值，FED voter依2026年度FOMC席次。",
+  "description": "每小時僅以央行名稱加所有格前綴篩選Headline；官員名單依政策重要性排序，供Gemini統一姓名與網頁呈現。priority越小越重要。voter表示2026-09-09當下的貨幣政策投票權；ECB voter依輪值，FED voter依2026年度FOMC席次。2026-09-09核對：RBA Harper任期於8/31屆滿卸任，Melinda Cilento自9/1接任外部委員；FED/BoE/ECB/BoJ名單經查證仍為現任。",
   "filter_prefixes": {
     "FED": [
       "fed's",
@@ -615,8 +615,8 @@
         },
         {
           "priority": 6,
-          "headline_name": "Harper",
-          "display_name": "Ian Harper",
+          "headline_name": "Cilento",
+          "display_name": "Melinda Cilento",
           "position": "Monetary Policy Board Member",
           "active": true,
           "voter": true
@@ -667,6 +667,14 @@
           "display_name": "Brad Jones",
           "position": "Assistant Governor, Financial System",
           "active": true,
+          "voter": false
+        },
+        {
+          "priority": 13,
+          "headline_name": "Harper",
+          "display_name": "Ian Harper",
+          "position": "Former Monetary Policy Board Member",
+          "active": false,
           "voter": false
         }
       ]
