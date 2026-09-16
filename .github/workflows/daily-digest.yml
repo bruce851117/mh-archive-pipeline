@@ -43,6 +43,7 @@ jobs:
         run: |
           python -m py_compile daily_digest.py
           python -m py_compile build_web_news.py
+          python -m py_compile gemini_usage.py
 
       - name: Verify input data
         run: |
@@ -430,6 +431,63 @@ jobs:
               print(headline)
           PY
 
+      - name: Show Gemini token usage
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          latest = Path("data/usage/latest.json")
+
+          if not latest.exists():
+              print("No token usage was recorded for this run.")
+              raise SystemExit(0)
+
+          with latest.open("r", encoding="utf-8") as file:
+              daily = json.load(file)
+
+          totals = daily.get("totals", {})
+          lines = [
+              f"### Gemini token usage {daily.get('date', '')}",
+              "",
+              "| Step | Calls | Input | Cached input | Output | Thinking | Billed output | Total |",
+              "| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |",
+          ]
+
+          for step, row in daily.get("by_step", {}).items():
+              lines.append(
+                  f"| {step} | {row.get('call_count', 0)} "
+                  f"| {row.get('input_tokens', 0):,} "
+                  f"| {row.get('cached_input_tokens', 0):,} "
+                  f"| {row.get('output_tokens', 0):,} "
+                  f"| {row.get('thinking_tokens', 0):,} "
+                  f"| {row.get('billed_output_tokens', 0):,} "
+                  f"| {row.get('total_tokens', 0):,} |"
+              )
+
+          lines.append(
+              f"| **TOTAL** | {daily.get('call_count', 0)} "
+              f"| {totals.get('input_tokens', 0):,} "
+              f"| {totals.get('cached_input_tokens', 0):,} "
+              f"| {totals.get('output_tokens', 0):,} "
+              f"| {totals.get('thinking_tokens', 0):,} "
+              f"| {totals.get('billed_output_tokens', 0):,} "
+              f"| {totals.get('total_tokens', 0):,} |"
+          )
+
+          report = chr(10).join(lines)
+          print(report)
+
+          import os
+
+          summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+
+          if summary_path:
+              with open(summary_path, "a", encoding="utf-8") as file:
+                  file.write(report + chr(10))
+          PY
+
       - name: Commit digest, central bank and web data
         run: |
           git config user.name "github-actions[bot]"
@@ -439,6 +497,7 @@ jobs:
           git add data/debug
           git add data/web
           git add data/central_banks
+          git add data/usage
           git add data/latest_daily_digest.json
           git add data/latest_digest_debug.json
           git add data/digest_status.json
