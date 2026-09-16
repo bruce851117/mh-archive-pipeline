@@ -509,8 +509,13 @@ jobs:
 
           git commit -m "Generate daily digest, central bank and web data"
 
-          git pull --rebase origin main
-          git push origin main
+          # 用實際執行的分支，讓這個workflow可以安全地在PR分支上試跑，
+          # 不會把分支內容推回main。
+          branch="${GITHUB_REF_NAME}"
+          echo "Pushing generated data to ${branch}"
+
+          git pull --rebase origin "${branch}"
+          git push origin "HEAD:${branch}"
 
       - name: Upload Gemini invalid JSON debug files
         if: always()
