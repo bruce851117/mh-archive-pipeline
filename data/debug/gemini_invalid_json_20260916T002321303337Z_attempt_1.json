@@ -1,0 +1,33 @@
+{
+  "captured_at": "2026-09-16T00:23:21.303389+00:00",
+  "attempt": 1,
+  "model": "gemini-3.8-flash",
+  "response_character_count": 5095,
+  "finish_reason": "MAX_TOKENS",
+  "finish_message": "",
+  "usage_metadata": {
+    "promptTokenCount": 112298,
+    "candidatesTokenCount": 2614,
+    "totalTokenCount": 177827,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 112298
+      }
+    ],
+    "thoughtsTokenCount": 62915,
+    "serviceTier": "standard"
+  },
+  "prompt_feedback": {},
+  "parse_error": "Gemini returned invalid JSON: Expecting value: line 184 column 7 (char 5095)",
+  "json_error": {
+    "message": "Expecting value",
+    "line": 184,
+    "column": 7,
+    "character_position": 5095,
+    "context_start": 4595,
+    "context_end": 5095,
+    "context": " \"official\": \"Lorie Logan\",\n      \"date\": \"2026-07-17\",\n      \"summary_zh\": \"指出通膨無法自行持久重返2%，適度升息將能更好地平衡前景與風險，薪資雖未推升通膨但AI投資加劇短期物價壓力，資產負債表應講求效率。\",\n      \"source_ids\": [\n        \"manual-f2c4e3afbbbe259e28fa\",\n        \"manual-87e06b88b8ec640a6549\"\n      ]\n    },\n    {\n      \"central_bank\": \"FED\",\n      \"official\": \"Jeffrey Schmid\",\n      \"date\": \"2026-07-17\",\n      \"summary_zh\": \"表示通膨過於熾熱、具持續性且廣泛，近期數據雖令人鼓舞但仍不充分，勞動市場則大致維持穩定。\",\n      \"source_ids\": [\n        \"manual-a964eef7fdc19927cd64\"\n      ]\n    },"
+  },
+  "raw_response_text_file": "data/debug/gemini_invalid_json_20260916T002321303337Z_attempt_1.txt"
+}
