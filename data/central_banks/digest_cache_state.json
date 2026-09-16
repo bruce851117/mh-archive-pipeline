@@ -1,14 +1,10 @@
 {
-  "updated_at": "2026-09-16T19:06:31.986600+08:00",
+  "updated_at": "2026-09-17T07:01:14.846470+08:00",
   "model": "gemini-3.8-flash",
   "lookback_days": 90,
   "recheck_days": 3,
-  "mode": "bootstrap (adopting existing digest as cache)",
+  "mode": "incremental",
   "dates": {
-    "2026-06-18": {
-      "fingerprint": "4f51a2186037b79f584adc8f59acd922",
-      "input_count": 1
-    },
     "2026-06-19": {
       "fingerprint": "2f535ddea4c00331984c1939fd5a767e",
       "input_count": 3
@@ -298,8 +294,12 @@
       "input_count": 23
     },
     "2026-09-16": {
-      "fingerprint": "fe344938b19e46f7bb7a5aee75c10ffa",
-      "input_count": 8
+      "fingerprint": "2932c426b288c4752b4d9a7405d452ba",
+      "input_count": 15
+    },
+    "2026-09-17": {
+      "fingerprint": "66942639d6117010da8929abbee68f90",
+      "input_count": 62
     }
   }
 }
