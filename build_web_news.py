@@ -11,6 +11,8 @@ from typing import Any
 
 import requests
 
+from gemini_usage import format_usage_line, record_gemini_usage
+
 
 TAIPEI_TIMEZONE = timezone(timedelta(hours=8))
 DIGEST_DIRECTORY = Path("data/digests")
@@ -21,6 +23,7 @@ WEB_STATUS_FILE = WEB_DIRECTORY / "status.json"
 
 GEMINI_API_BASE_URL = "https://generativelanguage.googleapis.com/v1beta"
 DEFAULT_GEMINI_MODEL = "gemini-3.6-flash"
+DEFAULT_THINKING_BUDGET = 2048
 REQUEST_TIMEOUT_SECONDS = 300
 MAX_RETRIES = 3
 MAX_OUTPUT_TOKENS = 8192
@@ -360,6 +363,24 @@ def parse_json_response(response_text: str) -> dict[str, Any]:
     return parsed
 
 
+def resolve_thinking_budget() -> int:
+    """thinking token依output計價；設-1交還模型動態決定。"""
+    raw = normalize_text(os.environ.get("GEMINI_THINKING_BUDGET"))
+
+    if not raw:
+        return DEFAULT_THINKING_BUDGET
+
+    try:
+        return int(raw)
+    except ValueError:
+        print(
+            f"Invalid GEMINI_THINKING_BUDGET={raw!r}; "
+            f"falling back to {DEFAULT_THINKING_BUDGET}.",
+            file=sys.stderr,
+        )
+        return DEFAULT_THINKING_BUDGET
+
+
 def call_gemini_summary(
     api_key: str,
     model: str,
@@ -408,6 +429,13 @@ def call_gemini_summary(
             "responseMimeType": "application/json",
         },
     }
+
+    thinking_budget = resolve_thinking_budget()
+
+    if thinking_budget >= 0:
+        request_body["generationConfig"]["thinkingConfig"] = {
+            "thinkingBudget": thinking_budget,
+        }
 
     headers = {
         "Content-Type": "application/json",
@@ -544,6 +572,15 @@ def main() -> int:
             period_start,
             period_end,
         )
+
+        web_counts = record_gemini_usage(
+            step="web_news",
+            model=model,
+            usage_metadata=usage,
+            run_at=run_at,
+            note=f"{len(events)} events",
+        )
+        print(format_usage_line("web_news", web_counts))
 
         output = {
             "generated_at": format_time(run_at),

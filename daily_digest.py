@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import re
@@ -11,6 +12,8 @@ from pathlib import Path
 from typing import Any
 
 import requests
+
+from gemini_usage import format_usage_line, record_gemini_usage
 
 
 TAIPEI_TIMEZONE = timezone(timedelta(hours=8))
@@ -41,6 +44,24 @@ REQUEST_TIMEOUT_SECONDS = 300
 MAX_RETRIES = 3
 MAX_OUTPUT_TOKENS = 65536
 MAX_INPUT_CHARACTERS = 500_000
+
+# thinking token 依 output 計價，這類「照規則整理成JSON」的工作不需要長推理。
+# 設為 -1 代表交給模型動態決定（等同未設定前的行為）。
+DEFAULT_THINKING_BUDGET = 2048
+
+# 央行摘要增量化：已產生過摘要的日期不再重送給 Gemini。
+CENTRAL_BANK_CACHE_STATE_FILE = Path(
+    "data/central_banks/digest_cache_state.json"
+)
+# 最近N天一律重跑，讓晚到的Headline仍能併進當日摘要。
+CENTRAL_BANK_RECHECK_DAYS = 3
+# 輸入量小於此值就併成單次呼叫，省下重複傳送官員清單的成本。
+CENTRAL_BANK_SINGLE_BATCH_LIMIT = 250
+CENTRAL_BANK_BATCH_GROUPS = (
+    ("FED+RBA", ("FED", "RBA")),
+    ("BOE+BOJ", ("BOE", "BOJ")),
+    ("ECB", ("ECB",)),
+)
 
 WALLSTREETCN_SEARCH_URLS = [
     "https://api-one-wscn.awtmt.com/apiv1/search/article",
@@ -711,6 +732,10 @@ def build_user_prompt(
     )
 
 
+class GeminiOutputTruncatedError(RuntimeError):
+    """輸出被 maxOutputTokens 截斷；原封不動重送只會再截斷一次，不重試。"""
+
+
 def get_response_text(
     response_data: dict[str, Any],
 ) -> str:
@@ -857,11 +882,31 @@ def parse_gemini_json(
     return parsed
 
 
+def resolve_thinking_budget() -> int:
+    """thinking token 依 output 計價，預設壓低；設 -1 交還模型動態決定。"""
+    raw = normalize_text(os.environ.get("GEMINI_THINKING_BUDGET"))
+
+    if not raw:
+        return DEFAULT_THINKING_BUDGET
+
+    try:
+        return int(raw)
+    except ValueError:
+        print(
+            f"Invalid GEMINI_THINKING_BUDGET={raw!r}; "
+            f"falling back to {DEFAULT_THINKING_BUDGET}.",
+            file=sys.stderr,
+        )
+        return DEFAULT_THINKING_BUDGET
+
+
 def call_gemini(
     api_key: str,
     model: str,
     prompt: str,
     system_instruction: str = SYSTEM_INSTRUCTION,
+    response_schema: dict[str, Any] | None = None,
+    max_output_tokens: int = MAX_OUTPUT_TOKENS,
 ) -> tuple[dict[str, Any], dict[str, Any]]:
     endpoint = (
         f"{GEMINI_API_BASE_URL}/models/"
@@ -888,10 +933,22 @@ def call_gemini(
             "temperature": 0.1,
             "topP": 0.9,
             "candidateCount": 1,
-            "maxOutputTokens": MAX_OUTPUT_TOKENS,
+            "maxOutputTokens": max_output_tokens,
             "responseMimeType": "application/json",
         },
     }
+
+    thinking_budget = resolve_thinking_budget()
+
+    if thinking_budget >= 0:
+        request_body["generationConfig"]["thinkingConfig"] = {
+            "thinkingBudget": thinking_budget,
+        }
+
+    if response_schema is not None:
+        request_body["generationConfig"]["responseSchema"] = (
+            response_schema
+        )
 
     last_error: Exception | None = None
 
@@ -906,6 +963,26 @@ def call_gemini(
 
             if response.status_code == 200:
                 response_data = response.json()
+                candidates = response_data.get("candidates") or [{}]
+                finish_reason = normalize_text(
+                    candidates[0].get("finishReason")
+                    if isinstance(candidates[0], dict)
+                    else ""
+                )
+
+                if finish_reason == "MAX_TOKENS":
+                    truncated_usage = response_data.get(
+                        "usageMetadata",
+                        {},
+                    )
+                    raise GeminiOutputTruncatedError(
+                        "Gemini output hit maxOutputTokens "
+                        f"({max_output_tokens}); thinking used "
+                        f"{truncated_usage.get('thoughtsTokenCount', 0)} "
+                        "tokens. Reduce the batch size instead of "
+                        "resending the same request."
+                    )
+
                 response_text = get_response_text(response_data)
                 try:
                     result = parse_gemini_json(response_text)
@@ -947,6 +1024,9 @@ def call_gemini(
                 f"{response_text[:1000]}"
             )
 
+        except GeminiOutputTruncatedError:
+            # 重送相同 prompt 必定再次截斷，直接往上拋以免白燒一整輪 token。
+            raise
         except (
             requests.RequestException,
             json.JSONDecodeError,
@@ -1311,6 +1391,215 @@ def clean_central_bank_input(
     )
 
 
+def central_bank_item_date(item: dict[str, str]) -> str:
+    """clean_central_bank_input 寫入的 time 已是台北時間，前10碼即台灣日期。"""
+    return normalize_text(item.get("time"))[:10]
+
+
+def central_bank_date_fingerprint(source_ids: list[str]) -> str:
+    """同一天的輸入Headline集合指紋；集合沒變就不需要重新摘要。"""
+    joined = "|".join(sorted(source_ids))
+    return hashlib.sha256(joined.encode("utf-8")).hexdigest()[:32]
+
+
+def flatten_central_bank_talks(
+    digest: dict[str, Any],
+) -> list[dict[str, Any]]:
+    """把巢狀的央行Digest攤平成normalize可直接吃的talks陣列。"""
+    flattened: list[dict[str, Any]] = []
+    central_banks = digest.get("central_banks")
+
+    if not isinstance(central_banks, list):
+        return flattened
+
+    for bank in central_banks:
+        if not isinstance(bank, dict):
+            continue
+
+        bank_code = normalize_text(bank.get("central_bank")).upper()
+        officials = bank.get("officials")
+
+        if not bank_code or not isinstance(officials, list):
+            continue
+
+        for official in officials:
+            if not isinstance(official, dict):
+                continue
+
+            official_name = normalize_text(official.get("official"))
+            talks = official.get("talks")
+
+            if not official_name or not isinstance(talks, list):
+                continue
+
+            for talk in talks:
+                if not isinstance(talk, dict):
+                    continue
+
+                flattened.append(
+                    {
+                        "central_bank": bank_code,
+                        "official": official_name,
+                        "date": normalize_text(talk.get("date")),
+                        "summary_zh": normalize_text(
+                            talk.get("summary_zh")
+                        ),
+                        "topics": talk.get("topics", {}),
+                        "source_ids": talk.get("source_ids", []),
+                    }
+                )
+
+    return flattened
+
+
+def load_cached_central_bank_talks() -> list[dict[str, Any]]:
+    """
+    讀回先前已產生的央行談話，避免每天重付同一批摘要的token。
+
+    以digests/latest.json為主（那就是目前網頁顯示的狀態），
+    再用每日封存檔補上latest.json缺少的日期。
+    """
+    cached: dict[tuple[str, str, str], dict[str, Any]] = {}
+
+    latest = load_optional_json_object(
+        CENTRAL_BANK_LATEST_DIGEST_FILE
+    )
+
+    for talk in flatten_central_bank_talks(latest):
+        key = (
+            talk["central_bank"],
+            talk["official"],
+            talk["date"],
+        )
+        if talk["summary_zh"] and talk["date"]:
+            cached[key] = talk
+
+    covered_dates = {key[2] for key in cached}
+
+    for archive_file in sorted(
+        CENTRAL_BANK_DIGEST_DIRECTORY.glob("*/*/*.json")
+    ):
+        archive_date = archive_file.stem
+
+        if archive_date in covered_dates:
+            continue
+
+        archive = load_optional_json_object(archive_file)
+        archive_talks = archive.get("talks")
+
+        if not isinstance(archive_talks, list):
+            continue
+
+        for talk in archive_talks:
+            if not isinstance(talk, dict):
+                continue
+
+            bank_code = normalize_text(
+                talk.get("central_bank")
+            ).upper()
+            official_name = normalize_text(talk.get("official"))
+            talk_date = normalize_text(talk.get("date"))
+            summary = normalize_text(talk.get("summary_zh"))
+
+            if not (bank_code and official_name and talk_date and summary):
+                continue
+
+            cached[(bank_code, official_name, talk_date)] = {
+                "central_bank": bank_code,
+                "official": official_name,
+                "date": talk_date,
+                "summary_zh": summary,
+                "topics": talk.get("topics", {}),
+                "source_ids": talk.get("source_ids", []),
+            }
+
+    return list(cached.values())
+
+
+def select_central_bank_dates_to_generate(
+    items: list[dict[str, str]],
+    run_at: datetime,
+    has_cached_talks: bool,
+) -> tuple[set[str], dict[str, dict[str, Any]], str]:
+    """
+    決定哪些台灣日期需要重新送給Gemini。
+
+    重跑條件只有三種：
+    1. 環境變數要求整包重建；
+    2. 落在最近CENTRAL_BANK_RECHECK_DAYS天（讓晚到的Headline能補進當日摘要）；
+    3. 該日期的輸入Headline集合與上次處理時不同（含全新日期）。
+    """
+    force_full = normalize_text(
+        os.environ.get("CENTRAL_BANK_FULL_REBUILD")
+    ).lower() in {"1", "true", "yes"}
+
+    previous_state = load_optional_json_object(
+        CENTRAL_BANK_CACHE_STATE_FILE
+    )
+    previous_dates = previous_state.get("dates")
+
+    if not isinstance(previous_dates, dict):
+        previous_dates = {}
+
+    # 首次啟用增量模式時，既有的latest.json/封存檔就是「已處理」的結果，
+    # 直接沿用，否則第一次跑會白白重算整個90天。
+    bootstrapping = (
+        not previous_dates
+        and has_cached_talks
+        and not force_full
+    )
+
+    ids_by_date: dict[str, list[str]] = {}
+
+    for item in items:
+        taipei_date = central_bank_item_date(item)
+
+        if not taipei_date:
+            continue
+
+        ids_by_date.setdefault(taipei_date, []).append(item["id"])
+
+    recheck_floor = (
+        run_at.astimezone(TAIPEI_TIMEZONE).date()
+        - timedelta(days=CENTRAL_BANK_RECHECK_DAYS - 1)
+    ).strftime("%Y-%m-%d")
+
+    stale_dates: set[str] = set()
+    next_state: dict[str, dict[str, Any]] = {}
+
+    for taipei_date, source_ids in ids_by_date.items():
+        fingerprint = central_bank_date_fingerprint(source_ids)
+        next_state[taipei_date] = {
+            "fingerprint": fingerprint,
+            "input_count": len(source_ids),
+        }
+
+        if force_full or taipei_date >= recheck_floor:
+            stale_dates.add(taipei_date)
+            continue
+
+        known = previous_dates.get(taipei_date)
+
+        if isinstance(known, dict) and known.get(
+            "fingerprint"
+        ) == fingerprint:
+            continue
+
+        if bootstrapping:
+            continue
+
+        stale_dates.add(taipei_date)
+
+    if force_full:
+        mode = "full-rebuild (CENTRAL_BANK_FULL_REBUILD)"
+    elif bootstrapping:
+        mode = "bootstrap (adopting existing digest as cache)"
+    else:
+        mode = "incremental"
+
+    return stale_dates, next_state, mode
+
+
 def build_central_bank_prompt(
     items: list[dict[str, str]],
     bank_reference: list[dict[str, Any]],
@@ -1336,12 +1625,12 @@ def build_central_bank_prompt(
     ]
     group_label = "+".join(group_codes)
 
-    return f"""
-請整理以下央行群組（{group_label}）最近90天的官員Headline。
+    # 前半段（官員清單與輸出格式）每天都相同，放在最前面讓Gemini的
+    # implicit caching能命中；會變動的統計期間與輸入資料一律放到最後。
+    stable_prefix = f"""
+請整理央行群組（{group_label}）的官員Headline。
 只可輸出本批次包含的央行：{group_label}。
-統計期間：{period_start} 至 {period_end}
 時區：Asia/Taipei（GMT+8）
-輸入Headline數：{len(items)}
 
 官員正式姓名清單：
 {json.dumps(compact_reference, ensure_ascii=False, separators=(",", ":"))}
@@ -1358,10 +1647,17 @@ def build_central_bank_prompt(
     }}
   ]
 }}
+""".strip()
+
+    variable_suffix = f"""
+統計期間：{period_start} 至 {period_end}
+輸入Headline數：{len(items)}
 
 輸入資料：
 {json.dumps(items, ensure_ascii=False, separators=(",", ":"))}
 """.strip()
+
+    return stable_prefix + "\n\n" + variable_suffix
 
 
 def normalize_central_bank_digest(
@@ -1548,6 +1844,8 @@ def generate_central_bank_digest(
     )
     raw_items = read_json_list(CENTRAL_BANK_INPUT_FILE)
     items = clean_central_bank_input(raw_items, run_at)
+    # source_lookup 永遠保留完整90天，讓每筆談話的 source_headlines
+    # （含精確到秒的 time）不會因為增量處理而缺漏。
     source_lookup = {item["id"]: item for item in items}
 
     if not items:
@@ -1562,74 +1860,118 @@ def generate_central_bank_digest(
         )
         return empty_digest
 
-    batch_groups = (
-        ("FED+RBA", ("FED", "RBA")),
-        ("BOE+BOJ", ("BOE", "BOJ")),
-        ("ECB", ("ECB",)),
+    cached_talks = load_cached_central_bank_talks()
+    stale_dates, next_cache_state, mode = (
+        select_central_bank_dates_to_generate(
+            items=items,
+            run_at=run_at,
+            has_cached_talks=bool(cached_talks),
+        )
     )
-    period_start = format_taipei_time(
+
+    stale_items = [
+        item
+        for item in items
+        if central_bank_item_date(item) in stale_dates
+    ]
+
+    period_start = (
         run_at - timedelta(days=CENTRAL_BANK_LOOKBACK_DAYS)
-    )
-    period_end = format_taipei_time(run_at)
-    merged_talks: list[dict[str, Any]] = []
-    usage_by_batch: dict[str, dict[str, Any]] = {}
+    ).astimezone(TAIPEI_TIMEZONE).strftime("%Y-%m-%d")
+    period_end = run_at.astimezone(
+        TAIPEI_TIMEZONE
+    ).strftime("%Y-%m-%d")
 
     print("")
-    print("Generating grouped five-central-bank 90-day digest...")
-    print(f"Central bank headlines prepared: {len(items)}")
+    print(f"Central bank digest mode: {mode}")
+    print(f"Central bank headlines in 90d window: {len(items)}")
+    print(
+        f"Dates needing regeneration: {len(stale_dates)} "
+        f"({len(stale_items)} headlines)"
+    )
+    print(
+        f"Reused from cache without calling Gemini: "
+        f"{len(items) - len(stale_items)} headlines, "
+        f"{len(cached_talks)} existing talks"
+    )
 
-    for batch_name, bank_codes in batch_groups:
-        allowed_banks = set(bank_codes)
-        batch_items = [
-            item
-            for item in items
-            if item["central_bank"] in allowed_banks
-        ]
-        batch_reference = [
-            bank
-            for bank in bank_reference
-            if bank["central_bank"] in allowed_banks
-        ]
+    usage_by_batch: dict[str, dict[str, Any]] = {}
+    new_talks: list[dict[str, Any]] = []
 
-        print(
-            f"Central bank batch {batch_name} sent to Gemini: "
-            f"{len(batch_items)} headlines"
-        )
-
-        if not batch_items:
-            usage_by_batch[batch_name] = {}
-            continue
-
-        prompt = build_central_bank_prompt(
-            items=batch_items,
-            bank_reference=batch_reference,
-            period_start=period_start,
-            period_end=period_end,
-        )
-        batch_digest, batch_usage = call_gemini(
-            api_key=api_key,
-            model=model,
-            prompt=prompt,
-            system_instruction=CENTRAL_BANK_SYSTEM_INSTRUCTION,
-        )
-        batch_talks = batch_digest.get("talks", [])
-
-        if not isinstance(batch_talks, list):
-            raise RuntimeError(
-                f"Central bank batch {batch_name} returned invalid talks."
+    if stale_items:
+        for batch_name, batch_items, batch_reference in (
+            build_central_bank_batches(stale_items, bank_reference)
+        ):
+            print(
+                f"Central bank batch {batch_name} sent to Gemini: "
+                f"{len(batch_items)} headlines"
             )
 
-        merged_talks.extend(
-            talk for talk in batch_talks if isinstance(talk, dict)
-        )
-        usage_by_batch[batch_name] = (
-            batch_usage if isinstance(batch_usage, dict) else {}
-        )
+            prompt = build_central_bank_prompt(
+                items=batch_items,
+                bank_reference=batch_reference,
+                period_start=period_start,
+                period_end=period_end,
+            )
+            batch_digest, batch_usage = call_gemini(
+                api_key=api_key,
+                model=model,
+                prompt=prompt,
+                system_instruction=CENTRAL_BANK_SYSTEM_INSTRUCTION,
+            )
+            batch_talks = batch_digest.get("talks", [])
+
+            if not isinstance(batch_talks, list):
+                raise RuntimeError(
+                    f"Central bank batch {batch_name} returned invalid talks."
+                )
+
+            new_talks.extend(
+                talk for talk in batch_talks if isinstance(talk, dict)
+            )
+            usage_by_batch[batch_name] = (
+                batch_usage if isinstance(batch_usage, dict) else {}
+            )
+            batch_counts = record_gemini_usage(
+                step=f"central_bank:{batch_name}",
+                model=model,
+                usage_metadata=batch_usage,
+                run_at=run_at,
+                note=(
+                    f"{len(batch_items)} headlines, "
+                    f"{len(stale_dates)} dates"
+                ),
+            )
+            print(
+                format_usage_line(
+                    f"central_bank:{batch_name}",
+                    batch_counts,
+                )
+            )
+    else:
+        print("No central bank dates changed; skipping Gemini entirely.")
+
+    # 保留的快取談話 + 本次重算的日期，交給 normalize 做去重與驗證。
+    merged_talks = [
+        talk
+        for talk in cached_talks
+        if talk.get("date") not in stale_dates
+    ]
+    merged_talks.extend(new_talks)
 
     raw_digest = {"talks": merged_talks}
     usage = merge_central_bank_usage(usage_by_batch)
+    usage["incremental"] = {
+        "mode": mode,
+        "window_headline_count": len(items),
+        "regenerated_date_count": len(stale_dates),
+        "regenerated_headline_count": len(stale_items),
+        "reused_headline_count": len(items) - len(stale_items),
+        "reused_talk_count": len(merged_talks) - len(new_talks),
+        "regenerated_talk_count": len(new_talks),
+    }
 
-    return normalize_central_bank_digest(
+    digest = normalize_central_bank_digest(
         raw_digest=raw_digest,
         bank_reference=bank_reference,
         official_lookup=official_lookup,
@@ -1639,6 +1981,72 @@ def generate_central_bank_digest(
         usage=usage,
     )
 
+    write_json(
+        CENTRAL_BANK_CACHE_STATE_FILE,
+        {
+            "updated_at": format_taipei_time(run_at),
+            "model": model,
+            "lookback_days": CENTRAL_BANK_LOOKBACK_DAYS,
+            "recheck_days": CENTRAL_BANK_RECHECK_DAYS,
+            "mode": mode,
+            "dates": next_cache_state,
+        },
+    )
+
+    return digest
+
+
+def build_central_bank_batches(
+    items: list[dict[str, str]],
+    bank_reference: list[dict[str, Any]],
+) -> list[tuple[str, list[dict[str, str]], list[dict[str, Any]]]]:
+    """
+    決定要拆成幾次Gemini呼叫。
+
+    增量模式下每天通常只剩十幾則Headline，這時併成一次呼叫即可，
+    省下重複傳送官員清單與system instruction的成本；
+    只有整包重建這種大量輸入才退回原本的三批切法避免輸出超長。
+    """
+    if len(items) <= CENTRAL_BANK_SINGLE_BATCH_LIMIT:
+        present_banks = {item["central_bank"] for item in items}
+        batch_reference = [
+            bank
+            for bank in bank_reference
+            if bank["central_bank"] in present_banks
+        ]
+        label = "+".join(
+            bank["central_bank"] for bank in batch_reference
+        ) or "ALL"
+        return [(label, items, batch_reference)]
+
+    batches: list[
+        tuple[str, list[dict[str, str]], list[dict[str, Any]]]
+    ] = []
+
+    for batch_name, bank_codes in CENTRAL_BANK_BATCH_GROUPS:
+        allowed_banks = set(bank_codes)
+        batch_items = [
+            item
+            for item in items
+            if item["central_bank"] in allowed_banks
+        ]
+
+        if not batch_items:
+            continue
+
+        batches.append(
+            (
+                batch_name,
+                batch_items,
+                [
+                    bank
+                    for bank in bank_reference
+                    if bank["central_bank"] in allowed_banks
+                ],
+            )
+        )
+
+    return batches
 
 def load_optional_json_object(
     file_path: Path,
@@ -2047,6 +2455,15 @@ def main() -> int:
             model=model,
             prompt=prompt,
         )
+
+        digest_counts = record_gemini_usage(
+            step="daily_digest",
+            model=model,
+            usage_metadata=usage,
+            run_at=run_at,
+            note=f"{included_count} headlines",
+        )
+        print(format_usage_line("daily_digest", digest_counts))
 
         debug_output = build_selection_debug(
             raw_digest=raw_digest,
