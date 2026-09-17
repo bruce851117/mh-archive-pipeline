@@ -1,31 +1,17 @@
 {
   "title": "最近24小時全球市場重要新聞",
-  "period_start": "2026-09-17T07:01:17.971237+08:00",
-  "period_end": "2026-09-18T07:01:17.971237+08:00",
+  "period_start": "2026-09-17T07:40:47.223321+08:00",
+  "period_end": "2026-09-18T07:40:47.223321+08:00",
   "timezone": "Asia/Taipei",
-  "overview": "過去24小時全球市場焦點集中於中東戰事升級與主要央行貨幣政策分歧。中東方面，荷姆茲海峽通航量驟降，伊朗革命衛隊襲擊油輪引發火災，美國前總統川普直言面臨對伊重大決策，以色列則揚言推翻伊朗政權，地緣政治風險劇烈升溫。央行與政策端，英國央行維持利率於3.75%但內部鷹派票數增加，並示警能源衝擊推升通膨；歐洲央行官員亦警示通膨上行風險。財政方面，法國新政府釋出嚴格預算緊縮目標以控制赤字；日本新內閣則宣布兼顧經濟與財政重組，帶動日圓與日本國債殖利率波動。",
+  "overview": "過去24小時全球市場聚焦於中東戰局演變、主要央行利率決策與已開發國家財政動向。英國央行維持基準利率於3.75%不變，但內部出現3票支持升息的鷹派聲音，並上調通膨預期，預警中東衝突延長恐引發二次通膨效應。地緣政治方面，伊朗革命衛隊於荷姆茲海峽擊中多哥籍油輪，川普表示即將面臨對伊戰爭重大抉擇，且以色列總理重申推翻伊朗政權目標。財政端，法國總理勒科爾尼公布2027年財政緊縮計畫以控制預算赤字，日本首相高市早苗則強調負責任擴張性財政政策。科技股方面，輝達執行長重申晶片銷量翻倍展望，大型半導體與AI投資持續擴展。",
   "categories": [
     {
       "category": "債市",
       "news": [
         {
-          "importance_score": 4,
-          "headline_zh": "英國央行公布公債處置計畫，2,220億英鎊於2035年前到期債券將持有至到期",
-          "summary_zh": "英國央行公布量化緊縮（QT）細節，2,220億英鎊將持有至到期，另有1,200億英鎊超長天期公債用於支撐紙幣發行，行長貝利強調減持將漸進可預測。",
-          "event_time": "2026-09-17T19:00:30+08:00",
-          "source_id": "d6abea39639d2eabae646a06450a7a0c681db21acfa18fd2d38c84f18dab1b05",
-          "source_detail": {
-            "id": "d6abea39639d2eabae646a06450a7a0c681db21acfa18fd2d38c84f18dab1b05",
-            "time": "2026-09-17T19:00:30+08:00",
-            "headline": "BoE: £222B of notes maturing before 2035 to be held to maturity",
-            "link": "https://www.financialjuice.com/News/9767353/BoE-222B-of-notes-maturing-before-2035-to-be-held-to-maturity.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
           "importance_score": 3,
-          "headline_zh": "美國財政部標售190億美元10年期TIPS，得標利率升至2.653%",
-          "summary_zh": "美國財政部標售10年期通膨保值公債（TIPS），得標利率為2.653%，高於前次的2.438%，投標倍數微降至2.24倍。",
+          "headline_zh": "美國財政部標售190億美元10年期抗通膨債券，得標利率升至2.653%",
+          "summary_zh": "美國10年期TIPS標售得標利率達2.653%，高於前次的2.438%，投標倍數微降至2.24倍，實質利率走高。",
           "event_time": "2026-09-18T01:02:18+08:00",
           "source_id": "1a2430f444284b7bed4f1b446fa7859efcc27fd258c74a9069c2af50f4cb3d93",
           "source_detail": {
@@ -39,7 +25,7 @@
         {
           "importance_score": 3,
           "headline_zh": "美國30年期固定房貸利率攀升至6.95%，創2025年1月以來新高",
-          "summary_zh": "房地美（Freddie Mac）數據顯示，美國30年期固定房貸平均利率跳升至6.95%，顯示長天期借貸成本再度加劇房市負擔。",
+          "summary_zh": "房地美（Freddie Mac）數據顯示截至9月17日當週，美國30年期抵押貸款固定利率均值由前週6.76%升至6.95%。",
           "event_time": "2026-09-18T00:00:22+08:00",
           "source_id": "18f03c57a938890bb9f9259863cd1a66d74b4f3b691c65bea63504b7c3ad6cab",
           "source_detail": {
@@ -52,8 +38,36 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "法國3年期與4年期OAT公債標售得標殖利率顯著上升",
-          "summary_zh": "法國發行3年期與4年期國債（OAT），得標殖利率分別達3.59%與3.78%，較前次顯著攀升，反映歐洲債市殖利率承受上行壓力。",
+          "headline_zh": "英國央行總督貝利強調國債減持計畫將循序漸進且具可預測性",
+          "summary_zh": "貝利（Andrew Bailey）表示英國國債（Gilt）縮減將按計畫平穩推進，避免對公債市場造成不必要的擾動。",
+          "event_time": "2026-09-17T19:03:11+08:00",
+          "source_id": "a4ab99b58b81d5ba66273775bcc1a9d6852633f45ac8b718e4b9517f6d1eda1b",
+          "source_detail": {
+            "id": "a4ab99b58b81d5ba66273775bcc1a9d6852633f45ac8b718e4b9517f6d1eda1b",
+            "time": "2026-09-17T19:03:11+08:00",
+            "headline": "BoE Gov. Bailey: Gilt plan to take place gradually, predictably",
+            "link": "https://www.financialjuice.com/News/9767388/BoE-Gov-Bailey-Gilt-plan-to-take-place-gradually-predictably.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "英國央行宣布2035年前到期的2,220億英鎊國債將持有至到期",
+          "summary_zh": "英國央行（BoE）公布資產負債表縮減計畫細節，確認規模2,220億英鎊於2035年前到期的公債將持有至到期以平穩縮表。",
+          "event_time": "2026-09-17T19:00:30+08:00",
+          "source_id": "d6abea39639d2eabae646a06450a7a0c681db21acfa18fd2d38c84f18dab1b05",
+          "source_detail": {
+            "id": "d6abea39639d2eabae646a06450a7a0c681db21acfa18fd2d38c84f18dab1b05",
+            "time": "2026-09-17T19:00:30+08:00",
+            "headline": "BoE: £222B of notes maturing before 2035 to be held to maturity",
+            "link": "https://www.financialjuice.com/News/9767353/BoE-222B-of-notes-maturing-before-2035-to-be-held-to-maturity.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "法國3年期與4年期國債標售得標殖利率顯著上升",
+          "summary_zh": "法國發行3年期OAT得標殖利率為3.59%（前值3.17%），4年期得標殖利率為3.78%（前值2.99%），融資成本明顯攀升。",
           "event_time": "2026-09-17T16:57:28+08:00",
           "source_id": "a16ab1dc89332e484566cdbe9a7d93668edc440c36a7ba0349c5e44432341203",
           "source_detail": {
@@ -66,8 +80,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "日本全國銀行協會會長預期日本國債殖利率將進一步攀升",
-          "summary_zh": "日本銀行業協會會長加藤表示，日本國債（JGB）殖利率很可能進一步走高，貨幣環境仍寬鬆。",
+          "headline_zh": "全日本銀行協會會長預期日本公債殖利率將進一步上升",
+          "summary_zh": "全日本銀行協會（JBA）會長指出日本公債（JGB）殖利率很可能進一步攀升，反映貨幣政策正常化預期。",
           "event_time": "2026-09-17T14:08:26+08:00",
           "source_id": "46caa5a577c681b502d06208a58f3ae21535da5f977fb7c4bd198128f231ff72",
           "source_detail": {
@@ -80,8 +94,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "南韓財政部長密切監控公債市場，預期波動將持續",
-          "summary_zh": "南韓財長表示當局正在嚴密監控本地債市，預計市場波動將會延續，必要時將祭出穩定措施。",
+          "headline_zh": "韓國財政部長表示正密切關注本地債券市場，預計波動將持續",
+          "summary_zh": "南韓財政部對本地債券市場保持高度警戒，指出市場波動性短期內仍將維持高檔，必要時將採行穩定措施。",
           "event_time": "2026-09-17T08:41:26+08:00",
           "source_id": "42e48b02b18350b1ab7ca1528b432d8b0e5a698d6bac72bd4b377debbf139701",
           "source_detail": {
@@ -99,8 +113,8 @@
       "news": [
         {
           "importance_score": 4,
-          "headline_zh": "輝達執行長黃仁勳預告明年AI晶片銷量將翻倍",
-          "summary_zh": "輝達（Nvidia）執行長黃仁勳表示，市場對次世代運算需求持續強勁，預期明年AI晶片銷量將達到今年的兩倍。",
+          "headline_zh": "輝達執行長黃仁勳預告明年晶片銷售量將比今年翻倍",
+          "summary_zh": "輝達執行長黃仁勳（Jensen Huang）公開表示，預期明年輝達售出的晶片數量將達到今年的兩倍，突顯AI基礎設施需求依然強勁。",
           "event_time": "2026-09-17T20:33:19+08:00",
           "source_id": "f5863b7a1691ec62cc384a6d68b589a323e57edf4d42ca9285b7a1deee4a1106",
           "source_detail": {
@@ -113,8 +127,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "OpenAI、輝達及高通執行長將出席川普與習近平國宴",
-          "summary_zh": "媒體報導多家美國重量級科技巨頭（OpenAI、Nvidia、Qualcomm）高層獲邀出席美中元首峰會晚宴，科技與半導體政策引發關注。",
+          "headline_zh": "輝達與OpenAI高層將受邀出席川普及習近平國宴",
+          "summary_zh": "ABC報導輝達與OpenAI執行長將受邀出席美中元首國宴，顯示科技與AI監管已成為大國地緣博弈的核心焦點。",
           "event_time": "2026-09-18T01:34:31+08:00",
           "source_id": "190cb007e3dc918caf70b400d6206620868f1fcaf5a108f1158bc0c1d14b90b9",
           "source_detail": {
@@ -127,8 +141,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "輝達承諾向Brookfield人工智慧基礎設施基金注資20億美元",
-          "summary_zh": "輝達宣布向資產管理巨頭Brookfield旗下的AI基金投資20億美元，以確保電力與資料中心等關鍵基建設施擴建。",
+          "headline_zh": "輝達承諾向Brookfield AI基金投資20億美元",
+          "summary_zh": "輝達宣布向博楓（Brookfield）旗下的AI專項投資基金注資20億美元，進一步擴大在AI資料中心與算力基礎設施的生態布局。",
           "event_time": "2026-09-18T00:55:43+08:00",
           "source_id": "87a7153dea47a81cdcbfddf3f9b96f7225d73673b0a717fa84aefa0b106b09da",
           "source_detail": {
@@ -141,8 +155,22 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "美日敲定5,500億美元投資計畫框架，擬投入數兆日圓在美建晶片廠",
-          "summary_zh": "日經報導指出美日正協商大規模投資協議，日本企業預計投入數兆日圓於美國本土興建先進晶片製造廠。",
+          "headline_zh": "微軟、Marvell與UTIMACO聯手推出業界首創雲端級安全支付方案",
+          "summary_zh": "微軟（Microsoft）、邁威爾（Marvell）與UTIMACO合作，打造業界首個高安全性且具備雲端擴展能力的支付架構解決方案。",
+          "event_time": "2026-09-17T21:01:06+08:00",
+          "source_id": "a74851f1be8fc0232540017631e33d5180ae4b20d0f52e0819aef7a47f347ebb",
+          "source_detail": {
+            "id": "a74851f1be8fc0232540017631e33d5180ae4b20d0f52e0819aef7a47f347ebb",
+            "time": "2026-09-17T21:01:06+08:00",
+            "headline": "Microsoft, Marvell and UTIMACO to deliver industry-first secure, cloud-scale payments solution. $MSFT",
+            "link": "https://www.financialjuice.com/News/9767567/Microsoft-Marvell-and-UTIMACO-to-deliver-industry-first-secure-cloud-scale-payments-solution-MSFT.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "美日敲定5,500億美元投資計畫框架，商討數兆日圓赴美晶片廠建設",
+          "summary_zh": "日經報導美日正就規模5,500億美元的投資計畫進行談判，其中包括日本赴美投資數兆日圓設立先進晶圓製造廠。",
           "event_time": "2026-09-17T14:05:07+08:00",
           "source_id": "f3aaeae25d5a2f4b419df38ea04e273f70cb92b13b8a3f528b8ad21260aaf69a",
           "source_detail": {
@@ -155,8 +183,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "美光科技執行長透露明年將在印度封測數億顆晶片",
-          "summary_zh": "美光（Micron）執行長表示，公司正擴大非美及全球供應鏈多元化，預計明年將在印度進行數億顆半導體晶片的組裝與測試。",
+          "headline_zh": "美光執行長透露明年將在印度封裝測試數億顆晶片",
+          "summary_zh": "美光（Micron）執行長表示公司規劃於明年在印度設施組裝並測試數億顆晶片，加速供應鏈多元化轉移。",
           "event_time": "2026-09-17T13:19:53+08:00",
           "source_id": "53d0b4d6cf414ebed3530779b667db857eaa336cfc2d8973158b3e8950f6abb1",
           "source_detail": {
@@ -169,8 +197,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "Snap攜手輝達、AWS與微軟夥伴將AR眼鏡導入工作場所",
-          "summary_zh": "Snap宣布與Salesforce、AWS、Nvidia等科技巨頭合作，推動擴增實境（AR）眼鏡應用於企業辦公場景。",
+          "headline_zh": "Snap與AWS、輝達等合作推動企業級AR眼鏡整合",
+          "summary_zh": "Snap宣布與Salesforce、AWS、輝達（Nvidia）、Trifork等科技大廠合作，將AR智慧眼鏡技術導入工作辦公場景。",
           "event_time": "2026-09-17T07:40:03+08:00",
           "source_id": "951e2db635e587608bb018d9a86e717431c0bb7720427be1bba76cdd1d4201af",
           "source_detail": {
@@ -188,8 +216,8 @@
       "news": [
         {
           "importance_score": 5,
-          "headline_zh": "英國央行維持基準利率於3.75%不變，三名委員票決支持升息至4.0%",
-          "summary_zh": "英國央行貨幣政策委員會以6比3將政策利率維持在3.75%，首席經濟學家Pill、Greene及Mann投票主張升息1碼；央行調升2026年底通膨預測至3.75%。",
+          "headline_zh": "英國央行維持基準利率於3.75%，決策小組出現3票支持升息至4%",
+          "summary_zh": "英國央行貨幣政策委員會（MPC）以6比3維持利率於3.75%不變，但首席經濟學家皮爾（Huw Pill）、格林（Megan Greene）與曼恩（Catherine Mann）投票支持升息至4.0%。",
           "event_time": "2026-09-17T19:00:01+08:00",
           "source_id": "6ed7973fef538228f2f339ac0d7207649d63e80a541169316d833d9b3384e019",
           "source_detail": {
@@ -202,8 +230,8 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "英國央行行長貝利警告中東衝突若延長恐被迫重啟升息",
-          "summary_zh": "英國央行行長貝利（Andrew Bailey）直言，若中東戰事延續導致能源價格衝擊與二次通膨風險擴大，央行政策可能將不得不再次緊縮。",
+          "headline_zh": "英國央行總督貝利警告若中東衝突持續，央行可能必須進一步緊縮政策",
+          "summary_zh": "貝利警告中東衝突若如預期般長期化並提高二次通膨效應風險，貨幣政策將不得不重新轉向緊縮收緊路徑。",
           "event_time": "2026-09-17T19:02:24+08:00",
           "source_id": "b52b3365e1b5dd3833976d710742851fc04af2d2295412f8b13611c5425a15d8",
           "source_detail": {
@@ -216,36 +244,64 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "日本財務大臣片山皋月表態致力推動美日聯合干預以因應匯率劇烈波動",
-          "summary_zh": "日本財務大臣片山皋月（Satsuki Katayama）表示，官方正與美財政部保持密切溝通，並承諾透過啟動美日聯合干預行動以打擊極端外匯波動。",
-          "event_time": "2026-09-17T11:38:41+08:00",
-          "source_id": "fb21216779975f5dda36c780fbe34226c7c80e384ec9285923b86bcca628553e",
+          "headline_zh": "英國央行上調通膨預測，預估2026年底通膨將達3.75%",
+          "summary_zh": "英國央行因能源走勢與地緣政治衝擊上調中期物價預期，預測通膨於2026年底將升至3.75%，通膨風險顯著向上傾斜。",
+          "event_time": "2026-09-17T19:01:37+08:00",
+          "source_id": "027607a7ec74fdb21b6587fe4d255b76d4b9ead12162eada5e85181c63570383",
           "source_detail": {
-            "id": "fb21216779975f5dda36c780fbe34226c7c80e384ec9285923b86bcca628553e",
-            "time": "2026-09-17T11:38:41+08:00",
-            "headline": "Japan finance minister Katayama: we are committed to tackling extreme volatility with launch of Japan-U.S. joint intervention",
-            "link": "https://www.financialjuice.com/News/9766788/Japan-finance-minister-Katayama-we-are-committed-to-tackling-extreme-volatility-with-launch-of-Japan-US-joint-intervention.aspx?xy=rss",
+            "id": "027607a7ec74fdb21b6587fe4d255b76d4b9ead12162eada5e85181c63570383",
+            "time": "2026-09-17T19:01:37+08:00",
+            "headline": "BoE revises up inflation outlook, sees 3.75% by end of 2026",
+            "link": "https://www.financialjuice.com/News/9767380/BoE-revises-up-inflation-outlook-sees-375-by-end-of-2026.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 4,
-          "headline_zh": "川普表示對聯準會主席華許維持信心，重申期望其維持政策獨立性",
-          "summary_zh": "川普受訪時對聯準會（Fed）主席華許（Kevin Warsh）表達信任，希望其維持獨立運作，同時批評理事會存在對抗性氛圍。",
-          "event_time": "2026-09-17T07:10:22+08:00",
-          "source_id": "b20272f9c8e9f498ebcb373739c026d6b00728247fab9bc1d47b760eaa2aea44",
+          "headline_zh": "歐洲央行管委雷恩指出中東衝突恐演變為持久戰，對通膨展望增添變數",
+          "summary_zh": "芬蘭央行行長雷恩（Olli Rehn）表示中東戰局似將長期化，雖然先前升息合理且暫無二次效應，但外生衝擊已改變通膨形勢。",
+          "event_time": "2026-09-17T18:08:43+08:00",
+          "source_id": "e13d979a21eb88c2a9e3cb26bd67cb84aba0ac78a6f07bd43cf20d5817fc9d58",
           "source_detail": {
-            "id": "b20272f9c8e9f498ebcb373739c026d6b00728247fab9bc1d47b760eaa2aea44",
-            "time": "2026-09-17T07:10:22+08:00",
-            "headline": "Trump: retains confidence in Fed Chair Warsh",
-            "link": "https://www.financialjuice.com/News/9766488/Trump-retains-confidence-in-Fed-Chair-Warsh.aspx?xy=rss",
+            "id": "e13d979a21eb88c2a9e3cb26bd67cb84aba0ac78a6f07bd43cf20d5817fc9d58",
+            "time": "2026-09-17T18:08:43+08:00",
+            "headline": "ECB's Rehn: Middle-east conflict looks like it will be protracted",
+            "link": "https://www.financialjuice.com/News/9767268/ECBs-Rehn-Middle-east-conflict-looks-like-it-will-be-protracted.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "香港金管局警告美港利差擴大恐引發套利交易並壓迫港元匯率",
+          "summary_zh": "香港金融管理局總裁表示，港美利差持續擴大可能誘發利差交易，促使港元匯率向弱方兌換保證區間靠攏。",
+          "event_time": "2026-09-17T09:09:42+08:00",
+          "source_id": "50ba20864832d685c306a6b7af7aa89aa7c7a405293be07718f48fc34415b182",
+          "source_detail": {
+            "id": "50ba20864832d685c306a6b7af7aa89aa7c7a405293be07718f48fc34415b182",
+            "time": "2026-09-17T09:09:42+08:00",
+            "headline": "Hong Kong Monetary Authority chief executive: widening interest rate gap with US could trigger carry trade, pushing HK dollar exchange rate toward weaker side of band",
+            "link": "https://www.financialjuice.com/News/9766593/Hong-Kong-Monetary-Authority-chief-executive-widening-interest-rate-gap-with-US-could-trigger-carry-trade-pushing-HK-dollar-exchange-rate-toward-weaker-side-of-band.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 3,
-          "headline_zh": "渣打銀行修正預測，預期聯準會今年12月將升息1碼",
-          "summary_zh": "渣打銀行（Standard Chartered）改變原先預估今年利率不變的立場，預測受制於通膨與經濟韌性，聯準會將於12月升息25個基點。",
+          "headline_zh": "摩根大通預期英國央行將於2027年2月升息25個基點",
+          "summary_zh": "摩根大通大幅轉向，將原先預估英國央行2027年降息兩次的預測，調整為預期2027年2月升息25個基點以抑制通膨。",
+          "event_time": "2026-09-17T23:19:23+08:00",
+          "source_id": "16bcc169114073ac083f206ea77a29d1edd1033ae5b21c8a6a8ce619327c5a35",
+          "source_detail": {
+            "id": "16bcc169114073ac083f206ea77a29d1edd1033ae5b21c8a6a8ce619327c5a35",
+            "time": "2026-09-17T23:19:23+08:00",
+            "headline": "JP Morgan expects BoE to hike interest rates by 25 bp in February 2027 vs prior forecast of two rate cuts in 2027",
+            "link": "https://www.financialjuice.com/News/9767775/JP-Morgan-expects-BoE-to-hike-interest-rates-by-25-bp-in-February-2027-vs-prior-forecast-of-two-rate-cuts-in-2027.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "渣打銀行調整聯準會路徑預測，預期今年12月將升息25個基點",
+          "summary_zh": "渣打銀行發布研究報告，撤回原先預期今年利率不變的預測，轉為預期美國聯準會（Fed）將在2026年12月會議升息1碼。",
           "event_time": "2026-09-17T20:58:08+08:00",
           "source_id": "4bb34da487d44da6c16742cd73e061bec87a1354922579e645966a68aa3b3b74",
           "source_detail": {
@@ -258,22 +314,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "歐洲央行官員Rehn認為上週升息合理，中東戰局拉長正衝擊通膨展望",
-          "summary_zh": "ECB管委Rehn表示上週升息決策具充分依據，並示警地緣政治衝突長期化使歐洲整體通膨與經濟前景趨於複雜。",
-          "event_time": "2026-09-17T18:29:27+08:00",
-          "source_id": "b3f17a416a43aea78b0e0716cbbd7d1edb66ebf9b4da1ceebd3e06b2be8e00fc",
-          "source_detail": {
-            "id": "b3f17a416a43aea78b0e0716cbbd7d1edb66ebf9b4da1ceebd3e06b2be8e00fc",
-            "time": "2026-09-17T18:29:27+08:00",
-            "headline": "ECB's Rehn: ECB rate hike last week was warranted",
-            "link": "https://www.financialjuice.com/News/9767284/ECBs-Rehn-ECB-rate-hike-last-week-was-warranted.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "歐洲央行官員Makhlouf表示通膨風險依然偏向上行，未來決策不排除任何可能",
-          "summary_zh": "歐洲央行（ECB）管委Makhlouf指出，雖然目前尚未見到令人擔憂的第二輪效應，但通膨上行風險未消，不排除後續會議採取行動。",
+          "headline_zh": "歐洲央行管委Makhlouf指出通膨上行風險仍在，不排除未來任何升息可能",
+          "summary_zh": "愛爾蘭央行行長兼ECB管委Makhlouf表示，雖然目前未見顯著的二次效應，但通膨上行風險未消，後續政策會議保有所有升息選項。",
           "event_time": "2026-09-17T15:47:22+08:00",
           "source_id": "93bd7813be60f1ca5d2b52d44e0da097cf28f4f9fdbe6513573260cb5b31847e",
           "source_detail": {
@@ -286,15 +328,29 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "香港金管局警告美港利差擴大恐引發套利交易並壓迫港元匯率",
-          "summary_zh": "香港金管局總裁指出，若與美聯準會利差進一步擴大，利差套利交易可能促使港元匯價滑向弱方兌換保證區間。",
-          "event_time": "2026-09-17T09:09:42+08:00",
-          "source_id": "50ba20864832d685c306a6b7af7aa89aa7c7a405293be07718f48fc34415b182",
+          "headline_zh": "全銀協加藤表示日本政策利率仍屬寬鬆，預期日銀將進一步升息",
+          "summary_zh": "全銀協代表加藤指出，目前日本實質與名目利率水準依舊具高度調節性，預計日本央行（BOJ）將繼續穩步推進升息週期。",
+          "event_time": "2026-09-17T14:42:17+08:00",
+          "source_id": "e8c8b684a6c8268474a31d3889480a77287b7be67e7027533621673e8d9bd2db",
           "source_detail": {
-            "id": "50ba20864832d685c306a6b7af7aa89aa7c7a405293be07718f48fc34415b182",
-            "time": "2026-09-17T09:09:42+08:00",
-            "headline": "Hong Kong Monetary Authority chief executive: widening interest rate gap with US could trigger carry trade, pushing HK dollar exchange rate toward weaker side of band",
-            "link": "https://www.financialjuice.com/News/9766593/Hong-Kong-Monetary-Authority-chief-executive-widening-interest-rate-gap-with-US-could-trigger-carry-trade-pushing-HK-dollar-exchange-rate-toward-weaker-side-of-band.aspx?xy=rss",
+            "id": "e8c8b684a6c8268474a31d3889480a77287b7be67e7027533621673e8d9bd2db",
+            "time": "2026-09-17T14:42:17+08:00",
+            "headline": "JBA's Kato: Rate still accommodative, expect more hikes",
+            "link": "https://www.financialjuice.com/News/9766993/JBAs-Kato-Rate-still-accommodative-expect-more-hikes.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "中國央行透過公開市場逆回購操作注入7,620億元流動性",
+          "summary_zh": "中國人民銀行（PBOC）開展1,620億元7天期逆回購（利率維持1.40%）及6,000億元隔夜逆回購，維護銀行體系流動性合理充裕。",
+          "event_time": "2026-09-17T09:20:54+08:00",
+          "source_id": "4a08413217cf0d72dfba28e689b9201950b63c935ce431f977d377bb78909ce7",
+          "source_detail": {
+            "id": "4a08413217cf0d72dfba28e689b9201950b63c935ce431f977d377bb78909ce7",
+            "time": "2026-09-17T09:20:54+08:00",
+            "headline": "China c.bank injects 162 bln yuan through 7-day reverse repos at 1.40% vs previous 1.40%: statement",
+            "link": "https://www.financialjuice.com/News/9766612/China-cbank-injects-162-bln-yuan-through-7-day-reverse-repos-at-140-vs-previous-140-statement.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -305,8 +361,8 @@
       "news": [
         {
           "importance_score": 4,
-          "headline_zh": "法國政府設定2027年赤字降至5%目標，承諾不推動全面加稅",
-          "summary_zh": "法國總理明確規劃2026年赤字低於5.5%、2027年壓至5.0%目標，將縮減對大型企業的一次性稅收至50億歐元，並承諾不會擴大增稅。",
+          "headline_zh": "法國設定2026年赤字率低於5.5%、2027年降至5%目標",
+          "summary_zh": "法國總理明確規劃中期財政整頓路徑，目標將2026年預算赤字壓縮至GDP的5.5%以內，並於2027年進一步收窄至5.0%。",
           "event_time": "2026-09-18T00:29:18+08:00",
           "source_id": "6b8a3ecd3e78f782d0346cf3aa51f9a47de922e8e6ae371f03ae7ce0bffb59cd",
           "source_detail": {
@@ -319,22 +375,22 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "法國總理勒科爾尼公布2027年預算緊縮540億歐元計畫，力抗債務利息激增",
-          "summary_zh": "法國總理勒科爾尼（Sebastien Lecornu）表示，利率上升使法國債務利息支出激增100億歐元，若不實施540億歐元的預算調整，2027年預算赤字率將衝破GDP的6.5%。",
-          "event_time": "2026-09-17T22:47:26+08:00",
-          "source_id": "b17c628e5fcc41da94ab80455249ae0928c642e41b0422f501de848830c1e0e5",
+          "headline_zh": "法國總理勒科爾尼警告若無整頓措施2027年財政赤字將突破GDP的6.5%",
+          "summary_zh": "法國總理勒科爾尼（Sébastien Lecornu）向媒體表示，高利率使債務利息支出增加百億歐元，若不實施540億歐元緊縮整頓，赤字將嚴重失控。",
+          "event_time": "2026-09-17T22:52:15+08:00",
+          "source_id": "65e64b73b3b8ff4d61742f06e523d54efb403c153c2d75e22550363b5b4326f1",
           "source_detail": {
-            "id": "b17c628e5fcc41da94ab80455249ae0928c642e41b0422f501de848830c1e0e5",
-            "time": "2026-09-17T22:47:26+08:00",
-            "headline": "French PM sees budgetary effort of around €54b for 2027 - Le Figaro",
-            "link": "https://www.financialjuice.com/News/9767728/French-PM-sees-budgetary-effort-of-around-54b-for-2027---Le-Figaro.aspx?xy=rss",
+            "id": "65e64b73b3b8ff4d61742f06e523d54efb403c153c2d75e22550363b5b4326f1",
+            "time": "2026-09-17T22:52:15+08:00",
+            "headline": "French PM Lecornu: Without corrective measures the 2027 budget deficit would exceed 6.5% of GDP",
+            "link": "https://www.financialjuice.com/News/9767731/French-PM-Lecornu-Without-corrective-measures-the-2027-budget-deficit-would-exceed-65-of-GDP.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 4,
-          "headline_zh": "日本首相高市早苗承諾推行負責任的擴張性財政政策，明定不依賴赤字國債",
-          "summary_zh": "日本首相高市早苗（Sanae Takaichi）就任後宣布開啟積極財政首年，強調刺激薪資與經濟良性循環，並強調針對食品消費稅減稅將有具體財源，絕不依賴赤字公債。",
+          "headline_zh": "日本首相高市早苗宣示啟動積極財政元年，強調實施負責任擴張政策",
+          "summary_zh": "日本首相高市早苗召開記者會宣布新內閣方向，確立今年為積極財政元年，將推動負責任的擴張性財政以刺激薪資與稅收良性循環。",
           "event_time": "2026-09-17T17:48:16+08:00",
           "source_id": "efe43706b87caa529179c71b061c9e4598d814044e064e21cd9f2588dc7d7d2d",
           "source_detail": {
@@ -347,8 +403,8 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "英國財政部將向歐盟提出建立經貿關係重置協議談判",
-          "summary_zh": "金融時報披露，英國財政官員即將向歐盟同行釋放訊號，尋求在脫歐後就部分市場準入與貿易框架進行重新協商（Reset deal）。",
+          "headline_zh": "英國財相將向歐盟釋出信號，願就經濟重置協議展開談判",
+          "summary_zh": "金融時報報導，英國財政大臣將於週五向歐盟財長釋放信號，表明倫敦當局對就脫歐後雙邊經濟夥伴關係展開重置談判持開放立場。",
           "event_time": "2026-09-18T05:03:09+08:00",
           "source_id": "0c6313c6fafe2999490b5ce36ee1df3b2fe78789d674712670690bb9bdb60a8b",
           "source_detail": {
@@ -361,15 +417,43 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "日本經濟大臣木內強調兼顧穩健經濟與財政永續性，拒絕魯莽擴張",
-          "summary_zh": "日本經濟大臣木內（Kiuchi）表示新內閣將致力於安撫金融市場疑慮，絕不採取魯莽的財政赤字擴張路線。",
-          "event_time": "2026-09-17T12:32:09+08:00",
-          "source_id": "576bd453963e12716ee1db9628c251df87242a89863ce0546d4559d50462e67b",
+          "headline_zh": "高市早苗保證食品消費稅減稅不會依賴赤字國債融資",
+          "summary_zh": "高市首相承諾，調降食品銷售稅所需財源已有具體籌措規劃，絕不會透過增發赤字公債來融通該項減稅措施。",
+          "event_time": "2026-09-17T18:08:52+08:00",
+          "source_id": "497c203d74c70ae6df96048d226e966792ce324803da55c0657ebc25f002d1cc",
           "source_detail": {
-            "id": "576bd453963e12716ee1db9628c251df87242a89863ce0546d4559d50462e67b",
-            "time": "2026-09-17T12:32:09+08:00",
-            "headline": "Japan economy minister Kiuchi: aim to balance robust economy with fiscal sustainability",
-            "link": "https://www.financialjuice.com/News/9766862/Japan-economy-minister-Kiuchi-aim-to-balance-robust-economy-with-fiscal-sustainability.aspx",
+            "id": "497c203d74c70ae6df96048d226e966792ce324803da55c0657ebc25f002d1cc",
+            "time": "2026-09-17T18:08:52+08:00",
+            "headline": "Japan's PM Takaichi: Won't rely on deficit-financing bonds to fund food sales tax cut, we have prospects for funding resources",
+            "link": "https://www.financialjuice.com/News/9767269/Japans-PM-Takaichi-Wont-rely-on-deficit-financing-bonds-to-fund-food-sales-tax-cut-we-have-prospects-for-funding-resources.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "日本經濟再生相木內表示不會盲目擴張財政，力求經濟與永續性平衡",
+          "summary_zh": "木內留任經濟大臣後表態，政府不會採取魯莽的財政擴張路線，旨在徹底消除市場對財政失控與主權評級的疑慮。",
+          "event_time": "2026-09-17T12:35:06+08:00",
+          "source_id": "60533c17e7ea0bfdcda659e6c14231472752706ae52d85f845001e18302ae12b",
+          "source_detail": {
+            "id": "60533c17e7ea0bfdcda659e6c14231472752706ae52d85f845001e18302ae12b",
+            "time": "2026-09-17T12:35:06+08:00",
+            "headline": "Japan economy minister Kiuchi: won’t pursue reckless fiscal expansion",
+            "link": "https://www.financialjuice.com/News/9766865/Japan-economy-minister-Kiuchi-wont-pursue-reckless-fiscal-expansion.aspx",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "日本財務大臣片山皋月承諾嚴格審核預算以維持國債市場信任",
+          "summary_zh": "片山皋月在留任財務相後表示，將嚴密審核概算要求並妥善管理公債發行規模，以維護市場對日本財政紀律的信賴。",
+          "event_time": "2026-09-17T11:37:42+08:00",
+          "source_id": "1c8c7aa40e23d8cfbb19ad83d860b154b97619569d605bbf88e862a29cd0e093",
+          "source_detail": {
+            "id": "1c8c7aa40e23d8cfbb19ad83d860b154b97619569d605bbf88e862a29cd0e093",
+            "time": "2026-09-17T11:37:42+08:00",
+            "headline": "Japan finance minister Katayama: will review budget requests, manage debt issuance to maintain market trust",
+            "link": "https://www.financialjuice.com/News/9766787/Japan-finance-minister-Katayama-will-review-budget-requests-manage-debt-issuance-to-maintain-market-trust.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -379,23 +463,9 @@
       "category": "經濟",
       "news": [
         {
-          "importance_score": 3,
-          "headline_zh": "南韓8月生產者物價指數（PPI）年增率攀升至7.9%",
-          "summary_zh": "南韓最新公布8月PPI年增率達7.9%，較前月7.7%再度攀高，彰顯進口能源及原物料通膨向製造業傳遞。",
-          "event_time": "2026-09-18T05:00:00+08:00",
-          "source_id": "c06f2dbbf31e6b39bdd50963694c0f94b9aeff340b3805bf68c31e663820563b",
-          "source_detail": {
-            "id": "c06f2dbbf31e6b39bdd50963694c0f94b9aeff340b3805bf68c31e663820563b",
-            "time": "2026-09-18T05:00:00+08:00",
-            "headline": "S. Korean PPI YoY Actual 7.9% (Forecast -, Previous 7.7%)",
-            "link": "https://www.financialjuice.com/News/9768115/S-Korean-PPI-YoY-Actual-79-Forecast---Previous-77.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "川普表示美墨兩國極度接近敲定雙邊貿易協定",
-          "summary_zh": "川普與墨西哥總統薛恩鮑姆（Claudia Sheinbaum）均表態，美墨兩國針對貿易與關稅談判取得重大進展，協議已接近完成。",
+          "importance_score": 4,
+          "headline_zh": "川普與墨西哥總統薛恩鮑姆接近達成雙邊貿易協定",
+          "summary_zh": "Politico報導，美國總統川普與墨西哥總統薛恩鮑姆（Claudia Sheinbaum）就邊境與關稅貿易問題取得實質突破，即將達成協議。",
           "event_time": "2026-09-18T02:13:07+08:00",
           "source_id": "3fc3daf2751b8f93bc0a4d82cea42862232d2da47cba63a927bcc8b8a78cfa4a",
           "source_detail": {
@@ -407,51 +477,9 @@
           }
         },
         {
-          "importance_score": 3,
-          "headline_zh": "加拿大8月工業品生產者物價指數（PPI）年增大幅飆升至13.5%",
-          "summary_zh": "加拿大官方數據顯示，8月PPI年增率從12.4%進一步衝高至13.5%，原材料物價月增3.1%，上游大宗商品與生產成本通膨嚴峻。",
-          "event_time": "2026-09-17T20:30:17+08:00",
-          "source_id": "9d4092e9295bc4d3b846b18b7d51ffbbad3e85b50c5991aa0c6d957a98941498",
-          "source_detail": {
-            "id": "9d4092e9295bc4d3b846b18b7d51ffbbad3e85b50c5991aa0c6d957a98941498",
-            "time": "2026-09-17T20:30:17+08:00",
-            "headline": "Canadian PPI YoY Actual 13.5% (Forecast -, Previous 12.4%)",
-            "link": "https://www.financialjuice.com/News/9767508/Canadian-PPI-YoY-Actual-135-Forecast---Previous-124.aspx",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "美國上週初領失業金人數降至19.6萬人，顯示勞動市場維持強韌",
-          "summary_zh": "美國最新初領失業金人數降至19.6萬，低於市場預期的20.65萬人，顯示企業裁員步調未見明顯擴大。",
-          "event_time": "2026-09-17T20:30:01+08:00",
-          "source_id": "17a34b0d08ec4986cb531262dc09d596053723c8b4c93490eddba494d9890dcc",
-          "source_detail": {
-            "id": "17a34b0d08ec4986cb531262dc09d596053723c8b4c93490eddba494d9890dcc",
-            "time": "2026-09-17T20:30:01+08:00",
-            "headline": "US Initial Jobless Claims Actual 196k (Forecast 206.5k, Previous 206k)",
-            "link": "https://www.financialjuice.com/News/9767502/US-Initial-Jobless-Claims-Actual-196k-Forecast-2065k-Previous-206k.aspx",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "加拿大總理卡尼宣示與歐盟結盟，擴大能源、AI及關鍵礦產戰略自主",
-          "summary_zh": "加拿大總理卡尼（Mark Carney）提出與歐盟深度戰略結盟，規劃在LNG、液態氫、關鍵礦物以及超算算力領域實現互補供應鏈。",
-          "event_time": "2026-09-17T18:02:19+08:00",
-          "source_id": "797a88b6b45600fcf940c710fee90169a14b30af90bd00d4a6e8703a205b2739",
-          "source_detail": {
-            "id": "797a88b6b45600fcf940c710fee90169a14b30af90bd00d4a6e8703a205b2739",
-            "time": "2026-09-17T18:02:19+08:00",
-            "headline": "Canada's PM Carney: Canada and Europe should secure our strategic autonomy through deep cooperation in the full range of strategic capabilities",
-            "link": "https://www.financialjuice.com/News/9767257/Canadas-PM-Carney-Canada-and-Europe-should-secure-our-strategic-autonomy-through-deep-cooperation-in-the-full-range-of-strategic-capabilities.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "歐元區8月調和CPI終值年增3.2%，核心通膨維持於2.4%",
-          "summary_zh": "歐盟統計局確認歐元區通膨終值，月增0.4%、年增3.2%，核心CPI年增2.4%，顯示物價黏性依舊存在。",
+          "importance_score": 4,
+          "headline_zh": "歐元區8月調和CPI終值年增3.2%，核心通膨年增2.4%",
+          "summary_zh": "歐元區通膨確認維持在3.2%相對高位，能源與地緣變數使核心通膨頑強，歐洲央行進一步降息的空間受限。",
           "event_time": "2026-09-17T17:00:03+08:00",
           "source_id": "01cd1eb671347456dd431a0a9ffff4ca22f82e597d0d5da28d825774b5a18d5c",
           "source_detail": {
@@ -464,8 +492,64 @@
         },
         {
           "importance_score": 3,
-          "headline_zh": "歐盟要求中國主動限制混合動力車出口至歐盟市占15%以避免貿易戰",
-          "summary_zh": "英國金融時報報導，歐盟要求中國自主限制電動車與油電混動車出口配額，建議占歐盟市場份額控制在15%左右以緩解貿易摩擦。",
+          "headline_zh": "加拿大8月生產者物價指數年增13.5%，原物料價格大幅反彈",
+          "summary_zh": "加拿大8月PPI年增率飆升至13.5%，原物料價格指數（RMPI）月增3.1%，上游輸入型通膨壓力急劇升溫。",
+          "event_time": "2026-09-17T20:30:17+08:00",
+          "source_id": "9d4092e9295bc4d3b846b18b7d51ffbbad3e85b50c5991aa0c6d957a98941498",
+          "source_detail": {
+            "id": "9d4092e9295bc4d3b846b18b7d51ffbbad3e85b50c5991aa0c6d957a98941498",
+            "time": "2026-09-17T20:30:17+08:00",
+            "headline": "Canadian PPI YoY Actual 13.5% (Forecast -, Previous 12.4%)",
+            "link": "https://www.financialjuice.com/News/9767508/Canadian-PPI-YoY-Actual-135-Forecast---Previous-124.aspx",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "美國初領失業金人數降至19.6萬人，創近期新低顯現勞動市場緊俏",
+          "summary_zh": "美國單週初次請領失業救濟金人數下降至19.6萬人，低於預期的20.65萬人，顯示企業裁員步調放緩，就業韌性仍在。",
+          "event_time": "2026-09-17T20:30:01+08:00",
+          "source_id": "17a34b0d08ec4986cb531262dc09d596053723c8b4c93490eddba494d9890dcc",
+          "source_detail": {
+            "id": "17a34b0d08ec4986cb531262dc09d596053723c8b4c93490eddba494d9890dcc",
+            "time": "2026-09-17T20:30:01+08:00",
+            "headline": "US Initial Jobless Claims Actual 196k (Forecast 206.5k, Previous 206k)",
+            "link": "https://www.financialjuice.com/News/9767502/US-Initial-Jobless-Claims-Actual-196k-Forecast-2065k-Previous-206k.aspx",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "加拿大總理卡尼提議與歐盟建立戰略夥伴關係並探索金融服務整合市場",
+          "summary_zh": "加拿大總理卡尼（Mark Carney）提出願提供歐盟大規模LNG與關鍵礦物，並尋求建立雙邊一體化的金融服務市場架構。",
+          "event_time": "2026-09-17T18:05:45+08:00",
+          "source_id": "ca9baca7aba6a86a0a6a557e64e0bb98167750efadff7c48d93d3cb3f83b7528",
+          "source_detail": {
+            "id": "ca9baca7aba6a86a0a6a557e64e0bb98167750efadff7c48d93d3cb3f83b7528",
+            "time": "2026-09-17T18:05:45+08:00",
+            "headline": "Canada's PM Carney: Canada and Europe should also explore creating an integrated market for financial services",
+            "link": "https://www.financialjuice.com/News/9767265/Canadas-PM-Carney-Canada-and-Europe-should-also-explore-creating-an-integrated-market-for-financial-services.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "瑞士政府警告中東衝突與貿易不確定性對經濟展望構成重大風險",
+          "summary_zh": "瑞士聯邦政府發布經濟評估，直指美伊衝突升溫、高能源價格與全球貿易壁壘，將顯著威脅經濟增長動能。",
+          "event_time": "2026-09-17T15:00:26+08:00",
+          "source_id": "a9cf2aae6a471f938e29b321ebfce3b4d746d3fe2bed17769ae5873be32d01e9",
+          "source_detail": {
+            "id": "a9cf2aae6a471f938e29b321ebfce3b4d746d3fe2bed17769ae5873be32d01e9",
+            "time": "2026-09-17T15:00:26+08:00",
+            "headline": "Swiss government: Iran conflict, high energy prices, and continuing uncertainty over trade policy pose significant risks to economic outlook",
+            "link": "https://www.financialjuice.com/News/9767004/Swiss-government-Iran-conflict-high-energy-prices-and-continuing-uncertainty-over-trade-policy-pose-significant-risks-to-economic-outlook.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "歐盟敦促中國自主限制混合動力汽車出口，建議市占上限設在15%",
+          "summary_zh": "金融時報報導，為防範全面貿易戰爆發，歐盟要求中國自行限制混動汽車外銷，將其在歐盟市場的份額控制在15%以內。",
           "event_time": "2026-09-17T12:04:17+08:00",
           "source_id": "5b6540b0c12788bc7fcea882345c248e5459d318d688e419b9f9a29bedfc0fe1",
           "source_detail": {
@@ -483,8 +567,8 @@
       "news": [
         {
           "importance_score": 5,
-          "headline_zh": "伊朗伊斯蘭革命衛隊海軍在荷姆茲海峽襲擊多哥籍油輪引發火警",
-          "summary_zh": "伊朗官方半官方通訊社證實，革命衛隊海軍在荷姆茲海峽攔截並實彈襲擊一艘被指非法通行的多哥籍油輪，導致船隻起火燃燒，英國海上貿易行動辦公室（UKMTO）同時間接獲海難安全通報。",
+          "headline_zh": "伊朗革命衛隊海軍承認在荷姆茲海峽擊中多哥籍油輪引發火災",
+          "summary_zh": "伊朗伊斯蘭革命衛隊（IRGC）海軍發表聲明，因多哥籍油輪企圖非法穿越荷姆茲海峽而將其作為目標擊中，油輪隨後起火燃燒。",
           "event_time": "2026-09-18T05:19:18+08:00",
           "source_id": "49c0b88d0b005be87a97fb5a771b9e0a079d03f013060febb5e2a6c0a31e87b4",
           "source_detail": {
@@ -497,8 +581,22 @@
         },
         {
           "importance_score": 5,
-          "headline_zh": "川普向媒體透露伊朗戰爭正迎來重大轉折點，即將做出重大軍事決策",
-          "summary_zh": "川普接受Axios專訪時指出，美國在對伊朗戰爭中正逼近重大十字路口，他即將在近期拍板關鍵決策；Axios並指出下週川普將與海灣各國領導人商議伊朗情勢。",
+          "headline_zh": "英國海事貿易行動辦公室回報荷姆茲海峽發生嚴重安全事件",
+          "summary_zh": "英國海事貿易行動辦公室（UKMTO）發布緊急通報，在阿曼海軍基地卡薩卜東北方16海浬處的荷姆茲海峽水域發生船隻遇襲事件。",
+          "event_time": "2026-09-18T03:30:02+08:00",
+          "source_id": "b565d30be77e870f519ccd3589a8af179e2ec71bd0c8a18c3afb0129abc26b71",
+          "source_detail": {
+            "id": "b565d30be77e870f519ccd3589a8af179e2ec71bd0c8a18c3afb0129abc26b71",
+            "time": "2026-09-18T03:30:02+08:00",
+            "headline": "UKMTO has received a report of a security incident in the Strait of Hormuz 16NM northeast of Khasab, Oman.",
+            "link": "https://www.financialjuice.com/News/9768040/UKMTO-has-received-a-report-of-a-security-incident-in-the-Strait-of-Hormuz-16NM-northeast-of-Khasab-Oman.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 5,
+          "headline_zh": "川普透露伊朗戰爭已逼近重大十字路口，即將做出關鍵決策",
+          "summary_zh": "川普接受Axios專訪時指出，美伊戰爭已走到重大歷史十字路口，其內部正在研擬一項決定戰局走向的重大決策。",
           "event_time": "2026-09-18T00:57:01+08:00",
           "source_id": "ba24c2db9715e65c7d0afa4ddd5bb52bfa50458a30ebc466786e2ffe1cffd5ee",
           "source_detail": {
@@ -511,8 +609,22 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "伊朗擊落至少兩架美軍無人機，美國對涉嫌資助伊朗之加密貨幣平台實施制裁",
-          "summary_zh": "哥倫比亞廣播公司披露伊朗軍方近期擊落至少兩架美國無人軍機；美國財政部隨後對涉嫌向伊朗政府提供洗錢服務的BitBank交易所發動制裁。",
+          "headline_zh": "伊拉克總理下週赴美會見川普，重點討論區域戰火與中東局勢",
+          "summary_zh": "伊拉克總理宣布將於下週訪問華府並與川普舉行雙邊會談，重點在於協調斡旋中東戰火與伊美安全合作。",
+          "event_time": "2026-09-18T01:19:43+08:00",
+          "source_id": "09a8929bf6c71635da2edcca38a83cfca3a529c9b6cdddc28e2082ffd1a6a415",
+          "source_detail": {
+            "id": "09a8929bf6c71635da2edcca38a83cfca3a529c9b6cdddc28e2082ffd1a6a415",
+            "time": "2026-09-18T01:19:43+08:00",
+            "headline": "Iraqi Prime Minister to visit US and meet with Trump next week - Mehr News",
+            "link": "https://www.financialjuice.com/News/9767903/Iraqi-Prime-Minister-to-visit-US-and-meet-with-Trump-next-week---Mehr-News.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "美高層官員強調確保紅海航行自由，CBS證實伊朗近期擊落兩架美軍無人機",
+          "summary_zh": "美國高官表示正全力捍衛紅海航行自由，而哥倫比亞廣播公司（CBS）披露伊朗近期在衝突區域擊落了至少2架美軍無人機。",
           "event_time": "2026-09-18T01:07:12+08:00",
           "source_id": "feb72b61634488eef0fd6c8feee9b7f2ce64ba889a712064e81881f42eb94714",
           "source_detail": {
@@ -525,22 +637,22 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "沙烏地東西向輸油管道三座加壓站日前遭襲擊受損",
-          "summary_zh": "知情人士透露，沙烏地阿拉伯境內橫跨東西向的重要戰略輸油管線，有三座加壓泵站在上週的襲擊中受創，原油輸送安全警訊再起。",
-          "event_time": "2026-09-17T23:50:19+08:00",
-          "source_id": "137d42f9e8f7500efce4006c1d440194c181fb9682cd87934ed44fdde05463db",
+          "headline_zh": "沙烏地透過阿曼請求胡塞組織停火兩週以商討人道危機",
+          "summary_zh": "外媒引述高層消息透露，利雅德當局已請求阿曼作為斡旋調解方，要求葉門胡塞武裝同意為期兩週的停火協議以展開談判。",
+          "event_time": "2026-09-17T20:30:35+08:00",
+          "source_id": "a4b9b0ac4e0af62966e76af059066db22f7e5cc46b7e309354b19230bb1bade7",
           "source_detail": {
-            "id": "137d42f9e8f7500efce4006c1d440194c181fb9682cd87934ed44fdde05463db",
-            "time": "2026-09-17T23:50:19+08:00",
-            "headline": "Three pumping stations along Saudi Arabia's east-west oil pipeline were damaged in an attack last week - Sources.",
-            "link": "https://www.financialjuice.com/News/9767804/Three-pumping-stations-along-Saudi-Arabias-east-west-oil-pipeline-were-damaged-in-an-attack-last-week---Sources.aspx?xy=rss",
+            "id": "a4b9b0ac4e0af62966e76af059066db22f7e5cc46b7e309354b19230bb1bade7",
+            "time": "2026-09-17T20:30:35+08:00",
+            "headline": "A high-ranking source told Al-Mayadeen that Riyadh has asked Oman to request a two-week truce from Ansar Allah (the Houthis) to allow for discussions on resolving the humanitarian crisis.",
+            "link": "https://www.financialjuice.com/News/9767515/A-high-ranking-source-told-Al-Mayadeen-that-Riyadh-has-asked-Oman-to-request-a-two-week-truce-from-Ansar-Allah-the-Houthis-to-allow-for-discussions-on-resolving-the-humanitarian-crisis.aspx",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 4,
-          "headline_zh": "消息指出中國應沙烏地要求私下促請伊朗遏制胡塞武裝襲擊",
-          "summary_zh": "路透等消息來源透露，沙烏地阿拉伯向北京求援後，中國已私下接觸伊朗官方，促請德黑蘭發揮影響力約束葉門胡塞武裝行動。",
+          "headline_zh": "消息指出中國應沙烏地要求私下敦促伊朗約束葉門胡塞武裝",
+          "summary_zh": "消息人士透露，在沙烏地阿拉伯向北京高層求助後，中國已私下接觸伊朗，敦促德黑蘭發揮影響力約束葉門胡塞組織襲擊行動。",
           "event_time": "2026-09-17T19:58:44+08:00",
           "source_id": "12d8e3b9f5375c737ab93e57cf09d8eb417011b4b1e8cd3ba02cfa5211e2594d",
           "source_detail": {
@@ -553,8 +665,8 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "以色列總理納坦雅胡強硬表態必將推翻伊朗政權並消滅真主黨",
-          "summary_zh": "以色列總理納坦雅胡在公開談話中宣誓將貫徹任務到底，明確將顛覆伊朗現行政權、剿滅哈瑪斯與黎巴嫩真主黨列為目標。",
+          "headline_zh": "以色列總理納坦雅胡公開宣告將推翻伊朗政權並消滅黎巴嫩真主黨",
+          "summary_zh": "納坦雅胡（Benjamin Netanyahu）發表強硬談話，強調以色列的戰略目標是推翻伊朗現行政權，並徹底消滅哈瑪斯與真主黨勢力。",
           "event_time": "2026-09-17T19:28:09+08:00",
           "source_id": "046301675e95604a1add77dd34dfae270efc85f6282ebb85436b877eb82f899d",
           "source_detail": {
@@ -567,8 +679,8 @@
         },
         {
           "importance_score": 4,
-          "headline_zh": "荷姆茲海峽商船單日通行量驟降至3艘，遠低於常態水準",
-          "summary_zh": "航運監測數據顯示，受中東戰事威脅影響，週三通過荷姆茲海峽的商品載運船隻降至僅3艘，遠低於10日均值的17艘。",
+          "headline_zh": "荷姆茲海峽大宗商品船舶通行量驟降至3艘，遠低於常態水平",
+          "summary_zh": "航運監測數據顯示，週三通過荷姆茲海峽（Strait of Hormuz）的商品船隻銳減至3艘，遠低於10日均值的約17艘，航運安全面臨崩潰。",
           "event_time": "2026-09-17T12:16:33+08:00",
           "source_id": "9f58f847f0a55261f1b7780072f029bde0b6a6a7466566f14ab4f2a1663acdc0",
           "source_detail": {
@@ -580,44 +692,16 @@
           }
         },
         {
-          "importance_score": 3,
-          "headline_zh": "美高階官員強調致力確保紅海航行自由並強化盟邦防衛",
-          "summary_zh": "美資深官員向半島電視台證實，美方正聚焦於維護紅海航行安全，並為區域合作夥伴應對地緣衝突威脅鋪路。",
-          "event_time": "2026-09-18T00:59:38+08:00",
-          "source_id": "6d31d0bf56feece75c1136412bd509f611479029922b61bfceea302457aa8b6b",
+          "importance_score": 4,
+          "headline_zh": "川普下週將與波斯灣國家領導人就伊朗局勢展開專案會談",
+          "summary_zh": "Axios報導，川普（Donald Trump）計畫於下週與海灣多國領導人召開緊急峰會，商討對抗伊朗與中東局勢應對方案。",
+          "event_time": "2026-09-17T07:41:18+08:00",
+          "source_id": "2e33a80f0d288568cb1ca97bdc2d44e4cad31e1d06ba300fb4d9d7387d4c7149",
           "source_detail": {
-            "id": "6d31d0bf56feece75c1136412bd509f611479029922b61bfceea302457aa8b6b",
-            "time": "2026-09-18T00:59:38+08:00",
-            "headline": "Senior US Official to Al Jazeera: Focused on ensuring navigation in the Red Sea and paving the way for our partners to manage security challenges.",
-            "link": "https://www.financialjuice.com/News/9767876/Senior-US-Official-to-Al-Jazeera-Focused-on-ensuring-navigation-in-the-Red-Sea-and-paving-the-way-for-our-partners-to-manage-security-challenges.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "烏克蘭無人機襲擊俄羅斯雅羅斯拉夫爾煉油廠導致原油加工中斷",
-          "summary_zh": "俄羅斯境內雅羅斯拉夫爾州州長與業內人士透露，該地大型煉油廠遭受烏軍無人機精準打擊受損，已全面暫停原油煉製作業。",
-          "event_time": "2026-09-18T00:29:21+08:00",
-          "source_id": "0552eb5e586853c82cfb63b70aba6e7a4dab03212276007c34999ff13c4c4ddb",
-          "source_detail": {
-            "id": "0552eb5e586853c82cfb63b70aba6e7a4dab03212276007c34999ff13c4c4ddb",
-            "time": "2026-09-18T00:29:21+08:00",
-            "headline": "Oil refinery in Russia's Yaroslavl region halts crude processing after a drone attack - sources.",
-            "link": "https://www.financialjuice.com/News/9767853/Oil-refinery-in-Russias-Yaroslavl-region-halts-crude-processing-after-a-drone-attack---sources.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "沙烏地阿拉伯經由阿曼向葉門胡塞組織提議為期兩週人道停火談判",
-          "summary_zh": "消息來源指出，沙烏地已請阿曼擔任協調調解人，向葉門胡塞武裝提出停火兩週倡議，以開啟人道危機相關談判協商。",
-          "event_time": "2026-09-17T20:30:35+08:00",
-          "source_id": "a4b9b0ac4e0af62966e76af059066db22f7e5cc46b7e309354b19230bb1bade7",
-          "source_detail": {
-            "id": "a4b9b0ac4e0af62966e76af059066db22f7e5cc46b7e309354b19230bb1bade7",
-            "time": "2026-09-17T20:30:35+08:00",
-            "headline": "A high-ranking source told Al-Mayadeen that Riyadh has asked Oman to request a two-week truce from Ansar Allah (the Houthis) to allow for discussions on resolving the humanitarian crisis.",
-            "link": "https://www.financialjuice.com/News/9767515/A-high-ranking-source-told-Al-Mayadeen-that-Riyadh-has-asked-Oman-to-request-a-two-week-truce-from-Ansar-Allah-the-Houthis-to-allow-for-discussions-on-resolving-the-humanitarian-crisis.aspx",
+            "id": "2e33a80f0d288568cb1ca97bdc2d44e4cad31e1d06ba300fb4d9d7387d4c7149",
+            "time": "2026-09-17T07:41:18+08:00",
+            "headline": "Trump to hold Iran discussions with Gulf leaders next week: Axios",
+            "link": "https://www.financialjuice.com/News/9766519/Trump-to-hold-Iran-discussions-with-Gulf-leaders-next-week-Axios.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -625,25 +709,23 @@
     }
   ],
   "discarded": {
-    "estimated_count": 243,
+    "estimated_count": 240,
     "reasons": [
-      "中國人民銀行中間價預估及純日常例行公開市場逆回購數據（無政策轉向意義）",
-      "純統計波動率指標、各天期相關係數矩陣（30/60/90/120-Day Correlation Matrix、Implied Volatility）",
-      "純利率期貨隱含機率標題（如 RBA/BoC/BoJ/ECB Interest Rate Probabilities，無明確數據）",
-      "美股開收盤前失衡數額（MOO/MOC Imbalance）及常規期貨收盤價純數字報價",
-      "無實質增量內容之投行研報標題（FJElite 情緒觀察與純評論清單）",
-      "次要小國或常規未變動之零星經濟指標（荷蘭失業率、紐西蘭分項貿易報價等）"
+      "排除純市場波動率、相關係數矩陣及無具體數值的利率機率指標（如Fed/ECB/BoE/RBA Interest Rate Probabilities、Correlation Matrix、Implied Volatility等）",
+      "排除無實質政策宣示之一般官員會談、重申性言論及各投行例行性分析標籤（如FJElite觀點整理、MOO/MOC失衡等）",
+      "排除小型產油國純產量預估、小規模例行經濟數據（如紐西蘭外貿數據微幅波動、荷蘭失業率等）",
+      "排除中國官方非關稅/貨幣/財政之一般性宣示發言及非美伊衝突相關之常態外交出訪"
     ]
   },
-  "generated_at": "2026-09-18T07:01:17.971237+08:00",
+  "generated_at": "2026-09-18T07:40:47.223321+08:00",
   "model": "gemini-3.8-flash",
   "source": "FinancialJuice",
   "input_headline_count": 281,
   "included_headline_count": 281,
   "usage_metadata": {
     "promptTokenCount": 32437,
-    "candidatesTokenCount": 9157,
-    "totalTokenCount": 41594,
+    "candidatesTokenCount": 10213,
+    "totalTokenCount": 42650,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
