@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-17T07:40:53.576332+08:00",
+  "generated_at": "2026-09-17T09:28:23.924713+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-06-19T07:40:53.576332+08:00",
-  "period_end": "2026-09-17T07:40:53.576332+08:00",
+  "period_start": "2026-06-19T09:28:23.924713+08:00",
+  "period_end": "2026-09-17T09:28:23.924713+08:00",
   "lookback_days": 90,
   "voter_version": "2026-09-09",
   "model": "gemini-3.8-flash",
-  "input_headline_count": 1942,
-  "talk_count": 181,
+  "input_headline_count": 1941,
+  "talk_count": 180,
   "central_banks": [
     {
       "central_bank": "FED",
@@ -24,7 +24,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "指出經濟強勁且勞動市場穩健，因通膨過高且未見回落至2%，聯準會決定收緊寬鬆貨幣政策，全力聚焦物價穩定。",
+              "summary_zh": "強調通膨依然過高且風險偏上行，考量經濟與就業維持強韌且金融條件未見緊縮，決策官員決定縮減寬鬆以聚焦物價穩定。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -7197,7 +7197,7 @@
             },
             {
               "date": "2026-06-19",
-              "summary_zh": "今年通膨將維持在3%以上，同時經濟將保持穩健增長動能。",
+              "summary_zh": "表示今年通膨將維持在3%以上，同時經濟將保持穩健的成長動能。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -7719,7 +7719,7 @@
           "talks": [
             {
               "date": "2026-09-15",
-              "summary_zh": "指出近期長期公債殖利率上升係因供應增加與通膨預期上升所致，並強調通膨前景證明歐洲央行升息是合理的。",
+              "summary_zh": "指出通膨前景支持歐洲央行升息，當前長期公債殖利率上升則源於供應增加及通膨預期攀升。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -8732,7 +8732,7 @@
           "talks": [
             {
               "date": "2026-09-16",
-              "summary_zh": "表示近幾個月風險顯著上升，正密切關注天然氣價格與通膨擴散情況，並提醒不可低估財政支出對經濟成長的提振作用。",
+              "summary_zh": "表示近幾個月風險上升，正密切關注天然氣價格及通膨擴散情況，並提醒不可低估財政支出對經濟成長的影響。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -10121,36 +10121,6 @@
                   "headline": "BoJ's Himino: As such, BoJ can proceed with current bond taper plan."
                 }
               ]
-            },
-            {
-              "date": "2026-06-19",
-              "summary_zh": "表示暫停縮減購債可給予市場消化時間，隨著薪資與物價循環確立且核心通膨接近2%，為防範通膨過度上升，將依據數據繼續升息。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "manual-0b7e46865ad5be9f900b",
-                "manual-95d713a0121e1d217348"
-              ],
-              "source_headlines": [
-                {
-                  "id": "manual-0b7e46865ad5be9f900b",
-                  "time": "2026-06-19T08:40:00+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BoJ's Himino: Bond-taper pause gives investors time to absorb JGBs; policy must consider bank lending and allow market price discovery."
-                },
-                {
-                  "id": "manual-95d713a0121e1d217348",
-                  "time": "2026-06-19T09:04:00+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BoJ's Himino: Wage-price cycle is becoming entrenched and core inflation nears 2%; delaying adjustment risks overshoot, so hikes likely continue based on data."
-                }
-              ]
             }
           ]
         },
@@ -11390,21 +11360,21 @@
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 13638,
-    "candidatesTokenCount": 2628,
+    "promptTokenCount": 13820,
+    "candidatesTokenCount": 2725,
     "thoughtsTokenCount": 0,
-    "totalTokenCount": 16266,
+    "totalTokenCount": 16545,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
       "FED+BOE+ECB+BOJ+RBA": {
-        "promptTokenCount": 13638,
-        "candidatesTokenCount": 2628,
-        "totalTokenCount": 16266,
+        "promptTokenCount": 13820,
+        "candidatesTokenCount": 2725,
+        "totalTokenCount": 16545,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 13638
+            "tokenCount": 13820
           }
         ],
         "serviceTier": "standard"
@@ -11412,12 +11382,12 @@
     },
     "incremental": {
       "mode": "incremental",
-      "window_headline_count": 1942,
-      "regenerated_date_count": 3,
-      "regenerated_headline_count": 100,
-      "reused_headline_count": 1842,
-      "reused_talk_count": 229,
-      "regenerated_talk_count": 3
+      "window_headline_count": 1941,
+      "regenerated_date_count": 4,
+      "regenerated_headline_count": 102,
+      "reused_headline_count": 1839,
+      "reused_talk_count": 227,
+      "regenerated_talk_count": 4
     }
   }
 }
