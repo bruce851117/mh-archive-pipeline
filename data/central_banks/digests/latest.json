@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-18T09:18:25.867416+08:00",
+  "generated_at": "2026-09-19T07:01:13.804685+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-06-20T09:18:25.867416+08:00",
-  "period_end": "2026-09-18T09:18:25.867416+08:00",
+  "period_start": "2026-06-21T07:01:13.804685+08:00",
+  "period_end": "2026-09-19T07:01:13.804685+08:00",
   "lookback_days": 90,
   "voter_version": "2026-09-09",
   "model": "gemini-3.8-flash",
-  "input_headline_count": 2007,
-  "talk_count": 190,
+  "input_headline_count": 2101,
+  "talk_count": 199,
   "central_banks": [
     {
       "central_bank": "FED",
@@ -24,7 +24,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "表示經濟強勁且就業良好，但通膨過高且未改善，金融條件並未具限制性，因此決定收回部分寬鬆政策以聚焦物價穩定，且不對未來決策預設立場。",
+              "summary_zh": "指出通膨仍過高且風險偏上行，勞動市場良好且經濟具韌性，金融條件並未具限制性，故升息以移除寬鬆並致力維持物價穩定。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -49,6 +49,7 @@
                 "9a46ebb1f9b8eda109a0b7ec65b84974835920309f2f70d4c1c6a555343b2d03",
                 "c7b7757527c9b33ec3b5ac92d094b838bad66441e4454acdf96cc7a4a27a1792",
                 "c3c3497350155222cd0f9c9f185734616f3290143011fdcf8746431f9add1d55",
+                "017daa8ed1402c0ea1971fb1a00ef8f2114cf0ea9d2301f9cda97235982d91db",
                 "78f1d20813b457dbc0becd9ab5e2629ba8189b5b5d676f556d90b2a95e0924af",
                 "45da53a7857e6f34b4bea77930fb73e58f908896dcd7c19052a2c35d6dbbbe71",
                 "fca3e0f3c82c93682596720cdcf9f2f979f74a847dea62b9958bc6cbb03e9d13",
@@ -156,6 +157,12 @@
                   "time": "2026-09-17T02:35:57+08:00",
                   "central_bank": "FED",
                   "headline": "Fed's Chair Warsh: We must be confident that underlying inflation must be moving to 2% on a timely basis, and the FOMC decided this has not been met."
+                },
+                {
+                  "id": "017daa8ed1402c0ea1971fb1a00ef8f2114cf0ea9d2301f9cda97235982d91db",
+                  "time": "2026-09-17T02:36:29+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Chair Warsh: I did not submit a dot."
                 },
                 {
                   "id": "78f1d20813b457dbc0becd9ab5e2629ba8189b5b5d676f556d90b2a95e0924af",
@@ -4622,6 +4629,101 @@
           "voter": false,
           "talks": [
             {
+              "date": "2026-09-19",
+              "summary_zh": "表示財政部買回公債未影響聯準會運作，並認為當前環境處於相當正常化的狀態。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "ed54ff78cec29b7a0e7053820d67750780126634e20fd7ada6aeb11395749680",
+                "52b116c8d22b73c2f5fc5228e84d2b1d416219250e72a241d0b7df8721ad5d56"
+              ],
+              "source_headlines": [
+                {
+                  "id": "ed54ff78cec29b7a0e7053820d67750780126634e20fd7ada6aeb11395749680",
+                  "time": "2026-09-19T00:25:11+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Schmid: US Treasury's buybacks don't make Fed's job harder or easier."
+                },
+                {
+                  "id": "52b116c8d22b73c2f5fc5228e84d2b1d416219250e72a241d0b7df8721ad5d56",
+                  "time": "2026-09-19T00:38:38+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Schmid: We are in a fairly normalized place."
+                }
+              ]
+            },
+            {
+              "date": "2026-09-18",
+              "summary_zh": "支持升息以助通膨重返2%，指出廣泛商品服務通膨偏高顯示供需失衡，但整體經濟穩健且勞動市場均衡。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "91c36fad5df001a50d6bde772a61f25bcac0a4a2e694756312c41a789472acb2",
+                "3ce14ab32f4c3dfadbb98e79555ce63c0e3e8eaa2c251d6d9a19385154dd2851",
+                "b080ed83e84da5c34332da0fe0088738fc9ed38b2252cacac68cca9ce4482298",
+                "44b14b00f2f9e34fc45453352a0450fbe8672058cb86c5a07278433ea0f10377",
+                "a2ace2630e918daa88272cece454527757c2cca5b94c57d8d18db6d39166db8a",
+                "50ca189ee8b8b31af62d0d422fe19c0d39e762387d2e4d082f66913844dade6e",
+                "043704456978b77b76df7bcbbb88f5cbecf9b1c32d5479ab6ddb6f7b6410b226"
+              ],
+              "source_headlines": [
+                {
+                  "id": "91c36fad5df001a50d6bde772a61f25bcac0a4a2e694756312c41a789472acb2",
+                  "time": "2026-09-18T23:32:33+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Schmid: I supported rate hike, recent data suggest inflation trending above 3%."
+                },
+                {
+                  "id": "3ce14ab32f4c3dfadbb98e79555ce63c0e3e8eaa2c251d6d9a19385154dd2851",
+                  "time": "2026-09-18T23:32:42+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Schmid: Rate hike was a step towards returning to the 2% target."
+                },
+                {
+                  "id": "b080ed83e84da5c34332da0fe0088738fc9ed38b2252cacac68cca9ce4482298",
+                  "time": "2026-09-18T23:32:58+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Schmid: Current inflation problem not just about energy. Price growth has been 'hot' across a broad set of goods and services."
+                },
+                {
+                  "id": "44b14b00f2f9e34fc45453352a0450fbe8672058cb86c5a07278433ea0f10377",
+                  "time": "2026-09-18T23:33:09+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Schmid: High inflation a sign supply and demand are out of balance."
+                },
+                {
+                  "id": "a2ace2630e918daa88272cece454527757c2cca5b94c57d8d18db6d39166db8a",
+                  "time": "2026-09-18T23:33:23+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Schmid: Outside of inflation, the economy is performing well."
+                },
+                {
+                  "id": "50ca189ee8b8b31af62d0d422fe19c0d39e762387d2e4d082f66913844dade6e",
+                  "time": "2026-09-18T23:33:38+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Schmid: Labor market appears in balance and economic growth solid."
+                },
+                {
+                  "id": "043704456978b77b76df7bcbbb88f5cbecf9b1c32d5479ab6ddb6f7b6410b226",
+                  "time": "2026-09-18T23:51:32+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Schmid: I agree with Chairman Warsh's framework on why bond yields have gone up. Economic growth, demand for capital from al investment, geopolitical challenges."
+                }
+              ]
+            },
+            {
               "date": "2026-08-27",
               "summary_zh": "表示利率未限制經濟且能源衝擊正在擴散，需要使通膨重返2%，並透露自己可能在7月會議支持過升息。",
               "topics": {
@@ -4961,7 +5063,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "表示若中東衝突長期持續且第二輪效應風險上升，政策可能必須收緊，並指出國債減持計畫將循序漸進且具可預測性地進行。",
+              "summary_zh": "指出若中東衝突持續且第二輪通膨效應風險上升可能需收緊政策，並表示國債縮表將漸進且可預測地進行。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4971,10 +5073,17 @@
                 "balance_sheet": ""
               },
               "source_ids": [
+                "0470f11d4c56ed51a31b08e76c9ca50aef969fd59c02a39ca348e08f66d34a37",
                 "b52b3365e1b5dd3833976d710742851fc04af2d2295412f8b13611c5425a15d8",
                 "a4ab99b58b81d5ba66273775bcc1a9d6852633f45ac8b718e4b9517f6d1eda1b"
               ],
               "source_headlines": [
+                {
+                  "id": "0470f11d4c56ed51a31b08e76c9ca50aef969fd59c02a39ca348e08f66d34a37",
+                  "time": "2026-09-17T19:01:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: Loss of urgency to find solutions to conflict"
+                },
                 {
                   "id": "b52b3365e1b5dd3833976d710742851fc04af2d2295412f8b13611c5425a15d8",
                   "time": "2026-09-17T19:02:24+08:00",
@@ -5550,7 +5659,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "在貨幣政策委員會中投票支持將利率上調至4%。",
+              "summary_zh": "投票支持將政策利率調升至4%。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5819,7 +5928,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "指出英國面臨國內物價壓力上升的風險更高。",
+              "summary_zh": "指出國內價格壓力浮現的風險有所增加。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6017,7 +6126,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "在貨幣政策委員會中投票支持將利率上調至4%。",
+              "summary_zh": "投票支持將政策利率調升至4%。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6170,7 +6279,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "表示對經濟前景的看法與7月相比基本未變，並指出英國央行當前利率顯著高於歐洲同儕。",
+              "summary_zh": "表示對經濟前景看法大致不變，並強調英國央行利率已實質高於歐洲同儕。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6233,7 +6342,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "指出當前的貨幣政策已經處於明確的限制性水準。",
+              "summary_zh": "表示當前的貨幣政策已經處於明確的限制性水準。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6289,7 +6398,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "認為當前風險管理策略合適，並在利率決議中投票支持升息至4%。",
+              "summary_zh": "認為風險管理策略合適，並投票支持將利率調升至4%。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6387,6 +6496,57 @@
           "active": true,
           "voter": true,
           "talks": [
+            {
+              "date": "2026-09-18",
+              "summary_zh": "強調將逐次會議決定利率，經濟增長優於預期且尚未見第二輪效應，利率不會僅與能源價格同步變動。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "1a38d9c31faf3685ed0d9afb3b143087dbc1845a9f59106819990191dc527d56",
+                "e3e7a6de0db4ecc29c0c7849f7fffcb002d1608b3a26ca081fcf593b02da5c4d",
+                "dab612106ffc0fa404561a316cb5acce609074986994711152c1178da107d1c5",
+                "088f246bb14d8c890f220a10ac7cc907b4fccd87671b882ee7f95090ea325ce1",
+                "625806dc928810f6cfe39dd4a1b16e561acf9c03a188005dedf3b3d37543c9bf"
+              ],
+              "source_headlines": [
+                {
+                  "id": "1a38d9c31faf3685ed0d9afb3b143087dbc1845a9f59106819990191dc527d56",
+                  "time": "2026-09-18T16:08:15+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: We'll decide on rates meeting by meeting."
+                },
+                {
+                  "id": "e3e7a6de0db4ecc29c0c7849f7fffcb002d1608b3a26ca081fcf593b02da5c4d",
+                  "time": "2026-09-18T16:08:56+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: Growth is a bit more promising than we thought."
+                },
+                {
+                  "id": "dab612106ffc0fa404561a316cb5acce609074986994711152c1178da107d1c5",
+                  "time": "2026-09-18T16:09:50+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: Not seeing second-round effects yet."
+                },
+                {
+                  "id": "088f246bb14d8c890f220a10ac7cc907b4fccd87671b882ee7f95090ea325ce1",
+                  "time": "2026-09-18T18:49:46+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: Rates do not move in lockstep with price of energy, other factors, growth and consumption, also play a role."
+                },
+                {
+                  "id": "625806dc928810f6cfe39dd4a1b16e561acf9c03a188005dedf3b3d37543c9bf",
+                  "time": "2026-09-18T18:56:34+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: Clear that energy is a significant variable. We are well positioned to respond."
+                }
+              ]
+            },
             {
               "date": "2026-09-11",
               "summary_zh": "央行將繼續秉持逐次會議決定政策的原則，並依據最新數據作為決策基礎。",
@@ -7189,7 +7349,52 @@
           "position": "Vice-President",
           "active": true,
           "voter": true,
-          "talks": []
+          "talks": [
+            {
+              "date": "2026-09-18",
+              "summary_zh": "指出市場利率定價主因能源價格，若通膨持續高企將抑制經濟，並稱法定準備金能有效吸收過剩流動性。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "ad8016500303fa8088ceadb4772d4fd326c61b5c55fd416d9da3409eaafbf018",
+                "653f451003341a8e36c19cdbffea4f242b0e1a484ef8a34ac9eed239d553140b",
+                "0ccb09b5bcd438725e7ad4f5cfeb778e8dd9b3a4311e517b7e2e254d2e0cc7a9",
+                "fce0946e94245e298a7aec72924f39b29f28ebd36eb551c9932ad344fd8e8d8c"
+              ],
+              "source_headlines": [
+                {
+                  "id": "ad8016500303fa8088ceadb4772d4fd326c61b5c55fd416d9da3409eaafbf018",
+                  "time": "2026-09-18T13:30:52+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Vujcic: Market pricing of rate path is mainly consequence of rising energy prices."
+                },
+                {
+                  "id": "653f451003341a8e36c19cdbffea4f242b0e1a484ef8a34ac9eed239d553140b",
+                  "time": "2026-09-18T13:31:01+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Vujcic: If inflation remains high through autumn and affects consumers, that will dampen GDP."
+                },
+                {
+                  "id": "0ccb09b5bcd438725e7ad4f5cfeb778e8dd9b3a4311e517b7e2e254d2e0cc7a9",
+                  "time": "2026-09-18T13:31:08+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Vujcic: We do not look solely at energy prices, but at much broader set of data."
+                },
+                {
+                  "id": "fce0946e94245e298a7aec72924f39b29f28ebd36eb551c9932ad344fd8e8d8c",
+                  "time": "2026-09-18T13:31:21+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Vujcic: Reserve requirements allow ECB to sterilise some excess liquidity in simple, inexpensive way."
+                }
+              ]
+            }
+          ]
         },
         {
           "official": "Philip Lane",
@@ -8183,7 +8388,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "指出歐元區經濟展現韌性且暫無第二輪效應跡象，上週升息具合理性，但受最新衝擊影響通膨前景好壞參半且情況已變。",
+              "summary_zh": "指出歐元區經濟具韌性且上週升息合理，雖尚未見第二輪效應但受衝擊影響通膨前景錯綜且情勢已生變。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -8499,7 +8704,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "表示目前未見令人擔憂的第二輪效應跡象，但通膨風險仍偏向上行，未來會議不排除任何政策選項。",
+              "summary_zh": "表示通膨風險仍偏向上行，目前未見令人擔憂的第二輪效應，對未來會議的各項決策保持開放態度。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -9335,6 +9540,36 @@
           "voter": false,
           "talks": [
             {
+              "date": "2026-09-18",
+              "summary_zh": "表示中性利率的精確水準目前非首要關切，央行必須防止第二輪通膨效應發生。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "495b53739172258dba66f570877399f9106463cb9e3311129d820589b996e4e8",
+                "d6196fc9d67637c6f7dff314d089c8c3084097a20eaac5c3d45a1bc2abfbf68f"
+              ],
+              "source_headlines": [
+                {
+                  "id": "495b53739172258dba66f570877399f9106463cb9e3311129d820589b996e4e8",
+                  "time": "2026-09-18T15:57:01+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Kaasik: Exact level of neutral rate not a big concern now."
+                },
+                {
+                  "id": "d6196fc9d67637c6f7dff314d089c8c3084097a20eaac5c3d45a1bc2abfbf68f",
+                  "time": "2026-09-18T15:57:11+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Kaasik: We must prevent second-round effects."
+                }
+              ]
+            },
+            {
               "date": "2026-09-11",
               "summary_zh": "當前利率水準對經濟限制有限且增長有望延續，但高度不確定性下難以斷言何時重返2%。",
               "topics": {
@@ -9625,7 +9860,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "表示若不解決通膨經濟成長將面臨風險，目前未見明顯第二輪效應，對成長感到樂觀，並強調市場押注不決定歐洲央行下一步行動。",
+              "summary_zh": "指出未見重大第二輪效應且對增長樂觀，但若不解決通膨經濟將面臨風險，並強調市場押注不決定決策。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -9707,6 +9942,127 @@
           "active": true,
           "voter": true,
           "talks": [
+            {
+              "date": "2026-09-18",
+              "summary_zh": "表示經濟溫和復甦但潛在通膨有超標風險，將依經濟通膨持續升息，政策環境已轉變且不排除任何政策手段。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "c150c379970251e04c29332e912541429b91fcfb8d22663e03667cb425bec22c",
+                "41d265fde1013da91f17228f8999fd047dd9ccfe46c9ede53570bbb7c99bc95f",
+                "330e356e462b4c247ee59d01896fcfec49e5d73de4741ab1a9b405e15a2b858c",
+                "ea30beec8b90857cd87406c2e3e26b32059170bd8a050791fde6e66e0a4f8ed3",
+                "b969df8afda806c777269cad8c7defa63905985bcc7c8cc6d38ec2e8fa6225a2",
+                "50992ae0c69bb5cc58bb59febc0e845e5373aab92857e6c553a25bbfec465e86",
+                "60ae1da15cb77c2437fe7f07f40e0b525ea585a50d298989ca00216e189532eb",
+                "deb8847ccf84df3e9d9f53c51c6c58c99e66f9ea7c31db56350b972c61215e28",
+                "ec4105431730794ae59542d4beba32b16686e9350b31baf3549419fbcf4d3ecd",
+                "b1af0626ece3137017d6f00bda952e6ff283552d0e1936ca9ef1dc9e76680caa",
+                "fd7847cea26adc0c69972aeaaeb79a9dfd7f467faca6c420eb9c79dc6d6449cf",
+                "a7fc8c8ab32392deedab46f4e487076bb69bad95fbee828baed37b5e6f1f8590",
+                "a103807c578097af5e2df823a65d40ece99b179b144cc5bac103b04d4f0b75e9",
+                "f76ca345646023d9e412f196a1708fd7e231b67d49f7989119603169fa57dc21",
+                "e8f6e0c19374feae5960c8371465934830006302172c0df7b9af11cfa1250ec1"
+              ],
+              "source_headlines": [
+                {
+                  "id": "c150c379970251e04c29332e912541429b91fcfb8d22663e03667cb425bec22c",
+                  "time": "2026-09-18T14:33:16+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ Gov Ueda: Japan's economy recovering moderately albeit with some weakness."
+                },
+                {
+                  "id": "41d265fde1013da91f17228f8999fd047dd9ccfe46c9ede53570bbb7c99bc95f",
+                  "time": "2026-09-18T14:33:38+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ Gov Ueda: Japan's economy likely continue growing moderately."
+                },
+                {
+                  "id": "330e356e462b4c247ee59d01896fcfec49e5d73de4741ab1a9b405e15a2b858c",
+                  "time": "2026-09-18T14:34:58+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ Gov Ueda: Must pay attention to impact of Middle East situation, AI-related demand expansion and FX on Japan's economic activity, prices."
+                },
+                {
+                  "id": "ea30beec8b90857cd87406c2e3e26b32059170bd8a050791fde6e66e0a4f8ed3",
+                  "time": "2026-09-18T14:35:27+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ Gov Ueda: Japan's financial conditions have been accommodative."
+                },
+                {
+                  "id": "b969df8afda806c777269cad8c7defa63905985bcc7c8cc6d38ec2e8fa6225a2",
+                  "time": "2026-09-18T14:35:46+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ Gov Ueda: There is risk of underlying inflation overshooting 2% price target given firms' wage, price setting behavior becoming more aggressive, mid- and long-term inflation expectations rising."
+                },
+                {
+                  "id": "50992ae0c69bb5cc58bb59febc0e845e5373aab92857e6c553a25bbfec465e86",
+                  "time": "2026-09-18T14:36:43+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Gov Ueda: To keep raising rate in response to economy, prices."
+                },
+                {
+                  "id": "60ae1da15cb77c2437fe7f07f40e0b525ea585a50d298989ca00216e189532eb",
+                  "time": "2026-09-18T14:39:20+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ Gov Ueda: Middle East situation continues to be uncertain."
+                },
+                {
+                  "id": "deb8847ccf84df3e9d9f53c51c6c58c99e66f9ea7c31db56350b972c61215e28",
+                  "time": "2026-09-18T14:43:19+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Gov Ueda: Stage for policy conduct has changed."
+                },
+                {
+                  "id": "ec4105431730794ae59542d4beba32b16686e9350b31baf3549419fbcf4d3ecd",
+                  "time": "2026-09-18T14:44:58+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ Gov Ueda: Short-term objective has changed significantly."
+                },
+                {
+                  "id": "b1af0626ece3137017d6f00bda952e6ff283552d0e1936ca9ef1dc9e76680caa",
+                  "time": "2026-09-18T14:45:55+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ Gov Ueda: No comment about short-term market moves."
+                },
+                {
+                  "id": "fd7847cea26adc0c69972aeaaeb79a9dfd7f467faca6c420eb9c79dc6d6449cf",
+                  "time": "2026-09-18T14:50:00+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ Gov Ueda: We want to see whether trend inflation stays at 2% after reaching it around end of fy2026 into fy2027."
+                },
+                {
+                  "id": "a7fc8c8ab32392deedab46f4e487076bb69bad95fbee828baed37b5e6f1f8590",
+                  "time": "2026-09-18T14:55:05+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ Gov Ueda: Rate hikes have gradually tightened financial conditions."
+                },
+                {
+                  "id": "a103807c578097af5e2df823a65d40ece99b179b144cc5bac103b04d4f0b75e9",
+                  "time": "2026-09-18T14:57:39+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ Gov Ueda: Not mulling board member change next year for policy."
+                },
+                {
+                  "id": "f76ca345646023d9e412f196a1708fd7e231b67d49f7989119603169fa57dc21",
+                  "time": "2026-09-18T15:07:12+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ Gov Ueda when asked about possibly about raising rates consecutively or rate hike over 25 bps: Not ruling out any particular policy measures."
+                },
+                {
+                  "id": "e8f6e0c19374feae5960c8371465934830006302172c0df7b9af11cfa1250ec1",
+                  "time": "2026-09-18T15:08:23+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ Gov Ueda: Overseas rate hikes could impact Japan through various channels including Forex."
+                }
+              ]
+            },
             {
               "date": "2026-09-02",
               "summary_zh": "指出貨幣情勢仍寬鬆且潛在通膨接近2%，傾向持續升息並評估累積效應，將更強烈因應匯率變動並關注通膨上行風險。",
@@ -10835,6 +11191,43 @@
           "voter": true,
           "talks": [
             {
+              "date": "2026-09-18",
+              "summary_zh": "反對升息決定，認為近期CPI漲幅低於2%顯示經濟未見強勁，主張維持原貨幣市場操作指引。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "e0126314a0943ac9d52313b616c13d0fcb380d46739fcf1c7862edd8e054762a",
+                "0345f73047b8152fae5311fabc4e89c3e256a2a86f3f4a7c78cda21d49eddd3b",
+                "9e6fc61c288ca66c6ad968f61b035401fd72b3d13b888a55805fb050fa7312fc"
+              ],
+              "source_headlines": [
+                {
+                  "id": "e0126314a0943ac9d52313b616c13d0fcb380d46739fcf1c7862edd8e054762a",
+                  "time": "2026-09-18T10:54:22+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BOJ board members Asada, Sato opposed rate decision"
+                },
+                {
+                  "id": "0345f73047b8152fae5311fabc4e89c3e256a2a86f3f4a7c78cda21d49eddd3b",
+                  "time": "2026-09-18T10:55:28+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BOJ's Asada said: recent CPI rise below 2% means economic conditions aren't necessarily robust"
+                },
+                {
+                  "id": "9e6fc61c288ca66c6ad968f61b035401fd72b3d13b888a55805fb050fa7312fc",
+                  "time": "2026-09-18T10:55:43+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Asada says desirable for bank to maintain money market operations guideline"
+                }
+              ]
+            },
+            {
               "date": "2026-07-07",
               "summary_zh": "表示不反對升息，但希望見到由薪資與需求支撐的2%通膨，鑑於油價傳導迅速，政策應維持彈性。",
               "topics": {
@@ -10867,6 +11260,36 @@
           "active": true,
           "voter": true,
           "talks": [
+            {
+              "date": "2026-09-18",
+              "summary_zh": "反對升息決議，認為當前經濟與通膨趨勢並未顯著加速，此時調升利率並不適當。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "e0126314a0943ac9d52313b616c13d0fcb380d46739fcf1c7862edd8e054762a",
+                "5d298dc21314eb9e941fe3abb037efdfdbbbadb095ea8c5655d35b331bd16dcf"
+              ],
+              "source_headlines": [
+                {
+                  "id": "e0126314a0943ac9d52313b616c13d0fcb380d46739fcf1c7862edd8e054762a",
+                  "time": "2026-09-18T10:54:22+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BOJ board members Asada, Sato opposed rate decision"
+                },
+                {
+                  "id": "5d298dc21314eb9e941fe3abb037efdfdbbbadb095ea8c5655d35b331bd16dcf",
+                  "time": "2026-09-18T10:56:17+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BOJ's Sato: current economic and price trends have not significantly accelerated, so raising rates is not suitable"
+                }
+              ]
+            },
             {
               "date": "2026-06-30",
               "summary_zh": "指出日圓疲軟推升進口成本並壓低實質所得，企業調升薪資與物價使匯率對通膨的傳導效應增強。",
@@ -10918,7 +11341,7 @@
           "talks": [
             {
               "date": "2026-09-18",
-              "summary_zh": "指出勞動市場略微緊俏且部分通膨上行風險浮現，企業轉嫁成本增加，正評估當前貨幣政策緊縮程度是否足以在合理時間內使通膨達標。",
+              "summary_zh": "表示就業市場略緊於充分就業，通膨上行風險浮現且企業轉嫁成本，正審視當前政策緊縮程度是否足夠。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -10940,7 +11363,11 @@
                 "3369b9be6c13e6ba913a36b23de513ec96f627300bd58c7e617cdf3677983c05",
                 "779061d20d4778ec26c5082dfaa054a9912f17ba51cdb52c8b78bd7df6faeb79",
                 "03d2db08e6d2a91c4dc4925dcda8d756fc62b5d5bf8330d3be973cb394f76092",
-                "3cb46d8bb00b9fc0b38908ea869f6d76db5f3b66e65eb9811e5338186688d935"
+                "3cb46d8bb00b9fc0b38908ea869f6d76db5f3b66e65eb9811e5338186688d935",
+                "cf3d902913dfc8e1529c6a5d419d5078fbd2db26696d95643f5458ae38eb9e49",
+                "d747ed444957eaa2c624400ad7b6cc87b8bbc8b5e19b1984e60eec758bb52167",
+                "61a73af48fd0aefe716833c4b545a112e2f509f7c6cb126b1d8574dea235346a",
+                "37d00d8c8ca359e922e26f7bfee4bf10100222f3e2b2cc1458a421da56c982a4"
               ],
               "source_headlines": [
                 {
@@ -11020,6 +11447,30 @@
                   "time": "2026-09-18T08:44:23+08:00",
                   "central_bank": "RBA",
                   "headline": "RBA Governor Bullock: considering if policy is tight enough"
+                },
+                {
+                  "id": "cf3d902913dfc8e1529c6a5d419d5078fbd2db26696d95643f5458ae38eb9e49",
+                  "time": "2026-09-18T08:53:30+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA Governor Bullock: broad agreement that neutral interest rate has increased"
+                },
+                {
+                  "id": "d747ed444957eaa2c624400ad7b6cc87b8bbc8b5e19b1984e60eec758bb52167",
+                  "time": "2026-09-18T09:10:09+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA Governor Bullock: inflation risks tilted to the upside"
+                },
+                {
+                  "id": "61a73af48fd0aefe716833c4b545a112e2f509f7c6cb126b1d8574dea235346a",
+                  "time": "2026-09-18T09:11:28+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA Governor Bullock: difficult to see past ongoing inflation shocks"
+                },
+                {
+                  "id": "37d00d8c8ca359e922e26f7bfee4bf10100222f3e2b2cc1458a421da56c982a4",
+                  "time": "2026-09-18T09:27:48+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA Governor Bullock: forward-looking labor market gauges remain steady"
                 }
               ]
             },
@@ -11282,6 +11733,29 @@
           "active": true,
           "voter": true,
           "talks": [
+            {
+              "date": "2026-09-18",
+              "summary_zh": "強調澳洲央行理事會完全致力於達成通膨目標。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "61eaa18ec2fbed8aac142dead6bc920022e92ada7e7ad02c67d6a862cc44c25a"
+              ],
+              "source_headlines": [
+                {
+                  "id": "61eaa18ec2fbed8aac142dead6bc920022e92ada7e7ad02c67d6a862cc44c25a",
+                  "time": "2026-09-18T09:11:54+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA deputy governor Hauser: board fully committed to reaching inflation target"
+                }
+              ]
+            },
             {
               "date": "2026-09-08",
               "summary_zh": "表示通膨仍是一大問題，理事會本月將辯論升息並隨時準備在必要時升息，但尚未到必須大幅升息的程度。",
@@ -11751,21 +12225,21 @@
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 18897,
-    "candidatesTokenCount": 5524,
+    "promptTokenCount": 28032,
+    "candidatesTokenCount": 7845,
     "thoughtsTokenCount": 0,
-    "totalTokenCount": 24421,
+    "totalTokenCount": 35877,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
       "FED+BOE+ECB+BOJ+RBA": {
-        "promptTokenCount": 18897,
-        "candidatesTokenCount": 5524,
-        "totalTokenCount": 24421,
+        "promptTokenCount": 28032,
+        "candidatesTokenCount": 7845,
+        "totalTokenCount": 35877,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 18897
+            "tokenCount": 28032
           }
         ],
         "serviceTier": "standard"
@@ -11773,12 +12247,12 @@
     },
     "incremental": {
       "mode": "incremental",
-      "window_headline_count": 2007,
+      "window_headline_count": 2101,
       "regenerated_date_count": 3,
-      "regenerated_headline_count": 145,
-      "reused_headline_count": 1862,
-      "reused_talk_count": 230,
-      "regenerated_talk_count": 13
+      "regenerated_headline_count": 224,
+      "reused_headline_count": 1877,
+      "reused_talk_count": 231,
+      "regenerated_talk_count": 21
     }
   }
 }
