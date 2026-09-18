@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-18T07:40:47.223321+08:00",
+  "generated_at": "2026-09-18T09:18:25.867416+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-06-20T07:40:47.223321+08:00",
-  "period_end": "2026-09-18T07:40:47.223321+08:00",
+  "period_start": "2026-06-20T09:18:25.867416+08:00",
+  "period_end": "2026-09-18T09:18:25.867416+08:00",
   "lookback_days": 90,
   "voter_version": "2026-09-09",
   "model": "gemini-3.8-flash",
-  "input_headline_count": 1994,
-  "talk_count": 189,
+  "input_headline_count": 2007,
+  "talk_count": 190,
   "central_banks": [
     {
       "central_bank": "FED",
@@ -24,7 +24,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "表示經濟與就業強勁且金融條件不具限制性，但通膨過高且未見好轉，故決議收緊寬鬆政策以專注物價穩定，同時不對未來決策預設立場。",
+              "summary_zh": "表示經濟強勁且就業良好，但通膨過高且未改善，金融條件並未具限制性，因此決定收回部分寬鬆政策以聚焦物價穩定，且不對未來決策預設立場。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -51,6 +51,7 @@
                 "c3c3497350155222cd0f9c9f185734616f3290143011fdcf8746431f9add1d55",
                 "78f1d20813b457dbc0becd9ab5e2629ba8189b5b5d676f556d90b2a95e0924af",
                 "45da53a7857e6f34b4bea77930fb73e58f908896dcd7c19052a2c35d6dbbbe71",
+                "fca3e0f3c82c93682596720cdcf9f2f979f74a847dea62b9958bc6cbb03e9d13",
                 "bf874f0026d60456f05413d048d9c0def2e915c1b5d5d5334ccaaf185e0b8d8a",
                 "811e25fe62eef19ea4597e16c6e39117eee7633511ab671b22d77943fc3e9ab4",
                 "0881b7111529127d9e90dfaf3f58ea806a731edcfd81f440ce6cbe7ecf19e7b1",
@@ -167,6 +168,12 @@
                   "time": "2026-09-17T02:38:58+08:00",
                   "central_bank": "FED",
                   "headline": "Fed's Chair Warsh: We will ensure any changes in prices won't broaden out."
+                },
+                {
+                  "id": "fca3e0f3c82c93682596720cdcf9f2f979f74a847dea62b9958bc6cbb03e9d13",
+                  "time": "2026-09-17T02:39:37+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Chair Warsh: I am not in the forward guidance business."
                 },
                 {
                   "id": "bf874f0026d60456f05413d048d9c0def2e915c1b5d5d5334ccaaf185e0b8d8a",
@@ -4954,7 +4961,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "表示國債減持計畫將循序漸進且具可預測性，若中東衝突持續且引發第二輪通膨效應風險，政策可能必須收緊。",
+              "summary_zh": "表示若中東衝突長期持續且第二輪效應風險上升，政策可能必須收緊，並指出國債減持計畫將循序漸進且具可預測性地進行。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5543,7 +5550,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "投票支持將政策利率調升至4.0%。",
+              "summary_zh": "在貨幣政策委員會中投票支持將利率上調至4%。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5812,7 +5819,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "指出英國面臨國內物價壓力升溫的風險增加。",
+              "summary_zh": "指出英國面臨國內物價壓力上升的風險更高。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6010,7 +6017,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "投票支持將政策基準利率調升至4.0%。",
+              "summary_zh": "在貨幣政策委員會中投票支持將利率上調至4%。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6163,7 +6170,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "表示對經濟前景看法與7月相比基本未變，並指出央行利率實質上已明顯高於歐洲同儕。",
+              "summary_zh": "表示對經濟前景的看法與7月相比基本未變，並指出英國央行當前利率顯著高於歐洲同儕。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6226,7 +6233,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "認為目前的貨幣政策水準已經具有相當明確的限制性。",
+              "summary_zh": "指出當前的貨幣政策已經處於明確的限制性水準。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6282,7 +6289,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "投票支持升息至4.0%，並認為現行的風險管理策略是適當的。",
+              "summary_zh": "認為當前風險管理策略合適，並在利率決議中投票支持升息至4%。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -8176,7 +8183,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "表示歐元區經濟具韌性且未見第二輪通膨效應，上週升息合理，但近期衝擊已使通膨前景變得好壞參半。",
+              "summary_zh": "指出歐元區經濟展現韌性且暫無第二輪效應跡象，上週升息具合理性，但受最新衝擊影響通膨前景好壞參半且情況已變。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -8492,7 +8499,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "指出通膨風險仍偏向上行，目前未見令人擔憂的第二輪效應，對未來會議決策持開放態度。",
+              "summary_zh": "表示目前未見令人擔憂的第二輪效應跡象，但通膨風險仍偏向上行，未來會議不排除任何政策選項。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -8965,7 +8972,7 @@
           "talks": [
             {
               "date": "2026-09-16",
-              "summary_zh": "密切關注天然氣價格與通膨擴散情況，指出近期風險上升，且不應低估財政支出對經濟成長的影響。",
+              "summary_zh": "密切關注天然氣價格與通膨擴散情況，指出近幾個月風險上升，且不應低估財政支出對經濟成長的影響。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -9618,7 +9625,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "表示對經濟成長感到樂觀且未見重大第二輪效應，但強調若不解決通膨問題將危及經濟，且市場預期無法決定央行行動。",
+              "summary_zh": "表示若不解決通膨經濟成長將面臨風險，目前未見明顯第二輪效應，對成長感到樂觀，並強調市場押注不決定歐洲央行下一步行動。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -10910,6 +10917,113 @@
           "voter": true,
           "talks": [
             {
+              "date": "2026-09-18",
+              "summary_zh": "指出勞動市場略微緊俏且部分通膨上行風險浮現，企業轉嫁成本增加，正評估當前貨幣政策緊縮程度是否足以在合理時間內使通膨達標。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "341444e6d9b658cc2002a6c0a36b3ddd8cb86670c5c28699522873545f32286e",
+                "2e7a30282171d03845b49ee4b164fd7ec93ed2a52e42e779ce2be9d7d5b086cb",
+                "cda338c6f97e0b88bc3416fb6134ae65b25a23775ed0fffa36f8066c6e629409",
+                "238d56444a1b128f060a2dd71fdd6f084d38a7fe2cd83371b588b16c037d2604",
+                "6e3cfed1e6c0f5967906f6b6e6f2e9e74e665295952b7b65c4fd2c91b408e1b9",
+                "094b9873e2c45bd7706b68af8c2d01d9f849dfec7e0f58618ed7f58676e1b3d9",
+                "0539dce5ec4f3d8ea134391a7b4f53dfcb9f3bb48beb0bdabe35ae7db8348bd4",
+                "a320553b1eb2f08256cb2b907019b8b3a919d6fc129020d0dc4285bd135aa5f7",
+                "e5783558724a5d71a57643c6bc8902ba4cdacd5fab6d535c2be84982e1498c15",
+                "3369b9be6c13e6ba913a36b23de513ec96f627300bd58c7e617cdf3677983c05",
+                "779061d20d4778ec26c5082dfaa054a9912f17ba51cdb52c8b78bd7df6faeb79",
+                "03d2db08e6d2a91c4dc4925dcda8d756fc62b5d5bf8330d3be973cb394f76092",
+                "3cb46d8bb00b9fc0b38908ea869f6d76db5f3b66e65eb9811e5338186688d935"
+              ],
+              "source_headlines": [
+                {
+                  "id": "341444e6d9b658cc2002a6c0a36b3ddd8cb86670c5c28699522873545f32286e",
+                  "time": "2026-09-18T07:35:56+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA Governor Bullock: various indicators indicate labor market conditions stay near, but slightly tighter than, full employment"
+                },
+                {
+                  "id": "2e7a30282171d03845b49ee4b164fd7ec93ed2a52e42e779ce2be9d7d5b086cb",
+                  "time": "2026-09-18T07:36:14+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA Governor Bullock: at August board meeting, risks to outlook were skewed to the upside"
+                },
+                {
+                  "id": "cda338c6f97e0b88bc3416fb6134ae65b25a23775ed0fffa36f8066c6e629409",
+                  "time": "2026-09-18T07:36:24+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA Governor Bullock: developments since then indicate that while growth in the Australian economy is slowing, some upside risks to inflation seem to be materializing"
+                },
+                {
+                  "id": "238d56444a1b128f060a2dd71fdd6f084d38a7fe2cd83371b588b16c037d2604",
+                  "time": "2026-09-18T07:36:40+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA Governor Bullock: liaison program shows many firms are passing on higher input costs"
+                },
+                {
+                  "id": "6e3cfed1e6c0f5967906f6b6e6f2e9e74e665295952b7b65c4fd2c91b408e1b9",
+                  "time": "2026-09-18T07:37:01+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA Governor Bullock: recent figures broadly align with expectation of demand growth easing in H1 2026"
+                },
+                {
+                  "id": "094b9873e2c45bd7706b68af8c2d01d9f849dfec7e0f58618ed7f58676e1b3d9",
+                  "time": "2026-09-18T07:37:21+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA governor Bullock: housing market conditions have softened, larger-than-expected easing could weigh on economic activity"
+                },
+                {
+                  "id": "0539dce5ec4f3d8ea134391a7b4f53dfcb9f3bb48beb0bdabe35ae7db8348bd4",
+                  "time": "2026-09-18T07:37:41+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA Governor Bullock: key question is whether monetary tightening to date will be enough to return inflation to target in reasonable time"
+                },
+                {
+                  "id": "a320553b1eb2f08256cb2b907019b8b3a919d6fc129020d0dc4285bd135aa5f7",
+                  "time": "2026-09-18T07:37:49+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA Governor Bullock: monetary policy positioned to address developments with focus on price stability and full employment"
+                },
+                {
+                  "id": "e5783558724a5d71a57643c6bc8902ba4cdacd5fab6d535c2be84982e1498c15",
+                  "time": "2026-09-18T07:38:03+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA Governor Bullock: lowering inflation is crucial"
+                },
+                {
+                  "id": "3369b9be6c13e6ba913a36b23de513ec96f627300bd58c7e617cdf3677983c05",
+                  "time": "2026-09-18T07:53:27+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA Governor Bullock: navigating a world with prolonged elevated oil prices"
+                },
+                {
+                  "id": "779061d20d4778ec26c5082dfaa054a9912f17ba51cdb52c8b78bd7df6faeb79",
+                  "time": "2026-09-18T08:25:56+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA Governor Bullock: companies now more likely to transfer cost hikes"
+                },
+                {
+                  "id": "03d2db08e6d2a91c4dc4925dcda8d756fc62b5d5bf8330d3be973cb394f76092",
+                  "time": "2026-09-18T08:40:13+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA Governor Bullock: decline in housing prices isn't that significant overall"
+                },
+                {
+                  "id": "3cb46d8bb00b9fc0b38908ea869f6d76db5f3b66e65eb9811e5338186688d935",
+                  "time": "2026-09-18T08:44:23+08:00",
+                  "central_bank": "RBA",
+                  "headline": "RBA Governor Bullock: considering if policy is tight enough"
+                }
+              ]
+            },
+            {
               "date": "2026-08-11",
               "summary_zh": "指出經濟仍運作於產能之上且通膨具上行風險，理事會曾討論升息，若有需要將再次提高利率以放緩經濟。",
               "topics": {
@@ -11637,21 +11751,21 @@
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 17387,
-    "candidatesTokenCount": 4537,
+    "promptTokenCount": 18897,
+    "candidatesTokenCount": 5524,
     "thoughtsTokenCount": 0,
-    "totalTokenCount": 21924,
+    "totalTokenCount": 24421,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
       "FED+BOE+ECB+BOJ+RBA": {
-        "promptTokenCount": 17387,
-        "candidatesTokenCount": 4537,
-        "totalTokenCount": 21924,
+        "promptTokenCount": 18897,
+        "candidatesTokenCount": 5524,
+        "totalTokenCount": 24421,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 17387
+            "tokenCount": 18897
           }
         ],
         "serviceTier": "standard"
@@ -11659,12 +11773,12 @@
     },
     "incremental": {
       "mode": "incremental",
-      "window_headline_count": 1994,
+      "window_headline_count": 2007,
       "regenerated_date_count": 3,
-      "regenerated_headline_count": 132,
+      "regenerated_headline_count": 145,
       "reused_headline_count": 1862,
       "reused_talk_count": 230,
-      "regenerated_talk_count": 12
+      "regenerated_talk_count": 13
     }
   }
 }
