@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-19T07:40:50.567087+08:00",
+  "generated_at": "2026-09-19T09:13:20.973332+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-06-21T07:40:50.567087+08:00",
-  "period_end": "2026-09-19T07:40:50.567087+08:00",
+  "period_start": "2026-06-21T09:13:20.973332+08:00",
+  "period_end": "2026-09-19T09:13:20.973332+08:00",
   "lookback_days": 90,
   "voter_version": "2026-09-09",
   "model": "gemini-3.8-flash",
@@ -24,7 +24,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "指出通膨過高且具上行風險，但經濟與勞動市場具韌性，金融條件並未達限制性，本次決策旨在收回寬鬆以確保物價穩定，未來政策不作預判。",
+              "summary_zh": "指出通膨過高且風險偏上行，勞動市場良好且經濟具韌性，金融條件並未具限制性，因此決議減少寬鬆以聚焦物價穩定。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -49,6 +49,7 @@
                 "9a46ebb1f9b8eda109a0b7ec65b84974835920309f2f70d4c1c6a555343b2d03",
                 "c7b7757527c9b33ec3b5ac92d094b838bad66441e4454acdf96cc7a4a27a1792",
                 "c3c3497350155222cd0f9c9f185734616f3290143011fdcf8746431f9add1d55",
+                "017daa8ed1402c0ea1971fb1a00ef8f2114cf0ea9d2301f9cda97235982d91db",
                 "78f1d20813b457dbc0becd9ab5e2629ba8189b5b5d676f556d90b2a95e0924af",
                 "45da53a7857e6f34b4bea77930fb73e58f908896dcd7c19052a2c35d6dbbbe71",
                 "fca3e0f3c82c93682596720cdcf9f2f979f74a847dea62b9958bc6cbb03e9d13",
@@ -156,6 +157,12 @@
                   "time": "2026-09-17T02:35:57+08:00",
                   "central_bank": "FED",
                   "headline": "Fed's Chair Warsh: We must be confident that underlying inflation must be moving to 2% on a timely basis, and the FOMC decided this has not been met."
+                },
+                {
+                  "id": "017daa8ed1402c0ea1971fb1a00ef8f2114cf0ea9d2301f9cda97235982d91db",
+                  "time": "2026-09-17T02:36:29+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Chair Warsh: I did not submit a dot."
                 },
                 {
                   "id": "78f1d20813b457dbc0becd9ab5e2629ba8189b5b5d676f556d90b2a95e0924af",
@@ -4623,7 +4630,7 @@
           "talks": [
             {
               "date": "2026-09-19",
-              "summary_zh": "表示財政部買回公債不影響聯準會工作，目前政策環境處於相對常態化狀態。",
+              "summary_zh": "表示當前處於相當正常的狀態，且美國財政部的買回操作不會增加或減輕聯準會工作的難度。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4653,7 +4660,7 @@
             },
             {
               "date": "2026-09-18",
-              "summary_zh": "表示通膨廣泛走高促使供需失衡，因而支持升息以助重返2%目標，並指出除通膨外勞動市場與經濟成長依然穩健。",
+              "summary_zh": "支持升息以助通膨重返2%，指出通膨廣泛高於3%顯示供需失衡，勞動市場均衡且經濟增長穩固。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5056,7 +5063,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "表示若中東衝突持續且第二輪通膨效應風險升高，政策可能需要收緊，並指出公債縮減計畫將逐步且可預測地進行。",
+              "summary_zh": "表示若中東衝突持續且第二輪效應風險上升，政策可能需要收緊，並指出公債縮表計畫將逐步且可預測地進行。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5066,10 +5073,17 @@
                 "balance_sheet": ""
               },
               "source_ids": [
+                "0470f11d4c56ed51a31b08e76c9ca50aef969fd59c02a39ca348e08f66d34a37",
                 "b52b3365e1b5dd3833976d710742851fc04af2d2295412f8b13611c5425a15d8",
                 "a4ab99b58b81d5ba66273775bcc1a9d6852633f45ac8b718e4b9517f6d1eda1b"
               ],
               "source_headlines": [
+                {
+                  "id": "0470f11d4c56ed51a31b08e76c9ca50aef969fd59c02a39ca348e08f66d34a37",
+                  "time": "2026-09-17T19:01:00+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: Loss of urgency to find solutions to conflict"
+                },
                 {
                   "id": "b52b3365e1b5dd3833976d710742851fc04af2d2295412f8b13611c5425a15d8",
                   "time": "2026-09-17T19:02:24+08:00",
@@ -5645,7 +5659,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "在利率決策會議中投票贊成將利率上調至4%。",
+              "summary_zh": "投票贊成將利率調升至4%。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5914,7 +5928,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "指出國內通膨壓力升溫的風險正在增加。",
+              "summary_zh": "指出國內通膨壓力浮現的風險正在增加。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6112,7 +6126,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "在利率決策會議中投票贊成將利率調升至4%。",
+              "summary_zh": "投票贊成將利率調升至4%。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6265,7 +6279,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "表示對經濟前景的看法自7月以來大致未變，並指出央行當前利率顯著高於歐洲同儕。",
+              "summary_zh": "對經濟前景看法自7月以來大致未變，並指出央行利率實質上高於歐洲同儕。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6328,7 +6342,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "表示貨幣政策目前已經處於明確的限制性水準。",
+              "summary_zh": "認為貨幣政策已經具備明確的限制性。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6384,7 +6398,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "支持風險管理策略是適當的，並投票贊成將利率上調至4%。",
+              "summary_zh": "認為風險管理策略合適，並投票贊成升息至4%。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6484,7 +6498,7 @@
           "talks": [
             {
               "date": "2026-09-18",
-              "summary_zh": "表示經濟成長優於預期且尚未見第二輪通膨效應，利率決策採逐次會議決定，不會單純隨能源價格波動起舞。",
+              "summary_zh": "表示將按逐次會議評估利率，經濟增長好於預期且未見第二輪效應，政策不完全隨能源價格起舞但已做好應對準備。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -7338,7 +7352,7 @@
           "talks": [
             {
               "date": "2026-09-18",
-              "summary_zh": "表示市場利率預期主要反映能源走勢，若高通膨延續將壓抑GDP，政策考量廣泛數據，且法定準備金有助低成本吸收流動性。",
+              "summary_zh": "指出市場利率定價主因能源上漲，若通膨居高不下將拖累GDP，決策依據廣泛數據而非僅看能源，並肯定法定準備金吸收過剩流動性的功能。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -8374,7 +8388,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "表示歐元區經濟展現韌性且上週升息合理，儘管目前未見第二輪效應，但受最新衝擊影響通膨前景錯綜，情況已有所改變。",
+              "summary_zh": "表示歐元區經濟具韌性且未見第二輪效應，上周升息合理，但通膨前景錯綜且受外部衝擊影響。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -8690,7 +8704,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "表示通膨風險依然偏向上行，雖然尚未見到令人擔憂的第二輪效應，但對未來會議的政策走向不排除任何可能性。",
+              "summary_zh": "未見令人擔憂的第二輪效應，但通膨風險仍偏上行，對未來會議不排除任何政策可能。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -9527,7 +9541,7 @@
           "talks": [
             {
               "date": "2026-09-18",
-              "summary_zh": "表示當前中性利率的確切水準並非主要擔憂，央行必須防止第二輪通膨效應發生。",
+              "summary_zh": "強調必須防止通膨出現第二輪效應，並認為當前中性利率的確切水準並非重大隱憂。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -9846,7 +9860,7 @@
           "talks": [
             {
               "date": "2026-09-17",
-              "summary_zh": "表示目前未見重大第二輪通膨效應且經濟樂觀，但若不及時解決通膨經濟成長將面臨風險，並強調市場押注不決定決策。",
+              "summary_zh": "表示若不及時解決通膨將危及經濟增長，目前未見重大第二輪效應，且市場預期不決定央行後續行動。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -9930,7 +9944,7 @@
           "talks": [
             {
               "date": "2026-09-18",
-              "summary_zh": "表示經濟溫和復甦但政策目標階段已變，存在通膨超標風險，將依經濟物價持續升息，不排除連續升息或單次升息逾1碼。",
+              "summary_zh": "表示經濟溫和復甦但面臨通膨超出目標的風險，將依經濟物價持續升息，且不排除連續升息或單次升息逾25個基點等措施。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -9949,8 +9963,10 @@
                 "60ae1da15cb77c2437fe7f07f40e0b525ea585a50d298989ca00216e189532eb",
                 "deb8847ccf84df3e9d9f53c51c6c58c99e66f9ea7c31db56350b972c61215e28",
                 "ec4105431730794ae59542d4beba32b16686e9350b31baf3549419fbcf4d3ecd",
+                "b1af0626ece3137017d6f00bda952e6ff283552d0e1936ca9ef1dc9e76680caa",
                 "fd7847cea26adc0c69972aeaaeb79a9dfd7f467faca6c420eb9c79dc6d6449cf",
                 "a7fc8c8ab32392deedab46f4e487076bb69bad95fbee828baed37b5e6f1f8590",
+                "a103807c578097af5e2df823a65d40ece99b179b144cc5bac103b04d4f0b75e9",
                 "f76ca345646023d9e412f196a1708fd7e231b67d49f7989119603169fa57dc21",
                 "e8f6e0c19374feae5960c8371465934830006302172c0df7b9af11cfa1250ec1"
               ],
@@ -10010,6 +10026,12 @@
                   "headline": "BoJ Gov Ueda: Short-term objective has changed significantly."
                 },
                 {
+                  "id": "b1af0626ece3137017d6f00bda952e6ff283552d0e1936ca9ef1dc9e76680caa",
+                  "time": "2026-09-18T14:45:55+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ Gov Ueda: No comment about short-term market moves."
+                },
+                {
                   "id": "fd7847cea26adc0c69972aeaaeb79a9dfd7f467faca6c420eb9c79dc6d6449cf",
                   "time": "2026-09-18T14:50:00+08:00",
                   "central_bank": "BOJ",
@@ -10020,6 +10042,12 @@
                   "time": "2026-09-18T14:55:05+08:00",
                   "central_bank": "BOJ",
                   "headline": "BoJ Gov Ueda: Rate hikes have gradually tightened financial conditions."
+                },
+                {
+                  "id": "a103807c578097af5e2df823a65d40ece99b179b144cc5bac103b04d4f0b75e9",
+                  "time": "2026-09-18T14:57:39+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ Gov Ueda: Not mulling board member change next year for policy."
                 },
                 {
                   "id": "f76ca345646023d9e412f196a1708fd7e231b67d49f7989119603169fa57dc21",
@@ -11164,7 +11192,7 @@
           "talks": [
             {
               "date": "2026-09-18",
-              "summary_zh": "反對本次升息決議，認為近期CPI漲幅低於2%顯示經濟狀況未必強勁，維持貨幣市場操作指引較為理想。",
+              "summary_zh": "反對升息決議，認為近期CPI漲幅低於2%顯示經濟未必強勁，央行維持貨幣市場操作指引更為合適。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -11234,7 +11262,7 @@
           "talks": [
             {
               "date": "2026-09-18",
-              "summary_zh": "反對本次升息決議，指出當前經濟與物價趨勢並未顯著加速，升息並不合適。",
+              "summary_zh": "反對升息決議，認為當前經濟與物價趨勢並未顯著加速，升息並不合適。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -11313,7 +11341,7 @@
           "talks": [
             {
               "date": "2026-09-18",
-              "summary_zh": "表示通膨上行風險正在顯現且企業持續轉嫁成本，勞動市場維持略緊於充份就業，央行正在評估當前貨幣緊縮程度是否充足。",
+              "summary_zh": "表示勞動市場略高於充分就業且中性利率已提高，通膨風險偏上行，正評估當前貨幣緊縮是否足以讓通膨回落至目標。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -11707,7 +11735,7 @@
           "talks": [
             {
               "date": "2026-09-18",
-              "summary_zh": "表示澳洲央行董事會完全致力於實現通膨目標。",
+              "summary_zh": "強調理事會全力致力於實現通膨目標。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -12198,16 +12226,16 @@
   ],
   "usage_metadata": {
     "promptTokenCount": 28032,
-    "candidatesTokenCount": 8606,
+    "candidatesTokenCount": 7863,
     "thoughtsTokenCount": 0,
-    "totalTokenCount": 36638,
+    "totalTokenCount": 35895,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
       "FED+BOE+ECB+BOJ+RBA": {
         "promptTokenCount": 28032,
-        "candidatesTokenCount": 8606,
-        "totalTokenCount": 36638,
+        "candidatesTokenCount": 7863,
+        "totalTokenCount": 35895,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
