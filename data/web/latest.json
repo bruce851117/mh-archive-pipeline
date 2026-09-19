@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-09-19T09:14:11.916946+08:00",
-  "summary_generated_at": "2026-09-19T09:14:11.916946+08:00",
-  "data_updated_at": "2026-09-19T08:50:51.846195+08:00",
+  "generated_at": "2026-09-20T07:01:54.432231+08:00",
+  "summary_generated_at": "2026-09-20T07:01:54.432231+08:00",
+  "data_updated_at": "2026-09-20T06:50:50.368970+08:00",
   "timezone": "Asia/Taipei",
   "period_start": "2026-09-18T05:00:00+08:00",
-  "period_end": "2026-09-19T08:50:51.846195+08:00",
+  "period_end": "2026-09-20T06:50:50.368970+08:00",
   "model": "gemini-3.8-flash",
   "source_digest_files": [
     "data/digests/2026/09/2026-09-17.json",
     "data/digests/2026/09/2026-09-18.json",
-    "data/digests/2026/09/2026-09-19.json"
+    "data/digests/2026/09/2026-09-19.json",
+    "data/digests/2026/09/2026-09-20.json"
   ],
-  "event_count": 51,
+  "event_count": 82,
   "summary_points": [
-    "美中正磋商互降關稅框架，擬撤銷美液化天然氣（LNG）輸中15%關稅並各自調降約300億美元商品關稅，且雙方高層本週末將聚焦AI與稀土展開關鍵談判。",
-    "中東局勢持續動盪，荷姆茲海峽油輪接連遇襲引發火災致航道通行量大跌，沙烏地更通知歐洲煉廠下月斷供原油，加劇全球能源供應緊縮擔憂。",
-    "地緣政治外交斡旋出現轉機，川普透露美方正與青年運動談判且伊朗戰爭將很快結束，沙烏地亦請求伊朗出面斡旋中東衝突。",
-    "日本央行以7比2通過升息25個基點至1.25%，總裁植田和男示警底層通膨風險並不排除擴大升息，甚至傳出官方已在匯市展開利率檢查以防日圓走貶。",
-    "主要央行態度維持偏鷹，聯準會官員Schmid直言通膨高於3%力挺升息，澳洲央行亦警惕通膨上行風險，歐洲央行則強調維持逐次會議評估政策。",
-    "評級機構Scope將法國主權信用評等降至A+，加上義大利政府示警債務攀升，凸顯歐洲主權債務與赤字壓力加劇，對歐元區國債市場利差形成擴大壓力。",
-    "面對中東局勢引發的能源成本飆升，德國拍板燃料價格上限並擬調降汽油稅，南韓延長燃油稅調降措施，法國則緊急推動G7評估釋放戰略儲油。",
-    "AI巨頭資本擴張與成長預期強勁，OpenAI預估至2030年資本支出達2,800億美元且營收增至3,500億美元，Anthropic年化營收亦預計突破1,000億美元，雲端基礎設施商Nscale更以300億美元估值申請美股IPO。"
+    "中東戰局劇烈升溫，葉門胡塞武裝襲擊沙烏地阿美延布設施及首都利雅德，沙烏地亦通知歐洲煉油廠下月斷供原油，荷姆茲海峽油輪頻傳遇襲致通行量驟降，嚴重威脅全球能源供應鏈。",
+    "地緣政治外交斡旋同步展開，伊朗透過卡達向華府轉交包含全面停火與解凍資產等三大終戰條件，川普則透露美方正與胡塞武裝談判且伊朗戰爭有望迅速結束。",
+    "美中經貿關係迎來重啟契機，雙方正磋商互降各約300億美元商品關稅框架（包含擬撤銷美LNG輸中15%關稅），美財長貝森特與貿易代表本週末將於紐約會晤中國副總理何立峰，聚焦AI與稀土議題。",
+    "日本央行以7比2通過升息25個基點至1.25%，總裁植田和男示警底層通膨有超標風險且不排除連續升息，隨後市場傳出央行在匯市進行利率檢查以遏制日圓貶勢。",
+    "全球央行緊縮與通膨擔憂揮之不去，Fed官員Schmid力挺升息以對抗高於3%的廣泛通膨，澳洲央行亦警示通膨上行風險，歐洲央行與英國央行則面臨能源成本推升後續再升息的市場預期。",
+    "歐洲主權債務與通膨壓力加劇，評級機構Scope將法國主權信用評等下調至A+，德國則拍板燃料價格上限並研議調降汽油稅，多國財政面臨能源補貼與赤字超標的雙重挑戰。",
+    "AI產業資本支出與營收展望呈爆發式擴張，OpenAI預估至2030年累計支出將達2,800億美元且營收上看3,500億美元，Anthropic年化營收亦傳出將突破千億美元，惟多家科技巨頭因呼籲放緩AI發展而面臨訴訟爭議。"
   ],
   "blocks": [
     {
@@ -176,6 +176,15 @@
           "event_time": "2026-09-19T07:43:24+08:00"
         },
         {
+          "source_id": "09cbcd584d2f54d94956f41b28b4ac6c05ce0a2c281aab55bb260877cdfe8258",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "Anthropic考慮在首次公開發行（IPO）前推出新AI模型",
+          "summary_zh": "消息指出AI新創公司Anthropic正考慮在IPO前發表新款AI模型，以拉抬估值與市場關注度。",
+          "event_time": "2026-09-19T08:03:23+08:00"
+        },
+        {
           "source_id": "b9b2f2821f9a548eac667feb32e276eaa2102247290e973a7663ae4445d4cdf7",
           "category": "股市",
           "importance_score": 3,
@@ -183,6 +192,24 @@
           "headline_zh": "Anthropic評估在IPO前發布新AI模型，上市可能延至美國期中選舉後",
           "summary_zh": "知情人士透露Anthropic正考慮在IPO前推出最新一代AI模型，但受到市場波動與宏觀環境影響，IPO時程可能推遲至美國期中選舉之後。",
           "event_time": "2026-09-19T08:03:25+08:00"
+        },
+        {
+          "source_id": "49ef3602f1500951bb8963b3b60928b942d25b649507cc5b071cd9d90916757b",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "Anthropic、OpenAI、SpaceXAI與Google因呼籲放緩AI發展而挨告",
+          "summary_zh": "多家頂尖AI科技巨頭因呼籲調節或控制AI發展節奏而遭提起訴訟，可能對科技龍頭的監管壓力與股價帶來波動。",
+          "event_time": "2026-09-19T17:27:30+08:00"
+        },
+        {
+          "source_id": "928addba5f8c982c85d5d355294a56606fce319cac55bb0e201033a7a760d7bc",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "川普宣布籌組AI部隊並即將任命新AI主管",
+          "summary_zh": "川普表示將仿效太空軍成立類似的AI部隊（AI force），並於近期宣布負責統籌的AI沙皇（Czar），顯示AI成為國家戰略焦點。",
+          "event_time": "2026-09-20T01:14:14+08:00"
         }
       ]
     },
@@ -278,6 +305,33 @@
           "headline_zh": "日本央行據傳在匯率市場進行利率檢查（Rate Checks）",
           "summary_zh": "日經新聞報導，在日本央行升息後日圓不升反貶的情況下，日本央行可能已在匯市對主要交易商進行匯率檢查，釋出潛在官方干預訊號。",
           "event_time": "2026-09-18T23:48:27+08:00"
+        },
+        {
+          "source_id": "38562b1deb14c92cad71122e1ce56474f96c0ab3ea84929918d0f241a067364f",
+          "category": "央行",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "中國央行顧問：人工智慧可能加劇經濟供強需弱問題",
+          "summary_zh": "中國人民銀行顧問警示AI普及可能進一步拉大產能供給與內需消費的缺口，對宏觀經濟再平衡構成挑戰。",
+          "event_time": "2026-09-19T15:46:20+08:00"
+        },
+        {
+          "source_id": "853e3dc4f52f41f116acc58da5ffd4d518d44bbbc83a905772a857a399814da7",
+          "category": "央行",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "中國央行顧問：中國經濟已進行再平衡但進展仍顯不足",
+          "summary_zh": "中國央行顧問強調當前經濟轉型與再平衡成效仍不充分，突顯中國面臨的長期結構性挑戰。",
+          "event_time": "2026-09-19T15:47:40+08:00"
+        },
+        {
+          "source_id": "74d9932cafbb27bc94e25edd70b80381dcd84b9f6b06d1867d1d22c7ca5a9572",
+          "category": "央行",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "中國央行顧問：提振需求是經濟再平衡的關鍵",
+          "summary_zh": "中國央行顧問表示刺激內需是實現經濟平穩成長與結構再平衡的核心，市場預期政策或朝擴大消費端傾斜。",
+          "event_time": "2026-09-19T15:49:36+08:00"
         }
       ]
     },
@@ -346,6 +400,24 @@
           "headline_zh": "美駐聯合國大使透露川普將會晤英國大曼徹斯特市長Burnham",
           "summary_zh": "美國駐聯合國大使透露川普將與英國政界要角Burnham會面，市場密切關注已開發國家財政框架與英美經貿互動。",
           "event_time": "2026-09-19T06:12:52+08:00"
+        },
+        {
+          "source_id": "78c6f12d608bc83ecb88930c562af21e19c6113e130a325a4e6cab7f6f9cdcbb",
+          "category": "財政政策",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "法國財政部預測公共債務占GDP比重將於2026年達119.3%、2027年達121.7%",
+          "summary_zh": "法國財政部預測債務負擔將持續攀升，引發市場對歐元區核心國財政永續性與主權債券利差的擔憂。",
+          "event_time": "2026-09-19T19:20:56+08:00"
+        },
+        {
+          "source_id": "cd8d69659d15e0e122be81441c4534bc53a20c020f7d4585bf9442b5b2dbc42b",
+          "category": "財政政策",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "法國財政部設定預算赤字目標為2026年5.4%、2027年5.0%",
+          "summary_zh": "法國公布中期赤字縮減路徑，但赤字佔GDP比重仍顯著高於歐盟3%門檻，反映財政緊縮推行困難。",
+          "event_time": "2026-09-19T19:22:38+08:00"
         }
       ]
     },
@@ -414,6 +486,33 @@
           "headline_zh": "美財長Bessent與USTR代表本週末會晤中國副總理何立峰，聚焦AI與稀土",
           "summary_zh": "美國財政部長Bessent與貿易代表Greer將於本週末會晤中國國務院副總理何立峰，針對AI監管、稀土供應鏈及川習會雙邊經貿協議進行關鍵談判。",
           "event_time": "2026-09-19T07:55:18+08:00"
+        },
+        {
+          "source_id": "c37a65dd0a683671c12e185f74f1cc541f25d6c0c3da2c8d84c4d3f4695f50bc",
+          "category": "經濟",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "中國國務院副總理何立峰於9月19日至23日率貿易代表團訪美",
+          "summary_zh": "中國商務部證實何立峰率團赴美，為近期雙方重啟高層經貿對話的重要進展，牽動關稅與雙邊經貿政策預期。",
+          "event_time": "2026-09-19T09:20:23+08:00"
+        },
+        {
+          "source_id": "bbcbe1ac1407659ce32c23b81cd0231f752e1a9e441c7c6c7aa0fea202535d9e",
+          "category": "經濟",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美財長貝森特與貿易代表格里爾將於週日在紐約摩根大通總部會見何立峰",
+          "summary_zh": "美中雙方財金貿易高層選在華爾街金融機構總部會晤，顯示此輪閉門協商具有高度實質經濟意義。",
+          "event_time": "2026-09-20T02:13:00+08:00"
+        },
+        {
+          "source_id": "5845ea4d6f72119d3704898f6fc0ada51af671b35745946121e6f2db01a5a5df",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "土耳其外長：當前中東危機在經濟上已難以承受",
+          "summary_zh": "土耳其外長直言區域戰火已對區域及全球經濟帶來難以承擔的負擔，呼籲各方加速停火促和。",
+          "event_time": "2026-09-20T02:21:34+08:00"
         }
       ]
     },
@@ -509,18 +608,198 @@
           "headline_zh": "川普正式簽署俄羅斯制裁法案生效，烏克蘭總統澤倫斯基表達感謝",
           "summary_zh": "白宮證實川普已將國會通過的對俄新制裁法案簽署成法，澤倫斯基發表公開談話感謝美國立法支持。",
           "event_time": "2026-09-19T05:44:58+08:00"
+        },
+        {
+          "source_id": "c2ea0a2c1f2f6395a4d9108a43fd2f0f5e81a667c78b1782ce4360854437c3c5",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "沙烏地民防部門針對利雅德與阿爾卡吉發布潛在危險警報後解除",
+          "summary_zh": "沙烏地民防部門一度對首都利雅德及周邊地區發出潛在威脅警報，隨後宣布危險已解除，市場密切關注空襲威脅。",
+          "event_time": "2026-09-19T07:59:39+08:00"
+        },
+        {
+          "source_id": "96be1ad2016a714210c6a349bb5be775082541b28e2c31335b8ff95d8e6ddeb5",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "美國國務院批准對烏克蘭進行26.8億美元防空升級軍售",
+          "summary_zh": "美國國務院批准大規模對烏軍售案，旨在強化烏軍防空體系，顯示美對烏軍事支援持續推進。",
+          "event_time": "2026-09-19T09:02:35+08:00"
+        },
+        {
+          "source_id": "d5147ea25d0123a0d9fe3a9026b247721b1814b9149c6f8eaf79171f2b191194",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "南華早報：美國考慮將對台重大軍售宣布延後至深圳APEC峰會後",
+          "summary_zh": "傳出美方考慮延後宣布對台軍售案，以避免在11月深圳APEC峰會前夕升級美中緊張關係。",
+          "event_time": "2026-09-19T10:02:53+08:00"
+        },
+        {
+          "source_id": "a3997ca53db277bf96ebcb284ae3011146490301c406f901ae69a1265013c0cc",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "伊朗處決一名被控在戰爭期間向以色列洩露飛彈基地資訊的男子",
+          "summary_zh": "伊朗司法部門宣布處決涉嫌向以色列表露軍事機密的間諜，突顯伊以雙方在情報戰與敵對行動上的高度緊繃。",
+          "event_time": "2026-09-19T14:14:20+08:00"
+        },
+        {
+          "source_id": "af07ed306f824b90752213996e020fb17fc24b5c0aeed88b43cbafe1eba56ce0",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "俄軍在黑海及烏克蘭港口襲擊烏克蘭貨船與油輪",
+          "summary_zh": "俄羅斯對黑海烏克蘭貨輪及油輪展開軍事打擊，威脅黑海航道航運安全及大宗商品運輸。",
+          "event_time": "2026-09-19T15:46:06+08:00"
+        },
+        {
+          "source_id": "53a3852712b6c43d70c10c0d0cd878707f8383a695fc177f1131c84f7e028b96",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "俄羅斯稱未收到美方關於烏克蘭衝突結束前簽署協議的暗示",
+          "summary_zh": "俄方否認美方有在戰事結束前推進簽署停火協議的訊息，表明俄烏終戰談判仍充滿不確定性。",
+          "event_time": "2026-09-19T16:42:02+08:00"
+        },
+        {
+          "source_id": "9597aa4b5d2ec82f3827f530637a89f767a0b9dfecec99020870134a8be1d72c",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "北約發言人：歡迎美國、丹麥與格陵蘭即將達成安全協議",
+          "summary_zh": "北約表示美、丹、格即將達成協議以強化北極防務，顯示大國在北極戰略航道與資源競爭升級。",
+          "event_time": "2026-09-19T17:27:32+08:00"
+        },
+        {
+          "source_id": "f39d0e2976eee73daeb0bec8f6c54a540cb312106f13aa825db77232ea949c52",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "巴基斯坦外長與伊朗外長通話並同意於聯合國大會期間會面",
+          "summary_zh": "巴基斯坦外長達爾（Ishaq Dar）與伊朗外長阿拉格奇（Abbas Araghchi）就區域局勢進行通話並約定會談，顯示巴國積極參與中東外交調解。",
+          "event_time": "2026-09-19T18:21:58+08:00"
+        },
+        {
+          "source_id": "11dfa8ffba3e21ef2e3a7dd5efca6321367da502415c355d1ea07955ffbce5fb",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "沙烏地利雅德機場附近升起濃煙與大火",
+          "summary_zh": "目擊者稱利雅德機場周邊出現火勢與濃煙，與稍後胡塞武裝宣稱發動的襲擊時間吻合，引發區域安全疑慮。",
+          "event_time": "2026-09-19T18:34:37+08:00"
+        },
+        {
+          "source_id": "9f7c4a862c79e944591b4a606d562024ec0930652dfaaefdc35af30da95101ed",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "伊朗國安高層：卡達已將德黑蘭終戰條件轉交華府，正等待川普回應",
+          "summary_zh": "伊朗最高安全官員透露已透過斡旋國卡達向美國提出終戰條件，美伊衝突迎來潛在外交突破契機，市場高度矚目川普態度。",
+          "event_time": "2026-09-19T23:27:08+08:00"
+        },
+        {
+          "source_id": "336001aaddc9504e99a76bd6a8bed61151d5f4d90d21f936ca9d271c98061f12",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗國安高層：持續與卡達和巴基斯坦進行調停談判",
+          "summary_zh": "伊朗證實與斡旋國持續協商，展現透過外交途徑探索談判的可能性，有助於降低全面戰爭風險溢價。",
+          "event_time": "2026-09-19T23:28:22+08:00"
+        },
+        {
+          "source_id": "f31bffb8876a3dcaea937bb67ce7f234242af28f60fe97dce84e104017d18fa7",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "伊朗列出終戰三大條件：全面停火、解凍伊朗資產、解除海上封鎖",
+          "summary_zh": "伊朗開出具體停火底線，包含各戰線全面停火、解凍遭制裁資金以及解除海上封鎖，成為未來談判核心攻防焦點。",
+          "event_time": "2026-09-19T23:31:08+08:00"
+        },
+        {
+          "source_id": "c8c68eace0e80905723da9cec1a3c43c7c662f755b9f25a9ffc3d3d9c3671fca",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗最高安全官員表態希望沙烏地阿拉伯與葉門戰事結束",
+          "summary_zh": "伊朗官方釋出願意見到沙葉衝突停歇的訊號，對緩解紅海航行危機與波斯灣區域衝突具關鍵指標意義。",
+          "event_time": "2026-09-19T23:32:34+08:00"
+        },
+        {
+          "source_id": "ef93b52d846d4c4218b1fa205cb9a3f31443b890f0a154e90bdf3ba4bd676903",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "葉門胡塞武裝宣稱襲擊沙烏地阿美位於延布的設施及利雅德敏感目標",
+          "summary_zh": "胡塞武裝宣布以彈道飛彈及無人機攻擊沙烏地阿美（Aramco）延布設施與利雅德，直接威脅全球石油關鍵基礎設施。",
+          "event_time": "2026-09-20T01:01:05+08:00"
+        },
+        {
+          "source_id": "ee1f82412c28ce274933bd6e7fd68de9a483791907b0feb4a01138f445f8d30a",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "葉門胡塞武裝警告在封鎖解除前將持續打擊沙烏地軍事集結",
+          "summary_zh": "胡塞組織強硬表態除非解除對葉門封鎖，否則打擊行動不會停止，紅海與周邊區域地緣風險維持高檔。",
+          "event_time": "2026-09-20T01:04:58+08:00"
+        },
+        {
+          "source_id": "57a0bfe66534eba289d8533b130efca23919fdc9c2d2a4622ba55c4dc326f1d0",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "巴基斯坦內政部長訪伊，伊朗外交部稱未獲悉任何美方訊息",
+          "summary_zh": "巴基斯坦官員到訪德黑蘭，但伊朗外交部發言人表示此行純屬雙邊關係，對美方是否傳遞訊息不知情。",
+          "event_time": "2026-09-20T01:13:46+08:00"
+        },
+        {
+          "source_id": "6667f8cd8084e7ed5c5e0b6eeb813a1bc289491eaff4c041a7af44d82e8c2d46",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "土耳其外長：已向各方提出方案以結束沙烏地與胡塞武裝衝突",
+          "summary_zh": "土耳其介入沙葉停火調解，提出具體和平提議，力求遏制紅海戰火擴散對全球供應鏈的衝擊。",
+          "event_time": "2026-09-20T02:23:09+08:00"
+        },
+        {
+          "source_id": "f1518d68141e7a7cb0b04f6d0cb37b92da766b4806353ec17bfa128db50797d2",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "土耳其外長：沙烏地若捲入美伊戰爭無法接受，沙方無意參戰",
+          "summary_zh": "土耳其外長強調沙國無意被捲入美伊戰爭，避免中東全面對抗爆發。",
+          "event_time": "2026-09-20T02:24:10+08:00"
+        },
+        {
+          "source_id": "04f6ee5e2c80a6e0cfac24dccc4632745ec0f9a6505eb9cb8702ed784d97d22c",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "土耳其向俄烏雙方遞交停止黑海交火提案，正等待回應",
+          "summary_zh": "土耳其再度扮演俄烏調停角色，提議停止在黑海海域交戰以確保民用航道安全。",
+          "event_time": "2026-09-20T02:38:19+08:00"
+        },
+        {
+          "source_id": "339f20184dda8b0e74162d16fc6777bbb4043d0ae428ab08fc1f90e0afa2a516",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "沙烏地聯軍攔截並摧毀胡塞武裝射向利雅德的彈道飛彈及多處襲擊",
+          "summary_zh": "沙烏地領導的多國聯軍證實成功攔截擊向利雅德的彈道飛彈，並挫敗針對延布等數座城市的襲擊，遏制了對能源重鎮的直接損害。",
+          "event_time": "2026-09-20T03:37:09+08:00"
         }
       ]
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 9766,
-    "candidatesTokenCount": 501,
-    "totalTokenCount": 10267,
+    "promptTokenCount": 15046,
+    "candidatesTokenCount": 522,
+    "totalTokenCount": 15568,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 9766
+        "tokenCount": 15046
       }
     ],
     "serviceTier": "standard"
