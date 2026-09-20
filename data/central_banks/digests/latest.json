@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-20T09:13:09.509449+08:00",
+  "generated_at": "2026-09-21T07:01:01.177273+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-06-22T09:13:09.509449+08:00",
-  "period_end": "2026-09-20T09:13:09.509449+08:00",
+  "period_start": "2026-06-23T07:01:01.177273+08:00",
+  "period_end": "2026-09-21T07:01:01.177273+08:00",
   "lookback_days": 90,
   "voter_version": "2026-09-09",
   "model": "gemini-3.8-flash",
@@ -2866,6 +2866,29 @@
           "voter": true,
           "talks": [
             {
+              "date": "2026-09-20",
+              "summary_zh": "重申聯準會的職責是將通膨率帶回2%的目標水準。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "6829ada398b98b04da9bf05606892d62e1acef858b23b26fa1ddac9c085488c4"
+              ],
+              "source_headlines": [
+                {
+                  "id": "6829ada398b98b04da9bf05606892d62e1acef858b23b26fa1ddac9c085488c4",
+                  "time": "2026-09-20T22:40:41+08:00",
+                  "central_bank": "FED",
+                  "headline": "Minneapolis Federal Reserve president Neel Kashkari: Fed’s job is to bring inflation back to 2% target - Fox News interview"
+                }
+              ]
+            },
+            {
               "date": "2026-08-05",
               "summary_zh": "表示現在是緩慢調升利率的時機，目標是壓低由供給衝擊與需求疊加所引發的通膨，而非刻意放緩經濟。",
               "topics": {
@@ -4630,7 +4653,7 @@
           "talks": [
             {
               "date": "2026-09-19",
-              "summary_zh": "表示財政部買回公債不影響聯準會工作，並認為當前政策處於相當正常的狀態。",
+              "summary_zh": "表示美國財政部的回購操作並未使聯準會的工作變得更困難或更容易，並指出當前處於相當正常化的狀態。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -7314,29 +7337,6 @@
                   "time": "2026-06-30T02:58:00+08:00",
                   "central_bank": "ECB",
                   "headline": "ECB's President Lagarde: War created major inflation pressure; Europe is resilient and ECB can raise rates if needed."
-                }
-              ]
-            },
-            {
-              "date": "2026-06-22",
-              "summary_zh": "通膨風險上升且經濟增長風險偏下行，若未出現預期脫錨或第二輪效應，尚無須採取強力行動。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "manual-65cd49a0cad3a9b7c343"
-              ],
-              "source_headlines": [
-                {
-                  "id": "manual-65cd49a0cad3a9b7c343",
-                  "time": "2026-06-22T21:00:00+08:00",
-                  "central_bank": "ECB",
-                  "headline": "ECB's President Lagarde: Inflation risks are up and growth risks down; no forceful action yet absent de-anchoring or second-round effects."
                 }
               ]
             }
@@ -12211,21 +12211,21 @@
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 14514,
-    "candidatesTokenCount": 4334,
+    "promptTokenCount": 1557,
+    "candidatesTokenCount": 375,
     "thoughtsTokenCount": 0,
-    "totalTokenCount": 18848,
+    "totalTokenCount": 1932,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
-      "FED+BOE+ECB+BOJ+RBA": {
-        "promptTokenCount": 14514,
-        "candidatesTokenCount": 4334,
-        "totalTokenCount": 18848,
+      "FED+RBA": {
+        "promptTokenCount": 1557,
+        "candidatesTokenCount": 375,
+        "totalTokenCount": 1932,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 14514
+            "tokenCount": 1557
           }
         ],
         "serviceTier": "standard"
@@ -12235,10 +12235,10 @@
       "mode": "incremental",
       "window_headline_count": 2102,
       "regenerated_date_count": 2,
-      "regenerated_headline_count": 109,
-      "reused_headline_count": 1993,
-      "reused_talk_count": 242,
-      "regenerated_talk_count": 10
+      "regenerated_headline_count": 4,
+      "reused_headline_count": 2098,
+      "reused_talk_count": 251,
+      "regenerated_talk_count": 2
     }
   }
 }
