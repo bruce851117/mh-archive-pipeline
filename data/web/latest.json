@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-21T07:41:07.497008+08:00",
-  "summary_generated_at": "2026-09-21T07:41:07.497008+08:00",
-  "data_updated_at": "2026-09-21T06:50:43.996083+08:00",
+  "generated_at": "2026-09-21T09:10:19.138016+08:00",
+  "summary_generated_at": "2026-09-21T09:10:19.138016+08:00",
+  "data_updated_at": "2026-09-21T08:50:46.246304+08:00",
   "timezone": "Asia/Taipei",
   "period_start": "2026-09-18T05:00:00+08:00",
-  "period_end": "2026-09-21T06:50:43.996083+08:00",
+  "period_end": "2026-09-21T08:50:46.246304+08:00",
   "model": "gemini-3.8-flash",
   "source_digest_files": [
     "data/digests/2026/09/2026-09-17.json",
@@ -13,17 +13,16 @@
     "data/digests/2026/09/2026-09-20.json",
     "data/digests/2026/09/2026-09-21.json"
   ],
-  "event_count": 96,
+  "event_count": 110,
   "summary_points": [
-    "日本央行以7比2通過升息25個基點至1.25%，總裁植田和男示警底層通膨風險，並表態不排除連續或擴大升息步調。",
-    "美伊軍事對峙急遽升溫，伊朗揚言若遭美軍打擊將展開無限制報復，且在條件滿足前持續封鎖荷姆茲海峽，多艘油輪在該海域遇襲重創原油航運。",
-    "葉門胡塞武裝襲擊沙烏地阿美延布設施與利雅德，沙烏地更通知歐洲煉油廠下月將斷供原油，中東能源供應鏈危機全面擴大。",
-    "卡達已向華府傳達伊朗提出的停火三大條件，川普透露正與胡塞武裝談判且伊朗戰爭有望迅速落幕，各方密集展開外交斡旋。",
-    "美中經貿關係浮現轉機，雙方正磋商互降關稅框架，考慮撤銷美輸中液化天然氣（LNG）15%關稅並涵蓋約300億美元商品，何立峰亦率團訪美展開高層對話。",
-    "聯準會多位官員釋出鷹派立場，Schmid與卡西卡里強調通膨廣泛高於目標且已外溢至原油以外領域，主張強勁投資需求將推升利率水準。",
-    "評級機構Scope將法國主權信用評等自AA-調降至A+，官方預測公共債務佔GDP比率將於2027年升至121.7%，歐元區核心國財政壓力顯著加劇。",
-    "烏克蘭無人機空襲莫斯科煉油廠，俄軍則打擊黑海港口貨船與油輪，美方隨後正式簽署對俄新制裁法案，俄烏戰事再度外溢至關鍵設施。",
-    "AI巨頭展現龐大擴張動能，OpenAI預計2030年前支出2,800億美元、年營收達3,500億美元，Anthropic預估今年年化營收突破千億美元，AI基建商Nscale亦啟動300億美元估值IPO。"
+    "中東地緣局勢高度緊張，伊朗表態在停火條件獲滿足前將持續封鎖荷姆茲海峽，胡塞武裝亦襲擊沙烏地阿美能源設施，引發全球原油供應與物流中斷風險。",
+    "伊朗透過卡達向華府傳達終戰三大條件（全面停火、解凍資金與解除海上封鎖），川普稱戰爭將很快結束且正與青年運動接觸，多方穿梭外交持續尋求降溫契機。",
+    "日本央行以7比2通過升息25個基點至1.25%，總裁植田和男示警底層通膨風險且不排除連續升息，同時市場傳出官方進行匯率檢查以應對日圓貶勢。",
+    "美中經貿關係出現緩和信號，美財長貝森特與貿易代表格里爾同中國副總理何立峰展開密集磋商，正評估互降約300億美元商品關稅（含美輸中LNG）並建立通報機制。",
+    "聯準會多位官員釋出鷹派訊號，Schmid與卡什卡利指出通膨廣泛高於目標且不僅限於油價，強調降通膨職責，市場預估高利率環境恐延續更長時間。",
+    "歐洲央行總裁拉加德強調決策不隨能源價格起舞，維持逐次會議評估；同時德國8月PPI因能源成本飆升年增4.6%，英歐央行後續仍面臨進一步緊縮壓力。",
+    "歐洲主權財政壓力擴大，評級機構Scope將法國主權信用評等降至A+，法國官方預估2027年債務佔GDP將達121.7%，義大利亦示警債務負擔攀升速度驚人。",
+    "AI算力投資持續擴大，OpenAI預估2030年前資本支出達2,800億美元，Anthropic年化營收突破千億美元，雲端設施商Nscale亦以300億美元估值申請美股IPO。"
   ],
   "blocks": [
     {
@@ -77,19 +76,19 @@
         {
           "source_id": "21ad3699d342326871b0f92eb245824778b74c96dff26018e96ff7ce65877365",
           "category": "債市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "聯準會卡西卡里：強勁投資需求往往推升利率水準，公債市場由財政部負責",
-          "summary_zh": "明尼亞波利斯聯準銀行總裁卡西卡里（Neel Kashkari）表示，實體經濟強勁的投資需求會推升利率，並指出公債市場（Bond market）是美國財政部（Treasury）的責任。",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "聯準會卡什卡利：強勁投資需求往往會推升利率水準",
+          "summary_zh": "明尼阿波利斯聯準銀行總裁卡什卡利（Neel Kashkari）表示強勁的投資需求會推升利率，並直言債券市場是財政部的職責範圍。",
           "event_time": "2026-09-20T22:43:02+08:00"
         },
         {
           "source_id": "e035c7ee928492f2f1072db25e0bbb55e5012c2d1211782c6afafac6eeadb612",
           "category": "債市",
-          "importance_score": 3,
+          "importance_score": 2,
           "highlight": false,
-          "headline_zh": "聯準會卡西卡里：公債市場是財政部的職責範圍",
-          "summary_zh": "卡西卡里在受訪中明確界定央行與政府職能，指出債券市場運作與發債是財政部的責任範疇。",
+          "headline_zh": "聯準會卡什卡利：債券市場由財政部負責",
+          "summary_zh": "卡什卡利受訪時指出，債券市場的管理與發行是財政部的職責，聯準會聚焦於物價穩定與就業目標。",
           "event_time": "2026-09-20T22:44:51+08:00"
         }
       ]
@@ -219,8 +218,8 @@
           "category": "股市",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "日本計劃利用工業機械收集實體AI數據",
-          "summary_zh": "日經報導日本擬透過工業機械收集實體人工智慧（Physical AI）數據，推進工業自動化與機器人技術產業化布局。",
+          "headline_zh": "日本計劃利用工業機械收集實體人工智慧數據",
+          "summary_zh": "據日經報導，日本計劃利用工業機械收集實體人工智慧（Physical AI）數據，有助於推動自動化與工業機器人產業升級。",
           "event_time": "2026-09-21T04:12:36+08:00"
         }
       ]
@@ -350,8 +349,8 @@
           "category": "央行",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "中國人行維持5年期貸款市場報價利率（LPR）在3.50%不變",
-          "summary_zh": "中國央行公布5年期貸款市場報價利率（LPR）維持在3.50%，與上月持平，符合市場預期。",
+          "headline_zh": "中國央行維持五年期貸款市場報價利率（LPR）於3.50%不變",
+          "summary_zh": "中國人民銀行將五年期貸款市場報價利率維持在3.50%，符合市場持平預期。",
           "event_time": "2026-09-20T09:00:19+08:00"
         },
         {
@@ -359,8 +358,8 @@
           "category": "央行",
           "importance_score": 2,
           "highlight": false,
-          "headline_zh": "中國央行透過7天期逆回購操作投放320億元人民幣，利率持平於1.40%",
-          "summary_zh": "中國人行展開320億元人民幣7天期逆回購操作，中標利率維持在1.40%不變，維持銀行體系流動性合理充裕。",
+          "headline_zh": "中國央行開展320億元7天期逆回購操作，利率維持1.40%",
+          "summary_zh": "中國人民銀行透過7天期逆回購操作向市場投放320億元人民幣，中標利率維持在1.40%不變。",
           "event_time": "2026-09-20T09:20:57+08:00"
         },
         {
@@ -368,18 +367,72 @@
           "category": "央行",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "聯準會卡西卡里：聯準會職責是使通膨回落至2%目標，當前通膨仍過高",
-          "summary_zh": "明尼亞波利斯聯準銀行總裁卡西卡里受訪強調，聯準會的任務是將通膨降回2%目標，目前通膨仍處於過高水準。",
+          "headline_zh": "聯準會卡什卡利：聯準會職責是讓通膨回到2%目標",
+          "summary_zh": "明尼阿波利斯聯準銀行總裁卡什卡利在專訪中強調，聯準會的任務是將通膨率壓回2%的政策目標。",
           "event_time": "2026-09-20T22:40:41+08:00"
+        },
+        {
+          "source_id": "b5d12c9c12658a2642e02a8d004eecf0b6bab663257c2d5080f2b74053ccde4e",
+          "category": "央行",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "聯準會卡什卡利：通膨依舊過高且不僅限於油價",
+          "summary_zh": "卡什卡利指出目前通膨依然太高，且通膨擴散範圍不僅限於原油價格，需要實體經濟與其他政府部門的支持。",
+          "event_time": "2026-09-20T22:40:52+08:00"
         },
         {
           "source_id": "5e3d4a42b8ae3d7e5879db0eda6b430ae5134b69dd3b32bfeff8542ea015b073",
           "category": "央行",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "聯準會卡西卡里：通膨壓力已擴展至原油以外範疇",
-          "summary_zh": "卡西卡里指出通膨廣度正在蔓延，影響範圍已不僅局限於國際油價波動。",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "聯準會卡什卡利：通膨不僅受油價驅動，期盼獲得實體經濟支持",
+          "summary_zh": "卡什卡利表示通膨影響廣泛，希望獲得實體經濟和其他政府部門的支持，以協助壓低通膨。",
           "event_time": "2026-09-20T22:41:38+08:00"
+        },
+        {
+          "source_id": "df564c71791610dda62b011ba088271eb3d8f1479170abfa64606f795a5081e1",
+          "category": "央行",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "聯準會卡什卡利：期盼政府其他部門與實體經濟給予政策支持",
+          "summary_zh": "卡什卡利表示希望獲得政府其他部門與實體經濟的配合，以共同應對當前的通膨環境。",
+          "event_time": "2026-09-20T22:42:07+08:00"
+        },
+        {
+          "source_id": "5c8495266e9dbabfc6051ba90a375b6fd032a7424946d99141074935b7476c3a",
+          "category": "央行",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "聯準會卡什卡利：經濟成長強勁且生產力出現改善跡象",
+          "summary_zh": "卡什卡利認為美國經濟即使面臨戰爭衝擊依舊展現高度韌性，勞動市場穩健，生產力出現改善跡象，樂觀期待成長能抑制通膨。",
+          "event_time": "2026-09-20T22:43:39+08:00"
+        },
+        {
+          "source_id": "e7d497d3b295c37153eb8a838fc62ce8336cb8f9025d5edb093120d807ac7fc4",
+          "category": "央行",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "聯準會卡什卡利：美國經濟在戰爭衝擊下仍極具韌性",
+          "summary_zh": "卡什卡利指出，儘管國際爆發戰爭，美國經濟整體運作仍保持相當高度的韌性。",
+          "event_time": "2026-09-20T22:43:49+08:00"
+        },
+        {
+          "source_id": "a4874cee065314b24cf5902da12f10fd979a8ac769a1d0dcba0d9676b32a7d1e",
+          "category": "央行",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "聯準會卡什卡利：生產力出現改善跡象，有望壓抑通膨",
+          "summary_zh": "卡什卡利表示生產力有提升跡象，期望穩健的經濟成長力道最終能勝出並幫助壓制通貨膨脹。",
+          "event_time": "2026-09-20T22:43:59+08:00"
+        },
+        {
+          "source_id": "272643b6f75bc07ff0f4ffc52d8bff5d1359bee282152683c036b709d24ff0c5",
+          "category": "央行",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "聯準會卡什卡利：勞動力市場依然維持強勁",
+          "summary_zh": "卡什卡利表示美國就業市場維持強勁表現，為實體經濟提供了堅實支撐。",
+          "event_time": "2026-09-20T22:45:03+08:00"
         }
       ]
     },
@@ -490,8 +543,8 @@
           "category": "財政政策",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "卡達主權基金成立國內投資新部門，預計未來五年釋出385億美元基建項目",
-          "summary_zh": "卡達總理宣布卡達投資局（QIA）設立專責國內投資的Doha Investment，並預期未來5年將授予約385億美元的新基礎設施項目。",
+          "headline_zh": "卡達總理：未來五年預計將批出約385億美元新基礎設施項目",
+          "summary_zh": "卡達總理宣布預計在未來五年內發放約385億美元的基礎建設投資案，推動國家發展。",
           "event_time": "2026-09-20T22:17:06+08:00"
         },
         {
@@ -499,18 +552,72 @@
           "category": "財政政策",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "卡達總理：經濟危機為縮減政府支出並聚焦重點投資之契機",
-          "summary_zh": "卡達總理表示當前經濟困境是精簡政府公共財政支出、將公共投資集中於優先項目的轉折契機。",
+          "headline_zh": "卡達總理：經濟危機為精簡政府支出與集中重點投資的契機",
+          "summary_zh": "卡達總理表示當前經濟挑戰正好是削減政府開支、將財政投資集中於優先項目的良好契機。",
           "event_time": "2026-09-20T22:38:54+08:00"
         },
         {
-          "source_id": "df564c71791610dda62b011ba088271eb3d8f1479170abfa64606f795a5081e1",
+          "source_id": "b79859ff8308c8c617cfbe6cc9cbd8fdb646e2601d6e5cb17004899d4d9f1e7f",
           "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "聯準會卡西卡里：期盼政府其他部門與實體經濟支持抑制作業",
-          "summary_zh": "卡西卡里表示希望抑低通膨的過程能獲得政府其他政策部門及實體經濟層面的相應配合與支持。",
-          "event_time": "2026-09-20T22:42:07+08:00"
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美國財長貝森特：與中方就貿易和AI進行了非常成功的交流",
+          "summary_zh": "美國財政部長貝森特（Scott Bessent）表示美中在貿易與人工智慧對話方面取得成功進展，並同意舉行後續會議及設立通報系統。",
+          "event_time": "2026-09-21T07:48:49+08:00"
+        },
+        {
+          "source_id": "d4704ce6d4e8fbc485ee0b6729d7ecbe5c5b0003e90b9098eb290f3d752ae40b",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美國財長貝森特：美中同意就人工智慧對話再次舉行會議",
+          "summary_zh": "美財長貝森特確認美中雙方已同意針對人工智慧議題再次舉行雙邊對話會議。",
+          "event_time": "2026-09-21T07:50:17+08:00"
+        },
+        {
+          "source_id": "f083772713169f4b37c27e82c9e14769beaab0315829f623891f1bd60fbf7c0f",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美國財長貝森特：美方建議中美兩國建立通報機制",
+          "summary_zh": "貝森特透露美方已建議中美之間設立政策與重要事項的雙邊通報機制。",
+          "event_time": "2026-09-21T07:50:32+08:00"
+        },
+        {
+          "source_id": "34acbfe2df6d4fe7929dcb75782ccdb753c2646c2119e318f6167644af69b27d",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美國貿易代表格里爾：已成立貿易委員會，美中團隊持續磋商協議",
+          "summary_zh": "美國貿易代表格里爾（Jamieson Greer）表示已落實貿易委員會架構，雙方團隊正致力推進貿易協議細節。",
+          "event_time": "2026-09-21T07:51:51+08:00"
+        },
+        {
+          "source_id": "304adffb7c864ad6517edf030118e66258184b6a7cfb1ca1646a59363b8da47c",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美國貿易代表格里爾：美中貿易委員會協商持續進行中",
+          "summary_zh": "格里爾表示美中工作團隊正持續就貿易委員會的具體協議架構進行密集磋商。",
+          "event_time": "2026-09-21T07:52:04+08:00"
+        },
+        {
+          "source_id": "e59445f8ebd2d5141bc615dd93529f65a22ceeaaf81f1112df7bca8439dee318",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美國貿易代表格里爾：中方貿易清單可能涵蓋消費品與低階科技產品",
+          "summary_zh": "格里爾透露，中方在貿易委員會協議中可能納入消費品及低科技產品。",
+          "event_time": "2026-09-21T07:52:32+08:00"
+        },
+        {
+          "source_id": "0b8400d8f4573f6141555a584ddd57f13c4b0e8c2bda6658c7b9b18c42e73b64",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美國貿易代表格里爾：美方可能將能源、農產品及醫療設備納入貿易清單",
+          "summary_zh": "格里爾指出，美方考慮在雙邊貿易協議範疇中納入能源、農產品及醫療器材等領域。",
+          "event_time": "2026-09-21T07:53:45+08:00"
         }
       ]
     },
@@ -599,31 +706,49 @@
           "event_time": "2026-09-20T02:21:34+08:00"
         },
         {
-          "source_id": "e7d497d3b295c37153eb8a838fc62ce8336cb8f9025d5edb093120d807ac7fc4",
+          "source_id": "36893c36022d2f4d9217d824a3ed3b799bc82b42b581ad9e69510780bba78727",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "卡達投資局成立全新本土投資部門「多哈投資」",
+          "summary_zh": "卡達總理宣布卡達主權財富基金（QIA）正式成立名為多哈投資（Doha Investment）的新機構，以專注於國內投資業務。",
+          "event_time": "2026-09-20T22:14:36+08:00"
+        },
+        {
+          "source_id": "f7a361555287abceb0480d0ce463d7898f39c834f382ce1c215745feca4a0766",
           "category": "經濟",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "聯準會卡西卡里：儘管面臨戰爭衝擊，美國經濟與就業市場依舊極具韌性",
-          "summary_zh": "卡西卡里指出，儘管全球面臨戰爭地緣政治動盪，美國經濟增長仍相當穩健、勞動市場強勁，生產力亦顯現改善跡象，樂觀期待經濟增長能協助壓抑通膨。",
-          "event_time": "2026-09-20T22:43:49+08:00"
+          "headline_zh": "卡達能源執行長：目前僅生產極少量LNG，海峽重開後數週內可恢復運作",
+          "summary_zh": "卡達能源執行長指出，荷姆茲海峽受阻導致目前僅能生產極少量液化天然氣，但一旦危機解除可在數週內重啟常態運作。",
+          "event_time": "2026-09-20T22:57:39+08:00"
         },
         {
           "source_id": "9d9224ab8911a467aedb0aeee4dca7761bd1578a78f18961d63ff2b22f8a0af9",
           "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "卡達能源CEO：正極度微量生產LNG，荷姆茲危機封鎖設備恐推遲擴建項目",
-          "summary_zh": "卡達能源（QatarEnergy）執行長表示受中東封鎖影響目前僅生產極少量LNG，關鍵設備受阻可能推遲擴產計畫，但一旦荷姆茲海峽重啟，幾週內即可恢復正常供氣。",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "卡達能源：荷姆茲海峽危機阻礙關鍵設備，部分擴建項目恐面臨推遲",
+          "summary_zh": "卡達能源指出，荷姆茲海峽危機阻礙關鍵設備運送，部分LNG擴建工程可能因此推遲；同時公司正認真考慮與夥伴進軍委內瑞拉市場。",
           "event_time": "2026-09-20T23:07:13+08:00"
         },
         {
           "source_id": "69a2bedff986d8a4f5f5b4c60ddcc53a1831b4bcb14d004bbf8dc542016debcc",
           "category": "經濟",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "法國總統馬克宏：加拿大LNG對歐洲能源供應至關重要，已啟動雙邊談判",
-          "summary_zh": "法國總統馬克宏（Emmanuel Macron）與加拿大總理卡尼（Mark Carney）展開會談，強調加拿大液化天然氣（LNG）能成為歐洲能源命脈，雙方正加速能源、氣候及航太防務合作。",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "法國總統馬克宏：加拿大LNG對歐洲能源供應至關重要，啟動雙邊談判",
+          "summary_zh": "法國總統馬克宏與加拿大總理卡尼會晤，支持歐盟與加拿大深化關係，並就加拿大液化天然氣進口歐洲展開雙邊談判。",
           "event_time": "2026-09-21T01:27:30+08:00"
+        },
+        {
+          "source_id": "24dba2ffe7edbaad988f2c9a943b410b2612fe1fda23a2d5d807c2d1185b4432",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "南韓9月前20天出口年增78.3%，貿易順差達229.7億美元",
+          "summary_zh": "南韓關稅廳數據顯示，9月1日至20日出口年增達78.3%，暫定貿易順差達到229.7億美元，反映強勁貿易復甦動能。",
+          "event_time": "2026-09-21T08:00:02+08:00"
         }
       ]
     },
@@ -829,21 +954,21 @@
           "event_time": "2026-09-20T03:37:09+08:00"
         },
         {
-          "source_id": "7942a2241874b8b6cb0014294a927a41e9a13d7fd340eb1875af06fd916499ea",
+          "source_id": "30abd156606065d2e68d67a05d4cdaca5a9e4dd02dc59ca9098582441cba9c9b",
           "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美軍於加勒比海打擊涉嫌販毒船隻造成四人死亡",
-          "summary_zh": "美軍在加勒比海對一艘涉嫌跨國走私毒品的船隻發動軍事打擊，造成船上四人死亡。",
-          "event_time": "2026-09-20T07:55:02+08:00"
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "烏克蘭無人機襲擊莫斯科煉油廠設施，市長證實受損",
+          "summary_zh": "烏克蘭軍隊以無人機襲擊俄羅斯莫斯科地區的煉油廠設施，莫斯科市長與烏克蘭總統澤倫斯基均證實該設施受損。",
+          "event_time": "2026-09-20T11:58:42+08:00"
         },
         {
           "source_id": "74c6975bf3614bb3015cf5e4646856ae1b13f620518c50d0359b1b7cec0b3ffb",
           "category": "戰爭",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "烏克蘭無人機空襲俄羅斯莫斯科煉油廠並造成設施受損",
-          "summary_zh": "烏克蘭總統澤倫斯基（Volodymyr Zelenskiy）證實烏軍襲擊了俄羅斯莫斯科地區的煉油廠設施，莫斯科市長與俄媒亦通報無人機攻擊導致煉油廠受損。",
+          "headline_zh": "澤倫斯基證實：烏克蘭軍方擊中俄羅斯莫斯科地區煉油廠",
+          "summary_zh": "烏克蘭總統澤倫斯基表示，烏克蘭軍方已成功打擊位於俄羅斯莫斯科地區的一座重要煉油廠。",
           "event_time": "2026-09-20T15:39:11+08:00"
         },
         {
@@ -851,62 +976,44 @@
           "category": "戰爭",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "伊朗國會議長加利巴夫：在德黑蘭條件獲滿足前，荷姆茲海峽將維持關閉",
-          "summary_zh": "伊朗國會議長加利巴夫（Mohammad Bagher Ghalibaf）強硬表態，除非德黑蘭提出的各項條件獲得完全滿足，否則荷姆茲海峽（Strait of Hormuz）將持續封閉，對全球原油與LNG供應鏈構成巨大威脅。",
+          "headline_zh": "伊朗國會發言人加利巴夫：荷姆茲海峽將維持封閉直至德黑蘭條件獲滿足",
+          "summary_zh": "伊朗國會發言人加利巴夫（Mohammad Bagher Ghalibaf）強硬表態，在伊朗提出的條件獲得滿足之前，荷姆茲海峽將維持關閉狀態。",
           "event_time": "2026-09-20T15:39:20+08:00"
+        },
+        {
+          "source_id": "bc3ffc15af4a2763c898e779f93d807f3fa309f211cf05b4c1d5bab41b123d5c",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗中央司令部警告：美方獲地區國家支持擬打擊伊朗，伊朗將展開無限制反擊",
+          "summary_zh": "伊朗軍方中央司令部警告美方正計劃獲區域國家批准發動攻擊，並強調涉入打擊的區域國家勿指望伊方克制，美軍基地將面臨無限報復。",
+          "event_time": "2026-09-20T18:30:34+08:00"
         },
         {
           "source_id": "ee4c42bd863d31e2c03718b042879f7a3aeca631371bbc8e6fd2715a48552432",
           "category": "戰爭",
-          "importance_score": 5,
+          "importance_score": 4,
           "highlight": true,
-          "headline_zh": "伊朗軍方總部警告：美軍若發動任何打擊，伊朗將對美軍基地展開無限制報復",
-          "summary_zh": "伊朗中央軍事指揮部透過官媒警告，美軍正計劃在區域國家許可下對伊朗發動攻擊，任何美軍行動都將引發伊朗對美軍基地及利益的「無限制報復」，且涉案區域國家亦將面臨打擊。",
+          "headline_zh": "伊朗軍方：若遭美軍襲擊將對美軍基地和利益進行無限度報復",
+          "summary_zh": "伊朗中央軍事司令部透過官媒發布警告，若美軍發動任何打擊，伊朗將對美國軍事基地和其利益進行無限度反擊。",
           "event_time": "2026-09-20T18:32:25+08:00"
-        },
-        {
-          "source_id": "ef4df00b8c816501c4d3d6bbeeb834797d1344aea5de4d650e4822dd42dde529",
-          "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "川普宣布應軍方要求將凱旋門改建為高級軍事複合中心",
-          "summary_zh": "美國總統川普表示，為確保國家安全及應美軍強烈要求，已同意將凱旋門改建為部署大量無人機與狙擊手的頂級軍事複合設施。",
-          "event_time": "2026-09-20T19:36:38+08:00"
-        },
-        {
-          "source_id": "ed5c595b23fc6e3ffabf0ff48aefa95673e91d82f7167314283e050f51c15ccb",
-          "category": "戰爭",
-          "importance_score": 2,
-          "highlight": false,
-          "headline_zh": "伊朗查封法國使館關聯機構引發兩國外交爭端，法國召見伊朗大使",
-          "summary_zh": "伊朗關閉德黑蘭一處與法國駐德黑蘭大使館相關的語言中心，法國外交部嚴厲譴責此舉不可接受並將採取反制作為及召見伊朗大使。",
-          "event_time": "2026-09-20T19:59:41+08:00"
         },
         {
           "source_id": "487c784128c64144eab83cd10fe4534bd575ca6809956e6139f21bf3afb8881e",
           "category": "戰爭",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "伊拉克庫德區阿爾比爾機場附近防空系統攔截無人機",
-          "summary_zh": "伊拉克庫德斯坦自治區阿爾比爾（Erbil）機場附近防空部隊攔截了一架來襲無人機，凸顯區域衝突持續外溢。",
+          "headline_zh": "伊拉克庫德自治區防空系統在艾比爾機場附近攔截無人機",
+          "summary_zh": "安全消息人士透露，伊拉克庫德斯坦艾比爾（Erbil）機場附近防空系統成功攔截了一架無人機。",
           "event_time": "2026-09-20T22:15:24+08:00"
-        },
-        {
-          "source_id": "7bbd1bc620499a34418c0fae7358776feae4aed160d30112863e18031e24c9e6",
-          "category": "戰爭",
-          "importance_score": 2,
-          "highlight": false,
-          "headline_zh": "美軍太平洋司令部關注北韓最新飛彈試射並與盟國緊密磋商",
-          "summary_zh": "美軍太平洋司令部表示已掌握北韓近期的飛彈發射活動，正與日本及南韓盟友進行密切協商；日本防衛省亦監控彈道落點。",
-          "event_time": "2026-09-20T23:50:57+08:00"
         },
         {
           "source_id": "b8cdd682173e33c1d0dc1b754c0477c62c8b0da2bda685484291a9afad8228f8",
           "category": "戰爭",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "伊朗外長阿拉格齊出發前往紐約並過境卡達",
-          "summary_zh": "在美伊軍事對峙升級之際，伊朗外長阿拉格齊（Abbas Araghchi）離開德黑蘭前往紐約，期間短暫停留卡達，市場高度關注外交溝通管道。",
+          "headline_zh": "伊朗外長阿拉格奇啟程赴紐約並短暫停留卡達，或與調解各方接觸",
+          "summary_zh": "伊朗外交部長阿拉格奇（Abbas Araghchi）離開德黑蘭前往紐約，中途短暫停留卡達，正值美伊地緣局勢與潛在會談敏感之際。",
           "event_time": "2026-09-21T02:06:28+08:00"
         },
         {
@@ -914,21 +1021,39 @@
           "category": "戰爭",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "澤倫斯基與川普進行通話並商定將於紐約會面，感謝美通過軍援法案",
-          "summary_zh": "烏克蘭總統澤倫斯基宣布剛與美國總統川普（Donald Trump）通話，雙方同意在紐約舉行會談，並感謝川普將林賽·葛蘭姆（Lindsey Graham）法案簽署成法。",
+          "headline_zh": "澤倫斯基與川普進行通話，雙方商定在紐約舉行會晤",
+          "summary_zh": "烏克蘭總統澤倫斯基表示剛與美國前總統川普完成通話，雙方同意在紐約會面，並感謝推動法案立法支持。",
           "event_time": "2026-09-21T02:18:02+08:00"
+        },
+        {
+          "source_id": "0818bbe1326f3a1448b357866af577f9fa0f59f1e5f92701f7d303dd3168e7a2",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "華爾街日報：川普政府準備對國際刑事法院（ICC）實施制裁",
+          "summary_zh": "據華爾街日報報導，川普政府準備對國際刑事法院實施制裁，並將給予六至七個月寬限期後全面禁止相關往來。",
+          "event_time": "2026-09-21T02:37:27+08:00"
+        },
+        {
+          "source_id": "f71a61bbf97b57b37020ee0a83e6e0ab1377db1a43401041b43b1a1aff485555",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "伊朗關閉法國使館附屬語言中心，法國譴責並將召見伊朗大使",
+          "summary_zh": "伊朗當局關閉與法國大使館相關的語言中心，法國外交部譴責此舉不可接受並將召見伊朗大使採取反制行動。",
+          "event_time": "2026-09-21T03:48:04+08:00"
         }
       ]
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 17772,
-    "candidatesTokenCount": 538,
-    "totalTokenCount": 18310,
+    "promptTokenCount": 19870,
+    "candidatesTokenCount": 498,
+    "totalTokenCount": 20368,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 17772
+        "tokenCount": 19870
       }
     ],
     "serviceTier": "standard"
