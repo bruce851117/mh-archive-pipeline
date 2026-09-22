@@ -2,8 +2,7 @@ name: Generate Daily Gemini Digest
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "20 23 * * *"
+
 permissions:
   contents: write
 
