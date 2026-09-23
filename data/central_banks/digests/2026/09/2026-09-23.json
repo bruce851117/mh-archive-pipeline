@@ -2,8 +2,8 @@
   "date": "2026-09-23",
   "timezone": "Asia/Taipei",
   "model": "gemini-3.8-flash",
-  "source_generated_at": "2026-09-23T07:40:56.277931+08:00",
-  "talk_count": 2,
+  "source_generated_at": "2026-09-24T07:40:19.294495+08:00",
+  "talk_count": 4,
   "talks": [
     {
       "central_bank": "ECB",
@@ -15,7 +15,7 @@
       "active": true,
       "voter": false,
       "date": "2026-09-23",
-      "summary_zh": "他表示核心通膨仍過高且保持警惕，對就業不擔憂，目前利率處中性水準，不排除未來需進入溫和緊縮區間以抑制通膨。",
+      "summary_zh": "表示對勞動市場不擔憂且尚未見到明顯第二輪效應，但核心通膨依然過高，當前利率處於中性區間，不排除未來需進入溫和限制性領域。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -88,6 +88,103 @@
     {
       "central_bank": "FED",
       "central_bank_display_name": "Fed",
+      "official": "Michael Barr",
+      "headline_name": "Barr",
+      "priority": 7,
+      "position": "Governor",
+      "active": true,
+      "voter": true,
+      "date": "2026-09-23",
+      "summary_zh": "表示通膨上行風險增加且未及時朝目標邁進，在經濟強勁與就業穩健下，可能需要進一步升息以確保通膨能及時重返2%。",
+      "topics": {
+        "economy": "",
+        "inflation": "",
+        "labor_market": "",
+        "monetary_policy": "",
+        "interest_rates": "",
+        "balance_sheet": ""
+      },
+      "source_ids": [
+        "6eca317b35a18f8e3ede0442d204a1e1178cf9eeaca873b21f0b7a5a609fd414",
+        "f9d062b00d2737646563d287775e54f904897525279fbb6751af98568d02b37c",
+        "e11c30c4241700eab9d9cf42679695dc92bfc8f90a1c0f07b4908b406561a842",
+        "bf035432b0867abfbd2226a19a8f3bcf705924d68e0aaafac5d9f5e639d1b400",
+        "c5e7bb3d5189f05311c4f36776e8e120b36ffec03fdb5516c3ebbe4401f72bc4"
+      ],
+      "source_headlines": [
+        {
+          "id": "6eca317b35a18f8e3ede0442d204a1e1178cf9eeaca873b21f0b7a5a609fd414",
+          "time": "2026-09-23T22:05:14+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Barr: Further rate hikes are likely needed to ensure timely return to 2% inflation."
+        },
+        {
+          "id": "f9d062b00d2737646563d287775e54f904897525279fbb6751af98568d02b37c",
+          "time": "2026-09-23T22:05:29+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Barr: Risks to achieving 2% inflation have increased, risks to the labor market have receded."
+        },
+        {
+          "id": "e11c30c4241700eab9d9cf42679695dc92bfc8f90a1c0f07b4908b406561a842",
+          "time": "2026-09-23T22:05:46+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Barr: Going into the recent policy meeting, the Fed needed to recalibrate monetary policy to reflect risks."
+        },
+        {
+          "id": "bf035432b0867abfbd2226a19a8f3bcf705924d68e0aaafac5d9f5e639d1b400",
+          "time": "2026-09-23T22:05:59+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Barr: The Fed was out of position, we made an adjustment in the right direction."
+        },
+        {
+          "id": "c5e7bb3d5189f05311c4f36776e8e120b36ffec03fdb5516c3ebbe4401f72bc4",
+          "time": "2026-09-23T22:06:23+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Barr: Inflation is not clearly trending toward our target in a timely way; economic growth is strong, the labor market is solid."
+        }
+      ]
+    },
+    {
+      "central_bank": "FED",
+      "central_bank_display_name": "Fed",
+      "official": "Austan Goolsbee",
+      "headline_name": "Goolsbee",
+      "priority": 12,
+      "position": "Chicago Fed President",
+      "active": true,
+      "voter": false,
+      "date": "2026-09-23",
+      "summary_zh": "警告負面供給衝擊可能對通膨產生相當持久的影響，並指出正如關稅與疫情時期，目前油價波動可能也是如此，決策應格外謹慎。",
+      "topics": {
+        "economy": "",
+        "inflation": "",
+        "labor_market": "",
+        "monetary_policy": "",
+        "interest_rates": "",
+        "balance_sheet": ""
+      },
+      "source_ids": [
+        "dc7be6eb3d9ab271060a5d242d26052364ad898c1e30e4e8371ae1962dbbb7fb",
+        "f2f8d88818baf0a81e6923bd8a1338338d1c0f96b1093e6f8bd745eb7a32e13f"
+      ],
+      "source_headlines": [
+        {
+          "id": "dc7be6eb3d9ab271060a5d242d26052364ad898c1e30e4e8371ae1962dbbb7fb",
+          "time": "2026-09-23T23:34:01+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Goolsbee: We're better off assuming that bigger negative supply shocks to have a pretty persistent effect on inflation - Economics Applied Podcast."
+        },
+        {
+          "id": "f2f8d88818baf0a81e6923bd8a1338338d1c0f96b1093e6f8bd745eb7a32e13f",
+          "time": "2026-09-23T23:34:23+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Goolsbee: That's what happened with tariffs, COVID; that's maybe what's happening with oil, we better be careful."
+        }
+      ]
+    },
+    {
+      "central_bank": "FED",
+      "central_bank_display_name": "Fed",
       "official": "Thomas Barkin",
       "headline_name": "Barkin",
       "priority": 13,
@@ -95,7 +192,7 @@
       "active": true,
       "voter": false,
       "date": "2026-09-23",
-      "summary_zh": "他指出升息是因通膨風險高於就業風險，經濟與價格壓力正在增強，廣泛物價漲幅超3%，政策需致力恢復物價穩定並將評估是否需進一步升息。",
+      "summary_zh": "表示因通膨風險大於就業風險而支持升息，經濟正逐步走強且價格壓力過高，關稅與能源衝擊具持續性，將視後續情況決定是否需要進一步升息。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -116,6 +213,7 @@
         "5164aff702d80fe4fa6c79b4217b32286e1c1b5c7c07b65669add651fa4d7947",
         "b239a00499e674d3fa59435ac198f9413238d442523947bd8911eb149e673a7a",
         "bf6d8895dcf7649239310a689956b558385f1f5cab615e2a1e6906579dc3e114",
+        "d69deb8bee1f40ea626acf9492b79eb16d0ca04749c00b8e7bf31e5a77eef3c1",
         "6fd56f759332863dbd595280e60abacff8871dba7cb5df945db6f49c0e0f21db",
         "af3d47bc18b81aab3f7f90c147d1f71c8433d9e25fc15b981e76f033b5d6e577",
         "3c2c6eee42cfb6324a6ff7fae5c2aac552eea2504cc8303627c670b71f629153",
@@ -188,6 +286,12 @@
           "time": "2026-09-23T01:37:37+08:00",
           "central_bank": "FED",
           "headline": "Fed's Barkin: Fed is highly attentive to financial conditions, but can't assume markets will keep rates at a level needed to cool inflation."
+        },
+        {
+          "id": "d69deb8bee1f40ea626acf9492b79eb16d0ca04749c00b8e7bf31e5a77eef3c1",
+          "time": "2026-09-23T01:43:54+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Barkin: I don't think current productivity improvements mostly reflect AI."
         },
         {
           "id": "6fd56f759332863dbd595280e60abacff8871dba7cb5df945db6f49c0e0f21db",
