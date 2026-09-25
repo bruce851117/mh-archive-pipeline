@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-25T07:40:24.252735+08:00",
+  "generated_at": "2026-09-26T07:40:24.960261+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-06-27T07:40:24.252735+08:00",
-  "period_end": "2026-09-25T07:40:24.252735+08:00",
+  "period_start": "2026-06-28T07:40:24.960261+08:00",
+  "period_end": "2026-09-26T07:40:24.960261+08:00",
   "lookback_days": 90,
   "voter_version": "2026-09-09",
   "model": "gemini-3.8-flash",
-  "input_headline_count": 2310,
-  "talk_count": 210,
+  "input_headline_count": 2366,
+  "talk_count": 215,
   "central_banks": [
     {
       "central_bank": "FED",
@@ -1101,8 +1101,59 @@
           "voter": true,
           "talks": [
             {
+              "date": "2026-09-25",
+              "summary_zh": "強調不能忽視持續的供給衝擊並需確保其不根深蒂固，而勞動市場並非通膨壓力來源。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "d6244e6f55424280aa06b1e419cb9139de351d464f750841f5dea77122b0434c",
+                "279757601351f7aa9686f119587a09624306419a1112fc167f43469a48ff8b24",
+                "ab3fe3e97fd33fc6639faf6d53e12809b29712168b95e605d158004fd3063116",
+                "ccc892c011a9506f340451e995c7caa1228c5ba2863119531cd04d15677b5d86",
+                "f580728ed2d2c00f7c7963d2762f2ef1fe4a0af2ae2fd33543aa98cb31ec198d"
+              ],
+              "source_headlines": [
+                {
+                  "id": "d6244e6f55424280aa06b1e419cb9139de351d464f750841f5dea77122b0434c",
+                  "time": "2026-09-25T17:42:41+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Williams: Can't ignore persistent supply shocks"
+                },
+                {
+                  "id": "279757601351f7aa9686f119587a09624306419a1112fc167f43469a48ff8b24",
+                  "time": "2026-09-25T17:50:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Williams: Labor market not a source of inflationary pressure"
+                },
+                {
+                  "id": "ab3fe3e97fd33fc6639faf6d53e12809b29712168b95e605d158004fd3063116",
+                  "time": "2026-09-25T17:50:10+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Williams: Tariffs generally don't produce sustained inflation"
+                },
+                {
+                  "id": "ccc892c011a9506f340451e995c7caa1228c5ba2863119531cd04d15677b5d86",
+                  "time": "2026-09-25T17:50:20+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Williams: Fed should ensure shocks don't become entrenched"
+                },
+                {
+                  "id": "f580728ed2d2c00f7c7963d2762f2ef1fe4a0af2ae2fd33543aa98cb31ec198d",
+                  "time": "2026-09-25T18:10:04+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Williams: Not seeing productivity impact from AI yet"
+                }
+              ]
+            },
+            {
               "date": "2026-09-24",
-              "summary_zh": "表示美國經濟深具韌性且就業下行風險趨緩，為儘速將通膨降回目標，預期年底前再升息一次是合理的。",
+              "summary_zh": "表示經濟具韌性且年底前可能再升息，但明確前瞻指引的時代已結束。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2347,8 +2398,192 @@
           "voter": true,
           "talks": [
             {
+              "date": "2026-09-26",
+              "summary_zh": "認為當前政策並未實質緊縮經濟，必須維持限制性政策立場以防通膨預期生根。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "150edd1c28f9c203efb230e39fc81abfa58e7f02c203e57592e14cce6d64ef85",
+                "577e6e194a87de08b34d414fed2eb0af51730a76e1f750e25f71d4618a1f35da",
+                "4d893033a72c223c912089c8ff144d11e27f2c7f4a19d19a0b5d90081f7f7c23",
+                "a310e7c2b6480f46e4466294b6167aeb76524a6c915cdfeb85660894037cffc7",
+                "bef2f1c1b961ce094b2b4facc3b8865514dce632cb421e212a187e4345391d38",
+                "e36533ba0fec51db55d4e694b10d26b497e8b431df63b3b03a69ef7536400941",
+                "6eb3a7ee531620679e2cc3c1eda9eb856f0fd3c4258b118963bc128369cfe789",
+                "cfffbf87dfb6579b62b6deca134c5de29c9fa169dcda3d31bfe08bebd40d58af",
+                "45237183209a35fa1ab391ab9b7535bd1722ac36ef5a6815974211119bcff2a6",
+                "42eb9e96417c4eade24a5b458d649ea2d31b8089bdcb847364ebcea7a1e43fd2",
+                "23d3ec7eb74f6ffb7155bff7d14b0a52937e850a7538e291e09affe3e332519c",
+                "7fe576f0cee7ed762549e143f0d9cf2e4f3147760fa452289a9e9b38d65b3404",
+                "6e5086609d1a9f38a02df1929df4e743499fb51c54b05a6d67c5a6870bc227d0",
+                "f1a85eca4b7d25b070de5f5c96e084fb08ba78dd0f0c37807075fb82aca9f013",
+                "788cb3e8f7ab6ade9b90a51b8a1db837e6c7b34f44476cae2fb0b0e4fc7bd56e",
+                "d0b55f223c2ad107e9648bef427957609e49f718ac70a9342c61361c4fe1a5a8",
+                "9b5b7333f51f3187edfd464ac5dbb66a9bc12e73d9ebb775bc36d8d8c8c3a272",
+                "dd8b58626e7209af864175e5e1bdf6d04e32e0102f6056df2f1845d286777f2e",
+                "6902f15692d3913d8d0b0e35072f432624e3e7f1cf0646132fd73fd92ae4b0cd",
+                "d61be549b2bf94dba0fda3deeb48fa5edd5fbf60875d7cbd852caf1e24d22bbd",
+                "65457a2cf267c715c6eb518110023c17763425e3c70d60511350eb5ac78abf52",
+                "2563571a8f779e647dc8b07243d4bd79e7ee6d22186a61970b152b695c154bb7",
+                "148c8d6efb707d1d28ac279031fb66831e13f4950786207def4a6b19bfb26a38",
+                "b51543c354118c1c1268c979c61ddd04511cbc2f9ca957551f91b21bd73e4613"
+              ],
+              "source_headlines": [
+                {
+                  "id": "150edd1c28f9c203efb230e39fc81abfa58e7f02c203e57592e14cce6d64ef85",
+                  "time": "2026-09-26T02:05:22+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: The biggest risk with inflation is the formation of an inflationary mindset"
+                },
+                {
+                  "id": "577e6e194a87de08b34d414fed2eb0af51730a76e1f750e25f71d4618a1f35da",
+                  "time": "2026-09-26T02:05:49+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: The public has been dealing with above-target inflation for an extended period"
+                },
+                {
+                  "id": "4d893033a72c223c912089c8ff144d11e27f2c7f4a19d19a0b5d90081f7f7c23",
+                  "time": "2026-09-26T02:06:22+08:00",
+                  "central_bank": "FED",
+                  "headline": "fed's Hammack: Growth has held up well, the job market is stable."
+                },
+                {
+                  "id": "a310e7c2b6480f46e4466294b6167aeb76524a6c915cdfeb85660894037cffc7",
+                  "time": "2026-09-26T02:06:43+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: Worried about demand-related pressure on inflation"
+                },
+                {
+                  "id": "bef2f1c1b961ce094b2b4facc3b8865514dce632cb421e212a187e4345391d38",
+                  "time": "2026-09-26T02:06:56+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: Capital expenditures will pressure inflation for a while"
+                },
+                {
+                  "id": "e36533ba0fec51db55d4e694b10d26b497e8b431df63b3b03a69ef7536400941",
+                  "time": "2026-09-26T02:07:22+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: If we don't make progress lowering inflation, expectations could shift."
+                },
+                {
+                  "id": "6eb3a7ee531620679e2cc3c1eda9eb856f0fd3c4258b118963bc128369cfe789",
+                  "time": "2026-09-26T02:07:54+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: Consumer spending and CAPEX are sources of pressure."
+                },
+                {
+                  "id": "cfffbf87dfb6579b62b6deca134c5de29c9fa169dcda3d31bfe08bebd40d58af",
+                  "time": "2026-09-26T02:08:13+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: Important to have restrictive policy rates"
+                },
+                {
+                  "id": "45237183209a35fa1ab391ab9b7535bd1722ac36ef5a6815974211119bcff2a6",
+                  "time": "2026-09-26T02:08:32+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: The Fed needs to make sure policy is at a restrictive stance to lower inflation."
+                },
+                {
+                  "id": "42eb9e96417c4eade24a5b458d649ea2d31b8089bdcb847364ebcea7a1e43fd2",
+                  "time": "2026-09-26T02:21:07+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: There are lots of long-term questions on what AI will mean for inflation"
+                },
+                {
+                  "id": "23d3ec7eb74f6ffb7155bff7d14b0a52937e850a7538e291e09affe3e332519c",
+                  "time": "2026-09-26T02:23:42+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: Underlying inflation is likely above target"
+                },
+                {
+                  "id": "7fe576f0cee7ed762549e143f0d9cf2e4f3147760fa452289a9e9b38d65b3404",
+                  "time": "2026-09-26T02:28:17+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: Sides of Fed mandates are generally not in conflict"
+                },
+                {
+                  "id": "6e5086609d1a9f38a02df1929df4e743499fb51c54b05a6d67c5a6870bc227d0",
+                  "time": "2026-09-26T02:28:45+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: Persistently high inflation has 'real costs', pressures wages"
+                },
+                {
+                  "id": "f1a85eca4b7d25b070de5f5c96e084fb08ba78dd0f0c37807075fb82aca9f013",
+                  "time": "2026-09-26T02:30:39+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: High inflation complicates economic planning"
+                },
+                {
+                  "id": "788cb3e8f7ab6ade9b90a51b8a1db837e6c7b34f44476cae2fb0b0e4fc7bd56e",
+                  "time": "2026-09-26T02:31:47+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: Fed policy is not restraining activity outside of housing"
+                },
+                {
+                  "id": "d0b55f223c2ad107e9648bef427957609e49f718ac70a9342c61361c4fe1a5a8",
+                  "time": "2026-09-26T02:32:52+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: Don't see current policy as restraining the economy"
+                },
+                {
+                  "id": "9b5b7333f51f3187edfd464ac5dbb66a9bc12e73d9ebb775bc36d8d8c8c3a272",
+                  "time": "2026-09-26T02:47:38+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: Rising bond yields driven by a number of factors"
+                },
+                {
+                  "id": "dd8b58626e7209af864175e5e1bdf6d04e32e0102f6056df2f1845d286777f2e",
+                  "time": "2026-09-26T02:48:20+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: Good economic outlook is pressuring up bond yields."
+                },
+                {
+                  "id": "6902f15692d3913d8d0b0e35072f432624e3e7f1cf0646132fd73fd92ae4b0cd",
+                  "time": "2026-09-26T02:48:43+08:00",
+                  "central_bank": "FED",
+                  "headline": "fed's Hammack: Some of what the bond market is doing is in reaction to the Fed and government policy."
+                },
+                {
+                  "id": "d61be549b2bf94dba0fda3deeb48fa5edd5fbf60875d7cbd852caf1e24d22bbd",
+                  "time": "2026-09-26T02:49:00+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: AI investment demand is competing for investors in the bond market."
+                },
+                {
+                  "id": "65457a2cf267c715c6eb518110023c17763425e3c70d60511350eb5ac78abf52",
+                  "time": "2026-09-26T02:49:13+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's hammock: Inflation expectations are reasonably well anchored."
+                },
+                {
+                  "id": "2563571a8f779e647dc8b07243d4bd79e7ee6d22186a61970b152b695c154bb7",
+                  "time": "2026-09-26T02:49:27+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: The US is on an unsustainable fiscal path."
+                },
+                {
+                  "id": "148c8d6efb707d1d28ac279031fb66831e13f4950786207def4a6b19bfb26a38",
+                  "time": "2026-09-26T02:49:50+08:00",
+                  "central_bank": "FED",
+                  "headline": "fed's Hammack: I am mindful of financial conditions, but the Fed is the decision maker on monetary policy."
+                },
+                {
+                  "id": "b51543c354118c1c1268c979c61ddd04511cbc2f9ca957551f91b21bd73e4613",
+                  "time": "2026-09-26T02:58:26+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Hammack: The Fed needs flexibility in this environment which limits guidance."
+                }
+              ]
+            },
+            {
               "date": "2026-09-24",
-              "summary_zh": "指出在需求穩健下通膨依然偏高且上行風險顯著，高通膨持續越久越難降回目標，供應衝擊對政策形成重大挑戰。",
+              "summary_zh": "表示在需求穩健與供給衝擊下通膨風險偏上行，勞動市場則接近充分就業。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3818,7 +4053,7 @@
           "talks": [
             {
               "date": "2026-09-24",
-              "summary_zh": "表示通膨的黏性更加明顯，雖然勞動市場維持穩定且產能利用率良好，但新增就業成長依然偏慢。",
+              "summary_zh": "指出通膨黏性更加明確，勞動市場維持穩定但新增就業仍顯緩慢。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5331,6 +5566,43 @@
           "voter": false,
           "talks": [
             {
+              "date": "2026-09-25",
+              "summary_zh": "指出聯準會尚未解決通膨問題，且美國債務水平看似相當極端。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "231e69c0790ce5dafbc809d8e7d23c10a177ee961cc126adaffd012b3664f996",
+                "a3ae2805280c70bf3158f25c9228f9a06893d6e732204a1558d4455ffa27e588",
+                "87b247591c8f1c3f5f5d3467eba3ea708f244711be14ff0c02f7b19d91346fb7"
+              ],
+              "source_headlines": [
+                {
+                  "id": "231e69c0790ce5dafbc809d8e7d23c10a177ee961cc126adaffd012b3664f996",
+                  "time": "2026-09-25T22:07:39+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Schmid: US debt seems extreme."
+                },
+                {
+                  "id": "a3ae2805280c70bf3158f25c9228f9a06893d6e732204a1558d4455ffa27e588",
+                  "time": "2026-09-25T22:07:55+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Schmid: The Fed still hasn't fixed the inflation issue."
+                },
+                {
+                  "id": "87b247591c8f1c3f5f5d3467eba3ea708f244711be14ff0c02f7b19d91346fb7",
+                  "time": "2026-09-25T22:13:31+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Schmid: A question is whether the AI ecosystem is becoming too big to fail."
+                }
+              ]
+            },
+            {
               "date": "2026-09-19",
               "summary_zh": "表示美國財政部的買回操作並未使聯準會的工作變得更難或更容易，並認為當前環境處於相當正常的狀態。",
               "topics": {
@@ -5639,7 +5911,7 @@
           "talks": [
             {
               "date": "2026-09-24",
-              "summary_zh": "表示經濟展現動能且底層通膨仍居高不下，支持採取必要行動將通膨降至2%，聯準會可能需再度升息。",
+              "summary_zh": "表示經濟具韌性且底層通膨居高不下，聯準會可能需要再次升息以抑制通膨。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5835,6 +6107,71 @@
           "active": true,
           "voter": true,
           "talks": [
+            {
+              "date": "2026-09-25",
+              "summary_zh": "指出能源價格傳導仍受限且金融條件緊縮，但高能源價格越久越難維持不升息立場。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "1a66edb6d4e7516b93eb94943fceda1ec7e2a16f1dc6c4f44c5953d3e9610d45",
+                "960eb07ce67ef83027671fd9593acabc273e9e284834e20f6d89c8f2bc96bbb9",
+                "7f18fd64cfda84ddfc7e04d6f4072995a8a29f3c4f7fa73f952709bf21877326",
+                "bd469ffc1726e3459641a2b7d60ff6a68f8099797fea323a437967f22043b694",
+                "57b19a30514ac396774f5297724f8292b8f7aec3a8f62e827e6726f375236efd",
+                "050670ca7ad4a14b847d46f74a5269a680917d72eb98172389965630a09eee0f",
+                "b1b8f39c835bf0f84c7bda1239426c648bef369c0511f57846631a794c59ceb0"
+              ],
+              "source_headlines": [
+                {
+                  "id": "1a66edb6d4e7516b93eb94943fceda1ec7e2a16f1dc6c4f44c5953d3e9610d45",
+                  "time": "2026-09-25T17:30:19+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: AI could be a positive shock in an era of negative supply shocks"
+                },
+                {
+                  "id": "960eb07ce67ef83027671fd9593acabc273e9e284834e20f6d89c8f2bc96bbb9",
+                  "time": "2026-09-25T17:32:18+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: We are at the moment seeing quite subdued pass-through of energy prices, but it's early days"
+                },
+                {
+                  "id": "7f18fd64cfda84ddfc7e04d6f4072995a8a29f3c4f7fa73f952709bf21877326",
+                  "time": "2026-09-25T17:33:02+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: The longer we go on with high energy prices, the harder it gets to maintain no hike in the bank rate stance"
+                },
+                {
+                  "id": "bd469ffc1726e3459641a2b7d60ff6a68f8099797fea323a437967f22043b694",
+                  "time": "2026-09-25T17:34:08+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: There has been a tightening of financial conditions"
+                },
+                {
+                  "id": "57b19a30514ac396774f5297724f8292b8f7aec3a8f62e827e6726f375236efd",
+                  "time": "2026-09-25T17:34:16+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: We do take rise in mortgage rates into consideration"
+                },
+                {
+                  "id": "050670ca7ad4a14b847d46f74a5269a680917d72eb98172389965630a09eee0f",
+                  "time": "2026-09-25T17:35:48+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: Can't wait for full evidence on 2nd-round effects"
+                },
+                {
+                  "id": "b1b8f39c835bf0f84c7bda1239426c648bef369c0511f57846631a794c59ceb0",
+                  "time": "2026-09-25T17:53:05+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: Have to make judgment on incomplete evidence"
+                }
+              ]
+            },
             {
               "date": "2026-09-17",
               "summary_zh": "表示若中東衝突持續且第二輪效應風險上升，政策可能需要收緊，並指出公債縮表計畫將逐步且可預測地進行。",
@@ -6365,7 +6702,7 @@
           "talks": [
             {
               "date": "2026-09-24",
-              "summary_zh": "表示薪資增長仍過高且能源情勢惡化，若高能源價格持續且未見通膨放緩跡象，升息的必要性將隨之增加。",
+              "summary_zh": "表示薪資增速過高且衝突持續越久升息理由越充分，但強調貨幣政策不應機械性回應能源價格。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6902,7 +7239,7 @@
           "talks": [
             {
               "date": "2026-09-24",
-              "summary_zh": "表示能源衝擊擴大與持續恐促使央行做出反應，利率決策將採取逐次會議評估的方式，並肯定明確的縮表退場計畫。",
+              "summary_zh": "表示若能源衝擊擴大可能需採取行動，將逐次會議評估利率，並肯定退場QE的規劃。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -7239,7 +7576,7 @@
           "talks": [
             {
               "date": "2026-09-24",
-              "summary_zh": "指出英國勞動市場偏弱且金融情勢已大幅緊縮，通膨未見廣泛上漲，呼籲升息的聲音忽略了經濟成長放緩的現實。",
+              "summary_zh": "指出金融狀況已大幅緊縮且勞動市場疲軟，未見全面價格上漲，反對進一步升息。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -8351,6 +8688,57 @@
           "voter": true,
           "talks": [
             {
+              "date": "2026-09-26",
+              "summary_zh": "表示已啟動緊縮週期，並警惕柴油等精煉油品價格長期偏高推升通膨的風險。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "d68cc44284eaaf8b8f99b344ff0e4fece4034577bad87446df9affa4fbf7f746",
+                "867550d1b17ec44e15b20d64ba7f38ed19c882dc9bf2cfa3a525a3135d9a9190",
+                "f9f7d9bfa2a55d894da7d4a409517814a40eb7e0755dda6550f026409aa48f95",
+                "7c4e57d9b3aae8b20b6b2dc193cf2ff0b7346ed33c48c9a6b86744d5a3efc094",
+                "8e5fabdada4e97592c1f0a27fefb25806faa478a5142b7180f819500b847f60a"
+              ],
+              "source_headlines": [
+                {
+                  "id": "d68cc44284eaaf8b8f99b344ff0e4fece4034577bad87446df9affa4fbf7f746",
+                  "time": "2026-09-26T02:08:48+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Vujcic: We have started a tightening cycle"
+                },
+                {
+                  "id": "867550d1b17ec44e15b20d64ba7f38ed19c882dc9bf2cfa3a525a3135d9a9190",
+                  "time": "2026-09-26T02:09:01+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Vujcic: See risk of higher for longer energy prices"
+                },
+                {
+                  "id": "f9f7d9bfa2a55d894da7d4a409517814a40eb7e0755dda6550f026409aa48f95",
+                  "time": "2026-09-26T02:09:55+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Vujcic: It seems the price of crude will come down but not that of refined products"
+                },
+                {
+                  "id": "7c4e57d9b3aae8b20b6b2dc193cf2ff0b7346ed33c48c9a6b86744d5a3efc094",
+                  "time": "2026-09-26T02:10:51+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Vujcic: Diesel prices will stay for long, feeding into inflation."
+                },
+                {
+                  "id": "8e5fabdada4e97592c1f0a27fefb25806faa478a5142b7180f819500b847f60a",
+                  "time": "2026-09-26T02:54:55+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Vujcic: I think less about core inflation as my preferred measure than was the case before these shocks"
+                }
+              ]
+            },
+            {
               "date": "2026-09-18",
               "summary_zh": "市場利率定價受能源驅動，秋季通膨若居高將壓抑經濟，並指出法定存款準備金有助低成本沖銷過剩流動性。",
               "topics": {
@@ -8406,7 +8794,7 @@
           "talks": [
             {
               "date": "2026-09-24",
-              "summary_zh": "指出面對能源價格衝擊，目前尚未看到薪資出現任何大幅反應。",
+              "summary_zh": "表示並未看到薪資對能源衝擊出現大幅反應。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -8617,7 +9005,7 @@
           "talks": [
             {
               "date": "2026-09-24",
-              "summary_zh": "指出能源價格衝擊的持續時間比原先預期的更為持久。",
+              "summary_zh": "指出能源衝擊的持續時間比原先預期更為持久。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -9992,7 +10380,7 @@
           "talks": [
             {
               "date": "2026-09-24",
-              "summary_zh": "表示歐元區經濟自夏季起動能略有增強但仍脆弱，央行必須防止過高的通膨變得根深蒂固。",
+              "summary_zh": "指出歐元區經濟仍脆弱但自夏季起顯現動能，必須防止過高通膨根深蒂固。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -10610,7 +10998,7 @@
           "talks": [
             {
               "date": "2026-09-24",
-              "summary_zh": "表示目前通膨風險偏向上行且經濟下行，但升息並非預設路徑，央行應給予既有政策發揮效果的時間。",
+              "summary_zh": "表示升息並未設定預定路徑，通膨風險偏上行而成長偏下行，應給政策發酵時間。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -13380,21 +13768,21 @@
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 17269,
-    "candidatesTokenCount": 7679,
+    "promptTokenCount": 18214,
+    "candidatesTokenCount": 8389,
     "thoughtsTokenCount": 0,
-    "totalTokenCount": 24948,
+    "totalTokenCount": 26603,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
       "FED+BOE+ECB+BOJ+RBA": {
-        "promptTokenCount": 17269,
-        "candidatesTokenCount": 7679,
-        "totalTokenCount": 24948,
+        "promptTokenCount": 18214,
+        "candidatesTokenCount": 8389,
+        "totalTokenCount": 26603,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 17269
+            "tokenCount": 18214
           }
         ],
         "serviceTier": "standard"
@@ -13402,12 +13790,12 @@
     },
     "incremental": {
       "mode": "incremental",
-      "window_headline_count": 2310,
-      "regenerated_date_count": 2,
-      "regenerated_headline_count": 131,
-      "reused_headline_count": 2179,
-      "reused_talk_count": 257,
-      "regenerated_talk_count": 15
+      "window_headline_count": 2366,
+      "regenerated_date_count": 3,
+      "regenerated_headline_count": 141,
+      "reused_headline_count": 2225,
+      "reused_talk_count": 263,
+      "regenerated_talk_count": 16
     }
   }
 }
