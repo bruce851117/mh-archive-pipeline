@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-26T07:40:24.960261+08:00",
+  "generated_at": "2026-09-27T07:40:42.449736+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-06-28T07:40:24.960261+08:00",
-  "period_end": "2026-09-26T07:40:24.960261+08:00",
+  "period_start": "2026-06-29T07:40:42.449736+08:00",
+  "period_end": "2026-09-27T07:40:42.449736+08:00",
   "lookback_days": 90,
   "voter_version": "2026-09-09",
   "model": "gemini-3.8-flash",
-  "input_headline_count": 2366,
+  "input_headline_count": 2367,
   "talk_count": 215,
   "central_banks": [
     {
@@ -1102,7 +1102,7 @@
           "talks": [
             {
               "date": "2026-09-25",
-              "summary_zh": "強調不能忽視持續的供給衝擊並需確保其不根深蒂固，而勞動市場並非通膨壓力來源。",
+              "summary_zh": "表示勞動力市場並非通膨壓力的來源且關稅通常不會導致持續性通膨，但不能忽視持續的供給衝擊並須確保其不根深蒂固。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2399,7 +2399,7 @@
           "talks": [
             {
               "date": "2026-09-26",
-              "summary_zh": "認為當前政策並未實質緊縮經濟，必須維持限制性政策立場以防通膨預期生根。",
+              "summary_zh": "表示經濟成長穩健且勞動市場穩定，但潛在通膨仍高於目標，聯準會必須維持限制性政策利率以降低通膨並防止預期改變。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5567,7 +5567,7 @@
           "talks": [
             {
               "date": "2026-09-25",
-              "summary_zh": "指出聯準會尚未解決通膨問題，且美國債務水平看似相當極端。",
+              "summary_zh": "指出美國債務水準看似極端，且聯準會至今仍未解決通膨問題。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5578,8 +5578,7 @@
               },
               "source_ids": [
                 "231e69c0790ce5dafbc809d8e7d23c10a177ee961cc126adaffd012b3664f996",
-                "a3ae2805280c70bf3158f25c9228f9a06893d6e732204a1558d4455ffa27e588",
-                "87b247591c8f1c3f5f5d3467eba3ea708f244711be14ff0c02f7b19d91346fb7"
+                "a3ae2805280c70bf3158f25c9228f9a06893d6e732204a1558d4455ffa27e588"
               ],
               "source_headlines": [
                 {
@@ -5593,12 +5592,6 @@
                   "time": "2026-09-25T22:07:55+08:00",
                   "central_bank": "FED",
                   "headline": "Fed's Schmid: The Fed still hasn't fixed the inflation issue."
-                },
-                {
-                  "id": "87b247591c8f1c3f5f5d3467eba3ea708f244711be14ff0c02f7b19d91346fb7",
-                  "time": "2026-09-25T22:13:31+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Schmid: A question is whether the AI ecosystem is becoming too big to fail."
                 }
               ]
             },
@@ -6109,7 +6102,7 @@
           "talks": [
             {
               "date": "2026-09-25",
-              "summary_zh": "指出能源價格傳導仍受限且金融條件緊縮，但高能源價格越久越難維持不升息立場。",
+              "summary_zh": "表示能源價格長期居高將使維持不升息的立場更具難度，決策不能等待二輪效應證據齊全，並已將房貸利率上升與金融情勢緊縮納入考量。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -8689,7 +8682,7 @@
           "talks": [
             {
               "date": "2026-09-26",
-              "summary_zh": "表示已啟動緊縮週期，並警惕柴油等精煉油品價格長期偏高推升通膨的風險。",
+              "summary_zh": "表示歐洲央行已啟動緊縮週期，並警惕能源及柴油價格長期走高將推升通膨。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -13768,21 +13761,21 @@
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 18214,
-    "candidatesTokenCount": 8389,
+    "promptTokenCount": 8367,
+    "candidatesTokenCount": 3133,
     "thoughtsTokenCount": 0,
-    "totalTokenCount": 26603,
+    "totalTokenCount": 11500,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
       "FED+BOE+ECB+BOJ+RBA": {
-        "promptTokenCount": 18214,
-        "candidatesTokenCount": 8389,
-        "totalTokenCount": 26603,
+        "promptTokenCount": 8367,
+        "candidatesTokenCount": 3133,
+        "totalTokenCount": 11500,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 18214
+            "tokenCount": 8367
           }
         ],
         "serviceTier": "standard"
@@ -13790,12 +13783,12 @@
     },
     "incremental": {
       "mode": "incremental",
-      "window_headline_count": 2366,
+      "window_headline_count": 2367,
       "regenerated_date_count": 3,
-      "regenerated_headline_count": 141,
-      "reused_headline_count": 2225,
-      "reused_talk_count": 263,
-      "regenerated_talk_count": 16
+      "regenerated_headline_count": 57,
+      "reused_headline_count": 2310,
+      "reused_talk_count": 274,
+      "regenerated_talk_count": 5
     }
   }
 }
