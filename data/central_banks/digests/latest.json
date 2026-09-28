@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-28T07:40:38.048098+08:00",
+  "generated_at": "2026-09-29T07:40:43.677348+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-06-30T07:40:38.048098+08:00",
-  "period_end": "2026-09-28T07:40:38.048098+08:00",
+  "period_start": "2026-07-01T07:40:43.677348+08:00",
+  "period_end": "2026-09-29T07:40:43.677348+08:00",
   "lookback_days": 90,
   "voter_version": "2026-09-09",
   "model": "gemini-3.8-flash",
-  "input_headline_count": 2365,
-  "talk_count": 213,
+  "input_headline_count": 2437,
+  "talk_count": 209,
   "central_banks": [
     {
       "central_bank": "FED",
@@ -1069,7 +1069,7 @@
             },
             {
               "date": "2026-07-01",
-              "summary_zh": "強調不會容忍通膨高於2%，避免提供前瞻指引，偏好以利率為主要工具並縮減資產負債表規模。",
+              "summary_zh": "表示物價依然過高，聯準會不容忍通膨高於2%且避免前瞻指引，偏好以利率為主要工具並縮減資產負債表。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2129,6 +2129,78 @@
           "active": true,
           "voter": true,
           "talks": [
+            {
+              "date": "2026-09-29",
+              "summary_zh": "表示未來利率調整取決於數據，預期通膨壓力將持續並擴大，並警告降息可能助長通膨。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "ced680ebda5b8aed54438d7492b470f35e891d5075b853799a8fcd90a17e8943",
+                "7f812ce357a9deab291b6f9964c2ef094925c3581132ef1a1ef1061400db998d",
+                "ed4d7475280df60489e02647e3f30808aa2f0570cd22daf83fed97bb4bbf4fa7",
+                "4521321b3217fa3fff13dba490272bf49b83d22acffceeddebcd4cff0f577ea4",
+                "ee838f5b73e1c1447ba6354f8a2e439c5444d47fee9b3704d2956c4ea71e4977",
+                "f7e2047b365ddb790c61de72929edb145c1d34142fdacb73376549d0c1c14470",
+                "aedca9c820e0d1973e1f796631023c0b89a4cecfb606d790841e853fb872a81b",
+                "de8c49b926a8f4d2cda01bad28a098b3fa4cc01eb60e84eda89d1ca419e5b7a9"
+              ],
+              "source_headlines": [
+                {
+                  "id": "ced680ebda5b8aed54438d7492b470f35e891d5075b853799a8fcd90a17e8943",
+                  "time": "2026-09-29T01:25:30+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Cook: Number and magnitude of any future rate adjustments will be informed by inflation and labor market data, and the economy's reaction to the Fed's actions so far"
+                },
+                {
+                  "id": "7f812ce357a9deab291b6f9964c2ef094925c3581132ef1a1ef1061400db998d",
+                  "time": "2026-09-29T01:25:42+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Cook: Highly attentive to AI potentially causing a temporary rise in unemployment; Fed has limited tools, rate cuts could fuel inflation"
+                },
+                {
+                  "id": "ed4d7475280df60489e02647e3f30808aa2f0570cd22daf83fed97bb4bbf4fa7",
+                  "time": "2026-09-29T01:26:01+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Cook: Expect to see continued inflation pressure in coming months, from artificial intelligence and conflict in the Middle East"
+                },
+                {
+                  "id": "4521321b3217fa3fff13dba490272bf49b83d22acffceeddebcd4cff0f577ea4",
+                  "time": "2026-09-29T01:26:09+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Cook: Hope pace of AI adoption will minimize net job losses"
+                },
+                {
+                  "id": "ee838f5b73e1c1447ba6354f8a2e439c5444d47fee9b3704d2956c4ea71e4977",
+                  "time": "2026-09-29T01:26:16+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Cook: See some economy-wide pressure from AI-fueled demand"
+                },
+                {
+                  "id": "f7e2047b365ddb790c61de72929edb145c1d34142fdacb73376549d0c1c14470",
+                  "time": "2026-09-29T01:26:31+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Cook: Those gains will not come in time to offset broadening inflation this year; signs of broadening pressure in inflation data"
+                },
+                {
+                  "id": "aedca9c820e0d1973e1f796631023c0b89a4cecfb606d790841e853fb872a81b",
+                  "time": "2026-09-29T01:26:36+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Cook: Limited evidence to date that al is changing labor market structure."
+                },
+                {
+                  "id": "de8c49b926a8f4d2cda01bad28a098b3fa4cc01eb60e84eda89d1ca419e5b7a9",
+                  "time": "2026-09-29T01:26:51+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Cook: Fed would have limited tools to help in such a case. Lowering rates could fuel inflation."
+                }
+              ]
+            },
             {
               "date": "2026-08-06",
               "summary_zh": "重申堅定恢復物價穩定，勞動市場維持穩健且通膨風險高於就業，若通膨降溫趨勢未現已準備好升息。",
@@ -3205,29 +3277,6 @@
                   "headline": "Fed's Hammack: Hearing from businesses who say they think we need to take action to curb inflation, and from consumers who can’t make ends meet about a growing sense of despair."
                 }
               ]
-            },
-            {
-              "date": "2026-06-30",
-              "summary_zh": "通膨廣泛且過高，經濟與就業維持穩健而政策限制性不足，可能需要進一步升息以使通膨重回目標。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "manual-3ce08d0a3de11cb18e5e"
-              ],
-              "source_headlines": [
-                {
-                  "id": "manual-3ce08d0a3de11cb18e5e",
-                  "time": "2026-06-30T22:52:00+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Hammack: Inflation is broad-based and too high, growth and employment remain solid, and policy shows little restraint; higher rates may be needed to return inflation to target."
-                }
-              ]
             }
           ]
         },
@@ -4051,6 +4100,36 @@
           "active": true,
           "voter": false,
           "talks": [
+            {
+              "date": "2026-09-29",
+              "summary_zh": "表示低失業率是支撐消費的關鍵因素，並指出AI並非對利率壓力免疫。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "65655bc4b84169a4233f8b34deba2e6c5296a36ce31acc0478b4c5545dacf8f1",
+                "9fa71f8d2190e05b7bccdd5d5a15b8c07f9f5632d387cc58487c498abd7fdd8e"
+              ],
+              "source_headlines": [
+                {
+                  "id": "65655bc4b84169a4233f8b34deba2e6c5296a36ce31acc0478b4c5545dacf8f1",
+                  "time": "2026-09-29T01:28:48+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Barkin: Low unemployment rate is a key factor for consumption"
+                },
+                {
+                  "id": "9fa71f8d2190e05b7bccdd5d5a15b8c07f9f5632d387cc58487c498abd7fdd8e",
+                  "time": "2026-09-29T01:32:34+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Barkin: Wouldn't say AI is immune to rate pressure"
+                }
+              ]
+            },
             {
               "date": "2026-09-24",
               "summary_zh": "指出通膨黏性更加明確，勞動市場維持穩定但新增就業仍顯緩慢。",
@@ -6662,7 +6741,7 @@
             },
             {
               "date": "2026-07-01",
-              "summary_zh": "表示降息已不在考慮之列，維持利率不變反映了經濟疲軟，同時官員正在評估能源價格的傳導效應。",
+              "summary_zh": "表示降息已不在考慮範圍內，維持利率不變反映經濟疲軟，同時決策者正評估能源價格傳遞效應。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -7065,6 +7144,155 @@
           "active": true,
           "voter": true,
           "talks": [
+            {
+              "date": "2026-09-28",
+              "summary_zh": "表示短期不考慮進一步QE，通膨上行風險增加且若持續累積可能有升息理由，目前立場維持限制性並推行QT。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "52550ddce232eba66266cab4a1737cf52ab1979b859886af940d87cc0c938b22",
+                "36606c9115a5ff725aeedfbaebe94a6da864b3b59e1bc05ba66709b7da8b7d19",
+                "ece8c813e58023826f00d41316164fe110b499a5c2dd34290a4ccac437782d09",
+                "0d794e081d5ed6cd8a6a9f0664e8f9d1275c45e5c2433bea08a5d6a5926aed31",
+                "f7a6e18cf0f1c9219128b7cc67a32532d8d1e2f66ba194c4d3dab996da4cc4bc",
+                "3d2eedc1af30552c961287938b02d1ad4e7768596fa6a7ffe8638f91f0da5431",
+                "5568a04d01dae3d259b3c55ab91077a5f41c1682f034b5d792606ed0dfbf4da1",
+                "1386d52023b4084b47181b1dee4685221425f260f6160030b716242c43d9ba20",
+                "f85b658bb32259c46f5fc898ba429073143e2bc4064da886fada9c2833d207de",
+                "8c8bdfc87dee02589330cba868d6a73a4dc8cb17d6e9eed6c7e9900b9b6075cc",
+                "ad59db289eb8b3e53fb41e2c4cb02252068fc3f4ea846fdad689feb6066fbc4f",
+                "c5b6ad59c3281c06daf40f3de404d229fed884dde78e9c8b8658645ecfebc200",
+                "2b844cc8dccdd2ed4f7213feb14dbe11021975468a107903b7835aed666aecff",
+                "b9ebea8c6558682875a630017030f3087a174a17c3735b72a6094d8d8df38a6c",
+                "13c1bb3c7934e93d5d48bfbac223c0fd6eb66dea0b155b781e254debe6fec257",
+                "e8f3944d675d008870b20966c10a172666abcb97b0b5c8305542424f9c6f2c6e",
+                "af6e0b5b988ce2288da7583033531d169cf4c529c8db62fb0c12e8898d9b9dc4",
+                "c7b62fe6fa1e76c14802e29cbb5984ddf14137872521e5140790ebd1af649ce9",
+                "b1aaa473cd7a6d251b3b67d84e03eda07dfbbbec80c1cd63c23df6a38df55363"
+              ],
+              "source_headlines": [
+                {
+                  "id": "52550ddce232eba66266cab4a1737cf52ab1979b859886af940d87cc0c938b22",
+                  "time": "2026-09-28T18:01:07+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Ramsden: I don’t foresee that we will be considering further QE any time soon"
+                },
+                {
+                  "id": "36606c9115a5ff725aeedfbaebe94a6da864b3b59e1bc05ba66709b7da8b7d19",
+                  "time": "2026-09-28T18:03:40+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Ramsden: However, we have to recognise that the external environment can change very rapidly"
+                },
+                {
+                  "id": "ece8c813e58023826f00d41316164fe110b499a5c2dd34290a4ccac437782d09",
+                  "time": "2026-09-28T18:03:58+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Ramsden: The inflation pressures I will continue to focus on are external pressures from energy prices, weather, ALIsupply chain"
+                },
+                {
+                  "id": "0d794e081d5ed6cd8a6a9f0664e8f9d1275c45e5c2433bea08a5d6a5926aed31",
+                  "time": "2026-09-28T18:04:10+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Ramsden: Domestically, I will be focused on the outlook for indirect effects, particularly in food prices, and any early signs of second-round effects"
+                },
+                {
+                  "id": "f7a6e18cf0f1c9219128b7cc67a32532d8d1e2f66ba194c4d3dab996da4cc4bc",
+                  "time": "2026-09-28T18:04:20+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Ramsden: QT plan provides a credible and coherent strategy"
+                },
+                {
+                  "id": "3d2eedc1af30552c961287938b02d1ad4e7768596fa6a7ffe8638f91f0da5431",
+                  "time": "2026-09-28T18:04:31+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Ramsden: Risks to the inflation outlook, whether external or domestically generated, have tilted more to the upside"
+                },
+                {
+                  "id": "5568a04d01dae3d259b3c55ab91077a5f41c1682f034b5d792606ed0dfbf4da1",
+                  "time": "2026-09-28T18:04:41+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Ramsden: Were upside pressures on the inflation outlook to continue to build, there could be a case for increasing the bank rate"
+                },
+                {
+                  "id": "1386d52023b4084b47181b1dee4685221425f260f6160030b716242c43d9ba20",
+                  "time": "2026-09-28T18:04:49+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Ramsden: Case for hike if upside pressures persist"
+                },
+                {
+                  "id": "f85b658bb32259c46f5fc898ba429073143e2bc4064da886fada9c2833d207de",
+                  "time": "2026-09-28T18:05:02+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Ramsden: Focus is on energy prices"
+                },
+                {
+                  "id": "8c8bdfc87dee02589330cba868d6a73a4dc8cb17d6e9eed6c7e9900b9b6075cc",
+                  "time": "2026-09-28T18:05:11+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Ramsden: Current stance continues to provide restriction"
+                },
+                {
+                  "id": "ad59db289eb8b3e53fb41e2c4cb02252068fc3f4ea846fdad689feb6066fbc4f",
+                  "time": "2026-09-28T18:05:22+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Ramsden: Also looking at domestic food prices and wage settlements."
+                },
+                {
+                  "id": "c5b6ad59c3281c06daf40f3de404d229fed884dde78e9c8b8658645ecfebc200",
+                  "time": "2026-09-28T18:06:14+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Ramsden: Inflation risks have tilted more to the upside"
+                },
+                {
+                  "id": "2b844cc8dccdd2ed4f7213feb14dbe11021975468a107903b7835aed666aecff",
+                  "time": "2026-09-28T18:11:05+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Ramsden: BoE QT changes in September have been well understood and well received by markets"
+                },
+                {
+                  "id": "b9ebea8c6558682875a630017030f3087a174a17c3735b72a6094d8d8df38a6c",
+                  "time": "2026-09-28T18:15:14+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Ramsden: BoE sales to start with longest maturity 2035-49 gilts"
+                },
+                {
+                  "id": "13c1bb3c7934e93d5d48bfbac223c0fd6eb66dea0b155b781e254debe6fec257",
+                  "time": "2026-09-28T18:46:32+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Ramsden: Wanted QT even further into the background"
+                },
+                {
+                  "id": "e8f3944d675d008870b20966c10a172666abcb97b0b5c8305542424f9c6f2c6e",
+                  "time": "2026-09-28T19:02:15+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Ramsden: Food prices are weaker than expected them to be"
+                },
+                {
+                  "id": "af6e0b5b988ce2288da7583033531d169cf4c529c8db62fb0c12e8898d9b9dc4",
+                  "time": "2026-09-28T19:02:36+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Ramsden: We will know more about 2nd round effects at upcoming meetings"
+                },
+                {
+                  "id": "c7b62fe6fa1e76c14802e29cbb5984ddf14137872521e5140790ebd1af649ce9",
+                  "time": "2026-09-28T19:03:52+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Ramsden: We seem to be in a period of higher and longer-lasting headline inflation, which is bearing on my thinking"
+                },
+                {
+                  "id": "b1aaa473cd7a6d251b3b67d84e03eda07dfbbbec80c1cd63c23df6a38df55363",
+                  "time": "2026-09-28T19:07:15+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Ramsden: Risk of higher and longer-lasting inflation increased between July and September MPC meetings"
+                }
+              ]
+            },
             {
               "date": "2026-09-17",
               "summary_zh": "指出國內通膨壓力浮現的風險正在增加。",
@@ -7545,6 +7773,29 @@
           "voter": true,
           "talks": [
             {
+              "date": "2026-09-28",
+              "summary_zh": "擔憂高利率將衝擊投資並降低供給。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "bf013b391a3b6a4200dd2c88ee2209b72934f7717703b5915a09ce1ee92c57f1"
+              ],
+              "source_headlines": [
+                {
+                  "id": "bf013b391a3b6a4200dd2c88ee2209b72934f7717703b5915a09ce1ee92c57f1",
+                  "time": "2026-09-28T14:48:35+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Dhingra: Worry that high rates would hit investment and lower supply"
+                }
+              ]
+            },
+            {
               "date": "2026-09-24",
               "summary_zh": "指出金融狀況已大幅緊縮且勞動市場疲軟，未見全面價格上漲，反對進一步升息。",
               "topics": {
@@ -7826,6 +8077,120 @@
           "active": true,
           "voter": true,
           "talks": [
+            {
+              "date": "2026-09-28",
+              "summary_zh": "指出經濟與就業穩健但前景不確定，通膨預期調高且仍有上行風險，利率處於中性區間上限並維持審慎溫和的應對。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "8db63cf481916c42c19e189cd4f0bc5233ab84ade4d7d1299d32b7e6744fccfd",
+                "35cf7ce3fd7d035a8fa2022ecd3371493416afc19a25a70a3e483597e7000880",
+                "39ac65f18265d9eb1251683e0e87bcbff877ad3d367515a8f7acfabfc926c3b8",
+                "3fc923f1253d6b9d137c3610a3c4f27c2d161aca5bedd40049fbdd24c5224c97",
+                "7cef7aeb5f6fd21deb3e733536caeabc20cde332f8f11f0410c66bf6905ba23e",
+                "3b7a36e7836d9ee876196705aadbbe3824e908ef5674a8be77995d8a5adef36a",
+                "58fafe8dd8569a59292aa3f56c950fb1216eed0777a7f1ec43ae2829ba7da5d9",
+                "21e213526763dd11d5a4a804a9de8915bf980b2bda2f30e19f6c82869b62e2d1",
+                "321e9c0abf282974cefd1395d4c4197730f026bebdca21e5902a552c2ab0418c",
+                "8179e904fe93a539d125a933e10b94a7bfb8111b23f01ecb68313e4efc0c59dc",
+                "627c9e3f18e17585e9ee997ded5e94fea679550b1272fc9360c5bddf416101b0",
+                "dfce7f228713eba9f8c05b1ef10fb77d9e3a6ec3ccde07642c0fcba5b7f61652",
+                "af65d56f071aa44e962e1c0d0228826fd78c833a5dd4b6298591ecee6f9881a0",
+                "b91bee800e877563192c61000768352213a6c618e2f5902c32847aeb18c0b155"
+              ],
+              "source_headlines": [
+                {
+                  "id": "8db63cf481916c42c19e189cd4f0bc5233ab84ade4d7d1299d32b7e6744fccfd",
+                  "time": "2026-09-28T21:30:53+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: Growth was broad-based across most countries and sectors, pattern expected to have continued in Q3"
+                },
+                {
+                  "id": "35cf7ce3fd7d035a8fa2022ecd3371493416afc19a25a70a3e483597e7000880",
+                  "time": "2026-09-28T21:31:14+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: Manufacturing is performing solidly, the labour market remains robust."
+                },
+                {
+                  "id": "39ac65f18265d9eb1251683e0e87bcbff877ad3d367515a8f7acfabfc926c3b8",
+                  "time": "2026-09-28T21:31:28+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: The outlook continues to be surrounded by high uncertainty"
+                },
+                {
+                  "id": "3fc923f1253d6b9d137c3610a3c4f27c2d161aca5bedd40049fbdd24c5224c97",
+                  "time": "2026-09-28T21:31:42+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: Major technological advancements have not reduced employment, but right now the verdict on al is still out."
+                },
+                {
+                  "id": "7cef7aeb5f6fd21deb3e733536caeabc20cde332f8f11f0410c66bf6905ba23e",
+                  "time": "2026-09-28T21:32:01+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Lagarde: We see higher inflation ahead but no signs yet that it is becoming embedded."
+                },
+                {
+                  "id": "3b7a36e7836d9ee876196705aadbbe3824e908ef5674a8be77995d8a5adef36a",
+                  "time": "2026-09-28T21:32:22+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: The inflation outlook will be higher in 2027 and 2028 than we expected a few months ago."
+                },
+                {
+                  "id": "58fafe8dd8569a59292aa3f56c950fb1216eed0777a7f1ec43ae2829ba7da5d9",
+                  "time": "2026-09-28T21:32:37+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: We remain in the middle path for monetary policy that I laid out earlier this year."
+                },
+                {
+                  "id": "21e213526763dd11d5a4a804a9de8915bf980b2bda2f30e19f6c82869b62e2d1",
+                  "time": "2026-09-28T21:32:48+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: We view a measured response as appropriate to keep inflation in check"
+                },
+                {
+                  "id": "321e9c0abf282974cefd1395d4c4197730f026bebdca21e5902a552c2ab0418c",
+                  "time": "2026-09-28T21:32:49+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: This means that while the shock is too large to look through, we view a measured response as appropriate to keep inflation in check."
+                },
+                {
+                  "id": "8179e904fe93a539d125a933e10b94a7bfb8111b23f01ecb68313e4efc0c59dc",
+                  "time": "2026-09-28T21:33:22+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: Still sees upside risks to inflation and downside risks to growth"
+                },
+                {
+                  "id": "627c9e3f18e17585e9ee997ded5e94fea679550b1272fc9360c5bddf416101b0",
+                  "time": "2026-09-28T21:41:23+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: AI could lower inflation in the long term by boosting productivity"
+                },
+                {
+                  "id": "dfce7f228713eba9f8c05b1ef10fb77d9e3a6ec3ccde07642c0fcba5b7f61652",
+                  "time": "2026-09-28T22:08:35+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: So far we're seeing energy support from governments in the 0.1pp of GDP range"
+                },
+                {
+                  "id": "af65d56f071aa44e962e1c0d0228826fd78c833a5dd4b6298591ecee6f9881a0",
+                  "time": "2026-09-28T22:31:20+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: Rates at upper end of neutral range. Not driving policy with reference to neutral rate."
+                },
+                {
+                  "id": "b91bee800e877563192c61000768352213a6c618e2f5902c32847aeb18c0b155",
+                  "time": "2026-09-28T22:49:44+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's President Lagarde: Energy subsidy impact on inflation seen by staff at 0.1%"
+                }
+              ]
+            },
             {
               "date": "2026-09-18",
               "summary_zh": "經濟成長優於預期且尚未見二次效應，利率決策採逐次會議決定，並非僅受能源價格主導。",
@@ -8603,7 +8968,7 @@
             },
             {
               "date": "2026-07-01",
-              "summary_zh": "歐元區並未陷入停滯性通膨且風險更趨平衡，央行應避免預設的前瞻性指引。",
+              "summary_zh": "指出歐元區並未陷入停滯性通膨且風險更為平衡，應避免預設的前瞻性指引。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -8916,29 +9281,6 @@
                   "headline": "ECB's Lane: This is a medium shock, not a red-alert type shock."
                 }
               ]
-            },
-            {
-              "date": "2026-06-30",
-              "summary_zh": "較低的油價必須傳導至經濟中，預計2027至2028年的油價仍將高於戰前水準。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "manual-bfe84ebb7771eb02743e"
-              ],
-              "source_headlines": [
-                {
-                  "id": "manual-bfe84ebb7771eb02743e",
-                  "time": "2026-06-30T14:17:00+08:00",
-                  "central_bank": "ECB",
-                  "headline": "ECB's Lane: Lower oil must pass through the economy; 2027-28 oil prices remain above pre-war levels."
-                }
-              ]
             }
           ]
         },
@@ -9133,7 +9475,7 @@
             },
             {
               "date": "2026-07-01",
-              "summary_zh": "在新的經濟預測公布前，應暫緩進一步升息。",
+              "summary_zh": "主張在新的經濟預測公布前，應暫緩進一步升息。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -9457,7 +9799,7 @@
             },
             {
               "date": "2026-07-01",
-              "summary_zh": "通膨依然過高且至2027年仍高於目標，央行應保留7月與9月的政策選項彈性。",
+              "summary_zh": "指出通膨依然過高且到2027年仍高於目標，應對7月和9月的政策選項保持開放。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -9475,29 +9817,6 @@
                   "time": "2026-07-01T16:42:00+08:00",
                   "central_bank": "ECB",
                   "headline": "ECB's Nagel: Inflation remains too high and above target into 2027; keep July and September options open."
-                }
-              ]
-            },
-            {
-              "date": "2026-06-30",
-              "summary_zh": "能源衝擊仍在體系中持續發酵，通膨可能持續顯著高於目標水準。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "manual-64ad91533222af7f0b10"
-              ],
-              "source_headlines": [
-                {
-                  "id": "manual-64ad91533222af7f0b10",
-                  "time": "2026-06-30T15:09:00+08:00",
-                  "central_bank": "ECB",
-                  "headline": "ECB's Nagel: Energy shock remains in the system and inflation may stay significantly above target."
                 }
               ]
             }
@@ -9766,31 +10085,7 @@
           "position": "Netherlands",
           "active": true,
           "voter": true,
-          "talks": [
-            {
-              "date": "2026-06-30",
-              "summary_zh": "較低的能源價格將影響通膨，而第二輪效應仍是當前主要的政策風險。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "manual-02791ca302b895584142"
-              ],
-              "source_headlines": [
-                {
-                  "id": "manual-02791ca302b895584142",
-                  "time": "2026-06-30T14:49:00+08:00",
-                  "central_bank": "ECB",
-                  "headline": "ECB's Sleijpen: Lower energy prices will affect inflation; second-round effects remain the key policy risk."
-                }
-              ]
-            }
-          ]
+          "talks": []
         },
         {
           "official": "Olli Rehn",
@@ -9947,29 +10242,6 @@
                   "headline": "ECB's Rehn: Energy crisis is not yet over"
                 }
               ]
-            },
-            {
-              "date": "2026-06-30",
-              "summary_zh": "能源衝擊帶來停滯性通膨風險但通膨預期仍受錨定，央行應逐次會議做決策且不預先承諾路徑。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "manual-4c1da6112c1b1a97fce5"
-              ],
-              "source_headlines": [
-                {
-                  "id": "manual-4c1da6112c1b1a97fce5",
-                  "time": "2026-06-30T23:17:00+08:00",
-                  "central_bank": "ECB",
-                  "headline": "ECB's Rehn: Energy shock is stagflationary but expectations remain anchored; decide meeting by meeting without precommitment."
-                }
-              ]
             }
           ]
         },
@@ -10006,7 +10278,7 @@
             },
             {
               "date": "2026-07-01",
-              "summary_zh": "在未出現重大第二輪效應的情況下，再升息一次可能就已足夠。",
+              "summary_zh": "表示若無重大的第二輪效應，再升息一次可能就已足夠。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -10024,29 +10296,6 @@
                   "time": "2026-07-01T16:39:00+08:00",
                   "central_bank": "ECB",
                   "headline": "ECB's Wunsch: One additional hike may suffice without major second-round effects."
-                }
-              ]
-            },
-            {
-              "date": "2026-06-30",
-              "summary_zh": "通膨將在數個季度內維持高於目標，央行可能需要再次升息，但不一定是在7月會議。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "manual-6318fc9266cb3cb68bc7"
-              ],
-              "source_headlines": [
-                {
-                  "id": "manual-6318fc9266cb3cb68bc7",
-                  "time": "2026-06-30T15:18:00+08:00",
-                  "central_bank": "ECB",
-                  "headline": "ECB's Wunsch: Inflation will stay above target for several quarters and another hike may be needed, though not necessarily in July."
                 }
               ]
             }
@@ -10595,7 +10844,7 @@
             },
             {
               "date": "2026-07-01",
-              "summary_zh": "下次決策將是升息或維持利率不變，通膨威脅降低但未受控，薪資協議恐使通膨維持高檔。",
+              "summary_zh": "表示下次決策為升息或按兵不動，通膨威脅雖降低但未受控，薪資協議可能使通膨維持高位。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -10626,6 +10875,36 @@
           "active": true,
           "voter": true,
           "talks": [
+            {
+              "date": "2026-09-29",
+              "summary_zh": "表示通膨壓力目前集中在能源價格，天然氣價格壓力可能在今冬推升通膨。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "27815d3bd27d994fb3eb16f0d084cd18ec30697ca4b7d51a1beb3a87c0d5da24",
+                "4fe05ec0653e6ff782527350d8326066a7a4ea0951c11f2712d495a8de56d902"
+              ],
+              "source_headlines": [
+                {
+                  "id": "27815d3bd27d994fb3eb16f0d084cd18ec30697ca4b7d51a1beb3a87c0d5da24",
+                  "time": "2026-09-29T00:34:57+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Pereira: Natural gas price pressures could lift inflation this winter."
+                },
+                {
+                  "id": "4fe05ec0653e6ff782527350d8326066a7a4ea0951c11f2712d495a8de56d902",
+                  "time": "2026-09-29T00:43:46+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Pereira: Inflation pressures are currently concentrated in energy prices."
+                }
+              ]
+            },
             {
               "date": "2026-09-16",
               "summary_zh": "密切關注天然氣價格與通膨擴散情況，指出近幾個月風險上升，且不應低估財政支出對經濟成長的影響。",
@@ -10758,29 +11037,6 @@
                   "time": "2026-08-21T15:14:28+08:00",
                   "central_bank": "ECB",
                   "headline": "ECB's Kazaks: We'll decide in September based on data"
-                }
-              ]
-            },
-            {
-              "date": "2026-07-01",
-              "summary_zh": "連續升息的急迫性降低，目前無須強力應對，若情況改善可能可避免進一步升息。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "manual-3771ef8abf40bedaa1a9"
-              ],
-              "source_headlines": [
-                {
-                  "id": "manual-3771ef8abf40bedaa1a9",
-                  "time": "2026-07-01T03:13:00+08:00",
-                  "central_bank": "ECB",
-                  "headline": "ECB's Kazaks: Urgency for consecutive hikes is lower; no forceful response is currently needed and further hikes may be avoided if conditions improve."
                 }
               ]
             }
@@ -11124,7 +11380,7 @@
             },
             {
               "date": "2026-07-01",
-              "summary_zh": "再升息一次是合理的，油價長期影響仍存，秋季薪資數據將釐清情勢。",
+              "summary_zh": "認為再升息一次是合理的，油價可能帶來長期影響，秋季薪資數據將進一步釐清情勢。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -11206,7 +11462,7 @@
           "talks": [
             {
               "date": "2026-07-01",
-              "summary_zh": "額外緊縮可等待新經濟預測公布，目前並無薪資或預期的第二輪效應促使匆促行動。",
+              "summary_zh": "表示進一步緊縮可等待經濟預測出爐，目前並無薪資或預期的第二輪效應需要倉促行動。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -11301,52 +11557,6 @@
                   "time": "2026-07-08T20:00:00+08:00",
                   "central_bank": "ECB",
                   "headline": "ECB's Dolenc: September forecasts will clarify the outlook; July decision remains uncertain."
-                }
-              ]
-            },
-            {
-              "date": "2026-07-01",
-              "summary_zh": "7月暫停升息可能是適當的，若油價維持低迷，升息決策可延至9月再議。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "manual-04c54ada3e85f16e2960"
-              ],
-              "source_headlines": [
-                {
-                  "id": "manual-04c54ada3e85f16e2960",
-                  "time": "2026-07-01T02:06:00+08:00",
-                  "central_bank": "ECB",
-                  "headline": "ECB's Dolenc: July pause may be appropriate; if oil stays subdued, decision can wait until September."
-                }
-              ]
-            },
-            {
-              "date": "2026-06-01",
-              "summary_zh": "表示7月暫停升息可能是適當的，若油價保持穩定，決策可等待至9月份。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "manual-04c54ada3e85f16e2960"
-              ],
-              "source_headlines": [
-                {
-                  "id": "manual-04c54ada3e85f16e2960",
-                  "time": "2026-07-01T02:06:00+08:00",
-                  "central_bank": "ECB",
-                  "headline": "ECB's Dolenc: July pause may be appropriate; if oil stays subdued, decision can wait until September."
                 }
               ]
             }
@@ -12723,29 +12933,6 @@
                   "headline": "BOJ's Sato: current economic and price trends have not significantly accelerated, so raising rates is not suitable"
                 }
               ]
-            },
-            {
-              "date": "2026-06-30",
-              "summary_zh": "日圓疲軟推高進口成本並降低實質所得，企業正調升薪資與售價，使匯率對通膨的傳導效應增強。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "manual-104f18f841ff9b6f8648"
-              ],
-              "source_headlines": [
-                {
-                  "id": "manual-104f18f841ff9b6f8648",
-                  "time": "2026-06-30T16:06:00+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BoJ's Sato: Weak yen lifts import costs and lowers real income; firms are raising wages and prices, increasing FX pass-through to inflation."
-                }
-              ]
             }
           ]
         },
@@ -13715,21 +13902,21 @@
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 5786,
-    "candidatesTokenCount": 2767,
+    "promptTokenCount": 12372,
+    "candidatesTokenCount": 4371,
     "thoughtsTokenCount": 0,
-    "totalTokenCount": 8553,
+    "totalTokenCount": 16743,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
-      "FED+ECB+BOJ+RBA": {
-        "promptTokenCount": 5786,
-        "candidatesTokenCount": 2767,
-        "totalTokenCount": 8553,
+      "FED+BOE+ECB+BOJ+RBA": {
+        "promptTokenCount": 12372,
+        "candidatesTokenCount": 4371,
+        "totalTokenCount": 16743,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 5786
+            "tokenCount": 12372
           }
         ],
         "serviceTier": "standard"
@@ -13737,12 +13924,12 @@
     },
     "incremental": {
       "mode": "incremental",
-      "window_headline_count": 2365,
-      "regenerated_date_count": 3,
-      "regenerated_headline_count": 37,
-      "reused_headline_count": 2328,
-      "reused_talk_count": 269,
-      "regenerated_talk_count": 9
+      "window_headline_count": 2437,
+      "regenerated_date_count": 4,
+      "regenerated_headline_count": 91,
+      "reused_headline_count": 2346,
+      "reused_talk_count": 267,
+      "regenerated_talk_count": 15
     }
   }
 }
