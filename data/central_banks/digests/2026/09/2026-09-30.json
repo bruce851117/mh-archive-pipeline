@@ -2,8 +2,8 @@
   "date": "2026-09-30",
   "timezone": "Asia/Taipei",
   "model": "gemini-3.8-flash",
-  "source_generated_at": "2026-09-30T07:40:29.939057+08:00",
-  "talk_count": 5,
+  "source_generated_at": "2026-10-01T07:40:32.810851+08:00",
+  "talk_count": 6,
   "talks": [
     {
       "central_bank": "BOE",
@@ -15,7 +15,7 @@
       "active": true,
       "voter": true,
       "date": "2026-09-30",
-      "summary_zh": "目前未見第二輪效應跡象，但食品與油價帶來通膨上行風險，且不確定進行單次防禦性升息是否會被市場誤解為升息週期的開始。",
+      "summary_zh": "指出未見第二輪通膨效應，但食品通膨與油價走高具上行風險，且單次預防性升息恐被市場誤解。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -79,6 +79,58 @@
       ]
     },
     {
+      "central_bank": "ECB",
+      "central_bank_display_name": "ECB",
+      "official": "Isabel Schnabel",
+      "headline_name": "Schnabel",
+      "priority": 4,
+      "position": "Executive Board",
+      "active": true,
+      "voter": true,
+      "date": "2026-09-30",
+      "summary_zh": "指出強勁信貸表明金融環境尚未具限制性，但全球殖利率上升或能抑制物價，通膨預期定錨下可更漸進達標。",
+      "topics": {
+        "economy": "",
+        "inflation": "",
+        "labor_market": "",
+        "monetary_policy": "",
+        "interest_rates": "",
+        "balance_sheet": ""
+      },
+      "source_ids": [
+        "f4a2687d7bf1ffd4b7bc1e0527d5629182324d1bf3c3738accc9e148374a883b",
+        "e7dcc557efbbacd44f81245eaa6f58b3e71b90e24d7fee0789dfe9ddf6e2d2a2",
+        "ecec5653ce755b5cea64c2d91611e02b65291b6534c0388dba5709ff6b53ad7c",
+        "c5cb6fe97469f23a4ae918f43ce9b39db58bd9ed104f6a5e76ab805ae614e817"
+      ],
+      "source_headlines": [
+        {
+          "id": "f4a2687d7bf1ffd4b7bc1e0527d5629182324d1bf3c3738accc9e148374a883b",
+          "time": "2026-09-30T23:45:25+08:00",
+          "central_bank": "ECB",
+          "headline": "ECB's Schnabel: High costs passed through to consumers more quickly when economy resilient."
+        },
+        {
+          "id": "e7dcc557efbbacd44f81245eaa6f58b3e71b90e24d7fee0789dfe9ddf6e2d2a2",
+          "time": "2026-09-30T23:45:34+08:00",
+          "central_bank": "ECB",
+          "headline": "ECB's Schnabel: Robust credit dynamics suggest that financial conditions are not yet restrictive."
+        },
+        {
+          "id": "ecec5653ce755b5cea64c2d91611e02b65291b6534c0388dba5709ff6b53ad7c",
+          "time": "2026-09-30T23:45:53+08:00",
+          "central_bank": "ECB",
+          "headline": "ECB's Schnabel: Possible economy responds more to the recent global yield rise than assumed. Would dampen price pressures."
+        },
+        {
+          "id": "c5cb6fe97469f23a4ae918f43ce9b39db58bd9ed104f6a5e76ab805ae614e817",
+          "time": "2026-09-30T23:46:04+08:00",
+          "central_bank": "ECB",
+          "headline": "ECB's Schnabel: can return inflation to target more gradually when expectations anchored."
+        }
+      ]
+    },
+    {
       "central_bank": "FED",
       "central_bank_display_name": "Fed",
       "official": "John Williams",
@@ -88,7 +140,7 @@
       "active": true,
       "voter": true,
       "date": "2026-09-30",
-      "summary_zh": "經濟動能強勁且今年可能再升息一次但無迫切性，通膨預計隨衝擊消退而降溫並於2028年達標，公債殖利率上升反映金融條件微幅收緊。",
+      "summary_zh": "指出經濟動能強勁且通膨將回落，年內可能再升息一次但9月後無急迫性，政策將依據後續數據制定。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -252,7 +304,7 @@
       "active": true,
       "voter": true,
       "date": "2026-09-30",
-      "summary_zh": "經濟與勞動市場具動能，通膨偏高且難以即時回到2%目標，預期需要進一步調整貨幣政策，短期內AI建置推升成本並可能擾動就業市場。",
+      "summary_zh": "表示經濟與勞動市場強勁，但通膨達標風險上升且回落受阻，有必要進一步調整貨幣政策。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -430,7 +482,7 @@
       "active": true,
       "voter": false,
       "date": "2026-09-30",
-      "summary_zh": "通膨長期超標且需見到回落證據，巨額財政赤字可能刺激經濟過熱，對AI生產力的預期恐帶來當前過熱風險，需重新檢視忽視供給衝擊的邏輯。",
+      "summary_zh": "警告通膨長期高於目標伴隨風險，AI預期與龐大赤字恐致經濟過熱，需重新審視忽視供給衝擊的邏輯。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -524,7 +576,7 @@
       "active": true,
       "voter": false,
       "date": "2026-09-30",
-      "summary_zh": "升息後貨幣政策仍具寬鬆性，AI資本支出引發需求端通膨壓力，連續供給衝擊加劇通膨固化風險，聯準會不能基於預期AI生產力而降息。",
+      "summary_zh": "表示即使近期升息政策仍偏寬鬆，且不能基於預期AI生產力而降息，連鎖供給衝擊加劇了廣泛通膨風險。",
       "topics": {
         "economy": "",
         "inflation": "",
