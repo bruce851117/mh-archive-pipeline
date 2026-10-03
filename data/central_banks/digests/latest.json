@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-03T07:40:29.775772+08:00",
+  "generated_at": "2026-10-04T07:40:33.979155+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-07-05T07:40:29.775772+08:00",
-  "period_end": "2026-10-03T07:40:29.775772+08:00",
+  "period_start": "2026-07-06T07:40:33.979155+08:00",
+  "period_end": "2026-10-04T07:40:33.979155+08:00",
   "lookback_days": 90,
   "voter_version": "2026-09-09",
   "model": "gemini-3.8-flash",
-  "input_headline_count": 2825,
+  "input_headline_count": 2826,
   "talk_count": 221,
   "central_banks": [
     {
@@ -1079,7 +1079,7 @@
           "talks": [
             {
               "date": "2026-10-02",
-              "summary_zh": "威廉斯指出AI正在以尚未完全被理解的方式影響供給端。",
+              "summary_zh": "人工智慧正以尚未被充分理解的方式對供給面產生影響。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1760,7 +1760,7 @@
           "talks": [
             {
               "date": "2026-10-02",
-              "summary_zh": "傑佛遜表示經濟與就業穩健，通膨仍有上行風險，未來利率調整將由數據主導，聯準會可能需要更多時間做出決定。",
+              "summary_zh": "經濟與就業穩健，通膨仍有上行風險，降通膨是首要任務，聯準會決策需以更多數據為依據。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1788,6 +1788,8 @@
                 "101ffdb609b56bcaa35719d3fa5b1ce1c0e9334946991c204ec016d7d36c4d0c",
                 "8d585860386955b856478187b7d7557b0dad2e396680ecaaf129daa105587160",
                 "5a77943284c485327fa9054dfa104e4ccaa32c91aae713e25fc33174d4c55635",
+                "5139ab661fa438687c3b490ce48a0680b5c9bf387b1b7c3de7a74c52afcbbcc9",
+                "cd7899d4b3a276dc60ababf869dbe9e590b98984c2acce62388a27197261ae1d",
                 "3b5f117fbef9b9b8dfa704b1b0496cc015b488f7305d91e6a913680109117cd9"
               ],
               "source_headlines": [
@@ -1898,6 +1900,18 @@
                   "time": "2026-10-02T01:56:05+08:00",
                   "central_bank": "FED",
                   "headline": "Fed's Jefferson: Fed has more space to focus on inflation mandate right now."
+                },
+                {
+                  "id": "5139ab661fa438687c3b490ce48a0680b5c9bf387b1b7c3de7a74c52afcbbcc9",
+                  "time": "2026-10-02T02:03:33+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Jefferson: There is great wisdom in the Fed's dual mandate."
+                },
+                {
+                  "id": "cd7899d4b3a276dc60ababf869dbe9e590b98984c2acce62388a27197261ae1d",
+                  "time": "2026-10-02T02:07:41+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Jefferson: It's possible AI will power big productivity gains down the road."
                 },
                 {
                   "id": "3b5f117fbef9b9b8dfa704b1b0496cc015b488f7305d91e6a913680109117cd9",
@@ -2427,7 +2441,7 @@
           "talks": [
             {
               "date": "2026-10-02",
-              "summary_zh": "鮑曼認為今年沒有進一步調整利率的迫切需求。",
+              "summary_zh": "目前沒有在今年內進一步調整利率的迫切需求。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2460,7 +2474,7 @@
           "talks": [
             {
               "date": "2026-10-02",
-              "summary_zh": "庫克指出供給衝擊的持久效應對政策日益重要，需警惕通膨預期脫錨，並認為AI正帶來局部的通膨壓力。",
+              "summary_zh": "供給衝擊具持續性並影響政策，需提防通膨預期脫錨，且AI正帶來通膨壓力，為未來主要風險。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2474,9 +2488,11 @@
                 "5fd0216242a815560ded802b9193d54324de4c25b8f87a8d39329de621709c42",
                 "55875b20970b401329519847604efcd9551025a3f5627d24ef329496953a4755",
                 "9a4d01b0ed19d0e64c6d933bea69e6fd033a9b8aa4827f3004645c9650714533",
+                "de68e4c5a45ea5842157c48558260a1848867977da6b1fb2a963c9a875beab53",
                 "00057629cd09495a1c8f5a41cfcf34ba312c98a86fe9df4a47e5b1f45858e9bb",
                 "de4fe9a7a889cdb01acefc85b397f068d36cd1660b91203fbdb8f805f654cb0c",
-                "5a587d9cb0601f556bb24975e2779dfaffdd3125818f42cc1228f52e9df42ee4"
+                "5a587d9cb0601f556bb24975e2779dfaffdd3125818f42cc1228f52e9df42ee4",
+                "d48f23d216161798955d2828a65ce3c64fba961616f57b264aca449f1baec233"
               ],
               "source_headlines": [
                 {
@@ -2504,6 +2520,12 @@
                   "headline": "Fed's Cook: Need to make sure inflation expectations don't become unanchored."
                 },
                 {
+                  "id": "de68e4c5a45ea5842157c48558260a1848867977da6b1fb2a963c9a875beab53",
+                  "time": "2026-10-02T03:43:31+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Cook: Cautious that AI could be a major reorganization of work."
+                },
+                {
                   "id": "00057629cd09495a1c8f5a41cfcf34ba312c98a86fe9df4a47e5b1f45858e9bb",
                   "time": "2026-10-02T03:46:02+08:00",
                   "central_bank": "FED",
@@ -2520,6 +2542,12 @@
                   "time": "2026-10-02T04:02:38+08:00",
                   "central_bank": "FED",
                   "headline": "Fed's Cook: I worry about when productivity gains, producing inflation, will come."
+                },
+                {
+                  "id": "d48f23d216161798955d2828a65ce3c64fba961616f57b264aca449f1baec233",
+                  "time": "2026-10-02T04:11:26+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Cook: AI could potentially help the Fed make better use of data."
                 }
               ]
             },
@@ -3884,7 +3912,7 @@
           "talks": [
             {
               "date": "2026-10-02",
-              "summary_zh": "羅根表示政策利率必須再調升50個基點或更多，政策尚未具限制性，若不升息通膨無法回到2%目標。",
+              "summary_zh": "目前政策並無限制性，需進一步升息至少50個基點維持適度緊縮，以促使通膨重返2%目標。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4005,7 +4033,7 @@
           "talks": [
             {
               "date": "2026-10-02",
-              "summary_zh": "卡什卡利對升息步伐持開放態度，並表示當前貨幣政策限制性不足，若經濟持續超預期可能需進一步升息。",
+              "summary_zh": "當前貨幣政策並無顯著限制性，經濟表現優於預期，聯準會未來升息幅度可能超出原先預期。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4508,7 +4536,7 @@
           "talks": [
             {
               "date": "2026-10-03",
-              "summary_zh": "古爾斯比表示就業穩定但通膨停滯且走勢不佳，對升息或暫停升息持開放態度，不會對單月數據過度反應。",
+              "summary_zh": "勞動市場穩定使通膨成為更重要任務，通膨停滯且服務業通膨進展緩慢，對下次會議決策持開放態度。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -11037,7 +11065,7 @@
           "talks": [
             {
               "date": "2026-10-03",
-              "summary_zh": "納格爾表示德國經濟今年有可能成長約1%。",
+              "summary_zh": "德國經濟今年有可能成長約1%。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -11645,7 +11673,7 @@
           "talks": [
             {
               "date": "2026-10-02",
-              "summary_zh": "雷恩表示高能源價格推近通膨不利情境，而長期利率上升將放緩經濟成長並抑制能源衝擊向物價與薪資的傳導。",
+              "summary_zh": "能源價格上漲推升通膨風險，長期利率上升將放緩經濟成長並減緩能源衝擊對物價和薪資的傳導。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -15572,21 +15600,21 @@
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 26789,
-    "candidatesTokenCount": 7830,
+    "promptTokenCount": 11809,
+    "candidatesTokenCount": 4251,
     "thoughtsTokenCount": 0,
-    "totalTokenCount": 34619,
+    "totalTokenCount": 16060,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
       "FED+BOE+ECB+BOJ+RBA": {
-        "promptTokenCount": 26789,
-        "candidatesTokenCount": 7830,
-        "totalTokenCount": 34619,
+        "promptTokenCount": 11809,
+        "candidatesTokenCount": 4251,
+        "totalTokenCount": 16060,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 26789
+            "tokenCount": 11809
           }
         ],
         "serviceTier": "standard"
@@ -15594,12 +15622,12 @@
     },
     "incremental": {
       "mode": "incremental",
-      "window_headline_count": 2825,
+      "window_headline_count": 2826,
       "regenerated_date_count": 3,
-      "regenerated_headline_count": 216,
-      "reused_headline_count": 2609,
-      "reused_talk_count": 297,
-      "regenerated_talk_count": 16
+      "regenerated_headline_count": 86,
+      "reused_headline_count": 2740,
+      "reused_talk_count": 304,
+      "regenerated_talk_count": 9
     }
   }
 }

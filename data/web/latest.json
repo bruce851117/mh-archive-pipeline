@@ -1,26 +1,28 @@
 {
-  "generated_at": "2026-10-03T07:41:40.279151+08:00",
-  "summary_generated_at": "2026-10-03T07:41:40.279151+08:00",
-  "data_updated_at": "2026-10-03T06:50:25.509237+08:00",
+  "generated_at": "2026-10-04T07:41:08.562276+08:00",
+  "summary_generated_at": "2026-10-04T07:41:08.562276+08:00",
+  "data_updated_at": "2026-10-04T07:18:33.230554+08:00",
   "timezone": "Asia/Taipei",
   "period_start": "2026-10-02T05:00:00+08:00",
-  "period_end": "2026-10-03T06:50:25.509237+08:00",
+  "period_end": "2026-10-04T07:18:33.230554+08:00",
   "model": "gemini-3.8-flash",
   "source_digest_files": [
     "data/digests/2026/10/2026-10-01.json",
     "data/digests/2026/10/2026-10-02.json",
-    "data/digests/2026/10/2026-10-03.json"
+    "data/digests/2026/10/2026-10-03.json",
+    "data/digests/2026/10/2026-10-04.json"
   ],
-  "event_count": 53,
+  "event_count": 79,
   "summary_points": [
-    "荷姆茲海峽航運衝突急遽升溫，油輪遭不明發射物擊中起火斷電，引發全球能源運輸中斷隱憂。",
-    "為因應荷姆茲海峽動盪，G7與國際能源署（IEA）協調於4個月內釋出最多1億桶原油與柴油儲備，加上美方保證不祭出出口禁令，國際油價應聲下跌逾5美元。",
-    "美國9月非農就業人口僅新增2.9萬人且失業率升至4.2%，就業動能顯著降溫，促使短天期利率期貨飆升，市場大幅削減年內及10月升息押注。",
-    "聯準會內部對利率路徑分歧，達拉斯聯準銀行總裁羅根呼籲至少需再升息50個基點，芝加哥聯準銀行總裁古爾斯比則強調通膨停滯，10月會議不排除任何升息或暫停選項。",
-    "歐元區9月通膨率快報反彈至3.8%高於預期，歐洲央行官員警告能源價格飆升正將通膨推向不利情境，市場甚至出現年底升息的預測。",
-    "中東地緣政治持續惡化，胡塞武裝向沙烏地發射彈道飛彈並傳首都利雅德傳出爆炸聲，沙烏地傳出正研議對葉門胡塞武裝發動軍事行動以打破航運封鎖。",
-    "北韓清晨自元山一帶向日本海發射彈道飛彈，引發南韓軍方全面提升警戒，加劇東北亞區域安全局勢緊張。",
-    "日本東京9月核心通膨率跳升至2.7%創近一年新高，內閣官員表態日本已擺脫通縮且無需非常規貨幣刺激，進一步強化市場對日銀政策正常化的預期。"
+    "中東地緣政治危機急遽惡化，葉門胡塞武裝襲擊沙烏地阿美石油設施，且荷姆茲海峽發生油輪遭擊中起火，加劇全球能源供應中斷風險。",
+    "為穩定國際能源市場，G7與IEA協調於4個月內釋出高達1億桶原油與柴油儲備，美國總統川普亦承諾不實施柴油出口禁令，帶動國際油價單日重挫逾5美元。",
+    "美國9月非農就業人口僅新增2.9萬人，遠低於市場預期，失業率攀升至4.2%，顯示勞動市場動能急遽冷卻。",
+    "受非農就業數據疲軟衝擊，利率期貨市場大幅縮減對聯準會於10月及年內的升息押注，債市定價出現明顯轉變。",
+    "聯準會官員立場呈現分歧，達拉斯聯準銀行總裁Logan主張政策利率應再提高至少50個基點以壓制通膨，芝加哥聯準銀行總裁Goolsbee則對10月升息或暫停行動持開放態度。",
+    "歐元區9月通膨率初值反彈至3.8%，歐洲央行管委警告能源飆漲恐推升不利情境，市場機構亦預估歐洲央行年底前恐面臨升息壓力。",
+    "日本9月東京核心CPI跳升至2.7%，創近一年新高；財務大臣片山皋月則強調美日已達成共識，隨時準備對外匯市場過度波動採取果斷干預措施。",
+    "地緣軍事緊張持續擴散，北韓於東部海域進行中程戰略飛彈試射，引發南韓軍方拉高戒備並召開國安會議因應。",
+    "科技與資本市場動向方面，亞馬遜傳出計劃向機構投資人發售高達80億美元的輝達晶片資產，以擴展人工智慧相關融資管道。"
   ],
   "blocks": [
     {
@@ -192,6 +194,33 @@
           "headline_zh": "美國政府擬提供40億美元貸款支持Vistra擴大核能發電",
           "summary_zh": "美國能源部將向獨立電力商Vistra提供40億美元貸款，以加速提升核能發電產能，滿足資料中心用電需求。",
           "event_time": "2026-10-03T03:15:29+08:00"
+        },
+        {
+          "source_id": "00e3b88111f87e66970ed95dc342710686104f30911a522ecdafd5d3b7c3a376",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "華爾街日報：新型AI團體將針對公眾及業界擔憂提出技術風險綱要",
+          "summary_zh": "因應市場與大眾對於AI發展的擔憂，新成立的AI組織將勾勒出技術風險框架，引發科技產業關注監管走向。",
+          "event_time": "2026-10-04T06:27:52+08:00"
+        },
+        {
+          "source_id": "b33a2b6156e2922c69b6025c81d044d108086bfdcf7bc4235c49f7bf3bf49a5d",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "白宮成立AI工作組限期120天提交風險與機會報告",
+          "summary_zh": "據華爾街日報報導，白宮工作組獲賦予120天時間，就人工智慧（AI）的風險、機會及美國聯邦政府職責準備評估報告。",
+          "event_time": "2026-10-04T06:28:31+08:00"
+        },
+        {
+          "source_id": "bb63b8a52eebac3bb75c54a3630cd80c8e6c8ad98cc1bdf42629469d897c8b7c",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "前SEC主席克雷頓將掌管白宮AI工作小組，成為川普的「AI沙皇」",
+          "summary_zh": "現任國家情報總監辦公室首長克雷頓（Jay Clayton）將領導白宮AI小組，實質上成為川普政府的AI主管官員，牽動科技監管政策預期。",
+          "event_time": "2026-10-04T06:28:55+08:00"
         }
       ]
     },
@@ -269,6 +298,51 @@
           "headline_zh": "德國央行總裁Nagel：德國今年經濟有望實現約1%的成長",
           "summary_zh": "歐洲央行管委兼德國央行總裁納格爾（Joachim Nagel）指出，德國經濟韌性較預期強，今年全年經濟成長率有可能達到1%左右。",
           "event_time": "2026-10-03T03:35:35+08:00"
+        },
+        {
+          "source_id": "18d5ef4055ccc7798e9772b9b85925325f204aee40ff791e4ae9bcdfdf31d0dd",
+          "category": "央行",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "日本財務大臣片山皋月：美日一致同意隨時準備對外匯過度波動採取果斷措施",
+          "summary_zh": "片山皋月（Katayama）提及美日雙方保持協調並準備好對外匯波動採取果斷干預手段，釋放強烈干預訊號。",
+          "event_time": "2026-10-03T09:05:46+08:00"
+        },
+        {
+          "source_id": "825fd77f9f7cc18d59fa8e08be89c4b6529863f901ba09bd9440a2c6e0406ce4",
+          "category": "央行",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "片山皋月：聯合匯率干預後外匯趨勢已有所轉變",
+          "summary_zh": "日本財務大臣指出，自從聯合干預匯市以來，日圓走勢方向已出現一定程度的變化。",
+          "event_time": "2026-10-03T09:06:20+08:00"
+        },
+        {
+          "source_id": "ab868d7601546c83cee781d58987e77997deb81159091a9c346f7f9f6b289f49",
+          "category": "央行",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "片山皋月透露貝森特質疑日本政府對市場的政策溝通是否一致",
+          "summary_zh": "貝森特（Bessent）對日本政府向市場傳遞的政策訊號一致性提出質疑，涉及美日匯率政策溝通。",
+          "event_time": "2026-10-03T09:10:39+08:00"
+        },
+        {
+          "source_id": "cad2da1ae417854d6174ef68b74bee59a2db94b77e49b1a52424fbad31c7809d",
+          "category": "央行",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "片山皋月表示政府對外匯存底組成的透明度存在限制",
+          "summary_zh": "日本財務省強調因涉及市場操作策略，外匯存底具體配置與變動資訊的公開有其限制。",
+          "event_time": "2026-10-03T09:25:36+08:00"
+        },
+        {
+          "source_id": "1240759ec1079fe9b72a0c067a04c53db6b8029e240fddaed1468fd223898c48",
+          "category": "央行",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "委內瑞拉央行公布9月通貨膨脹率上升8.4%",
+          "summary_zh": "委內瑞拉央行數據顯示9月通膨率上升8.4%，反映當地面臨嚴重的通膨壓力。",
+          "event_time": "2026-10-03T22:18:23+08:00"
         }
       ]
     },
@@ -328,6 +402,24 @@
           "headline_zh": "國際貨幣基金核准玻利維亞19億美元三年期貸款架構",
           "summary_zh": "國際貨幣基金（IMF）執行董事會批准為玻利維亞提供為期36個月的擴展基金機制（EFF），總規模約19億美元，以支持其總體經濟穩定改革。",
           "event_time": "2026-10-03T06:03:35+08:00"
+        },
+        {
+          "source_id": "ed72103f8586d14d0c440e44542f57ddd1b90a5c0bff1f6a766d006895796f72",
+          "category": "財政政策",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "川普宣布向超過2,000萬名年長者發放近百美元補助以補貼聯邦醫療保險保費",
+          "summary_zh": "美國總統川普宣布將向逾2,000萬名年長者每人發放近100美元補貼，以協助支應Medicare Part B保費，涉及重大聯邦支出。",
+          "event_time": "2026-10-03T10:58:22+08:00"
+        },
+        {
+          "source_id": "dda723d16ff7efb9d433064595fa4a70d2464837b79fdf1e01b8904a100858d7",
+          "category": "財政政策",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "川普動用專項基金結合最惠國協議以大幅降低年長者醫療成本",
+          "summary_zh": "川普正式動用特定政府基金並配合國際貿易協定，藉此大幅降低長者負擔，影響聯邦財政與藥價機制。",
+          "event_time": "2026-10-03T10:58:56+08:00"
         }
       ]
     },
@@ -414,6 +506,33 @@
           "headline_zh": "川普施壓韓國履約阿拉斯加管線，威脅將加徵更多費用",
           "summary_zh": "美國總統川普就韓美投資協議表示，若韓國不配合推進價值84億美元的阿拉斯加石油管線專案，美國將對其徵收更高額的費用；韓國產通部官員隨後澄清該項目非原先協定內容。",
           "event_time": "2026-10-03T03:59:35+08:00"
+        },
+        {
+          "source_id": "8fda6d17b4c22d04f6cb005451e1bce814b2af17ea705e23a94aa6e90b760cde",
+          "category": "經濟",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "川普表示美國將很快補充戰略石油儲備",
+          "summary_zh": "川普預告將進場回補美國戰略石油儲備（SPR），此舉可能為全球原油市場帶來實質買盤支撐。",
+          "event_time": "2026-10-03T08:17:31+08:00"
+        },
+        {
+          "source_id": "ed5724c7944fd03023554895beb755b35b525acf5c82238377e67a654a1d6937",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "中國商務部對原產於歐盟的對硝基甲苯啟動反傾銷調查",
+          "summary_zh": "中國商務部宣布對歐盟進口的化學品對硝基甲苯立案進行反傾銷調查，加劇中歐貿易摩擦疑慮。",
+          "event_time": "2026-10-03T10:21:59+08:00"
+        },
+        {
+          "source_id": "fdf7785203cfa79ed341ec80be7af710841f22f7156f50185b5cd091a34a059c",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "厄瓜多國營石油公司因火災宣告SOTE輸油管泵站遭遇不可抗力",
+          "summary_zh": "Petroecuador於10月1日火災後對Sote管線加壓站宣告不可抗力，並正努力在六天內恢復營運，衝擊短期原油供應。",
+          "event_time": "2026-10-04T05:34:29+08:00"
         }
       ]
     },
@@ -527,18 +646,135 @@
           "headline_zh": "北韓自元山向東部海域試射彈道飛彈，南韓軍方提升戒備",
           "summary_zh": "南韓聯合參謀本部通報北韓清晨自元山一帶向日本海發射彈道飛彈，飛彈落於日本專屬經濟區外，南韓軍方正全面戒備後續挑釁行動。",
           "event_time": "2026-10-03T06:42:14+08:00"
+        },
+        {
+          "source_id": "92e623fa1518d3b0fddd7b1368061e4b3be27c3204fce995fccf580ef17109d7",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "Axios：川普頂級國安幕僚在戴維營就伊朗與葉門局勢召開秘密會議",
+          "summary_zh": "白宮高層國安團隊就伊朗及葉門緊張情勢於戴維營（Camp David）舉行秘密會商，引發美軍可能採取行動或調整中東政策的預期。",
+          "event_time": "2026-10-03T11:05:01+08:00"
+        },
+        {
+          "source_id": "ca2700af098f6331176190626d581e6f3332bc3e08f964e7642e8cfa7c9e1dc7",
+          "category": "戰爭",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "立陶宛因白俄羅斯無人機威脅短暫關閉維爾紐斯機場並緊急升空北約戰機",
+          "summary_zh": "立陶宛首都機場因可疑無人機入侵短暫關閉，北約空中警巡戰機緊急升空，警報解除後機場恢復營運。",
+          "event_time": "2026-10-03T14:59:55+08:00"
+        },
+        {
+          "source_id": "2bb90ab6009d0f157030a63c90b9c42cbcf3ddf2d0c57900b7114e3981a99bc9",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "紐約時報：美俄就烏克蘭問題的談判包含涉及川普盟友的數十億美元石油協議",
+          "summary_zh": "外媒披露美俄雙方針對烏克蘭的接觸與談判框架中，包含一項與川普盟友掛鉤的巨額石油合作協議。",
+          "event_time": "2026-10-03T17:14:30+08:00"
+        },
+        {
+          "source_id": "93fcc66ab5168528eff30a5dbe2cd4ad32503eba210ebc4b9a5fa543176e3c43",
+          "category": "戰爭",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "印度與巴基斯坦就邊境平民遇害事件相互召見外交官員抗議",
+          "summary_zh": "巴基斯坦與印度在邊境發生衝突造成平民喪生，兩國外交部相互召見臨時代辦並駁斥對方指控。",
+          "event_time": "2026-10-03T17:32:03+08:00"
+        },
+        {
+          "source_id": "e1ae61846f264fb33209107d74767f6d42e024d30081a5446d55b9fc477779d4",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "北韓由金正恩監督試射中程戰略飛彈，飛行逾700公里精準命中目標",
+          "summary_zh": "北韓進行中程戰略飛彈發射演練，飛彈飛行逾700公里並命中千公里外靶區，金與正與金正恩相繼證實，南韓召開國安會議因應。",
+          "event_time": "2026-10-03T18:07:11+08:00"
+        },
+        {
+          "source_id": "c7543773c20b1ef4ed25bb99a92f33c8100c2947fb3edeb350ef93212aaca09f",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "俄羅斯空襲烏克蘭敖德薩港口外籍貨輪，造成船員傷亡",
+          "summary_zh": "俄軍襲擊烏克蘭敖德薩港（Odesa）懸掛外國國旗的貨船，導致一死三傷，黑海航運風險再度升高。",
+          "event_time": "2026-10-03T18:29:39+08:00"
+        },
+        {
+          "source_id": "f7c74757e225c6e73a8ad817f455afd9e72f4b5b3dca5cfb6fef730b9e2cfa39",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "烏克蘭砲擊損壞札波羅熱核電廠外部供電設施，廠方稱局勢受控",
+          "summary_zh": "札波羅熱核電廠（Zaporizhzhia）外部電力設備因砲擊受損，引發對核電廠冷卻電力中斷的核安關切。",
+          "event_time": "2026-10-03T23:35:35+08:00"
+        },
+        {
+          "source_id": "f04f93a21269d0375db422720540244a3122dadb608f48e71aa98116f28948cc",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "澤倫斯基表示烏克蘭將反擊俄羅斯空襲並鎖定煉油廠，預計秋季推出自製彈道飛彈",
+          "summary_zh": "烏克蘭總統澤倫斯基（Volodymyr Zelenskyy）表示烏軍將針對俄羅斯煉油廠進行打擊，並預計在秋季部署國產FP-9彈道飛彈。",
+          "event_time": "2026-10-04T00:00:02+08:00"
+        },
+        {
+          "source_id": "105359524deec456c61b7380cd440acc7c72ee0f28cdabb0fcb76a03211dadb8",
+          "category": "戰爭",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "伊拉克與伊朗直飛航班將於週日恢復",
+          "summary_zh": "伊拉克官方通訊社報導，伊拉克納傑夫與伊朗之間的定期商業航班將重新恢復營運。",
+          "event_time": "2026-10-04T01:23:55+08:00"
+        },
+        {
+          "source_id": "98fb8207d830a5f6f8c35b6cdaeb7b51f21f3863bbaa5a68fad3f7a8e85a5550",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "葉門青年運動聲稱使用彈道飛彈與無人機襲擊沙烏地利雅德阿美石油設施",
+          "summary_zh": "青年運動宣稱對沙烏地阿美（Aramco）設施發動飛彈攻擊；目擊者指出利雅德設施附近出現巨大濃煙與火光，加劇能源供應風險。",
+          "event_time": "2026-10-04T02:51:04+08:00"
+        },
+        {
+          "source_id": "c6b494e42d0ea4caefa5c1f9a8e5f067adf8426b22eed46e4464860c2d79bd72",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊拉克利用超大型油輪運載200萬桶原油通過荷姆茲海峽",
+          "summary_zh": "伊拉克國營油輪公司宣布透過VLCC運載200萬桶原油穿越荷姆茲海峽（Strait of Hormuz），為數十年來首次，旨在擴大國家石油營銷靈活性。",
+          "event_time": "2026-10-04T02:56:26+08:00"
+        },
+        {
+          "source_id": "667886cb6b80a4f06a1f8649250639db533a6af6fb46c7b6a5662c34e85246d6",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "葉門媒體報導沙烏地空襲沙那，中東戰火持續蔓延",
+          "summary_zh": "青年運動旗下媒體稱沙烏地對沙那（Sanaa）發動空襲，但沙烏地官方尚未證實，雙方軍事對峙升溫。",
+          "event_time": "2026-10-04T05:14:56+08:00"
+        },
+        {
+          "source_id": "1679855e90ea084295366ec86d1d3eddc378e3a068d73749e77b44a9b1c31765",
+          "category": "戰爭",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "美國國務院警告衣索比亞與厄利垂亞邊境緊張恐危及全區域穩定",
+          "summary_zh": "美國國務院對東非兩國邊境衝突升級發出警示，敦促雙方展現克制並重啟對話。",
+          "event_time": "2026-10-04T05:16:27+08:00"
         }
       ]
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 10170,
-    "candidatesTokenCount": 469,
-    "totalTokenCount": 10639,
+    "promptTokenCount": 14672,
+    "candidatesTokenCount": 492,
+    "totalTokenCount": 15164,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 10170
+        "tokenCount": 14672
       }
     ],
     "serviceTier": "standard"
