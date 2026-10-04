@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-04T07:40:33.979155+08:00",
+  "generated_at": "2026-10-05T07:40:50.890603+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-07-06T07:40:33.979155+08:00",
-  "period_end": "2026-10-04T07:40:33.979155+08:00",
+  "period_start": "2026-07-07T07:40:50.890603+08:00",
+  "period_end": "2026-10-05T07:40:50.890603+08:00",
   "lookback_days": 90,
   "voter_version": "2026-09-09",
   "model": "gemini-3.8-flash",
-  "input_headline_count": 2826,
-  "talk_count": 221,
+  "input_headline_count": 2824,
+  "talk_count": 218,
   "central_banks": [
     {
       "central_bank": "FED",
@@ -2405,29 +2405,6 @@
                   "headline": "Fed's Waller: Another high core-inflation reading would be a signal that near-term hikes may be needed; labor is stable, inflation credibility remains intact, and he favors a 1.5%-2.5% target range but not changing it now."
                 }
               ]
-            },
-            {
-              "date": "2026-07-06",
-              "summary_zh": "表示就業風險已企穩但通膨加速，堅守2%目標承諾，認為前瞻指引過於僵化將成為阻礙。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "manual-f6e44fcaf96f8afa00d7"
-              ],
-              "source_headlines": [
-                {
-                  "id": "manual-f6e44fcaf96f8afa00d7",
-                  "time": "2026-07-06T23:44:00+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Waller: Labor risks have stabilized while inflation has accelerated; the 2% commitment is credible and forward guidance can help but becomes a hindrance when too rigid."
-                }
-              ]
             }
           ]
         },
@@ -4536,7 +4513,7 @@
           "talks": [
             {
               "date": "2026-10-03",
-              "summary_zh": "勞動市場穩定使通膨成為更重要任務，通膨停滯且服務業通膨進展緩慢，對下次會議決策持開放態度。",
+              "summary_zh": "古爾斯比表示勞動市場穩定但通膨停滯且方向不對，服務業通膨進展緩慢或有蔓延跡象，強調不會對單月數據過度反應，下一次利率會議不排除升息或暫停等任何決定。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -10966,29 +10943,6 @@
                   "headline": "ECB's Schnabel: Inflation likely to top 2% for extended period."
                 }
               ]
-            },
-            {
-              "date": "2026-07-06",
-              "summary_zh": "當前衝擊不容忽視，儘管油價下跌，供應鏈壓力依然居高不下。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "manual-ab55f17f61eb2594d202"
-              ],
-              "source_headlines": [
-                {
-                  "id": "manual-ab55f17f61eb2594d202",
-                  "time": "2026-07-06T23:03:00+08:00",
-                  "central_bank": "ECB",
-                  "headline": "ECB's Schnabel: The shock cannot simply be looked through; supply-chain pressures remain elevated despite lower oil prices."
-                }
-              ]
             }
           ]
         },
@@ -11065,7 +11019,7 @@
           "talks": [
             {
               "date": "2026-10-03",
-              "summary_zh": "德國經濟今年有可能成長約1%。",
+              "summary_zh": "納格爾表示德國經濟今年有可能成長約1%。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -11872,31 +11826,7 @@
           "position": "Belgium",
           "active": true,
           "voter": true,
-          "talks": [
-            {
-              "date": "2026-07-06",
-              "summary_zh": "薪資發展溫和，進一步升息雖有可能，但目前不需要大幅收緊貨幣政策。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "manual-3ab00e3ad4f4ab4588a5"
-              ],
-              "source_headlines": [
-                {
-                  "id": "manual-3ab00e3ad4f4ab4588a5",
-                  "time": "2026-07-06T23:52:00+08:00",
-                  "central_bank": "ECB",
-                  "headline": "ECB's Wunsch: Wage developments are benign; another move is possible but significant tightening is not currently required."
-                }
-              ]
-            }
-          ]
+          "talks": []
         },
         {
           "official": "Yannis Stournaras",
@@ -15600,21 +15530,21 @@
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 11809,
-    "candidatesTokenCount": 4251,
+    "promptTokenCount": 2880,
+    "candidatesTokenCount": 707,
     "thoughtsTokenCount": 0,
-    "totalTokenCount": 16060,
+    "totalTokenCount": 3587,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
-      "FED+BOE+ECB+BOJ+RBA": {
-        "promptTokenCount": 11809,
-        "candidatesTokenCount": 4251,
-        "totalTokenCount": 16060,
+      "FED+ECB+RBA": {
+        "promptTokenCount": 2880,
+        "candidatesTokenCount": 707,
+        "totalTokenCount": 3587,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 11809
+            "tokenCount": 2880
           }
         ],
         "serviceTier": "standard"
@@ -15622,12 +15552,12 @@
     },
     "incremental": {
       "mode": "incremental",
-      "window_headline_count": 2826,
+      "window_headline_count": 2824,
       "regenerated_date_count": 3,
-      "regenerated_headline_count": 86,
-      "reused_headline_count": 2740,
-      "reused_talk_count": 304,
-      "regenerated_talk_count": 9
+      "regenerated_headline_count": 11,
+      "reused_headline_count": 2813,
+      "reused_talk_count": 311,
+      "regenerated_talk_count": 2
     }
   }
 }
