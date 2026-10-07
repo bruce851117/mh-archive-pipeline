@@ -2,8 +2,8 @@
   "date": "2026-10-07",
   "timezone": "Asia/Taipei",
   "model": "gemini-3.8-flash",
-  "source_generated_at": "2026-10-07T07:40:54.374557+08:00",
-  "talk_count": 3,
+  "source_generated_at": "2026-10-08T07:40:59.204794+08:00",
+  "talk_count": 6,
   "talks": [
     {
       "central_bank": "BOJ",
@@ -15,7 +15,7 @@
       "active": true,
       "voter": true,
       "date": "2026-10-07",
-      "summary_zh": "佐藤綾野表示贊同逐步調整利率且升息無預設立場，央行須在獨立制定貨幣政策的同時配合政府積極財政政策，並關注油價帶來的通膨上行風險。",
+      "summary_zh": "同意漸進調整利率且升息無預設立場，強調央行須獨立制定貨幣政策，並指出中東衝突推升油價使物價風險微幅偏上。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -58,16 +58,16 @@
       ]
     },
     {
-      "central_bank": "FED",
-      "central_bank_display_name": "Fed",
-      "official": "Mary Daly",
-      "headline_name": "Daly",
-      "priority": 14,
-      "position": "San Francisco Fed President",
+      "central_bank": "ECB",
+      "central_bank_display_name": "ECB",
+      "official": "Emmanuel Moulin",
+      "headline_name": "Moulin",
+      "priority": 8,
+      "position": "France",
       "active": true,
-      "voter": false,
+      "voter": true,
       "date": "2026-10-07",
-      "summary_zh": "戴利表示持續的衝擊可能需要更多緊縮措施，但聯準會也可能在1至3年內觀察到衝擊減弱。",
+      "summary_zh": "表示債券市場情況複雜，法國尚未陷入經濟危機，2027年法國預算案對於安撫市場極為關鍵。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -77,16 +77,130 @@
         "balance_sheet": ""
       },
       "source_ids": [
-        "6057b496bf70e22b937a53804298b1b3aecf3a095d9cc4990b70dafec6b14487",
-        "a5f313a9e5e12c6a18c088b51e9b1adfc87e24a3eb066ef4100f007e353e826f"
+        "49071239fe07589ff8ab59e61b56790ef8f65479442c2cb8828350a77ddb55f7",
+        "bea99ed485e9f4ae604bbadc7635b91d621cde5e01c7fa37e6b37ddbc8c67b19",
+        "0175246ba295cd9219ca3cac656e4c630128fc69f8d7c26be22b163875dc20ab"
       ],
       "source_headlines": [
         {
-          "id": "6057b496bf70e22b937a53804298b1b3aecf3a095d9cc4990b70dafec6b14487",
-          "time": "2026-10-07T00:00:07+08:00",
-          "central_bank": "FED",
-          "headline": "Fed's Daly: May result in more tightening required."
+          "id": "49071239fe07589ff8ab59e61b56790ef8f65479442c2cb8828350a77ddb55f7",
+          "time": "2026-10-07T13:51:32+08:00",
+          "central_bank": "ECB",
+          "headline": "ECB's Moulin: Situation on bond markets is \"complicated\""
         },
+        {
+          "id": "bea99ed485e9f4ae604bbadc7635b91d621cde5e01c7fa37e6b37ddbc8c67b19",
+          "time": "2026-10-07T13:53:16+08:00",
+          "central_bank": "ECB",
+          "headline": "ECB's Moulin: France is not in economic crisis yet"
+        },
+        {
+          "id": "0175246ba295cd9219ca3cac656e4c630128fc69f8d7c26be22b163875dc20ab",
+          "time": "2026-10-07T13:59:11+08:00",
+          "central_bank": "ECB",
+          "headline": "ECB's Moulin: 2027 France budget is very important to reassure the market"
+        }
+      ]
+    },
+    {
+      "central_bank": "ECB",
+      "central_bank_display_name": "ECB",
+      "official": "Álvaro Santos Pereira",
+      "headline_name": "Pereira",
+      "priority": 18,
+      "position": "Portugal",
+      "active": true,
+      "voter": true,
+      "date": "2026-10-07",
+      "summary_zh": "表示當前整體與核心通膨水準遠低於2022年能源衝擊時期，且其他商品價格並未顯示通膨預期有脫錨跡象。",
+      "topics": {
+        "economy": "",
+        "inflation": "",
+        "labor_market": "",
+        "monetary_policy": "",
+        "interest_rates": "",
+        "balance_sheet": ""
+      },
+      "source_ids": [
+        "5e212efbe422520d610e7510a580edc8dab4c6313239cf77dc77ab04c78a2aa4",
+        "833a451a95eb45f60a2e8d1f92275d7cdee81a8e734d824208376c317d15a999"
+      ],
+      "source_headlines": [
+        {
+          "id": "5e212efbe422520d610e7510a580edc8dab4c6313239cf77dc77ab04c78a2aa4",
+          "time": "2026-10-07T18:19:38+08:00",
+          "central_bank": "ECB",
+          "headline": "ECB's Pereira: Current inflation and core inflation levels are far below those seen during the 2022 energy shock"
+        },
+        {
+          "id": "833a451a95eb45f60a2e8d1f92275d7cdee81a8e734d824208376c317d15a999",
+          "time": "2026-10-07T18:28:53+08:00",
+          "central_bank": "ECB",
+          "headline": "ECB's Pereira: Other goods prices show no signs of de-anchoring inflation expectations"
+        }
+      ]
+    },
+    {
+      "central_bank": "ECB",
+      "central_bank_display_name": "ECB",
+      "official": "Primož Dolenc",
+      "headline_name": "Dolenc",
+      "priority": 26,
+      "position": "Slovenia",
+      "active": true,
+      "voter": true,
+      "date": "2026-10-07",
+      "summary_zh": "表示當前歐洲央行利率水準確保了後續決策的靈活性，並重申歐洲央行不對財政政策負責。",
+      "topics": {
+        "economy": "",
+        "inflation": "",
+        "labor_market": "",
+        "monetary_policy": "",
+        "interest_rates": "",
+        "balance_sheet": ""
+      },
+      "source_ids": [
+        "ba29275304dabedd4d0c8f3057643d63db0d2d9a06bde4056a4f47b70968e713",
+        "a347cf02200e51960e1d5a305c418d0202a30a3affcd25f1f788e611c251f514"
+      ],
+      "source_headlines": [
+        {
+          "id": "ba29275304dabedd4d0c8f3057643d63db0d2d9a06bde4056a4f47b70968e713",
+          "time": "2026-10-07T17:19:36+08:00",
+          "central_bank": "ECB",
+          "headline": "ECB's Dolenc: Current ECB rate ensures flexibility for next decisions"
+        },
+        {
+          "id": "a347cf02200e51960e1d5a305c418d0202a30a3affcd25f1f788e611c251f514",
+          "time": "2026-10-07T18:15:18+08:00",
+          "central_bank": "ECB",
+          "headline": "ECB's Dolenc: ECB not responsible for fiscal policy"
+        }
+      ]
+    },
+    {
+      "central_bank": "FED",
+      "central_bank_display_name": "Fed",
+      "official": "Mary Daly",
+      "headline_name": "Daly",
+      "priority": 14,
+      "position": "San Francisco Fed President",
+      "active": true,
+      "voter": false,
+      "date": "2026-10-07",
+      "summary_zh": "表示聯準會可能會在1至3年內觀察到各項外在衝擊逐漸減弱。",
+      "topics": {
+        "economy": "",
+        "inflation": "",
+        "labor_market": "",
+        "monetary_policy": "",
+        "interest_rates": "",
+        "balance_sheet": ""
+      },
+      "source_ids": [
+        "a5f313a9e5e12c6a18c088b51e9b1adfc87e24a3eb066ef4100f007e353e826f"
+      ],
+      "source_headlines": [
         {
           "id": "a5f313a9e5e12c6a18c088b51e9b1adfc87e24a3eb066ef4100f007e353e826f",
           "time": "2026-10-07T00:00:54+08:00",
@@ -105,7 +219,7 @@
       "active": true,
       "voter": false,
       "date": "2026-10-07",
-      "summary_zh": "施密德指出勞動力市場維持良好，但AI推升通膨，抗通膨仍有長路要走，聯準會儘管長天期殖利率上升在短期利率上仍有工作要做。",
+      "summary_zh": "勞動力市場維持良好，但通膨必須解決且AI為主要推手，儘管長天期殖利率上升，短天期利率政策仍有工作要做。",
       "topics": {
         "economy": "",
         "inflation": "",
