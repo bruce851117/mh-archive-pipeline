@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-09T07:40:57.925927+08:00",
+  "generated_at": "2026-10-10T07:40:57.708612+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-07-11T07:40:57.925927+08:00",
-  "period_end": "2026-10-09T07:40:57.925927+08:00",
+  "period_start": "2026-07-12T07:40:57.708612+08:00",
+  "period_end": "2026-10-10T07:40:57.708612+08:00",
   "lookback_days": 90,
   "voter_version": "2026-09-09",
   "model": "gemini-3.8-flash",
-  "input_headline_count": 3080,
+  "input_headline_count": 3093,
   "talk_count": 233,
   "central_banks": [
     {
@@ -1887,7 +1887,7 @@
           "talks": [
             {
               "date": "2026-10-08",
-              "summary_zh": "表示下半年經濟走強且就業穩健，但能源與AI等推升通膨過高並危及通膨預期，若數據符合預期將進一步升息，步調保持靈活且毋須連續升息。",
+              "summary_zh": "下半年經濟走強且通膨過高，擔憂通膨預期受威脅，若數據符合預期將進一步升息，但對升息步調保持彈性且不必然連續升息。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6465,7 +6465,7 @@
           "talks": [
             {
               "date": "2026-10-09",
-              "summary_zh": "指出經濟強勁且就業穩定，但通膨高企需在未來6至9個月進一步升息收緊政策，並認為資本強勁需求與財政赤字將使利率在更長時間維持較高水準。",
+              "summary_zh": "經濟強勁且就業穩定，但通膨高企需要進一步緊縮貨幣政策，未來6至9個月利率應持續上升以將通膨及時拉回目標。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6478,6 +6478,7 @@
                 "2b89518cc25f9e49ab5848611039142ef4fda8f8023bba360e48eb8bae0496fc",
                 "69541de1bcc4777ef3972396283beb36e21e7ccb56e0e79dafaef9f64e6ca51e",
                 "e73c507610f24702eb3bd9475834b1cf9c113c36646412a0833dee07efc03b6e",
+                "d6e6934232a4f486b2f757c8a19ff9d7ff911c80dfd7ec36e43e02acbe83df0b",
                 "d50c77f1b5201e6df1052aa55b3df86f2379965d7d1b01fbda00c21edee1b210",
                 "783ac7722ca787e08ca4f90db5fcd4c7500956ad076a70eb0692d482e45f45c2",
                 "d33a7ecaae3f75aa28948c993bc2c5675d8a4fabf304322fed32a0ca87a3f7ba",
@@ -6516,6 +6517,12 @@
                   "time": "2026-10-09T01:46:28+08:00",
                   "central_bank": "FED",
                   "headline": "Fed's Musalem: To bring inflation back to target, more monetary policy firming will be required"
+                },
+                {
+                  "id": "d6e6934232a4f486b2f757c8a19ff9d7ff911c80dfd7ec36e43e02acbe83df0b",
+                  "time": "2026-10-09T01:47:01+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Musalem: I go into all meetings with an open mind."
                 },
                 {
                   "id": "d50c77f1b5201e6df1052aa55b3df86f2379965d7d1b01fbda00c21edee1b210",
@@ -7829,7 +7836,7 @@
           "talks": [
             {
               "date": "2026-10-08",
-              "summary_zh": "重申貨幣政策堅定致力於讓通膨回落至目標，並警示高能源價格持續將增加通膨風險，同時呼籲財政政策需維持可信與穩定。",
+              "summary_zh": "能源價格居高不下加劇通膨風險，貨幣政策全力致力於讓通膨回歸目標，同時關注高債務與市場波動下的脆弱性。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -7840,11 +7847,24 @@
               },
               "source_ids": [
                 "3caa5fa483af29d15f9a2072bf4eb9856121012ccebf587567ad30c5eda24cf3",
+                "43ef4d53bac5574d92bc48005112e379f6436dc42f96cf40844526b0989e81ac",
+                "afd0a278b1822669b0a4405dbb61bee74a7b169cbfd53da5c4852768fb29371c",
+                "8f53d1f32ddadbb7836d99c8a5ee4e4b33e47b98366c653738997858d3453426",
+                "2e67c0b3ba55c5937389b67ee4ab8e9cb083d0b91fdb8143f89568125772c32f",
+                "c3362e6cfac770155a9c5b45de585d0c25ddfd9bba3661835fe45b97398cc8a9",
+                "4a9f6f92a32753a6e4526a8149ae601ebc717b30c8214b1c3a79906de26a7eff",
+                "96373f7b79d35ef9d5643f60f274c4c8718f9145a8b8edda2a5f7840f78fad54",
                 "9e6b0082b1ae22fdea5dd8c45daefede8807bf84f967dfe13e4d0d7d9f3a2dc7",
                 "d76d384593b90e9676f2e9951a3b7719b14ae0582e486d6c69eca25904273ce2",
+                "8064b6a07675e3c60d509de94d358524f8cb92fae77eb19efa12a373fdcf0fc2",
+                "b80daa3b098f4d23778115619bdd67e4a402ecd5fb089d7f85ef136cf947ed74",
+                "48daad0810c025d06520118c747684a2b27d8cc40fb9f886a0af5826adc15fec",
+                "9666105bc2bd27722ec2471d81132b36b339afdc19209e76e5a48d161a99bcd2",
                 "e2f86b5e9735c4fe9023c6dabe69d8a17a1c3444f2ae5cce7058073ed027fc61",
                 "5f34a251f2ff62132ba95f820c271289eb0529cdf6de8428a64e1ad51ab470ca",
-                "10f3abc40e0d9f054cd1109dfc1de42e584d0b863c629ced13381ddc9a295d8c"
+                "10f3abc40e0d9f054cd1109dfc1de42e584d0b863c629ced13381ddc9a295d8c",
+                "e7118bf7f70be0c27aafbdf9e2afbb6bfc411d4b19ea4a2438576789c36783f8",
+                "1c6d0667ec782ad7d88b5a6865e8fbf3832ca78ef6d51dd6361ce8e089dbc4a7"
               ],
               "source_headlines": [
                 {
@@ -7852,6 +7872,48 @@
                   "time": "2026-10-08T20:16:19+08:00",
                   "central_bank": "BOE",
                   "headline": "BoE Gov. Bailey: Monetary policy needs an unwavering commitment to returning inflation to target."
+                },
+                {
+                  "id": "43ef4d53bac5574d92bc48005112e379f6436dc42f96cf40844526b0989e81ac",
+                  "time": "2026-10-08T20:16:19+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: Policymakers should strengthen core financial markets so they can absorb future shocks without amplifying them"
+                },
+                {
+                  "id": "afd0a278b1822669b0a4405dbb61bee74a7b169cbfd53da5c4852768fb29371c",
+                  "time": "2026-10-08T20:16:35+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: We must strengthen the resilience of core markets."
+                },
+                {
+                  "id": "8f53d1f32ddadbb7836d99c8a5ee4e4b33e47b98366c653738997858d3453426",
+                  "time": "2026-10-08T20:17:25+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: Greater absorption of government debt has come with greater fragility"
+                },
+                {
+                  "id": "2e67c0b3ba55c5937389b67ee4ab8e9cb083d0b91fdb8143f89568125772c32f",
+                  "time": "2026-10-08T20:19:42+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: When shocks become more frequent, underlying growth is weaker, and the succession of shocks leads to a higher level of government debt, it's much harder for governments to use balance sheets to cushion a severe downturn."
+                },
+                {
+                  "id": "c3362e6cfac770155a9c5b45de585d0c25ddfd9bba3661835fe45b97398cc8a9",
+                  "time": "2026-10-08T20:19:45+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey warns of shock if AI expectations are sharply revised"
+                },
+                {
+                  "id": "4a9f6f92a32753a6e4526a8149ae601ebc717b30c8214b1c3a79906de26a7eff",
+                  "time": "2026-10-08T20:24:56+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: We are seeing volatile markets."
+                },
+                {
+                  "id": "96373f7b79d35ef9d5643f60f274c4c8718f9145a8b8edda2a5f7840f78fad54",
+                  "time": "2026-10-08T20:29:49+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: Market movements are some way from normal, but we are not seeing illiquidity or stressed conditions."
                 },
                 {
                   "id": "9e6b0082b1ae22fdea5dd8c45daefede8807bf84f967dfe13e4d0d7d9f3a2dc7",
@@ -7864,6 +7926,30 @@
                   "time": "2026-10-08T20:34:46+08:00",
                   "central_bank": "BOE",
                   "headline": "BoE Gov. Bailey: Inflation risks rise longer high energy prices persist."
+                },
+                {
+                  "id": "8064b6a07675e3c60d509de94d358524f8cb92fae77eb19efa12a373fdcf0fc2",
+                  "time": "2026-10-08T20:38:22+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: Risk that heavily leveraged positions shift fast"
+                },
+                {
+                  "id": "b80daa3b098f4d23778115619bdd67e4a402ecd5fb089d7f85ef136cf947ed74",
+                  "time": "2026-10-08T20:40:47+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: I am still seeing resilient markets."
+                },
+                {
+                  "id": "48daad0810c025d06520118c747684a2b27d8cc40fb9f886a0af5826adc15fec",
+                  "time": "2026-10-08T20:41:35+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: We must test for significant shock to expectations."
+                },
+                {
+                  "id": "9666105bc2bd27722ec2471d81132b36b339afdc19209e76e5a48d161a99bcd2",
+                  "time": "2026-10-08T20:42:23+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: Markets displaying elevated risk premium"
                 },
                 {
                   "id": "e2f86b5e9735c4fe9023c6dabe69d8a17a1c3444f2ae5cce7058073ed027fc61",
@@ -7882,6 +7968,18 @@
                   "time": "2026-10-08T20:44:56+08:00",
                   "central_bank": "BOE",
                   "headline": "BoE Gov. Bailey: Commitments on fiscal policy are needed more than ever when negative shocks occur"
+                },
+                {
+                  "id": "e7118bf7f70be0c27aafbdf9e2afbb6bfc411d4b19ea4a2438576789c36783f8",
+                  "time": "2026-10-08T20:46:17+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: We cannot be relaxed at all about large and concentrated positions in markets."
+                },
+                {
+                  "id": "1c6d0667ec782ad7d88b5a6865e8fbf3832ca78ef6d51dd6361ce8e089dbc4a7",
+                  "time": "2026-10-08T20:46:57+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: There is risk of wider disruption, can't be relaxed on that."
                 }
               ]
             },
@@ -8583,7 +8681,7 @@
           "talks": [
             {
               "date": "2026-10-08",
-              "summary_zh": "表示當前存在物價壓力必須加以應對，貨幣政策必須堅定不移地聚焦於通膨壓力。",
+              "summary_zh": "當前存在物價壓力必須予以因應，貨幣政策必須堅定不移地聚焦於通膨壓力。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -10041,7 +10139,7 @@
           "talks": [
             {
               "date": "2026-10-08",
-              "summary_zh": "擔憂英國薪資成長與缺乏進一步減速將引發第二輪通膨效應，並反對藉由高債券殖利率替代央行行動，強調央行需採取實際緊縮行動。",
+              "summary_zh": "英國薪資未見更顯著的通膨放緩且明年恐增長3.5%，憂心當前通膨將出現第二輪效應，央行不能單靠高公債殖利率發揮作用。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -10185,7 +10283,7 @@
           "talks": [
             {
               "date": "2026-10-09",
-              "summary_zh": "表示價格上漲並未廣泛擴散，歐洲央行密切關注市場並擁有足夠工具應對不合理的市場動態。",
+              "summary_zh": "物價並無擴散跡象，歐洲央行正密切關注市場動態並備有相應工具因應非預期的波動。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -11180,7 +11278,7 @@
           "talks": [
             {
               "date": "2026-10-08",
-              "summary_zh": "預期食品價格與核心通膨明年面臨上行壓力，認為目前衝擊適度應對即可，但若出現非線性動態，歐洲央行將強烈反擊。",
+              "summary_zh": "當前面臨中度衝擊採溫和應對適當，預期核心通膨與食品價格將面臨上行壓力，若出現非線性動態將強力因應。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -12004,7 +12102,7 @@
           "talks": [
             {
               "date": "2026-10-08",
-              "summary_zh": "指出歐元區面臨能源推升的通膨衝擊與地緣政治引發的金融衝擊，但未見第二輪效應且經濟增長仍相當具韌性。",
+              "summary_zh": "歐元區經濟展現韌性，雖面臨能源引發的通膨衝擊且地緣政治衝擊正轉化為金融衝擊，但尚未見到第二輪效應。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -12330,7 +12428,7 @@
           "talks": [
             {
               "date": "2026-10-08",
-              "summary_zh": "表示能源衝擊相當具有持續性，但通膨預期仍牢固錨定。",
+              "summary_zh": "能源衝擊相當具有持續性，但目前通膨預期仍維持良好錨定。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -12613,31 +12711,7 @@
           "position": "Belgium",
           "active": true,
           "voter": true,
-          "talks": [
-            {
-              "date": "2026-10-08",
-              "summary_zh": "認為提高法定最低存款準備金要求的理由並不清晰且不具說服力。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "06d9fc03be65cc9832a7edc5bc3f78a95f9bd6c258cd82e2d16681848ccb7330"
-              ],
-              "source_headlines": [
-                {
-                  "id": "06d9fc03be65cc9832a7edc5bc3f78a95f9bd6c258cd82e2d16681848ccb7330",
-                  "time": "2026-10-08T15:28:56+08:00",
-                  "central_bank": "ECB",
-                  "headline": "ECB's Wunsch: The reasoning to raise the minimum reserve requirement is not very clear or convincing"
-                }
-              ]
-            }
-          ]
+          "talks": []
         },
         {
           "official": "Yannis Stournaras",
@@ -12649,7 +12723,7 @@
           "talks": [
             {
               "date": "2026-10-08",
-              "summary_zh": "表示並未看見顯著的第二輪效應，且通膨預期良好錨定在2%左右。",
+              "summary_zh": "未見到顯著的第二輪效應，通膨預期良好錨定在2%附近。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -13370,6 +13444,43 @@
           "voter": true,
           "talks": [
             {
+              "date": "2026-10-10",
+              "summary_zh": "歐洲經濟對衝擊具備相對韌性，2.5%為中性利率上限，目前央行在利率水準上處於相當舒適的位置。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "bdb7e742f6fb8fcd586c2027a792608c25af2576077442a2a0da046cdc0597fb",
+                "fcb9165b24fbac1293afc3b7ca2e83fe83f7f0a14115f08a8072a582d836adaf",
+                "b485185089e13f44a24623e6ea7556bcc654c44f3a8e5fc87b7fb869a244ef7a"
+              ],
+              "source_headlines": [
+                {
+                  "id": "bdb7e742f6fb8fcd586c2027a792608c25af2576077442a2a0da046cdc0597fb",
+                  "time": "2026-10-10T02:21:01+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Kazaks: European economy is relatively resilient to shocks."
+                },
+                {
+                  "id": "fcb9165b24fbac1293afc3b7ca2e83fe83f7f0a14115f08a8072a582d836adaf",
+                  "time": "2026-10-10T02:21:12+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Kazaks: 2.5% is the upper limit of the ECB's neutral limit"
+                },
+                {
+                  "id": "b485185089e13f44a24623e6ea7556bcc654c44f3a8e5fc87b7fb869a244ef7a",
+                  "time": "2026-10-10T02:21:21+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Kazaks: ECB is in a fairly comfortable situation on rates."
+                }
+              ]
+            },
+            {
               "date": "2026-08-28",
               "summary_zh": "絕不能讓通膨預期與高通膨在經濟體系中扎根。",
               "topics": {
@@ -13903,7 +14014,7 @@
           "talks": [
             {
               "date": "2026-10-08",
-              "summary_zh": "表示大宗商品及經濟走強使通膨上行風險增加，支持將利率推向更具限制性水準，核心通膨企穩顯示價格壓力受控且政策傳導大致均勻。",
+              "summary_zh": "核心通膨穩定顯示整體物價受控，但能源與強勁增長使通膨風險偏向上行，持續高通膨支持政策利率轉向更具限制性領域。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -16655,21 +16766,21 @@
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 23275,
-    "candidatesTokenCount": 6836,
+    "promptTokenCount": 19320,
+    "candidatesTokenCount": 6033,
     "thoughtsTokenCount": 0,
-    "totalTokenCount": 30111,
+    "totalTokenCount": 25353,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
       "FED+BOE+ECB+BOJ+RBA": {
-        "promptTokenCount": 23275,
-        "candidatesTokenCount": 6836,
-        "totalTokenCount": 30111,
+        "promptTokenCount": 19320,
+        "candidatesTokenCount": 6033,
+        "totalTokenCount": 25353,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 23275
+            "tokenCount": 19320
           }
         ],
         "serviceTier": "standard"
@@ -16677,12 +16788,12 @@
     },
     "incremental": {
       "mode": "incremental",
-      "window_headline_count": 3080,
+      "window_headline_count": 3093,
       "regenerated_date_count": 3,
-      "regenerated_headline_count": 186,
-      "reused_headline_count": 2894,
-      "reused_talk_count": 321,
-      "regenerated_talk_count": 18
+      "regenerated_headline_count": 151,
+      "reused_headline_count": 2942,
+      "reused_talk_count": 327,
+      "regenerated_talk_count": 12
     }
   }
 }
