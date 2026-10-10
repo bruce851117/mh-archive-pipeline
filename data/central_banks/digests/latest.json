@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-10T07:40:57.708612+08:00",
+  "generated_at": "2026-10-11T07:40:57.270425+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-07-12T07:40:57.708612+08:00",
-  "period_end": "2026-10-10T07:40:57.708612+08:00",
+  "period_start": "2026-07-13T07:40:57.270425+08:00",
+  "period_end": "2026-10-11T07:40:57.270425+08:00",
   "lookback_days": 90,
   "voter_version": "2026-09-09",
   "model": "gemini-3.8-flash",
-  "input_headline_count": 3093,
+  "input_headline_count": 3094,
   "talk_count": 233,
   "central_banks": [
     {
@@ -6465,7 +6465,7 @@
           "talks": [
             {
               "date": "2026-10-09",
-              "summary_zh": "經濟強勁且就業穩定，但通膨高企需要進一步緊縮貨幣政策，未來6至9個月利率應持續上升以將通膨及時拉回目標。",
+              "summary_zh": "通膨仍高需進一步緊縮，未來6至9個月利率應上升，勞動市場穩定無虞，長期資本需求與赤字將推升利率。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -10283,7 +10283,7 @@
           "talks": [
             {
               "date": "2026-10-09",
-              "summary_zh": "物價並無擴散跡象，歐洲央行正密切關注市場動態並備有相應工具因應非預期的波動。",
+              "summary_zh": "未見物價廣泛上漲跡象，歐洲央行密切關注市場並備有工具應對異常波動。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -13445,7 +13445,7 @@
           "talks": [
             {
               "date": "2026-10-10",
-              "summary_zh": "歐洲經濟對衝擊具備相對韌性，2.5%為中性利率上限，目前央行在利率水準上處於相當舒適的位置。",
+              "summary_zh": "歐洲經濟具韌性，2.5%為中性利率上限，歐洲央行在利率決策上處於相當舒適的境地。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -16766,21 +16766,21 @@
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 19320,
-    "candidatesTokenCount": 6033,
+    "promptTokenCount": 7048,
+    "candidatesTokenCount": 1866,
     "thoughtsTokenCount": 0,
-    "totalTokenCount": 25353,
+    "totalTokenCount": 8914,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
       "FED+BOE+ECB+BOJ+RBA": {
-        "promptTokenCount": 19320,
-        "candidatesTokenCount": 6033,
-        "totalTokenCount": 25353,
+        "promptTokenCount": 7048,
+        "candidatesTokenCount": 1866,
+        "totalTokenCount": 8914,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 19320
+            "tokenCount": 7048
           }
         ],
         "serviceTier": "standard"
@@ -16788,12 +16788,12 @@
     },
     "incremental": {
       "mode": "incremental",
-      "window_headline_count": 3093,
-      "regenerated_date_count": 3,
-      "regenerated_headline_count": 151,
-      "reused_headline_count": 2942,
-      "reused_talk_count": 327,
-      "regenerated_talk_count": 12
+      "window_headline_count": 3094,
+      "regenerated_date_count": 2,
+      "regenerated_headline_count": 45,
+      "reused_headline_count": 3049,
+      "reused_talk_count": 336,
+      "regenerated_talk_count": 3
     }
   }
 }
