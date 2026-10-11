@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-11T07:40:57.270425+08:00",
+  "generated_at": "2026-10-12T07:40:58.830940+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-07-13T07:40:57.270425+08:00",
-  "period_end": "2026-10-11T07:40:57.270425+08:00",
+  "period_start": "2026-07-14T07:40:58.830940+08:00",
+  "period_end": "2026-10-12T07:40:58.830940+08:00",
   "lookback_days": 90,
   "voter_version": "2026-09-09",
   "model": "gemini-3.8-flash",
-  "input_headline_count": 3094,
-  "talk_count": 233,
+  "input_headline_count": 3092,
+  "talk_count": 232,
   "central_banks": [
     {
       "central_bank": "FED",
@@ -1023,7 +1023,7 @@
             },
             {
               "date": "2026-07-14",
-              "summary_zh": "重申無法容忍持續通膨並堅守2%目標，指出勞動市場具韌性，將審查政策與資產負債表架構。",
+              "summary_zh": "聯準會對持續性通膨零容忍並重申2%通膨目標，勞動市場具韌性，將檢視政策與資產負債表架構並提前溝通調整。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2376,36 +2376,6 @@
                   "time": "2026-09-03T21:14:52+08:00",
                   "central_bank": "FED",
                   "headline": "Fed's Waller: Inflation task force could be the most interesting."
-                }
-              ]
-            },
-            {
-              "date": "2026-07-14",
-              "summary_zh": "表示若核心通膨再次偏高可能需要近期升息，縮表取決於儲備需求，反對過度緊縮儲備並避免僵化指引。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "manual-7d29d3c781707bbb3dac",
-                "manual-7acb1d05049dbbf6f43a"
-              ],
-              "source_headlines": [
-                {
-                  "id": "manual-7d29d3c781707bbb3dac",
-                  "time": "2026-07-14T00:55:00+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Waller: Balance-sheet reduction depends on reserve demand; he opposes scarce reserves and MBS holdings, while preserving transparency and avoiding rigid forward guidance."
-                },
-                {
-                  "id": "manual-7acb1d05049dbbf6f43a",
-                  "time": "2026-07-14T01:05:00+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Waller: Another high core-inflation reading would be a signal that near-term hikes may be needed; labor is stable, inflation credibility remains intact, and he favors a 1.5%-2.5% target range but not changing it now."
                 }
               ]
             }
@@ -8522,7 +8492,7 @@
             },
             {
               "date": "2026-07-14",
-              "summary_zh": "指出波斯灣局勢為前景蒙上陰影，精煉油品價格跌幅有限，而英國經濟成長是當前關鍵議題。",
+              "summary_zh": "波灣局勢不穩使前景蒙上陰影，精煉油價跌幅不如預期，而英國經濟成長仍是關鍵議題。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -13445,7 +13415,7 @@
           "talks": [
             {
               "date": "2026-10-10",
-              "summary_zh": "歐洲經濟具韌性，2.5%為中性利率上限，歐洲央行在利率決策上處於相當舒適的境地。",
+              "summary_zh": "歐洲經濟對衝擊相對具韌性，2.5%是歐洲央行中性利率上限，目前在利率情勢上相當自在。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -16766,21 +16736,21 @@
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 7048,
-    "candidatesTokenCount": 1866,
+    "promptTokenCount": 2516,
+    "candidatesTokenCount": 543,
     "thoughtsTokenCount": 0,
-    "totalTokenCount": 8914,
+    "totalTokenCount": 3059,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
-      "FED+BOE+ECB+BOJ+RBA": {
-        "promptTokenCount": 7048,
-        "candidatesTokenCount": 1866,
-        "totalTokenCount": 8914,
+      "FED+BOE+ECB+RBA": {
+        "promptTokenCount": 2516,
+        "candidatesTokenCount": 543,
+        "totalTokenCount": 3059,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 7048
+            "tokenCount": 2516
           }
         ],
         "serviceTier": "standard"
@@ -16788,11 +16758,11 @@
     },
     "incremental": {
       "mode": "incremental",
-      "window_headline_count": 3094,
+      "window_headline_count": 3092,
       "regenerated_date_count": 2,
-      "regenerated_headline_count": 45,
-      "reused_headline_count": 3049,
-      "reused_talk_count": 336,
+      "regenerated_headline_count": 7,
+      "reused_headline_count": 3085,
+      "reused_talk_count": 335,
       "regenerated_talk_count": 3
     }
   }
