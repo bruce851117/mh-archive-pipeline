@@ -2,8 +2,8 @@
   "date": "2026-10-13",
   "timezone": "Asia/Taipei",
   "model": "gemini-3.8-flash",
-  "source_generated_at": "2026-10-13T07:40:52.714458+08:00",
-  "talk_count": 2,
+  "source_generated_at": "2026-10-14T07:40:55.639721+08:00",
+  "talk_count": 4,
   "talks": [
     {
       "central_bank": "ECB",
@@ -15,7 +15,7 @@
       "active": true,
       "voter": true,
       "date": "2026-10-13",
-      "summary_zh": "面對能源衝擊，法國經濟表現依然穩健。",
+      "summary_zh": "表示法國經濟在面臨能源衝擊時依然保持穩健。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -39,6 +39,37 @@
     {
       "central_bank": "FED",
       "central_bank_display_name": "Fed",
+      "official": "Christopher Waller",
+      "headline_name": "Waller",
+      "priority": 4,
+      "position": "Governor",
+      "active": true,
+      "voter": true,
+      "date": "2026-10-13",
+      "summary_zh": "指出人工智慧可能擴大人均GDP的差距。",
+      "topics": {
+        "economy": "",
+        "inflation": "",
+        "labor_market": "",
+        "monetary_policy": "",
+        "interest_rates": "",
+        "balance_sheet": ""
+      },
+      "source_ids": [
+        "c39262abc6b67eda8852630fe6ba95b023c5127b177f1c20bd8a0fdbc81d9faf"
+      ],
+      "source_headlines": [
+        {
+          "id": "c39262abc6b67eda8852630fe6ba95b023c5127b177f1c20bd8a0fdbc81d9faf",
+          "time": "2026-10-13T16:07:59+08:00",
+          "central_bank": "FED",
+          "headline": "Fed’s Waller: AI could contribute to widening GDP per capita."
+        }
+      ]
+    },
+    {
+      "central_bank": "FED",
+      "central_bank_display_name": "Fed",
       "official": "Beth Hammack",
       "headline_name": "Hammack",
       "priority": 9,
@@ -46,7 +77,7 @@
       "active": true,
       "voter": true,
       "date": "2026-10-13",
-      "summary_zh": "因通膨偏高且面臨預期風險，利率需進一步調升以保持緊縮，傾向採取頻繁且幅度較小的調整方式。",
+      "summary_zh": "認為通膨仍過高且中性利率走高，經濟需維持緊縮政策以使通膨達標，偏好小幅且快速地調整利率以防範通膨心態根深蒂固。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -72,7 +103,6 @@
         "a080594ecc201adfb568ef92813a4a2e80954bf682c2458767460ae59e722571",
         "56f7de45b8ce55013047f0b751d6f37f52e3eafc83ca358417136ba8481b255d",
         "392acd9c691cae92dad816cde5e41a71a64dd190f233e87fbb349428e42456f0",
-        "636ddc1e636653fb4ddb290ab8abd94e6bc3f49b8d17b83f305d878fd2a91e9c",
         "7fd38640103fe1691702358c2fd7ffdfe19109c87e5021b5217f70745175bdd1",
         "fd169a3a805a0ae338a3a56562b06efe5be62f529e93c07327cc96190bfc105d",
         "bf24b938252f40b283d47ca86a5498a5c59c4c79d21a721554182ffef6e52bc3",
@@ -186,12 +216,6 @@
           "headline": "Fed's Hammack: Do not assume anchored inflation expectations as firms plan price hikes beyond input cost rises, signaling an inflationary mindset"
         },
         {
-          "id": "636ddc1e636653fb4ddb290ab8abd94e6bc3f49b8d17b83f305d878fd2a91e9c",
-          "time": "2026-10-13T00:50:30+08:00",
-          "central_bank": "FED",
-          "headline": "Fed's Hammack: Important to clarify reaction function so businesses and households can plan effectively"
-        },
-        {
           "id": "7fd38640103fe1691702358c2fd7ffdfe19109c87e5021b5217f70745175bdd1",
           "time": "2026-10-13T01:24:01+08:00",
           "central_bank": "FED",
@@ -274,6 +298,58 @@
           "time": "2026-10-13T05:34:49+08:00",
           "central_bank": "FED",
           "headline": "Fed's Hammack: more tightening needed but open to adjusting pace of rate increases"
+        }
+      ]
+    },
+    {
+      "central_bank": "FED",
+      "central_bank_display_name": "Fed",
+      "official": "Austan Goolsbee",
+      "headline_name": "Goolsbee",
+      "priority": 12,
+      "position": "Chicago Fed President",
+      "active": true,
+      "voter": false,
+      "date": "2026-10-13",
+      "summary_zh": "指出通膨仍過高且AI熱潮推升物價，若要重返降息軌道需要看到抗通膨取得進展。",
+      "topics": {
+        "economy": "",
+        "inflation": "",
+        "labor_market": "",
+        "monetary_policy": "",
+        "interest_rates": "",
+        "balance_sheet": ""
+      },
+      "source_ids": [
+        "f41f4c78b1e99b22feed0152f0dc9c3ee5f5c1af24186a460d251d1e7358ccaa",
+        "b12b2271d3ae747f9de6e8c2822f35f146454b54659a321e70142d34ef5dfc8b",
+        "d4a9003bdf4ff2d2ca8ac4d92b51f904d092329bef987b96f5a50dbb8776391b",
+        "764683ab1d8c5bf75ac841c44514c9de0868bd1b55c334e862e4186bb7ab2256"
+      ],
+      "source_headlines": [
+        {
+          "id": "f41f4c78b1e99b22feed0152f0dc9c3ee5f5c1af24186a460d251d1e7358ccaa",
+          "time": "2026-10-13T19:03:56+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Goolsbee: AI is an inflation problem - Semafor"
+        },
+        {
+          "id": "b12b2271d3ae747f9de6e8c2822f35f146454b54659a321e70142d34ef5dfc8b",
+          "time": "2026-10-13T19:06:18+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Goolsbee: AI boom is starting to push up prices - Semafor"
+        },
+        {
+          "id": "d4a9003bdf4ff2d2ca8ac4d92b51f904d092329bef987b96f5a50dbb8776391b",
+          "time": "2026-10-13T19:07:23+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Goolsbee: We need to start showing some progress if we're going to get back on the kind of rate-cutting path that we were on - Semafor"
+        },
+        {
+          "id": "764683ab1d8c5bf75ac841c44514c9de0868bd1b55c334e862e4186bb7ab2256",
+          "time": "2026-10-13T19:13:48+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Goolsbee: Inflation still too high - Semafor"
         }
       ]
     }
