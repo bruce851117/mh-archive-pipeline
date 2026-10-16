@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-16T07:40:42.010071+08:00",
+  "generated_at": "2026-10-17T07:40:29.946496+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-07-18T07:40:42.010071+08:00",
-  "period_end": "2026-10-16T07:40:42.010071+08:00",
+  "period_start": "2026-07-19T07:40:29.946496+08:00",
+  "period_end": "2026-10-17T07:40:29.946496+08:00",
   "lookback_days": 90,
   "voter_version": "2026-09-09",
   "model": "gemini-3.8-flash",
-  "input_headline_count": 3323,
-  "talk_count": 242,
+  "input_headline_count": 3360,
+  "talk_count": 245,
   "central_banks": [
     {
       "central_bank": "FED",
@@ -22,6 +22,50 @@
           "active": true,
           "voter": true,
           "talks": [
+            {
+              "date": "2026-10-16",
+              "summary_zh": "表示今年後續幾次會議將是情勢明朗的關鍵時刻，將評估局勢，但對預測2026年剩餘會議行動持懷疑態度。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "38e0877fbe6710d8c41c029348ab2cd3f578c50c0a7a4f3b6faa7d91f4912655",
+                "af6373ea33fe667b94ebbd6d37ed70e2296143e2e833e7fb53c21577b1e368b3",
+                "bcd3f1896ef6fee5bc37625475146ac32be27c649b108bc778ca6df5c469efa6",
+                "68d741db5fdadf26d7ce8eaec53d7ab6e1af004743510ae043e5639e0bc9be9b"
+              ],
+              "source_headlines": [
+                {
+                  "id": "38e0877fbe6710d8c41c029348ab2cd3f578c50c0a7a4f3b6faa7d91f4912655",
+                  "time": "2026-10-16T11:39:28+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Warsh: we will meet a couple more times this year, marking the clarifying moment"
+                },
+                {
+                  "id": "af6373ea33fe667b94ebbd6d37ed70e2296143e2e833e7fb53c21577b1e368b3",
+                  "time": "2026-10-16T11:40:03+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Warsh: will assess situation at October and December meeting"
+                },
+                {
+                  "id": "bcd3f1896ef6fee5bc37625475146ac32be27c649b108bc778ca6df5c469efa6",
+                  "time": "2026-10-16T11:41:53+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Warsh: don’t trust saying what I might do in meetings through rest of 2026"
+                },
+                {
+                  "id": "68d741db5fdadf26d7ce8eaec53d7ab6e1af004743510ae043e5639e0bc9be9b",
+                  "time": "2026-10-16T13:10:42+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Warsh: skeptical about predicting actions in meetings for rest of 2026"
+                }
+              ]
+            },
             {
               "date": "2026-09-17",
               "summary_zh": "指出通膨過高且風險偏上行，勞動市場良好且經濟具韌性，金融條件並未具限制性，因此決議減少寬鬆以聚焦物價穩定。",
@@ -3023,7 +3067,7 @@
           "talks": [
             {
               "date": "2026-10-16",
-              "summary_zh": "指出低收入民眾受通膨所苦，並強調這類軼事資訊對經濟決策能提供重要的指引。",
+              "summary_zh": "表示基層軼事資訊能提供重要經濟指引，並聽到更多低收入美國民眾正深受通膨之苦。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4612,8 +4656,45 @@
           "voter": false,
           "talks": [
             {
+              "date": "2026-10-16",
+              "summary_zh": "指出通膨數據令人失望，若通膨源自AI引發的需求過熱則更令人擔憂且必須加以應對處置。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "00b7363f5d45e36daeb7f339588cfc5f303cbd55582416229babc31d28f8fbba",
+                "4b20f07b6854ddde45e76bba45e4a17f909b21ee5136afcc0267f1c29171bc28",
+                "35e826d4ad35de5482ed927846a27dc8ebd5c7a9ffb21bdcf5cba98f23817c4d"
+              ],
+              "source_headlines": [
+                {
+                  "id": "00b7363f5d45e36daeb7f339588cfc5f303cbd55582416229babc31d28f8fbba",
+                  "time": "2026-10-16T07:22:44+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Goolsbee: a disappointing month for inflation"
+                },
+                {
+                  "id": "4b20f07b6854ddde45e76bba45e4a17f909b21ee5136afcc0267f1c29171bc28",
+                  "time": "2026-10-16T07:23:29+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Goolsbee: still optimistic if inflation drivers fade soon"
+                },
+                {
+                  "id": "35e826d4ad35de5482ed927846a27dc8ebd5c7a9ffb21bdcf5cba98f23817c4d",
+                  "time": "2026-10-16T07:23:53+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Goolsbee: If inflation stems from demand overheating due to AI, it's more concerning and must be addressed"
+                }
+              ]
+            },
+            {
               "date": "2026-10-15",
-              "summary_zh": "認為CPI令人失望且服務業通膨與關稅影響持久，若通膨維持高位政策必須應對以防過熱，重申將通膨降至2%的承諾，並警惕AI投資過熱風險。",
+              "summary_zh": "指出CPI數據令人失望且服務業通膨堪憂，若通膨居高不下或經濟過熱，聯準會必須採取行動應對。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5536,7 +5617,7 @@
           "talks": [
             {
               "date": "2026-10-15",
-              "summary_zh": "指出CPI數據高於預期，將藉由生產者物價數據評估通膨，不對10月會議結果預設立場，並表示AI推動投資但未見大規模裁員。",
+              "summary_zh": "表示未見AI引發大規模失業，CPI高於預期，將參考PPI評估通膨，不願預測10月利率決策。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6194,7 +6275,7 @@
           "talks": [
             {
               "date": "2026-10-15",
-              "summary_zh": "表示通膨高於目標的風險仍高且核心通膨頑固，未來可能進一步升息，但勞動市場穩健使聯準會有餘裕審慎決策而無需急躁。",
+              "summary_zh": "表示通膨高於目標的風險仍高，未來可能進一步升息，但就業穩健使聯準會無緊迫性，可審慎行事。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6210,7 +6291,9 @@
                 "4b7a684f3cd9b14103e94b1656aebf25d4ab2212b08d6b1c6aba8ea7248db8a2",
                 "8a595fdc3f86a4c23959813b1f40a94ae040b7f6231350b22ef077bc47eb1531",
                 "3834d46a20f5a5c5e4b3387fcf86f2799258dbdb65dcc8c618d0ee4fc8a03f46",
-                "8c33d888cc333cc45465d0f29fd64014f168960ffaa7cbad8a97f8235fd54994"
+                "8c33d888cc333cc45465d0f29fd64014f168960ffaa7cbad8a97f8235fd54994",
+                "fdb4a3b50899d717e234e27c329e099101afe48dcd11aab35502e079589c7965",
+                "e0e886039b272fab47d94ab0e958e2eea8d6b38c09b4ba923b0ca023a75bffad"
               ],
               "source_headlines": [
                 {
@@ -6254,6 +6337,18 @@
                   "time": "2026-10-15T05:38:09+08:00",
                   "central_bank": "FED",
                   "headline": "Fed's Daly: CPI indicates gas prices boosting headline inflation, core inflation remains stubborn as anticipated"
+                },
+                {
+                  "id": "fdb4a3b50899d717e234e27c329e099101afe48dcd11aab35502e079589c7965",
+                  "time": "2026-10-15T05:38:10+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Daly: Fed has responsibility to communicate clearly, be transparent, accountable"
+                },
+                {
+                  "id": "e0e886039b272fab47d94ab0e958e2eea8d6b38c09b4ba923b0ca023a75bffad",
+                  "time": "2026-10-15T05:38:10+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Daly: markets grasp Fed's response"
                 }
               ]
             },
@@ -9899,7 +9994,7 @@
           "talks": [
             {
               "date": "2026-10-15",
-              "summary_zh": "指出經濟活動未大幅下滑且就業穩健，勞動市場放緩有望避免2022年般的薪資物價壓力，企業則致力於削減成本而非轉嫁能源衝擊。",
+              "summary_zh": "指出經濟活動未大幅下滑且就業市場持穩，勞動市場降溫有望避免如2022年的薪資物價螺旋壓力。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -10843,7 +10938,7 @@
           "talks": [
             {
               "date": "2026-10-15",
-              "summary_zh": "指出第二輪效應風險相當顯著，且長期而言貨幣政策依賴市場定價並不可行。",
+              "summary_zh": "警告第二輪效應風險相當顯著，並指出長期而言依賴市場定價並不可行。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -14160,7 +14255,7 @@
           "talks": [
             {
               "date": "2026-10-15",
-              "summary_zh": "表示經濟增長優於預期，通膨尚未擴散為利多消息，但天然氣價格存有風險，若通膨擴大央行將被迫採取應對行動。",
+              "summary_zh": "表示殖利率上升多與財政擔憂有關，目前通膨未擴散，若通膨進一步蔓延央行將被迫採取行動回應。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -14325,7 +14420,7 @@
           "talks": [
             {
               "date": "2026-10-15",
-              "summary_zh": "表示短期內通膨力量依然較強，但歐洲央行在利率決策上目前並無急迫緊縮的必要。",
+              "summary_zh": "指出短期內通膨壓力依然較強，但歐洲央行目前並無急於調整利率的需求。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -15171,6 +15266,155 @@
           "active": true,
           "voter": true,
           "talks": [
+            {
+              "date": "2026-10-16",
+              "summary_zh": "表示隨核心通膨接近2%，日銀將持續升息，並緊密監控日圓匯率、中東情勢及AI需求對物價趨勢的影響。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "becb97a234fd0f7132a9537558692746ecee63fd48be7a52f51cc064a042300e",
+                "4a49725eda3737948bb454932b6bffcc7d486d2a233afbd674de2f2a0b0b9faf",
+                "6e8ca7da5f67b0335d179541effb6c998afefb7455d1c1677f75062de8694d4c",
+                "2b61959ee075c10eacc223a54969d23738fc13cf515bce95bc5e9f5363baeb07",
+                "47807a3a0cbbf3f0ba78edfcbbaf32d4726bbb1bf0bab8d485199883988e462a",
+                "bc8c2e1c997ff06c08181e77c5514e069091d3f1fa84506741d680bdd05b8966",
+                "36523d7667eff626233c728b4ec06d80eba0484d36de0eff823eb3c801b714cd",
+                "e06f9d9c69b98cb513fe16a8cb6bef9c511ebbd6a8e1926925f8e9779d0c5a05",
+                "df1b949e47993ee8b4db1a47eca8a21a68da1eff1084a39bab2bdeaa29f6b770",
+                "7f3f5149fe8c67810e198ff537b19957aea1a98f9e535e82517c85e389defdb9",
+                "6bfc6990a20a6c6fd084029ab3037f586a76e349c9c257da1c627df5dd972cea",
+                "400ae1ea5aa19f2c152712daad5e11ed8ad90f14a4b52288ae87dbe85b17705a",
+                "9b0b4e3e8d11b81c297bc7884e4845d38eef2c810868ac5f5703b55d7e27d802",
+                "5b048505e333b46cee942e34dc52f1f7ca4c1b1d6affce41a13eceeed0cc87bd",
+                "9295aea11cb08e58ffc9a6911a6473572745b560fbc9705e842b6e3bff330af0",
+                "c8e3d8f8cfcb5384b04566ccaf0e1186f6f86c27be8b30c8a7df06fe8f260de9",
+                "99a704d7f2acd2488e1cf72abe62e441cb22c87ebd30df967fdc4ab0f808492c",
+                "98095095c520756f7d5a22f046fcb6210b00a0ead8d4d2816527a46162544df2",
+                "964ec3e956c1ae0accfde32b41d49649b4a3003f4f3cc881f3a072dd97b39cee"
+              ],
+              "source_headlines": [
+                {
+                  "id": "becb97a234fd0f7132a9537558692746ecee63fd48be7a52f51cc064a042300e",
+                  "time": "2026-10-16T14:31:40+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: To keep raising rate in response to economy, prices."
+                },
+                {
+                  "id": "4a49725eda3737948bb454932b6bffcc7d486d2a233afbd674de2f2a0b0b9faf",
+                  "time": "2026-10-16T14:31:53+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: Increasingly vital to stabilize price trend around 2%."
+                },
+                {
+                  "id": "6e8ca7da5f67b0335d179541effb6c998afefb7455d1c1677f75062de8694d4c",
+                  "time": "2026-10-16T14:32:19+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: Price trend is approaching 2%."
+                },
+                {
+                  "id": "2b61959ee075c10eacc223a54969d23738fc13cf515bce95bc5e9f5363baeb07",
+                  "time": "2026-10-16T14:34:17+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: Financial conditions are accommodative."
+                },
+                {
+                  "id": "47807a3a0cbbf3f0ba78edfcbbaf32d4726bbb1bf0bab8d485199883988e462a",
+                  "time": "2026-10-16T14:35:44+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: There is risk of underlying inflation overshooting 2% price target."
+                },
+                {
+                  "id": "bc8c2e1c997ff06c08181e77c5514e069091d3f1fa84506741d680bdd05b8966",
+                  "time": "2026-10-16T19:43:50+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: The G20 discussed impact of MidEast, AI on economy."
+                },
+                {
+                  "id": "36523d7667eff626233c728b4ec06d80eba0484d36de0eff823eb3c801b714cd",
+                  "time": "2026-10-16T19:51:44+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: I have been watching weak yen, MidEast in terms of inflation."
+                },
+                {
+                  "id": "e06f9d9c69b98cb513fe16a8cb6bef9c511ebbd6a8e1926925f8e9779d0c5a05",
+                  "time": "2026-10-16T19:53:34+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: We will monitor FX, AI, and MidEast for price trends."
+                },
+                {
+                  "id": "df1b949e47993ee8b4db1a47eca8a21a68da1eff1084a39bab2bdeaa29f6b770",
+                  "time": "2026-10-16T19:53:52+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: Stabilization of 2% inflation is increasingly important."
+                },
+                {
+                  "id": "7f3f5149fe8c67810e198ff537b19957aea1a98f9e535e82517c85e389defdb9",
+                  "time": "2026-10-16T19:54:44+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: No big gap in view between what we have assessed on inflationary pressure from AI demand, and what I heard from global policymakers."
+                },
+                {
+                  "id": "6bfc6990a20a6c6fd084029ab3037f586a76e349c9c257da1c627df5dd972cea",
+                  "time": "2026-10-16T19:55:58+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: We will continue to raise interest rates as underlying inflation approaching 2%, financial conditions are accommodative."
+                },
+                {
+                  "id": "400ae1ea5aa19f2c152712daad5e11ed8ad90f14a4b52288ae87dbe85b17705a",
+                  "time": "2026-10-16T19:56:17+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: We did not hear anything at this week's meetings that deviated from our baseline view."
+                },
+                {
+                  "id": "9b0b4e3e8d11b81c297bc7884e4845d38eef2c810868ac5f5703b55d7e27d802",
+                  "time": "2026-10-16T19:56:41+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: We will discuss at upcoming meeting whether to tweak our assessment that underlying inflation is approaching 2%."
+                },
+                {
+                  "id": "5b048505e333b46cee942e34dc52f1f7ca4c1b1d6affce41a13eceeed0cc87bd",
+                  "time": "2026-10-16T19:57:08+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: Timing, pace of future rate hikes will be decided looking at impact of FX, al demand and middle east developments on prices."
+                },
+                {
+                  "id": "9295aea11cb08e58ffc9a6911a6473572745b560fbc9705e842b6e3bff330af0",
+                  "time": "2026-10-16T20:03:18+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: We will focus on entrenching 2% inflation from now on."
+                },
+                {
+                  "id": "c8e3d8f8cfcb5384b04566ccaf0e1186f6f86c27be8b30c8a7df06fe8f260de9",
+                  "time": "2026-10-16T20:04:08+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: I want to gauge the neutral rate estimate taking into account the cumulative impact of past rate hikes on financial conditions and domestic prices."
+                },
+                {
+                  "id": "99a704d7f2acd2488e1cf72abe62e441cb22c87ebd30df967fdc4ab0f808492c",
+                  "time": "2026-10-16T20:04:18+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: We can't tolerate underlying inflation further above 2%."
+                },
+                {
+                  "id": "98095095c520756f7d5a22f046fcb6210b00a0ead8d4d2816527a46162544df2",
+                  "time": "2026-10-16T20:05:18+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: Underlying inflation quite close to 2% marks the policy shift."
+                },
+                {
+                  "id": "964ec3e956c1ae0accfde32b41d49649b4a3003f4f3cc881f3a072dd97b39cee",
+                  "time": "2026-10-16T20:05:58+08:00",
+                  "central_bank": "BOJ",
+                  "headline": "BoJ's Governor Ueda: There is no evidence that the neutral rate is around any particular level."
+                }
+              ]
+            },
             {
               "date": "2026-10-06",
               "summary_zh": "日本經濟溫和復甦且企業信心良好，通膨趨勢接近2%，將根據經濟與物價基線預測及風險持續升息。",
@@ -16302,7 +16546,7 @@
           "talks": [
             {
               "date": "2026-10-15",
-              "summary_zh": "指出中性利率高於1%，鑑於物價上行風險與寬鬆環境，央行不應對及時升息過於謹慎，並應冷靜推進資產負債表正常化。",
+              "summary_zh": "指出通膨正錨定在2%且具上行風險，日銀應及時調整政策利率而不應過度謹慎，並持續推進縮表。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -17891,21 +18135,21 @@
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 22379,
-    "candidatesTokenCount": 9793,
+    "promptTokenCount": 17732,
+    "candidatesTokenCount": 7217,
     "thoughtsTokenCount": 0,
-    "totalTokenCount": 32172,
+    "totalTokenCount": 24949,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
       "FED+BOE+ECB+BOJ+RBA": {
-        "promptTokenCount": 22379,
-        "candidatesTokenCount": 9793,
-        "totalTokenCount": 32172,
+        "promptTokenCount": 17732,
+        "candidatesTokenCount": 7217,
+        "totalTokenCount": 24949,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 22379
+            "tokenCount": 17732
           }
         ],
         "serviceTier": "standard"
@@ -17913,12 +18157,12 @@
     },
     "incremental": {
       "mode": "incremental",
-      "window_headline_count": 3323,
-      "regenerated_date_count": 3,
-      "regenerated_headline_count": 177,
-      "reused_headline_count": 3146,
-      "reused_talk_count": 342,
-      "regenerated_talk_count": 19
+      "window_headline_count": 3360,
+      "regenerated_date_count": 2,
+      "regenerated_headline_count": 136,
+      "reused_headline_count": 3224,
+      "reused_talk_count": 355,
+      "regenerated_talk_count": 12
     }
   }
 }
