@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-19",
+  "timezone": "Asia/Taipei",
+  "updated_at": "2026-10-19T07:41:05.908315+08:00",
+  "call_count": 3,
+  "totals": {
+    "input_tokens": 26140,
+    "output_tokens": 5960,
+    "thinking_tokens": 0,
+    "cached_input_tokens": 0,
+    "total_tokens": 32100,
+    "billed_output_tokens": 5960
+  },
+  "by_step": {
+    "daily_digest": {
+      "input_tokens": 8481,
+      "output_tokens": 4945,
+      "thinking_tokens": 0,
+      "cached_input_tokens": 0,
+      "total_tokens": 13426,
+      "billed_output_tokens": 4945,
+      "call_count": 1
+    },
+    "central_bank:ECB": {
+      "input_tokens": 1280,
+      "output_tokens": 288,
+      "thinking_tokens": 0,
+      "cached_input_tokens": 0,
+      "total_tokens": 1568,
+      "billed_output_tokens": 288,
+      "call_count": 1
+    },
+    "web_news": {
+      "input_tokens": 16379,
+      "output_tokens": 727,
+      "thinking_tokens": 0,
+      "cached_input_tokens": 0,
+      "total_tokens": 17106,
+      "billed_output_tokens": 727,
+      "call_count": 1
+    }
+  },
+  "calls": [
+    {
+      "step": "daily_digest",
+      "model": "gemini-3.8-flash",
+      "called_at": "2026-10-19T07:40:29.038891+08:00",
+      "github_run_id": "39177491726",
+      "input_tokens": 8481,
+      "output_tokens": 4945,
+      "thinking_tokens": 0,
+      "cached_input_tokens": 0,
+      "total_tokens": 13426,
+      "billed_output_tokens": 4945,
+      "note": "63 headlines"
+    },
+    {
+      "step": "central_bank:ECB",
+      "model": "gemini-3.8-flash",
+      "called_at": "2026-10-19T07:40:29.038891+08:00",
+      "github_run_id": "39177491726",
+      "input_tokens": 1280,
+      "output_tokens": 288,
+      "thinking_tokens": 0,
+      "cached_input_tokens": 0,
+      "total_tokens": 1568,
+      "billed_output_tokens": 288,
+      "note": "2 headlines, 1 dates"
+    },
+    {
+      "step": "web_news",
+      "model": "gemini-3.8-flash",
+      "called_at": "2026-10-19T07:41:05.908315+08:00",
+      "github_run_id": "39177491726",
+      "input_tokens": 16379,
+      "output_tokens": 727,
+      "thinking_tokens": 0,
+      "cached_input_tokens": 0,
+      "total_tokens": 17106,
+      "billed_output_tokens": 727,
+      "note": "91 events"
+    }
+  ]
+}
