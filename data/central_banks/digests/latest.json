@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-24T07:41:13.647453+08:00",
+  "generated_at": "2026-10-25T07:41:13.799641+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-07-26T07:41:13.647453+08:00",
-  "period_end": "2026-10-24T07:41:13.647453+08:00",
+  "period_start": "2026-07-27T07:41:13.799641+08:00",
+  "period_end": "2026-10-25T07:41:13.799641+08:00",
   "lookback_days": 90,
   "voter_version": "2026-09-09",
   "model": "gemini-3.8-flash",
-  "input_headline_count": 3425,
+  "input_headline_count": 3427,
   "talk_count": 244,
   "central_banks": [
     {
@@ -18077,21 +18077,21 @@
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 5844,
+    "promptTokenCount": 4293,
     "candidatesTokenCount": 10,
     "thoughtsTokenCount": 0,
-    "totalTokenCount": 5854,
+    "totalTokenCount": 4303,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
       "FED+BOE+ECB+BOJ+RBA": {
-        "promptTokenCount": 5844,
+        "promptTokenCount": 4293,
         "candidatesTokenCount": 10,
-        "totalTokenCount": 5854,
+        "totalTokenCount": 4303,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 5844
+            "tokenCount": 4293
           }
         ],
         "serviceTier": "standard"
@@ -18099,10 +18099,10 @@
     },
     "incremental": {
       "mode": "incremental",
-      "window_headline_count": 3425,
-      "regenerated_date_count": 2,
-      "regenerated_headline_count": 35,
-      "reused_headline_count": 3390,
+      "window_headline_count": 3427,
+      "regenerated_date_count": 3,
+      "regenerated_headline_count": 21,
+      "reused_headline_count": 3406,
       "reused_talk_count": 376,
       "regenerated_talk_count": 0
     }

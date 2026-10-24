@@ -1,42 +1,42 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "timezone": "Asia/Taipei",
-  "updated_at": "2026-10-24T07:42:12.139169+08:00",
+  "updated_at": "2026-10-25T07:42:05.923594+08:00",
   "call_count": 3,
   "totals": {
-    "input_tokens": 40548,
-    "output_tokens": 8810,
+    "input_tokens": 24166,
+    "output_tokens": 7889,
     "thinking_tokens": 0,
     "cached_input_tokens": 0,
-    "total_tokens": 49358,
-    "billed_output_tokens": 8810
+    "total_tokens": 32055,
+    "billed_output_tokens": 7889
   },
   "by_step": {
     "daily_digest": {
-      "input_tokens": 26950,
-      "output_tokens": 8306,
+      "input_tokens": 7132,
+      "output_tokens": 7427,
       "thinking_tokens": 0,
       "cached_input_tokens": 0,
-      "total_tokens": 35256,
-      "billed_output_tokens": 8306,
+      "total_tokens": 14559,
+      "billed_output_tokens": 7427,
       "call_count": 1
     },
     "central_bank:FED+BOE+ECB+BOJ+RBA": {
-      "input_tokens": 5844,
+      "input_tokens": 4293,
       "output_tokens": 10,
       "thinking_tokens": 0,
       "cached_input_tokens": 0,
-      "total_tokens": 5854,
+      "total_tokens": 4303,
       "billed_output_tokens": 10,
       "call_count": 1
     },
     "web_news": {
-      "input_tokens": 7754,
-      "output_tokens": 494,
+      "input_tokens": 12741,
+      "output_tokens": 452,
       "thinking_tokens": 0,
       "cached_input_tokens": 0,
-      "total_tokens": 8248,
-      "billed_output_tokens": 494,
+      "total_tokens": 13193,
+      "billed_output_tokens": 452,
       "call_count": 1
     }
   },
@@ -44,41 +44,41 @@
     {
       "step": "daily_digest",
       "model": "gemini-3.8-flash",
-      "called_at": "2026-10-24T07:41:13.647453+08:00",
-      "github_run_id": "40041030025",
-      "input_tokens": 26950,
-      "output_tokens": 8306,
+      "called_at": "2026-10-25T07:41:13.799641+08:00",
+      "github_run_id": "40143729761",
+      "input_tokens": 7132,
+      "output_tokens": 7427,
       "thinking_tokens": 0,
       "cached_input_tokens": 0,
-      "total_tokens": 35256,
-      "billed_output_tokens": 8306,
-      "note": "225 headlines"
+      "total_tokens": 14559,
+      "billed_output_tokens": 7427,
+      "note": "51 headlines"
     },
     {
       "step": "central_bank:FED+BOE+ECB+BOJ+RBA",
       "model": "gemini-3.8-flash",
-      "called_at": "2026-10-24T07:41:13.647453+08:00",
-      "github_run_id": "40041030025",
-      "input_tokens": 5844,
+      "called_at": "2026-10-25T07:41:13.799641+08:00",
+      "github_run_id": "40143729761",
+      "input_tokens": 4293,
       "output_tokens": 10,
       "thinking_tokens": 0,
       "cached_input_tokens": 0,
-      "total_tokens": 5854,
+      "total_tokens": 4303,
       "billed_output_tokens": 10,
-      "note": "35 headlines, 2 dates"
+      "note": "21 headlines, 3 dates"
     },
     {
       "step": "web_news",
       "model": "gemini-3.8-flash",
-      "called_at": "2026-10-24T07:42:12.139169+08:00",
-      "github_run_id": "40041030025",
-      "input_tokens": 7754,
-      "output_tokens": 494,
+      "called_at": "2026-10-25T07:42:05.923594+08:00",
+      "github_run_id": "40143729761",
+      "input_tokens": 12741,
+      "output_tokens": 452,
       "thinking_tokens": 0,
       "cached_input_tokens": 0,
-      "total_tokens": 8248,
-      "billed_output_tokens": 494,
-      "note": "41 events"
+      "total_tokens": 13193,
+      "billed_output_tokens": 452,
+      "note": "72 events"
     }
   ]
 }
