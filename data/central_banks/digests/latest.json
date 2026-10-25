@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-25T07:41:13.799641+08:00",
+  "generated_at": "2026-10-26T07:41:28.838064+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-07-27T07:41:13.799641+08:00",
-  "period_end": "2026-10-25T07:41:13.799641+08:00",
+  "period_start": "2026-07-28T07:41:28.838064+08:00",
+  "period_end": "2026-10-26T07:41:28.838064+08:00",
   "lookback_days": 90,
   "voter_version": "2026-09-09",
   "model": "gemini-3.8-flash",
-  "input_headline_count": 3427,
-  "talk_count": 244,
+  "input_headline_count": 3422,
+  "talk_count": 243,
   "central_banks": [
     {
       "central_bank": "FED",
@@ -13606,36 +13606,6 @@
                   "headline": "ECB's Kazimir: Increasingly concerned about gas and power prices."
                 }
               ]
-            },
-            {
-              "date": "2026-07-27",
-              "summary_zh": "若前景惡化將需要比目前預期更多的緊縮，逆轉第二輪效應代價高昂，央行必須在顯現前行動。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "ac56fca225a1c915b2c5431f193375d2369b4f2bf570ad770e32069068bf341a",
-                "9b669f5de18bcc04fe85b399af4a650423a02f244ad7d76307e16141c57dd523"
-              ],
-              "source_headlines": [
-                {
-                  "id": "ac56fca225a1c915b2c5431f193375d2369b4f2bf570ad770e32069068bf341a",
-                  "time": "2026-07-27T16:30:04+08:00",
-                  "central_bank": "ECB",
-                  "headline": "ECB's Kazimir: Deterioration of outlook would warrant more tightening than now expected"
-                },
-                {
-                  "id": "9b669f5de18bcc04fe85b399af4a650423a02f244ad7d76307e16141c57dd523",
-                  "time": "2026-07-27T16:30:41+08:00",
-                  "central_bank": "ECB",
-                  "headline": "ECB's Kazimir: Second-round effects are costly to reverse; ECB must act before they are visible"
-                }
-              ]
             }
           ]
         },
@@ -17323,7 +17293,7 @@
             },
             {
               "date": "2026-07-28",
-              "summary_zh": "表示如有必要準備進一步升息，需求與就業需進一步放緩以壓低過高的核心通膨，房市冷卻幅度超出預期。",
+              "summary_zh": "表示若通膨未能放緩，董事會準備進一步升息並面臨艱難抉擇，因核心通膨依然過高，需求增長與勞動市場可能需進一步放緩，而經濟正逐步調整且房市降溫幅度超出預期，升息的全部影響仍有待顯現。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -18077,21 +18047,21 @@
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 4293,
-    "candidatesTokenCount": 10,
+    "promptTokenCount": 6323,
+    "candidatesTokenCount": 1249,
     "thoughtsTokenCount": 0,
-    "totalTokenCount": 4303,
+    "totalTokenCount": 7572,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
       "FED+BOE+ECB+BOJ+RBA": {
-        "promptTokenCount": 4293,
-        "candidatesTokenCount": 10,
-        "totalTokenCount": 4303,
+        "promptTokenCount": 6323,
+        "candidatesTokenCount": 1249,
+        "totalTokenCount": 7572,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 4293
+            "tokenCount": 6323
           }
         ],
         "serviceTier": "standard"
@@ -18099,12 +18069,12 @@
     },
     "incremental": {
       "mode": "incremental",
-      "window_headline_count": 3427,
+      "window_headline_count": 3422,
       "regenerated_date_count": 3,
-      "regenerated_headline_count": 21,
-      "reused_headline_count": 3406,
-      "reused_talk_count": 376,
-      "regenerated_talk_count": 0
+      "regenerated_headline_count": 39,
+      "reused_headline_count": 3383,
+      "reused_talk_count": 375,
+      "regenerated_talk_count": 1
     }
   }
 }
