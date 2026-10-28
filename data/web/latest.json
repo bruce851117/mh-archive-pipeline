@@ -1,153 +1,81 @@
 {
-  "generated_at": "2026-10-28T07:42:01.706592+08:00",
-  "summary_generated_at": "2026-10-28T07:42:01.706592+08:00",
-  "data_updated_at": "2026-10-28T06:50:36.906162+08:00",
+  "generated_at": "2026-10-29T07:42:25.998215+08:00",
+  "summary_generated_at": "2026-10-29T07:42:25.998215+08:00",
+  "data_updated_at": "2026-10-29T06:50:36.772243+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-10-27T05:00:00+08:00",
-  "period_end": "2026-10-28T06:50:36.906162+08:00",
+  "period_start": "2026-10-28T05:00:00+08:00",
+  "period_end": "2026-10-29T06:50:36.772243+08:00",
   "model": "gemini-3.8-flash",
   "source_digest_files": [
-    "data/digests/2026/10/2026-10-26.json",
     "data/digests/2026/10/2026-10-27.json",
-    "data/digests/2026/10/2026-10-28.json"
+    "data/digests/2026/10/2026-10-28.json",
+    "data/digests/2026/10/2026-10-29.json"
   ],
   "event_count": 37,
   "summary_points": [
-    "美軍中央司令部強調掌控荷姆茲海峽且絕非由伊朗主導，但隨後發生油輪觸雷起火、胡塞武裝襲擊沙烏地煉油廠與機場，航運風險使中東地緣局勢持續緊繃。",
-    "美國10月CB消費者信心指數大幅升至91.7遠超預期，9月耐久財訂單亦月增1.8%，顯示景氣與終端需求維持韌性，但一年期通膨預期仍達5.8%使高利率預期延續。",
-    "美國財政部標售700億美元5年期公債，得標殖利率降至4.845%且認購倍數升至2.33倍，顯示在公債供應放量下市場承接意願依舊穩健。",
-    "Meta完成250億美元增資案並獲輝達30億美元與超微10億美元投資，超額認購達5倍；同時輝達深化與Meta次世代架構合作，甲骨文亦結盟OpenAI與導入Google TPU，凸顯AI生態系資本與硬體整合加速。",
-    "日本財務大臣片山皋月示警已準備對外匯市場採取果斷措施干預，強調日圓應反映基本面；台灣央行則維持緊縮基調，並預估明年經濟成長率受科技需求帶動可達5.82%。",
-    "英國財政部擬推動天然氣費用補貼方案，計劃為家戶帳單減免50英鎊，以因應能源通膨高漲與生活成本壓力。",
-    "以色列國會大選出口民調顯示納坦雅胡陣營未獲過半席次，組閣陷入膠著，恐重塑未來戰時內閣路線；伊朗最高領袖哈米尼則呼籲在設定條件下尋求終結戰爭。",
-    "南韓第三季GDP初值年增3.4%優於預期，帶動央行官員釋出調升全年經濟成長預測訊號，主要由高頻寬記憶體（HBM）等半導體出口強力支撐。"
+    "聯準會（Fed）以10比2決議將基準利率維持在3.75%-4.00%區間，兩位官員支持升息1碼；主席沃許表示抗通膨政策見效，並正規劃自2027年起縮減FOMC政策會議頻率。",
+    "加拿大央行（BoC）因應油價上漲帶來的成本推升壓力，決議升息1碼至2.5%，以防範能源價格引發更廣泛的通膨外溢效應。",
+    "美軍中央司令部宣布已全數清除荷姆茲海峽水雷並恢復商船通航，暫時緩解全球原油供應中斷恐慌，但五角大廈估計美伊作戰成本已突破470億美元，持續加劇財政負擔。",
+    "中東地緣政治持續在外交與衝突間拉鋸，美國副總統范斯致信伊朗尋求接觸，伊朗外長亦表態願評估執行7日計畫，但世界銀行警告若衝突升級，恐推升2026年全球能源價格飆漲32%。",
+    "英國財相公布秋季預算案，宣布調升3%銀行附加稅並擴大能源補貼以因應中東衝突；預算責任辦公室（OBR）則將2026/27年度赤字率上調至GDP的4.2%，債管局亦同步推升公債發行規模至2,506億英鎊。",
+    "全球政府與企業借貸需求維持高檔，推升年度全球債券發行總額突破6.61兆美元創歷史新高；美財長貝森特指出公債殖利率堅挺已實質分擔政策緊縮效果。",
+    "大型科技股財報與資本支出持續擴張，微軟預估全年資本支出上看1,700億美元以加速雲端與AI建設，Meta亦透過4,000萬股遠期合約籌資應對AI投資需求。",
+    "Alphabet公布年化營收突破5,000億美元並發表Gemini 4 Carbon模型，但受SpaceX股權公允價值變動認列82億美元虧損影響，自由現金流顯著承壓。"
   ],
   "blocks": [
     {
       "category": "債市",
       "news": [
         {
-          "source_id": "6d02315779de3d89b95caddda7f30b80bfd2d30d2afdf5bf487a153a4d09b59b",
-          "category": "債市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "德國2年期公債得標殖利率為3.08%，超額認購倍數1.3倍",
-          "summary_zh": "德國發售2年期公債（Schatz），得標殖利率為3.08%，較前次3.1%微幅回落，投標倍數自1.1倍上升至1.3倍，顯示歐元區短天期主權債需求平穩。",
-          "event_time": "2026-10-27T18:31:04+08:00"
-        },
-        {
-          "source_id": "9c34f0bcabc336e483d71c549c697d2e24f1523773cc3db5208d35b7471907fc",
-          "category": "債市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美國財政部完成52週國庫券拍賣，得標殖利率4.29%",
-          "summary_zh": "美國財政部發行52週國庫券，最高得標殖利率達4.29%，低於前次的4.400%，認購倍數由3.07倍提升至3.15倍，反映短端資金對美債資產需求穩固。",
-          "event_time": "2026-10-27T23:31:45+08:00"
-        },
-        {
-          "source_id": "d0ca154e02b83920f27df008b96ab6db8dbcfde5abe1f690510927b60912f75b",
+          "source_id": "7b8d216aadfe1298873e2ccc4bf0f9f54061d6c9e6f93a3da8bebf5aa3a1a265",
           "category": "債市",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "美國700億美元5年期公債得標殖利率4.845%，需求略有提升",
-          "summary_zh": "美國財政部標售700億美元5年期國債，最高得標殖利率為4.845%，低於前次的5.033%，認購倍數自2.21倍升至2.33倍，在供給放量下市場承接意願尚可。",
-          "event_time": "2026-10-28T01:02:11+08:00"
+          "headline_zh": "德國發售10年期公債：得標殖利率3.37%，認購倍數1.1倍",
+          "summary_zh": "德國10年期公債得標殖利率為3.37%，前期為3.58%，投標倍數微降至1.1倍，反映歐債需求穩健但偏謹慎。",
+          "event_time": "2026-10-28T18:31:48+08:00"
         },
         {
-          "source_id": "fa4e8daa44972dd262036e99bb9fd18f9e713f62bf8bc49237fec128a78aa66d",
+          "source_id": "3cebf9923959252abd9d50edfc8fe062a61838102ef19574c0c532d3f3ff15e1",
           "category": "債市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美國財政部執行60億美元公債買回操作，達預定上限",
-          "summary_zh": "美財政部公債買回操作共收到107.46億美元報價，最終接受上限60億美元，標的為2046至2056年間到期公債，藉此改善長天期流動性。",
-          "event_time": "2026-10-28T02:02:26+08:00"
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "英國債務管理局（DMO）公布2026/27年公債總發行目標為2,506億英鎊",
+          "summary_zh": "英國DMO公布發債計畫，略高於市場預期的2,496億英鎊，其中包含透過聯合承銷與拍賣發行長天期及指數連動公債，加劇英國債市供給壓力。",
+          "event_time": "2026-10-28T21:30:17+08:00"
+        },
+        {
+          "source_id": "9262811cbe271c851638548cecb60af1cddf1ee8cd1471beefe7666054ed9794",
+          "category": "債市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "英國OBR估計英格蘭銀行量化緊縮（QT）損失將較3月預測增加57億英鎊",
+          "summary_zh": "英國預算責任辦公室（OBR）指出央行縮表造成的財政負擔擴大，直接侵蝕政府財政餘裕空間。",
+          "event_time": "2026-10-28T21:53:28+08:00"
+        },
+        {
+          "source_id": "50f8e37e228c950c31b5f39fc9d34988ef4c51b89a0290043d5eb69a87e48047",
+          "category": "債市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美國財長貝森特（Bessent）：殖利率與油價高度相關，公債市場已分擔政策緊縮效果",
+          "summary_zh": "貝森特強調10年期公債殖利率自2024年9月以來走勢堅挺，債市緊縮效果明顯，且AI借款信用利差擴大並無大礙。",
+          "event_time": "2026-10-29T04:13:30+08:00"
+        },
+        {
+          "source_id": "59cfa843a17af4f9d5a072b50029e8397655a5a76d8125af9de2cb7b3326e54d",
+          "category": "債市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "全球債券發行規模創下年度歷史新高達6.61兆美元",
+          "summary_zh": "全球政府與企業借貸需求維持歷史高檔，融資成本高企推動發行總量攀至歷史紀錄。",
+          "event_time": "2026-10-29T04:17:06+08:00"
         }
       ]
     },
     {
       "category": "股市",
       "news": [
-        {
-          "source_id": "70ccbb5838e845705205514e960b9c9f8365a9f5217ac430292d0b18f066058d",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "Meta定價250億美元增資案，獲得輝達與超微投資",
-          "summary_zh": "Meta完成250億美元Class A普通股定價，每股625美元，並發行特別股預託股份；輝達（Nvidia）承諾投資30億美元，超微（AMD）投資10億美元，認購超額達5倍，凸顯AI算力生態圈緊密捆綁。",
-          "event_time": "2026-10-27T13:24:12+08:00"
-        },
-        {
-          "source_id": "6c5304bfbcad338d919ccf091d91195fa95ad6cb797f0f5fdd115f5c7a65261d",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "輝達與Meta深化AI技術合作，擴大採用次世代架構",
-          "summary_zh": "輝達與Meta宣布擴大在Muse模型架構合作，Meta將進一步導入Nvidia Vera Rubin與Vera CPU等新一代硬體平台，加速大規模AI模型推論與訓練部署。",
-          "event_time": "2026-10-27T13:52:19+08:00"
-        },
-        {
-          "source_id": "8cb020a3c34d66a8493e707cd386165d3b68b260e476737edddd6c3407048f65",
-          "category": "股市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "通用汽車計劃將股票上市交易所從紐交所轉移至那斯達克",
-          "summary_zh": "通用汽車（GM）宣布將上市地由紐約證券交易所（NYSE）轉移至那斯達克（Nasdaq），此舉被視為向科技導向定位轉型。",
-          "event_time": "2026-10-27T18:31:17+08:00"
-        },
-        {
-          "source_id": "0f9edea2d9d97b77bef780e4e9fa65d2c693b499945b303e83714cc308d79b2b",
-          "category": "股市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "蘋果推出搭載M6晶片之新一代MacBook Pro與iMac",
-          "summary_zh": "蘋果（Apple）正式發布搭載最新自研M6晶片的14吋MacBook Pro及iMac，強化終端裝置AI運算能力，售價自1,499美元起。",
-          "event_time": "2026-10-27T21:04:31+08:00"
-        },
-        {
-          "source_id": "5b7eafdb8046a27aed39c69dfc5b2df61dec5719feb0687d4d7254a718a35a63",
-          "category": "股市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美國政府向Constellation Energy提供50億美元核能融資",
-          "summary_zh": "美國政府擬向Constellation Energy提供50億美元資金以支援核反應爐建設，能源部長指出將增加1.1 GW電力供應，以滿足資料中心龐大電力缺口。",
-          "event_time": "2026-10-27T23:32:15+08:00"
-        },
-        {
-          "source_id": "554a2b56fe3a49a9dae20fc763573374527b6fd078a544ac49a66df3c6346b36",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "甲骨文擴大與OpenAI及Google合作，雲端基礎設施納入TPU",
-          "summary_zh": "甲骨文（Oracle）宣布擴大與OpenAI合作以支援ChatGPT應用，同時在雲端基礎架構（OCI）中引進Google TPU，並強化與輝達、Intel及Cerebras的聯盟。",
-          "event_time": "2026-10-28T00:02:29+08:00"
-        },
-        {
-          "source_id": "a1a26a4ad753ba28b3e34ca6f9e2940fb335d1280dcbcf9560c3f84c0382b5a4",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "Google推出Genie 4世界模型，具備原生音訊功能",
-          "summary_zh": "Google升級其AI世界模型並發表具原生音訊生成能力的Genie 4，可能對電玩開發與生成式娛樂軟體產業造成技術顛覆。",
-          "event_time": "2026-10-28T01:40:40+08:00"
-        },
-        {
-          "source_id": "407e1b6eef8c320c1d3c0f05964d2e1e6b146373631935471aac20fa886386f1",
-          "category": "股市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "AI推升成本壓力，HP與華碩評估將部分PC產能移回中國",
-          "summary_zh": "日經報導指出，由於AI硬體升級帶來成本飆升，惠普（HP）與華碩（Asus）已將部分個人電腦組裝線移回中國以控管成本，戴爾（Dell）亦在評估中。",
-          "event_time": "2026-10-28T03:09:49+08:00"
-        },
-        {
-          "source_id": "c184ce7e6d1661d57839d55b4fc4586c1cd1b8f5ec287b2625cd222922ead033",
-          "category": "股市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "洛克希德馬丁獲得美國空軍6.94億美元空射極音速飛彈合約",
-          "summary_zh": "洛克希德馬丁（Lockheed Martin）贏得美國空軍價值6.94億美元訂單，負責生產空射極音速飛彈，反映國防軍工採購熱度不減。",
-          "event_time": "2026-10-28T03:36:52+08:00"
-        },
         {
           "source_id": "981218f4eb92764dc5c09d423cb6c2d6e4f2cce7ef2fb09dd34da4c438177564",
           "category": "股市",
@@ -156,39 +84,75 @@
           "headline_zh": "Anthropic擴大美國聯邦總務署合作，提供政府40%折扣",
           "summary_zh": "AI新創Anthropic深化與美國聯邦總務署（GSA）合作，旗下Claude企業模型正尋求FedRAMP中級認證，並對各級政府機構提供40%折扣優惠。",
           "event_time": "2026-10-28T06:23:37+08:00"
+        },
+        {
+          "source_id": "e89e56c4775bb00beb899af7d4c5404427efc2520d6349b53f2b015573e30b21",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "OpenAI傳計畫採購Google客製化AI晶片",
+          "summary_zh": "The Information報導OpenAI擬向Google採購AI晶片，顯示大型語言模型開發者晶片供應鏈出現結構性轉移與多元化布局。",
+          "event_time": "2026-10-28T08:01:32+08:00"
+        },
+        {
+          "source_id": "67ba9bb60e3699e98e04a83ae4a08e99b3cbfeae6d2621aa09a9654c41ed6354",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "Anthropic選定摩根大通負責美國散戶IPO發行並傳規劃英國上市",
+          "summary_zh": "AI指標獨角獸Anthropic推進公開上市進程，並計劃透過RetailBook在英國展開零售股票配售。",
+          "event_time": "2026-10-28T08:38:28+08:00"
+        },
+        {
+          "source_id": "fa49f2a6a7d8abcc82dad9497f2986df87f3477430c7c81b72f5b3564a962637",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "輝達（Nvidia）推Nemotron 3.5語音轉錄模型與RTX Spark筆電陣容",
+          "summary_zh": "Nvidia擴大AI軟硬體生態系統，華碩、戴爾、微軟等PC品牌全面鋪貨終端AI筆電。",
+          "event_time": "2026-10-28T23:08:31+08:00"
+        },
+        {
+          "source_id": "2759548ee6642bf33ec0f8f6bb24ba258b6c8e39e259772b631287e3f404e4b3",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "蘋果（Apple）推出搭載M5 Pro與M5 Max晶片的觸控螢幕MacBook Pro",
+          "summary_zh": "蘋果更新旗艦筆電產品線，首度引入觸控螢幕並搭載全新M5架構晶片，起售價2,899美元起。",
+          "event_time": "2026-10-29T01:03:02+08:00"
+        },
+        {
+          "source_id": "32baa8b9f889ac058db8aa05dc73e0e277c9eb2de35c21079c41e02a25186430",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "Google母公司Alphabet公布Q3財報，執行長宣布年化營收突破5,000億美元",
+          "summary_zh": "Alphabet發表Gemini 4 Carbon前沿模型，搜尋量創5年來最快年增幅，惟因SpaceX股權公允價值變動認列82億美元虧損，TTM自由現金流年減73%。",
+          "event_time": "2026-10-29T04:34:42+08:00"
+        },
+        {
+          "source_id": "4800dded596f03abd98d9fa0f330566fd74dc119b092743b16222e00bbc76eac",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "Meta擬辦理4,000萬股普通股遠期銷售合約進行股權融資",
+          "summary_zh": "Meta向SEC提交申報，透過摩根士丹利與高盛進行4,000萬股遠期銷售，籌措後續AI龐大資本支出。",
+          "event_time": "2026-10-29T05:26:26+08:00"
+        },
+        {
+          "source_id": "450d32df7ffd4bf6cdb3983321d8f8715572cfdf27331c0e777e94832b2204d0",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "微軟（Microsoft）預估全年資本支出達1,700億美元，雲端與AI擴張持續",
+          "summary_zh": "微軟CFO指出Q1部分第三方產能交付遞延至下半年，全年資本支出上看1,700億美元，預期Azure固定匯率增長49%至50%。",
+          "event_time": "2026-10-29T06:02:14+08:00"
         }
       ]
     },
     {
       "category": "央行",
       "news": [
-        {
-          "source_id": "ff3e2e7a5868ff9e289372e80012004eddb6eb49b86b379b2d2db2a5274d8797",
-          "category": "央行",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "韓國央行官員：第三季GDP帶動全年經濟成長預測上調0.35個百分點",
-          "summary_zh": "韓國央行官員指出，第3季GDP超預期增長將使今年經濟增速展望調升0.35個百分點，預期高頻寬記憶體（HBM）帶動半導體產量在明年持續擴張。",
-          "event_time": "2026-10-27T08:17:03+08:00"
-        },
-        {
-          "source_id": "93739ccbe88137890b624a23fa3d15f9515790dec2936e50c344c4e382cb97ab",
-          "category": "央行",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "台灣央行維持貨幣緊縮立場，預測明年GDP成長5.82%",
-          "summary_zh": "台灣央行表示當前貨幣政策仍屬緊縮基調，受新興科技需求強勁支撐出口與民間投資，預期明年經濟成長率可達5.82%，地緣政治與氣候為通膨主要變數。",
-          "event_time": "2026-10-27T12:05:56+08:00"
-        },
-        {
-          "source_id": "f982cd13c554d4db2013ee3668c2aa48a7c243966d64e4e2e2bb7eefeb6a4ed9",
-          "category": "央行",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "日本財務大臣片山皋月示警：已準備對外匯市場採取果斷行動",
-          "summary_zh": "日本財務大臣片山皋月（Satsuki Katayama）表示，政府正以高度緊迫感監控匯率走勢，已準備在外匯市場採取果斷措施干預，強調日圓匯率應反映基本面。",
-          "event_time": "2026-10-27T12:39:17+08:00"
-        },
         {
           "source_id": "36650010c9b58239c11ab18da1da164245bdf085b74eff8df92e5e810fa3c125",
           "category": "央行",
@@ -197,39 +161,66 @@
           "headline_zh": "智利央行重申利率逐次會議評估，警告經濟疲軟恐延長",
           "summary_zh": "智利央行宣布後續利率路徑將逐次會議評估，指出經濟動能可能需至2027年回溫，並將密切關注外生衝擊對通膨黏性的影響。",
           "event_time": "2026-10-28T05:00:40+08:00"
+        },
+        {
+          "source_id": "48e891d80b3b0eed68da4c5bf30d7dc694593ded7c341a4103a71f16b1d7997c",
+          "category": "央行",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "澳洲央行（RBA）總裁布拉克（Bullock）：通膨仍有上行風險，降溫進程緩慢",
+          "summary_zh": "布拉克表示目前緊縮力度是否足夠仍有待觀察，中東衝突導致油價再次上漲將顯著推升通膨，短期內通膨預期依舊居高不下。",
+          "event_time": "2026-10-28T08:19:17+08:00"
+        },
+        {
+          "source_id": "b8b21d70ecea292ab78d45bf58b446266253f134d548a74fdc8d32d8babffac2",
+          "category": "央行",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "紐西蘭央行（RBNZ）以4比3決議維持官方現金利率於2.75%不變，警告未來恐需再升息",
+          "summary_zh": "紐西蘭央行意外暫停升息，但會議紀錄指出貨幣政策可能需要進一步收緊至限制性水準，紐元貶值與燃油價格上漲恐加劇輸入性通膨。",
+          "event_time": "2026-10-28T09:00:52+08:00"
+        },
+        {
+          "source_id": "868a75fdd0ef55cffb8b58d9d15b67831970202da190a099fd54c22cce6f06e1",
+          "category": "央行",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "台灣央行總裁楊金龍：台幣貶值主因外資獲利了結，明年通膨若大漲不排除升息",
+          "summary_zh": "楊金龍指出外匯存底有80%配置於美債，目前通膨高於2%，若明年CPI顯著攀升將採取升息措施維護物價穩定。",
+          "event_time": "2026-10-28T11:48:17+08:00"
+        },
+        {
+          "source_id": "a093e2b0d2cc0615e7c3eee77712dd57e35a6b66eaad9205dab8056ad5c29e42",
+          "category": "央行",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "加拿大央行（BoC）升息1碼至2.5%，防範能源價格推升廣泛通膨",
+          "summary_zh": "加拿大央行將政策利率調高至2.5%，總裁麥克勒姆（Macklem）強調油價居高不下正形成成本壓力，升息旨在阻斷通膨蔓延，未來決策將逐次會議評估。",
+          "event_time": "2026-10-28T21:45:00+08:00"
+        },
+        {
+          "source_id": "db7fafbbd3541cd2c98e17e30436092fd9dea9b2bf61f421b6329f4b4a0eb088",
+          "category": "央行",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "聯準會（Fed）按兵不動維持利率於4.0%，兩位官員投下升息異議票",
+          "summary_zh": "Fed以10比2投票決定將聯邦基金利率目標區間維持在3.75%-4.00%，庫克（Cook）與哈馬克（Hammack）支持升息1碼。聲明重申經濟成長強勁但通膨依然居高不下。",
+          "event_time": "2026-10-29T02:00:16+08:00"
+        },
+        {
+          "source_id": "61ff05f0a9a7918ed6c56fabc45ca298b3b4068c1cc9944d20f5b84bd174cce6",
+          "category": "央行",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "聯準會主席沃許（Warsh）：抗通膨政策正在發揮成效，2027年起擬縮減政策會議頻率",
+          "summary_zh": "沃許在記者會指出信用條件緊縮符合預期，價格穩定目標仍為2%；此外自明年秋季起將調整FOMC排程，2028年預計僅設6次利率決策會議，騰出時間聚焦長期戰略評估。",
+          "event_time": "2026-10-29T02:36:39+08:00"
         }
       ]
     },
     {
       "category": "財政政策",
       "news": [
-        {
-          "source_id": "b4193c6dd07f9ac90d9b1ad59335b281d4f366857127092cf4496282fa64eab7",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "義大利財政部預計週三上午召開內閣會議討論2027年度預算案",
-          "summary_zh": "義大利經濟財政部長表示，內閣預計於週三上午召開會議審議2027年財政預算法案，市場關注其財政赤字縮減承諾與歐盟規範符合程度。",
-          "event_time": "2026-10-27T17:21:08+08:00"
-        },
-        {
-          "source_id": "8976f90e476c9fcf063ad6d7d62b39fd1271a852acdf496b7148819f5b08052a",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "歐盟研擬運用全球最低稅負制稅收以擴大下期歐盟預算",
-          "summary_zh": "據Politico報導，歐盟執委會正評估利用跨國企業全球稅收協議所帶來的財源，以填補並擴充未來幾年歐盟的共同財政預算支出需求。",
-          "event_time": "2026-10-28T02:01:40+08:00"
-        },
-        {
-          "source_id": "aac63dd270924f845fd45957090453974cf7303d07bc25c78d572352cc9668b6",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "英國財政大臣Healey擬推減稅補貼，削減家戶瓦斯費用50英鎊",
-          "summary_zh": "英國財政大臣Healey正籌備財政方案，計劃為每個家庭的天然氣帳單補貼或減免50英鎊，以因應能源通膨高漲與生活成本壓力。",
-          "event_time": "2026-10-28T04:45:37+08:00"
-        },
         {
           "source_id": "2bf55135b8c11f476a0e3008704c1af1e1aebbee263c26c2a171fdb9860de82d",
           "category": "財政政策",
@@ -238,6 +229,51 @@
           "headline_zh": "英國財政部計畫撤回現金ISA免稅上限縮減提案",
           "summary_zh": "英國金融時報指出，英國財相Healey預計將恢復並取消先前擬對現金個人儲蓄帳戶（Cash ISA）免稅額度進行的縮減，藉此保護散戶儲蓄與投資誘因。",
           "event_time": "2026-10-28T06:41:35+08:00"
+        },
+        {
+          "source_id": "5924758da74672dc1fefc070daf005024d499c80d11a324e49207c01701d8a2c",
+          "category": "財政政策",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "英國財相希利（Healey）發表預算案：加課3%銀行附加稅，動用財政餘裕吸收伊朗戰爭衝擊",
+          "summary_zh": "英國政府公布秋季預算案，堅持財政紀律並承諾不提高受薪階級稅負，但對銀行附加稅調升3%，並動用財政餘裕以應對中東衝突引發的能源成本飆升。",
+          "event_time": "2026-10-28T20:38:30+08:00"
+        },
+        {
+          "source_id": "b131b37d9c1141b612f540a11e7cb7e24be413039f64323d6b6f008d0ceb83c9",
+          "category": "財政政策",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "英國OBR預測2026/27年度預算赤字達GDP之4.2%，下調財政規則合規機率",
+          "summary_zh": "英國預算責任辦公室將當年度政府借款比例由3.6%大幅上修至4.2%（達1,332億英鎊），達成財政目標之機率由59%降至56%，債務利息支出今年激增140億英鎊。",
+          "event_time": "2026-10-28T20:39:48+08:00"
+        },
+        {
+          "source_id": "fba5ad9cff450bf193ab46646c2ea17913c386044c15784aea5ed410e320ab7a",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "英國擴大民生能源補貼與基礎建設支出，提撥204億英鎊予國家財富基金",
+          "summary_zh": "希利宣布為2,000萬戶家庭提供每戶100英鎊能源補貼、調高法定生活工資3.9%，並全力注資國防投資計畫以滿足北約軍費承諾。",
+          "event_time": "2026-10-28T21:01:25+08:00"
+        },
+        {
+          "source_id": "0c18ee48b3fa2cbb7d8e44551bc02e7099d7b7ff2b5cad2e11e65cd9ff97472b",
+          "category": "財政政策",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "義大利總理梅洛尼（Meloni）宣布2027年預算案包含260億歐元減稅與擴大支出",
+          "summary_zh": "義大利推出總值260億歐元的財政刺激方案，持續在經濟成長與歐盟財政赤字約束間尋求平衡。",
+          "event_time": "2026-10-29T00:08:07+08:00"
+        },
+        {
+          "source_id": "a23447b5ad16847ab92c34f673594ea189e8c0493e3d0964529a389def5c1bb7",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "惠譽（Fitch）：無論美國期中選舉結果如何，美國財政支出與赤字壓力均將持續",
+          "summary_zh": "評級機構惠譽指出，美國政府赤字與債務融資壓力具有長期結構性特徵，難因國會改選而顯著緩解。",
+          "event_time": "2026-10-29T04:57:56+08:00"
         }
       ]
     },
@@ -245,49 +281,40 @@
       "category": "經濟",
       "news": [
         {
-          "source_id": "b671ba051e74bee87e1891873fbc5a0670c6aa4aec1675f364ee80df13f2f700",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "南韓第三季GDP初值季增1.0%、年增3.4%，優於市場預期",
-          "summary_zh": "南韓公布第3季GDP初值季增1.0%、年增3.4%，優於市場預估的0.8%與3.1%，出口季增2.3%為主要成長驅動力，民間消費則微幅滑落0.2%。",
-          "event_time": "2026-10-27T07:00:00+08:00"
-        },
-        {
-          "source_id": "8bf960ed3c46a5af3e3944dc82518112aa967c4269c54b709739c9820ce5a8cd",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "中國前9月規模以上工業企業利潤年增15.5%",
-          "summary_zh": "中國國家統計局公布1至9月全國規模以上工業企業利潤同比增長15.5%，延續穩定擴張，反映製造業營收在支持性政策下持穩。",
-          "event_time": "2026-10-27T09:32:28+08:00"
-        },
-        {
-          "source_id": "cd907bdedf0b5d62536bb1654d2f8fa504960c8982112ccd190a9d8c5ac7df41",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "國際能源機構預期OPEC+將在週日會議維持現行產量目標",
-          "summary_zh": "市場消息指出，面對油價波動與中東戰事溢價，OPEC+聯盟預計在即將到來的週末部長級會議上維持原油產出政策不變。",
-          "event_time": "2026-10-27T17:21:56+08:00"
-        },
-        {
-          "source_id": "75667326b2188e644fea3e2b853a51a95b19945fe57c413fcbd114857bc40139",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美國9月耐久財訂單月增1.8%，核心訂單成長0.5%",
-          "summary_zh": "美國9月耐久財訂單月增1.8%，高於前值-0.1%；排除運輸之核心耐久財訂單月增0.5%，反映企業資本設備支出維持一定韌性。",
-          "event_time": "2026-10-27T20:30:00+08:00"
-        },
-        {
-          "source_id": "d05a82b52a3e5b0ccef650127c2754605f946938be4b4c276a6da461c09db429",
+          "source_id": "0c443724aa3b9b947ed0d353e2beb252f56bc51b6c08fe2d1d35b47ad00df9c8",
           "category": "經濟",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "美國10月CB消費者信心指數勁揚至91.7，通膨預期仍處高位",
-          "summary_zh": "美國10月諮商會（Conference Board）消費者信心指數達91.7，大幅超出預估的81.0。不過消費者一年期通膨預期仍達5.8%，多數民眾預期利率將維持高檔。",
-          "event_time": "2026-10-27T22:00:00+08:00"
+          "headline_zh": "澳洲第3季截尾均值CPI年增3.7%高於預期，整體CPI季增1.3%",
+          "summary_zh": "澳洲通膨指標全面高於市場預期，反映服務業與國內產能壓力居高不下，增添央行重啟緊縮政策的壓力。",
+          "event_time": "2026-10-28T08:30:04+08:00"
+        },
+        {
+          "source_id": "386fdfebc71b2ed7d8d7c82df2e0ac0e9814d7af187c8dfe7426ab66722656c7",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "美國8月商品貿易逆差擴大至1,349億美元",
+          "summary_zh": "美國商品貿易赤字超出市場預期的1,302億美元，顯示進口需求具韌性，但外貿將對GDP淨出口構成負面拖累。",
+          "event_time": "2026-10-28T20:30:00+08:00"
+        },
+        {
+          "source_id": "324cb94a98e1235f486ea1957fe1d6d5381577fdf77ad57d0d19f6bbc17913f5",
+          "category": "經濟",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "世銀報告：中東戰事恐推升2026年全球能源價格飆漲32%、大宗商品漲23%",
+          "summary_zh": "世界銀行警告，中東戰事升級若造成俄羅斯與波斯灣能源設施進一步受損，全球石油供應將面臨40年來最大降幅（-5.2%），引發嚴重惡性通膨。",
+          "event_time": "2026-10-28T21:30:32+08:00"
+        },
+        {
+          "source_id": "d42a638e2265ea603e7fe90b085f2d2b8e2f5cec2c91bdcce38ee0f79249ca3b",
+          "category": "經濟",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美國EIA原油庫存減少189.2萬桶，汽油庫存反常大增387萬桶",
+          "summary_zh": "原油供應趨緊庫存持續去化，但下游汽油需求走弱庫存激增，顯示能源終端消費承壓。",
+          "event_time": "2026-10-28T22:30:01+08:00"
         }
       ]
     },
@@ -295,106 +322,79 @@
       "category": "戰爭",
       "news": [
         {
-          "source_id": "b92d9438a6cf6024e20bfe13fcf954080aeb846147c687467c725c9191bf2ea8",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "沙烏地攔截胡塞武裝飛彈與無人機，拉斯塔努拉煉油廠遭襲引發火勢",
-          "summary_zh": "沙烏地防空部隊攔截多枚也門胡塞武裝發射之飛彈與無人機，但胡塞組織宣稱擊中東部波斯灣沿岸的拉斯塔努拉（Ras Tanura）煉油廠，沙方隨後撲滅火勢。",
-          "event_time": "2026-10-27T16:25:25+08:00"
-        },
-        {
-          "source_id": "0a6e619fd535162041ba198e8136927786abc96903765e5c1622d8734e1887ca",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "卡達表示調解美伊關鍵在於伊朗展現誠意並開放荷姆茲海峽",
-          "summary_zh": "卡達外交部發言人表示，為使中東斡旋調解工作成功，伊朗必須展現善意、停止對阿拉伯海灣國家的威脅，並確保荷姆茲海峽（Strait of Hormuz）通行無阻。",
-          "event_time": "2026-10-27T18:15:22+08:00"
-        },
-        {
-          "source_id": "7b9875ac1a843087c756173270c22b66698d76750e7dbcd023b7ad580ab69811",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "伊朗最高領袖哈米尼呼籲設定條件以終結戰爭",
-          "summary_zh": "伊朗國安高層與最高領袖哈米尼（Ayatollah Ali Khamenei）開會研商戰事與荷姆茲管理，哈米尼隨後表態呼籲在達成特定條件下尋求結束戰爭。",
-          "event_time": "2026-10-27T18:37:38+08:00"
-        },
-        {
-          "source_id": "a2cb6d8ba33ee4cde88d25e2075c80f0207aa6cea86e32162432868a735629d5",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "油輪於荷姆茲海峽東部觸雷起火，航運安全風險急升",
-          "summary_zh": "伊朗媒體報導，一艘被指控違規的油輪在荷姆茲海峽東側水域觸及水雷後引發大火，區域關鍵航道的地緣封鎖與航行安全疑慮再度升級。",
-          "event_time": "2026-10-27T20:29:09+08:00"
-        },
-        {
-          "source_id": "f637ed68dea3f5827d182343d75316b5c5a7889d0c7798d8bc24fa30d674d3be",
+          "source_id": "810e98913304134df1de4124a660ea799a325b436472a8df5b788a999b40f657",
           "category": "戰爭",
           "importance_score": 5,
           "highlight": true,
-          "headline_zh": "美軍中央司令部強調掌控荷姆茲海峽，絕非伊朗所能控制",
-          "summary_zh": "美軍中央司令部（CENTCOM）強硬聲明，美軍與盟邦部隊持續駐紮並戒備荷姆茲海峽及周邊海域，完全掌控這條國際水道，絕不由伊朗主導。",
-          "event_time": "2026-10-27T21:19:49+08:00"
+          "headline_zh": "五角大廈估計美伊戰爭作戰成本已突破470億美元",
+          "summary_zh": "美軍針對伊朗作戰成本急劇攀升，龐大的軍事開支進一步加劇美國聯邦政府的財政赤字風險。",
+          "event_time": "2026-10-28T07:46:11+08:00"
         },
         {
-          "source_id": "3cb56231f7b523177b36116c1ad327301669c2c9ad8c0e17687ce07fcfc20df6",
+          "source_id": "7b727de9f3f9b88fd1ee63a0b1e02c38bad25786aa68cb84edf47c746fbc226f",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "卡達調解人向伊朗遞交新停火協議草案，包含為期7天的分階段互信措施",
+          "summary_zh": "消息指出草案涵蓋荷姆茲海峽通航、解除封鎖及伊朗核問題，但伊朗高層隨後釋出保留態度，稱草案部分內容不可接受。",
+          "event_time": "2026-10-28T15:57:28+08:00"
+        },
+        {
+          "source_id": "01ddd7a3c146f33d8fc155eacbbffa0b01f9150d3daa195e99fea0e80fba484c",
           "category": "戰爭",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "胡塞武裝襲擊沙烏地利雅德國防部與艾卜哈機場",
-          "summary_zh": "葉門胡塞武裝宣稱出動無人機與飛彈攻擊沙烏地首都利雅德的國防部及南部艾卜哈（Abha）國際機場，導致機場空中交通短暫中斷。",
-          "event_time": "2026-10-27T22:35:33+08:00"
+          "headline_zh": "阿布達比國家石油（ADNOC）通知客戶繞開荷姆茲海峽新輸油管線於2027年初啟用",
+          "summary_zh": "阿聯酋加速興建繞道荷姆茲海峽的輸油基礎設施，以對沖中東海上交通線長期遭到封鎖的潛在風險。",
+          "event_time": "2026-10-28T22:20:19+08:00"
         },
         {
-          "source_id": "c69b955059c0fde01af00e3af92d8e19b0566279de931dae17e210dbf92a3f2b",
+          "source_id": "6bbcd4ad0baaf5a8a91d073ac6f692f57ed19e88ea5b48626572607a44b187b2",
           "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "俄烏於奧列什基展開局部停火至11月1日",
-          "summary_zh": "俄烏雙方證實在赫爾松地區的奧列什基（Oleshky）實施局部人道停火協議，預計持續至莫斯科時間11月1日晚間。",
-          "event_time": "2026-10-27T23:37:13+08:00"
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "伊朗外長阿拉格奇（Araghchi）：願給予外交機會，正與調解人評估執行7日計畫",
+          "summary_zh": "伊朗外交部表態仍與斡旋方保持密切聯繫，尋求縮短協議實施時程，展現透過外交降溫的可能窗口。",
+          "event_time": "2026-10-29T00:56:09+08:00"
         },
         {
-          "source_id": "261328fe04c12a336dece942a5257e09ffce0b3d22a754f839eb6fa21f489f2f",
+          "source_id": "55dfe65daee635469f440b9851c00b4a175bfc74cdd7841a09cd0cea54c94fc0",
           "category": "戰爭",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "川普宣布將接收首批100萬桶委內瑞拉原油以緩解能源壓力",
-          "summary_zh": "川普（Donald Trump）公開表示美國將接收首批100萬桶委內瑞拉原油，並再次強調荷姆茲海峽原油仍在流動，試圖安撫因美伊衝突飆升的油價焦慮。",
-          "event_time": "2026-10-27T23:39:03+08:00"
+          "headline_zh": "以美協調期中選舉後打擊伊朗行動，川普稱「任何事都可能發生」",
+          "summary_zh": "Axios指出美以正協調可能鎖定伊朗高層的打擊方案，川普未排除選後發動新一輪空襲，地緣政治對抗風險依然緊繃。",
+          "event_time": "2026-10-29T02:04:43+08:00"
         },
         {
-          "source_id": "67cf8ce084897b2daa986a9eb986a622cf2cf02ce79e3e1a0cccb84da59c724a",
+          "source_id": "e263b483e4f035ac357c1da8a6ad8f54ef641b564cb5c55abc2ce95b3ca85ebc",
           "category": "戰爭",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "伊朗與俄羅斯元首在莫斯科會談，深化能源合作",
-          "summary_zh": "伊朗總統佩澤什基安（Masoud Pezeshkian）訪問莫斯科會晤普丁（Vladimir Putin），討論布希爾核電廠運作及俄伊天然氣管線貿易合作。",
-          "event_time": "2026-10-28T00:45:05+08:00"
-        },
-        {
-          "source_id": "02f5d0d93ae2ee48653f4a3a1f63b37dbb1be7b62706e1df27ca232467bd4b81",
-          "category": "戰爭",
-          "importance_score": 4,
+          "importance_score": 5,
           "highlight": true,
-          "headline_zh": "以色列國會大選出口民調出爐：納坦雅胡陣營未獲過半席次",
-          "summary_zh": "以色列國會選舉出口民調顯示，艾森科特（Eisenkot）陣營獲得52席微幅領先總理納坦雅胡（Benjamin Netanyahu）陣營的50席，組閣陷入膠著，可能重塑戰時內閣路線。",
-          "event_time": "2026-10-28T04:01:57+08:00"
+          "headline_zh": "美軍中央司令部（CENTCOM）：荷姆茲海峽主要國際航道水雷已全數清除並恢復通航",
+          "summary_zh": "CENTCOM宣布美軍已排除荷姆茲海峽水雷威脅，數千艘商船正常通行，暫時緩解全球原油供應中斷恐慌。",
+          "event_time": "2026-10-29T03:20:39+08:00"
+        },
+        {
+          "source_id": "95e1cbec9d830271487f0f0bcf31ba98878f070abdeba0556c51163c847eb77e",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "美國副總統范斯（Vance）在川普指示下致信伊朗最高國安官員進行接觸",
+          "summary_zh": "華爾街日報報導，白宮在持續對伊朗維持軍事打擊準備的同時，透過高層信函保留雙方直接談判與外交斡旋管道。",
+          "event_time": "2026-10-29T04:00:35+08:00"
         }
       ]
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 7187,
-    "candidatesTokenCount": 509,
-    "totalTokenCount": 7696,
+    "promptTokenCount": 7052,
+    "candidatesTokenCount": 539,
+    "totalTokenCount": 7591,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 7187
+        "tokenCount": 7052
       }
     ],
     "serviceTier": "standard"
