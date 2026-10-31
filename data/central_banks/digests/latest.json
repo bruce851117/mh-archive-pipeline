@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-31T07:40:54.567360+08:00",
+  "generated_at": "2026-11-01T07:40:54.675196+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-08-02T07:40:54.567360+08:00",
-  "period_end": "2026-10-31T07:40:54.567360+08:00",
+  "period_start": "2026-08-03T07:40:54.675196+08:00",
+  "period_end": "2026-11-01T07:40:54.675196+08:00",
   "lookback_days": 90,
   "voter_version": "2026-09-09",
   "model": "gemini-3.8-flash",
-  "input_headline_count": 3427,
+  "input_headline_count": 3425,
   "talk_count": 243,
   "central_banks": [
     {
@@ -1509,7 +1509,7 @@
             },
             {
               "date": "2026-08-03",
-              "summary_zh": "表示利率政策定位良好並堅定承諾重返2%通膨，預期通膨下半年進一步回落，但若未按軌道降溫將會適時採取行動。",
+              "summary_zh": "利率政策仍有利於達成2%通膨目標，若通膨未朝目標邁進將採取行動，並預期通膨壓力將在下半年及明年逐步緩解。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -1519,26 +1519,16 @@
                 "balance_sheet": ""
               },
               "source_ids": [
-                "cac84e3e0ac5c2bcdd39a83852b7373575e7f31417702bedd7127a8bf64ee96a",
                 "41793d8d38a3f5d22c4c42280a0ffade25c69a8c0681e7e386dd79da52a3e57a",
                 "87643160a3e0ddafd6b55cf78d0d78e2f27653629d17e4af6207b8948f8c6e9f",
                 "b901ef2bd8dce1ec8eefd256f61206a327e65d9719433c3deebdeb97d21dc582",
-                "135510251b1d27ed26d1e1da9a5ea31ae8ee2ef5fd7718ac5cd0fe8d609cb2af",
                 "afe14d85011897942766f7690f3fa8d59f10db7e366221bb01f359513aa4647f",
-                "a9ce567d278da037dba5be236c3263e4be4ca67af1724a9b98e6ad7a78b07ed7",
                 "1d60991b54c17580a84f6f600aab0aef3c2867c369855984f724c749b90fe5c1",
-                "aa20ae15273e922c8bc26b0e37fba9d8b0b837d02744a8de0e799271baa1fd03",
                 "3477a6a2997d652e22902f3b87ce4f745fabe3d1439c9e2bf7957b8ba4891ff0",
                 "6b773aab31ffc48b3b242362d68a28b3d327e0cce0bc760724ad44003e879815",
                 "045af933098f45bacefaea8fb0539a8e45c9c137a6ab8e383ff5e6be01a93901"
               ],
               "source_headlines": [
-                {
-                  "id": "cac84e3e0ac5c2bcdd39a83852b7373575e7f31417702bedd7127a8bf64ee96a",
-                  "time": "2026-08-03T18:00:03+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed’s Williams: No financial stability risks seen from AI investment"
-                },
                 {
                   "id": "41793d8d38a3f5d22c4c42280a0ffade25c69a8c0681e7e386dd79da52a3e57a",
                   "time": "2026-08-03T18:00:04+08:00",
@@ -1558,34 +1548,16 @@
                   "headline": "Fed's Williams: Central bank very committed to returning inflation to 2%"
                 },
                 {
-                  "id": "135510251b1d27ed26d1e1da9a5ea31ae8ee2ef5fd7718ac5cd0fe8d609cb2af",
-                  "time": "2026-08-03T18:00:04+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed’s Williams: aware of market pricing, Fed not required to endorse market levels"
-                },
-                {
                   "id": "afe14d85011897942766f7690f3fa8d59f10db7e366221bb01f359513aa4647f",
                   "time": "2026-08-03T18:00:04+08:00",
                   "central_bank": "FED",
                   "headline": "Fed's Williams: I strongly backed the FOMC's latest move"
                 },
                 {
-                  "id": "a9ce567d278da037dba5be236c3263e4be4ca67af1724a9b98e6ad7a78b07ed7",
-                  "time": "2026-08-03T18:00:04+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed’s Williams: Volatility in AI sector is unsurprising"
-                },
-                {
                   "id": "1d60991b54c17580a84f6f600aab0aef3c2867c369855984f724c749b90fe5c1",
                   "time": "2026-08-03T18:00:04+08:00",
                   "central_bank": "FED",
                   "headline": "Fed's Williams: Anticipate Middle East war inflation effect to ease"
-                },
-                {
-                  "id": "aa20ae15273e922c8bc26b0e37fba9d8b0b837d02744a8de0e799271baa1fd03",
-                  "time": "2026-08-03T18:00:04+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed’s Williams: Market pricing offers Fed valuable insight"
                 },
                 {
                   "id": "3477a6a2997d652e22902f3b87ce4f745fabe3d1439c9e2bf7957b8ba4891ff0",
@@ -3893,7 +3865,7 @@
           "talks": [
             {
               "date": "2026-10-31",
-              "summary_zh": "表示通膨未回到2%目標是不可接受的，聯準會需要至少再進行兩次每次一碼的升息。",
+              "summary_zh": "聯準會需要至少再升息兩次一碼，通膨無法回到2%目標是不可接受的。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5361,7 +5333,7 @@
           "talks": [
             {
               "date": "2026-10-30",
-              "summary_zh": "表示聯準會政策方向明確且採取漸進步伐，企業廣泛面臨成本壓力並計劃轉嫁價格，而AI投資帶來的需求端通膨則是央行可進行干預的領域。",
+              "summary_zh": "聯準會政策方向明確但步調採漸進方式，企業面臨廣泛成本壓力並計畫轉嫁價格，且AI投資帶來的需求端通膨亦屬央行可對抗範疇。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6054,7 +6026,7 @@
           "talks": [
             {
               "date": "2026-10-31",
-              "summary_zh": "表示人工智慧對思考聯準會近期與中期的貨幣政策非常重要。",
+              "summary_zh": "人工智慧對考量近端與中期的貨幣政策非常重要。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6945,7 +6917,7 @@
           "talks": [
             {
               "date": "2026-10-31",
-              "summary_zh": "指出經濟與勞動市場強勁且通膨居高不下，當前貨幣政策仍具寬鬆性，儘早採取漸進升息有助於降低經濟風險並防範第二輪通膨影響。",
+              "summary_zh": "經濟與勞動市場強勁且當前政策偏寬鬆，為遏止高通膨及防止服務業第二輪效應，聯準會應儘快以漸進方式再度升息。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -11659,7 +11631,7 @@
           "talks": [
             {
               "date": "2026-10-31",
-              "summary_zh": "人工智慧已在支撐歐元區經濟活動，其引發的物價壓力可見，但對整體通膨的影響有限。",
+              "summary_zh": "AI相關價格壓力顯現但對整體通膨影響有限，且AI已對歐元區經濟活動提供支撐。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -12177,7 +12149,7 @@
           "talks": [
             {
               "date": "2026-10-30",
-              "summary_zh": "暫停升息並非容易的決定，目前未見顯著第二輪效應，但不能排除價格上漲風險，中期通膨預期須保持錨定。",
+              "summary_zh": "目前尚未觀察到顯著的第二輪效應，但不能排除未來幾週物價上漲的可能性，中期通膨預期必須牢牢錨定。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -12729,7 +12701,7 @@
           "talks": [
             {
               "date": "2026-10-30",
-              "summary_zh": "通膨預期將在數個季度高於2%，未來可能需進一步升息，但校準貨幣政策時須考量長天期殖利率上升。",
+              "summary_zh": "物價前景正在惡化且核心通膨恐在明年初更顯著，進一步升息可能屬必要，但調整政策時也須考量長天期殖利率上升。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -12891,7 +12863,7 @@
           "talks": [
             {
               "date": "2026-10-30",
-              "summary_zh": "經濟成長與通膨前景仍極不明朗，通膨上行風險居高不下，須對第二輪效應保持警惕。",
+              "summary_zh": "經濟成長與通膨前景仍極具不確定性，通膨上升風險明顯居高不下，需對第二輪效應保持警惕。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -13302,7 +13274,7 @@
           "talks": [
             {
               "date": "2026-10-30",
-              "summary_zh": "目前的通膨情勢令人擔憂，維持利率不變並不代表歐洲央行已結束升息週期。",
+              "summary_zh": "當前通膨狀況令人不安，維持利率不變並不意味著歐洲央行已結束升息週期。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -13502,7 +13474,7 @@
           "talks": [
             {
               "date": "2026-10-30",
-              "summary_zh": "通膨風險明顯上升，若情況未迅速改善將有行動必要，但過早行動或被動等待均無助確保物價穩定。",
+              "summary_zh": "通膨風險明顯增加，若情勢未能迅速好轉則有採取行動的必要，但既不可過早行動也不應坐視不理。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -14110,7 +14082,7 @@
           "talks": [
             {
               "date": "2026-10-30",
-              "summary_zh": "能源外溢風險已有所上升，但目前尚未見到第二輪效應顯現。",
+              "summary_zh": "能源外溢效應的可能性有所上升，但目前尚未觀察到第二輪效應。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -14515,7 +14487,7 @@
           "talks": [
             {
               "date": "2026-10-30",
-              "summary_zh": "衝擊尚未轉化為廣泛物價壓力，但高能源價格恐導致未來數年通膨維持在2%以上且更具持續性。",
+              "summary_zh": "衝擊尚未轉化為更廣泛的價格壓力，但能源價格高漲恐使通膨更具黏性，未來幾年通膨可能維持在2%之上。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -14741,7 +14713,7 @@
           "talks": [
             {
               "date": "2026-10-30",
-              "summary_zh": "預期經濟溫和成長且金融維持寬鬆，通膨預期約2%，但需持續觀察匯率、AI與春鬥薪資，尚未宣布達成物價目標。",
+              "summary_zh": "日本經濟將溫和成長且金融環境寬鬆，通膨預期約2%，但尚未能宣布達成目標，需密切關注匯率、AI、中東局勢及春鬥薪資動向。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -15881,7 +15853,7 @@
           "talks": [
             {
               "date": "2026-10-30",
-              "summary_zh": "主張核心CPI已達物價目標，情勢進入需加快邁向中性利率的新階段，因而提議升息至1.5%以示異議。",
+              "summary_zh": "核心通膨已達物價穩定目標，情勢已進入需要更快邁向中性利率的新階段，並提議將短期利率目標上調至1.5%。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -17886,45 +17858,21 @@
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 35417,
-    "candidatesTokenCount": 11435,
+    "promptTokenCount": 18373,
+    "candidatesTokenCount": 5846,
     "thoughtsTokenCount": 0,
-    "totalTokenCount": 46852,
+    "totalTokenCount": 24219,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
-      "FED+RBA": {
-        "promptTokenCount": 16358,
-        "candidatesTokenCount": 5792,
-        "totalTokenCount": 22150,
+      "FED+BOE+ECB+BOJ+RBA": {
+        "promptTokenCount": 18373,
+        "candidatesTokenCount": 5846,
+        "totalTokenCount": 24219,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 16358
-          }
-        ],
-        "serviceTier": "standard"
-      },
-      "BOE+BOJ": {
-        "promptTokenCount": 7811,
-        "candidatesTokenCount": 942,
-        "totalTokenCount": 8753,
-        "promptTokensDetails": [
-          {
-            "modality": "TEXT",
-            "tokenCount": 7811
-          }
-        ],
-        "serviceTier": "standard"
-      },
-      "ECB": {
-        "promptTokenCount": 11248,
-        "candidatesTokenCount": 4701,
-        "totalTokenCount": 15949,
-        "promptTokensDetails": [
-          {
-            "modality": "TEXT",
-            "tokenCount": 11248
+            "tokenCount": 18373
           }
         ],
         "serviceTier": "standard"
@@ -17932,12 +17880,12 @@
     },
     "incremental": {
       "mode": "incremental",
-      "window_headline_count": 3427,
+      "window_headline_count": 3425,
       "regenerated_date_count": 3,
-      "regenerated_headline_count": 280,
-      "reused_headline_count": 3147,
-      "reused_talk_count": 379,
-      "regenerated_talk_count": 16
+      "regenerated_headline_count": 144,
+      "reused_headline_count": 3281,
+      "reused_talk_count": 380,
+      "regenerated_talk_count": 15
     }
   }
 }

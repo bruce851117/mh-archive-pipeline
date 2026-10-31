@@ -1,25 +1,27 @@
 {
-  "generated_at": "2026-10-31T07:42:56.561048+08:00",
-  "summary_generated_at": "2026-10-31T07:42:56.561048+08:00",
-  "data_updated_at": "2026-10-31T06:50:53.480196+08:00",
+  "generated_at": "2026-11-01T07:42:00.200459+08:00",
+  "summary_generated_at": "2026-11-01T07:42:00.200459+08:00",
+  "data_updated_at": "2026-11-01T06:50:52.991462+08:00",
   "timezone": "Asia/Taipei",
   "period_start": "2026-10-30T05:00:00+08:00",
-  "period_end": "2026-10-31T06:50:53.480196+08:00",
+  "period_end": "2026-11-01T06:50:52.991462+08:00",
   "model": "gemini-3.8-flash",
   "source_digest_files": [
     "data/digests/2026/10/2026-10-29.json",
     "data/digests/2026/10/2026-10-30.json",
-    "data/digests/2026/10/2026-10-31.json"
+    "data/digests/2026/10/2026-10-31.json",
+    "data/digests/2026/11/2026-11-01.json"
   ],
-  "event_count": 33,
+  "event_count": 55,
   "summary_points": [
-    "中東地緣局勢高度緊繃，荷姆茲海峽再傳油輪觸雷受損，胡塞武裝亦襲擊葉門亞丁機場；儘管川普透露美伊正展開談判且卡達前往德黑蘭斡旋，市場對原油運輸安全的擔憂仍存。",
-    "烏俄局勢迎來降溫跡象，在美方施壓下烏克蘭暫停襲擊俄羅斯煉油廠，克里姆林宮亦表態三方談判日期協商無阻，有望於11月重啟和平談判。",
-    "聯準會官員洛根與穆薩勒姆接連釋出鷹派訊號，強調通膨風險依然偏高，預期近期仍需升息兩次各1碼，推升長天期美債殖利率維持高檔。",
-    "日本央行維持基準利率於1.25%不變，但有委員提議升息至1.5%，同時央行宣布自2027年起將每年出售ETF規模擴大至8600億日圓，加速貨幣政策正常化進程。",
-    "科技巨頭財報引發市場震盪，英特爾因業績疲軟與遭美銀降評重挫29%，創逾40年最大單日跌幅，亞馬遜亦表現欠佳，拖累美股期指走跌並促使資金流向債市避險。",
-    "AI產業擴張態勢持續，輝達傳出正洽談為Anthropic高達450億美元的算力交易提供數十億美元信貸擔保，但也引發聯準會對AI投資加劇通膨壓力的關注。",
-    "歐洲央行內部升息聲浪再現，管委帕內塔警告通膨前景恐惡化，或有必要進一步調升利率；同時歐元區第三季GDP季增0.4%優於預期，但成員國通膨走勢顯著分歧。"
+    "荷姆茲海峽地緣衝突急劇升溫，伊朗強調在訴求滿足前將維持海峽關閉，並接連發生多起油輪觸雷起火事件，對全球原油供應要道構成重大威脅。",
+    "美伊雙方同步展開外交斡旋，卡達代表團赴德黑蘭與杜哈協調，美國國務卿Rubio與川普表示正尋求外交接觸且未決定動武，但伊朗最高領袖仍下令擴大反擊目標清單。",
+    "面對能源供應與中東局勢動盪，OPEC+原則上達成協議，將於12月維持現行的石油生產目標不變，以維持全球油市穩定。",
+    "聯準會多位官員釋出鷹派訊號，達拉斯聯準銀行總裁洛根表態至少需再升息兩次各1碼，聖路易聯準銀行總裁穆薩勒姆亦示警通膨風險偏高，推升長天期美債殖利率預期。",
+    "日本央行維持基準利率於1.25%不變，但出現委員主張升息至1.5%的反對票，同時日銀宣布自2027年起每年加速出售約8600億日圓ETF，展現貨幣政策正常化決心。",
+    "中國10月官方製造業PMI降至49.3、非製造業PMI跌至49.7，雙雙落入收縮區間，顯示製造業與服務業動能同步放緩，經濟面臨下行壓力。",
+    "大型科技股財報與估值疑慮打擊市場信心，英特爾單日暴跌29%，OpenAI將融資目標調降百億美元，拖累美股期指重挫並促使避險資金流入債市。",
+    "烏俄局勢方面，烏克蘭在美方施壓下暫停對俄羅斯煉油廠攻擊，俄方亦表態三方談判日期協商無阻礙，雙方釋出於11月重啟和平談判的訊號。"
   ],
   "blocks": [
     {
@@ -119,6 +121,33 @@
           "headline_zh": "標普評級：Meta貨幣化AI投資能力受限 資本支出存不確定性",
           "summary_zh": "標普指出Meta將AI投資變現的能力相較同業更受約束，且未來資本支出存在不確定性，引發對其能否如期縮減支出的疑慮。",
           "event_time": "2026-10-31T05:04:58+08:00"
+        },
+        {
+          "source_id": "52c91d5326adacefd67393eb9f06f7729727e6ac23e86b00ed7d078061ce427a",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "科技業擔憂升溫，OpenAI下調融資目標100億美元",
+          "summary_zh": "金融時報報導，在市場對科技業估值與回報疑慮升溫之際，OpenAI將融資目標削減100億美元，目前尋求以1.25兆美元估值籌集約200億美元，反映AI投資熱潮出現審慎調整。",
+          "event_time": "2026-10-31T08:08:42+08:00"
+        },
+        {
+          "source_id": "ce0f645f36c59bd1ab97cc1e738071e89bea3739b1dad32d3305c3682b67018f",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "Meta攜手中企開發人形機器人原型Max，加速機器人佈局",
+          "summary_zh": "Meta與中國新創公司Fourier（傅利葉智能）合作，在三個月內打造出約106磅重的人形機器人原型Max，顯示大型科技巨頭正加緊推進機器人領域應用落地。",
+          "event_time": "2026-11-01T00:02:23+08:00"
+        },
+        {
+          "source_id": "26731386cf29462e5b4fd4ca3c5cfeb9a567799a6d17b1b05940d95af11c9b25",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "FBI指控北韓涉及Binance交易所逾60億美元虛擬資產竊案",
+          "summary_zh": "美國聯邦調查局（FBI）指出北韓是加密貨幣交易所Binance（幣安）被盜取逾60億美元虛擬資產的幕後黑手，對加密貨幣市場安全與監管預期產生衝擊。",
+          "event_time": "2026-11-01T05:28:48+08:00"
         }
       ]
     },
@@ -228,6 +257,24 @@
           "headline_zh": "加拿大公布財政預算赤字達53.6億加元 表現遜於前值",
           "summary_zh": "加拿大官方數據顯示最新財政預算赤字為53.6億加元，赤字幅度較前期進一步擴大。",
           "event_time": "2026-10-30T23:00:46+08:00"
+        },
+        {
+          "source_id": "40c81f501e68199d14c2694edb1f13fde7c25bde881e011b386a298dafcb3f1d",
+          "category": "財政政策",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "塞內加爾國會再度否決預算案，IMF協議面臨風險",
+          "summary_zh": "塞內加爾國會再度否決政府預算案，危及該國與國際貨幣基金組織（IMF）的援助協議，加劇主權融資與財政不確定性。",
+          "event_time": "2026-10-31T21:17:27+08:00"
+        },
+        {
+          "source_id": "ecf7a2f98e7b3f25c56f95f9fe6ec1267e5d729ed05249cb2a7aa0122aea53ba",
+          "category": "財政政策",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "印度政府提前向各邦撥付1.09兆盧比稅收分成款項",
+          "summary_zh": "印度中央政府提前發放1.09兆盧比的稅收分成款項給各邦，以支援地方政府流動性與資本支出。",
+          "event_time": "2026-11-01T00:41:23+08:00"
         }
       ]
     },
@@ -287,6 +334,51 @@
           "headline_zh": "加拿大與歐盟簽署數位貿易及競爭協定 邁向準成員國深度夥伴關係",
           "summary_zh": "加拿大總理卡尼（Carney）與歐盟達成協議，將推進雙邊緊密結盟至「副成員國」等級，雙方並簽署數位貿易協定。",
           "event_time": "2026-10-31T00:45:26+08:00"
+        },
+        {
+          "source_id": "a957330257faa9a851475d1019560acb051502ff5b4503bae4a1d6cb4e5741af",
+          "category": "經濟",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "中國10月官方製造業PMI降至49.3，重回緊縮區間",
+          "summary_zh": "中國國家統計局公布10月份官方製造業採購經理人指數（PMI）降至49.3，低於前值50.1及市場預期的49.9，顯示製造業活動再度轉入收縮狀態。",
+          "event_time": "2026-10-31T09:30:18+08:00"
+        },
+        {
+          "source_id": "a68c5a973e7c049379e7d3b2f3edf234b74cdbd1c935273a18e74b12e4a7d43e",
+          "category": "經濟",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "中國10月官方非製造業PMI降至49.7，落入榮枯線下方",
+          "summary_zh": "中國10月非製造業PMI自9月的50.2降至49.7，綜合PMI亦同步降至49.7，反映服務業及建築業增長動能放緩，整體經濟增長面臨下行考驗。",
+          "event_time": "2026-10-31T09:30:23+08:00"
+        },
+        {
+          "source_id": "2db42a8547f93e8b7176fc9d53c418e6739d7bc218cddf8d9ce5df05e22f7f65",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "俄羅斯延長柴油出口禁令至明年1月",
+          "summary_zh": "俄羅斯國際文傳電訊社（IFX）報導，俄羅斯政府決定將柴油出口禁令延長至明年1月，加劇區域成品油供應緊張與價格波動。",
+          "event_time": "2026-10-31T19:00:22+08:00"
+        },
+        {
+          "source_id": "9d467d80406c646e6307c0e26784bfd409e02aedb41ed3f24ed3e53aab6eb6d4",
+          "category": "經濟",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "OPEC+原則上同意12月維持產量目標不變",
+          "summary_zh": "消息人士指出，石油輸出國組織及其盟友（OPEC+）已原則上達成協議，將在12月維持現行的石油生產目標，以維護全球油市穩定。",
+          "event_time": "2026-11-01T00:34:16+08:00"
+        },
+        {
+          "source_id": "4ddd699d6fd1363639b7667ade3badbc3e9f3090be32a4e2bc7650ea71cfa7f5",
+          "category": "經濟",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "G20輪值主席國呼籲不應將糧食與農產品貿易作為脅迫工具",
+          "summary_zh": "G20主席國發表聲明表示，糧食與農產品貿易不應被作為經濟或政治脅迫手段，強調穩定全球供應鏈的重要性。",
+          "event_time": "2026-11-01T02:22:05+08:00"
         }
       ]
     },
@@ -346,18 +438,126 @@
           "headline_zh": "荷姆茲海峽再傳油輪觸雷爆炸 伊朗革命衛隊稱已有第4艘油輪觸雷受損",
           "summary_zh": "英國海事貿易局（UKMTO）與伊朗媒體證實，荷姆茲海峽出現多艘油輪遭襲擊、附著爆裂物及觸雷事故，伊朗軍方聲稱已是第4艘闖入未授權航道的油輪遇襲。",
           "event_time": "2026-10-31T04:03:34+08:00"
+        },
+        {
+          "source_id": "2ba0a62eec6d3201773d57472e6475374272b479b8060ca7d64c45992e7a83ef",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "沙烏地防空部隊攔截多起無人機攻擊，葉門胡塞武裝威脅持續",
+          "summary_zh": "沙烏地領導的多國聯軍在利雅德、東部及南部地區先後攔截摧毀由葉門胡塞組織發射的無人機，民防部門一度對吉贊與奈季蘭發布安全警戒後解除。",
+          "event_time": "2026-10-31T08:46:45+08:00"
+        },
+        {
+          "source_id": "fa028dfaabccb3d943eac79dbb10e4f747758e413b231eb60954059a6a67114d",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗敵方無人機襲擊格什姆島南方漁船造成傷亡",
+          "summary_zh": "伊朗法爾斯通訊社報導，一架敵方無人機在格什姆島以南14海浬處襲擊兩艘漁船，造成兩名漁民失蹤、兩人受傷，顯示波斯灣水域武裝衝突擴大。",
+          "event_time": "2026-10-31T17:26:41+08:00"
+        },
+        {
+          "source_id": "a202a7993b7d9cde51b67559c86df3aa12d02f13c711eb4b21d03fa310d564da",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗最高領袖下令無地域限制反擊，武裝部隊修訂美以目標清單",
+          "summary_zh": "伊朗最高領袖Mojtaba Khamenei發出書面指令，要求武裝部隊對任何威脅立即進行不受地域限制的打擊，並要求軍方更新目標清單，涵蓋打擊範圍內的所有美國與以色列資產。",
+          "event_time": "2026-10-31T18:30:57+08:00"
+        },
+        {
+          "source_id": "6eb664809bade8c725b77ca47366e6f964a1e0e23082a28e4c94e4d3cf246966",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "烏克蘭打擊俄羅斯羅斯托夫飛彈燃料廠，俄空襲致烏克蘭近28萬戶斷電",
+          "summary_zh": "烏克蘭軍方擊中俄羅斯羅斯托夫地區飛彈燃料工廠引發大火；烏總統Zelenskiy則表示俄軍空襲能源設施，導致約28萬烏克蘭家庭斷電，雙方基礎設施互襲升級。",
+          "event_time": "2026-10-31T18:51:19+08:00"
+        },
+        {
+          "source_id": "15311a121f6a2630e0e8c6f088342bf0ea85db8baf793ec68571a7b3d216ae03",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗談判代表赴杜哈與卡達斡旋團隊會談，推進結束美伊戰爭努力",
+          "summary_zh": "官方通報顯示，伊朗談判代表團繼在德黑蘭舉行12小時會談後抵達杜哈，繼續與卡達斡旋團隊進行談判，卡達方面亦與美方談判人員保持密切溝通，致力於結束美伊戰爭。",
+          "event_time": "2026-10-31T20:20:41+08:00"
+        },
+        {
+          "source_id": "d2eba5773c9b123a15ec29f48fb235c17f4cc50e0f42667aea6ca06eac2cdbde",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗外長稱審查美方Vance信函，視美方擴大談判為積極舉動",
+          "summary_zh": "伊朗外長Araghchi透露，德黑蘭已在高層會議中研讀美方副總統Vance的信函，認為美方尋求更廣泛接觸是正面舉措，調解人亦提出核問題方案，但在條件滿足前暫無直接對話意圖。",
+          "event_time": "2026-10-31T21:03:43+08:00"
+        },
+        {
+          "source_id": "d3019feaedcb6c62270edfc510adee074efddd0a1f300e76d77074fce96b797d",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "伊朗外長Araghchi：重新開放荷姆茲海峽是啟動美伊談判的敲門磚",
+          "summary_zh": "伊朗外長Araghchi向半島電視台表示，目前檯面上重啟荷姆茲海峽的唯一方案是伊朗方案，若依德黑蘭條件重新開放，將為與華盛頓開啟談判鋪平道路；條件包括解除制裁、減少美軍駐軍及承認阿曼新航道。",
+          "event_time": "2026-10-31T21:15:34+08:00"
+        },
+        {
+          "source_id": "77b9978491b4edc9f52b81caf202cc804fc097e2775a2ae52cde027c7bac7fe5",
+          "category": "戰爭",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "俄聯邦安全局稱接獲美方情報，示警莫斯科面臨恐攻威脅",
+          "summary_zh": "俄羅斯聯邦安全局（FSB）表示已收到美方提供關於莫斯科可能遭受恐怖攻擊計畫的情報，顯示兩國在反恐特定領域仍維持情報交換渠道。",
+          "event_time": "2026-10-31T23:18:13+08:00"
+        },
+        {
+          "source_id": "279f204803cf98a83649e422c27afff64019f0b3e0510072aad32cb7b6ba509c",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "土耳其總統Erdogan與Zelenskiy會面，美土印推動黑海航運安全與停火",
+          "summary_zh": "土耳其總統Erdogan與烏克蘭總統Zelenskiy商討黑海航行安全及美烏俄和平談判，美國國務卿Rubio隨後表示印土提出黑海糧運重啟方案，國際社會對局部停火展現高度興趣。",
+          "event_time": "2026-11-01T00:00:27+08:00"
+        },
+        {
+          "source_id": "d87c4499cf54d460fc137691b505bd42ce99b2891e94e694965a7fc3e53c5dd0",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "美國國務卿Rubio：對外交解決伊朗衝突持開放態度，川普尚未決定動武",
+          "summary_zh": "美國國務卿Rubio表示，美方對外交解決美伊衝突持開放立場，卡達領導的談判目前沒有明確時間表，並強調川普總統尚未就對伊朗採取軍事行動做出最終決定。",
+          "event_time": "2026-11-01T00:29:32+08:00"
+        },
+        {
+          "source_id": "48c72ec55a989a7224992cf24d5d709ff3fa04439d74627d3f04b21566f83ed5",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "油輪在荷姆茲海峽觸水雷起火，伊朗海軍稱其進入限制區域",
+          "summary_zh": "伊朗海軍與國營媒體證實，一艘油輪在荷姆茲海峽觸及水雷後起火，並稱該油輪航行於限制水域內，此事件令中東原油關鍵咽喉要道的地緣軍事風險急劇飆升。",
+          "event_time": "2026-11-01T00:55:48+08:00"
+        },
+        {
+          "source_id": "fefee235744fac37e9c7ba5e2fc1db3b72dc48ea648e1d778d0f420095f9d079",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "伊朗安全首長Rezaei：在滿足條件前荷姆茲海峽將維持關閉",
+          "summary_zh": "伊朗安全首長Rezaei透過國營電視台強調，在德黑蘭的訴求獲得滿足之前，荷姆茲海峽將維持封閉狀態；伊朗正認真追求外交途徑，但核問題唯有在美方回應條件後方能討論。",
+          "event_time": "2026-11-01T03:01:29+08:00"
         }
       ]
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 6335,
-    "candidatesTokenCount": 468,
-    "totalTokenCount": 6803,
+    "promptTokenCount": 10443,
+    "candidatesTokenCount": 495,
+    "totalTokenCount": 10938,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 6335
+        "tokenCount": 10443
       }
     ],
     "serviceTier": "standard"
