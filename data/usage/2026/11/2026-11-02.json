@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-02",
+  "timezone": "Asia/Taipei",
+  "updated_at": "2026-11-02T07:41:54.869176+08:00",
+  "call_count": 3,
+  "totals": {
+    "input_tokens": 24816,
+    "output_tokens": 8148,
+    "thinking_tokens": 0,
+    "cached_input_tokens": 0,
+    "total_tokens": 32964,
+    "billed_output_tokens": 8148
+  },
+  "by_step": {
+    "daily_digest": {
+      "input_tokens": 5545,
+      "output_tokens": 6076,
+      "thinking_tokens": 0,
+      "cached_input_tokens": 0,
+      "total_tokens": 11621,
+      "billed_output_tokens": 6076,
+      "call_count": 1
+    },
+    "central_bank:FED+ECB": {
+      "input_tokens": 3942,
+      "output_tokens": 1589,
+      "thinking_tokens": 0,
+      "cached_input_tokens": 0,
+      "total_tokens": 5531,
+      "billed_output_tokens": 1589,
+      "call_count": 1
+    },
+    "web_news": {
+      "input_tokens": 15329,
+      "output_tokens": 483,
+      "thinking_tokens": 0,
+      "cached_input_tokens": 0,
+      "total_tokens": 15812,
+      "billed_output_tokens": 483,
+      "call_count": 1
+    }
+  },
+  "calls": [
+    {
+      "step": "daily_digest",
+      "model": "gemini-3.8-flash",
+      "called_at": "2026-11-02T07:41:00.057533+08:00",
+      "github_run_id": "41363269203",
+      "input_tokens": 5545,
+      "output_tokens": 6076,
+      "thinking_tokens": 0,
+      "cached_input_tokens": 0,
+      "total_tokens": 11621,
+      "billed_output_tokens": 6076,
+      "note": "36 headlines"
+    },
+    {
+      "step": "central_bank:FED+ECB",
+      "model": "gemini-3.8-flash",
+      "called_at": "2026-11-02T07:41:00.057533+08:00",
+      "github_run_id": "41363269203",
+      "input_tokens": 3942,
+      "output_tokens": 1589,
+      "thinking_tokens": 0,
+      "cached_input_tokens": 0,
+      "total_tokens": 5531,
+      "billed_output_tokens": 1589,
+      "note": "23 headlines, 2 dates"
+    },
+    {
+      "step": "web_news",
+      "model": "gemini-3.8-flash",
+      "called_at": "2026-11-02T07:41:54.869176+08:00",
+      "github_run_id": "41363269203",
+      "input_tokens": 15329,
+      "output_tokens": 483,
+      "thinking_tokens": 0,
+      "cached_input_tokens": 0,
+      "total_tokens": 15812,
+      "billed_output_tokens": 483,
+      "note": "84 events"
+    }
+  ]
+}
