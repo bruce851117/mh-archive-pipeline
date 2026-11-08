@@ -1,9 +1,9 @@
 {
   "title": "最近24小時全球市場重要新聞",
-  "period_start": "2026-11-07T07:40:35.256910+08:00",
-  "period_end": "2026-11-08T07:40:35.256910+08:00",
+  "period_start": "2026-11-08T07:40:35.489769+08:00",
+  "period_end": "2026-11-09T07:40:35.489769+08:00",
   "timezone": "Asia/Taipei",
-  "overview": "過去24小時全球焦點高度集中於中東地緣政治危機。荷姆茲海峽與阿曼灣周邊緊張情勢驟升，油輪起火、觸雷事件頻傳，美軍擴大對伊封鎖並攔截商船，葉門胡塞武裝亦宣稱襲擊沙烏地阿美石油設施及機場；與此同時，卡達與土耳其積極斡旋美伊局勢，川普亦表態正進行談判。在俄烏戰事方面，俄羅斯發動大規模空襲能源設施，但美俄烏三方會談名單已釋出。中美官員則重啟經貿視訊通話，美中同意維持穩定貿易溝通管道。",
+  "overview": "過去24小時全球焦點集中於中東地緣政治與科技巨頭動態。葉門青年運動對沙烏地阿拉伯多處能源與民用設施發動空襲，沙國攔截多枚飛彈，荷姆茲海峽亦傳出油輪觸雷；同時，伊拉克科爾莫爾天然氣田遭無人機襲擊停產，能源供應風險急遽攀升。然而，川普表示若談判順利美國極不可能開戰，伊朗外長則提及調解進程因美大選暫緩。科技市場方面，輝達（Nvidia）董事會針對執行長黃仁勳（Jensen Huang）遭外國情報鎖定展開獨立調查；澳洲央行官員亦示警AI投資泡沫與通膨風險。",
   "categories": [
     {
       "category": "債市",
@@ -14,29 +14,71 @@
       "news": [
         {
           "importance_score": 4,
-          "headline_zh": "葉門胡塞武裝宣稱襲擊沙烏地阿美位於利雅德與庫賴斯的石油設施",
-          "summary_zh": "胡塞武裝宣稱打擊沙烏地阿美（Aramco）重要石油核心設施，雖沙國尚未證實，但對全球能源供應與能源股造成即時風險溢價衝擊。",
-          "event_time": "2026-11-07T23:33:59+08:00",
-          "source_id": "42e3bb6c647aa369775ce5f9a26ad82421e831cffe1408d9a93b793a1e72f1dd",
+          "headline_zh": "黃仁勳向員工坦承對妻子不忠，全面配合調查並續任執行長",
+          "summary_zh": "輝達執行長黃仁勳致信員工坦承個人行為過失，表示全力支持調查並將專注領導公司。董事會與發言人表達信任，表示營運不受影響。",
+          "event_time": "2026-11-09T04:26:48+08:00",
+          "source_id": "931ee18b559907961d93e9049e3bd72002cc49a267b3097a99c77d6fa1f87d63",
           "source_detail": {
-            "id": "42e3bb6c647aa369775ce5f9a26ad82421e831cffe1408d9a93b793a1e72f1dd",
-            "time": "2026-11-07T23:33:59+08:00",
-            "headline": "Yemen's Houthis say they hit Aramco oil sites in Riyadh and Khurais; no prompt Saudi confirmation",
-            "link": "https://www.financialjuice.com/News/9842031/Yemens-Houthis-say-they-hit-Aramco-oil-sites-in-Riyadh-and-Khurais-no-prompt-Saudi-confirmation.aspx?xy=rss",
+            "id": "931ee18b559907961d93e9049e3bd72002cc49a267b3097a99c77d6fa1f87d63",
+            "time": "2026-11-09T04:26:48+08:00",
+            "headline": "Nvidia CEO Huang in message to company: Was unfaithful to wife, takes full responsibility",
+            "link": "https://www.financialjuice.com/News/9842511/Nvidia-CEO-Huang-in-message-to-company-Was-unfaithful-to-wife-takes-full-responsibility.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "輝達董事會啟動獨立調查：黃仁勳遭外國情報行動鎖定",
+          "summary_zh": "輝達（Nvidia）董事會宣布對執行長黃仁勳（Jensen Huang）遭外國情報鎖定一事展開獨立調查，由獨立董事與外部律師監督，並強調未發現國安漏洞或商業機密洩露。",
+          "event_time": "2026-11-09T04:01:40+08:00",
+          "source_id": "1054bd4e86488bc2d33f87965af50dd9b8d1842dfeeda5abc1e3d03032c05af1",
+          "source_detail": {
+            "id": "1054bd4e86488bc2d33f87965af50dd9b8d1842dfeeda5abc1e3d03032c05af1",
+            "time": "2026-11-09T04:01:40+08:00",
+            "headline": "Nvidia board launches independent probe into foreign intelligence targeting CEO",
+            "link": "https://www.financialjuice.com/News/9842501/Nvidia-board-launches-independent-probe-into-foreign-intelligence-targeting-CEO.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "Anthropic傳將於下週展開IPO路演",
+          "summary_zh": "據The Information報導，人工智慧新創Anthropic將於下週啟動首次公開發行（IPO）巡迴路演，顯示AI獨角獸正加速邁向公開資本市場。",
+          "event_time": "2026-11-09T04:00:05+08:00",
+          "source_id": "6eb3b73d7dd98cab688f4d9947faaf3abe9b3351cf42b3799debbbc948fae4f0",
+          "source_detail": {
+            "id": "6eb3b73d7dd98cab688f4d9947faaf3abe9b3351cf42b3799debbbc948fae4f0",
+            "time": "2026-11-09T04:00:05+08:00",
+            "headline": "Anthropic to begin IPO roadshow next week: the information",
+            "link": "https://www.financialjuice.com/News/9842497/Anthropic-to-begin-IPO-roadshow-next-week-the-information.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "Anthropic簽署34億美元天然氣發電協議以供應資料中心",
+          "summary_zh": "Anthropic達成價值34億美元協議，將利用燃氣發電滿足資料中心龐大的電力需求，凸顯AI算力擴展對傳統能源依賴加深。",
+          "event_time": "2026-11-08T19:02:48+08:00",
+          "source_id": "713d6d2eb4f3d51e752f44aaf4cdca78466f04f24e73311c111a2ebbeab7566d",
+          "source_detail": {
+            "id": "713d6d2eb4f3d51e752f44aaf4cdca78466f04f24e73311c111a2ebbeab7566d",
+            "time": "2026-11-08T19:02:48+08:00",
+            "headline": "Anthropic secures $3.4bn agreement to produce gas-fired electricity for data centers - FT",
+            "link": "https://www.financialjuice.com/News/9842339/Anthropic-secures-34bn-agreement-to-produce-gas-fired-electricity-for-data-centers---FT.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 3,
-          "headline_zh": "烏克蘭國家石油天然氣公司設施徹夜遭俄軍三次打擊",
-          "summary_zh": "烏克蘭國家石油天然氣公司（Naftogaz）設施遭俄軍空襲受損，衝擊歐洲能源基礎設施穩定性及相關公用事業類股預期。",
-          "event_time": "2026-11-07T17:48:00+08:00",
-          "source_id": "97e31ae07104aad224133fc1032193980c370d920fa2bf654c80eb1ab340cb92",
+          "headline_zh": "日本煙草在俄羅斯所有實體遭納入臨時接管",
+          "summary_zh": "日本煙草（Japan Tobacco）宣布在俄羅斯的所有業務實體均已被俄方實施臨時接管，目前業務維持運作，公司正評估財務衝擊。",
+          "event_time": "2026-11-09T07:02:50+08:00",
+          "source_id": "07537fb67e434ff58b2734c62b1d7bf00f6539d4d79d7774efdccb4feb2e9d31",
           "source_detail": {
-            "id": "97e31ae07104aad224133fc1032193980c370d920fa2bf654c80eb1ab340cb92",
-            "time": "2026-11-07T17:48:00+08:00",
-            "headline": "Russian forces hit Naftogaz facility thrice overnight in central Ukraine: company",
-            "link": "https://www.financialjuice.com/News/9841898/Russian-forces-hit-Naftogaz-facility-thrice-overnight-in-central-Ukraine-company.aspx?xy=rss",
+            "id": "07537fb67e434ff58b2734c62b1d7bf00f6539d4d79d7774efdccb4feb2e9d31",
+            "time": "2026-11-09T07:02:50+08:00",
+            "headline": "Japan Tobacco Inc.: all JT group’s entities in Russia now under temporary administration",
+            "link": "https://www.financialjuice.com/News/9842562/Japan-Tobacco-Inc-all-JT-groups-entities-in-Russia-now-under-temporary-administration.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -46,16 +88,30 @@
       "category": "央行",
       "news": [
         {
-          "importance_score": 3,
-          "headline_zh": "中國央行公布10月底黃金儲備報3,064.1億美元，黃金儲備量增至7,830萬盎司",
-          "summary_zh": "中國央行數據顯示10月底外匯儲備微升至3.405兆美元，黃金持倉增至7,830萬金衡盎司，反映官方儲備持續多元化去美元化趨勢。",
-          "event_time": "2026-11-07T10:00:48+08:00",
-          "source_id": "cde1f51786d7af9b5f645e2d269868e85863789c8bb9892c03f9b5858918e31f",
+          "importance_score": 4,
+          "headline_zh": "澳洲央行助理總裁示警：AI恐推升近期通膨並帶來金融穩定風險",
+          "summary_zh": "澳洲央行（RBA）助理總裁杭特（Hunter）表示，短期內AI帶動的總需求將推升通膨；若AI投資回報不如預期，資產價格恐面臨劇烈且無序的修正，威脅金融穩定。",
+          "event_time": "2026-11-09T06:30:03+08:00",
+          "source_id": "f2c477159c6de18d1f5ae681b75cd3d1f28b10d1ac86dfe3066443ba075716db",
           "source_detail": {
-            "id": "cde1f51786d7af9b5f645e2d269868e85863789c8bb9892c03f9b5858918e31f",
-            "time": "2026-11-07T10:00:48+08:00",
-            "headline": "China's gold holdings 78.30 million fine troy oz at end-October vs 77.47 million at end-September: central bank",
-            "link": "https://www.financialjuice.com/News/9841689/Chinas-gold-holdings-7830-million-fine-troy-oz-at-end-October-vs-7747-million-at-end-September-central-bank.aspx?xy=rss",
+            "id": "f2c477159c6de18d1f5ae681b75cd3d1f28b10d1ac86dfe3066443ba075716db",
+            "time": "2026-11-09T06:30:03+08:00",
+            "headline": "RBA's Hunter: If returns to AI investment fall short, some asset prices could face sharp, possibly disorderly, adjustments",
+            "link": "https://www.financialjuice.com/News/9842548/RBAs-Hunter-If-returns-to-AI-investment-fall-short-some-asset-prices-could-face-sharp-possibly-disorderly-adjustments.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "澳洲央行：目前尚無充分證據顯示AI顯著提升生產力或衝擊就業",
+          "summary_zh": "澳洲央行杭特指出，在先進經濟體中，目前缺乏AI大幅提高整體生產力或對整體就業造成顯著衝擊的明確證據，長期對通膨影響可能偏向中性。",
+          "event_time": "2026-11-09T06:30:02+08:00",
+          "source_id": "f4b4ad6822b448bc0bd4d2da11de4519984f48519fab508b7c6a674b62ee50fc",
+          "source_detail": {
+            "id": "f4b4ad6822b448bc0bd4d2da11de4519984f48519fab508b7c6a674b62ee50fc",
+            "time": "2026-11-09T06:30:02+08:00",
+            "headline": "RBA's Hunter: limited proof AI has significantly boosted overall productivity",
+            "link": "https://www.financialjuice.com/News/9842546/RBAs-Hunter-limited-proof-AI-has-significantly-boosted-overall-productivity.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -67,233 +123,176 @@
     },
     {
       "category": "經濟",
-      "news": [
-        {
-          "importance_score": 4,
-          "headline_zh": "伊拉克石油部長表示該國原油產量已突破每日500萬桶",
-          "summary_zh": "伊拉克官方宣布產量超標突破500萬桶/日，凸顯OPEC+內部配額遵從度壓力，直接牽動全球原油供需預期。",
-          "event_time": "2026-11-07T18:43:21+08:00",
-          "source_id": "445b35cde0428c3ac3c32c241d24d41dd2100695e813caaf52027269e4b4c0b0",
-          "source_detail": {
-            "id": "445b35cde0428c3ac3c32c241d24d41dd2100695e813caaf52027269e4b4c0b0",
-            "time": "2026-11-07T18:43:21+08:00",
-            "headline": "Oil minister: Iraq output exceeds 5 million bpd - state news agency",
-            "link": "https://www.financialjuice.com/News/9841909/Oil-minister-Iraq-output-exceeds-5-million-bpd---state-news-agency.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "中美經貿牽頭人舉行視訊通話，同意繼續對話以維持穩定貿易關係",
-          "summary_zh": "中國國務院副總理何立峰與美方高層貝森特（Bessent）及格里爾（Greer）通話，中方表達對貿易限制關切，雙方同意維持經貿磋商溝通。",
-          "event_time": "2026-11-07T09:01:08+08:00",
-          "source_id": "3ec4496f41ace12800cf352df330ad3ee8b8d80d870a6556efca9af36011e820",
-          "source_detail": {
-            "id": "3ec4496f41ace12800cf352df330ad3ee8b8d80d870a6556efca9af36011e820",
-            "time": "2026-11-07T09:01:08+08:00",
-            "headline": "China, U.S. agree to continue talks to maintain stable, positive trade ties - Xinhua",
-            "link": "https://www.financialjuice.com/News/9841637/China-US-agree-to-continue-talks-to-maintain-stable-positive-trade-ties---Xinhua.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        }
-      ]
+      "news": []
     },
     {
       "category": "戰爭",
       "news": [
         {
           "importance_score": 5,
-          "headline_zh": "英國海事貿易行動辦公室報告阿曼灣貨船與軍事力量發生衝突事件",
-          "summary_zh": "UKMTO通報阿聯霍爾法坎外海商船與軍事部隊發生接觸衝突，商船損害及受損情況不明，航運保費面臨跳增。",
-          "event_time": "2026-11-08T05:31:21+08:00",
-          "source_id": "49f9b92d79e845f47436d603fb542634c69a788b3f4e67f3cbe9dd8c03248551",
+          "headline_zh": "川普談伊朗情勢：若談判順利推進，美國極不可能重返戰爭",
+          "summary_zh": "川普（Trump）表示，若與伊朗的談判（negotiations）能順利展開，美國重啟戰端是「極不可能的」，為緊繃的地緣局勢帶來降溫預期。",
+          "event_time": "2026-11-09T01:34:08+08:00",
+          "source_id": "dda3890b47ead6723a2d0cb6706d1d78f03d4550bab8aaaaa0d173ccf1b80716",
           "source_detail": {
-            "id": "49f9b92d79e845f47436d603fb542634c69a788b3f4e67f3cbe9dd8c03248551",
-            "time": "2026-11-08T05:31:21+08:00",
-            "headline": "UKMTO reports incident between bulk carrier and military forces in Gulf of Oman near Khor Fakkan, UAE",
-            "link": "https://www.financialjuice.com/News/9842140/UKMTO-reports-incident-between-bulk-carrier-and-military-forces-in-Gulf-of-Oman-near-Khor-Fakkan-UAE.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 5,
-          "headline_zh": "伊朗伊斯蘭革命衛隊海軍稱兩艘油輪在荷姆茲海峽附近觸雷",
-          "summary_zh": "伊朗官方證實重要原油運輸咽喉荷姆茲海峽（Strait of Hormuz）發生油輪水雷爆炸事件，航運風險急遽惡化並推升油價地緣溢價。",
-          "event_time": "2026-11-08T05:11:04+08:00",
-          "source_id": "ca87dd9db9931b94675b04c9583479d21e229fa55d606d5aaf5c2ff91def855a",
-          "source_detail": {
-            "id": "ca87dd9db9931b94675b04c9583479d21e229fa55d606d5aaf5c2ff91def855a",
-            "time": "2026-11-08T05:11:04+08:00",
-            "headline": "Iran's IRGC navy: two oil tankers struck mines near Strait of Hormuz - Iranian state TV",
-            "link": "https://www.financialjuice.com/News/9842134/Irans-IRGC-navy-two-oil-tankers-struck-mines-near-Strait-of-Hormuz---Iranian-state-TV.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 5,
-          "headline_zh": "美軍中央司令部證實於阿曼灣使一艘商船失去行動能力",
-          "summary_zh": "美軍中央司令部（CENTCOM）在關鍵水域阿曼灣（Gulf of Oman）採取軍事執法阻截商船行動，海上軍事封鎖風險全面上升。",
-          "event_time": "2026-11-08T04:36:31+08:00",
-          "source_id": "715b585258ce0f2d4ac4d958d1c765d5046f852aabc720cd05b837ac9061f02e",
-          "source_detail": {
-            "id": "715b585258ce0f2d4ac4d958d1c765d5046f852aabc720cd05b837ac9061f02e",
-            "time": "2026-11-08T04:36:31+08:00",
-            "headline": "US Central Command: Forces disabled commercial ship in Gulf of Oman Saturday",
-            "link": "https://www.financialjuice.com/News/9842125/US-Central-Command-Forces-disabled-commercial-ship-in-Gulf-of-Oman-Saturday.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 5,
-          "headline_zh": "川普表示正與伊朗進行談判，將觀察局勢後續發展",
-          "summary_zh": "美國總統川普公開證實美伊雙方正展開談判，釋出關鍵外交降溫訊號，對油價及全球風險資產具關鍵影響。",
-          "event_time": "2026-11-07T08:29:07+08:00",
-          "source_id": "3ca39e2fe05d3b6a1ef8c2e6be708ccc8d9b1d3661f2fcd757d21ca4293f62fd",
-          "source_detail": {
-            "id": "3ca39e2fe05d3b6a1ef8c2e6be708ccc8d9b1d3661f2fcd757d21ca4293f62fd",
-            "time": "2026-11-07T08:29:07+08:00",
-            "headline": "Trump: negotiating with Iranians, will see how that plays out",
-            "link": "https://www.financialjuice.com/News/9841617/Trump-negotiating-with-Iranians-will-see-how-that-plays-out.aspx?xy=rss",
+            "id": "dda3890b47ead6723a2d0cb6706d1d78f03d4550bab8aaaaa0d173ccf1b80716",
+            "time": "2026-11-09T01:34:08+08:00",
+            "headline": "Trump on Iran: ‘highly improbable’ US will return to war if negotiations proceed – CNN",
+            "link": "https://www.financialjuice.com/News/9842459/Trump-on-Iran-highly-improbable-US-will-return-to-war-if-negotiations-proceed--CNN.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 4,
-          "headline_zh": "土耳其總統艾爾段致電川普，強調美伊緊張必須透過外交途徑解決",
-          "summary_zh": "艾爾段（Erdogan）與川普通話，承諾安卡拉將持續為美伊衝突及烏克蘭和平發揮外交斡旋作用。",
-          "event_time": "2026-11-08T01:42:12+08:00",
-          "source_id": "9e859060f9b8997a9afa8f375363b7ebad8867b412f93bb44cdf733470058639",
+          "headline_zh": "伊拉克科爾莫爾天然氣田遭無人機襲擊，生產全面中斷",
+          "summary_zh": "伊拉克庫德自治區科爾莫爾（Khor Mor）氣田儲氣槽遭裝載炸藥的無人機襲擊起火，生產全面暫停，導致電網瞬間損失近2.8 GW電力。",
+          "event_time": "2026-11-09T04:30:32+08:00",
+          "source_id": "eb84ea840f06cd1e4233e2e69fb8159b5de2c93c02df7e01124bdfac4cc173bd",
           "source_detail": {
-            "id": "9e859060f9b8997a9afa8f375363b7ebad8867b412f93bb44cdf733470058639",
-            "time": "2026-11-08T01:42:12+08:00",
-            "headline": "Erdogan tells Trump US-Iran tensions must be settled diplomatically, Ankara will persist in peace efforts, Erdogan's office says",
-            "link": "https://www.financialjuice.com/News/9842063/Erdogan-tells-Trump-US-Iran-tensions-must-be-settled-diplomatically-Ankara-will-persist-in-peace-efforts-Erdogans-office-says.aspx?xy=rss.",
+            "id": "eb84ea840f06cd1e4233e2e69fb8159b5de2c93c02df7e01124bdfac4cc173bd",
+            "time": "2026-11-09T04:30:32+08:00",
+            "headline": "Production operations halted at Iraq's Khor Mor gas field after drone strike: security sources",
+            "link": "https://www.financialjuice.com/News/9842513/Production-operations-halted-at-Iraqs-Khor-Mor-gas-field-after-drone-strike-security-sources.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 4,
-          "headline_zh": "葉門胡塞武裝宣稱發動攻擊沙烏地利雅德機場及奈季蘭國民警衛隊軍營",
-          "summary_zh": "胡塞武裝對沙烏地重要樞紐及軍事目標發射飛彈與無人機，沙國防空部隊攔截多枚巡弋飛彈並數度發布空襲威脅警報。",
-          "event_time": "2026-11-07T23:32:56+08:00",
-          "source_id": "6f572823fd59663ba6ea7e693a8eebff2ad1b2aee6d363d0f12242c55ff86849",
+          "headline_zh": "伊朗外長：美國大選結果暫停調解人努力，須等待外交進程重啟",
+          "summary_zh": "伊朗外交部長阿拉奇（Araghchi）指出，美國大選結果導致調解人（mediators）工作暫停，各方必須等待調解人重新啟動外交進程。",
+          "event_time": "2026-11-09T02:54:01+08:00",
+          "source_id": "ae1e02cbb61b189b81590f04988a9dfc3591afd7ff174cb12ac7cf73c668cd2c",
           "source_detail": {
-            "id": "6f572823fd59663ba6ea7e693a8eebff2ad1b2aee6d363d0f12242c55ff86849",
-            "time": "2026-11-07T23:32:56+08:00",
-            "headline": "Yemen's Houthis say they struck Riyadh airport; no Saudi confirmation",
-            "link": "https://www.financialjuice.com/News/9842030/Yemens-Houthis-say-they-struck-Riyadh-airport-no-Saudi-confirmation.aspx?xy=rss",
+            "id": "ae1e02cbb61b189b81590f04988a9dfc3591afd7ff174cb12ac7cf73c668cd2c",
+            "time": "2026-11-09T02:54:01+08:00",
+            "headline": "Iran's Foreign Minister Aragchi: US election outcomes pause mediators' efforts",
+            "link": "https://www.financialjuice.com/News/9842482/Irans-Foreign-Minister-Aragchi-US-election-outcomes-pause-mediators-efforts.aspx",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 4,
-          "headline_zh": "美軍擴大對伊封鎖：組建特遣隊加強限制伊朗使用陸路及裏海通道",
-          "summary_zh": "美軍將海軍封鎖行動升級為陸路及裏海多維度封鎖網絡，旨在全面切斷伊朗戰略物流與能源外運路線。",
-          "event_time": "2026-11-07T21:24:10+08:00",
-          "source_id": "c7283b62d111108adda409687e291fd95cec688d242e2ab9c395570a59fb7749",
+          "headline_zh": "美國財政部要求伊拉克關閉絕大多數對伊朗過境點",
+          "summary_zh": "伊拉克外長透露，美國財政部要求伊拉克關閉多數與伊朗的邊界過境點，僅保留兩處，旨在收緊對伊朗的經濟封鎖與制裁迴避監管。",
+          "event_time": "2026-11-09T02:38:54+08:00",
+          "source_id": "4af926108e4c7a431e0a23ad0b802b844f89118ac80816f377e6bfc2e38d0672",
           "source_detail": {
-            "id": "c7283b62d111108adda409687e291fd95cec688d242e2ab9c395570a59fb7749",
-            "time": "2026-11-07T21:24:10+08:00",
-            "headline": "Expanding on naval blockade: US military to form task force to strengthen efforts restricting Iran's use of land routes and Caspian Sea, statement",
-            "link": "https://www.financialjuice.com/News/9841969/Expanding-on-naval-blockade-US-military-to-form-task-force-to-strengthen-efforts-restricting-Irans-use-of-land-routes-and-Caspian-Sea-statement.aspx?xy=rss",
+            "id": "4af926108e4c7a431e0a23ad0b802b844f89118ac80816f377e6bfc2e38d0672",
+            "time": "2026-11-09T02:38:54+08:00",
+            "headline": "US Treasury asked Iraq to shut most border crossings with Iran, keep just two open: Iraqi foreign minister tells Al Jazeera",
+            "link": "https://www.financialjuice.com/News/9842480/US-Treasury-asked-Iraq-to-shut-most-border-crossings-with-Iran-keep-just-two-open-Iraqi-foreign-minister-tells-Al-Jazeera.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 4,
-          "headline_zh": "伊朗海軍證實一艘油輪在荷姆茲海峽東部起火",
-          "summary_zh": "荷姆茲海峽東部海域再度發生油輪燃燒事件，使中東戰區海上通航安全危機再度升高。",
-          "event_time": "2026-11-07T17:59:53+08:00",
-          "source_id": "f9ad524f3550f9fdfd914c160424c741512325eff899e7ed5e5286c99ce51372",
+          "headline_zh": "荷姆茲海峽東部油輪觸雷起火",
+          "summary_zh": "伊朗海軍證實，一艘油輪在荷姆茲海峽（Strait of Hormuz）東側撞擊水雷後起火燃燒，凸顯全球關鍵原油咽喉航道的安全威脅再度升級。",
+          "event_time": "2026-11-09T00:43:57+08:00",
+          "source_id": "aaa8b22774da2e3cfb6bd35ada04996c67a50abd85c21f3b6dd5737f040a6b13",
           "source_detail": {
-            "id": "f9ad524f3550f9fdfd914c160424c741512325eff899e7ed5e5286c99ce51372",
-            "time": "2026-11-07T17:59:53+08:00",
-            "headline": "Iran navy: oil tanker ignites in eastern Strait of Hormuz - Iranian media",
-            "link": "https://www.financialjuice.com/News/9841901/Iran-navy-oil-tanker-ignites-in-eastern-Strait-of-Hormuz---Iranian-media.aspx?xy=rss",
+            "id": "aaa8b22774da2e3cfb6bd35ada04996c67a50abd85c21f3b6dd5737f040a6b13",
+            "time": "2026-11-09T00:43:57+08:00",
+            "headline": "Iran navy: oil tanker ignites after hitting naval mine east of Strait of Hormuz - Iranian media",
+            "link": "https://www.financialjuice.com/News/9842446/Iran-navy-oil-tanker-ignites-after-hitting-naval-mine-east-of-Strait-of-Hormuz---Iranian-media.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 4,
-          "headline_zh": "俄軍徹夜向烏克蘭發射36枚彈道飛彈及172架無人機猛烈打擊能源設施",
-          "summary_zh": "澤倫斯基（Zelenskiy）指控俄軍對基輔周邊及全境能源樞紐發動大規模空襲，使冬季前夕烏克蘭供電基礎設施遭受重大損壞。",
-          "event_time": "2026-11-07T16:36:20+08:00",
-          "source_id": "bcdf901bf55e630076cc539254b8688b363ca538dc3c9e83a528ed3c25df3a56",
+          "headline_zh": "青年運動宣稱襲擊沙國阿美儲油庫與機場，沙國能源部證實阿美大樓受波及",
+          "summary_zh": "葉門青年運動（Houthis）宣稱襲擊利雅德哈立德國王國際機場及沙烏地阿美（Aramco）設施。沙國能源部證實殘骸墜落利雅德阿美大樓，造成局部損害但無傷亡。",
+          "event_time": "2026-11-08T17:42:39+08:00",
+          "source_id": "7c540b87588110830d1f28fe3f9f56137075066992bc1a6fb23ba9a65dcf7d2b",
           "source_detail": {
-            "id": "bcdf901bf55e630076cc539254b8688b363ca538dc3c9e83a528ed3c25df3a56",
-            "time": "2026-11-07T16:36:20+08:00",
-            "headline": "Russia launched 36 ballistic missiles and 172 drones at Ukraine overnight, mainly targeting energy facilities: Zelenskiy",
-            "link": "https://www.financialjuice.com/News/9841882/Russia-launched-36-ballistic-missiles-and-172-drones-at-Ukraine-overnight-mainly-targeting-energy-facilities-Zelenskiy.aspx?xy=rss",
+            "id": "7c540b87588110830d1f28fe3f9f56137075066992bc1a6fb23ba9a65dcf7d2b",
+            "time": "2026-11-08T17:42:39+08:00",
+            "headline": "Saudi energy ministry: attempt to strike Aramco building in Riyadh - state TV",
+            "link": "https://www.financialjuice.com/News/9842315/Saudi-energy-ministry-attempt-to-strike-Aramco-building-in-Riyadh---state-TV.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 4,
-          "headline_zh": "俄羅斯公布美俄烏三方會談代表團成員名單",
-          "summary_zh": "克里姆林宮透露將派出梅丁斯基（Medinsky）及副外長里亞布科夫（Ryabkov）等資深外交軍事官員參與三方談判，市場密切關注和平協議曙光。",
-          "event_time": "2026-11-07T15:29:26+08:00",
-          "source_id": "2c74a454d3cc760857f23dae73484e6842e464fc2d4e94a7708863bb76036145",
+          "headline_zh": "沙烏地聯軍攔截多枚青年運動彈道飛彈及巡弋飛彈並發動反擊",
+          "summary_zh": "沙烏地阿拉伯防空部隊在利雅德與東部地區攔截摧毀多枚青年運動發射的彈道飛彈與巡弋飛彈，聯軍隨後在葉門薩達與沙那摧毀發射架。",
+          "event_time": "2026-11-08T13:33:40+08:00",
+          "source_id": "5b2158261a8bb71dcda36783e9537afbf7ce8f9d56aa3aa0e165793fef0218f0",
           "source_detail": {
-            "id": "2c74a454d3cc760857f23dae73484e6842e464fc2d4e94a7708863bb76036145",
-            "time": "2026-11-07T15:29:26+08:00",
-            "headline": "Russia's delegation at trilateral meeting with US and Ukraine to include Medinsky, Ryabkov, Galuzin, Kostyukov, and Zhigarlovsky: IFX cites Kremlin",
-            "link": "https://www.financialjuice.com/News/9841862/Russias-delegation-at-trilateral-meeting-with-US-and-Ukraine-to-include-Medinsky-Ryabkov-Galuzin-Kostyukov-and-Zhigarlovsky-IFX-cites-Kremlin.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "卡達總理表示正持續進行外交斡旋，防止美伊局勢失控",
-          "summary_zh": "居間協調的卡達總理表示已取得諸多進展並認為達成和解是可能的，強調地區無法承受再次升級代價。",
-          "event_time": "2026-11-07T08:51:21+08:00",
-          "source_id": "f6c8d2b7480fa063012100d08dfcafcddce87789b8456b2d4fd3523ea2b79f7c",
-          "source_detail": {
-            "id": "f6c8d2b7480fa063012100d08dfcafcddce87789b8456b2d4fd3523ea2b79f7c",
-            "time": "2026-11-07T08:51:21+08:00",
-            "headline": "Qatar's PM: Mediation efforts continue to prevent situation from spiraling out of control - Al Jazeera TV",
-            "link": "https://www.financialjuice.com/News/9841630/Qatars-PM-Mediation-efforts-continue-to-prevent-situation-from-spiraling-out-of-control---Al-Jazeera-TV.aspx?xy=rss",
+            "id": "5b2158261a8bb71dcda36783e9537afbf7ce8f9d56aa3aa0e165793fef0218f0",
+            "time": "2026-11-08T13:33:40+08:00",
+            "headline": "Saudi-led coalition: intercepts and destroys two missiles launched by Houthis toward Riyadh",
+            "link": "https://www.financialjuice.com/News/9842276/Saudi-led-coalition-intercepts-and-destroys-two-missiles-launched-by-Houthis-toward-Riyadh.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 3,
-          "headline_zh": "伊朗南部港口城市賈斯克、阿巴斯港及格什姆島多處傳出爆炸聲響",
-          "summary_zh": "伊朗南部鄰近荷姆茲海峽之軍事與航運樞紐傳出連續爆炸，官媒報導可能與伊朗在海峽進行的軍事行動有關。",
-          "event_time": "2026-11-08T04:13:51+08:00",
-          "source_id": "ad09d46facd0083cc49ecd8ee9770055d9c9e76c2213f9b48964f471ee521ab9",
+          "headline_zh": "伊朗格什姆島傳出爆炸聲響，官方尚未證實",
+          "summary_zh": "伊朗官媒IRNA報導鄰近荷姆茲海峽的格什姆島（Qeshm Island）傳出爆炸聲響，德黑蘭當局尚未提出官方說明。",
+          "event_time": "2026-11-09T03:30:14+08:00",
+          "source_id": "62e7100a7d7f7fb75691d29480e8402d3bd8d2b7c4c89e716ac774a54690cdb0",
           "source_detail": {
-            "id": "ad09d46facd0083cc49ecd8ee9770055d9c9e76c2213f9b48964f471ee521ab9",
-            "time": "2026-11-08T04:13:51+08:00",
-            "headline": "Explosions heard in Jask, Sirik, Bandar Abbas and Geshm in southern Iran: Iranian state TV",
-            "link": "https://www.financialjuice.com/News/9842107/Explosions-heard-in-Jask-Sirik-Bandar-Abbas-and-Geshm-in-southern-Iran-Iranian-state-TV.aspx?xy=rss",
+            "id": "62e7100a7d7f7fb75691d29480e8402d3bd8d2b7c4c89e716ac774a54690cdb0",
+            "time": "2026-11-09T03:30:14+08:00",
+            "headline": "IRNA: blasts heard on Iran’s Qeshm Island; no official confirmation from Tehran",
+            "link": "https://www.financialjuice.com/News/9842490/IRNA-blasts-heard-on-Irans-Qeshm-Island-no-official-confirmation-from-Tehran.aspx",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 3,
-          "headline_zh": "以色列總統授權納坦雅胡對手埃森科特負責籌組新政府",
-          "summary_zh": "前參謀總長埃森科特（Gadi Eisenkot）獲組閣授權，以色列政局變動或對中東軍事行動與對外停火談判走向產生關鍵轉折。",
-          "event_time": "2026-11-08T03:26:32+08:00",
-          "source_id": "e47fafbe9b072a0c95d58e7c8efead3a2579b1a0daf5a8c18b81553d9752a79a",
+          "headline_zh": "札波羅熱核電廠外部電力一度中斷，後續已恢復供電",
+          "summary_zh": "國際原子能總署（IAEA）通報札波羅熱核電廠（ZnPP）一度失去唯一外部電力依賴柴油發電機冷卻，隨後電力已成功修復恢復供應。",
+          "event_time": "2026-11-09T02:59:57+08:00",
+          "source_id": "67e4b4416258e1a0b1153591df323d7ae83d3d34679689ee08bb8bcf0f2042a2",
           "source_detail": {
-            "id": "e47fafbe9b072a0c95d58e7c8efead3a2579b1a0daf5a8c18b81553d9752a79a",
-            "time": "2026-11-08T03:26:32+08:00",
-            "headline": "Israeli president selects Gadi Eisenkot, Netanyahu rival, to form government: Israeli media",
-            "link": "https://www.financialjuice.com/News/9842096/Israeli-president-selects-Gadi-Eisenkot-Netanyahu-rival-to-form-government-Israeli-media.aspx",
+            "id": "67e4b4416258e1a0b1153591df323d7ae83d3d34679689ee08bb8bcf0f2042a2",
+            "time": "2026-11-09T02:59:57+08:00",
+            "headline": "IAEA: power restored to Zaporizhzhya nuclear plant",
+            "link": "https://www.financialjuice.com/News/9842484/IAEA-power-restored-to-Zaporizhzhya-nuclear-plant.aspx",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 3,
-          "headline_zh": "敘利亞與沙烏地軍事合作升溫，外交人士透露未來可能演變為共同防禦協定",
-          "summary_zh": "敘利亞消息人士證實正深化與沙烏地阿拉伯之軍事培訓與防務合作，未來可能納入集體防衛架構，牽動中東阿拉伯陣營地緣板塊重組。",
-          "event_time": "2026-11-07T23:31:48+08:00",
-          "source_id": "0920859238a3284235e85d1695b5902beb564162ab5c073d5166e1f28b425dbf",
+          "headline_zh": "伊朗革命衛隊：美方無法實現經濟封鎖或切斷伊朗鄰國關係",
+          "summary_zh": "伊朗伊斯蘭革命衛隊發言人強硬回應美方封鎖意圖，表示美國絕不可能實現對德黑蘭的經濟封鎖或斬斷與周邊國家的外交連結。",
+          "event_time": "2026-11-08T17:42:44+08:00",
+          "source_id": "34ebf9072438db1b205e60f2509c6c9543ec0aa41ead2f9a5140a5e0dbb21a71",
           "source_detail": {
-            "id": "0920859238a3284235e85d1695b5902beb564162ab5c073d5166e1f28b425dbf",
-            "time": "2026-11-07T23:31:48+08:00",
-            "headline": "Syrian-Saudi military cooperation could evolve into mutual defense pact or Syria joining Mecca defense accord: Syrian diplomatic source to SANA",
-            "link": "https://www.financialjuice.com/News/9842029/Syrian-Saudi-military-cooperation-could-evolve-into-mutual-defense-pact-or-Syria-joining-Mecca-defense-accord-Syrian-diplomatic-source-to-SANA.aspx?xy=rss",
+            "id": "34ebf9072438db1b205e60f2509c6c9543ec0aa41ead2f9a5140a5e0dbb21a71",
+            "time": "2026-11-08T17:42:44+08:00",
+            "headline": "Iran's Revolutionary Guards' spokesperson: US cannot achieve economic blockade or sever Tehran's ties with neighbors - Fars",
+            "link": "https://www.financialjuice.com/News/9842318/Irans-Revolutionary-Guards-spokesperson-US-cannot-achieve-economic-blockade-or-sever-Tehrans-ties-with-neighbors---Fars.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 2,
+          "headline_zh": "歐洲各國將在阿布達比參與烏克蘭問題討論",
+          "summary_zh": "法國外交部長巴羅（Barrot）表示，歐洲各國代表將在阿布達比參與有關烏克蘭問題的國際磋商討論。",
+          "event_time": "2026-11-08T19:39:49+08:00",
+          "source_id": "0765ca6c713d5bb7e30763fd112b94ae749a3f61ef06e7300324a820abaf0ba3",
+          "source_detail": {
+            "id": "0765ca6c713d5bb7e30763fd112b94ae749a3f61ef06e7300324a820abaf0ba3",
+            "time": "2026-11-08T19:39:49+08:00",
+            "headline": "French foreign minister Barrot: Europeans to join Ukraine discussions in Abu Dhabi",
+            "link": "https://www.financialjuice.com/News/9842345/French-foreign-minister-Barrot-Europeans-to-join-Ukraine-discussions-in-Abu-Dhabi.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 2,
+          "headline_zh": "以色列北部防空警報證實為誤判",
+          "summary_zh": "以色列軍方針對北部發布的敵對飛行器入侵警報展開調查後，證實為雷達系統虛警誤判。",
+          "event_time": "2026-11-08T12:35:51+08:00",
+          "source_id": "c84b15d6bb9944f52891f6a8ec5067738577dae7a0dafe0242c63d8f2997e698",
+          "source_detail": {
+            "id": "c84b15d6bb9944f52891f6a8ec5067738577dae7a0dafe0242c63d8f2997e698",
+            "time": "2026-11-08T12:35:51+08:00",
+            "headline": "Israeli military: hostile aircraft alerts in the north were false identification",
+            "link": "https://www.financialjuice.com/News/9842254/Israeli-military-hostile-aircraft-alerts-in-the-north-were-false-identification.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -301,29 +300,27 @@
     }
   ],
   "discarded": {
-    "estimated_count": 55,
+    "estimated_count": 48,
     "reasons": [
-      "紐西蘭國會大選點票細節與政治人物表態，對全球金融市場無直接系統性影響",
-      "白宮發布航太展計畫、川普內閣及人事任命（如白宮發言人人選）等非經濟財政之內政新聞",
-      "川普要求司法部調查政敵等純國內政治爭端",
-      "重複報導之沙烏地民防空襲警報發布與解除資訊（已在戰爭類別彙整核心攻擊）",
-      "香港立法會譴責外國政府等對市場無重大實質影響之政治口水表態",
-      "歐洲央行（ECB）僅提及釋出日媒採訪預告，無任何具體貨幣政策或利率指引內容"
+      "重複報導之細節快訊與零碎更新（沙烏地民防多次防空預警及威脅解除提示、IAEA零碎細節補充、伊拉克氣田起火黑煙細節）",
+      "輝達董事會調查系列之重複公關表態與無實質新意之快訊",
+      "對市場影響甚微且無直接地緣衝擊之零星地方政治事件（蘇丹政客遭拘留、伊朗處決示威分子、以色列個別議員呼籲組閣）",
+      "純技術產品發布或無實質宏觀影響之小公告（OpenAI Hacktron模型擴展）"
     ]
   },
-  "generated_at": "2026-11-08T07:40:35.256910+08:00",
+  "generated_at": "2026-11-09T07:40:35.489769+08:00",
   "model": "gemini-3.8-flash",
   "source": "FinancialJuice",
-  "input_headline_count": 72,
-  "included_headline_count": 72,
+  "input_headline_count": 68,
+  "included_headline_count": 68,
   "usage_metadata": {
-    "promptTokenCount": 9495,
-    "candidatesTokenCount": 4410,
-    "totalTokenCount": 13905,
+    "promptTokenCount": 8928,
+    "candidatesTokenCount": 4340,
+    "totalTokenCount": 13268,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 9495
+        "tokenCount": 8928
       }
     ],
     "serviceTier": "standard"
