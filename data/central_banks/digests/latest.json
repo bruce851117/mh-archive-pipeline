@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-09T07:40:35.489769+08:00",
+  "generated_at": "2026-11-10T07:40:32.508959+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-08-11T07:40:35.489769+08:00",
-  "period_end": "2026-11-09T07:40:35.489769+08:00",
+  "period_start": "2026-08-12T07:40:32.508959+08:00",
+  "period_end": "2026-11-10T07:40:32.508959+08:00",
   "lookback_days": 90,
   "voter_version": "2026-09-09",
   "model": "gemini-3.8-flash",
-  "input_headline_count": 3551,
-  "talk_count": 268,
+  "input_headline_count": 3540,
+  "talk_count": 269,
   "central_banks": [
     {
       "central_bank": "FED",
@@ -4228,6 +4228,64 @@
           "voter": false,
           "talks": [
             {
+              "date": "2026-11-09",
+              "summary_zh": "指出就業與經濟增長相當穩定，消費支出為主要驅動力，但服務業通膨抬頭，資料中心呈現傳統過熱跡象，必須正視通膨未能達標的重大問題。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "e15ec1e558fad0b8637be7337983ae4b0753176237e9da5b43795a1a14d66536",
+                "a21422294905febd00fada8bf35328dbcf73b81baced9d1c11028588f78e571b",
+                "aa64e8172deab178b70ec26b70009b477e2765bc17ba0ddecd127272c768e943",
+                "c08c7f0dec2f62aa1c59c600abfb06ce2ae6893f8813a1582162d08f7196166b",
+                "865dfffa0f94eacfa2b7527dd62b1babe959dbf090899b07620ce40206189a32",
+                "0e27a930ccaf579666a95ab878b2feb05715596dc00d5ff2d9cd002bc36c32bd"
+              ],
+              "source_headlines": [
+                {
+                  "id": "e15ec1e558fad0b8637be7337983ae4b0753176237e9da5b43795a1a14d66536",
+                  "time": "2026-11-09T23:23:22+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Goolsbee: Employment and growth are actually pretty stable."
+                },
+                {
+                  "id": "a21422294905febd00fada8bf35328dbcf73b81baced9d1c11028588f78e571b",
+                  "time": "2026-11-09T23:23:44+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Goolsbee: Big problem has all been on the inflation side."
+                },
+                {
+                  "id": "aa64e8172deab178b70ec26b70009b477e2765bc17ba0ddecd127272c768e943",
+                  "time": "2026-11-09T23:24:07+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Goolsbee: We've got to come to terms with inflation failure"
+                },
+                {
+                  "id": "c08c7f0dec2f62aa1c59c600abfb06ce2ae6893f8813a1582162d08f7196166b",
+                  "time": "2026-11-09T23:25:30+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Goolsbee: Starting to see inflation kicking up in services."
+                },
+                {
+                  "id": "865dfffa0f94eacfa2b7527dd62b1babe959dbf090899b07620ce40206189a32",
+                  "time": "2026-11-09T23:26:12+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Goolsbee: Data centers looking like old-fashioned overheating."
+                },
+                {
+                  "id": "0e27a930ccaf579666a95ab878b2feb05715596dc00d5ff2d9cd002bc36c32bd",
+                  "time": "2026-11-09T23:27:53+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Goolsbee: Consumer spending has been main driver of growth"
+                }
+              ]
+            },
+            {
               "date": "2026-10-16",
               "summary_zh": "指出單月通膨令人失望，但若推升因素消退仍樂觀，若因AI引發需求過熱則更令人擔憂且須應對。",
               "topics": {
@@ -5139,43 +5197,6 @@
                   "headline": "Fed's Goolsbee: US economy remains stable"
                 }
               ]
-            },
-            {
-              "date": "2026-08-12",
-              "summary_zh": "表示通膨是經濟面臨的最大問題，就業市場保持穩定但未達良好狀態，消費健康將支撐經濟發展。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "f0452ef71e49fd98f5bc3d7111c5c305da4236974a995a814a4a04bce5dcc305",
-                "e9248e2f74aa7a33c1880520a10d2c36d643839b15c13fcd6b16d707b3e85b3e",
-                "b803cfbde06ee4ba4a1f7bb438e78d737c80bb21bb3ddeb91cea77e3d77245a5"
-              ],
-              "source_headlines": [
-                {
-                  "id": "f0452ef71e49fd98f5bc3d7111c5c305da4236974a995a814a4a04bce5dcc305",
-                  "time": "2026-08-12T00:11:43+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Goolsbee: Indicators say labor market stable without being good."
-                },
-                {
-                  "id": "e9248e2f74aa7a33c1880520a10d2c36d643839b15c13fcd6b16d707b3e85b3e",
-                  "time": "2026-08-12T00:16:46+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Goolsbee: As long as consumer remains healthy, economy will too."
-                },
-                {
-                  "id": "b803cfbde06ee4ba4a1f7bb438e78d737c80bb21bb3ddeb91cea77e3d77245a5",
-                  "time": "2026-08-12T00:17:04+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Goolsbee: Biggest problem facing economy right now is inflation."
-                }
-              ]
             }
           ]
         },
@@ -5187,6 +5208,148 @@
           "active": true,
           "voter": false,
           "talks": [
+            {
+              "date": "2026-11-10",
+              "summary_zh": "表示經濟與就業穩定但主要風險在通膨與成本轉嫁，當前政策利率接近或略低於中性，貨幣政策方向明確但應審慎行事，12月會議尚無基準預期。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "c2d3be2a468497fc77bea3b3b6be9fc32b3fbb87321c16695365961f82320790",
+                "7222fdc7f0932eba57c884fa2099b5f871f96e5f632d055cb3cc5f1658d606f5",
+                "ca31e18ab38d7ed49eb0186e755a7be09f9a1f011f6298083b183c577097b749",
+                "980f4f66c2ea3711f4599b9e2b2fbe3f15789eb1b2173ae2292b3e92deb59983",
+                "343a14c07c1dd9049e03c97fde40a03cdbb10382d7bf9ef44c44058f29b7bed7",
+                "57e686a3c1821e91f11891420a8dcd052e7ed0c54a4bb7729ec25c1f736b1a8b",
+                "3976f9b715a40d4e296ce5f67bb2ecd857f51add5d7fb20278a9d07507369102",
+                "4f62d0836e07a9e0bc396c3757178c9fc090911e25acc9c0ea0b5fa4333d7534",
+                "45b1acfa6193b0a6bff8368affa5bbae7a575ed0cd07e9867d3616a9ae8e029f",
+                "f950117362adb4037ac11e8ee162e2580fb640030e552757b55421d688d5a544",
+                "6f4d6d28b4dadfcaee6481630dfbc7cd1565f729b32c6b33ebd5eca3e494d430",
+                "3754a600ec4d89728ded4873feb7e091db8c3bea5d729f348b7a0a468731d022",
+                "aa396092c8c885a6260ac4bfa81541c80bb4f0e59e9048c5ffce669bcb2813dc",
+                "8cc7467b700bffef262f9c9e4ce79640c44ffda52c5043670483610aa1c9a3ac",
+                "4dd652f4ca37d5bcb074e56a8c7c2cfef3042336da83f48c1fbcdf24f87c5945",
+                "0fe15d9eac413563bcb4a28aecd5e1dadb5075aa060fabb845181e125e5e5832",
+                "3929cb67236aac7abd9c9845acde0ee997739f15abb0b71f7e750aa17234735d",
+                "9a733e9174d0932056466968bbea1428575916ed894243014dfcd7c69dd8a00f"
+              ],
+              "source_headlines": [
+                {
+                  "id": "c2d3be2a468497fc77bea3b3b6be9fc32b3fbb87321c16695365961f82320790",
+                  "time": "2026-11-10T01:04:09+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Barkin: Risk lies on the inflation side of the us central bank's mandate"
+                },
+                {
+                  "id": "7222fdc7f0932eba57c884fa2099b5f871f96e5f632d055cb3cc5f1658d606f5",
+                  "time": "2026-11-10T01:04:16+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Barkin: Direction of monetary policy is ‘straightforward; but best to move policy 'with care’"
+                },
+                {
+                  "id": "ca31e18ab38d7ed49eb0186e755a7be09f9a1f011f6298083b183c577097b749",
+                  "time": "2026-11-10T01:04:23+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Barkin: US economy is ‘remarkably stable’"
+                },
+                {
+                  "id": "980f4f66c2ea3711f4599b9e2b2fbe3f15789eb1b2173ae2292b3e92deb59983",
+                  "time": "2026-11-10T01:04:30+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Barkin: Resilient demand alongside broad-based cost increases putting upward pressure on prices."
+                },
+                {
+                  "id": "343a14c07c1dd9049e03c97fde40a03cdbb10382d7bf9ef44c44058f29b7bed7",
+                  "time": "2026-11-10T01:04:37+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Barkin: Firms say they will be trying to pass on higher costs"
+                },
+                {
+                  "id": "57e686a3c1821e91f11891420a8dcd052e7ed0c54a4bb7729ec25c1f736b1a8b",
+                  "time": "2026-11-10T01:04:45+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Barkin: Businesses are performing well, with 'remarkable' earnings:"
+                },
+                {
+                  "id": "3976f9b715a40d4e296ce5f67bb2ecd857f51add5d7fb20278a9d07507369102",
+                  "time": "2026-11-10T01:04:58+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Barkin: Bankers say loan pipelines are healthy, demand extending well beyond artificial intelligence"
+                },
+                {
+                  "id": "4f62d0836e07a9e0bc396c3757178c9fc090911e25acc9c0ea0b5fa4333d7534",
+                  "time": "2026-11-10T01:05:06+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Barkin: Layoffs remain muted"
+                },
+                {
+                  "id": "45b1acfa6193b0a6bff8368affa5bbae7a575ed0cd07e9867d3616a9ae8e029f",
+                  "time": "2026-11-10T01:05:17+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Barkin: I'm hearing reports of broad-based cost pressures."
+                },
+                {
+                  "id": "f950117362adb4037ac11e8ee162e2580fb640030e552757b55421d688d5a544",
+                  "time": "2026-11-10T01:05:32+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Barkin: Consumer sentiment is 'bleak. But consumers continue to spend, supported by resilient job market."
+                },
+                {
+                  "id": "6f4d6d28b4dadfcaee6481630dfbc7cd1565f729b32c6b33ebd5eca3e494d430",
+                  "time": "2026-11-10T01:24:36+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Barkin sees risk of firms passing on higher energy costs"
+                },
+                {
+                  "id": "3754a600ec4d89728ded4873feb7e091db8c3bea5d729f348b7a0a468731d022",
+                  "time": "2026-11-10T01:57:21+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Barkin: Government debt, not consumer debt is at historic level"
+                },
+                {
+                  "id": "aa396092c8c885a6260ac4bfa81541c80bb4f0e59e9048c5ffce669bcb2813dc",
+                  "time": "2026-11-10T02:20:15+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Barkin: No base case for December meeting"
+                },
+                {
+                  "id": "8cc7467b700bffef262f9c9e4ce79640c44ffda52c5043670483610aa1c9a3ac",
+                  "time": "2026-11-10T02:20:23+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Barkin: Hard to know impact of elections on the economy"
+                },
+                {
+                  "id": "4dd652f4ca37d5bcb074e56a8c7c2cfef3042336da83f48c1fbcdf24f87c5945",
+                  "time": "2026-11-10T02:20:32+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Barkin: Current policy rate likely around or slightly below neutral"
+                },
+                {
+                  "id": "0fe15d9eac413563bcb4a28aecd5e1dadb5075aa060fabb845181e125e5e5832",
+                  "time": "2026-11-10T02:20:41+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Barkin: Would an advantage if each fed policy meeting were set to include two full months of economy data"
+                },
+                {
+                  "id": "3929cb67236aac7abd9c9845acde0ee997739f15abb0b71f7e750aa17234735d",
+                  "time": "2026-11-10T02:20:53+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Barkin: Last job report was healthy, but still see firms in low-hire, low-fire environment."
+                },
+                {
+                  "id": "9a733e9174d0932056466968bbea1428575916ed894243014dfcd7c69dd8a00f",
+                  "time": "2026-11-10T02:21:09+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Barkin: I do not think ballot measures approved in recent elections will impede data center expansion, firms will find somewhere to build."
+                }
+              ]
+            },
             {
               "date": "2026-11-05",
               "summary_zh": "表示經濟需求穩健但通膨為首要風險，目前政策利率約在限制性與中性水準附近，漸進步調是合理的。",
@@ -6705,7 +6868,7 @@
             },
             {
               "date": "2026-08-12",
-              "summary_zh": "表示如果通膨持續居高不下，將支持在9月份的會議上升息。",
+              "summary_zh": "表示若通膨持續居高不下，將支持在9月進行升息。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -7886,6 +8049,71 @@
           "active": true,
           "voter": true,
           "talks": [
+            {
+              "date": "2026-11-10",
+              "summary_zh": "表示英國經濟受AI投資支撐展現韌性並初顯正面供給衝擊，但不能再假設供給衝擊會自行消退，且AI資產價格泡沫與市場估值過高構成金融穩定風險。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "ef8bc3aa046ed562c2093feb7ac00b771feb842889940e366918b3681384e6f2",
+                "590cf0c749f51f547f0d114a958481bf38b555f6923b1c0874174881241d15ce",
+                "2d5d0e80899373ac81c80a71d9f1d6289d3ff11aa9bbfb039b6796f5bcc6774a",
+                "ce5bcda6f0450a82a6c0de73f2ca69ed1ec0365e7204498eed4bad39cd8e9ce5",
+                "62ed2ab197a4a9365a01a5e648b90d6227e2e5f2300240b469411f0db1900e4e",
+                "045b684f49b71a2f5a217fbd042bee7493c72008ee18b1540db73bd55e27377d",
+                "83561820f72a24cb8778c9e360d50a90efd1302023b224ddd86871b203047d6b"
+              ],
+              "source_headlines": [
+                {
+                  "id": "ef8bc3aa046ed562c2093feb7ac00b771feb842889940e366918b3681384e6f2",
+                  "time": "2026-11-10T01:27:05+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Governor Bailey: UK economic activity is proving more resilient than expected, partly due to AI investment, particularly in business services."
+                },
+                {
+                  "id": "590cf0c749f51f547f0d114a958481bf38b555f6923b1c0874174881241d15ce",
+                  "time": "2026-11-10T01:27:12+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Governor Bailey: AI, digital technology and robotics have potential to raise sustainable economic growth through higher productivity."
+                },
+                {
+                  "id": "2d5d0e80899373ac81c80a71d9f1d6289d3ff11aa9bbfb039b6796f5bcc6774a",
+                  "time": "2026-11-10T01:27:17+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Governor Bailey: Growing signs of beginnings of positive supply shock from AI, investment"
+                },
+                {
+                  "id": "ce5bcda6f0450a82a6c0de73f2ca69ed1ec0365e7204498eed4bad39cd8e9ce5",
+                  "time": "2026-11-10T01:27:21+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Governor Bailey: AI asset price bubble poses clear financial stability risks"
+                },
+                {
+                  "id": "62ed2ab197a4a9365a01a5e648b90d6227e2e5f2300240b469411f0db1900e4e",
+                  "time": "2026-11-10T01:27:26+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Governor Bailey: AI returns may be strong but markets could overvalue them or returns could take longer than expected to materialize"
+                },
+                {
+                  "id": "045b684f49b71a2f5a217fbd042bee7493c72008ee18b1540db73bd55e27377d",
+                  "time": "2026-11-10T01:27:30+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Governor Bailey: Frontier AI has increased cyberattack risks, more extensive model testing is needed before and after release"
+                },
+                {
+                  "id": "83561820f72a24cb8778c9e360d50a90efd1302023b224ddd86871b203047d6b",
+                  "time": "2026-11-10T01:45:09+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: No longer luxury of assuming supply shocks fade away."
+                }
+              ]
+            },
             {
               "date": "2026-11-06",
               "summary_zh": "關注通膨傳導與上行風險，未來決策取決於通膨回落速度，若能源價格居高不下可能再次升息，但不同意通膨已根深蒂固。",
@@ -17997,106 +18225,6 @@
                   "headline": "RBA Governor Bullock: forward-looking labor market gauges remain steady"
                 }
               ]
-            },
-            {
-              "date": "2026-08-11",
-              "summary_zh": "表示國內經濟仍超負荷運作且通膨面臨上行風險，需要經濟放緩及失業率上升以冷卻通膨，委員會討論過升息但未討論降息，必要時將再次升息。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "f9530ce2e3156e65e9f560a0b8af0c47dba7a5694fd71c92f7bdd4db951dd464",
-                "39033d279f0e90263da4794069c6753c2b04296bf5ef9d91278ec20356ba21be",
-                "eb763b73d21cf284936613efdfe2b613aa5ccc46d82d61852b33f8adcf14f1f6",
-                "fdbb83fbb32fda2aa7d8d0c8bf2c9896c57d2c5dd1a39241e12942f23aa50582",
-                "b1f517f211564bd980bddc389cd406f65afba3eeba6d9ff142ec6a1bd61f5b45",
-                "63ed74ba4ae440f06242e7f9e1a21335b9f6a8614a02a39e7029554b8d1a65a7",
-                "4d288a2fae354829a2e4af042d4ab98ed9db8d664a50284335970c9920257fa4",
-                "82d558b25c90f0cfb89986c40c85bf62cede5fbed57196d64dcfc5b3c6b30fa4",
-                "cab87472d4eff0bc2aee02923f6036427a2d7e2bd9029dd63b5b8ca6c79c93bd",
-                "021442d03ed475efa225c0bf1d1b6493be1b5dff35da2f0778be7ba94f9ad85e",
-                "628c1ad4dd385f988e140141086fd3ce2d8b356b5b813742423655e036cde8dc",
-                "a390cd3b9c94cac37a71e94b1da67c9fb642b9faeda0af4e99519203484e4e5f"
-              ],
-              "source_headlines": [
-                {
-                  "id": "f9530ce2e3156e65e9f560a0b8af0c47dba7a5694fd71c92f7bdd4db951dd464",
-                  "time": "2026-08-11T13:31:30+08:00",
-                  "central_bank": "RBA",
-                  "headline": "RBA's Gov. Bullock: The board hopes to slow the economy, sees upside risks to inflation"
-                },
-                {
-                  "id": "39033d279f0e90263da4794069c6753c2b04296bf5ef9d91278ec20356ba21be",
-                  "time": "2026-08-11T13:32:02+08:00",
-                  "central_bank": "RBA",
-                  "headline": "RBA's Gov. Bullock: Domestic economy still operating above capacity"
-                },
-                {
-                  "id": "eb763b73d21cf284936613efdfe2b613aa5ccc46d82d61852b33f8adcf14f1f6",
-                  "time": "2026-08-11T13:32:47+08:00",
-                  "central_bank": "RBA",
-                  "headline": "RBA's Gov. Bullock: Expect period of subdued economic growth will be required to bring inflation down"
-                },
-                {
-                  "id": "fdbb83fbb32fda2aa7d8d0c8bf2c9896c57d2c5dd1a39241e12942f23aa50582",
-                  "time": "2026-08-11T13:33:12+08:00",
-                  "central_bank": "RBA",
-                  "headline": "RBA's Gov. Bullock: Still need to see progress before being confident on CPI"
-                },
-                {
-                  "id": "b1f517f211564bd980bddc389cd406f65afba3eeba6d9ff142ec6a1bd61f5b45",
-                  "time": "2026-08-11T13:33:17+08:00",
-                  "central_bank": "RBA",
-                  "headline": "RBA's Gov. Bullock: We will raise rates again if needed."
-                },
-                {
-                  "id": "63ed74ba4ae440f06242e7f9e1a21335b9f6a8614a02a39e7029554b8d1a65a7",
-                  "time": "2026-08-11T13:36:33+08:00",
-                  "central_bank": "RBA",
-                  "headline": "RBA's Gov. Bullock: While house prices have turned down, that is not the main game for us"
-                },
-                {
-                  "id": "4d288a2fae354829a2e4af042d4ab98ed9db8d664a50284335970c9920257fa4",
-                  "time": "2026-08-11T13:36:55+08:00",
-                  "central_bank": "RBA",
-                  "headline": "RBA's Gov. Bullock: Board discussed raising rates"
-                },
-                {
-                  "id": "82d558b25c90f0cfb89986c40c85bf62cede5fbed57196d64dcfc5b3c6b30fa4",
-                  "time": "2026-08-11T13:37:49+08:00",
-                  "central_bank": "RBA",
-                  "headline": "RBA's Gov. Bullock: Did not discuss a rate cut at the meeting, only a raise or a stay"
-                },
-                {
-                  "id": "cab87472d4eff0bc2aee02923f6036427a2d7e2bd9029dd63b5b8ca6c79c93bd",
-                  "time": "2026-08-11T13:46:46+08:00",
-                  "central_bank": "RBA",
-                  "headline": "RBA's Gov. Bullock: Housing market is not a constraint on raising rates."
-                },
-                {
-                  "id": "021442d03ed475efa225c0bf1d1b6493be1b5dff35da2f0778be7ba94f9ad85e",
-                  "time": "2026-08-11T13:48:23+08:00",
-                  "central_bank": "RBA",
-                  "headline": "RBA's Gov. Bullock: Arguments for a hike include inflation still too high, and upside risks from the Middle East"
-                },
-                {
-                  "id": "628c1ad4dd385f988e140141086fd3ce2d8b356b5b813742423655e036cde8dc",
-                  "time": "2026-08-11T13:49:19+08:00",
-                  "central_bank": "RBA",
-                  "headline": "RBA's Gov. Bullock: The board decided to wait for a bit more information; rate hike still front of mind."
-                },
-                {
-                  "id": "a390cd3b9c94cac37a71e94b1da67c9fb642b9faeda0af4e99519203484e4e5f",
-                  "time": "2026-08-11T13:51:08+08:00",
-                  "central_bank": "RBA",
-                  "headline": "RBA's Gov. Bullock: We need slower growth and higher jobless to cool inflation"
-                }
-              ]
             }
           ]
         },
@@ -18426,7 +18554,7 @@
           "talks": [
             {
               "date": "2026-11-09",
-              "summary_zh": "表示尚無充分證據顯示AI顯著提升生產力或影響就業，短期內AI提振總需求將推升通膨，但長期隨供給匹配其對通膨影響或偏中性。",
+              "summary_zh": "表示AI短期因提振總需求將推高通膨，長期隨供給匹配需求對通膨影響偏中性，目前對生產力與就業影響有限，但需警惕資產價格調整風險。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -18853,21 +18981,21 @@
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 13980,
-    "candidatesTokenCount": 3305,
+    "promptTokenCount": 9376,
+    "candidatesTokenCount": 2762,
     "thoughtsTokenCount": 0,
-    "totalTokenCount": 17285,
+    "totalTokenCount": 12138,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
       "FED+BOE+ECB+BOJ+RBA": {
-        "promptTokenCount": 13980,
-        "candidatesTokenCount": 3305,
-        "totalTokenCount": 17285,
+        "promptTokenCount": 9376,
+        "candidatesTokenCount": 2762,
+        "totalTokenCount": 12138,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 13980
+            "tokenCount": 9376
           }
         ],
         "serviceTier": "standard"
@@ -18875,12 +19003,12 @@
     },
     "incremental": {
       "mode": "incremental",
-      "window_headline_count": 3551,
+      "window_headline_count": 3540,
       "regenerated_date_count": 3,
-      "regenerated_headline_count": 103,
-      "reused_headline_count": 3448,
-      "reused_talk_count": 425,
-      "regenerated_talk_count": 4
+      "regenerated_headline_count": 66,
+      "reused_headline_count": 3474,
+      "reused_talk_count": 426,
+      "regenerated_talk_count": 5
     }
   }
 }
