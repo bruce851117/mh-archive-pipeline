@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-10T07:40:32.508959+08:00",
+  "generated_at": "2026-11-11T07:40:58.028792+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-08-12T07:40:32.508959+08:00",
-  "period_end": "2026-11-10T07:40:32.508959+08:00",
+  "period_start": "2026-08-13T07:40:58.028792+08:00",
+  "period_end": "2026-11-11T07:40:58.028792+08:00",
   "lookback_days": 90,
   "voter_version": "2026-09-09",
   "model": "gemini-3.8-flash",
-  "input_headline_count": 3540,
-  "talk_count": 269,
+  "input_headline_count": 3671,
+  "talk_count": 279,
   "central_banks": [
     {
       "central_bank": "FED",
@@ -1770,6 +1770,113 @@
           "voter": true,
           "talks": [
             {
+              "date": "2026-11-10",
+              "summary_zh": "表示通膨過高且廣泛，實質利率需上升以壓制通膨，若核心CPI達標12月或需升息2碼，至少需收回先前的預防性降息，但無意大幅重擊經濟。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "682e45039b3857c1157f9a6c55e0c96f6b77edafa8230ed6f23c91c2b493c1df",
+                "2bffe03c159c64987b7ba0cb99e92133145cafabbed4d3805b43d14b66cf89b5",
+                "cf4194c5e05a361bbf01a3576f9cac07f9a210951b2fe6de7d9f464a90277ff8",
+                "577bd317fc472f6531dc93ae19090716cf714fa45be2a7a951eaf4c0c2efc44a",
+                "a19a832abb0f0c6fcc9324503e40134515f065b751bfeb3734f2e8584f454e5d",
+                "3229d0764436c2e48daf4613c13d1bba545c58160783f66b0d70a96434273bb7",
+                "260311d8155661f3ca6ec361842513f32998286b911a44d0598e96d2e7fe0fc9",
+                "aabffd7ed6f78b5b37dede7aa1a82d97844c0e107228f165a713527811b9474e",
+                "ade299114cd1474ba0b74b6d22f8ff2de5355fd6d7bfec7b334c002fa43dc756",
+                "b5aa2e5a9e5cf81683ba7165b5b8ccd0fdee8b3c0bcfbe1a2297f961a532d991",
+                "88d8a5c94a134d712c2ded7fab878c095161ced4fa05b3b2f5c495bb68c14c1d",
+                "751c870f455adfa3caf093010a2517246c9dc92c58d62decdca3822609125083",
+                "098e2091aa438d9a83e743a74bb777bfc75850ffb72b7acbc55f6bfeb6f70568"
+              ],
+              "source_headlines": [
+                {
+                  "id": "682e45039b3857c1157f9a6c55e0c96f6b77edafa8230ed6f23c91c2b493c1df",
+                  "time": "2026-11-10T17:00:40+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Waller: Half-point Fed rate hike may be needed in december, if October core CPI inflation comes in around 0.3% or higher."
+                },
+                {
+                  "id": "2bffe03c159c64987b7ba0cb99e92133145cafabbed4d3805b43d14b66cf89b5",
+                  "time": "2026-11-10T17:00:59+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Waller: Would support quarter-point rate hike in December even if October CPI improves vs September."
+                },
+                {
+                  "id": "cf4194c5e05a361bbf01a3576f9cac07f9a210951b2fe6de7d9f464a90277ff8",
+                  "time": "2026-11-10T17:01:17+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Waller: US inflation is too high, ‘September's inflation data was bad."
+                },
+                {
+                  "id": "577bd317fc472f6531dc93ae19090716cf714fa45be2a7a951eaf4c0c2efc44a",
+                  "time": "2026-11-10T17:01:30+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Waller: Was willing to wait on policy tightening in October; what matters is that promised hikes are delivered in a reasonable period of time."
+                },
+                {
+                  "id": "a19a832abb0f0c6fcc9324503e40134515f065b751bfeb3734f2e8584f454e5d",
+                  "time": "2026-11-10T17:01:49+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Waller: Particularly concerned about the breadth of price increases."
+                },
+                {
+                  "id": "3229d0764436c2e48daf4613c13d1bba545c58160783f66b0d70a96434273bb7",
+                  "time": "2026-11-10T17:02:03+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Waller: Suspect GDP growth is backing off in current quarter, but output will continue to grow at solid pace."
+                },
+                {
+                  "id": "260311d8155661f3ca6ec361842513f32998286b911a44d0598e96d2e7fe0fc9",
+                  "time": "2026-11-10T17:02:41+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Waller: Fed staff analyses suggest more producer price increases ahead, and potential for energy price shock to be more persistent."
+                },
+                {
+                  "id": "aabffd7ed6f78b5b37dede7aa1a82d97844c0e107228f165a713527811b9474e",
+                  "time": "2026-11-10T17:02:54+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Waller: Labor market solid, supply and demand roughly in balance, employment close to Fed's goal."
+                },
+                {
+                  "id": "ade299114cd1474ba0b74b6d22f8ff2de5355fd6d7bfec7b334c002fa43dc756",
+                  "time": "2026-11-10T17:53:12+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Waller: Real rates have to rise to maintain level of restrictiveness in monetary policy."
+                },
+                {
+                  "id": "b5aa2e5a9e5cf81683ba7165b5b8ccd0fdee8b3c0bcfbe1a2297f961a532d991",
+                  "time": "2026-11-10T17:53:21+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Waller: We need to raise rates to put downward pressure on inflation."
+                },
+                {
+                  "id": "88d8a5c94a134d712c2ded7fab878c095161ced4fa05b3b2f5c495bb68c14c1d",
+                  "time": "2026-11-10T18:07:36+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Waller: Minimum we need to take back the 3 insurance cuts."
+                },
+                {
+                  "id": "751c870f455adfa3caf093010a2517246c9dc92c58d62decdca3822609125083",
+                  "time": "2026-11-10T18:08:51+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Waller: Not super hawkish, we don't want to slam economy down."
+                },
+                {
+                  "id": "098e2091aa438d9a83e743a74bb777bfc75850ffb72b7acbc55f6bfeb6f70568",
+                  "time": "2026-11-10T18:09:20+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Waller: We're not going to jack up rates 150 or 200 bps."
+                }
+              ]
+            },
+            {
               "date": "2026-10-13",
               "summary_zh": "指出人工智慧可能會擴大人均GDP的差距。",
               "topics": {
@@ -2296,6 +2403,148 @@
           "active": true,
           "voter": true,
           "talks": [
+            {
+              "date": "2026-11-11",
+              "summary_zh": "表示通膨未呈下降趨勢且壓力持續，降低通膨仍是首要任務，儘管金融情勢已收緊，聯準會必須衡量額外緊縮的成本與推進步調。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "b22f83b18d97d761f2e2f000d5b5a9d56503c539ce37093ec8381bb22121a828",
+                "ff1dd04020bf644472b533e82a043a133401756824a2472cad7bb693ba843e93",
+                "0d3b62a823520a5bc57f02483dbacba6c604c182c4a4491329c7f9b6fcb18022",
+                "82482651ce70f56b8b656600047a8529251a6bacc22b77d019ae7e9c8b024789",
+                "741c4e58bac79d55d5d12014f7746d1168c28f45b4388c8a4fbce6cec7d94d74",
+                "53633583a9ffc7d3848f2616a6a9d3ffe1b176bf4eb91263c91fff0e07631ba7",
+                "4dfa555ec16c603423434c64788003092385e7e59f360cc72db286efe3ce2b56",
+                "f71e56d77b64cafe931e81c2b9e6739403f35fa71d8701c7ed9497fe07db1528",
+                "a25651fa385450ae2f2a495f2057fd426a9c64c870bf914b061e56f6680d14b2",
+                "53d705e7f6e8c4e9c2e5d30fe71dcc9319270d6df1c1e0ac1cf4a17ae20a902f",
+                "3b89dc02ca35b0463233f6a7cb41a356c2cf4d511c0e52c71ce72e694fcb8498",
+                "92056dc6846e071ffcb9cd3cb36d2ea39fd07538f9b528fafaa52f71df0a3058",
+                "aa2ade25427c673c57b763525ea44e70c1918f17d9117869c59d924e4146bf5f",
+                "c486f4e8ffe7180805aee5fcc5b78a1503064701ffe7ba567261b6831a8d6df3",
+                "c0dd376017c8f8dd2596b75318bec2759abd9ef72b715c548d27c76ceb2e36d2",
+                "b1746436fe611c29e869ee3398afd54d112365aad21146c6d6cd279c25493540",
+                "199b1f2f5484eb00f054b484df638f3e74632e2105042e0a5994738792da17f2",
+                "ef92a2234cd3fda710937abba7ece5cd277a1f5c149726a751091520dd0592ee"
+              ],
+              "source_headlines": [
+                {
+                  "id": "b22f83b18d97d761f2e2f000d5b5a9d56503c539ce37093ec8381bb22121a828",
+                  "time": "2026-11-11T04:30:31+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Bowman: Persistent inflation, firming labor conditions suggest still work to do"
+                },
+                {
+                  "id": "ff1dd04020bf644472b533e82a043a133401756824a2472cad7bb693ba843e93",
+                  "time": "2026-11-11T04:30:33+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Bowman: Financial conditions have tightened, the Fed must weigh the costs of additional policy tightening."
+                },
+                {
+                  "id": "0d3b62a823520a5bc57f02483dbacba6c604c182c4a4491329c7f9b6fcb18022",
+                  "time": "2026-11-11T04:30:46+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Bowman: Bringing inflation down remains a priority."
+                },
+                {
+                  "id": "82482651ce70f56b8b656600047a8529251a6bacc22b77d019ae7e9c8b024789",
+                  "time": "2026-11-11T04:30:50+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Bowman: Core PCE likely rose 3.3% in October on energy prices, AI-related demand"
+                },
+                {
+                  "id": "741c4e58bac79d55d5d12014f7746d1168c28f45b4388c8a4fbce6cec7d94d74",
+                  "time": "2026-11-11T04:31:13+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Bowman: As shocks unwind, forecast core PCE to move closer to 2% next year"
+                },
+                {
+                  "id": "53633583a9ffc7d3848f2616a6a9d3ffe1b176bf4eb91263c91fff0e07631ba7",
+                  "time": "2026-11-11T04:31:24+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Bowman: Economic growth gained momentum this year"
+                },
+                {
+                  "id": "4dfa555ec16c603423434c64788003092385e7e59f360cc72db286efe3ce2b56",
+                  "time": "2026-11-11T04:31:35+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Bowman: Focused on financial stability risks if AI returns fall short"
+                },
+                {
+                  "id": "f71e56d77b64cafe931e81c2b9e6739403f35fa71d8701c7ed9497fe07db1528",
+                  "time": "2026-11-11T04:31:37+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Bowman: CPI data suggests inflation pressures may persist"
+                },
+                {
+                  "id": "a25651fa385450ae2f2a495f2057fd426a9c64c870bf914b061e56f6680d14b2",
+                  "time": "2026-11-11T04:31:48+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Bowman: AI development increasingly backed by external funding"
+                },
+                {
+                  "id": "53d705e7f6e8c4e9c2e5d30fe71dcc9319270d6df1c1e0ac1cf4a17ae20a902f",
+                  "time": "2026-11-11T04:31:53+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Bowman: Labor market has improved, not tight, not adding to inflation"
+                },
+                {
+                  "id": "3b89dc02ca35b0463233f6a7cb41a356c2cf4d511c0e52c71ce72e694fcb8498",
+                  "time": "2026-11-11T05:00:53+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Bowman: Longer-term inflation expectations are very well anchored."
+                },
+                {
+                  "id": "92056dc6846e071ffcb9cd3cb36d2ea39fd07538f9b528fafaa52f71df0a3058",
+                  "time": "2026-11-11T05:01:38+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Bowman: Inflation expectations are an important data point, but they are not necessarily controlling how I think about things."
+                },
+                {
+                  "id": "aa2ade25427c673c57b763525ea44e70c1918f17d9117869c59d924e4146bf5f",
+                  "time": "2026-11-11T05:02:55+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Bowman: I would need to see AI and Middle East risks abate before I could be confident inflation will come down next year."
+                },
+                {
+                  "id": "c486f4e8ffe7180805aee5fcc5b78a1503064701ffe7ba567261b6831a8d6df3",
+                  "time": "2026-11-11T05:14:39+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Bowman: I don't think AI will rob the US economy of jobs."
+                },
+                {
+                  "id": "c0dd376017c8f8dd2596b75318bec2759abd9ef72b715c548d27c76ceb2e36d2",
+                  "time": "2026-11-11T05:15:12+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Bowman: AI will make workers more productive, create new jobs, and eliminate less-necessary jobs"
+                },
+                {
+                  "id": "b1746436fe611c29e869ee3398afd54d112365aad21146c6d6cd279c25493540",
+                  "time": "2026-11-11T05:21:05+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Bowman: The Fed cut rates gradually last year and then paused before resuming, in the same way that we may work to address inflation in the coming months,"
+                },
+                {
+                  "id": "199b1f2f5484eb00f054b484df638f3e74632e2105042e0a5994738792da17f2",
+                  "time": "2026-11-11T05:28:45+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Bowman: The fact that inflation is not on a downward trend should give us pause"
+                },
+                {
+                  "id": "ef92a2234cd3fda710937abba7ece5cd277a1f5c149726a751091520dd0592ee",
+                  "time": "2026-11-11T05:29:18+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Bowman: Need to think about what pace and what timeline to address it"
+                }
+              ]
+            },
             {
               "date": "2026-10-02",
               "summary_zh": "目前沒有在今年內進一步調整利率的迫切需求。",
@@ -3655,7 +3904,7 @@
             },
             {
               "date": "2026-08-13",
-              "summary_zh": "強調政策不具限制性且通膨廣泛而頑固，勞動市場穩定，必須立即採取升息以防經濟過熱並控制通膨。",
+              "summary_zh": "表示當前政策並非限制性且通膨具廣泛與持續性，勞動市場維持穩定，為避免經濟過熱並儘快重回目標，主張現在就需要升息採取行動。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -3784,6 +4033,127 @@
           "active": true,
           "voter": true,
           "talks": [
+            {
+              "date": "2026-11-10",
+              "summary_zh": "表示寬鬆政策加劇通膨壓力且通膨顯著高於目標，今冬可能需加速升息，至少需再升息兩碼達到限制性水準後再行暫停評估。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "c67d34c2bb85f111ceaf8ecd164b5aec6b0c423f7b3c13441a7adbfd5ba52387",
+                "a1efb6f8c69e9af33558bf6aa41201abe63eefd5088e1d1fd222c70d485a6637",
+                "8b7322361ee4d111d04b30f9346b17c015da5701616af44ddf7bf115048da86c",
+                "e62bccde038471cc6d687d0e26a81a2efd65e5f686a5d769d2c014aeeeadecfd",
+                "ee9e6ad8762c07c4eb2bfbff695c6add4808b9405d58489bb04d347666e4bc7d",
+                "01d8c6d0ade74fdfeb0f07c2536a64b111f0323e035e134bf48afe31dffc799e",
+                "08dbbefb517ea7c1f9fe9a650c4ea55c27d9f9f107d94e61f090d15433629208",
+                "0a00779957c38f122acc70352223db6d2ce2dbe51727c33edaeba4deecdf6784",
+                "53326542327fccaa71d1002c32f53983499ec387ff7e6eae64c6f0442623657c",
+                "2fdd6eef0f8e7e1428ac0d401d98f21e1b19dba214efa84ddab5128c5a7680dd",
+                "1ae83b01ac433157ddbf94a51ddb5f62623ff89c8f69d21d77b5b749fc6761be",
+                "115a6dcb9be2b136cc59e6b77c5841ba1dff49a8c0a28219013074d2730f8b60",
+                "0ad9d754feeb2ee6f2649ac1d08e913bf52c526032a09bc8774c7ad2dbd5d231",
+                "017c0e9f7b70346f033de7b2f35c47df9575ab54925ded1918a8f064bc24591c",
+                "485fe016e84896d7c198489e90ccdb1a0145202fe5755e118bf3b9951f058f5b"
+              ],
+              "source_headlines": [
+                {
+                  "id": "c67d34c2bb85f111ceaf8ecd164b5aec6b0c423f7b3c13441a7adbfd5ba52387",
+                  "time": "2026-11-10T23:50:24+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Logan: It is clear that Fed needs at least two more quarter-percentage-point rate increases."
+                },
+                {
+                  "id": "a1efb6f8c69e9af33558bf6aa41201abe63eefd5088e1d1fd222c70d485a6637",
+                  "time": "2026-11-10T23:50:38+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Logan: More rapid rate hikes possibly needed this winter"
+                },
+                {
+                  "id": "8b7322361ee4d111d04b30f9346b17c015da5701616af44ddf7bf115048da86c",
+                  "time": "2026-11-10T23:50:40+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Logan: It may be possible to raise interest rates more rapidly this winter than the US central bank has moved so far."
+                },
+                {
+                  "id": "e62bccde038471cc6d687d0e26a81a2efd65e5f686a5d769d2c014aeeeadecfd",
+                  "time": "2026-11-10T23:50:56+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Logan: Adjusting policy gradually can reduce the risk that economic activity deteriorates more sharply than necessary."
+                },
+                {
+                  "id": "ee9e6ad8762c07c4eb2bfbff695c6add4808b9405d58489bb04d347666e4bc7d",
+                  "time": "2026-11-10T23:50:58+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Logan: Important to promptly achieve balance in outlook, risks for inflation and employment"
+                },
+                {
+                  "id": "01d8c6d0ade74fdfeb0f07c2536a64b111f0323e035e134bf48afe31dffc799e",
+                  "time": "2026-11-10T23:51:06+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Logan: Higher bond-market rates signal monetary policy has work to do, not an independent tailwind for activity"
+                },
+                {
+                  "id": "08dbbefb517ea7c1f9fe9a650c4ea55c27d9f9f107d94e61f090d15433629208",
+                  "time": "2026-11-10T23:51:08+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Logan: After two more rate hikes, it would make sense to pause and assess what further action may be appropriate."
+                },
+                {
+                  "id": "0a00779957c38f122acc70352223db6d2ce2dbe51727c33edaeba4deecdf6784",
+                  "time": "2026-11-10T23:51:17+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Logan: Fed policy rate is at least 50 basis points below a modestly restrictive level."
+                },
+                {
+                  "id": "53326542327fccaa71d1002c32f53983499ec387ff7e6eae64c6f0442623657c",
+                  "time": "2026-11-10T23:51:25+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Logan: Wartime energy disruptions not the only source of price pressures."
+                },
+                {
+                  "id": "2fdd6eef0f8e7e1428ac0d401d98f21e1b19dba214efa84ddab5128c5a7680dd",
+                  "time": "2026-11-10T23:51:29+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Logan: Accommodative policy is adding to inflationary pressures; the real Fed funds rate is 78 basis points, data suggest."
+                },
+                {
+                  "id": "1ae83b01ac433157ddbf94a51ddb5f62623ff89c8f69d21d77b5b749fc6761be",
+                  "time": "2026-11-10T23:51:36+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Logan: Concerned that higher-than-expected consumer price index means personal consumption expenditures inflation could rise."
+                },
+                {
+                  "id": "115a6dcb9be2b136cc59e6b77c5841ba1dff49a8c0a28219013074d2730f8b60",
+                  "time": "2026-11-10T23:51:46+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Logan: Labor market is balanced and even tightening a bit"
+                },
+                {
+                  "id": "0ad9d754feeb2ee6f2649ac1d08e913bf52c526032a09bc8774c7ad2dbd5d231",
+                  "time": "2026-11-10T23:51:48+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Logan: Inflation is trending meaningfully higher than the 2% goal."
+                },
+                {
+                  "id": "017c0e9f7b70346f033de7b2f35c47df9575ab54925ded1918a8f064bc24591c",
+                  "time": "2026-11-10T23:51:56+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Logan: Economic growth is strong, consumer spending solid, business spending robust."
+                },
+                {
+                  "id": "485fe016e84896d7c198489e90ccdb1a0145202fe5755e118bf3b9951f058f5b",
+                  "time": "2026-11-10T23:52:01+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Logan: Price pressures are also broader than tariffs, and the broad trend is likely to persist."
+                }
+              ]
+            },
             {
               "date": "2026-10-31",
               "summary_zh": "認為聯準會至少還需要升息兩次各一碼，並強調通膨若無法回落至2%目標是不可接受的。",
@@ -4229,7 +4599,7 @@
           "talks": [
             {
               "date": "2026-11-09",
-              "summary_zh": "指出就業與經濟增長相當穩定，消費支出為主要驅動力，但服務業通膨抬頭，資料中心呈現傳統過熱跡象，必須正視通膨未能達標的重大問題。",
+              "summary_zh": "指出就業與經濟成長維持穩定，但服務業通膨回升且數據中心投資顯現過熱跡象，強調聯準會面臨的主要問題在於通膨過高。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5210,7 +5580,7 @@
           "talks": [
             {
               "date": "2026-11-10",
-              "summary_zh": "表示經濟與就業穩定但主要風險在通膨與成本轉嫁，當前政策利率接近或略低於中性，貨幣政策方向明確但應審慎行事，12月會議尚無基準預期。",
+              "summary_zh": "表示經濟與勞動市場穩定但通膨風險偏上行，當前利率接近或略低於中性水準，貨幣政策方向明確但應謹慎行事，對12月會議暫無既定立場。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -5900,7 +6270,7 @@
             },
             {
               "date": "2026-08-13",
-              "summary_zh": "表示經濟與消費仍具韌性，但就業市場脆弱且AI與債務可能帶來持續通膨，目前聯準會不處於前瞻指引階段。",
+              "summary_zh": "表示美經濟受消費驅動仍具韌性，但就業市場存有脆弱性，通膨放緩有助錨定預期，而債務與AI投資可能帶來持久通膨壓力，目前不宜過度前瞻指引。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -6865,29 +7235,6 @@
                   "headline": "Fed's Collins: It is appropriate to raise interest rates soon, absent evidence of sustained disinflation."
                 }
               ]
-            },
-            {
-              "date": "2026-08-12",
-              "summary_zh": "表示若通膨持續居高不下，將支持在9月進行升息。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "48208b4ca22ab4257cbd2f1eda7b99530bdb56872a093a0a78af00475ea2bf02"
-              ],
-              "source_headlines": [
-                {
-                  "id": "48208b4ca22ab4257cbd2f1eda7b99530bdb56872a093a0a78af00475ea2bf02",
-                  "time": "2026-08-12T12:06:57+08:00",
-                  "central_bank": "FED",
-                  "headline": "Boston Fed President Susan Collins: Would support September rate increase if inflation stays high - FT"
-                }
-              ]
             }
           ]
         },
@@ -7643,6 +7990,71 @@
           "voter": false,
           "talks": [
             {
+              "date": "2026-11-11",
+              "summary_zh": "指出就業強勁且需求旺盛，基準利率仍相當寬鬆且除房市外未見限制性，物價存在令人擔憂的潛在趨勢，通膨仍是首要關注焦點。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "f259e05e16a4c9f027e5ad4ca2850241b1990aa79901fc2a72fe0749541eb25b",
+                "ed6c9d104d76212294b3382f31b0d8ff2798fd39119de5e9bc6f373db3b9f278",
+                "644579751986219689d09b74b87d12fd77b0b8766a450e41c0a029a828b1c965",
+                "e773cb74399b22d3b676997a623f4ea44015a89991e7b38723a2e34ee59db64a",
+                "5d8d31e67a1be9d3ffee67188980e4ce2033424d26d8255213c3ef11563ce676",
+                "4ddf0fe36ee90b255251b41b8cc8031c9c0df6928d7787199223cd664931e487",
+                "41470783f52c9ea7c919491a0081123f24e510a30c188493ce7ba6698ede037d"
+              ],
+              "source_headlines": [
+                {
+                  "id": "f259e05e16a4c9f027e5ad4ca2850241b1990aa79901fc2a72fe0749541eb25b",
+                  "time": "2026-11-11T02:44:46+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Schmid: Some concerning trends in prices, underneath the whole energy story"
+                },
+                {
+                  "id": "ed6c9d104d76212294b3382f31b0d8ff2798fd39119de5e9bc6f373db3b9f278",
+                  "time": "2026-11-11T02:46:57+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Schmid: US hiring pretty robust lately."
+                },
+                {
+                  "id": "644579751986219689d09b74b87d12fd77b0b8766a450e41c0a029a828b1c965",
+                  "time": "2026-11-11T02:48:21+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Schmid: Fed benchmark rate fairly accommodative today"
+                },
+                {
+                  "id": "e773cb74399b22d3b676997a623f4ea44015a89991e7b38723a2e34ee59db64a",
+                  "time": "2026-11-11T02:48:42+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Schmid: Could argue housing is going through an 'interesting dynamic’ but elsewhere can't find any restriction."
+                },
+                {
+                  "id": "5d8d31e67a1be9d3ffee67188980e4ce2033424d26d8255213c3ef11563ce676",
+                  "time": "2026-11-11T02:50:06+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Schmid: Demand is strong, and rates not a cause for hesitation"
+                },
+                {
+                  "id": "4ddf0fe36ee90b255251b41b8cc8031c9c0df6928d7787199223cd664931e487",
+                  "time": "2026-11-11T02:50:15+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Schmid: Inflation is top of mind"
+                },
+                {
+                  "id": "41470783f52c9ea7c919491a0081123f24e510a30c188493ce7ba6698ede037d",
+                  "time": "2026-11-11T03:04:23+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Schmid: A lot of interesting data points between now and Fed's December meeting"
+                }
+              ]
+            },
+            {
               "date": "2026-10-07",
               "summary_zh": "指出勞動力市場維持良好，但戰勝通膨仍有長路要走，AI已成主要推手且攸關央行信譽，儘管長期殖利率走高，短期利率仍有工作要做。",
               "topics": {
@@ -8051,7 +8463,7 @@
           "talks": [
             {
               "date": "2026-11-10",
-              "summary_zh": "表示英國經濟受AI投資支撐展現韌性並初顯正面供給衝擊，但不能再假設供給衝擊會自行消退，且AI資產價格泡沫與市場估值過高構成金融穩定風險。",
+              "summary_zh": "指出英國經濟因AI投資而具韌性並有望提升可持續增長，但供應衝擊難以消退且AI資產泡沫帶來金融穩定風險。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -8066,7 +8478,6 @@
                 "2d5d0e80899373ac81c80a71d9f1d6289d3ff11aa9bbfb039b6796f5bcc6774a",
                 "ce5bcda6f0450a82a6c0de73f2ca69ed1ec0365e7204498eed4bad39cd8e9ce5",
                 "62ed2ab197a4a9365a01a5e648b90d6227e2e5f2300240b469411f0db1900e4e",
-                "045b684f49b71a2f5a217fbd042bee7493c72008ee18b1540db73bd55e27377d",
                 "83561820f72a24cb8778c9e360d50a90efd1302023b224ddd86871b203047d6b"
               ],
               "source_headlines": [
@@ -8099,12 +8510,6 @@
                   "time": "2026-11-10T01:27:26+08:00",
                   "central_bank": "BOE",
                   "headline": "BoE Governor Bailey: AI returns may be strong but markets could overvalue them or returns could take longer than expected to materialize"
-                },
-                {
-                  "id": "045b684f49b71a2f5a217fbd042bee7493c72008ee18b1540db73bd55e27377d",
-                  "time": "2026-11-10T01:27:30+08:00",
-                  "central_bank": "BOE",
-                  "headline": "BoE Governor Bailey: Frontier AI has increased cyberattack risks, more extensive model testing is needed before and after release"
                 },
                 {
                   "id": "83561820f72a24cb8778c9e360d50a90efd1302023b224ddd86871b203047d6b",
@@ -8808,6 +9213,162 @@
           "voter": true,
           "talks": [
             {
+              "date": "2026-11-10",
+              "summary_zh": "指出勞動市場招聘放緩且薪資降溫不如預期，通膨風險偏向上行且政策限制性弱於預期，不排除連續升息可能。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "4336434d8dc243e8ce58eb7bfe9fb0cb345964a2a9f835960df046903a33f797",
+                "06c52af75c99ce3807aff949bffe3c636927f4cc6c464ec92b907a1c049c1a93",
+                "6b2a75fd55a434fc0362dfc9faa29fead76bba029e187cea77cd75c311489985",
+                "507e12007e1e9d424ac9eea9f034ddb050bc51c9308fa8a869fa88822ec04217",
+                "9680ec85c330d1e51b2a0d49bc709c7ae7689464e93ae1627e1f91171ad3c3de",
+                "71be9314934f05812d9e4db7876d9afbd56623bb789d892455296d4bfad97215",
+                "5476e36fe4b08325b30ac6b1c1dc1af991e6e12203fb0f453a616ff17dbf8aa1",
+                "78e83591f42f0c1199555b40f294b063affae4509ac57a77578351a9fa14aadc",
+                "8cffe1f52b8043c2a9c939f700db223a6d3ec9212d456bad1f38b70ec33c0123",
+                "480a6007d1b2e9ccaa42100521b8c502acd2a1ee83fe7abc423c8b6dce448666",
+                "39809e94c94b40b2adba32733694afbca28951bd5facbe4885ba910c184ecf14",
+                "bccc1af92788c91f62287907da8dc239718e98d21f8edec20566fd2b1f13083c",
+                "f2358d1939c667be4c8f9deef383365cad59786756058cfa2ea3798e3af2b3ec",
+                "2725522fbd26a7e03122d7c8b2ec72fca9fd6516a75be4336b2364a3024b5494",
+                "29c2aa849ee21e7b69bb61f7734d4c999395960f3f3c7808b3308c2ab0a9eead",
+                "8626a389d1f61d2fcb38ee3c3be40ab232925a8c1c42141e0cf6ad6b3bfe4d6b",
+                "7669f78934e18a7ad658870d113be08bbe32a653d14ab91e49fc002b5cc391ef",
+                "d6c8d0a4e100a77b5f9be7466cf6166ab3acb8c652349b9a836edb088b3fb968",
+                "53c82d40ee1eddb0d4d9c1d28eb747d96f680f816e1f365bdbe02098d28d7cb9",
+                "3e7d5c6c9cb9ad7c228f56c45db3fdf7ba64fc7a530df4bd88909ebf8aa0e697"
+              ],
+              "source_headlines": [
+                {
+                  "id": "4336434d8dc243e8ce58eb7bfe9fb0cb345964a2a9f835960df046903a33f797",
+                  "time": "2026-11-10T14:26:28+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: Young people in UK hit by ‘low-gear economy’."
+                },
+                {
+                  "id": "06c52af75c99ce3807aff949bffe3c636927f4cc6c464ec92b907a1c049c1a93",
+                  "time": "2026-11-10T14:28:25+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: Seeing a real fall-off in hiring in labour market, but not seeing much in the way of redundancies."
+                },
+                {
+                  "id": "6b2a75fd55a434fc0362dfc9faa29fead76bba029e187cea77cd75c311489985",
+                  "time": "2026-11-10T14:30:02+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli on rate hike possibility in December: \"Wouldn't rule it out\"; \"equally, I don't have enough information just yet\"."
+                },
+                {
+                  "id": "507e12007e1e9d424ac9eea9f034ddb050bc51c9308fa8a869fa88822ec04217",
+                  "time": "2026-11-10T20:31:45+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: Labour market is stuck in low gear."
+                },
+                {
+                  "id": "9680ec85c330d1e51b2a0d49bc709c7ae7689464e93ae1627e1f91171ad3c3de",
+                  "time": "2026-11-10T20:32:43+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: Energy shock has become more persistent."
+                },
+                {
+                  "id": "71be9314934f05812d9e4db7876d9afbd56623bb789d892455296d4bfad97215",
+                  "time": "2026-11-10T20:33:20+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: Greater prospect of second-round effects."
+                },
+                {
+                  "id": "5476e36fe4b08325b30ac6b1c1dc1af991e6e12203fb0f453a616ff17dbf8aa1",
+                  "time": "2026-11-10T20:34:33+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: The longer energy costs stay high, the greater pressure there will be on businesses to restore margins."
+                },
+                {
+                  "id": "78e83591f42f0c1199555b40f294b063affae4509ac57a77578351a9fa14aadc",
+                  "time": "2026-11-10T20:34:47+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: Balance of inflation risks to the upside."
+                },
+                {
+                  "id": "8cffe1f52b8043c2a9c939f700db223a6d3ec9212d456bad1f38b70ec33c0123",
+                  "time": "2026-11-10T20:35:16+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: Balance of risks to inflation remains to the upside."
+                },
+                {
+                  "id": "480a6007d1b2e9ccaa42100521b8c502acd2a1ee83fe7abc423c8b6dce448666",
+                  "time": "2026-11-10T20:36:07+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: Conditions for persistent inflationary dynamics over the medium-term are crystallising."
+                },
+                {
+                  "id": "39809e94c94b40b2adba32733694afbca28951bd5facbe4885ba910c184ecf14",
+                  "time": "2026-11-10T21:08:49+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: I think there may be less slack in the UK economy than the central BoE view, perhaps 0-1% rather than 1%."
+                },
+                {
+                  "id": "bccc1af92788c91f62287907da8dc239718e98d21f8edec20566fd2b1f13083c",
+                  "time": "2026-11-10T21:11:26+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: It is very hard to tell if the UK economy is genuinely more resilient to price shocks or close to the limit of households' and firms' ability to absorb."
+                },
+                {
+                  "id": "f2358d1939c667be4c8f9deef383365cad59786756058cfa2ea3798e3af2b3ec",
+                  "time": "2026-11-10T21:13:13+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: Wages are not disinflating as fast as hoped."
+                },
+                {
+                  "id": "2725522fbd26a7e03122d7c8b2ec72fca9fd6516a75be4336b2364a3024b5494",
+                  "time": "2026-11-10T21:15:46+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: The UK natural rate of unemployment may be a bit higher than before."
+                },
+                {
+                  "id": "29c2aa849ee21e7b69bb61f7734d4c999395960f3f3c7808b3308c2ab0a9eead",
+                  "time": "2026-11-10T21:16:09+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: I don't rule out back-to-back rate hikes."
+                },
+                {
+                  "id": "8626a389d1f61d2fcb38ee3c3be40ab232925a8c1c42141e0cf6ad6b3bfe4d6b",
+                  "time": "2026-11-10T21:16:32+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: The December rate vote will be affected by the outlook in the Middle East, pricing, and the labour market."
+                },
+                {
+                  "id": "7669f78934e18a7ad658870d113be08bbe32a653d14ab91e49fc002b5cc391ef",
+                  "time": "2026-11-10T21:16:45+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: Each meeting is live for us."
+                },
+                {
+                  "id": "d6c8d0a4e100a77b5f9be7466cf6166ab3acb8c652349b9a836edb088b3fb968",
+                  "time": "2026-11-10T21:17:19+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: I wouldn't rule December or February in or out."
+                },
+                {
+                  "id": "53c82d40ee1eddb0d4d9c1d28eb747d96f680f816e1f365bdbe02098d28d7cb9",
+                  "time": "2026-11-10T21:22:48+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: Long term inflation expectations are very well anchored, we don't see de-anchoring:."
+                },
+                {
+                  "id": "3e7d5c6c9cb9ad7c228f56c45db3fdf7ba64fc7a530df4bd88909ebf8aa0e697",
+                  "time": "2026-11-10T21:25:16+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: Policy is less restrictive than we thought."
+                }
+              ]
+            },
+            {
               "date": "2026-11-05",
               "summary_zh": "認為短期內可能有理由進一步升息，能源衝擊對價格的影響更大且更持久，但公營部門工資未見顯著風險。",
               "topics": {
@@ -9297,7 +9858,7 @@
             },
             {
               "date": "2026-08-13",
-              "summary_zh": "針對英國GDP數據表示，這有助於緩解對經濟陷入急劇下滑的擔憂。",
+              "summary_zh": "表示英國GDP數據令人安心，顯示經濟並未陷入急劇衰退。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -9612,6 +10173,29 @@
           "active": true,
           "voter": true,
           "talks": [
+            {
+              "date": "2026-11-10",
+              "summary_zh": "表示企業現在非常擅長適應成本衝擊。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "12f047ef6c0f22ac7c2d1cef961e4f9b0d6afce9b863d2b981515f56e05d9e0d"
+              ],
+              "source_headlines": [
+                {
+                  "id": "12f047ef6c0f22ac7c2d1cef961e4f9b0d6afce9b863d2b981515f56e05d9e0d",
+                  "time": "2026-11-10T16:55:52+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Breeden: Firms now very good at adapting to cost shocks."
+                }
+              ]
+            },
             {
               "date": "2026-10-15",
               "summary_zh": "指出經濟活動未大幅下滑且就業市場持穩，勞動市場降溫有望避免如2022年的薪資物價螺旋壓力。",
@@ -11965,6 +12549,115 @@
           "voter": true,
           "talks": [
             {
+              "date": "2026-11-11",
+              "summary_zh": "認為目前對方向性前瞻指引門檻很高，指出基本通膨是預測指標且能源反轉可能使整體通膨下降，並預期將出現第二輪效應。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "98f0613cb5f33acce2c7bb4497ccb75807c964b99cda994d7d9ac48ae9ddf35a",
+                "66d058d2efbac3571a5633ba887290aba62e083b6784cfdd0d602dc6df3a6393",
+                "e48577268320651eaf7fae1d5bc5ce9474c847f3279d7503edb6f0a2e784999c",
+                "b0884d05d471976cc44a292358891e91ae200d94be5d05911fe2f47be74ebf96",
+                "ea55fd4a618145fe4514c30f8a3e19ead521fd2f60e76ad9bbb3ed823036ce3a",
+                "530fde8f3cc67ead927600b0b487a345b67100c0da48c37be8356dafffe9f619"
+              ],
+              "source_headlines": [
+                {
+                  "id": "98f0613cb5f33acce2c7bb4497ccb75807c964b99cda994d7d9ac48ae9ddf35a",
+                  "time": "2026-11-11T01:23:54+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Lane: I would put a high bar on directional forward guidance now"
+                },
+                {
+                  "id": "66d058d2efbac3571a5633ba887290aba62e083b6784cfdd0d602dc6df3a6393",
+                  "time": "2026-11-11T01:27:38+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Lane: Important that ECB has an instrument for multiple equilibriums on bond market"
+                },
+                {
+                  "id": "e48577268320651eaf7fae1d5bc5ce9474c847f3279d7503edb6f0a2e784999c",
+                  "time": "2026-11-11T01:30:30+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Lane: It's informative that underlying inflation hasn't moved yet, it means it's the usual delayed response"
+                },
+                {
+                  "id": "b0884d05d471976cc44a292358891e91ae200d94be5d05911fe2f47be74ebf96",
+                  "time": "2026-11-11T01:31:26+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Lane: Underlying inflation is a guide to 1-year ahead inflation"
+                },
+                {
+                  "id": "ea55fd4a618145fe4514c30f8a3e19ead521fd2f60e76ad9bbb3ed823036ce3a",
+                  "time": "2026-11-11T01:31:59+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Lane: Energy prices are already reversing; if that continues, headline inflation could fall while underlying inflation rises"
+                },
+                {
+                  "id": "530fde8f3cc67ead927600b0b487a345b67100c0da48c37be8356dafffe9f619",
+                  "time": "2026-11-11T01:32:12+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Lane: It would be a surprise if there are no second-round effects"
+                }
+              ]
+            },
+            {
+              "date": "2026-11-10",
+              "summary_zh": "表示若數據未變12月升息是審慎的，預期通膨高峰尚未到來且年底可能略高於4%，並肯定歐洲經濟韌性。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "2c46b4e31b67aafa0993d71bdd2f387c26350f013385175ebbd56d0acc301c26",
+                "313bbe39c16f88f8954b5e2e4a6fe8f2fe16b09f16a536c98451e9c5dca050be",
+                "d98597fd8881b96e31e38b3784fbceb23535524da827b384f739dbd00aaa6232",
+                "971d1eaf2914d77c15c5ea5a8b316df0453d25efebf5106ef045c3a969f4f22d",
+                "77a96e71c12085f3e58a8a0233fa51d8c322fa526671b8224cdd7143a9244047"
+              ],
+              "source_headlines": [
+                {
+                  "id": "2c46b4e31b67aafa0993d71bdd2f387c26350f013385175ebbd56d0acc301c26",
+                  "time": "2026-11-10T15:58:20+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Lane: Inflation likely “a little bit' over 4% at year-end."
+                },
+                {
+                  "id": "313bbe39c16f88f8954b5e2e4a6fe8f2fe16b09f16a536c98451e9c5dca050be",
+                  "time": "2026-11-10T15:58:29+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Lane: Prudent to hike in December if data don't shift."
+                },
+                {
+                  "id": "d98597fd8881b96e31e38b3784fbceb23535524da827b384f739dbd00aaa6232",
+                  "time": "2026-11-10T15:58:39+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Lane: More to come in terms of peak inflation."
+                },
+                {
+                  "id": "971d1eaf2914d77c15c5ea5a8b316df0453d25efebf5106ef045c3a969f4f22d",
+                  "time": "2026-11-10T15:58:56+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Lane: Expect core, food inflation to quicken."
+                },
+                {
+                  "id": "77a96e71c12085f3e58a8a0233fa51d8c322fa526671b8224cdd7143a9244047",
+                  "time": "2026-11-10T15:59:18+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Lane: Europe's economic resilience is quite reassuring."
+                }
+              ]
+            },
+            {
               "date": "2026-11-06",
               "summary_zh": "能源通膨將影響薪資協商與整體定價，並預期財政政策在明年及之後將會緊縮。",
               "topics": {
@@ -12543,6 +13236,57 @@
           "voter": false,
           "talks": [
             {
+              "date": "2026-11-10",
+              "summary_zh": "表示12月升息相當明確，能源價格下跌是好消息，並強調將採取必要行動使通膨回到2%目標。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "f69004dfcc19bd0eac423f9dd7d68309a48d32d1c5e48cba29c76565ab5252b8",
+                "79d16808ee526c1c79696dc7a87457ff0f14954bfccb1204efcd0266f05c4864",
+                "ef824e6814b6fa9bb8147cb7b7a4e680550e2f06e5e5b6849ddeebc4b023ae49",
+                "6e7a067fd4fc2a3fb190b02ca2268f305d58b1069e740c85948e74ef7d0822b0",
+                "db4ad4aef464fc6e2569cc4b1dd51deaaf0eaeeb8409ddd385a34a70a6fcaa7b"
+              ],
+              "source_headlines": [
+                {
+                  "id": "f69004dfcc19bd0eac423f9dd7d68309a48d32d1c5e48cba29c76565ab5252b8",
+                  "time": "2026-11-10T22:54:25+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Nagel: It is rather obvious that we have to increase in December."
+                },
+                {
+                  "id": "79d16808ee526c1c79696dc7a87457ff0f14954bfccb1204efcd0266f05c4864",
+                  "time": "2026-11-10T22:54:26+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Nagel: drop in energy prices since US midterms is good news"
+                },
+                {
+                  "id": "ef824e6814b6fa9bb8147cb7b7a4e680550e2f06e5e5b6849ddeebc4b023ae49",
+                  "time": "2026-11-10T22:54:35+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Nagel: Market expectations important but not driving factor."
+                },
+                {
+                  "id": "6e7a067fd4fc2a3fb190b02ca2268f305d58b1069e740c85948e74ef7d0822b0",
+                  "time": "2026-11-10T22:54:39+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Nagel: I don't see a risk of fiscal dominance."
+                },
+                {
+                  "id": "db4ad4aef464fc6e2569cc4b1dd51deaaf0eaeeb8409ddd385a34a70a6fcaa7b",
+                  "time": "2026-11-10T22:54:45+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Nagel: We'll do what's needed to return inflation to 2%"
+                }
+              ]
+            },
+            {
               "date": "2026-11-04",
               "summary_zh": "Nagel表示9月通膨壓力高於預期，歐洲央行必須防止能源價格飆升引發全面性通膨，因此12月極可能需要升息，並認為法國預算問題非貨幣政策任務。",
               "topics": {
@@ -12899,6 +13643,29 @@
           "active": true,
           "voter": true,
           "talks": [
+            {
+              "date": "2026-11-10",
+              "summary_zh": "表示在能源價格方面看到了正面跡象。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "e09ec8f1b86c7b4c9a8a0f30772966a760439596851005c44e05789313f303b6"
+              ],
+              "source_headlines": [
+                {
+                  "id": "e09ec8f1b86c7b4c9a8a0f30772966a760439596851005c44e05789313f303b6",
+                  "time": "2026-11-10T14:54:48+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Moulin: We see positive signs on energy prices."
+                }
+              ]
+            },
             {
               "date": "2026-11-05",
               "summary_zh": "指出銀行能應對升息，且殖利率攀升對金融業是新考驗，法國預算不確定性加劇了公債殖利率的上升。",
@@ -14611,6 +15378,43 @@
           "active": true,
           "voter": true,
           "talks": [
+            {
+              "date": "2026-11-10",
+              "summary_zh": "強調必須保持警惕與謹慎，政策須防止能源通膨外溢，且以漸進方式採取行動依然合適。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "0b6fb9b59382f89bdc45d7100f2495caa3f55c17424c379fe68370c1fde64f31",
+                "149514e121b6bb89b264789890868de6574c25c16952f39fc6bc6ace98d805a4",
+                "3ca1ef29aa4a353c30ea57e250ecd582e49c27a777aea6b84f464ad0086f7d62"
+              ],
+              "source_headlines": [
+                {
+                  "id": "0b6fb9b59382f89bdc45d7100f2495caa3f55c17424c379fe68370c1fde64f31",
+                  "time": "2026-11-10T18:02:08+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Kazaks: We must remain vigilant, cautious."
+                },
+                {
+                  "id": "149514e121b6bb89b264789890868de6574c25c16952f39fc6bc6ace98d805a4",
+                  "time": "2026-11-10T18:02:18+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Kazaks: Policy must stop energy inflation spilling over."
+                },
+                {
+                  "id": "3ca1ef29aa4a353c30ea57e250ecd582e49c27a777aea6b84f464ad0086f7d62",
+                  "time": "2026-11-10T18:02:27+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Kazaks: Still appropriate to act in a gradual way."
+                }
+              ]
+            },
             {
               "date": "2026-11-05",
               "summary_zh": "表示若通膨風險蔓延則需要升息，利率可能會以漸進方式調升。",
@@ -18554,7 +19358,7 @@
           "talks": [
             {
               "date": "2026-11-09",
-              "summary_zh": "表示AI短期因提振總需求將推高通膨，長期隨供給匹配需求對通膨影響偏中性，目前對生產力與就業影響有限，但需警惕資產價格調整風險。",
+              "summary_zh": "表示短期內AI推升總需求將推高通膨，但長期影響可能偏中性，若投資回報不如預期則部分資產價格恐面臨劇烈調整。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -18782,7 +19586,7 @@
             },
             {
               "date": "2026-08-13",
-              "summary_zh": "指出利率接近中性水準上限且房市走軟，但低迷的生產力使通膨挑戰更嚴峻，若風險顯現仍可能進一步升息。",
+              "summary_zh": "指出匯率上升有助抑制通膨，利率接近中性利率估計區間頂部，但生產力疲弱增加挑戰，若通膨上行風險浮現仍可能進一步升息。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -18981,21 +19785,45 @@
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 9376,
-    "candidatesTokenCount": 2762,
+    "promptTokenCount": 33094,
+    "candidatesTokenCount": 12711,
     "thoughtsTokenCount": 0,
-    "totalTokenCount": 12138,
+    "totalTokenCount": 45805,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
-      "FED+BOE+ECB+BOJ+RBA": {
-        "promptTokenCount": 9376,
-        "candidatesTokenCount": 2762,
-        "totalTokenCount": 12138,
+      "FED+RBA": {
+        "promptTokenCount": 20537,
+        "candidatesTokenCount": 8950,
+        "totalTokenCount": 29487,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 9376
+            "tokenCount": 20537
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "BOE+BOJ": {
+        "promptTokenCount": 7583,
+        "candidatesTokenCount": 2069,
+        "totalTokenCount": 9652,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 7583
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "ECB": {
+        "promptTokenCount": 4974,
+        "candidatesTokenCount": 1692,
+        "totalTokenCount": 6666,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4974
           }
         ],
         "serviceTier": "standard"
@@ -19003,12 +19831,12 @@
     },
     "incremental": {
       "mode": "incremental",
-      "window_headline_count": 3540,
-      "regenerated_date_count": 3,
-      "regenerated_headline_count": 66,
-      "reused_headline_count": 3474,
-      "reused_talk_count": 426,
-      "regenerated_talk_count": 5
+      "window_headline_count": 3671,
+      "regenerated_date_count": 4,
+      "regenerated_headline_count": 258,
+      "reused_headline_count": 3413,
+      "reused_talk_count": 424,
+      "regenerated_talk_count": 19
     }
   }
 }
