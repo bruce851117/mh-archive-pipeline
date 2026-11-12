@@ -2,17 +2,17 @@
   "status": "success",
   "timezone": "Asia/Taipei",
   "utc_offset": "+08:00",
-  "last_attempt_at": "2026-11-12T09:50:59.256303+08:00",
+  "last_attempt_at": "2026-11-12T10:50:59.228919+08:00",
   "lookback_days": 90,
-  "matched_this_fetch_count": 21,
+  "matched_this_fetch_count": 20,
   "matched_this_fetch_by_bank": {
-    "FED": 1,
+    "FED": 0,
     "BOE": 4,
     "ECB": 0,
     "BOJ": 15,
     "RBA": 1
   },
-  "new_item_count": 14,
+  "new_item_count": 0,
   "latest_90d_count": 3660,
   "latest_90d_by_bank": {
     "FED": 1521,
@@ -22,9 +22,8 @@
     "RBA": 371
   },
   "changed_files": [
-    "data/central_banks/raw/2026/11/2026-11-12.json",
     "data/central_banks/latest_90d.json"
   ],
   "error": "",
-  "last_success_at": "2026-11-12T09:50:59.256303+08:00"
+  "last_success_at": "2026-11-12T10:50:59.228919+08:00"
 }
