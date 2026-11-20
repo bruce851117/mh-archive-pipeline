@@ -2,8 +2,8 @@
   "date": "2026-11-20",
   "timezone": "Asia/Taipei",
   "model": "gemini-3.8-flash",
-  "source_generated_at": "2026-11-20T07:40:49.594556+08:00",
-  "talk_count": 4,
+  "source_generated_at": "2026-11-21T07:41:06.742863+08:00",
+  "talk_count": 8,
   "talks": [
     {
       "central_bank": "BOE",
@@ -15,7 +15,7 @@
       "active": true,
       "voter": true,
       "date": "2026-11-20",
-      "summary_zh": "通膨高於目標且經濟與就業具韌性，貨幣政策限制性不如預期，行動不足的風險高於過度收緊，有責任將通膨預期錨定在2%。",
+      "summary_zh": "指出經濟具韌性、通膨超標且去通膨放緩，政策限制性不如預期，行動不足的風險高於過度行動，有責任將通膨預期錨定在2%。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -109,6 +109,79 @@
     {
       "central_bank": "ECB",
       "central_bank_display_name": "ECB",
+      "official": "Joachim Nagel",
+      "headline_name": "Nagel",
+      "priority": 7,
+      "position": "Germany",
+      "active": true,
+      "voter": false,
+      "date": "2026-11-20",
+      "summary_zh": "指出通膨過高且政策處於微幅緊縮區間，通膨預期維持良好錨定，認為歐洲央行在12月會議必須採取行動。",
+      "topics": {
+        "economy": "",
+        "inflation": "",
+        "labor_market": "",
+        "monetary_policy": "",
+        "interest_rates": "",
+        "balance_sheet": ""
+      },
+      "source_ids": [
+        "baeb5dd421933c9ec0d0041f95ffe88201637058763618c7ce55f63cf950613a",
+        "2d7efa01c399b6211cdb508a286989ed12090d4612dc63e4ff94b44190ecb95a",
+        "4caf290cebff73a50d105fd94d0237da973a3c8f75a5293c147cd320ccc8d55e",
+        "ee0f20d00c2e9a3d3ea02d21818c4f989131df602dbaab99d3c9b1136c170593",
+        "ddc0b800a8f28ada2e3ca2468f4364e8663ebede69731a2bc72b80850d95b939",
+        "85bfabc83772e300a7dcdb62bb28a1b580387e242d97999d8e1e0fe6472d830b",
+        "92ccd7b275262105e7a49cda98d6b932f5fd1f53ca2ca5d6804e4c16314445a9"
+      ],
+      "source_headlines": [
+        {
+          "id": "baeb5dd421933c9ec0d0041f95ffe88201637058763618c7ce55f63cf950613a",
+          "time": "2026-11-20T21:22:01+08:00",
+          "central_bank": "ECB",
+          "headline": "ECB's Nagel: We see German economic growth around 1.2% this year"
+        },
+        {
+          "id": "2d7efa01c399b6211cdb508a286989ed12090d4612dc63e4ff94b44190ecb95a",
+          "time": "2026-11-20T21:22:29+08:00",
+          "central_bank": "ECB",
+          "headline": "ECB's Nagel: Inflation is too high"
+        },
+        {
+          "id": "4caf290cebff73a50d105fd94d0237da973a3c8f75a5293c147cd320ccc8d55e",
+          "time": "2026-11-20T21:23:46+08:00",
+          "central_bank": "ECB",
+          "headline": "ECB's Nagel: Policy is slightly restrictive territory"
+        },
+        {
+          "id": "ee0f20d00c2e9a3d3ea02d21818c4f989131df602dbaab99d3c9b1136c170593",
+          "time": "2026-11-20T21:24:00+08:00",
+          "central_bank": "ECB",
+          "headline": "ECB's Nagel: German GDP to grow 1.3% this year and about same in 2027."
+        },
+        {
+          "id": "ddc0b800a8f28ada2e3ca2468f4364e8663ebede69731a2bc72b80850d95b939",
+          "time": "2026-11-20T21:24:40+08:00",
+          "central_bank": "ECB",
+          "headline": "ECB's Nagel: Inflation expectations are well anchored."
+        },
+        {
+          "id": "85bfabc83772e300a7dcdb62bb28a1b580387e242d97999d8e1e0fe6472d830b",
+          "time": "2026-11-20T21:25:14+08:00",
+          "central_bank": "ECB",
+          "headline": "ECB's Nagel: I believe ECB has to do something at december meeting."
+        },
+        {
+          "id": "92ccd7b275262105e7a49cda98d6b932f5fd1f53ca2ca5d6804e4c16314445a9",
+          "time": "2026-11-20T21:25:45+08:00",
+          "central_bank": "ECB",
+          "headline": "ECB's Nagel: Then we're in slightly restrictive territory."
+        }
+      ]
+    },
+    {
+      "central_bank": "ECB",
+      "central_bank_display_name": "ECB",
       "official": "Fabio Panetta",
       "headline_name": "Panetta",
       "priority": 9,
@@ -116,7 +189,7 @@
       "active": true,
       "voter": true,
       "date": "2026-11-20",
-      "summary_zh": "強調必須阻止通膨根深蒂固，但同時抗擊通膨的過程也必須避免過度損害經濟成長。",
+      "summary_zh": "表示必須防止通膨生根，且抗擊通膨的過程不應對經濟成長造成過大打擊。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -145,16 +218,16 @@
       ]
     },
     {
-      "central_bank": "FED",
-      "central_bank_display_name": "Fed",
-      "official": "Michael Barr",
-      "headline_name": "Barr",
-      "priority": 7,
-      "position": "Governor",
+      "central_bank": "ECB",
+      "central_bank_display_name": "ECB",
+      "official": "Álvaro Santos Pereira",
+      "headline_name": "Pereira",
+      "priority": 18,
+      "position": "Portugal",
       "active": true,
       "voter": true,
       "date": "2026-11-20",
-      "summary_zh": "金融環境維持寬鬆支撐經濟但通膨依然過高，貨幣政策仍有必要進行適度調整，且聯準會並非以特定投資水準為政策目標。",
+      "summary_zh": "表示能源推動的通膨壓力仍然顯著，關鍵在於該壓力是否蔓延至其餘經濟領域。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -164,25 +237,49 @@
         "balance_sheet": ""
       },
       "source_ids": [
-        "08e69d7e7b9a4bfb109ee847c3bf20dd56937f76c270e6f4cfca5fd5eaf18ca8",
-        "a55a904ea16d435c03150e2e4496fd2679e8706f12db39c3121676a3b8bd9ddd",
+        "9c9ecc72d6a8276ff27c6c7854faf26923be571e70666651992a4e90a18d9783",
+        "02e2ca5ed827807bbfa39c2c95a9f020351c36fd006ea33b77613aa795e4ab05"
+      ],
+      "source_headlines": [
+        {
+          "id": "9c9ecc72d6a8276ff27c6c7854faf26923be571e70666651992a4e90a18d9783",
+          "time": "2026-11-20T17:46:16+08:00",
+          "central_bank": "ECB",
+          "headline": "ECB's Pereira: Energy-driven inflation pressures remain significant."
+        },
+        {
+          "id": "02e2ca5ed827807bbfa39c2c95a9f020351c36fd006ea33b77613aa795e4ab05",
+          "time": "2026-11-20T17:46:47+08:00",
+          "central_bank": "ECB",
+          "headline": "ECB's Pereira: Key question is whether energy price pressures spread to rest of economy."
+        }
+      ]
+    },
+    {
+      "central_bank": "FED",
+      "central_bank_display_name": "Fed",
+      "official": "Michael Barr",
+      "headline_name": "Barr",
+      "priority": 7,
+      "position": "Governor",
+      "active": true,
+      "voter": true,
+      "date": "2026-11-20",
+      "summary_zh": "表示金融情勢仍寬鬆，通膨依然過高，貨幣政策仍有必要進行調整。",
+      "topics": {
+        "economy": "",
+        "inflation": "",
+        "labor_market": "",
+        "monetary_policy": "",
+        "interest_rates": "",
+        "balance_sheet": ""
+      },
+      "source_ids": [
         "6215b0d63357882a40b0d406aa4aecc8e6ae63316e41674eede19121902d8fc6",
         "5b4eb2b644105e041fc9f41bde1b45f1a12a4240ad4b4563d44265e3e315f8ec",
         "bcbed17c9feedf7831bf1b6afd71facd86fa30adc9c8e6fec6723df0500fd294"
       ],
       "source_headlines": [
-        {
-          "id": "08e69d7e7b9a4bfb109ee847c3bf20dd56937f76c270e6f4cfca5fd5eaf18ca8",
-          "time": "2026-11-20T03:37:19+08:00",
-          "central_bank": "FED",
-          "headline": "Fed's Barr: Fed is not trying to target a level of investment in economy."
-        },
-        {
-          "id": "a55a904ea16d435c03150e2e4496fd2679e8706f12db39c3121676a3b8bd9ddd",
-          "time": "2026-11-20T03:37:44+08:00",
-          "central_bank": "FED",
-          "headline": "Fed's Barr: Central bank is not seeking to target a specific level of investment in economy"
-        },
         {
           "id": "6215b0d63357882a40b0d406aa4aecc8e6ae63316e41674eede19121902d8fc6",
           "time": "2026-11-20T03:37:47+08:00",
@@ -213,7 +310,7 @@
       "active": true,
       "voter": false,
       "date": "2026-11-20",
-      "summary_zh": "勞動市場穩定但通膨遠高於目標且未見重返2%跡象，關稅與AI投資需求持續帶來通膨與過熱風險，利率路徑取決於通膨走勢。",
+      "summary_zh": "指出通膨遠高於2%且具黏性，當前未見回落路徑，利率路徑陡峭程度取決於通膨走勢，央行職責是防止經濟過熱。",
       "topics": {
         "economy": "",
         "inflation": "",
@@ -232,18 +329,12 @@
         "261d95a21551cb166d7df0e1cbc47368edad812acf3fddc5efc9163c75ed360a",
         "6cf0c38645b8d1c8ccd1ff9ac6cd9cbf729897b381d9a969310a64ad4ecdfdfa",
         "d580cc599f5a0544234e25a10566ce0563735b1bd956b8ba5beedf6f88dfc932",
-        "46829da93d4a0865fcbd3f153fba9fb3b15e210c7d5b979f40eee3de896ffd4d",
-        "f08f8a0057457e5cc8a4186ba87783d58d543aea77d9b6b99ff3e0349967f687",
         "e070e6bd406c6dccaffe5c6fef819a024045a693d12ac7df9a214153f1bcd9ee",
         "3f65054bda660d3bcb0e68c03542156cbcc8777ec6d14cc6dfeae797dba5559b",
         "9ec586bfff0e6f5cdc2ad00799662c0876058fc9af74700d03531ee82bd4dd8f",
         "5ee987c2c110fe5586164c66c1067c9e757ade2ca9f82733f47f0fbdc4762895",
         "b8fff33c632a95ac57c1dd779e353e7a187f085d3f87da37ee6ebe2189f7997c",
         "6088aa3562affa5404a88d539059ae87cfcd870e45e923d9276311f26bac2f20",
-        "42ef55af979c4ab62e84dc1867b1029f28f4a6bed131d5bfe4705183898b00ad",
-        "72835c6ce3edb3c6d7f2f93d9047c1a43bbb937adaf3890eabe3d864e6c22281",
-        "7471c83c860ab7c111714cdba84cd099e91a82b1bf800e11349129e8c1b384fb",
-        "44ce53dd454a7de6a3fd76e2e3aed42355a963d153b4927d4d0fdfd3f65f8614",
         "afdbc9847f0ccbb12af8cb27cd396058f429702b99d5b3c8e6b127225bdde2e0",
         "d1ff99473d9e426ced6f75fe8fd8026a21a82683c14df0fcf71e8360084e7ad1"
       ],
@@ -303,18 +394,6 @@
           "headline": "Fed's Goolsbee: Changes in immigration policy mean the Fed should put less weight on monthly job numbers as a signal about the business cycle"
         },
         {
-          "id": "46829da93d4a0865fcbd3f153fba9fb3b15e210c7d5b979f40eee3de896ffd4d",
-          "time": "2026-11-20T02:11:04+08:00",
-          "central_bank": "FED",
-          "headline": "Fed's Goolsbee: The Fed is still looking for evidence that AI-driven productivity is starting to move beyond the tech sector."
-        },
-        {
-          "id": "f08f8a0057457e5cc8a4186ba87783d58d543aea77d9b6b99ff3e0349967f687",
-          "time": "2026-11-20T02:11:27+08:00",
-          "central_bank": "FED",
-          "headline": "Fed's Goolsbee: Unless AI shows it can increase productivity outside the tech sector, it could prove a \"flash in the pan\"."
-        },
-        {
           "id": "e070e6bd406c6dccaffe5c6fef819a024045a693d12ac7df9a214153f1bcd9ee",
           "time": "2026-11-20T04:30:17+08:00",
           "central_bank": "FED",
@@ -351,30 +430,6 @@
           "headline": "Fed's Goolsbee: It has not been good news on inflation for the past few months."
         },
         {
-          "id": "42ef55af979c4ab62e84dc1867b1029f28f4a6bed131d5bfe4705183898b00ad",
-          "time": "2026-11-20T04:31:51+08:00",
-          "central_bank": "FED",
-          "headline": "Fed's Goolsbee: Anthropic's IPO raises the question of how stockholders will use that wealth; it could have a macroeconomic impact. $ANT"
-        },
-        {
-          "id": "72835c6ce3edb3c6d7f2f93d9047c1a43bbb937adaf3890eabe3d864e6c22281",
-          "time": "2026-11-20T04:32:04+08:00",
-          "central_bank": "FED",
-          "headline": "Fed's Goolsbee: Artificial intelligence is influencing today's economy through wealth impacts and investment"
-        },
-        {
-          "id": "7471c83c860ab7c111714cdba84cd099e91a82b1bf800e11349129e8c1b384fb",
-          "time": "2026-11-20T04:32:06+08:00",
-          "central_bank": "FED",
-          "headline": "Fed's Goolsbee: There is widespread acknowledgment among businesses that costs are up, particularly among firms in construction or competing with data centers for components."
-        },
-        {
-          "id": "44ce53dd454a7de6a3fd76e2e3aed42355a963d153b4927d4d0fdfd3f65f8614",
-          "time": "2026-11-20T04:32:19+08:00",
-          "central_bank": "FED",
-          "headline": "Fed's Goolsbee: More openness about monetary policy has been productive for the Fed and the world."
-        },
-        {
           "id": "afdbc9847f0ccbb12af8cb27cd396058f429702b99d5b3c8e6b127225bdde2e0",
           "time": "2026-11-20T04:32:31+08:00",
           "central_bank": "FED",
@@ -385,6 +440,110 @@
           "time": "2026-11-20T04:32:42+08:00",
           "central_bank": "FED",
           "headline": "Fed's Goolsbee: There is a high risk that the economy's capacity cannot handle the current 'pig-through-the-python' level of business investment without overheating"
+        }
+      ]
+    },
+    {
+      "central_bank": "FED",
+      "central_bank_display_name": "Fed",
+      "official": "Anna Paulson",
+      "headline_name": "Paulson",
+      "priority": 18,
+      "position": "Philadelphia Fed President",
+      "active": true,
+      "voter": true,
+      "date": "2026-11-20",
+      "summary_zh": "表示通膨偏高且勞動市場充分就業，降低通膨是首要任務，需要進一步緊縮政策，並傾向以漸進步調升息。",
+      "topics": {
+        "economy": "",
+        "inflation": "",
+        "labor_market": "",
+        "monetary_policy": "",
+        "interest_rates": "",
+        "balance_sheet": ""
+      },
+      "source_ids": [
+        "8c9faa937eb8786c00ed7a882528b13c3288db55e12cb23b516841eff4e7b903",
+        "ac18e9730993e6385b288eb2498097ef119356c0e8f2d8bc9d2a830c335613dd",
+        "dd3a9b606ab45aed6b682c3b432572862d1c28b072ec81f336fb98c60b11205c",
+        "595b8c541de64948d45bcadea278ab1f7a666b6a6e642dee5c0efa39ef745d93",
+        "234d7bf2713fb004cd6a8b4020588228b7a83eb8d6f5ae4c9455eba315a09e76",
+        "2cac1a1038cae754d42bf6fd2d757b50838b325d1db0fff1a6b7a7ef23b051ec"
+      ],
+      "source_headlines": [
+        {
+          "id": "8c9faa937eb8786c00ed7a882528b13c3288db55e12cb23b516841eff4e7b903",
+          "time": "2026-11-20T08:02:07+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Paulson: more policy tightening needed"
+        },
+        {
+          "id": "ac18e9730993e6385b288eb2498097ef119356c0e8f2d8bc9d2a830c335613dd",
+          "time": "2026-11-20T08:02:48+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Paulson: gradual pace of rate increases allows economy to adapt"
+        },
+        {
+          "id": "dd3a9b606ab45aed6b682c3b432572862d1c28b072ec81f336fb98c60b11205c",
+          "time": "2026-11-20T08:04:09+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Paulson: inflation remains elevated, labor market at full employment"
+        },
+        {
+          "id": "595b8c541de64948d45bcadea278ab1f7a666b6a6e642dee5c0efa39ef745d93",
+          "time": "2026-11-20T08:04:25+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Paulson: reducing inflation is top priority at the moment"
+        },
+        {
+          "id": "234d7bf2713fb004cd6a8b4020588228b7a83eb8d6f5ae4c9455eba315a09e76",
+          "time": "2026-11-20T08:21:54+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Paulson: steady long-term inflation expectations reflect Fed credibility"
+        },
+        {
+          "id": "2cac1a1038cae754d42bf6fd2d757b50838b325d1db0fff1a6b7a7ef23b051ec",
+          "time": "2026-11-20T08:22:58+08:00",
+          "central_bank": "FED",
+          "headline": "Fed's Paulson: wage growth aligns with 2% inflation, a positive indicator"
+        }
+      ]
+    },
+    {
+      "central_bank": "RBA",
+      "central_bank_display_name": "RBA",
+      "official": "Renée Fry-McKibbin",
+      "headline_name": "Fry-McKibbin",
+      "priority": 7,
+      "position": "Monetary Policy Board Member",
+      "active": true,
+      "voter": true,
+      "date": "2026-11-20",
+      "summary_zh": "指出全球原油供給衝擊下，澳洲部分需求強勁但其他領域疲弱，政策取捨雖存分歧但不可忽視。",
+      "topics": {
+        "economy": "",
+        "inflation": "",
+        "labor_market": "",
+        "monetary_policy": "",
+        "interest_rates": "",
+        "balance_sheet": ""
+      },
+      "source_ids": [
+        "c96a7babc65035b63d11b736f2b660bd716c60c9ba400d569d51d3b1ba6f1ad7",
+        "4dc018eb49926772f083bebdf032561b0c02f2330599079ba67b742cb612a647"
+      ],
+      "source_headlines": [
+        {
+          "id": "c96a7babc65035b63d11b736f2b660bd716c60c9ba400d569d51d3b1ba6f1ad7",
+          "time": "2026-11-20T08:18:07+08:00",
+          "central_bank": "RBA",
+          "headline": "RBA monetary policy board member Fry-McKibbin: observing pockets of robust demand in Australia and weakness elsewhere amid a huge global oil supply shock"
+        },
+        {
+          "id": "4dc018eb49926772f083bebdf032561b0c02f2330599079ba67b742cb612a647",
+          "time": "2026-11-20T08:19:58+08:00",
+          "central_bank": "RBA",
+          "headline": "RBA's Fry-McKibbin: broad disagreement can exist on managing policy trade-offs, but they can't be ignored"
         }
       ]
     }
