@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-22T07:40:54.237762+08:00",
+  "generated_at": "2026-11-23T07:40:42.859780+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-08-24T07:40:54.237762+08:00",
-  "period_end": "2026-11-22T07:40:54.237762+08:00",
+  "period_start": "2026-08-25T07:40:42.859780+08:00",
+  "period_end": "2026-11-23T07:40:42.859780+08:00",
   "lookback_days": 90,
   "voter_version": "2026-09-09",
   "model": "gemini-3.8-flash",
-  "input_headline_count": 4189,
-  "talk_count": 317,
+  "input_headline_count": 4178,
+  "talk_count": 316,
   "central_banks": [
     {
       "central_bank": "FED",
@@ -2961,7 +2961,7 @@
           "talks": [
             {
               "date": "2026-11-21",
-              "summary_zh": "當前通膨過高不容聯準會保持耐心，9月升息不足以抑制通膨，暫緩升息恐致通膨固化，數據顯示需要更緊縮的貨幣政策。",
+              "summary_zh": "表示通膨過高令人擔憂且缺乏耐心空間，金融環境過於寬鬆，數據顯示需進一步收緊貨幣政策以防通膨根深蒂固，並指出經濟成長強勁、就業市場穩定。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -2984,7 +2984,9 @@
                 "f09d4df579fcd5d19aa7a81f05bc3d25ce78bcc4fa53257167f132240590c4f9",
                 "c1e38ebecf2049e0b99e1d05b8cf1cf296e4f644d588b44de502383bbacbcb2c",
                 "ac9e64c953d8c4beafed27dfb3f0c819dc376efd83010efd4a765bffb559ee8f",
-                "941e6e07098d76056849dbc82ce16f65e5a4f9506afa68a4d947791abaab4b18"
+                "941e6e07098d76056849dbc82ce16f65e5a4f9506afa68a4d947791abaab4b18",
+                "1f5b9e2bd9294ea8ffff6488ead7df76bd2c7e7426db28a35ba9125bb377cfc9",
+                "b79fc6f40b11df5be608a475e0707e1dc69193a5d49ceba98c94687dd2090e23"
               ],
               "source_headlines": [
                 {
@@ -3070,6 +3072,18 @@
                   "time": "2026-11-21T02:03:01+08:00",
                   "central_bank": "FED",
                   "headline": "Fed's Cook: Fed must deal with inflation we see already"
+                },
+                {
+                  "id": "1f5b9e2bd9294ea8ffff6488ead7df76bd2c7e7426db28a35ba9125bb377cfc9",
+                  "time": "2026-11-21T02:03:56+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Cook: Fed is cautious about how AI build-out is getting financed"
+                },
+                {
+                  "id": "b79fc6f40b11df5be608a475e0707e1dc69193a5d49ceba98c94687dd2090e23",
+                  "time": "2026-11-21T02:04:16+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Cook: Fed will monitor finances around AI buildout"
                 }
               ]
             },
@@ -10016,7 +10030,7 @@
           "talks": [
             {
               "date": "2026-11-21",
-              "summary_zh": "對連續升息持開放態度，並支持以審慎且深思熟慮的方式調升利率。",
+              "summary_zh": "表示對連續升息持開放態度，傾向以審慎深思熟慮的方式調升利率，並認為投資人充分理解聯準會的政策溝通。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -10027,7 +10041,8 @@
               },
               "source_ids": [
                 "125ce010093089e17e1af3e6ad95b4a7ec8ab9a06e056012c4337c21ea5fe721",
-                "750bef8562a74e84babd29268e03dbc1b382773518e914b0c0814c3f44c98e23"
+                "750bef8562a74e84babd29268e03dbc1b382773518e914b0c0814c3f44c98e23",
+                "c3873c78bea7830611ec42fa6c66cf44f2142bcdfb85cc1cb5c167ad23d65d7e"
               ],
               "source_headlines": [
                 {
@@ -10041,6 +10056,12 @@
                   "time": "2026-11-21T02:33:55+08:00",
                   "central_bank": "FED",
                   "headline": "Fed's Paulson: She favors raising rates in a deliberate way"
+                },
+                {
+                  "id": "c3873c78bea7830611ec42fa6c66cf44f2142bcdfb85cc1cb5c167ad23d65d7e",
+                  "time": "2026-11-21T02:35:43+08:00",
+                  "central_bank": "FED",
+                  "headline": "Fed's Paulson: Investors appear to understand Fed communications"
                 }
               ]
             },
@@ -15444,52 +15465,7 @@
           "position": "Executive Board",
           "active": true,
           "voter": true,
-          "talks": [
-            {
-              "date": "2026-08-24",
-              "summary_zh": "貨幣政策需精準調整，通膨遠離嚴重惡化情境且停滯性通膨的風險相當低。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "f314138d418040ea690e9793aac82b9777f2e337301378c7fa0121509a7be12c",
-                "1496d40589cdbba0fd612ddf4cdcbd61a9ce244482a139dba29e847ba12d04dd",
-                "320e1715e63181214fe53b5461b20fa210fd8007a4f89377b87a9a7297590728",
-                "ea563d7c9d3ff0b162a66e6002324f2ab455d0eef072c3ec20d19b19ff709af1"
-              ],
-              "source_headlines": [
-                {
-                  "id": "f314138d418040ea690e9793aac82b9777f2e337301378c7fa0121509a7be12c",
-                  "time": "2026-08-24T14:04:26+08:00",
-                  "central_bank": "ECB",
-                  "headline": "ECB's Cipollone: Monetary policy needs to be well calibrated"
-                },
-                {
-                  "id": "1496d40589cdbba0fd612ddf4cdcbd61a9ce244482a139dba29e847ba12d04dd",
-                  "time": "2026-08-24T14:05:35+08:00",
-                  "central_bank": "ECB",
-                  "headline": "ECB's Cipollone: Inflation is far from adverse & severe scenarios"
-                },
-                {
-                  "id": "320e1715e63181214fe53b5461b20fa210fd8007a4f89377b87a9a7297590728",
-                  "time": "2026-08-24T14:05:53+08:00",
-                  "central_bank": "ECB",
-                  "headline": "ECB's Cipollone: No signs pointing to a scenario of stagflation"
-                },
-                {
-                  "id": "ea563d7c9d3ff0b162a66e6002324f2ab455d0eef072c3ec20d19b19ff709af1",
-                  "time": "2026-08-24T14:08:30+08:00",
-                  "central_bank": "ECB",
-                  "headline": "ECB's Cipollone: risk of economic stagnation and sharp inflation rise is rather remote"
-                }
-              ]
-            }
-          ]
+          "talks": []
         },
         {
           "official": "Frank Elderson",
@@ -16108,7 +16084,7 @@
           "talks": [
             {
               "date": "2026-11-21",
-              "summary_zh": "能源推升的通膨目前顯然過高，歐洲央行必須將通膨帶回2%目標水準。",
+              "summary_zh": "強調歐洲央行必須將通膨拉回至2%，目前通膨顯然過高，並指出法國通膨主要由能源推動且面臨預算危機，呼籲採取措施削減開支以降低赤字與債務。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -16118,16 +16094,65 @@
                 "balance_sheet": ""
               },
               "source_ids": [
+                "27c0199411040c23d77bdc9ae97fc1abf7f6ea8e2d041e0fb8d76ea6da19d5f7",
+                "cdf9c013fc514d788507266ca0087e22f4ae50ed5ba63f60cb5cd140a621262c",
+                "7fc329f2054baca193dab30538da9391c66fac7f0bbd814252de768ea40869d9",
+                "faf0f1909f2ca6563e3e3d8d708dc9c9cf26721304ce933c0d0005be7860707f",
+                "099d080ed20b67940c6d2bed676c49e705c9d20917542d0581865ee8f0552294",
                 "28ada2043a829eb2f34571203ca1e5b656e53ea9160d6a91eb9f95e26f2fe225",
+                "5ebe4fd36fe4b2408e59ad537e1a229a7552d21790c3e5a334b16746022566f4",
+                "ee95d1143bed3537da8114c997df860197a76e2ace8d89a466145c30c7a5a3eb",
                 "53f39b3723d3a721d08d09da15802933b2105942ebada8c1b6f5cd09a8e7859e",
                 "665a54ee354672c92e342ead65e3e7c94ca9e8336efd067fb6b559e835536cc2"
               ],
               "source_headlines": [
                 {
+                  "id": "27c0199411040c23d77bdc9ae97fc1abf7f6ea8e2d041e0fb8d76ea6da19d5f7",
+                  "time": "2026-11-21T02:07:11+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Moulin: The French must tackle too high debt and deficit"
+                },
+                {
+                  "id": "cdf9c013fc514d788507266ca0087e22f4ae50ed5ba63f60cb5cd140a621262c",
+                  "time": "2026-11-21T02:08:22+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Moulin: Must take measures that reduce spending dynamics"
+                },
+                {
+                  "id": "7fc329f2054baca193dab30538da9391c66fac7f0bbd814252de768ea40869d9",
+                  "time": "2026-11-21T02:09:54+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Moulin: France is in a very different situation from the Greece crisis"
+                },
+                {
+                  "id": "faf0f1909f2ca6563e3e3d8d708dc9c9cf26721304ce933c0d0005be7860707f",
+                  "time": "2026-11-21T02:10:54+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Moulin: France is facing a budget crisis"
+                },
+                {
+                  "id": "099d080ed20b67940c6d2bed676c49e705c9d20917542d0581865ee8f0552294",
+                  "time": "2026-11-21T02:11:26+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Moulin: France is facing a budget crisis"
+                },
+                {
                   "id": "28ada2043a829eb2f34571203ca1e5b656e53ea9160d6a91eb9f95e26f2fe225",
                   "time": "2026-11-21T02:12:49+08:00",
                   "central_bank": "ECB",
                   "headline": "ECB's Moulin: ECB must bring inflation back to 2%"
+                },
+                {
+                  "id": "5ebe4fd36fe4b2408e59ad537e1a229a7552d21790c3e5a334b16746022566f4",
+                  "time": "2026-11-21T02:14:17+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Moulin: Essential to have a budget that reduces the deficit approved"
+                },
+                {
+                  "id": "ee95d1143bed3537da8114c997df860197a76e2ace8d89a466145c30c7a5a3eb",
+                  "time": "2026-11-21T02:16:49+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Moulin: Raising the retirement age in France to the level of other European countries would lower the deficit"
                 },
                 {
                   "id": "53f39b3723d3a721d08d09da15802933b2105942ebada8c1b6f5cd09a8e7859e",
@@ -22886,21 +22911,21 @@
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 16232,
-    "candidatesTokenCount": 5683,
+    "promptTokenCount": 5272,
+    "candidatesTokenCount": 2090,
     "thoughtsTokenCount": 0,
-    "totalTokenCount": 21915,
+    "totalTokenCount": 7362,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
-      "FED+BOE+ECB+BOJ+RBA": {
-        "promptTokenCount": 16232,
-        "candidatesTokenCount": 5683,
-        "totalTokenCount": 21915,
+      "FED+ECB": {
+        "promptTokenCount": 5272,
+        "candidatesTokenCount": 2090,
+        "totalTokenCount": 7362,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 16232
+            "tokenCount": 5272
           }
         ],
         "serviceTier": "standard"
@@ -22908,12 +22933,12 @@
     },
     "incremental": {
       "mode": "incremental",
-      "window_headline_count": 4189,
-      "regenerated_date_count": 2,
-      "regenerated_headline_count": 125,
-      "reused_headline_count": 4064,
-      "reused_talk_count": 483,
-      "regenerated_talk_count": 11
+      "window_headline_count": 4178,
+      "regenerated_date_count": 1,
+      "regenerated_headline_count": 35,
+      "reused_headline_count": 4143,
+      "reused_talk_count": 491,
+      "regenerated_talk_count": 3
     }
   }
 }

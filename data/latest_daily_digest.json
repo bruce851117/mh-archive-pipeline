@@ -1,9 +1,9 @@
 {
   "title": "最近24小時全球市場重要新聞",
-  "period_start": "2026-11-21T07:40:54.237762+08:00",
-  "period_end": "2026-11-22T07:40:54.237762+08:00",
+  "period_start": "2026-11-22T07:40:42.859780+08:00",
+  "period_end": "2026-11-23T07:40:42.859780+08:00",
   "timezone": "Asia/Taipei",
-  "overview": "過去24小時內，中東局勢顯著升溫，荷姆茲海峽油輪遇襲受損，伊朗革命衛隊更聲稱對巴林境內的美軍基地及愛國者雷達發動攻擊，同時沙烏地阿拉伯頻繁攔截葉門胡塞武裝飛彈與無人機。儘管川普表示將促成持久協議且伊朗提及重啟海峽條件與卡達居中協調，地緣風險仍威脅能源航運。歐洲方面，芬蘭灣俄羅斯軍方關聯貨輪遭無人機襲擊起火，歐盟內部則圍繞最新預算案產生分歧。總體市場在美中東衝突擴大與潛在談判訊號中尋求平衡。",
+  "overview": "過去24小時全球市場聚焦科技監管與地緣政治衝突升級。美國財政部長貝森特（Scott Bessent）針對輝達（Nvidia）對中國晶片銷售展開合規性追查，加深半導體監管擔憂；同時AI獨角獸Anthropic IPO面臨嚴格保密條款與混亂審批爭議。地緣政治方面，葉門青年運動攻擊沙烏地阿拉伯紅海煉油廠，阿曼灣發生油輪與軍事部隊對峙事件，利比亞班加西港口亦遭遇無人艇襲擊，推升中東能源供應與航運風險。",
   "categories": [
     {
       "category": "債市",
@@ -13,16 +13,128 @@
       "category": "股市",
       "news": [
         {
-          "importance_score": 3,
-          "headline_zh": "Databricks洽談以2250億美元估值籌集新資金",
-          "summary_zh": "華爾街日報報導，數據與AI軟體巨頭Databricks正進行早期融資談判，估值上看2250億美元，反映市場對核心AI基礎設施與大型科技非上市企業的濃厚估值興趣。",
-          "event_time": "2026-11-21T06:50:46+08:00",
-          "source_id": "4f99c53690b4a8ebb7a3d1680c5964f34fa0acc9ef90930c8e4f9305e5ba572e",
+          "importance_score": 4,
+          "headline_zh": "貝森特：需確定輝達哪些管理層級知情，委員會正迅速尋求答案",
+          "summary_zh": "美國財政部長貝森特強調，需確認輝達內部知曉對中晶片業務的層級，並對國會委員會迅速釐清案情具備信心。",
+          "event_time": "2026-11-22T23:41:28+08:00",
+          "source_id": "70aceba8359de8582dfca33db0bd21c41591d8312256105f4b35ea99ceecfd21",
           "source_detail": {
-            "id": "4f99c53690b4a8ebb7a3d1680c5964f34fa0acc9ef90930c8e4f9305e5ba572e",
-            "time": "2026-11-21T06:50:46+08:00",
-            "headline": "Databricks in early discussions to secure funding at $225 billion valuation: WSJ",
-            "link": "https://www.financialjuice.com/News/9862560/Databricks-in-early-discussions-to-secure-funding-at-225-billion-valuation-WSJ.aspx?xy=rss",
+            "id": "70aceba8359de8582dfca33db0bd21c41591d8312256105f4b35ea99ceecfd21",
+            "time": "2026-11-22T23:41:28+08:00",
+            "headline": "US Treasury Secretary Bessent: need to determine which level of Nvidia business was aware, confident committees are swiftly seeking answers - CBS",
+            "link": "https://www.financialjuice.com/News/9863475/US-Treasury-Secretary-Bessent-need-to-determine-which-level-of-Nvidia-business-was-aware-confident-committees-are-swiftly-seeking-answers---CBS.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "貝森特：針對輝達對中銷售晶片問題，必須追究最終責任人",
+          "summary_zh": "美國財政部展現對高科技出口管制的強硬立場，貝森特強調必須找出該項爭議業務的最終負責人（where the buck stops）。",
+          "event_time": "2026-11-22T23:41:28+08:00",
+          "source_id": "eaa2aec309b1f4976afcbbd21455f9ad106ec37b9e8ea5979f4b4529ff7988fa",
+          "source_detail": {
+            "id": "eaa2aec309b1f4976afcbbd21455f9ad106ec37b9e8ea5979f4b4529ff7988fa",
+            "time": "2026-11-22T23:41:28+08:00",
+            "headline": "US Treasury Secretary Bessent: we need to find where the buck stops",
+            "link": "https://www.financialjuice.com/News/9863474/US-Treasury-Secretary-Bessent-we-need-to-find-where-the-buck-stops.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "貝森特：需釐清輝達內部由誰主導合規審查工作",
+          "summary_zh": "美國財長貝森特受訪指出，需查明輝達內部負責合規監管的決策主管，以確定對中晶片銷售是否涉及合規疏漏。",
+          "event_time": "2026-11-22T23:41:04+08:00",
+          "source_id": "0fa8cba97e69e0e349c99060feb2657b35ead1f91f39876f86d7c645bb1e3585",
+          "source_detail": {
+            "id": "0fa8cba97e69e0e349c99060feb2657b35ead1f91f39876f86d7c645bb1e3585",
+            "time": "2026-11-22T23:41:04+08:00",
+            "headline": "US Treasury Secretary Bessent: need to identify who led compliance at Nvidia - CBS",
+            "link": "https://www.financialjuice.com/News/9863473/US-Treasury-Secretary-Bessent-need-to-identify-who-led-compliance-at-Nvidia---CBS.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "貝森特：需查明輝達在該業務上的具體涉入層級",
+          "summary_zh": "美國財政部長貝森特表示，監管部門需要審查輝達業務參與的具體細節與層級。",
+          "event_time": "2026-11-22T23:41:04+08:00",
+          "source_id": "f8f4c622da3eaf0803146d676629bdc6ace64525d7c48e1bb9ac6cddf2660b92",
+          "source_detail": {
+            "id": "f8f4c622da3eaf0803146d676629bdc6ace64525d7c48e1bb9ac6cddf2660b92",
+            "time": "2026-11-22T23:41:04+08:00",
+            "headline": "US Treasury Secretary Bessent: what level of Nvidia business we need to see",
+            "link": "https://www.financialjuice.com/News/9863472/US-Treasury-Secretary-Bessent-what-level-of-Nvidia-business-we-need-to-see.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "美國財政部長貝森特：對輝達晶片銷往中國一事尚無定論，需要釐清真相",
+          "summary_zh": "美國財長貝森特（Scott Bessent）表示，針對輝達向中國銷售晶片的合規調查尚無明確結論，官方正密切審查以確保未違反出口限制。",
+          "event_time": "2026-11-22T23:38:29+08:00",
+          "source_id": "0bbb81732a20eea22658eb74d9c2052bdc4625a7e91d943798c4729f448084a5",
+          "source_detail": {
+            "id": "0bbb81732a20eea22658eb74d9c2052bdc4625a7e91d943798c4729f448084a5",
+            "time": "2026-11-22T23:38:29+08:00",
+            "headline": "US Treasury Secretary Bessent: no answers yet on Nvidia chip sales to China, we need clarity",
+            "link": "https://www.financialjuice.com/News/9863470/US-Treasury-Secretary-Bessent-no-answers-yet-on-Nvidia-chip-sales-to-China-we-need-clarity.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 4,
+          "headline_zh": "知情人士稱Anthropic IPO受最後關頭調整、匆促審批及洩密擔憂困擾",
+          "summary_zh": "銀行家透露AI獨角獸Anthropic的首次公開發行（IPO）進程面臨最後一刻變更、急促核准與不尋常的洩密疑慮，影響市場對大型AI新股上市的情緒。",
+          "event_time": "2026-11-22T20:53:45+08:00",
+          "source_id": "9813e8a5dffd0f7c39e7b8eeac46b40976ead594100922e67c074de3ee23ae93",
+          "source_detail": {
+            "id": "9813e8a5dffd0f7c39e7b8eeac46b40976ead594100922e67c074de3ee23ae93",
+            "time": "2026-11-22T20:53:45+08:00",
+            "headline": "Bankers said anthropic's IPO was plagued by last-minute changes, hurried approvals and unusual leak concerns, people familiar with the matter said",
+            "link": "https://www.financialjuice.com/News/9863408/Bankers-said-anthropics-IPO-was-plagued-by-last-minute-changes-hurried-approvals-and-unusual-leak-concerns-people-familiar-with-the-matter-said.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "下週市場情緒：Anthropic IPO爭議與輝達監管消息持續承壓市場",
+          "summary_zh": "市場前瞻指出，大型AI企業的上市波折及輝達面臨的監管壓力，將對科技板塊投資情緒構成抑制。",
+          "event_time": "2026-11-23T01:17:54+08:00",
+          "source_id": "400a229e1f9448db546913acccee9ec8c84c3a782b9deefedee3b5d98caf2d2e",
+          "source_detail": {
+            "id": "400a229e1f9448db546913acccee9ec8c84c3a782b9deefedee3b5d98caf2d2e",
+            "time": "2026-11-23T01:17:54+08:00",
+            "headline": "Week Ahead Sentiment: Anthropic's IPO & Nvidia News Continues to Weigh on Sentiment - FJElite",
+            "link": "https://www.financialjuice.com/News/9863505/Week-Ahead-Sentiment-Anthropics-IPO--Nvidia-News-Continues-to-Weigh-on-Sentiment---FJElite.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "Anthropic尋求禁止部分銀行家在六個月內跳槽至OpenAI或DeepSeek等競爭對手",
+          "summary_zh": "知情人士透露Anthropic試圖對參與交易的銀行家設立六個月競業禁止條款，防止核心商業資訊外流至OpenAI與DeepSeek等AI競爭者。",
+          "event_time": "2026-11-22T20:53:48+08:00",
+          "source_id": "3920450c54a8bb7aaac5ae175bf5010eeb0d9937bfa1723f51c1d1a8ae6626d7",
+          "source_detail": {
+            "id": "3920450c54a8bb7aaac5ae175bf5010eeb0d9937bfa1723f51c1d1a8ae6626d7",
+            "time": "2026-11-22T20:53:48+08:00",
+            "headline": "Anthropic sought six-month limits barring some bankers from joining rivals including OpenAI and DeepSeek, people said",
+            "link": "https://www.financialjuice.com/News/9863410/Anthropic-sought-six-month-limits-barring-some-bankers-from-joining-rivals-including-OpenAI-and-DeepSeek-people-said.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "Anthropic要求部分IPO承銷銀行將交易團隊限制為四名資深銀行家",
+          "summary_zh": "消息指出Anthropic對參與IPO的承銷銀行實施嚴格保密限制，要求縮減專案核心人員規模至四名資深銀行家。",
+          "event_time": "2026-11-22T20:53:46+08:00",
+          "source_id": "262ffb2679fe74cdd3464aea2fdfca65e09b710861a65b5cc979464e41d1a335",
+          "source_detail": {
+            "id": "262ffb2679fe74cdd3464aea2fdfca65e09b710861a65b5cc979464e41d1a335",
+            "time": "2026-11-22T20:53:46+08:00",
+            "headline": "Anthropic requested some IPO banks to restrict deal teams to four senior bankers, people said",
+            "link": "https://www.financialjuice.com/News/9863409/Anthropic-requested-some-IPO-banks-to-restrict-deal-teams-to-four-senior-bankers-people-said.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -34,51 +146,78 @@
     },
     {
       "category": "財政政策",
-      "news": [
-        {
-          "importance_score": 3,
-          "headline_zh": "法國稱歐盟最新預算提案令人極度失望",
-          "summary_zh": "法國總統府表示，歐盟最新的預算提案「非常令人失望」，無法作為達成協議的基礎，凸顯歐盟主要成員國在財政支出分攤與共同預算規模上的矛盾擴大。",
-          "event_time": "2026-11-21T18:40:05+08:00",
-          "source_id": "39620e0f90367d3365198a7b2b5a5c6ba845392a03ec7e9a20cd8f936c8b46cf",
-          "source_detail": {
-            "id": "39620e0f90367d3365198a7b2b5a5c6ba845392a03ec7e9a20cd8f936c8b46cf",
-            "time": "2026-11-21T18:40:05+08:00",
-            "headline": "France calls latest EU budget proposal \"very disappointing,\" not foundation for agreement – French presidency office",
-            "link": "https://www.financialjuice.com/News/9862931/France-calls-latest-EU-budget-proposal-very-disappointing-not-foundation-for-agreement--French-presidency-office.aspx",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 3,
-          "headline_zh": "川普簽署行政命令強化聯邦承包效率與特權維護",
-          "summary_zh": "美國總統川普（Donald Trump）簽署行政命令維護行政特權並提升聯邦採購合約效率，要求承包商向白宮即時回報國會對其通訊內容的調查要求，影響美國聯邦政府採購監督體系。",
-          "event_time": "2026-11-21T10:35:46+08:00",
-          "source_id": "72cda55e67ca4c2625e859c2aa394a33502f4024968837f18ba31228d2fd9aae",
-          "source_detail": {
-            "id": "72cda55e67ca4c2625e859c2aa394a33502f4024968837f18ba31228d2fd9aae",
-            "time": "2026-11-21T10:35:46+08:00",
-            "headline": "Trump signs executive order on safeguarding executive privileges, boosting efficiency in federal contracting - White House",
-            "link": "https://www.financialjuice.com/News/9862779/Trump-signs-executive-order-on-safeguarding-executive-privileges-boosting-efficiency-in-federal-contracting---White-House.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        }
-      ]
+      "news": []
     },
     {
       "category": "經濟",
       "news": [
         {
           "importance_score": 3,
-          "headline_zh": "川普表示可與新一屆民主黨國會就信用卡利率展開合作",
-          "summary_zh": "美國總統川普在受訪時表示，有可能與即將上任的民主黨國會合作立法限制或調整信用卡利率，此舉可能顯著衝擊美國大型銀行與消費金融機構的利息收入利潤。",
-          "event_time": "2026-11-21T23:08:46+08:00",
-          "source_id": "148acc166a301fd5dbd8addd15269ba8235890437d81550842cdb73036ae5c12",
+          "headline_zh": "澳洲服務業採購經理人指數（PMI）初值下滑至46.2",
+          "summary_zh": "澳洲服務業PMI初值自前月的48.5降至46.2，創下近期低點，顯示高利率環境對服務消費的抑制持續深化。",
+          "event_time": "2026-11-23T06:00:10+08:00",
+          "source_id": "54adc77c08a68d4f1bf56672bbc4d1dda7df4c34453efd3360fb3d00127432d2",
           "source_detail": {
-            "id": "148acc166a301fd5dbd8addd15269ba8235890437d81550842cdb73036ae5c12",
-            "time": "2026-11-21T23:08:46+08:00",
-            "headline": "Trump on incoming Democratic Congress: could collaborate on credit card rates - Fox News interview",
-            "link": "https://www.financialjuice.com/News/9863036/Trump-on-incoming-Democratic-Congress-could-collaborate-on-credit-card-rates---Fox-News-interview.aspx",
+            "id": "54adc77c08a68d4f1bf56672bbc4d1dda7df4c34453efd3360fb3d00127432d2",
+            "time": "2026-11-23T06:00:10+08:00",
+            "headline": "Australian Services PMI Flash Actual 46.2 (Forecast -, Previous 48.5)",
+            "link": "https://www.financialjuice.com/News/9863566/Australian-Services-PMI-Flash-Actual-462-Forecast---Previous-485.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "澳洲綜合採購經理人指數（PMI）初值降至46.1，緊縮加劇",
+          "summary_zh": "澳洲綜合PMI初值自前月48.2進一步跌落至46.1，顯示整體私營部門景氣緊縮壓力加大。",
+          "event_time": "2026-11-23T06:00:09+08:00",
+          "source_id": "b26b0fb84b1af626ee1f5b6000e58ec4dc7f45078b62bcfa703b82a4af5057de",
+          "source_detail": {
+            "id": "b26b0fb84b1af626ee1f5b6000e58ec4dc7f45078b62bcfa703b82a4af5057de",
+            "time": "2026-11-23T06:00:09+08:00",
+            "headline": "Australian Composite PMI Flash Actual 46.1 (Forecast -, Previous 48.2)",
+            "link": "https://www.financialjuice.com/News/9863565/Australian-Composite-PMI-Flash-Actual-461-Forecast---Previous-482.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 3,
+          "headline_zh": "澳洲製造業採購經理人指數（PMI）初值降至48.7",
+          "summary_zh": "澳洲製造業PMI初值低於前值的49.6，持續位於榮枯線下方，反映製造業需求疲弱。",
+          "event_time": "2026-11-23T06:00:09+08:00",
+          "source_id": "ac2b4d96116d3079582c3b58946b89931eb31b925e598a001c7d157b49064fea",
+          "source_detail": {
+            "id": "ac2b4d96116d3079582c3b58946b89931eb31b925e598a001c7d157b49064fea",
+            "time": "2026-11-23T06:00:09+08:00",
+            "headline": "Australian Manufacturing PMI Flash Actual 48.7 (Forecast -, Previous 49.6)",
+            "link": "https://www.financialjuice.com/News/9863564/Australian-Manufacturing-PMI-Flash-Actual-487-Forecast---Previous-496.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 2,
+          "headline_zh": "紐西蘭季增零售銷售達2.2%，顯著優於預期之0.5%",
+          "summary_zh": "紐西蘭季調後零售銷售季增率自前值的-0.5%大幅反彈至2.2%，顯著優於市場預期，反映內需出現強勁回溫。",
+          "event_time": "2026-11-23T05:45:10+08:00",
+          "source_id": "2db2b7f3487aea1349875871c21bfadf69066efcc2fe5788eff31805d1bfbce8",
+          "source_detail": {
+            "id": "2db2b7f3487aea1349875871c21bfadf69066efcc2fe5788eff31805d1bfbce8",
+            "time": "2026-11-23T05:45:10+08:00",
+            "headline": "New Zealand Retail Sales QoQ Actual 2.2% (Forecast 0.5%, Previous -0.5%)",
+            "link": "https://www.financialjuice.com/News/9863558/New-Zealand-Retail-Sales-QoQ-Actual-22-Forecast-05-Previous--05.aspx?xy=rss",
+            "source": "FinancialJuice"
+          }
+        },
+        {
+          "importance_score": 2,
+          "headline_zh": "紐西蘭年增零售銷售升至3.5%，前值修正為3.3%",
+          "summary_zh": "紐西蘭零售銷售年率表現穩健，顯示當地消費需求維持溫和增長動能。",
+          "event_time": "2026-11-23T05:45:09+08:00",
+          "source_id": "de5da31ea596ba713d3b268bdc0bb029c0c7c0a3479e40a6c1453e54e8e29bf9",
+          "source_detail": {
+            "id": "de5da31ea596ba713d3b268bdc0bb029c0c7c0a3479e40a6c1453e54e8e29bf9",
+            "time": "2026-11-23T05:45:09+08:00",
+            "headline": "New Zealand Retail Sales YoY Actual 3.5% (Forecast -, Previous 3.3%)",
+            "link": "https://www.financialjuice.com/News/9863557/New-Zealand-Retail-Sales-YoY-Actual-35-Forecast---Previous-33.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -89,169 +228,85 @@
       "news": [
         {
           "importance_score": 5,
-          "headline_zh": "伊朗革命衛隊襲擊巴林境內兩處美軍基地及愛國者雷達",
-          "summary_zh": "伊朗革命衛隊（IRGC）聲稱襲擊了位於巴林的兩處美軍基地，並鎖定打擊美軍愛國者防空雷達，巴林官方則通報民營工業區受損起火並展開防空攔截，中東戰事直接擴大至波斯灣國家。",
-          "event_time": "2026-11-22T03:32:56+08:00",
-          "source_id": "3b6ce64bfac5744156e064612c11831f9c26bc3f52b079dec3316cfac4f8de3e",
+          "headline_zh": "葉門青年運動宣稱襲擊沙烏地阿拉伯西側紅海沿岸拉比格煉油廠",
+          "summary_zh": "青年運動（Houthis）聲稱對沙烏地阿拉伯位於紅海海岸的拉比格（Rabigh）煉油設施發動襲擊，加劇中東石油供應鏈中斷風險。",
+          "event_time": "2026-11-23T00:35:42+08:00",
+          "source_id": "bf22b00b9054deb2b40c993e3f61c36f37db22fa82a2b201595d44fecce56bd6",
           "source_detail": {
-            "id": "3b6ce64bfac5744156e064612c11831f9c26bc3f52b079dec3316cfac4f8de3e",
-            "time": "2026-11-22T03:32:56+08:00",
-            "headline": "Iran's Revolutionary Guards say they struck two US bases in Bahrain, Fars News Agency reports citing its correspondent",
-            "link": "https://www.financialjuice.com/News/9863123/Irans-Revolutionary-Guards-say-they-struck-two-US-bases-in-Bahrain-Fars-News-Agency-reports-citing-its-correspondent.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 5,
-          "headline_zh": "伊朗外長：若美國接受合理條件 重啟荷姆茲海峽並不難",
-          "summary_zh": "伊朗外交部長向媒體表示，若美方接受符合國際法的合理條件，重啟荷姆茲海峽（Strait of Hormuz）並非難事。釋放出潛在外交談判斡旋空間，牽動全球原油供應與航運風險定價。",
-          "event_time": "2026-11-22T00:00:37+08:00",
-          "source_id": "ac07dc20e71c28ec4885836c43274138dc2c85fd0e0b486a501b06e74f328671",
-          "source_detail": {
-            "id": "ac07dc20e71c28ec4885836c43274138dc2c85fd0e0b486a501b06e74f328671",
-            "time": "2026-11-22T00:00:37+08:00",
-            "headline": "Not difficult to reopen Strait of Hormuz if US agrees to Iran's reasonable conditions consistent with international law: Iranian foreign minister cited by Tasnim News",
-            "link": "https://www.financialjuice.com/News/9863058/Not-difficult-to-reopen-Strait-of-Hormuz-if-US-agrees-to-Irans-reasonable-conditions-consistent-with-international-law-Iranian-foreign-minister-cited-by-Tasnim-News.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 5,
-          "headline_zh": "川普：將致力促成針對伊朗的持久協議",
-          "summary_zh": "美國總統川普接受專訪時表示，自己將促成一項針對伊朗的持久協議（lasting deal），展現透過談判化解中東軍事危機的意圖。",
-          "event_time": "2026-11-21T23:09:22+08:00",
-          "source_id": "fbbcc1d490d0237f6ec7d24722bd72dc26699ca7e64723b85e6470da923c4a62",
-          "source_detail": {
-            "id": "fbbcc1d490d0237f6ec7d24722bd72dc26699ca7e64723b85e6470da923c4a62",
-            "time": "2026-11-21T23:09:22+08:00",
-            "headline": "Trump on Iran: I'm going to broker a lasting deal - Fox News interview",
-            "link": "https://www.financialjuice.com/News/9863037/Trump-on-Iran-Im-going-to-broker-a-lasting-deal---Fox-News-interview.aspx",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 5,
-          "headline_zh": "油輪於荷姆茲海峽遭不明飛行物擊中並起火",
-          "summary_zh": "英國海事貿易行動辦公室（UKMTO）與伊朗海軍均證實，一艘駛離荷姆茲海峽的油輪船尾遭飛行物擊中引發火災，航運咽喉安全風險急遽升溫，直接威脅全球原油運輸安全。",
-          "event_time": "2026-11-21T15:41:54+08:00",
-          "source_id": "dcaaa7099da4dc40926ce37115a13e6eaa42ddfa3db05c449462454eac97d87d",
-          "source_detail": {
-            "id": "dcaaa7099da4dc40926ce37115a13e6eaa42ddfa3db05c449462454eac97d87d",
-            "time": "2026-11-21T15:41:54+08:00",
-            "headline": "Ukmto: tanker leaving strait of Hormuz struck on stern by unidentified projectile",
-            "link": "https://www.financialjuice.com/News/9862892/Ukmto-tanker-leaving-strait-of-Hormuz-struck-on-stern-by-unidentified-projectile.aspx?xy=rss",
+            "id": "bf22b00b9054deb2b40c993e3f61c36f37db22fa82a2b201595d44fecce56bd6",
+            "time": "2026-11-23T00:35:42+08:00",
+            "headline": "Yemen's Houthis: attack on Rabigh oil refinery on Saudi Arabia's western Red Sea coast",
+            "link": "https://www.financialjuice.com/News/9863491/Yemens-Houthis-attack-on-Rabigh-oil-refinery-on-Saudi-Arabias-western-Red-Sea-coast.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 4,
-          "headline_zh": "芬蘭灣俄羅斯軍事關聯貨輪遭烏克蘭無人機擊中起火漂入芬蘭水域",
-          "summary_zh": "前往加里寧格勒並與俄軍有牽連的俄羅斯貨輪Sparta II在芬蘭灣中立水域遭無人機打擊起火，後漂入芬蘭水域，芬蘭軍方研判攻擊極可能由烏克蘭執行，船員已撤離。",
-          "event_time": "2026-11-22T00:03:02+08:00",
-          "source_id": "c3dd9e9bca955b14a501ebeca216e70f3b5c9ba9e4dc0a0735f214ac1347b9ab",
+          "headline_zh": "英國海事貿易局（UKMTO）通報阿曼灣發生涉及油輪與軍事部隊的安全事件",
+          "summary_zh": "英國海事貿易局通報荷姆茲海峽咽喉要道附近的阿曼灣海域發生油輪與軍事武裝部隊遭遇事件，引發中東原油海運安全警戒。",
+          "event_time": "2026-11-22T23:59:00+08:00",
+          "source_id": "8e8303d9d0ac9224d967e5f23b4c58bcd12a8c92c89baac83762be04cd8936da",
           "source_detail": {
-            "id": "c3dd9e9bca955b14a501ebeca216e70f3b5c9ba9e4dc0a0735f214ac1347b9ab",
-            "time": "2026-11-22T00:03:02+08:00",
-            "headline": "Finland border guard: strike on Russian vessel probably conducted by Ukraine",
-            "link": "https://www.financialjuice.com/News/9863063/Finland-border-guard-strike-on-Russian-vessel-probably-conducted-by-Ukraine.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "美軍中央司令部否認F-16戰機遭伊朗防空飛彈擊傷",
-          "summary_zh": "伊朗軍方稍早宣稱其防空飛彈在波斯灣上空擊傷美軍F-16戰機迫使其緊急降落，隨後美國中央司令部（US CENTCOM）正式發表聲明予以否認。",
-          "event_time": "2026-11-21T22:46:40+08:00",
-          "source_id": "e7f8991c5714484b980091ebfa13bc2df947746babd365f2cc26fd9e28b0057f",
-          "source_detail": {
-            "id": "e7f8991c5714484b980091ebfa13bc2df947746babd365f2cc26fd9e28b0057f",
-            "time": "2026-11-21T22:46:40+08:00",
-            "headline": "US Centcom: Iran did not strike a U.S. F-16 fighter jet yesterday",
-            "link": "https://www.financialjuice.com/News/9863032/US-Centcom-Iran-did-not-strike-a-US-F-16-fighter-jet-yesterday.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "伊朗副外長證實卡達代表團赴德黑蘭進行兩小時會談",
-          "summary_zh": "伊朗副外長加里巴巴迪（Gharibabadi）證實卡達斡旋代表團昨夜訪問德黑蘭進行兩小時會談，顯示在軍事衝突升級之際，中東調解人正積極傳遞美伊訊息與尋求外交斡旋途徑。",
-          "event_time": "2026-11-21T22:15:29+08:00",
-          "source_id": "56550523698961511e4215a0412d03c39692e9208e8c14071b2a15979c4090f0",
-          "source_detail": {
-            "id": "56550523698961511e4215a0412d03c39692e9208e8c14071b2a15979c4090f0",
-            "time": "2026-11-21T22:15:29+08:00",
-            "headline": "Iranian deputy foreign minister Gharibabadi: Qatari team visited Tehran last night for two-hour talks - Tasnim news agency",
-            "link": "https://www.financialjuice.com/News/9863020/Iranian-deputy-foreign-minister-Gharibabadi-Qatari-team-visited-Tehran-last-night-for-two-hour-talks---Tasnim-news-agency.aspx?xy=rss",
-            "source": "FinancialJuice"
-          }
-        },
-        {
-          "importance_score": 4,
-          "headline_zh": "沙烏地聯軍攔截多枚胡塞武裝朝利雅德及西部發射之飛彈與無人機",
-          "summary_zh": "沙烏地領導的多國聯軍在24小時內多次發出威脅警報，成功攔截葉門胡塞武裝向首都利雅德、吉達周邊及西部地區發射的多枚彈道飛彈與無人機攻擊。",
-          "event_time": "2026-11-21T07:42:01+08:00",
-          "source_id": "18665e96a00737ae3f06f42b961b8f92d60c529d6716d19ddabd3b58148d726e",
-          "source_detail": {
-            "id": "18665e96a00737ae3f06f42b961b8f92d60c529d6716d19ddabd3b58148d726e",
-            "time": "2026-11-21T07:42:01+08:00",
-            "headline": "Saudi-led coalition: intercepts and destroys three ballistic missiles launched by Yemen's Houthis toward Riyadh",
-            "link": "https://www.financialjuice.com/News/9862601/Saudi-led-coalition-intercepts-and-destroys-three-ballistic-missiles-launched-by-Yemens-Houthis-toward-Riyadh.aspx?xy=rss",
+            "id": "8e8303d9d0ac9224d967e5f23b4c58bcd12a8c92c89baac83762be04cd8936da",
+            "time": "2026-11-22T23:59:00+08:00",
+            "headline": "Ukmto reports incident involving tanker and military forces in Gulf of Oman",
+            "link": "https://www.financialjuice.com/News/9863476/Ukmto-reports-incident-involving-tanker-and-military-forces-in-Gulf-of-Oman.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 3,
-          "headline_zh": "烏克蘭核電廠因軍事行動供電線路中斷被迫削減電力輸出",
-          "summary_zh": "國際原子能總署（IAEA）通報，受周邊軍事活動影響，兩條330千伏輸電線路中斷，導致烏克蘭境內一座核電廠被迫削減發電功率，加劇烏克蘭冬季能源供應風險。",
-          "event_time": "2026-11-22T00:52:58+08:00",
-          "source_id": "4056fd896f1335a1368455e032858628f3300ae4467fef102086b051246e22e2",
+          "headline_zh": "利比亞海空軍在班加西外海攔截超過12艘無人艇",
+          "summary_zh": "軍方消息證實，利比亞軍方部隊在班加西沿海成功攔截並摧毀了十餘艘具威脅性的無人無人艇。",
+          "event_time": "2026-11-23T01:18:51+08:00",
+          "source_id": "45b30495d5818a4b30a1d2381d37a3364ee3a22158bb7db261d215a7067b62ef",
           "source_detail": {
-            "id": "4056fd896f1335a1368455e032858628f3300ae4467fef102086b051246e22e2",
-            "time": "2026-11-22T00:52:58+08:00",
-            "headline": "IAEA: one Ukrainian nuclear plant cuts output after two 330 kv power lines disconnected amid military activity",
-            "link": "https://www.financialjuice.com/News/9863075/IAEA-one-Ukrainian-nuclear-plant-cuts-output-after-two-330-kv-power-lines-disconnected-amid-military-activity.aspx?xy=rss",
+            "id": "45b30495d5818a4b30a1d2381d37a3364ee3a22158bb7db261d215a7067b62ef",
+            "time": "2026-11-23T01:18:51+08:00",
+            "headline": "More than 12 drone boats intercepted off Benghazi coast by Libyan naval and air forces, two Libyan military sources say",
+            "link": "https://www.financialjuice.com/News/9863506/More-than-12-drone-boats-intercepted-off-Benghazi-coast-by-Libyan-naval-and-air-forces-two-Libyan-military-sources-say.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 3,
-          "headline_zh": "伊朗公布配備雙發射架的新型地下飛彈基地",
-          "summary_zh": "伊朗國家電視台公布全新地下飛彈發射中心畫面，配備雙發射器設施，並宣稱美方經濟封鎖屬戰爭行為，將採取必要行動予以突破，對外展示抗衡威懾能力。",
-          "event_time": "2026-11-21T19:04:11+08:00",
-          "source_id": "56b8d2065448c7bc0d865629b374717dc87056c3a7a4acb6302e058ab5ab26be",
+          "headline_zh": "利比亞班加西外海懸掛馬爾他國旗的商船遭自殺式無人艇擊中",
+          "summary_zh": "軍方消息指出，一艘在利比亞班加西外海航行的馬爾他旗商船遭到自殺式無人爆炸艇攻擊，凸顯地中海東部航道安全威脅。",
+          "event_time": "2026-11-23T01:17:23+08:00",
+          "source_id": "8c80f8eba29d2cf9cd472d969ba56d48367971e41cd61bdc8f3f660165587f73",
           "source_detail": {
-            "id": "56b8d2065448c7bc0d865629b374717dc87056c3a7a4acb6302e058ab5ab26be",
-            "time": "2026-11-21T19:04:11+08:00",
-            "headline": "Iran releases footage of new underground missile hub with double-launcher: state television",
-            "link": "https://www.financialjuice.com/News/9862936/Iran-releases-footage-of-new-underground-missile-hub-with-double-launcher-state-television.aspx?xy=rss",
+            "id": "8c80f8eba29d2cf9cd472d969ba56d48367971e41cd61bdc8f3f660165587f73",
+            "time": "2026-11-23T01:17:23+08:00",
+            "headline": "Commercial vessel flying Maltese flag hit by suicide drone boat off Libya's Benghazi: two Libyan military sources",
+            "link": "https://www.financialjuice.com/News/9863504/Commercial-vessel-flying-Maltese-flag-hit-by-suicide-drone-boat-off-Libyas-Benghazi-two-Libyan-military-sources.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 3,
-          "headline_zh": "歐盟執委會主席譴責俄羅斯混合威脅並將提出新安全計畫",
-          "summary_zh": "歐盟執委會主席范德賴恩（Ursula von der Leyen）強烈譴責俄情報部門在丹麥的暗殺企圖，直言俄混合威脅日益加劇，歐盟即將提出全新歐洲防衛準備與威懾計畫。",
-          "event_time": "2026-11-21T16:47:05+08:00",
-          "source_id": "6dd2906202330719de880ec093ffb4bd3605b7f34e23f673718072eba13cda43",
+          "headline_zh": "利比亞東部政府初步調查：班加西港俄羅斯船隻發生爆炸，疑似遭無人機襲擊",
+          "summary_zh": "利比亞東部政府聲明指出，停靠於班加西港口的一艘俄羅斯船隻發生爆炸，初步懷疑為無人機空襲所致。",
+          "event_time": "2026-11-22T21:42:38+08:00",
+          "source_id": "a74e46964f313f152b1d179f462f467d33be124ef475d197adc3edc56d2d1b07",
           "source_detail": {
-            "id": "6dd2906202330719de880ec093ffb4bd3605b7f34e23f673718072eba13cda43",
-            "time": "2026-11-21T16:47:05+08:00",
-            "headline": "EU's Von der Leyen: soon we will present new European security plan to boost preparedness and deterrence",
-            "link": "https://www.financialjuice.com/News/9862909/EUs-Von-der-Leyen-soon-we-will-present-new-European-security-plan-to-boost-preparedness-and-deterrence.aspx?xy=rss",
+            "id": "a74e46964f313f152b1d179f462f467d33be124ef475d197adc3edc56d2d1b07",
+            "time": "2026-11-22T21:42:38+08:00",
+            "headline": "Libya's eastern government: preliminary probe points to explosion on Russian vessel at Benghazi port, suspects drone strike - statement",
+            "link": "https://www.financialjuice.com/News/9863433/Libyas-eastern-government-preliminary-probe-points-to-explosion-on-Russian-vessel-at-Benghazi-port-suspects-drone-strike---statement.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         },
         {
           "importance_score": 2,
-          "headline_zh": "英國首相伯納姆與荷蘭首相會晤承諾持續堅定支援烏克蘭",
-          "summary_zh": "英國首相伯納姆（Andy Burnham）於阿姆斯特丹會晤荷蘭首相耶滕（Rob Jetten），雙方承諾在安全及對烏克蘭援助上維持緊密合作。",
-          "event_time": "2026-11-22T06:19:07+08:00",
-          "source_id": "df2911469044583a8e80757e27787230a0290a61b2791b5e4f6cfe2e1a1b0b85",
+          "headline_zh": "英國加入北約Starlift計畫，與10國構建自適應衛星發射服務網絡",
+          "summary_zh": "英國政府宣布加入北約（NATO）Starlift計畫，加強跨國防務與軌道太空發射應變能力。",
+          "event_time": "2026-11-22T08:12:37+08:00",
+          "source_id": "404ce0a21a6c19ff37c7f1c0cd0a9f851ba795e873582a0baf06a0327f9d073b",
           "source_detail": {
-            "id": "df2911469044583a8e80757e27787230a0290a61b2791b5e4f6cfe2e1a1b0b85",
-            "time": "2026-11-22T06:19:07+08:00",
-            "headline": "Burnham, Netherlands PM Jetten committed to continue close cooperation to provide Ukraine support it needs: Downing Street spokesperson",
-            "link": "https://www.financialjuice.com/News/9863162/Burnham-Netherlands-PM-Jetten-committed-to-continue-close-cooperation-to-provide-Ukraine-support-it-needs-Downing-Street-spokesperson.aspx?xy=rss",
+            "id": "404ce0a21a6c19ff37c7f1c0cd0a9f851ba795e873582a0baf06a0327f9d073b",
+            "time": "2026-11-22T08:12:37+08:00",
+            "headline": "UK govt: UK joins 10 other nations in NATO starlift program to build network of adaptable satellite launch services",
+            "link": "https://www.financialjuice.com/News/9863187/UK-govt-UK-joins-10-other-nations-in-NATO-starlift-program-to-build-network-of-adaptable-satellite-launch-services.aspx?xy=rss",
             "source": "FinancialJuice"
           }
         }
@@ -259,28 +314,25 @@
     }
   ],
   "discarded": {
-    "estimated_count": 59,
+    "estimated_count": 2,
     "reasons": [
-      "重複內容及同事件連續滾動報平安/防空解除警告（如沙烏地與巴林多次警報響起又解除danger passed）",
-      "單純加密貨幣報價漲跌（如比特幣上漲至60,225美元）",
-      "交易所技術維護與單一出金延遲（如Kraken出金網關問題）",
-      "聯邦內部人事一般規則變動及一般機構駭客通報（如FBI數據庫駭客、白宮限制員工身分等無宏觀政策影響）",
-      "與金融市場關聯較弱的一般外交聲明（如法國要求聯合國討論緬甸問題）"
+      "中國商務部反對美國FCC封鎖中國電信取得美國電話號碼之例行抗議言論，對金融市場實質影響有限且符合過濾條件",
+      "片段式未具完整主詞或上下文之CBS引述片段（id: 49442a11fad90196281510fb8f8b9e03ecc46d84b926015e8137111e2c79205b）"
     ]
   },
-  "generated_at": "2026-11-22T07:40:54.237762+08:00",
+  "generated_at": "2026-11-23T07:40:42.859780+08:00",
   "model": "gemini-3.8-flash",
   "source": "FinancialJuice",
-  "input_headline_count": 74,
-  "included_headline_count": 74,
+  "input_headline_count": 22,
+  "included_headline_count": 22,
   "usage_metadata": {
-    "promptTokenCount": 9558,
-    "candidatesTokenCount": 3966,
-    "totalTokenCount": 13524,
+    "promptTokenCount": 4041,
+    "candidatesTokenCount": 4408,
+    "totalTokenCount": 8449,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 9558
+        "tokenCount": 4041
       }
     ],
     "serviceTier": "standard"

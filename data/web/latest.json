@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-11-22T07:42:18.217338+08:00",
-  "summary_generated_at": "2026-11-22T07:42:18.217338+08:00",
-  "data_updated_at": "2026-11-22T06:50:42.976635+08:00",
+  "generated_at": "2026-11-23T07:41:39.924335+08:00",
+  "summary_generated_at": "2026-11-23T07:41:39.924335+08:00",
+  "data_updated_at": "2026-11-23T06:50:40.976727+08:00",
   "timezone": "Asia/Taipei",
   "period_start": "2026-11-20T05:00:00+08:00",
-  "period_end": "2026-11-22T06:50:42.976635+08:00",
+  "period_end": "2026-11-23T06:50:40.976727+08:00",
   "model": "gemini-3.8-flash",
   "source_digest_files": [
     "data/digests/2026/11/2026-11-19.json",
     "data/digests/2026/11/2026-11-20.json",
     "data/digests/2026/11/2026-11-21.json",
-    "data/digests/2026/11/2026-11-22.json"
+    "data/digests/2026/11/2026-11-22.json",
+    "data/digests/2026/11/2026-11-23.json"
   ],
-  "event_count": 72,
+  "event_count": 92,
   "summary_points": [
-    "中東軍事衝突擴大，伊朗革命衛隊襲擊巴林境內美軍基地及愛國者防空雷達，波斯灣戰火延燒至周邊國家。",
-    "荷姆茲海峽接連發生油輪遭飛行物擊中及觸雷爆炸事件，國際航運咽喉受阻加劇全球原油供應與通膨風險。",
-    "美伊雙方同步釋出外交斡旋訊號，伊朗外長稱若美方接受合理條件重啟荷姆茲海峽不難，川普則表態將致力促成持久協議，卡達正持續從中調解。",
-    "美股受地緣政治衝突與央行強硬緊縮影響，標普500指數與道瓊工業指數自高點回檔逾10%，雙雙收在技術性修正區間。",
-    "聯準會理事庫克與官員保爾森發表鷹派言論支持進一步緊縮政策，但利率期貨市場顯示交易員已削減對12月升息的定價，川普亦公開批評當前利率過高。",
-    "歐洲央行多位官員警告能源價格推動通膨依然偏高，12月會議必須採取行動，同時官員穆蘭示警法國正面臨嚴峻預算危機，呼籲強力減赤。",
-    "AI晶片龍頭輝達面臨多重監管風暴，除遭到美國證券交易委員會（SEC）展開會計調查外，加州司法部長亦發出傳票調查涉中晶片與數據，主要供應商則已暫停向東南亞出貨。",
-    "美國貿易代表葛里爾透露年底前將啟動新一輪301條款調查，美中貿易休戰協議能否延期將取決於中國稀土出口態度。"
+    "美伊衝突升溫帶動中東戰事擴大，伊朗革命衛隊襲擊巴林境內美軍基地，葉門青年運動亦宣稱攻擊沙烏地紅海煉油廠，多艘油輪在荷姆茲海峽遇襲起火，全球原油供應與航運風險急遽攀升。",
+    "在中東戰局緊繃之際，美伊雙方同步透過卡達等調解管道釋出談判意願，伊朗外長稱若美方接受合理條件重啟荷姆茲海峽並不難，川普則表示正保持耐心並致力促成持久協議。",
+    "受地緣政治風險與央行鷹派論調打壓，美股標普500指數與道瓊工業指數自高點回檔逾10%，雙雙跌入技術性修正區間，市場避險情緒大幅升溫。",
+    "聯準會理事庫克與官員保爾森接連釋出強烈鷹派信號，強調通膨過高沒有拖延空間並支持進一步緊縮，惟利率期貨交易員因經濟承壓而削減對12月升息的定價。",
+    "輝達面臨美國監管風暴，美國證交會（SEC）鎖定其會計實踐展開調查，財政部與加州司法部亦嚴查晶片是否違規銷往中國，前執行長黃仁勳預計出席公開聽證會作證。",
+    "歐洲央行官員納格爾與穆蘭警告能源引發的通膨壓力過高，暗示12月必須採取行動；同時官員示警法國面臨嚴重預算危機，呼籲採取強硬減赤措施以遏止債務擴大。",
+    "美國貿易代表葛里爾透露年底前將啟動新一輪301條款調查，美中休戰協議展期取決於稀土出口態度；川普則表示結束亞洲行後將公布十項貿易協議，且美墨協議已接近達成。"
   ],
   "blocks": [
     {
@@ -229,6 +229,87 @@
           "headline_zh": "Databricks正進行初步協商，擬以2250億美元估值籌集資金",
           "summary_zh": "華爾街日報報導，數據與AI軟體巨頭Databricks正進行早期融資談判，目標估值高達2250億美元，反映市場對核心數據基礎設施的熱度。",
           "event_time": "2026-11-21T06:50:46+08:00"
+        },
+        {
+          "source_id": "9813e8a5dffd0f7c39e7b8eeac46b40976ead594100922e67c074de3ee23ae93",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "知情人士稱Anthropic IPO受最後關頭調整、匆促審批及洩密擔憂困擾",
+          "summary_zh": "銀行家透露AI獨角獸Anthropic的首次公開發行（IPO）進程面臨最後一刻變更、急促核准與不尋常的洩密疑慮，影響市場對大型AI新股上市的情緒。",
+          "event_time": "2026-11-22T20:53:45+08:00"
+        },
+        {
+          "source_id": "262ffb2679fe74cdd3464aea2fdfca65e09b710861a65b5cc979464e41d1a335",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "Anthropic要求部分IPO承銷銀行將交易團隊限制為四名資深銀行家",
+          "summary_zh": "消息指出Anthropic對參與IPO的承銷銀行實施嚴格保密限制，要求縮減專案核心人員規模至四名資深銀行家。",
+          "event_time": "2026-11-22T20:53:46+08:00"
+        },
+        {
+          "source_id": "3920450c54a8bb7aaac5ae175bf5010eeb0d9937bfa1723f51c1d1a8ae6626d7",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "Anthropic尋求禁止部分銀行家在六個月內跳槽至OpenAI或DeepSeek等競爭對手",
+          "summary_zh": "知情人士透露Anthropic試圖對參與交易的銀行家設立六個月競業禁止條款，防止核心商業資訊外流至OpenAI與DeepSeek等AI競爭者。",
+          "event_time": "2026-11-22T20:53:48+08:00"
+        },
+        {
+          "source_id": "0bbb81732a20eea22658eb74d9c2052bdc4625a7e91d943798c4729f448084a5",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美國財政部長貝森特：對輝達晶片銷往中國一事尚無定論，需要釐清真相",
+          "summary_zh": "美國財長貝森特（Scott Bessent）表示，針對輝達向中國銷售晶片的合規調查尚無明確結論，官方正密切審查以確保未違反出口限制。",
+          "event_time": "2026-11-22T23:38:29+08:00"
+        },
+        {
+          "source_id": "0fa8cba97e69e0e349c99060feb2657b35ead1f91f39876f86d7c645bb1e3585",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "貝森特：需釐清輝達內部由誰主導合規審查工作",
+          "summary_zh": "美國財長貝森特受訪指出，需查明輝達內部負責合規監管的決策主管，以確定對中晶片銷售是否涉及合規疏漏。",
+          "event_time": "2026-11-22T23:41:04+08:00"
+        },
+        {
+          "source_id": "f8f4c622da3eaf0803146d676629bdc6ace64525d7c48e1bb9ac6cddf2660b92",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "貝森特：需查明輝達在該業務上的具體涉入層級",
+          "summary_zh": "美國財政部長貝森特表示，監管部門需要審查輝達業務參與的具體細節與層級。",
+          "event_time": "2026-11-22T23:41:04+08:00"
+        },
+        {
+          "source_id": "70aceba8359de8582dfca33db0bd21c41591d8312256105f4b35ea99ceecfd21",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "貝森特：需確定輝達哪些管理層級知情，委員會正迅速尋求答案",
+          "summary_zh": "美國財政部長貝森特強調，需確認輝達內部知曉對中晶片業務的層級，並對國會委員會迅速釐清案情具備信心。",
+          "event_time": "2026-11-22T23:41:28+08:00"
+        },
+        {
+          "source_id": "eaa2aec309b1f4976afcbbd21455f9ad106ec37b9e8ea5979f4b4529ff7988fa",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "貝森特：針對輝達對中銷售晶片問題，必須追究最終責任人",
+          "summary_zh": "美國財政部展現對高科技出口管制的強硬立場，貝森特強調必須找出該項爭議業務的最終負責人（where the buck stops）。",
+          "event_time": "2026-11-22T23:41:28+08:00"
+        },
+        {
+          "source_id": "400a229e1f9448db546913acccee9ec8c84c3a782b9deefedee3b5d98caf2d2e",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "下週市場情緒：Anthropic IPO爭議與輝達監管消息持續承壓市場",
+          "summary_zh": "市場前瞻指出，大型AI企業的上市波折及輝達面臨的監管壓力，將對科技板塊投資情緒構成抑制。",
+          "event_time": "2026-11-23T01:17:54+08:00"
         }
       ]
     },
@@ -478,6 +559,51 @@
           "headline_zh": "川普表示可與新一屆民主黨國會就信用卡利率展開合作",
           "summary_zh": "美國總統川普在受訪時表示，有可能與即將上任的民主黨國會合作立法限制或調整信用卡利率，此舉可能顯著衝擊美國大型銀行與消費金融機構的利息收入利潤。",
           "event_time": "2026-11-21T23:08:46+08:00"
+        },
+        {
+          "source_id": "de5da31ea596ba713d3b268bdc0bb029c0c7c0a3479e40a6c1453e54e8e29bf9",
+          "category": "經濟",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "紐西蘭年增零售銷售升至3.5%，前值修正為3.3%",
+          "summary_zh": "紐西蘭零售銷售年率表現穩健，顯示當地消費需求維持溫和增長動能。",
+          "event_time": "2026-11-23T05:45:09+08:00"
+        },
+        {
+          "source_id": "2db2b7f3487aea1349875871c21bfadf69066efcc2fe5788eff31805d1bfbce8",
+          "category": "經濟",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "紐西蘭季增零售銷售達2.2%，顯著優於預期之0.5%",
+          "summary_zh": "紐西蘭季調後零售銷售季增率自前值的-0.5%大幅反彈至2.2%，顯著優於市場預期，反映內需出現強勁回溫。",
+          "event_time": "2026-11-23T05:45:10+08:00"
+        },
+        {
+          "source_id": "b26b0fb84b1af626ee1f5b6000e58ec4dc7f45078b62bcfa703b82a4af5057de",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "澳洲綜合採購經理人指數（PMI）初值降至46.1，緊縮加劇",
+          "summary_zh": "澳洲綜合PMI初值自前月48.2進一步跌落至46.1，顯示整體私營部門景氣緊縮壓力加大。",
+          "event_time": "2026-11-23T06:00:09+08:00"
+        },
+        {
+          "source_id": "ac2b4d96116d3079582c3b58946b89931eb31b925e598a001c7d157b49064fea",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "澳洲製造業採購經理人指數（PMI）初值降至48.7",
+          "summary_zh": "澳洲製造業PMI初值低於前值的49.6，持續位於榮枯線下方，反映製造業需求疲弱。",
+          "event_time": "2026-11-23T06:00:09+08:00"
+        },
+        {
+          "source_id": "54adc77c08a68d4f1bf56672bbc4d1dda7df4c34453efd3360fb3d00127432d2",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "澳洲服務業採購經理人指數（PMI）初值下滑至46.2",
+          "summary_zh": "澳洲服務業PMI初值自前月的48.5降至46.2，創下近期低點，顯示高利率環境對服務消費的抑制持續深化。",
+          "event_time": "2026-11-23T06:00:10+08:00"
         }
       ]
     },
@@ -699,18 +825,72 @@
           "headline_zh": "英國首相伯納姆與荷蘭首相會晤承諾持續堅定支援烏克蘭",
           "summary_zh": "英國首相伯納姆（Andy Burnham）於阿姆斯特丹會晤荷蘭首相耶滕（Rob Jetten），雙方承諾在安全及對烏克蘭援助上維持緊密合作。",
           "event_time": "2026-11-22T06:19:07+08:00"
+        },
+        {
+          "source_id": "404ce0a21a6c19ff37c7f1c0cd0a9f851ba795e873582a0baf06a0327f9d073b",
+          "category": "戰爭",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "英國加入北約Starlift計畫，與10國構建自適應衛星發射服務網絡",
+          "summary_zh": "英國政府宣布加入北約（NATO）Starlift計畫，加強跨國防務與軌道太空發射應變能力。",
+          "event_time": "2026-11-22T08:12:37+08:00"
+        },
+        {
+          "source_id": "a74e46964f313f152b1d179f462f467d33be124ef475d197adc3edc56d2d1b07",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "利比亞東部政府初步調查：班加西港俄羅斯船隻發生爆炸，疑似遭無人機襲擊",
+          "summary_zh": "利比亞東部政府聲明指出，停靠於班加西港口的一艘俄羅斯船隻發生爆炸，初步懷疑為無人機空襲所致。",
+          "event_time": "2026-11-22T21:42:38+08:00"
+        },
+        {
+          "source_id": "8e8303d9d0ac9224d967e5f23b4c58bcd12a8c92c89baac83762be04cd8936da",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "英國海事貿易局（UKMTO）通報阿曼灣發生涉及油輪與軍事部隊的安全事件",
+          "summary_zh": "英國海事貿易局通報荷姆茲海峽咽喉要道附近的阿曼灣海域發生油輪與軍事武裝部隊遭遇事件，引發中東原油海運安全警戒。",
+          "event_time": "2026-11-22T23:59:00+08:00"
+        },
+        {
+          "source_id": "bf22b00b9054deb2b40c993e3f61c36f37db22fa82a2b201595d44fecce56bd6",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "葉門青年運動宣稱襲擊沙烏地阿拉伯西側紅海沿岸拉比格煉油廠",
+          "summary_zh": "青年運動（Houthis）聲稱對沙烏地阿拉伯位於紅海海岸的拉比格（Rabigh）煉油設施發動襲擊，加劇中東石油供應鏈中斷風險。",
+          "event_time": "2026-11-23T00:35:42+08:00"
+        },
+        {
+          "source_id": "8c80f8eba29d2cf9cd472d969ba56d48367971e41cd61bdc8f3f660165587f73",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "利比亞班加西外海懸掛馬爾他國旗的商船遭自殺式無人艇擊中",
+          "summary_zh": "軍方消息指出，一艘在利比亞班加西外海航行的馬爾他旗商船遭到自殺式無人爆炸艇攻擊，凸顯地中海東部航道安全威脅。",
+          "event_time": "2026-11-23T01:17:23+08:00"
+        },
+        {
+          "source_id": "45b30495d5818a4b30a1d2381d37a3364ee3a22158bb7db261d215a7067b62ef",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "利比亞海空軍在班加西外海攔截超過12艘無人艇",
+          "summary_zh": "軍方消息證實，利比亞軍方部隊在班加西沿海成功攔截並摧毀了十餘艘具威脅性的無人無人艇。",
+          "event_time": "2026-11-23T01:18:51+08:00"
         }
       ]
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 13519,
-    "candidatesTokenCount": 426,
-    "totalTokenCount": 13945,
+    "promptTokenCount": 16948,
+    "candidatesTokenCount": 468,
+    "totalTokenCount": 17416,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 13519
+        "tokenCount": 16948
       }
     ],
     "serviceTier": "standard"

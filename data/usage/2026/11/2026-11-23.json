@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-23",
+  "timezone": "Asia/Taipei",
+  "updated_at": "2026-11-23T07:41:39.924335+08:00",
+  "call_count": 3,
+  "totals": {
+    "input_tokens": 26261,
+    "output_tokens": 6966,
+    "thinking_tokens": 0,
+    "cached_input_tokens": 0,
+    "total_tokens": 33227,
+    "billed_output_tokens": 6966
+  },
+  "by_step": {
+    "daily_digest": {
+      "input_tokens": 4041,
+      "output_tokens": 4408,
+      "thinking_tokens": 0,
+      "cached_input_tokens": 0,
+      "total_tokens": 8449,
+      "billed_output_tokens": 4408,
+      "call_count": 1
+    },
+    "central_bank:FED+ECB": {
+      "input_tokens": 5272,
+      "output_tokens": 2090,
+      "thinking_tokens": 0,
+      "cached_input_tokens": 0,
+      "total_tokens": 7362,
+      "billed_output_tokens": 2090,
+      "call_count": 1
+    },
+    "web_news": {
+      "input_tokens": 16948,
+      "output_tokens": 468,
+      "thinking_tokens": 0,
+      "cached_input_tokens": 0,
+      "total_tokens": 17416,
+      "billed_output_tokens": 468,
+      "call_count": 1
+    }
+  },
+  "calls": [
+    {
+      "step": "daily_digest",
+      "model": "gemini-3.8-flash",
+      "called_at": "2026-11-23T07:40:42.859780+08:00",
+      "github_run_id": "45084509105",
+      "input_tokens": 4041,
+      "output_tokens": 4408,
+      "thinking_tokens": 0,
+      "cached_input_tokens": 0,
+      "total_tokens": 8449,
+      "billed_output_tokens": 4408,
+      "note": "22 headlines"
+    },
+    {
+      "step": "central_bank:FED+ECB",
+      "model": "gemini-3.8-flash",
+      "called_at": "2026-11-23T07:40:42.859780+08:00",
+      "github_run_id": "45084509105",
+      "input_tokens": 5272,
+      "output_tokens": 2090,
+      "thinking_tokens": 0,
+      "cached_input_tokens": 0,
+      "total_tokens": 7362,
+      "billed_output_tokens": 2090,
+      "note": "35 headlines, 1 dates"
+    },
+    {
+      "step": "web_news",
+      "model": "gemini-3.8-flash",
+      "called_at": "2026-11-23T07:41:39.924335+08:00",
+      "github_run_id": "45084509105",
+      "input_tokens": 16948,
+      "output_tokens": 468,
+      "thinking_tokens": 0,
+      "cached_input_tokens": 0,
+      "total_tokens": 17416,
+      "billed_output_tokens": 468,
+      "note": "92 events"
+    }
+  ]
+}
