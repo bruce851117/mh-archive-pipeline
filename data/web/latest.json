@@ -1,145 +1,98 @@
 {
-  "generated_at": "2026-11-24T07:42:09.771555+08:00",
-  "summary_generated_at": "2026-11-24T07:42:09.771555+08:00",
-  "data_updated_at": "2026-11-24T06:53:48.245386+08:00",
+  "generated_at": "2026-11-25T07:42:57.052633+08:00",
+  "summary_generated_at": "2026-11-25T07:42:57.052633+08:00",
+  "data_updated_at": "2026-11-25T06:50:29.307423+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-11-23T05:00:00+08:00",
-  "period_end": "2026-11-24T06:53:48.245386+08:00",
+  "period_start": "2026-11-24T05:00:00+08:00",
+  "period_end": "2026-11-25T06:50:29.307423+08:00",
   "model": "gemini-3.8-flash",
   "source_digest_files": [
-    "data/digests/2026/11/2026-11-22.json",
     "data/digests/2026/11/2026-11-23.json",
-    "data/digests/2026/11/2026-11-24.json"
+    "data/digests/2026/11/2026-11-24.json",
+    "data/digests/2026/11/2026-11-25.json"
   ],
-  "event_count": 37,
+  "event_count": 67,
   "summary_points": [
-    "美伊軍事對峙急劇升溫，荷姆茲海峽發生三艘油輪因水雷爆炸事件，伊朗揚言全力反擊美軍海上封鎖，美軍官員亦示警已準備隨時發動大規模軍事打擊，全球能源動脈陷入高度緊張。",
-    "輝達董事會正式宣布恢復黃仁勳執行長職務，並獲得川普政府高層背書無國安與違法疑慮，消息引發市場史詩級軋空，輝達市值單日暴增近兆美元，美國信用違約風險（CDS）亦隨之緩解。",
-    "卡達首相兼外交大臣緊急展開穿梭外交協調美伊局勢，警告中東地區無法承受進一步衝突升級，積極推動雙方重啟對話。",
-    "紐約聯準銀行總裁威廉斯重申堅定將通膨壓回2%的目標，預期2026年底通膨為3.5%，並特別強調央行獨立性對經濟成果的關鍵價值。",
-    "歐盟執委會宣布對俄羅斯實施新一輪嚴厲金融制裁，將60家俄國銀行逐出SWIFT系統，並針對加密資產交易加強限制。",
-    "英國央行首席經濟學家皮爾呼籲應立即採取行動以維護物價穩定，疊加科技股危機解除提振經濟預期，帶動市場對英國與歐洲央行的升息押注顯著升溫。",
-    "英國首相柏能推動英歐新協議法案提交國會，估計將為英國經濟帶來0.5%效益，同時明確排除重新發起脫歐公投的可能性。",
-    "西方盟國發出情報警告，指俄羅斯可能於下月發射太空核武衛星，引發德國等歐洲政府高度關注與警惕。",
-    "亞馬遜斥資約75億美元收購AI新創Decart技術，持續推進晶片與模型研發；台積電高層則強調AI長期趨勢不變且未見客戶砍單，科技大廠資本支出與布局未受干擾。"
+    "中東地緣局勢急遽升溫，荷姆茲海峽接連發生油輪觸雷爆炸事件，伊朗警告航道極具風險並揚言反擊美國海上封鎖，推升布蘭特原油期貨突破每桶91美元。",
+    "區域衝突持續擴大，葉門胡塞武裝威脅攻擊沙烏地阿拉伯吉達港，以色列亦警告伊朗正加速研發實體核武與髒彈，同時傳出川普政府內部正激烈辯論是否對伊朗領導層採取斬首行動。",
+    "加拿大央行總裁麥克勒姆釋出強烈鷹派訊號，警告石油衝擊將引發通膨二次效應，若通膨居高不下將重啟升息，帶動交換合約市場預期的12月升息機率飆升至80%。",
+    "歐洲央行與英國央行官員同步展現抗通膨決心，ECB管委指出能源外部通膨具擴散風險並支持進一步緊縮，英國央行官員亦警示薪資增速過高恐迫使政策再度升息。",
+    "美國貿易政策面臨新一輪收緊，川普政府傳出正準備本週對中國、歐盟等14個國家加徵產能關稅，並針對特定商品精準啟用新301條款關稅。",
+    "美國11月諮商會消費者信心指數躍升至103.3，表現遠超市場預期，反映內需韌性依然強勁，且消費者對未來12個月通膨預期有所放緩。",
+    "美中科技監管與法律戰升級，中國華為公司在美國紐約聯邦法院被裁定涉入伊朗業務及竊取商業機密等10項刑事罪名成立。"
   ],
   "blocks": [
     {
       "category": "債市",
       "news": [
         {
-          "source_id": "402c249f41ee88f429bf80e70ed1e39181443af815ef8841f7a2ce47c0b3067a",
+          "source_id": "3e74ae4cfbe22ae3a47cd4e8bc6837281ee797df95340207c7de1ea50ddf4a01",
           "category": "債市",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "輝達支持之AI新創Firmus傳擬發行15億美元債券",
-          "summary_zh": "受輝達（NVIDIA）支持的AI基礎設施公司Firmus正考慮發行規模達15億美元的債券進行融資。",
-          "event_time": "2026-11-23T16:50:47+08:00"
+          "headline_zh": "摩根大通預測美債10年期殖利率將於2027年首季見頂於5.10%",
+          "summary_zh": "摩根大通（JP Morgan）預測美國10年期公債殖利率將於2027年第一季升至約5.10%的高峰，隨後在2027年底回落至4.95%。",
+          "event_time": "2026-11-24T19:40:54+08:00"
         },
         {
-          "source_id": "7a003a4d1ebd0b28d48e8535664c2850a244e439e6f9d52dc56f90ebdd66a14b",
-          "category": "債市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "黃仁勳復職後 美國信用違約風險進一步緩解",
-          "summary_zh": "在輝達宣布執行長黃仁勳回歸後，市場避險情緒大幅降溫，美國信用違約交換（CDS）風險溢價進一步收窄。",
-          "event_time": "2026-11-23T22:16:09+08:00"
-        },
-        {
-          "source_id": "176667ae4a3f0430037ac6da3bb0ed17bc7ae1a1dbf579d177d1eec44ab1958e",
+          "source_id": "14bcedf720ac5a101705ba3b8d748126be9d0e1e13cf58d25c08fc8e907d5f7c",
           "category": "債市",
           "importance_score": 2,
           "highlight": false,
-          "headline_zh": "美國發售3個月及6個月期國庫券 利率微幅走高",
-          "summary_zh": "美國財政部標售短期國庫券，3個月期高得標利率為4.18%，6個月期為4.34%，得標倍數分別為2.74與2.60倍。",
-          "event_time": "2026-11-24T00:42:22+08:00"
+          "headline_zh": "美國擔保隔夜融資利率持平於3.92%",
+          "summary_zh": "11月23日美國擔保隔夜融資利率（SOFR）報3.92%，與11月20日持平，反映貨幣市場流動性維持穩定。",
+          "event_time": "2026-11-24T21:00:41+08:00"
         },
         {
-          "source_id": "02afd3cb1956b21fe1c00bd7183ddb623811991b8704dfda760a2b7904feb4ff",
+          "source_id": "21fc139968bd87bf582919eedb96a1ade4c7f53e30076676145eea53ce1a6b3b",
+          "category": "債市",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "美國有效聯邦基金利率維持於3.88%",
+          "summary_zh": "11月23日美國有效聯邦基金利率（EFFR）維持在3.88%，與前一交易日持平。",
+          "event_time": "2026-11-24T21:59:59+08:00"
+        },
+        {
+          "source_id": "1ab635fd877a76b6b8e6d9f02254fc78c45a2f539661ccb44472137a7a8b5c1a",
+          "category": "債市",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "聯準會投標52週國庫券規模達41億美元",
+          "summary_zh": "在最新美國52週國庫券拍賣中，聯邦準備理事會（Fed）的投標金額總計達41億美元。",
+          "event_time": "2026-11-25T00:15:35+08:00"
+        },
+        {
+          "source_id": "e67029562cd32681bc322d2db1a481d34ca9cbbc69bdd7bade531c63215dd3cd",
           "category": "債市",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "美國財政部完成690億美元2年期國債標售 得標利率4.7%",
-          "summary_zh": "美國財政部標售690億美元2年期國債，得標利率為4.700%，投標倍數達2.65倍，顯示短債需求維持穩健。",
-          "event_time": "2026-11-24T02:04:08+08:00"
+          "headline_zh": "美國52週國庫券得標利率4.365%，認購倍數為3.04倍",
+          "summary_zh": "美國財政部拍賣52週國庫券，最高得標利率為4.365%（前次為4.290%），認購倍數降至3.04倍（前次為3.15倍）。",
+          "event_time": "2026-11-25T00:32:17+08:00"
         },
         {
-          "source_id": "9ccd5c67eccfaa3e93bda2c3dbb4ddade5175da8ea978177e9ebdd4abb121ab5",
+          "source_id": "ada87d636f7a6ecf0b90e7f0924a1e78a50ab189a58f6e0f2c22949db73f9ac6",
+          "category": "債市",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "聯準會投標5年期美債規模達72億美元",
+          "summary_zh": "在美國財政部5年期公債拍賣中，聯準會投標規模共計72億美元。",
+          "event_time": "2026-11-25T01:45:58+08:00"
+        },
+        {
+          "source_id": "258dea355a286f58f2f83a2c8220ac07259562dc462aa6d348f32dbea2949de6",
           "category": "債市",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "美國財政部指出最新國債拍賣中外國投資人需求分歧",
-          "summary_zh": "美國財政部表示，在近期的國庫券與公債拍賣中，海外投資者的投標需求呈現錯綜態勢。",
-          "event_time": "2026-11-24T04:08:44+08:00"
+          "headline_zh": "美國財政部拍賣700億美元5年期公債，得標利率4.719%",
+          "summary_zh": "美國完成700億美元5年期國債拍賣，最高得標利率為4.719%（低於前次的4.845%），認購倍數升至2.37倍，顯示中天期公債需求穩健。",
+          "event_time": "2026-11-25T02:02:06+08:00"
         }
       ]
     },
     {
       "category": "股市",
       "news": [
-        {
-          "source_id": "a261aac899303941d332728622e8255fc77926229626479c17dd5a7a6efe80c6",
-          "category": "股市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "台積電副總經理侯永清：AI長期趨勢不變 未見客戶調整訂單",
-          "summary_zh": "台積電（TSMC）副總經理侯永清表示，AI發展大趨勢並未改變，目前並未看到來自客戶的訂單調整。",
-          "event_time": "2026-11-23T17:22:08+08:00"
-        },
-        {
-          "source_id": "d225732bacbf38e8f1bfad2fd07a5f3df590a4676696744cc61b49cc785b3495",
-          "category": "股市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "德意志銀行看好美歐股市 預估標普500指數2027年達9,000點",
-          "summary_zh": "德意志銀行（Deutsche Bank）發布樂觀預測，預估標普500指數將於2027年觸及9,000點，歐洲斯托克600指數達750點。",
-          "event_time": "2026-11-23T20:43:41+08:00"
-        },
-        {
-          "source_id": "4febdfa1c4861ab0e4d838b78451701b6ddee94a4a439c11752695ebdc88a250",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "亞馬遜傳斥資75億美元收購AI新創Decart技術",
-          "summary_zh": "亞馬遜（Amazon）宣布將購買AI優化新創Decart的技術，斥資約75億美元以推進晶片與模型創新。",
-          "event_time": "2026-11-23T21:49:14+08:00"
-        },
-        {
-          "source_id": "3b0f1777daed36ceaf959bb0e304689ac0d1faa0f2bdc54f88f14b4085e9f47b",
-          "category": "股市",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "輝達董事會宣布復職黃仁勳為執行長 獲美國政府背書",
-          "summary_zh": "輝達（NVIDIA）董事會正式恢復黃仁勳（Jensen Huang）的總裁兼執行長職務，並確認其回歸不構成國家安全風險，董事會曾獲美國政府高層意見與支持。",
-          "event_time": "2026-11-23T21:55:03+08:00"
-        },
-        {
-          "source_id": "cf0fda306d5edb4c1f07d82c4755e20e2436d8ef5317a4b9863e43529153a1fc",
-          "category": "股市",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "川普與范斯直接介入輝達決策 證實黃仁勳無違法風險",
-          "summary_zh": "川普表示其親自致電輝達董事會並與黃仁勳通話，美國司法部長確認黃仁勳無不法行為，並指出副總統范斯亦參與推動黃仁勳復職以保護開源模型競爭力。",
-          "event_time": "2026-11-23T22:08:40+08:00"
-        },
-        {
-          "source_id": "80ddd7a3f8a0affc591b90b50440371ba1d9f069cf848aadda79f3bc203e0d7f",
-          "category": "股市",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "黃仁勳回歸引發狂暴軋空 輝達市值單日暴增近兆美元",
-          "summary_zh": "黃仁勳復職消息促使輝達股價飆漲至168.5美元，空頭面臨高達122億美元的帳面虧損，創2019年以來最大單日空頭損失。",
-          "event_time": "2026-11-23T23:52:43+08:00"
-        },
-        {
-          "source_id": "ebb02145a205b26dabae1a543602b13fda2475966828c44c3a584701c71735ac",
-          "category": "股市",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "國會民主黨領袖舒默誓言對黃仁勳復職及輝達高層展開調查",
-          "summary_zh": "參議院民主黨領袖舒默（Chuck Schumer）表示，民主黨將運用全部權力調查黃仁勳、川普政府及輝達主管間的決策過程。",
-          "event_time": "2026-11-24T00:08:16+08:00"
-        },
         {
           "source_id": "bf577a5062c4c76aa772425f8fff21fd9a9e02c049c418d86798418ad869a8bd",
           "category": "股市",
@@ -148,30 +101,129 @@
           "headline_zh": "Anthropic執行長阿莫迪申報減持逾330萬股 籌資逾2.8億美元",
           "summary_zh": "人工智慧獨角獸Anthropic執行長阿莫迪（Dario Amodei）申報以每股83美元出售338萬股A類股票。",
           "event_time": "2026-11-24T06:51:21+08:00"
+        },
+        {
+          "source_id": "e45f04d6266d22a2cbc9a687ed30a05b144b2d2d369a5eb75cb8f9742b002a9b",
+          "category": "股市",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "加州檢察長在Epic訴蘋果反壟斷案中提交法庭之友簡報",
+          "summary_zh": "加州檢察長 Rob Bonta 在 Epic Games 訴蘋果（Apple）的反壟斷訴訟中提交了法庭之友簡報（amicus brief）。",
+          "event_time": "2026-11-24T06:53:52+08:00"
+        },
+        {
+          "source_id": "b77f12163a5319a65e44edfb40b6e09b3725eae68b7fbe9e436f46075360b020",
+          "category": "股市",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "摩根大通下調Meta目標價至775美元",
+          "summary_zh": "摩根大通（JP Morgan）將社群巨頭 Meta 的目標價自每股940美元大幅下修至775美元。",
+          "event_time": "2026-11-24T17:22:51+08:00"
+        },
+        {
+          "source_id": "9d1e599fa858f42ccdae26ff1bf9faa27aa68984354e03b5452f84bcc2da1373",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "Axios報導：Anthropic與OpenAI員工擔憂最新AI模型安全性過低",
+          "summary_zh": "外媒 Axios 報導指出，Anthropic 與 OpenAI 的內部員工憂慮即將發布的新AI模型安全性不足，無法安全向公眾推出。",
+          "event_time": "2026-11-24T18:50:28+08:00"
+        },
+        {
+          "source_id": "b76f02d26b61cc47969ee0e4e765fcd03e5b599940c21f4ea3aa6513be209d16",
+          "category": "股市",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "花旗上調輝達目標價至240美元",
+          "summary_zh": "花旗集團（Citigroup）將人工智慧晶片巨頭輝達（Nvidia）目標價自225美元調升至240美元。",
+          "event_time": "2026-11-24T19:10:33+08:00"
+        },
+        {
+          "source_id": "5f964756e6227900590c88aa31fd2e6dcec2954864dc230449b444960403156f",
+          "category": "股市",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "奧本海默下調邁威爾科技目標價至325美元",
+          "summary_zh": "投資機構奧本海默（Oppenheimer）將網通晶片廠邁威爾科技（Marvell Technology）目標價從425美元下調至325美元。",
+          "event_time": "2026-11-24T21:13:29+08:00"
+        },
+        {
+          "source_id": "c2a4cabf0cc45b2c5e1b172ed2cbd14c6bcc108f05defee0e6ad2e62ee9cbdd5",
+          "category": "股市",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "瑞銀上調特斯拉目標價至430美元",
+          "summary_zh": "瑞銀（UBS）將電動車大廠特斯拉（Tesla）的目標價從425美元微幅調升至430美元。",
+          "event_time": "2026-11-24T22:23:10+08:00"
+        },
+        {
+          "source_id": "bb9a7c6e5d85aaf11cb84ffe32bbf9955ae2668f8fbc054f10fbf68acc9c7325",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "美議員米克斯要求輝達執行長黃仁勳公開赴國會聽證",
+          "summary_zh": "美國民主黨眾議員 Meeks 要求輝達執行長黃仁勳公開赴國會委員會作證，並指出閉門簡報無法替代公開聽證。",
+          "event_time": "2026-11-24T22:52:20+08:00"
+        },
+        {
+          "source_id": "23bf89c9b43154e7772bca27da798079931b42c60c94544a28231ac4d05302be",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "微軟因雲端當機事件內部宣布核心M365進入紅色警戒",
+          "summary_zh": "內部備忘錄顯示，微軟（Microsoft）在經歷11月12日大當機後，針對 M365 核心服務健康狀況發布「紅色警戒」（Code Red），並要求未來全球事件修復時間壓在1小時內。",
+          "event_time": "2026-11-25T00:08:09+08:00"
+        },
+        {
+          "source_id": "1e26839d38589f5627f606b1bb66a8e6de7e065319fc6e856f7cead80dd5d09b",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "美副司法部長布蘭奇澄清輝達未成為刑事調查目標",
+          "summary_zh": "美國司法部副部長 Blanche 發言澄清，暗示輝達並非司法部刑事調查的直接目標。",
+          "event_time": "2026-11-25T00:43:56+08:00"
+        },
+        {
+          "source_id": "e70fdfecc7df5dec50bca4e48a575e2f26a8a5336b740bebdb62a60f2a8640f0",
+          "category": "股市",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "輝達執行長黃仁勳召開全員員工大會",
+          "summary_zh": "輝達（Nvidia）執行長黃仁勳於美東時間中午12:30召開全員大會，引發市場對公司應對監管與市場動盪的關注。",
+          "event_time": "2026-11-25T01:03:47+08:00"
+        },
+        {
+          "source_id": "06fb8cced881228c6f53a35eeef5eee05633b7ab3c13e42984d076d139b05650",
+          "category": "股市",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "美參院民主黨領袖舒默指控輝達違規向中國出口高階晶片",
+          "summary_zh": "美參議院民主黨領袖 Chuck Schumer 發文指控輝達執行長黃仁勳向中國運送極為先進的晶片，涉嫌違反美國出口管制法規。",
+          "event_time": "2026-11-25T02:07:36+08:00"
+        },
+        {
+          "source_id": "11cd88967da6a5f8880d62f60b90b5857678fd6aa47d4eec657c48a2a8a475ca",
+          "category": "股市",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "華為在美刑事審判中被定罪：涉伊朗業務與竊取商業機密",
+          "summary_zh": "中國華為公司在美國紐約聯邦法院的刑事審判中，被陪審團裁定12項指控中的10項有罪，罪名包括涉入伊朗業務的銀行詐欺以及共謀竊取商業機密。",
+          "event_time": "2026-11-25T04:11:24+08:00"
+        },
+        {
+          "source_id": "bffb7bae5cfa96583ee3add1cdcfc6eb75890c7e6d708808acb5832b1312379c",
+          "category": "股市",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "戴爾科技公布第三季財報與全年度財測",
+          "summary_zh": "戴爾科技（Dell Technologies）發布最新第三季財務業績及全年度財務指引。",
+          "event_time": "2026-11-25T05:07:19+08:00"
         }
       ]
     },
     {
       "category": "央行",
       "news": [
-        {
-          "source_id": "7686cfdadb687d45b161063c92c3dbd3bcf66f97115038f935de8ddca7d6416d",
-          "category": "央行",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "輝達危機解除帶動市場通膨與升息預期 歐英央行升息押注增加",
-          "summary_zh": "隨著科技板塊穩定及經濟預期改善，利率交易員加大了對歐洲央行（ECB）和英國央行（BoE）升息的押注。",
-          "event_time": "2026-11-23T22:06:20+08:00"
-        },
-        {
-          "source_id": "a2fd4e36467891294fd8155cd578f58cb60de3f39f7bfdcc3f1862d7b6dc3e5b",
-          "category": "央行",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "英國央行首席經濟學家皮爾：必須立即採取行動維護物價穩定",
-          "summary_zh": "英國央行（BoE）首席經濟學家皮爾（Huw Pill）表示，央行需要立即採取政策行動以維護物價穩定，引發市場升息預期升溫。",
-          "event_time": "2026-11-23T22:22:32+08:00"
-        },
         {
           "source_id": "5c220155cffe11a1fb4f0e32ec0cc122f28c6141b10881d706b717fcb9182184",
           "category": "央行",
@@ -198,6 +250,96 @@
           "headline_zh": "澳盛銀行提前澳洲央行首次降息時程預測至2027年6月",
           "summary_zh": "澳盛銀行（ANZ）調整對澳洲儲備銀行（RBA）的貨幣政策路徑預期，將首次降息時間點提前至2027年6月。",
           "event_time": "2026-11-24T05:56:05+08:00"
+        },
+        {
+          "source_id": "81d88da3a22f9cafbd19ae8f21448b54e0fe271c0a541ffbdec8c60811674883",
+          "category": "央行",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "歐洲央行席姆庫斯：若通膨居高不下，2027年需進一步緊縮",
+          "summary_zh": "歐洲央行（ECB）管委 Simkus 表示，若通膨持續，2027年需採取更多緊縮措施，目前看不到過度緊縮風險，ECB 應先發制人，且歐元近期疲軟是另一個推升通膨的因素。",
+          "event_time": "2026-11-24T16:36:59+08:00"
+        },
+        {
+          "source_id": "abfd46ad65218543d5d0744b6025e758659bf4f586dcd3f868f791d4def3fd74",
+          "category": "央行",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "歐洲央行隔夜存款與邊際借貸操作規模公布",
+          "summary_zh": "歐洲央行公布銀行體系隔夜存放於央行的資金達1.9兆歐元，並有銀行以邊際貸款利率借款2,100萬歐元。",
+          "event_time": "2026-11-24T18:25:16+08:00"
+        },
+        {
+          "source_id": "e910963dc05713a1f54e81821834758deca2dbb308a492136abde5795d0f8678",
+          "category": "央行",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "歐洲央行卡西克：通膨恐擴散至能源之外，市場預期升息合理",
+          "summary_zh": "歐洲央行決策官員 Kaasik 指出，通膨可能蔓延至能源以外領域，薪資是關鍵指標；最新數據表明必須升息以抑制通膨，市場預期升息是合理的。",
+          "event_time": "2026-11-24T19:00:03+08:00"
+        },
+        {
+          "source_id": "87c5b3e8f9e6eb9806396439690dfc7d4c09ebb4beaa6d584c8dbf7d6e8868e4",
+          "category": "央行",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "英國央行葛林：通膨放緩停滯，薪資成長過高恐需進一步升息",
+          "summary_zh": "英國央行（BoE）貨幣政策委員 Megan Greene 連番示警通膨降溫停滯，企業預期薪資成長達3.6%過高（與通膨目標相符水準約為3%），若薪資黏著將成為進一步緊縮政策的理由，除非數據或地緣局勢反轉否則看法不變。",
+          "event_time": "2026-11-24T20:35:49+08:00"
+        },
+        {
+          "source_id": "f4672ce3e3cd2ce4df1314e92f4457239bd19284693b3d0a33a8ca6cc78493d2",
+          "category": "央行",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "歐洲央行斯萊彭：12月政策方向明朗，但2027年動向高度不確定",
+          "summary_zh": "歐洲央行官員 Sleijpen 表示，ECB 在12月的政策方向明確，但之後充滿不確定性，目前討論2027年利率動向為時過早且複雜。",
+          "event_time": "2026-11-24T23:00:24+08:00"
+        },
+        {
+          "source_id": "84ed612bfd4b7e79875a9ba1ce4e9445a71558a6deba55481cefba2b93c479fe",
+          "category": "央行",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "加拿大央行調整架構：刪除就業目標，專注2%通膨指標",
+          "summary_zh": "加拿大央行（BoC）更新政策架構摘要，刪除了運用1%-3%通膨目標區間追求最大可持續就業的表述，明確指出貨幣政策無法解決住房供應限制。",
+          "event_time": "2026-11-25T01:25:59+08:00"
+        },
+        {
+          "source_id": "0a1938ae14984072c58f744bee7b5a974b11c87ac4eab39d1298067f8fdc8cab",
+          "category": "央行",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "加拿大央行總裁麥克勒姆釋鷹派訊號：若通膨居高不下需升息",
+          "summary_zh": "加拿大央行總裁 Macklem 指出，經濟表現較預期更具韌性，企業準備向消費者轉嫁更多成本，石油衝擊的二次效應將加劇通膨黏性；若通膨長期過高，央行將不得不升息，並強調經濟不再需要那麼多貨幣支持。",
+          "event_time": "2026-11-25T01:26:20+08:00"
+        },
+        {
+          "source_id": "6bdc0697329cc4210d1e2045f0a4313da6911f6dce3a5d7e90a886434a44c424",
+          "category": "央行",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "掉期市場預期加拿大央行12月升息機率飆升至80%",
+          "summary_zh": "在加拿大央行總裁麥克勒姆發表偏鷹派的通膨與利率言論後，隔夜指數交換（OIS）數據顯示，市場預期加拿大央行12月升息的機率由65%驟升至80%。",
+          "event_time": "2026-11-25T01:33:23+08:00"
+        },
+        {
+          "source_id": "bb4c7bc155b28ac0f19f0ad514b9241fd497dd961da1781c36345ec72ad79813",
+          "category": "央行",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "滿地可銀行、加拿大帝國商業銀行與野村證券預期加國央行12月升息",
+          "summary_zh": "受到央行總裁談話影響，滿地可銀行（BMO）、CIBC 與野村證券（Nomura）相繼將加拿大央行的升息時點預測提前至12月。",
+          "event_time": "2026-11-25T02:07:14+08:00"
+        },
+        {
+          "source_id": "77a36a2de2d2a7c4ca0e946ebe45d78d35365a67288ae04cc1a5fe94ed42fd0c",
+          "category": "央行",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "紐西蘭央行助理總裁席爾克強調現代化零售支付系統重要性",
+          "summary_zh": "紐西蘭央行（RBNZ）助理總裁 Silk 表示，紐西蘭目前的支付系統依然穩定可靠，但需要建立提供現代經濟所需零售支付功能的發展路徑。",
+          "event_time": "2026-11-25T05:08:34+08:00"
         }
       ]
     },
@@ -205,49 +347,58 @@
       "category": "財政政策",
       "news": [
         {
-          "source_id": "3a9149341766b769090a40a6a421d001446f6095dcddc6127f81fdd64c0d54be",
+          "source_id": "555e07557854d4684b172013db523613d13a63db9cf0e73a5f777ef449fe2d05",
           "category": "財政政策",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "法國財長示警2027年經濟成長面臨下修 惠譽評估主權評級調降風險",
-          "summary_zh": "法國財政部長萊斯居爾（Roland Lescure）警告法國2027年1%的經濟成長預測有下調風險；同時惠譽（Fitch）評估法國主權評級若遭降級對各行業的抗震韌性。",
-          "event_time": "2026-11-23T14:58:39+08:00"
+          "headline_zh": "日本政府研議放寬外匯特別會計規則以因應減稅財源",
+          "summary_zh": "共同社報導，日本政府正考慮放寬外匯特別會計相關規則，以做為推動減稅措施的資金來源運用。",
+          "event_time": "2026-11-24T16:42:50+08:00"
         },
         {
-          "source_id": "bf1abe745acb9efafc1300597af7a8ca0c5f86b042bac92baafb58eb59419c2b",
-          "category": "財政政策",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美國財政部顧問瑟沃斯指出上週金融情勢明顯緊縮",
-          "summary_zh": "美國財政部顧問瑟沃斯（Peter Zervos）公開表示，受市場波動影響，上週整體金融環境呈現緊縮狀態。",
-          "event_time": "2026-11-23T21:33:44+08:00"
-        },
-        {
-          "source_id": "c9228b44d73c1d5a08d93448346235b0dfa09e70e2a37b5dfe779d133004c78d",
+          "source_id": "24afd2121d3180e5ba622eb0a5daedf63ea7b37be28030e1e08f10e09d7cf960",
           "category": "財政政策",
           "importance_score": 4,
           "highlight": true,
-          "headline_zh": "歐盟宣布對俄羅斯實施新制裁 切斷60家俄國銀行SWIFT並針對加密資產",
-          "summary_zh": "歐盟執委會主席馮德萊恩（Ursula von der Leyen）宣布將對俄羅斯實施新一輪金融制裁，禁止60家俄羅斯銀行使用SWIFT系統，並嚴加限制金融服務與加密貨幣交易。",
-          "event_time": "2026-11-23T23:03:43+08:00"
+          "headline_zh": "華爾街日報：美國擬對中國、歐盟等14國開徵新一輪產能關稅",
+          "summary_zh": "《華爾街日報》報導，美國正準備本週對中國、歐盟及其他14個國家加徵關稅，以打擊海外過剩工業產能。歐盟、日本、南韓關稅可能在15%或以下，並預計疊加在7月的關稅基礎上。",
+          "event_time": "2026-11-24T21:08:49+08:00"
         },
         {
-          "source_id": "fa8f08edb26e6b62b61621b627a6021ead1e0f3187e4d9814389c87d06a475e6",
-          "category": "財政政策",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "英國首相柏能推動英歐新協議 宣稱可為英國經濟帶來0.5%效益",
-          "summary_zh": "英國首相柏能（Andy Burnham）宣布落實英歐新協議的法案將於週四提交國會，估計該協議價值相當於英國經濟的0.5%，並重申無意重啟脫歐公投。",
-          "event_time": "2026-11-23T23:42:08+08:00"
-        },
-        {
-          "source_id": "d07dfc908cc4682cb39351e3124ce4d16545134aad3837fab12ef8b5349b3394",
+          "source_id": "95c3c687fd4bb330cdd24241976b58d83c25cf6e865576ac9a5e58fb21d760a1",
           "category": "財政政策",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "美國商務部將中國晶片企業傲科光電列入實體出口管制黑名單",
-          "summary_zh": "美國商務部宣布將中國晶片公司Megaspeed（傲科光電）列入貿易黑名單，進一步收緊對華科技出口限制。",
-          "event_time": "2026-11-24T04:30:24+08:00"
+          "headline_zh": "歐盟執委會：若2026赤字達標，可能於2027結束對義大利財政懲戒",
+          "summary_zh": "歐盟委員會表示，若2026年數據確認義大利預算赤字降至GDP的3%以下，可能在2027年結束對該國的預算懲戒程序。",
+          "event_time": "2026-11-24T23:34:25+08:00"
+        },
+        {
+          "source_id": "89be7b8432f72b240b5869406692db4801d688254293cecb8e2418bc72bf86d3",
+          "category": "財政政策",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "消息人士：川普新301關稅將採精準打擊而非全面統一稅率",
+          "summary_zh": "消息人士透露，美國即將推出的新關稅不會超過貿易協議上限，川普（Trump）政府預計啟用的301條款關稅將採取針對性商品打擊，而非單一全面稅率。",
+          "event_time": "2026-11-24T23:45:55+08:00"
+        },
+        {
+          "source_id": "651fb8539d42465e8ef6c6284b0d8f0e6b711fd89fbb86aacb333279a52a8c97",
+          "category": "財政政策",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "美國財政部公告標售1,050億美元4週天期國庫券",
+          "summary_zh": "美國財政部宣布將於11月25日拍賣規模達1,050億美元的4週天期國庫券，預計於12月1日完成結算交割。",
+          "event_time": "2026-11-25T00:00:31+08:00"
+        },
+        {
+          "source_id": "4c9fbf56db3dbeeeea1c5f7592565ef4a295b693eab574644b4575b84a3be6ae",
+          "category": "財政政策",
+          "importance_score": 2,
+          "highlight": false,
+          "headline_zh": "紐西蘭財政部將於12月標售7億紐元政府公債",
+          "summary_zh": "紐西蘭財政部宣布計劃在12月份發行總值7億紐元的政府公債。",
+          "event_time": "2026-11-25T03:01:27+08:00"
         }
       ]
     },
@@ -255,118 +406,91 @@
       "category": "經濟",
       "news": [
         {
-          "source_id": "de5da31ea596ba713d3b268bdc0bb029c0c7c0a3479e40a6c1453e54e8e29bf9",
+          "source_id": "01fb3b7d0247fc9d70c7848a0792e5571ed2085b2da7ec6d6be4bd434275f529",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "日本11月製造業PMI初值回升至53.7，綜合PMI降至51.5",
+          "summary_zh": "日本最新公布的11月製造業採購經理人指數（PMI）初值報53.7，優於前值的53.3；綜合PMI則下滑至51.5。",
+          "event_time": "2026-11-24T08:30:00+08:00"
+        },
+        {
+          "source_id": "2c544fbaa93dc61089e2c489f8c9cdebacf20d7e620d407ef600e199e5022987",
+          "category": "經濟",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "德國11月IFO商業景氣指數升至90.6，優於預期",
+          "summary_zh": "德國11月IFO商業景氣指數實際公布為90.6，優於市場預期的90.5與前值90.2；現況指數亦上升至89.4。",
+          "event_time": "2026-11-24T17:00:12+08:00"
+        },
+        {
+          "source_id": "b9d66ea5f0988496ebc971acd1ff11c7952cff7ddbe050cb124c89758d22c083",
           "category": "經濟",
           "importance_score": 2,
           "highlight": false,
-          "headline_zh": "紐西蘭年增零售銷售升至3.5%，前值修正為3.3%",
-          "summary_zh": "紐西蘭零售銷售年率表現穩健，顯示當地消費需求維持溫和增長動能。",
-          "event_time": "2026-11-23T05:45:09+08:00"
+          "headline_zh": "英國11月CBI零售銷售差值激增至+9，遠超預期",
+          "summary_zh": "英國工業總會（CBI）公布11月零售銷售差值達9，遠優於預期的-28及前值-10，顯示英國零售銷售短期回暖。",
+          "event_time": "2026-11-24T19:00:00+08:00"
         },
         {
-          "source_id": "2db2b7f3487aea1349875871c21bfadf69066efcc2fe5788eff31805d1bfbce8",
+          "source_id": "f26ecde942f5e55faf67fc855de82a8e9c69753fed1e098658a54b4f73babe13",
           "category": "經濟",
           "importance_score": 2,
           "highlight": false,
-          "headline_zh": "紐西蘭季增零售銷售達2.2%，顯著優於預期之0.5%",
-          "summary_zh": "紐西蘭季調後零售銷售季增率自前值的-0.5%大幅反彈至2.2%，顯著優於市場預期，反映內需出現強勁回溫。",
-          "event_time": "2026-11-23T05:45:10+08:00"
+          "headline_zh": "美國9月Case-Shiller房價指數年增率放緩至2.56%",
+          "summary_zh": "美國標普/凱斯席勒（Case-Shiller）20大城市房價指數9月年增2.56%，低於市場預期的2.71%與前值的2.70%。",
+          "event_time": "2026-11-24T22:00:00+08:00"
         },
         {
-          "source_id": "b26b0fb84b1af626ee1f5b6000e58ec4dc7f45078b62bcfa703b82a4af5057de",
+          "source_id": "87f3dae3308619834e1d74d5a1c631db15b4ef77e1f978447f877b0f784e60f2",
+          "category": "經濟",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "美國11月諮商會消費者信心指數躍升至103.3，遠超預期",
+          "summary_zh": "美國諮商會（Conference Board）公布11月消費者信心指數達103.3，大幅超出市場預期的92.4與前值91.7；未來12個月通膨預期降至5.7%，多數消費者仍預期未來股市走高。",
+          "event_time": "2026-11-24T23:00:00+08:00"
+        },
+        {
+          "source_id": "ea7c53f1be0730be21e56c8c14ad2575ff778a33dc328c944be34ce6fa6fb2a8",
           "category": "經濟",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "澳洲綜合採購經理人指數（PMI）初值降至46.1，緊縮加劇",
-          "summary_zh": "澳洲綜合PMI初值自前月48.2進一步跌落至46.1，顯示整體私營部門景氣緊縮壓力加大。",
-          "event_time": "2026-11-23T06:00:09+08:00"
+          "headline_zh": "惠譽評級：美國生產力穩健改善，AI尚未引發大規模失業",
+          "summary_zh": "評級機構惠譽（Fitch Ratings）指出，美國生產力成長正在穩步改善，AI 技術的加速採用尚未造成總體就業下滑或裁員潮，但在可替代性高的產業衝擊仍顯著。",
+          "event_time": "2026-11-24T23:21:27+08:00"
         },
         {
-          "source_id": "ac2b4d96116d3079582c3b58946b89931eb31b925e598a001c7d157b49064fea",
+          "source_id": "fe47d5dbd3f193ce16e0049fec5ff2f08636a7e60149e0bfcab8d109c0108d29",
           "category": "經濟",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "澳洲製造業採購經理人指數（PMI）初值降至48.7",
-          "summary_zh": "澳洲製造業PMI初值低於前值的49.6，持續位於榮枯線下方，反映製造業需求疲弱。",
-          "event_time": "2026-11-23T06:00:09+08:00"
+          "headline_zh": "普丁：俄羅斯能源產業維持全球領先，遏制俄能源將反噬歐洲",
+          "summary_zh": "俄羅斯總統普丁（Putin）表示，儘管地緣形勢嚴峻，俄羅斯企業在能源市場仍具優勢，西方限制俄能源出口的企圖最終將反噬自身，特別是歐洲市場。",
+          "event_time": "2026-11-24T23:49:22+08:00"
         },
         {
-          "source_id": "54adc77c08a68d4f1bf56672bbc4d1dda7df4c34453efd3360fb3d00127432d2",
+          "source_id": "87d5d2d2e4132cdad10b559fab507ffe5c61d504229463e55690b9168258275e",
           "category": "經濟",
           "importance_score": 3,
           "highlight": false,
-          "headline_zh": "澳洲服務業採購經理人指數（PMI）初值下滑至46.2",
-          "summary_zh": "澳洲服務業PMI初值自前月的48.5降至46.2，創下近期低點，顯示高利率環境對服務消費的抑制持續深化。",
-          "event_time": "2026-11-23T06:00:10+08:00"
+          "headline_zh": "紐約原油期貨上漲2.35%結算於82.05美元，布蘭特原油突破91美元",
+          "summary_zh": "受中東地緣政治動盪與供應中斷風險影響，NYMEX 原油1月期貨上漲2.35%至每桶82.05美元，布蘭特原油上漲2.27%收於每桶91.40美元。",
+          "event_time": "2026-11-25T03:31:00+08:00"
         },
         {
-          "source_id": "e3855de54e3a00dd6e8ff47d655bc09b459ae03fe46b3eb06d611253d2b036c8",
+          "source_id": "b0b9f5d4a4a62cd6f1b0568a704a1d02451c25dce9e705d0fc78bfc326c440e1",
           "category": "經濟",
           "importance_score": 2,
           "highlight": false,
-          "headline_zh": "利比亞沙拉拉油田管道遭切斷 估計將減少每日35萬桶原油產出",
-          "summary_zh": "利比亞國家石油公司（NOC）表示，沙拉拉（Sharara）油田管線閥門遭非法團體關閉，將導致原油產量每日減少約35萬桶。",
-          "event_time": "2026-11-23T07:57:48+08:00"
-        },
-        {
-          "source_id": "7474e3f977a0dcfe0ae07b383dbb04a1e366bb37885638fca100f345a9f5a000",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "歐元區11月製造業PMI回升至52.9 德國數據大幅優於預期",
-          "summary_zh": "歐元區11月製造業PMI初值達52.9，其中德國綜合PMI升至55.0大幅超出預期，但法國製造業與服務業仍持續處於萎縮區間。",
-          "event_time": "2026-11-23T17:00:01+08:00"
-        },
-        {
-          "source_id": "5400fbc438ec17870c5a6114083fb48d8db8ed4681ec563848ec60c28c8f00f9",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美銀與德銀發布全球展望 預期2027年經濟成長逾3.4%",
-          "summary_zh": "美銀全球研究與德意志銀行分別發布報告，預估2027年全球經濟成長率在3.4%至3.5%之間，美國GDP增速預計均維持在2.3%左右。",
-          "event_time": "2026-11-23T19:15:39+08:00"
-        },
-        {
-          "source_id": "7f3e9f92854e9d49b0959eafe55f138d418911ce2bbb3f389a4d75e41436e9f1",
-          "category": "經濟",
-          "importance_score": 3,
-          "highlight": false,
-          "headline_zh": "美國11月標準普爾綜合PMI初值降至54.6 服務業成長略微趨緩",
-          "summary_zh": "美國11月標普綜合採購經理人指數（PMI）初值為54.6，製造業PMI為54.5，服務業PMI為54.7，整體擴張動能略有放緩。",
-          "event_time": "2026-11-23T22:45:00+08:00"
+          "headline_zh": "美國API原油庫存微增12.6萬桶，汽油庫存變動平緩",
+          "summary_zh": "美國石油協會（API）公布上週原油庫存小幅增加12.6萬桶（遠低於前次的530萬桶），庫欣原油庫存減少66.6萬桶，蒸餾油增加164.7萬桶。",
+          "event_time": "2026-11-25T05:37:53+08:00"
         }
       ]
     },
     {
       "category": "戰爭",
       "news": [
-        {
-          "source_id": "ea87e6e08d92061f8168b7af887293b99a480daf6c9464ea8366c2cd11e0c918",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "西方盟國示警俄羅斯可能於下月發射太空核武衛星 德國政府高度關注",
-          "summary_zh": "西方盟國發出警告，指俄羅斯可能於下個月發射搭載核武的太空衛星武器；德國政府發言人對此表示高度重視相關情報。",
-          "event_time": "2026-11-23T20:14:42+08:00"
-        },
-        {
-          "source_id": "89741a8186891ddb606448811bdf31c884d43a05bea89f3af2bb8683a9a9b701",
-          "category": "戰爭",
-          "importance_score": 5,
-          "highlight": true,
-          "headline_zh": "美方官員示警隨時準備對伊朗發動大規模軍事打擊 能源動脈高度緊張",
-          "summary_zh": "美方官員向媒體透露，美軍已準備隨時對伊朗實施大規模軍事打擊，並指出上週已有1.08億桶原油經由荷姆茲海峽運輸以維持能源安全。",
-          "event_time": "2026-11-24T02:41:19+08:00"
-        },
-        {
-          "source_id": "344c48842c5eabd49f49410dde0c21ab1699ac02e1ce1f8f3767bc4b7f8c5730",
-          "category": "戰爭",
-          "importance_score": 4,
-          "highlight": true,
-          "headline_zh": "卡達總理穿梭調解美伊衝突 警告中東無法承受升級並全力重啟談判",
-          "summary_zh": "卡達首相兼外交大臣警告中東無法承受美伊新一輪軍事升級，正與雙方溝通以恢復談判；卡達特使當日亦與美國副總統范斯會晤協調中東局勢。",
-          "event_time": "2026-11-24T03:57:38+08:00"
-        },
         {
           "source_id": "12bf8fa0af73b8ad2453952c7a4e444e1f3f509bbdef3978e562bb7611bb3dd3",
           "category": "戰爭",
@@ -384,18 +508,162 @@
           "headline_zh": "沙烏地防空部隊攔截擊落葉門胡塞武裝無人機",
           "summary_zh": "沙烏地阿拉伯領導的多國聯軍宣布，成功攔截並摧毀一架由葉門胡塞武裝組織向該國南部發射的無人機，紅海周邊安全警報持續。",
           "event_time": "2026-11-24T06:30:56+08:00"
+        },
+        {
+          "source_id": "1b2e1c2c23d9c5e7c9d5622497bf4dc6a8ced1f3b69fcd68f1b3b6d6327c779b",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗議長卡利巴夫重申：對與美談判立場保持不變",
+          "summary_zh": "伊朗通訊社引述伊朗議長卡利巴夫（Ghalibaf）說法，伊朗在外交談判（negotiations）上的原則性立場保持不變，未因當前軍事對抗而鬆動。",
+          "event_time": "2026-11-24T14:15:53+08:00"
+        },
+        {
+          "source_id": "174b7d2d8cbb1c30f9ef6adb225c4d19b5e34614a62a5748c24bdcde25fa1261",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "英國海事貿易行動辦公室通報阿聯豪爾費坎海域發生安全事故",
+          "summary_zh": "英國海事貿易行動辦公室（UKMTO）接獲延遲報告，阿聯豪爾費坎（Khor Fakkan）鄰近海域發生海事安全事件。",
+          "event_time": "2026-11-24T16:25:22+08:00"
+        },
+        {
+          "source_id": "bab832a5ecad3371e5f17dc9f5414f9c29d4f6327c1b0243bb58ddc90a21c175",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗官方媒體稱必須加強荷姆茲海峽管制直至訴求達成",
+          "summary_zh": "塔斯尼姆通訊社（Tasnim）報導，伊朗必須對荷姆茲海峽（Strait of Hormuz）實施更嚴格的管理與航行管控，直到特定政治條件被滿足為止。",
+          "event_time": "2026-11-24T16:49:18+08:00"
+        },
+        {
+          "source_id": "26af2352034b7cedae36ae1724708a45c6850eb1bbc0e5071f5833713695d1bb",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "克里姆林宮透露歐洲正推動四方會談解決烏克蘭問題",
+          "summary_zh": "塔斯社引述克里姆林宮消息指出，歐洲國家正積極推動重啟俄烏問題的四方外交談判（four-way Ukraine talks）。",
+          "event_time": "2026-11-24T18:43:26+08:00"
+        },
+        {
+          "source_id": "d0dab5f2f1e911c5f6027dc4b09c753a5e4f9513121c0fd288ae579a85c79fe2",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "以色列空襲加薩走廊擊斃哈瑪斯高級安全官員",
+          "summary_zh": "哈瑪斯消息人士證實，以色列在加薩走廊的空襲行動中擊斃了一名哈瑪斯高層安全主管官員。",
+          "event_time": "2026-11-24T18:49:27+08:00"
+        },
+        {
+          "source_id": "7b0cfd67ad1718ab65fc497c2263ac6cd6854bbc7410d84393f1f25d2a2a9a7b",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "伊朗革命衛隊稱荷姆茲海峽週二再有油輪觸雷受損",
+          "summary_zh": "伊朗伊斯蘭革命衛隊（IRGC）宣稱，週二在荷姆茲海峽又有另一艘油輪觸發水雷，航道安全威脅嚴重加劇。",
+          "event_time": "2026-11-24T18:59:24+08:00"
+        },
+        {
+          "source_id": "f2b9106a5e68def615f4cd1fd604e120956637cb48805428c7f8aa249d2129f6",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "沙烏地阿拉伯尋求盟國提供更多防空飛彈攔截系統",
+          "summary_zh": "美媒 Semafor 報導，鑑於中東區域無人機與飛彈攻擊風險加劇，沙烏地阿拉伯已向盟國提出請求，要求提供更多防空飛彈攔截器以強化防衛。",
+          "event_time": "2026-11-24T20:26:13+08:00"
+        },
+        {
+          "source_id": "a4a49d1653f1a0699e79c193f08cd0208b5f6ba5db48e0ee93a2d79337f73fd6",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "NBC：川普政府內部正激烈辯論是否對伊朗領導層採取斬首行動",
+          "summary_zh": "NBC 引述知情人士報導，川普（Trump）政府高層官員正就是否直接將伊朗高層領導人列為軍事打擊目標展開內部辯論，地緣局勢恐面臨全面升級風險。",
+          "event_time": "2026-11-25T00:01:48+08:00"
+        },
+        {
+          "source_id": "1d1d2347558137256cc7400a443868727787d3d36b398d53f6cc0cba7e28d83f",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "UKMTO證實油輪於荷姆茲海峽東行途中遭攻擊",
+          "summary_zh": "英國海事貿易行動辦公室（UKMTO）通報，一艘油輪於11月22日在荷姆茲海峽向東航行時遭遇襲擊。",
+          "event_time": "2026-11-25T00:29:13+08:00"
+        },
+        {
+          "source_id": "deedf7267687b1c05565888b061a508b5005d21ad99fa348cc7901662d150f3a",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗聲稱在阿曼海域擊中一艘貨櫃船",
+          "summary_zh": "伊朗官方媒體 IRIB 報導，一艘貨櫃船在阿曼卡薩卜（Khasab）以北海域遭遇襲擊。",
+          "event_time": "2026-11-25T01:47:42+08:00"
+        },
+        {
+          "source_id": "db5af564a09ddb1070e0ce70da273301f766e92297dd9a0d424de2ce86cff90e",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "以色列國防部長卡茨：伊朗正從提煉濃縮鈾轉向製造核武與髒彈",
+          "summary_zh": "以色列國防部長 Katz 警告，情報顯示伊朗正致力於研發髒彈（dirty bomb），並已從單純提煉濃縮鈾邁向研製實體核子武器的階段。",
+          "event_time": "2026-11-25T01:58:45+08:00"
+        },
+        {
+          "source_id": "9ef8984015db53f0ce705012ef3b7f82c63a8b688b62a82baf4097d92b6e0d04",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "伊朗前衛隊司令雷扎伊：伊朗堅定決心打破美國海上封鎖",
+          "summary_zh": "伊朗權力決策要員 Rezaee 表示，伊朗軍方具備堅定意志與決心，將採取一切手段打破美國施加的軍事與經濟封鎖。",
+          "event_time": "2026-11-25T02:20:56+08:00"
+        },
+        {
+          "source_id": "b915e9a969ee6770e68ae3e5635f1013fadab3e7270b6d2ea37abce4a2d2e9d8",
+          "category": "戰爭",
+          "importance_score": 3,
+          "highlight": false,
+          "headline_zh": "美沙兩國高層會晤討論解除黎巴嫩真主黨武裝",
+          "summary_zh": "美國與沙烏地阿拉伯高層官員進行會談，深入討論黎巴嫩真主黨（Hezbollah）必須解除武裝以維護中東穩定的必要性。",
+          "event_time": "2026-11-25T03:27:33+08:00"
+        },
+        {
+          "source_id": "19da71ae1a0e56b29cf7fc4a231f5efd483b45a7323b756bab7c1188b04cce5f",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "伊朗革命衛隊：荷姆茲海峽第4艘油輪觸雷爆炸，多艘船隻折返",
+          "summary_zh": "伊朗革命衛隊海軍表示，荷姆茲海峽以東海域有第4艘油輪在觸碰水雷後爆炸，並警告未經許可的航線具有極高風險，已迫使多艘商船折返。",
+          "event_time": "2026-11-25T04:15:56+08:00"
+        },
+        {
+          "source_id": "e291063078aac66ee26765d876b8ca802b8197960140c0799356a0ec4243b1bb",
+          "category": "戰爭",
+          "importance_score": 5,
+          "highlight": true,
+          "headline_zh": "葉門胡塞武裝威脅攻擊吉達港與沙烏地紅海重要港口",
+          "summary_zh": "葉門胡塞武裝透過社交平台警告，若荷台達港（Hodeidah）遭到攻擊，胡塞武裝將直接對沙烏地阿拉伯的吉達港（Jeddah）及其他紅海港口發動打擊。",
+          "event_time": "2026-11-25T06:15:00+08:00"
+        },
+        {
+          "source_id": "ac2717b5b32331ff4de8557e7a01dd1aea8b9d72cdb31f54ab3ea2bed774cf81",
+          "category": "戰爭",
+          "importance_score": 4,
+          "highlight": true,
+          "headline_zh": "葉門荷台達港據報遭受攻擊，沙國聯軍於東部上空攔截無人機",
+          "summary_zh": "胡塞控制的薩巴通訊社報導葉門荷台達港遭遇攻擊；隨後沙烏地主導的多國聯軍通報在沙國東部地區上空成功攔截並摧毀了兩架自殺式無人機。",
+          "event_time": "2026-11-25T06:17:31+08:00"
         }
       ]
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 6950,
-    "candidatesTokenCount": 499,
-    "totalTokenCount": 7449,
+    "promptTokenCount": 12282,
+    "candidatesTokenCount": 425,
+    "totalTokenCount": 12707,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 6950
+        "tokenCount": 12282
       }
     ],
     "serviceTier": "standard"
