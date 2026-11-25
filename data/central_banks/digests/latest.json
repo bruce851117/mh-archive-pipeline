@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-25T07:40:31.703237+08:00",
+  "generated_at": "2026-11-26T07:40:57.811177+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-08-27T07:40:31.703237+08:00",
-  "period_end": "2026-11-25T07:40:31.703237+08:00",
+  "period_start": "2026-08-28T07:40:57.811177+08:00",
+  "period_end": "2026-11-26T07:40:57.811177+08:00",
   "lookback_days": 90,
   "voter_version": "2026-09-09",
   "model": "gemini-3.8-flash",
-  "input_headline_count": 4175,
-  "talk_count": 319,
+  "input_headline_count": 4123,
+  "talk_count": 318,
   "central_banks": [
     {
       "central_bank": "FED",
@@ -825,7 +825,7 @@
             },
             {
               "date": "2026-08-28",
-              "summary_zh": "在傑克森洞表示金融條件難稱限制性，若底層通膨未能迅速朝2%目標回落，聯準會仍有升息等工作要做。",
+              "summary_zh": "強調首要任務在物價穩定且2%目標堅定不移，若通膨未迅速降溫仍需採取行動，並指出消費與就業強韌且金融情勢難稱具限制性。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -847,7 +847,6 @@
                 "38e9d825bb77a6f1889664463a109072d6307e52ec1404e14ed49f155245b8d4",
                 "e5fbcf6530ef2ae34b0e5c5545820164a0a50cf260aeee9782121989d42e6cd2",
                 "175a5a73c9b4ea857ade3bb6020118ec1eb7f7fcc550584a9a302213858b0bb7",
-                "d6038b7dfe30a7d1e2b71edb10df2a8468c2b908b22de7ab9b91e8e682974c7b",
                 "3b11c5884b4a7fadaa94fa2aac06de0affa06850856e12680724716099cd377e",
                 "05f97bcaa1026aef0b39d30af4ca10e7e2afc48d4da81143cc6bf2b2d5dcb0e6"
               ],
@@ -925,12 +924,6 @@
                   "headline": "Fed's Warsh: Have work to do if inflation is not moving to 2% with speed."
                 },
                 {
-                  "id": "d6038b7dfe30a7d1e2b71edb10df2a8468c2b908b22de7ab9b91e8e682974c7b",
-                  "time": "2026-08-28T22:19:45+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Warsh: Early check-ins with task-force leaders are encouraging."
-                },
-                {
                   "id": "3b11c5884b4a7fadaa94fa2aac06de0affa06850856e12680724716099cd377e",
                   "time": "2026-08-28T22:20:43+08:00",
                   "central_bank": "FED",
@@ -956,7 +949,7 @@
           "talks": [
             {
               "date": "2026-11-24",
-              "summary_zh": "指出經濟強勁有韌性且就業市場穩定，但通膨依然過高且風險偏向上行，聯準會必須採取行動降低通膨，預計2028年將重返2%目標。",
+              "summary_zh": "表示聯準會必須採取行動抗通膨，預估2026年通膨為3.5%並於2028年降至2%，且經濟展現韌性但仍面臨挑戰。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4855,7 +4848,7 @@
             },
             {
               "date": "2026-08-28",
-              "summary_zh": "表示金融條件缺乏限制性，就業市場均衡但年底通膨恐落在3%，聯準會應立即升息以避免後續帶來更大痛苦。",
+              "summary_zh": "預期年底通膨約3%難以達標，認為當前經濟與金融環境限制性不足，聯準會應及時升息以避免未來痛苦，並對每次會議持開放態度。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -4865,46 +4858,14 @@
                 "balance_sheet": ""
               },
               "source_ids": [
-                "d34dc8fb6c24444723fee5285865a1f218339678b36124afc870cbe76a53c2bf",
-                "8e1f022ad737aba23ec8b0b90b03fb8d8955935af34b918b795bd65898192ae9",
-                "46ac397029f8ce635457619e45d743aac9532c3a51b8163e7e65c5919b408a34",
-                "d8fa84b40742ea131232e25a1be3bd653a727683cf0e8acb0665e36367574879",
                 "3bf9fb576632ca1412f1371738b78a9fb2d59810e2e31e2c319b0a9262e50ffb",
                 "b8e250502358ed187a6f50a85d700e1b66ab05e4d2eb78bf6fae5129fefae6b9",
                 "cddf958bc24a7a9961bd1bb71fe6470f154bc8ed758c54217abf0b6cb1f04af9",
-                "0dab3dae63e65427edf489d7ce3ea98c3b781d85cdb1c0a09d99f1774011d208",
-                "e8badd640f115631ab617cf82e8772e9d8531106e1207f854733a7058a2b8f2c",
                 "18dc618f88618ee2ecf955e27c75cf4b8eb12eeb172626f0e30aa348aeec3987",
-                "75094c33551de46ba5fa8ef3bcf430efaaf45667362bda987aaf6b9a9c372ab1",
                 "2d3c13b42715202ea0279d9d8c5bcad3de36fa80b7e6c3ba75a20a468bb49549",
-                "70b0b88abeeb8fc417b83674f446ffe2d497de4e95f905e9b4c2e2eac2048b99",
                 "98dec4eb54a8f1f717475e117b70bf3513d4c3481d0d2f27fd0b330759b37961"
               ],
               "source_headlines": [
-                {
-                  "id": "d34dc8fb6c24444723fee5285865a1f218339678b36124afc870cbe76a53c2bf",
-                  "time": "2026-08-28T01:11:38+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Hammack: The job market is broadly in balance - Fox Business"
-                },
-                {
-                  "id": "8e1f022ad737aba23ec8b0b90b03fb8d8955935af34b918b795bd65898192ae9",
-                  "time": "2026-08-28T01:13:05+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Hammack: It's time to act; we need restrictiveness in policy."
-                },
-                {
-                  "id": "46ac397029f8ce635457619e45d743aac9532c3a51b8163e7e65c5919b408a34",
-                  "time": "2026-08-28T01:13:10+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Hammack: I expect slow progress on inflation, should end year around 3%."
-                },
-                {
-                  "id": "d8fa84b40742ea131232e25a1be3bd653a727683cf0e8acb0665e36367574879",
-                  "time": "2026-08-28T01:13:54+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Hammack: Next year inflation might ease to around 2.5% at best."
-                },
                 {
                   "id": "3bf9fb576632ca1412f1371738b78a9fb2d59810e2e31e2c319b0a9262e50ffb",
                   "time": "2026-08-28T21:05:22+08:00",
@@ -4924,28 +4885,10 @@
                   "headline": "Fed's Hammack: It's time for the Fed to act with rate hikes; waiting will create pain."
                 },
                 {
-                  "id": "0dab3dae63e65427edf489d7ce3ea98c3b781d85cdb1c0a09d99f1774011d208",
-                  "time": "2026-08-28T21:06:37+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Hammack: Communicating Fed issues to the public is part of the job."
-                },
-                {
-                  "id": "e8badd640f115631ab617cf82e8772e9d8531106e1207f854733a7058a2b8f2c",
-                  "time": "2026-08-28T21:07:51+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Hammack: Markets complement the Fed but aren't a substitute for the Fed."
-                },
-                {
                   "id": "18dc618f88618ee2ecf955e27c75cf4b8eb12eeb172626f0e30aa348aeec3987",
                   "time": "2026-08-28T21:08:52+08:00",
                   "central_bank": "FED",
                   "headline": "Fed's Hammack: There is not much restriction in the economy right now."
-                },
-                {
-                  "id": "75094c33551de46ba5fa8ef3bcf430efaaf45667362bda987aaf6b9a9c372ab1",
-                  "time": "2026-08-28T21:10:23+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Hammack: Interest rates are the Fed's most easily understood tool."
                 },
                 {
                   "id": "2d3c13b42715202ea0279d9d8c5bcad3de36fa80b7e6c3ba75a20a468bb49549",
@@ -4954,95 +4897,10 @@
                   "headline": "Fed's Hammack: Go into all Fed meetings with an open mind."
                 },
                 {
-                  "id": "70b0b88abeeb8fc417b83674f446ffe2d497de4e95f905e9b4c2e2eac2048b99",
-                  "time": "2026-08-28T21:12:37+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Hammack: Don't really know a lot about the balance sheet economy effects."
-                },
-                {
                   "id": "98dec4eb54a8f1f717475e117b70bf3513d4c3481d0d2f27fd0b330759b37961",
                   "time": "2026-08-28T21:12:54+08:00",
                   "central_bank": "FED",
                   "headline": "Fed's Hammack: The low interest rate era may have been unusual."
-                }
-              ]
-            },
-            {
-              "date": "2026-08-27",
-              "summary_zh": "認為現行政策未限制經濟且自身對中性利率估計較高，鑒於高於目標的通膨具持續性並擔憂通膨心態根深蒂固，強調目前是採取行動的時候。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "27ba2ae9e4d91a421e35c78deda14f4c0736f0fdbd55bdd2b55aa58dc69cbf37",
-                "145a75e53be3e8acdf42487ab6b5a3d5a0032d8f3e0780f763db639d7794f7d5",
-                "dbd77b812a3f9000babd97a7abb43e108cb91c41a1bdb5f70dbed90a040984f0",
-                "5fe8aaa432cf2a1a640c55b17706d85c777cdbe2e7e750ae0bdabbdc292c4509",
-                "ab4e24a6e552e1fdf70f309694c9e5e4696e9c387da4d7aff6cb5533bf93f6fd",
-                "3967da63a6666a94980f30446af8536f6af02df15d2ffe00ec384eb7e837549c",
-                "887b746cb47b4bccc6bc53af23908541f05d8dc1f71eca229ca6d4281d90b051",
-                "d343ec5d994f96c294ec424de8163dc6ee63a71917f195f783777aa07664fe19",
-                "8519427360d6069a73a2744b6807832c741e5ec7d796acd6b0be0d9a6d2957e5"
-              ],
-              "source_headlines": [
-                {
-                  "id": "27ba2ae9e4d91a421e35c78deda14f4c0736f0fdbd55bdd2b55aa58dc69cbf37",
-                  "time": "2026-08-27T22:24:27+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Hammack: Most recent inflation number was as expected - CNBC"
-                },
-                {
-                  "id": "145a75e53be3e8acdf42487ab6b5a3d5a0032d8f3e0780f763db639d7794f7d5",
-                  "time": "2026-08-27T22:24:40+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Hammack: Now is time to act given persistence of inflation."
-                },
-                {
-                  "id": "dbd77b812a3f9000babd97a7abb43e108cb91c41a1bdb5f70dbed90a040984f0",
-                  "time": "2026-08-27T22:24:52+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Hammack: I do not see Fed policy providing restriction for economy."
-                },
-                {
-                  "id": "5fe8aaa432cf2a1a640c55b17706d85c777cdbe2e7e750ae0bdabbdc292c4509",
-                  "time": "2026-08-27T22:25:41+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Hammack: Above target has been persistent amid questions of how shocks will play out."
-                },
-                {
-                  "id": "ab4e24a6e552e1fdf70f309694c9e5e4696e9c387da4d7aff6cb5533bf93f6fd",
-                  "time": "2026-08-27T22:26:05+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Hammack: The main worry is that public will lose confidence inflation will return to 2%."
-                },
-                {
-                  "id": "3967da63a6666a94980f30446af8536f6af02df15d2ffe00ec384eb7e837549c",
-                  "time": "2026-08-27T22:26:37+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Hammack: contacts highly concerned about inflation and living expenses"
-                },
-                {
-                  "id": "887b746cb47b4bccc6bc53af23908541f05d8dc1f71eca229ca6d4281d90b051",
-                  "time": "2026-08-27T22:26:38+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Hammack: concerned inflationary mindset may be taking hold"
-                },
-                {
-                  "id": "d343ec5d994f96c294ec424de8163dc6ee63a71917f195f783777aa07664fe19",
-                  "time": "2026-08-27T22:27:04+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Hammack: You recognize neutral monetary policy when you see it"
-                },
-                {
-                  "id": "8519427360d6069a73a2744b6807832c741e5ec7d796acd6b0be0d9a6d2957e5",
-                  "time": "2026-08-27T22:27:26+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed’s Hammack: neutral rate seen higher than other Fed officials"
                 }
               ]
             }
@@ -6914,71 +6772,6 @@
                   "headline": "Fed's Goolsbee: I don't think Fed and Treasury are at cross purposes."
                 }
               ]
-            },
-            {
-              "date": "2026-08-27",
-              "summary_zh": "表示整體經濟穩定但勞動市場呈現低招聘低解雇的異常現象，短期最擔憂通膨未受控，並指出利率3%與通膨2%是政策寬鬆的大致走向目標。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "105fb54824bb0c387ce316024d0f1b8704fd855fc8e1194498ee63b9fe98beff",
-                "738876a85d7bcd7bfbf7c2eb1fe157ab858fb62ee184f650dddcb7cab9d150ef",
-                "f29f6c0ff30f7bdc26512bd6855f35c16d33878f7febfab2ea7e6a93483f5f34",
-                "0f4937d74eb8ef2074ae08784c211a148fdc4f70c7de8d3f9a38a72a70e1bda6",
-                "d0115a025202cb3624abd7b20803dd981ddd9a25d29e6cc9b5b00f88be6e1736",
-                "1b3249ef6271d47cccb5bc4e7cc867d79afd9ca924524d7f59680eeb16000cd8",
-                "a5f9b3eb928bf9cf92a4851bae8181ca147d64adfbd7fbea7f962f48aa780641"
-              ],
-              "source_headlines": [
-                {
-                  "id": "105fb54824bb0c387ce316024d0f1b8704fd855fc8e1194498ee63b9fe98beff",
-                  "time": "2026-08-27T19:55:12+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Goolsbee: Trying to figure out if inflation shocks persistent."
-                },
-                {
-                  "id": "738876a85d7bcd7bfbf7c2eb1fe157ab858fb62ee184f650dddcb7cab9d150ef",
-                  "time": "2026-08-27T20:04:57+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Goolsbee: Tariffs and war-related price increases a challenge for the Fed - Rapid Response Podcast."
-                },
-                {
-                  "id": "f29f6c0ff30f7bdc26512bd6855f35c16d33878f7febfab2ea7e6a93483f5f34",
-                  "time": "2026-08-27T20:20:45+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Goolsbee: 3-month inflation doesn't look terrible."
-                },
-                {
-                  "id": "0f4937d74eb8ef2074ae08784c211a148fdc4f70c7de8d3f9a38a72a70e1bda6",
-                  "time": "2026-08-27T20:22:01+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Goolsbee: A 3% rate and 2% inflation is a loose target where we're headed."
-                },
-                {
-                  "id": "d0115a025202cb3624abd7b20803dd981ddd9a25d29e6cc9b5b00f88be6e1736",
-                  "time": "2026-08-27T20:24:00+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Goolsbee: The economy on balance has been stable."
-                },
-                {
-                  "id": "1b3249ef6271d47cccb5bc4e7cc867d79afd9ca924524d7f59680eeb16000cd8",
-                  "time": "2026-08-27T20:24:49+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Goolsbee: Current low hire and low fire job market is unusual."
-                },
-                {
-                  "id": "a5f9b3eb928bf9cf92a4851bae8181ca147d64adfbd7fbea7f962f48aa780641",
-                  "time": "2026-08-27T20:25:41+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Goolsbee: Biggest short-run fear is that inflation is not under control."
-                }
-              ]
             }
           ]
         },
@@ -8794,57 +8587,6 @@
                   "headline": "Fed's Collins: A somewhat more restrictive federal funds rate will help ensure that inflation durably returns to target."
                 }
               ]
-            },
-            {
-              "date": "2026-08-28",
-              "summary_zh": "指出近期PCE數據未改變貨幣政策具限制性並將帶動通膨逐步回落的展望，殖利率上升仍與物價穩定相符。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "e56f7236f7ed818b0bd16a4a84a5f896b98bb13804f5f5e1eafd273b92892cbd",
-                "0ac6962c9c71956de5220e2df1ceaa2138cecb79816720a3526b699a64257524",
-                "a2f83f8af724bca6f5273efbe2df2e444020174cfb7e5565781d1afff83fd3ac",
-                "c013e25000cef2e97cefe463d81b34cf57cb19b696d241b4408cb6e2d69ee151",
-                "7ffdab9004411edbe9deb5a96f97ac3271661cca22b61c9462a33b56b99e0d9d"
-              ],
-              "source_headlines": [
-                {
-                  "id": "e56f7236f7ed818b0bd16a4a84a5f896b98bb13804f5f5e1eafd273b92892cbd",
-                  "time": "2026-08-28T02:00:26+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Collins: Portfolio management fees had an outsized influence on headline inflation, with market-based prices more in line with the Fed's target."
-                },
-                {
-                  "id": "0ac6962c9c71956de5220e2df1ceaa2138cecb79816720a3526b699a64257524",
-                  "time": "2026-08-28T02:00:28+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Collins: The recent personal consumption expenditures report did not change the overall outlook that current monetary policy is restrictive and will lead to a gradual disinflation."
-                },
-                {
-                  "id": "a2f83f8af724bca6f5273efbe2df2e444020174cfb7e5565781d1afff83fd3ac",
-                  "time": "2026-08-28T02:00:41+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Collins: Recent increase in bond yields still consistent with price stability, not a sign inflation expectations are increasing."
-                },
-                {
-                  "id": "c013e25000cef2e97cefe463d81b34cf57cb19b696d241b4408cb6e2d69ee151",
-                  "time": "2026-08-28T02:01:03+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Collins: Watching bond yields, but has no comment on Bessent's intervention."
-                },
-                {
-                  "id": "7ffdab9004411edbe9deb5a96f97ac3271661cca22b61c9462a33b56b99e0d9d",
-                  "time": "2026-08-28T02:01:04+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Collins: The recent inflation data was mixed, with the headline figure stronger than expected, but there are promising signs in the details."
-                }
-              ]
             }
           ]
         },
@@ -9915,64 +9657,6 @@
                   "headline": "Fed's Schmid: I agree with Chairman Warsh's framework on why bond yields have gone up. Economic growth, demand for capital from al investment, geopolitical challenges."
                 }
               ]
-            },
-            {
-              "date": "2026-08-27",
-              "summary_zh": "認為現行利率並未限制美國經濟且可能支持7月升息，強調通膨需回到2%，能源衝擊正滲入經濟且調整資產負債表需要時間。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "cdae708236faf8cc50dd15f056b79deb0b2b820530509ddc1f4a0f200d3fd292",
-                "a5e6aca0db1fb708bd79222621b1e760b924d4522d4c96a9df54f5958a21d417",
-                "9706644da20b578cf60fcf43a48e13d6c04d7abf661ce8440b894933459f379b",
-                "2208494cb1034ec6e632580160e763aa2ddeae87bf51147d284aabfd31bd08f1",
-                "5e187cae65a1bcf01825b045198e06fc24b1c142875c84550044e7d0ac9453c9",
-                "aa974249055bb7b77836f84c0c95c821feb65322d66d65b847aa135a4fde21f8"
-              ],
-              "source_headlines": [
-                {
-                  "id": "cdae708236faf8cc50dd15f056b79deb0b2b820530509ddc1f4a0f200d3fd292",
-                  "time": "2026-08-27T19:30:24+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Schmid: Interest rates not restraining us economy."
-                },
-                {
-                  "id": "a5e6aca0db1fb708bd79222621b1e760b924d4522d4c96a9df54f5958a21d417",
-                  "time": "2026-08-27T19:30:59+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Schmid: Would probably have supported rate hike at July meeting."
-                },
-                {
-                  "id": "9706644da20b578cf60fcf43a48e13d6c04d7abf661ce8440b894933459f379b",
-                  "time": "2026-08-27T19:33:19+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Schmid: Unclear what Fed policy is restricting right now."
-                },
-                {
-                  "id": "2208494cb1034ec6e632580160e763aa2ddeae87bf51147d284aabfd31bd08f1",
-                  "time": "2026-08-27T19:34:49+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Schmid: Energy shock is leaking into economy."
-                },
-                {
-                  "id": "5e187cae65a1bcf01825b045198e06fc24b1c142875c84550044e7d0ac9453c9",
-                  "time": "2026-08-27T19:35:09+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Schmid: Fed needs to get to 2% inflation."
-                },
-                {
-                  "id": "aa974249055bb7b77836f84c0c95c821feb65322d66d65b847aa135a4fde21f8",
-                  "time": "2026-08-27T19:35:40+08:00",
-                  "central_bank": "FED",
-                  "headline": "Fed's Schmid: It will take time to change fed's balance sheet."
-                }
-              ]
             }
           ]
         },
@@ -10277,6 +9961,92 @@
           "active": true,
           "voter": true,
           "talks": [
+            {
+              "date": "2026-11-25",
+              "summary_zh": "表示英國經濟更具韌性且勞動市場走平，若能源價格維持高位很可能需要進一步升息。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "ddea5182526ba6960c6dc6ac9d92c526ff10a48a39c5548842846431c02d0b4e",
+                "35fd3fffefc0173f5b81f2d753029c543b20c4d11dffa3b241c05c831371e3df",
+                "f72c04e4b56f8c2f360b57af300f9821f79fb4d6bc5871c1145d29612f8cc567",
+                "9b702110fc7567b1a4d07f1f3328c56125505e0e460f90e329762128758668f8",
+                "0c543d9485bc27df40dbb29ec514960b279f6bed145ecb949afc2058bac0a96c",
+                "62893ab18ecbd5f88244bf10aae0302f5fcc3a22b3aea091444556032bc58844",
+                "0573797454c6ad77854564fd74d6e274da30fc2ecb771a7cc68aafc5bb65251c",
+                "03439ffb68c4f3ac5bf879f24e49052c0d4352caeeb29ce8fd5f81bdb48a09d3",
+                "a3f89af256f1d48639784f21be114caa21479b6da4c2aaafb1245687d5245d26",
+                "d0326f51591cddb59b81bdfc581e8c15573840cef4228800f7ae02a10c82fd80"
+              ],
+              "source_headlines": [
+                {
+                  "id": "ddea5182526ba6960c6dc6ac9d92c526ff10a48a39c5548842846431c02d0b4e",
+                  "time": "2026-11-25T22:27:31+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: Flow of crude through the strait is approaching back to where it was, future unpredictable"
+                },
+                {
+                  "id": "35fd3fffefc0173f5b81f2d753029c543b20c4d11dffa3b241c05c831371e3df",
+                  "time": "2026-11-25T22:28:04+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: Have to watch refined products separately"
+                },
+                {
+                  "id": "f72c04e4b56f8c2f360b57af300f9821f79fb4d6bc5871c1145d29612f8cc567",
+                  "time": "2026-11-25T22:29:50+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: Energy futures curve offers a very rosy view of price trends."
+                },
+                {
+                  "id": "9b702110fc7567b1a4d07f1f3328c56125505e0e460f90e329762128758668f8",
+                  "time": "2026-11-25T22:32:47+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: There's no substantial inflation pass-through."
+                },
+                {
+                  "id": "0c543d9485bc27df40dbb29ec514960b279f6bed145ecb949afc2058bac0a96c",
+                  "time": "2026-11-25T22:33:21+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: The pipeline of energy effects now looks stronger."
+                },
+                {
+                  "id": "62893ab18ecbd5f88244bf10aae0302f5fcc3a22b3aea091444556032bc58844",
+                  "time": "2026-11-25T22:33:45+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: We are seeing greater resilience in the UK economy; we must factor this into inflation projections."
+                },
+                {
+                  "id": "0573797454c6ad77854564fd74d6e274da30fc2ecb771a7cc68aafc5bb65251c",
+                  "time": "2026-11-25T22:34:05+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: The UK labour market is no longer softening; it has flattened out."
+                },
+                {
+                  "id": "03439ffb68c4f3ac5bf879f24e49052c0d4352caeeb29ce8fd5f81bdb48a09d3",
+                  "time": "2026-11-25T22:54:52+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: It is more likely than not that we will have to raise interest rates more if energy prices stay elevated."
+                },
+                {
+                  "id": "a3f89af256f1d48639784f21be114caa21479b6da4c2aaafb1245687d5245d26",
+                  "time": "2026-11-25T22:55:56+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: The risk premium in interest rates futures reflects uncertainty about energy prices, not about the BoE policy response."
+                },
+                {
+                  "id": "d0326f51591cddb59b81bdfc581e8c15573840cef4228800f7ae02a10c82fd80",
+                  "time": "2026-11-25T22:57:32+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE Gov. Bailey: Businesses still say it is hard to pass on cost increases."
+                }
+              ]
+            },
             {
               "date": "2026-11-18",
               "summary_zh": "貨幣政策無預設立場，就業市場閒置回穩且成長改善，通膨上升令人沮喪但因能源價格回落預期CPI將在5%以下觸頂。",
@@ -11041,7 +10811,7 @@
             },
             {
               "date": "2026-08-28",
-              "summary_zh": "表示第二輪效應目前仍溫和但無法保證持續，降低資產負債表利率風險相當重要，並指出AI將帶來供需雙重衝擊。",
+              "summary_zh": "表示迄今第二輪效應相對溫和但難以保證持續，降低資產負債表利率風險至關重要，並認為AI將對英國帶來供需雙重衝擊。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -11093,6 +10863,85 @@
           "active": true,
           "voter": true,
           "talks": [
+            {
+              "date": "2026-11-25",
+              "summary_zh": "指出經濟強於預期且第二輪效應風險上升，對底層通膨降溫不太確定，並強調完成QE退場對央行公信力至關重要。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "85e8c8062400ead79e0654c6a4cbfeb41f0e4463c008cf2b35cd1a473e725bfe",
+                "4db66f814ee0214d82f4531df0848c985f2178d57951c84b70718c9f0e2f182a",
+                "a5fc834776089a87b346e39fbca728ff5a8b70495ba68b19f0992fdac6c166d4",
+                "15f4ff92a92b144cfbe171b7e92b021bb868f9acc31d1216250ad8111951e9bd",
+                "9afa21d3f3788525bdd20523cecdc472202c7e1806d2ca345e5298af96e11f05",
+                "339781291ff1d6203ee0609cea995004a441931f77f0b4d1cd87c0d37cd6be8a",
+                "9a8db0f40992270372ccad6965f673afffc38b0dd09f88312b737ebef6dcc042",
+                "3862be0c5f656eb1b82f533513d1cea9b37eac7e319f34d1cabf4d3b402c5779",
+                "989275b2fac01b131a20a24fb06d11b702c3aa642a164d58cd2c80c53574a2b2"
+              ],
+              "source_headlines": [
+                {
+                  "id": "85e8c8062400ead79e0654c6a4cbfeb41f0e4463c008cf2b35cd1a473e725bfe",
+                  "time": "2026-11-25T22:24:42+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: Lower oil prices mean likely peak of inflation is lower than what we forecast in November."
+                },
+                {
+                  "id": "4db66f814ee0214d82f4531df0848c985f2178d57951c84b70718c9f0e2f182a",
+                  "time": "2026-11-25T22:25:09+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: Focus now on whether energy shock embeds in the UK"
+                },
+                {
+                  "id": "a5fc834776089a87b346e39fbca728ff5a8b70495ba68b19f0992fdac6c166d4",
+                  "time": "2026-11-25T22:29:24+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: Completing the unwind of QE is important for our credibility."
+                },
+                {
+                  "id": "15f4ff92a92b144cfbe171b7e92b021bb868f9acc31d1216250ad8111951e9bd",
+                  "time": "2026-11-25T22:35:15+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: Indirect effects are less than expected."
+                },
+                {
+                  "id": "9afa21d3f3788525bdd20523cecdc472202c7e1806d2ca345e5298af96e11f05",
+                  "time": "2026-11-25T22:35:30+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: We still expect food price inflation to rise next year to around 5%."
+                },
+                {
+                  "id": "339781291ff1d6203ee0609cea995004a441931f77f0b4d1cd87c0d37cd6be8a",
+                  "time": "2026-11-25T22:36:03+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: There's a higher risk of second-round effects."
+                },
+                {
+                  "id": "9a8db0f40992270372ccad6965f673afffc38b0dd09f88312b737ebef6dcc042",
+                  "time": "2026-11-25T22:36:33+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: The economy is stronger than we expected."
+                },
+                {
+                  "id": "3862be0c5f656eb1b82f533513d1cea9b37eac7e319f34d1cabf4d3b402c5779",
+                  "time": "2026-11-25T23:01:10+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Lombardelli: I'm less certain that underlying disinflation is on track"
+                },
+                {
+                  "id": "989275b2fac01b131a20a24fb06d11b702c3aa642a164d58cd2c80c53574a2b2",
+                  "time": "2026-11-25T23:01:31+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Deputy Governor Lombardelli: Latest wage data is mixed, slowdown in services price inflation may have stalled"
+                }
+              ]
+            },
             {
               "date": "2026-11-19",
               "summary_zh": "表示英國央行將採取必要行動以達成通膨目標。",
@@ -12355,6 +12204,71 @@
           "voter": true,
           "talks": [
             {
+              "date": "2026-11-25",
+              "summary_zh": "認為通膨預期存在上行偏差且政策限制性不足，最佳策略為更早且大幅度升息以壓抑通膨風險溢價。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "706bad7386e623f577462f66c8756eadbe1e25d4c837b529d8057795e311b6ce",
+                "cea986f75e537ec68b95eefbe1262cb58582aa41439140b78273a4c2c6b52add",
+                "030c5e0477953d0612bd565ec76f441307622d5393f7656ddf5116cf1f63f6d2",
+                "93788b09f7a59a16f31de2412d465eb5c4d0bce6c85225e710bb96b159231294",
+                "3433210813379e6a1cec8bf32279255d977d58c288c61248ad14616da3b489d5",
+                "a6494c99da75035abf231767a4f45095fdaff8cce363c2622eaa71a087ac4bbb",
+                "82d926e4c2492c44e9b32911eb7c58a93056fc1f5b1ee3680ba3effd260ab928"
+              ],
+              "source_headlines": [
+                {
+                  "id": "706bad7386e623f577462f66c8756eadbe1e25d4c837b529d8057795e311b6ce",
+                  "time": "2026-11-25T22:21:52+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Mann: Energy futures have not been a good guide to prices"
+                },
+                {
+                  "id": "cea986f75e537ec68b95eefbe1262cb58582aa41439140b78273a4c2c6b52add",
+                  "time": "2026-11-25T22:45:13+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Mann: There's an upward bias in inflation expectations."
+                },
+                {
+                  "id": "030c5e0477953d0612bd565ec76f441307622d5393f7656ddf5116cf1f63f6d2",
+                  "time": "2026-11-25T22:46:26+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Mann: The optimal response is to hike rates more and sooner."
+                },
+                {
+                  "id": "93788b09f7a59a16f31de2412d465eb5c4d0bce6c85225e710bb96b159231294",
+                  "time": "2026-11-25T22:47:30+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Mann: I do not think the squeeze on firms' profit margins can continue to restrain inflation."
+                },
+                {
+                  "id": "3433210813379e6a1cec8bf32279255d977d58c288c61248ad14616da3b489d5",
+                  "time": "2026-11-25T22:48:25+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Mann: Larger moves have a bigger impact on price strategies."
+                },
+                {
+                  "id": "a6494c99da75035abf231767a4f45095fdaff8cce363c2622eaa71a087ac4bbb",
+                  "time": "2026-11-25T22:52:10+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Mann: My job is to bring down inflation risk premia."
+                },
+                {
+                  "id": "82d926e4c2492c44e9b32911eb7c58a93056fc1f5b1ee3680ba3effd260ab928",
+                  "time": "2026-11-25T23:35:44+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Mann: Resilience suggests policy has not been restrictive."
+                }
+              ]
+            },
+            {
               "date": "2026-11-05",
               "summary_zh": "表示目前已處於二階效應更為顯著的經濟環境中。",
               "topics": {
@@ -12706,7 +12620,7 @@
             },
             {
               "date": "2026-08-28",
-              "summary_zh": "指出美國經濟狀況對英國具有外溢效應，且有證據顯示利率決策能產生即時影響。",
+              "summary_zh": "指出美國情勢對英國具外溢效應，且有證據顯示利率決策能立即產生效果。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -12744,6 +12658,71 @@
           "active": true,
           "voter": true,
           "talks": [
+            {
+              "date": "2026-11-25",
+              "summary_zh": "表示通膨降溫仍在軌道上且傳導壓力低於2022年，需具備更強定價能力才支持維持高利率，並建議審慎評估非常規QE。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "c1d05e6de4ffc85125ee1eed299e078f951356eb0c612280a396cba9d669ef0c",
+                "082912a702e9f9641280b080690e27cff94b567a7e8ae94321c7dd12f84bc6ed",
+                "7cfc27dc34966b403bbe6ea056cba4ea16cd99f58f1162949d6de8376bafaa4e",
+                "9eeaf6f7033f9ec4372aa0755e09b57c7508349d78570471873f84e0bb48b1e5",
+                "3692ea47f65a82b124eec7cd2a2c697780ed7148cc31265d2f87d53196d38d25",
+                "1d073901284953d7ebb18bd9423937ac0eee2452b41b4ed024b2624a1f942dd2",
+                "da1299e50a8f8fa5ec068abbbcb3d39caa94ebf2ba433f1fb4e5cab96d4b72b6"
+              ],
+              "source_headlines": [
+                {
+                  "id": "c1d05e6de4ffc85125ee1eed299e078f951356eb0c612280a396cba9d669ef0c",
+                  "time": "2026-11-25T22:23:28+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Dhingra: Need to see stronger pricing power to keep rates high."
+                },
+                {
+                  "id": "082912a702e9f9641280b080690e27cff94b567a7e8ae94321c7dd12f84bc6ed",
+                  "time": "2026-11-25T22:24:11+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Dhingra: Loss of purchasing power half a point of GDP."
+                },
+                {
+                  "id": "7cfc27dc34966b403bbe6ea056cba4ea16cd99f58f1162949d6de8376bafaa4e",
+                  "time": "2026-11-25T22:26:51+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Dhingra: Large scale QE outside crises needs consideration."
+                },
+                {
+                  "id": "9eeaf6f7033f9ec4372aa0755e09b57c7508349d78570471873f84e0bb48b1e5",
+                  "time": "2026-11-25T22:28:31+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Dhingra: We shouldn't conflate the first wage/price rise with a spiral."
+                },
+                {
+                  "id": "3692ea47f65a82b124eec7cd2a2c697780ed7148cc31265d2f87d53196d38d25",
+                  "time": "2026-11-25T22:42:06+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Dhingra: I'm surprised by how little pass-through there has been of higher energy prices compared to 2022."
+                },
+                {
+                  "id": "1d073901284953d7ebb18bd9423937ac0eee2452b41b4ed024b2624a1f942dd2",
+                  "time": "2026-11-25T23:00:57+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Dhingra: Disinflation on track, some sectors doing better"
+                },
+                {
+                  "id": "da1299e50a8f8fa5ec068abbbcb3d39caa94ebf2ba433f1fb4e5cab96d4b72b6",
+                  "time": "2026-11-25T23:03:43+08:00",
+                  "central_bank": "BOE",
+                  "headline": "BoE's Dhingra: Inflation pressures more contained than in 2022."
+                }
+              ]
+            },
             {
               "date": "2026-11-05",
               "summary_zh": "認為本次升息是對抗更嚴峻通膨結果的保險措施。",
@@ -13125,7 +13104,7 @@
           "talks": [
             {
               "date": "2026-11-24",
-              "summary_zh": "指出通膨放緩進程停滯且薪資增長高於目標，需透過升息來應對風險，並將根據實際數據與第二輪效應的證據調整政策步伐。",
+              "summary_zh": "指出通膨放緩停滯且薪資增長過高，需要透過升息來應對風險，但升息兩碼需有重大第二輪效應的確鑿證據。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -16867,7 +16846,7 @@
           "talks": [
             {
               "date": "2026-11-24",
-              "summary_zh": "表示歐洲央行12月的政策方向看似明確，但其後仍具不確定性且討論2027年利率走向相對複雜。",
+              "summary_zh": "表示12月政策方向看似明確，但其後的利率走向充滿不確定性且難以討論2027年行動。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -17614,6 +17593,71 @@
           "voter": true,
           "talks": [
             {
+              "date": "2026-11-25",
+              "summary_zh": "表示歐洲央行在利率上不應落後於情勢，12月可能上調通膨預測，應謹慎行事避免行動過遲。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "9e5da338c7024db15768ab3481f077e5e485c5f707d92acb86aca2bb93d28df1",
+                "98c09a25c475f3314567cbc01b2e3f03e3eeb67bae8d7d9203457d79bd4f0e4c",
+                "8b8e7f9774b0b0dab013154cf5c28cd7d81cb1c5ccf76caba1baaee9118df438",
+                "e6003079d87f92e84193f252bfb7606865bf88f07247ecdfff910908b190d07c",
+                "b1dec72d1a42033980950f63c570c9db47eb2ba060cd5292d12bd7d5bb21dc93",
+                "f94765c28cf13b871ce39857ae3371b62e083a0d23f5d49055745898631210fc",
+                "ebf0aa8fc86cb4b6dda95c4803a0555e4787682a69d8c93de3a4667c13f6771e"
+              ],
+              "source_headlines": [
+                {
+                  "id": "9e5da338c7024db15768ab3481f077e5e485c5f707d92acb86aca2bb93d28df1",
+                  "time": "2026-11-25T19:01:09+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Kocher: We shouldn't fall behind the curve on rates"
+                },
+                {
+                  "id": "98c09a25c475f3314567cbc01b2e3f03e3eeb67bae8d7d9203457d79bd4f0e4c",
+                  "time": "2026-11-25T19:02:26+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Kocher: Clearer picture on 2nd-round effects in 1h 2027"
+                },
+                {
+                  "id": "8b8e7f9774b0b0dab013154cf5c28cd7d81cb1c5ccf76caba1baaee9118df438",
+                  "time": "2026-11-25T19:03:00+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Kocher: ECB likely to revise inflation outlook up in December"
+                },
+                {
+                  "id": "e6003079d87f92e84193f252bfb7606865bf88f07247ecdfff910908b190d07c",
+                  "time": "2026-11-25T19:03:09+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Kocher: Market pricing doesn't seem completely unreasonable"
+                },
+                {
+                  "id": "b1dec72d1a42033980950f63c570c9db47eb2ba060cd5292d12bd7d5bb21dc93",
+                  "time": "2026-11-25T19:03:27+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Kocher: ECB should err on the prudent side and not act too late"
+                },
+                {
+                  "id": "f94765c28cf13b871ce39857ae3371b62e083a0d23f5d49055745898631210fc",
+                  "time": "2026-11-25T19:03:38+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Kocher: Economy is resilient, but it's still fragile"
+                },
+                {
+                  "id": "ebf0aa8fc86cb4b6dda95c4803a0555e4787682a69d8c93de3a4667c13f6771e",
+                  "time": "2026-11-25T19:03:49+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Kocher: Demand not driving prices at the moment"
+                }
+              ]
+            },
+            {
               "date": "2026-11-04",
               "summary_zh": "Kocher表示通膨風險依然高企，歐洲央行將在必要時持續採取應對措施，若當前局勢沒有改善，12月升息是可能的。",
               "topics": {
@@ -18266,7 +18310,7 @@
             },
             {
               "date": "2026-08-28",
-              "summary_zh": "絕不能讓通膨預期與高通膨在經濟體系中扎根。",
+              "summary_zh": "強調絕不能讓通膨根深蒂固。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -18299,7 +18343,7 @@
           "talks": [
             {
               "date": "2026-11-24",
-              "summary_zh": "主張若通膨持續應在2027年進一步緊縮，認為歐洲央行應儘早先發制人採取行動，且不存在過度緊縮的風險。",
+              "summary_zh": "表示若通膨持續至2027年需進一步緊縮且不存在過度緊縮風險，歐洲央行應儘早採取先發制人行動。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -18579,43 +18623,6 @@
                   "headline": "ECB's Radev: Not seeing broad-based second-round effects"
                 }
               ]
-            },
-            {
-              "date": "2026-08-27",
-              "summary_zh": "評估中性利率約在2.5%，需考量緊縮的金融環境，若經濟情況需要願意轉向限制性貨幣政策立場。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "8e5448418da8dbf7971afa18ef4da371880a720d65507f3cf728e0d49113d416",
-                "11efe9ecd16d81979a23523dfd0c17250067ce7292b66e90bd6b2c101862d584",
-                "309f309effeadcebe5aa2e1b9194e8087afbd29a420425832f13a76a8377c2b5"
-              ],
-              "source_headlines": [
-                {
-                  "id": "8e5448418da8dbf7971afa18ef4da371880a720d65507f3cf728e0d49113d416",
-                  "time": "2026-08-27T17:27:34+08:00",
-                  "central_bank": "ECB",
-                  "headline": "ECB's Radev: Neutral rate is probably around 2.5%."
-                },
-                {
-                  "id": "11efe9ecd16d81979a23523dfd0c17250067ce7292b66e90bd6b2c101862d584",
-                  "time": "2026-08-27T17:49:46+08:00",
-                  "central_bank": "ECB",
-                  "headline": "ECB's Radev: Need to take tighter financial conditions into account."
-                },
-                {
-                  "id": "309f309effeadcebe5aa2e1b9194e8087afbd29a420425832f13a76a8377c2b5",
-                  "time": "2026-08-27T17:50:05+08:00",
-                  "central_bank": "ECB",
-                  "headline": "ECB's Radev: I am willing to move into restrictive if conditions warrant."
-                }
-              ]
             }
           ]
         },
@@ -18629,7 +18636,7 @@
           "talks": [
             {
               "date": "2026-11-24",
-              "summary_zh": "表示最新數據顯示必須升息以抑制通膨，市場預期升息是合理的，並警告通膨可能擴散至能源之外且工資是關鍵。",
+              "summary_zh": "指出通膨可能擴散至能源以外且薪資是關鍵，最新數據顯示歐洲央行必須升息以抑制通膨，市場預期升息合理。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -18940,7 +18947,7 @@
             },
             {
               "date": "2026-08-28",
-              "summary_zh": "通膨局勢並未自行化解，央行不應坐等第二輪效應顯現，支持9月升息的理由充分。",
+              "summary_zh": "表示通膨未自行緩解且不應等待第二輪效應顯現，支持9月升息，並指出12月新預測將帶來進一步明朗指引。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -20333,309 +20340,6 @@
                   "time": "2026-10-21T12:29:16+08:00",
                   "central_bank": "BOJ",
                   "headline": "BoJ’s Himino: stable prices via suitable monetary policy would boost Japan’s sustainable growth"
-                }
-              ]
-            },
-            {
-              "date": "2026-08-27",
-              "summary_zh": "強調金融環境仍寬鬆且經濟嚴重下行風險降低，應適時放慢刺激並持續升息以穩定核心通膨於2%，同時需更關注通膨上行風險與日圓疲軟的影響，並按計畫推進縮表。",
-              "topics": {
-                "economy": "",
-                "inflation": "",
-                "labor_market": "",
-                "monetary_policy": "",
-                "interest_rates": "",
-                "balance_sheet": ""
-              },
-              "source_ids": [
-                "0d29de69e3d7c2c89787cf1205d5acf16af14451b080066e6d9188f4c34ccf99",
-                "7bdea80fd89ef8e9191635239e01a59fe642c388410bb0ba539321ef498a9b3f",
-                "e7a26026a6881a516f86529318ea73c2b6c6331c1703598baf238e7bf435da1d",
-                "f859256dab64685b9dfb9ff194d3bef6dbac607f46dbd4c9b061a9830f438272",
-                "963b3541bc7a972a4e8dcfb70621a6038c41003613a75d498b9934e6c19b1a93",
-                "9788d6ede5020ef149a10aaac351ce2430ff323302ccd6eaa45cb2e356b522ec",
-                "ec7d7458f9260786b48bbac16064e19657d9c3e7f5b7ca9f5a3e2d4c792bdcbc",
-                "2450589b6f2b3fa460e6ce6f9af99f4405cf8d69ebbf29aa46828839be37c9c6",
-                "ec07b9af8e12805b41dfbbbf4c0b9b09d8c904fc3e1b29eb5d5ba61f09ee9575",
-                "3b63ed97a80d9f75edaf0d42e979e4edbe24b6a9851b75d040c2a125f39c04db",
-                "c1d7f89d05cfefdc713f6ffa7742df9357481697972445debcf7a1813ca16b02",
-                "e5ecf271e55c627c53904f742d38ebfc8af27c871ad5b0eef4a405d1987e8d3f",
-                "236b87cd70c63c70aa636c778046a7a7b1c5de067a2c69f5449758d5ba36f774",
-                "a3876e089f2fda299678621e05900dc3a3e9bddcf7885274fc43b0e2c80f386e",
-                "fb487815a6a9ef2f6fcaf4d1fef8671b5fe40d773f6954bc576aea7eaf7bcafc",
-                "67e6c6a504a9d229c257558cdc0f81a5b56e1fc556fec84e065eb07fa1d8480b",
-                "c144849181b621621b836a2d6839121177036e70bbb557ebcc8457c96380bbf3",
-                "56282ef4351b9beaf9dfddcd2899d244631bbec3721a81b3c2bedc7bef5a7c1a",
-                "e4c3f15d1ed2d262c15fc1979707b0bb5d0cc634a30f2d61eac1fb16fec64ddb",
-                "af631c82a981fc23263d5c5f18998c32d5d23edeefedeaf17fd892383fc0cff0",
-                "2406c80d67f8dcf6360f2a292b1f4ad535aabe51bc81e1925ddb1d436f8fd5df",
-                "a8f5df835001633a524eabbdb0c74e821c18c9c9b5f60389a3d8d25bf938adf5",
-                "aa7abf8e35490be9fe612c09e17731cae8b5254bea88d8745be0030e100dfe5b",
-                "66af084ef6758ce18a98c9efa21731ebe8b17a0c1d4dae8d76b25cbc24f9d1ce",
-                "edb4df21bf58e0b4c0c04d9411d36cab4aefdee338d0fc21f3e29637ad72e7b1",
-                "09a7c1a07ad33d0d1dfde27339e73aba28274fa0ff733064d3f7894077450be6",
-                "2fbe97f082b78b79043a479afe306d2b9998dd337182f983f46a61b292c53209",
-                "c3d3aec4a5b8ffb251eb486977f957276b836eca9fa198df72ef70aa2b2552a6",
-                "732571cacf577242e257b3279630094a348267498c5df83ecd03ede71a6556cc",
-                "084e260bbcbcaae98edf8cea8ead1cdc2a1e75bd522f71ff1037cc2f9c688d9f",
-                "f516610648e70d74139296edd2ab3ba99ec9dd4a27767230b023ccf7dcc4e1ab",
-                "13bf46bd1394c7ed01ce55c95c714fa5764dbda41fb02b2639893a687384198c",
-                "3ba743cf558e8ef26f07a1139ee2457eaaf2b3e15d3712f9236096530bfa12f0",
-                "a1ac0d07ec36ffa0e116f83f8732de16028d6a5d890678a6c0b6ca6319970d24",
-                "91a07d8fbd4ad9d5637afd47710c460116131ab4f4a57cdb2d1430d7208d49be",
-                "7b385a34a7c71be58ad333757e7632cdefe0663fa5d3c8653ee4e8c97554504a",
-                "f9b1ec34af097ec4ea8a03c03f9bf0552f2b491b53975717ba9e3e8c4b6d078e",
-                "d134fc39be51b9f2ef96565cb8300053087bd177355072ac2f68de044f64ed8a",
-                "97265d22a70eb8644b9f21b27853c1e74e1f1cd259c0764a7017f3df9c17095b",
-                "8e8006028c6428a664885ab1740ff121cdb90117d17510eaf7a3868488b21665",
-                "cab09b740d8b1709cc7cc87bb6aea41d0bab64e3e7aa65293024b3439eecaa8d"
-              ],
-              "source_headlines": [
-                {
-                  "id": "0d29de69e3d7c2c89787cf1205d5acf16af14451b080066e6d9188f4c34ccf99",
-                  "time": "2026-08-27T09:35:10+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BOJ deputy governor Himino: accommodative monetary policy to benefit economy"
-                },
-                {
-                  "id": "7bdea80fd89ef8e9191635239e01a59fe642c388410bb0ba539321ef498a9b3f",
-                  "time": "2026-08-27T09:35:25+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BoJ's Himino: increasing global AL demand to drive economy and prices higher"
-                },
-                {
-                  "id": "e7a26026a6881a516f86529318ea73c2b6c6331c1703598baf238e7bf435da1d",
-                  "time": "2026-08-27T09:35:45+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BOJ deputy governor Himino: fragile yen helps boost inflation"
-                },
-                {
-                  "id": "f859256dab64685b9dfb9ff194d3bef6dbac607f46dbd4c9b061a9830f438272",
-                  "time": "2026-08-27T09:36:18+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BOJ's Himino: believe central bank should persist in raising policy rate and adjust monetary support based on economic, price, and financial trends"
-                },
-                {
-                  "id": "963b3541bc7a972a4e8dcfb70621a6038c41003613a75d498b9934e6c19b1a93",
-                  "time": "2026-08-27T09:36:36+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BOJ's Himino: must heed upside price risks more than ever before"
-                },
-                {
-                  "id": "9788d6ede5020ef149a10aaac351ce2430ff323302ccd6eaa45cb2e356b522ec",
-                  "time": "2026-08-27T09:36:54+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BOJ's Himino: important to stabilize core inflation near 2%"
-                },
-                {
-                  "id": "ec7d7458f9260786b48bbac16064e19657d9c3e7f5b7ca9f5a3e2d4c792bdcbc",
-                  "time": "2026-08-27T09:37:09+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BOJ’s Himino: We will consider risks in every policy meeting debate"
-                },
-                {
-                  "id": "2450589b6f2b3fa460e6ce6f9af99f4405cf8d69ebbf29aa46828839be37c9c6",
-                  "time": "2026-08-27T09:37:29+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BOJ's Himino: if core inflation rises beyond 2%, it could negatively affect the economy"
-                },
-                {
-                  "id": "ec07b9af8e12805b41dfbbbf4c0b9b09d8c904fc3e1b29eb5d5ba61f09ee9575",
-                  "time": "2026-08-27T09:37:37+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "Boj's Himino: guiding policy requires considering multiple factors"
-                },
-                {
-                  "id": "3b63ed97a80d9f75edaf0d42e979e4edbe24b6a9851b75d040c2a125f39c04db",
-                  "time": "2026-08-27T09:37:55+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BOJ's Himino: we should focus more on upside risk to prices than before"
-                },
-                {
-                  "id": "c1d7f89d05cfefdc713f6ffa7742df9357481697972445debcf7a1813ca16b02",
-                  "time": "2026-08-27T09:38:27+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BOJ's Himino: key factor in steering policy is outlook and risks, not underlying economic conditions"
-                },
-                {
-                  "id": "e5ecf271e55c627c53904f742d38ebfc8af27c871ad5b0eef4a405d1987e8d3f",
-                  "time": "2026-08-27T09:38:40+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BOJ's Himino: monetary policy impact on prices will take time"
-                },
-                {
-                  "id": "236b87cd70c63c70aa636c778046a7a7b1c5de067a2c69f5449758d5ba36f774",
-                  "time": "2026-08-27T09:40:07+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "Boj's Himino: effective use of monetary policy can stop economy veering from path to solid growth"
-                },
-                {
-                  "id": "a3876e089f2fda299678621e05900dc3a3e9bddcf7885274fc43b0e2c80f386e",
-                  "time": "2026-08-27T09:40:19+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "Boj's Himino: The biggest challenge in our communication is the issue of time horizons"
-                },
-                {
-                  "id": "fb487815a6a9ef2f6fcaf4d1fef8671b5fe40d773f6954bc576aea7eaf7bcafc",
-                  "time": "2026-08-27T09:40:45+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BOJ's Himino: Financial conditions stay accommodative, believe we should ease off accelerator timely and continue raising policy rate"
-                },
-                {
-                  "id": "67e6c6a504a9d229c257558cdc0f81a5b56e1fc556fec84e065eb07fa1d8480b",
-                  "time": "2026-08-27T09:41:00+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BoJ's Himino: assessing current conditions is key to evaluating outlook and risks, but policy debate often emphasizes future outlook and risks"
-                },
-                {
-                  "id": "c144849181b621621b836a2d6839121177036e70bbb557ebcc8457c96380bbf3",
-                  "time": "2026-08-27T09:41:19+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BOJ's Himino: in slowing stimulus and raising rates, we must carefully assess conditions ahead considering forecasts and other data"
-                },
-                {
-                  "id": "56282ef4351b9beaf9dfddcd2899d244631bbec3721a81b3c2bedc7bef5a7c1a",
-                  "time": "2026-08-27T09:41:35+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BOJ's Himino: focusing only on immediate reactions may risk overlooking full implications of policy change"
-                },
-                {
-                  "id": "e4c3f15d1ed2d262c15fc1979707b0bb5d0cc634a30f2d61eac1fb16fec64ddb",
-                  "time": "2026-08-27T09:42:05+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "Boj's Himino: risk of economy encountering severe downturn has lessened"
-                },
-                {
-                  "id": "af631c82a981fc23263d5c5f18998c32d5d23edeefedeaf17fd892383fc0cff0",
-                  "time": "2026-08-27T09:43:04+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "Boj's Himino: Soft yen lifts global companies’ earnings but pressures household real income"
-                },
-                {
-                  "id": "2406c80d67f8dcf6360f2a292b1f4ad535aabe51bc81e1925ddb1d436f8fd5df",
-                  "time": "2026-08-27T09:43:27+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BOJ's Himino: want to examine various impacts weak yen has on economy"
-                },
-                {
-                  "id": "a8f5df835001633a524eabbdb0c74e821c18c9c9b5f60389a3d8d25bf938adf5",
-                  "time": "2026-08-27T09:43:57+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BoJ's Himino: Monetary policy isn't aimed at controlling FX rates, but FX moves are key factors affecting economy, prices"
-                },
-                {
-                  "id": "aa7abf8e35490be9fe612c09e17731cae8b5254bea88d8745be0030e100dfe5b",
-                  "time": "2026-08-27T09:44:36+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BOJ’s Himino: cautious of FX moves influencing underlying inflation via shifts in inflation expectations"
-                },
-                {
-                  "id": "66af084ef6758ce18a98c9efa21731ebe8b17a0c1d4dae8d76b25cbc24f9d1ce",
-                  "time": "2026-08-27T09:44:54+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BOJ’s Himino: real interest rates negative in short and medium term"
-                },
-                {
-                  "id": "edb4df21bf58e0b4c0c04d9411d36cab4aefdee338d0fc21f3e29637ad72e7b1",
-                  "time": "2026-08-27T09:45:13+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BOJ's Himino: Japan’s financial conditions stay accommodative, bolstering economy"
-                },
-                {
-                  "id": "09a7c1a07ad33d0d1dfde27339e73aba28274fa0ff733064d3f7894077450be6",
-                  "time": "2026-08-27T09:45:50+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BOJ's Himino: desirable to avoid situation where delay in rate increase causes sharp inflation, necessitating rapid hikes thereafter"
-                },
-                {
-                  "id": "2fbe97f082b78b79043a479afe306d2b9998dd337182f983f46a61b292c53209",
-                  "time": "2026-08-27T09:47:12+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BOJ's Himino: downward pressure on economy and upward pressure on prices to emerge, but risk of availability"
-                },
-                {
-                  "id": "c3d3aec4a5b8ffb251eb486977f957276b836eca9fa198df72ef70aa2b2552a6",
-                  "time": "2026-08-27T09:47:40+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BOJ's Himino: inflation likely to surpass 2% in second half of current fiscal year"
-                },
-                {
-                  "id": "732571cacf577242e257b3279630094a348267498c5df83ecd03ede71a6556cc",
-                  "time": "2026-08-27T09:48:46+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BOJ's Himino: weak yen could help global firms' earnings, boost tourist spending, but hurt SME profits through higher import costs"
-                },
-                {
-                  "id": "084e260bbcbcaae98edf8cea8ead1cdc2a1e75bd522f71ff1037cc2f9c688d9f",
-                  "time": "2026-08-27T09:48:46+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "Boj's Himino: Downward pressure on economy and upward pressure on prices will materialize, but risk of supply issues causing major downturns has eased"
-                },
-                {
-                  "id": "f516610648e70d74139296edd2ab3ba99ec9dd4a27767230b023ccf7dcc4e1ab",
-                  "time": "2026-08-27T13:13:56+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BoJ's Himino: We believe we can stabilise underlying inflation at 2% with appropriate policy moves."
-                },
-                {
-                  "id": "13bf46bd1394c7ed01ce55c95c714fa5764dbda41fb02b2639893a687384198c",
-                  "time": "2026-08-27T13:14:06+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BoJ's Himino: We will debate at each meeting desirable pace, timing of rate hikes to stabilise underlying inflation around 2%."
-                },
-                {
-                  "id": "3ba743cf558e8ef26f07a1139ee2457eaaf2b3e15d3712f9236096530bfa12f0",
-                  "time": "2026-08-27T13:14:19+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BoJ's Himino: No big change in economic view since July meeting."
-                },
-                {
-                  "id": "a1ac0d07ec36ffa0e116f83f8732de16028d6a5d890678a6c0b6ca6319970d24",
-                  "time": "2026-08-27T13:14:31+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BoJ's Himino: My view on economy, prices has not changed much since July policy meeting."
-                },
-                {
-                  "id": "91a07d8fbd4ad9d5637afd47710c460116131ab4f4a57cdb2d1430d7208d49be",
-                  "time": "2026-08-27T13:15:24+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BoJ's Himino: Likelihood of baseline scenario materialising may have risen somewhat since July but feel safe sticking to view I held in July."
-                },
-                {
-                  "id": "7b385a34a7c71be58ad333757e7632cdefe0663fa5d3c8653ee4e8c97554504a",
-                  "time": "2026-08-27T13:15:42+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BoJ's Himino: Some technical factors were at play in GDP data."
-                },
-                {
-                  "id": "f9b1ec34af097ec4ea8a03c03f9bf0552f2b491b53975717ba9e3e8c4b6d078e",
-                  "time": "2026-08-27T13:16:03+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BoJ's Himino: Weak GDP data somewhat worrying but likely due to technical factors so not enough to change my view on economic outlook."
-                },
-                {
-                  "id": "d134fc39be51b9f2ef96565cb8300053087bd177355072ac2f68de044f64ed8a",
-                  "time": "2026-08-27T13:20:22+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BoJ's Himino: I agree with governor that BoJ may pace up rate hike if financial conditions are too accommodative, though rate-hike decision won't be made solely on degree of financial accommodation."
-                },
-                {
-                  "id": "97265d22a70eb8644b9f21b27853c1e74e1f1cd259c0764a7017f3df9c17095b",
-                  "time": "2026-08-27T13:20:32+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BoJ's Himino: No central bank would seek to adjust degree of financial accommodation by shocking markets."
-                },
-                {
-                  "id": "8e8006028c6428a664885ab1740ff121cdb90117d17510eaf7a3868488b21665",
-                  "time": "2026-08-27T13:27:53+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BoJ's Himino: Don't see any specific distortion in JGB markets."
-                },
-                {
-                  "id": "cab09b740d8b1709cc7cc87bb6aea41d0bab64e3e7aa65293024b3439eecaa8d",
-                  "time": "2026-08-27T13:28:29+08:00",
-                  "central_bank": "BOJ",
-                  "headline": "BoJ's Himino: As such, BoJ can proceed with current bond taper plan."
                 }
               ]
             }
@@ -23071,21 +22775,21 @@
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 21631,
-    "candidatesTokenCount": 7788,
+    "promptTokenCount": 21678,
+    "candidatesTokenCount": 8522,
     "thoughtsTokenCount": 0,
-    "totalTokenCount": 29419,
+    "totalTokenCount": 30200,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
       "FED+BOE+ECB+BOJ+RBA": {
-        "promptTokenCount": 21631,
-        "candidatesTokenCount": 7788,
-        "totalTokenCount": 29419,
+        "promptTokenCount": 21678,
+        "candidatesTokenCount": 8522,
+        "totalTokenCount": 30200,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 21631
+            "tokenCount": 21678
           }
         ],
         "serviceTier": "standard"
@@ -23093,12 +22797,12 @@
     },
     "incremental": {
       "mode": "incremental",
-      "window_headline_count": 4175,
+      "window_headline_count": 4123,
       "regenerated_date_count": 4,
-      "regenerated_headline_count": 172,
-      "reused_headline_count": 4003,
+      "regenerated_headline_count": 173,
+      "reused_headline_count": 3950,
       "reused_talk_count": 488,
-      "regenerated_talk_count": 11
+      "regenerated_talk_count": 16
     }
   }
 }
