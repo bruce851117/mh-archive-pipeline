@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-27T07:40:40.784641+08:00",
+  "generated_at": "2026-11-28T07:41:07.282710+08:00",
   "timezone": "Asia/Taipei",
-  "period_start": "2026-08-29T07:40:40.784641+08:00",
-  "period_end": "2026-11-27T07:40:40.784641+08:00",
+  "period_start": "2026-08-30T07:41:07.282710+08:00",
+  "period_end": "2026-11-28T07:41:07.282710+08:00",
   "lookback_days": 90,
   "voter_version": "2026-09-09",
   "model": "gemini-3.8-flash",
-  "input_headline_count": 4085,
-  "talk_count": 311,
+  "input_headline_count": 4098,
+  "talk_count": 313,
   "central_banks": [
     {
       "central_bank": "FED",
@@ -11705,7 +11705,7 @@
           "talks": [
             {
               "date": "2026-11-26",
-              "summary_zh": "表示英國家庭具備吸收更高利率衝擊的能力。",
+              "summary_zh": "認為英國家庭具備吸收利率上升的能力。",
               "topics": {
                 "economy": "",
                 "inflation": "",
@@ -15211,6 +15211,43 @@
           "voter": false,
           "talks": [
             {
+              "date": "2026-11-27",
+              "summary_zh": "預期通膨到2027年仍將維持在3%以上並充滿挑戰，歐洲央行在利率上可能需要採取更多行動。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "f61a7ae70271f8f7905bd6fdedca079a4bafd19c94252cca815dfe1f6dd47088",
+                "bbe6a955c8f9c3c99797bbc97dc2965c7b7ce399700f68d83bebbe11e640d8e3",
+                "9a0d273717cb876c700249cf21ee5a1eebacf8fb9ad91bf7b484a0c2b381dc94"
+              ],
+              "source_headlines": [
+                {
+                  "id": "f61a7ae70271f8f7905bd6fdedca079a4bafd19c94252cca815dfe1f6dd47088",
+                  "time": "2026-11-27T21:04:49+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Nagel: We expect inflation durably above 3% in 2027"
+                },
+                {
+                  "id": "bbe6a955c8f9c3c99797bbc97dc2965c7b7ce399700f68d83bebbe11e640d8e3",
+                  "time": "2026-11-27T21:04:50+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Nagel: Inflation set to remain challenging into 2027."
+                },
+                {
+                  "id": "9a0d273717cb876c700249cf21ee5a1eebacf8fb9ad91bf7b484a0c2b381dc94",
+                  "time": "2026-11-27T21:05:07+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Nagel: We may have to do more on rates."
+                }
+              ]
+            },
+            {
               "date": "2026-11-20",
               "summary_zh": "通膨依然過高且預期受良好錨定，政策處於微幅限制性區間，歐洲央行在12月會議必須有所作為。",
               "topics": {
@@ -18451,6 +18488,29 @@
           "active": true,
           "voter": true,
           "talks": [
+            {
+              "date": "2026-11-27",
+              "summary_zh": "表示迄今為止的兩次升息不足以抑制通膨。",
+              "topics": {
+                "economy": "",
+                "inflation": "",
+                "labor_market": "",
+                "monetary_policy": "",
+                "interest_rates": "",
+                "balance_sheet": ""
+              },
+              "source_ids": [
+                "4adcdbc71fe69dd8be4cfc5bbe263ce6a2d84077f5ccef269c4aca29c5072522"
+              ],
+              "source_headlines": [
+                {
+                  "id": "4adcdbc71fe69dd8be4cfc5bbe263ce6a2d84077f5ccef269c4aca29c5072522",
+                  "time": "2026-11-27T20:16:30+08:00",
+                  "central_bank": "ECB",
+                  "headline": "ECB's Dolenc: Two hikes to date aren't enough to tame inflation"
+                }
+              ]
+            },
             {
               "date": "2026-10-30",
               "summary_zh": "衝擊尚未轉化為更廣泛的價格壓力，但能源價格高漲恐使通膨更具黏性，未來幾年通膨可能維持在2%之上。",
@@ -22348,21 +22408,21 @@
     }
   ],
   "usage_metadata": {
-    "promptTokenCount": 12802,
-    "candidatesTokenCount": 3203,
+    "promptTokenCount": 8016,
+    "candidatesTokenCount": 550,
     "thoughtsTokenCount": 0,
-    "totalTokenCount": 16005,
+    "totalTokenCount": 8566,
     "cachedContentTokenCount": 0,
     "toolUsePromptTokenCount": 0,
     "by_batch": {
       "FED+BOE+ECB+BOJ+RBA": {
-        "promptTokenCount": 12802,
-        "candidatesTokenCount": 3203,
-        "totalTokenCount": 16005,
+        "promptTokenCount": 8016,
+        "candidatesTokenCount": 550,
+        "totalTokenCount": 8566,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 12802
+            "tokenCount": 8016
           }
         ],
         "serviceTier": "standard"
@@ -22370,12 +22430,12 @@
     },
     "incremental": {
       "mode": "incremental",
-      "window_headline_count": 4085,
+      "window_headline_count": 4098,
       "regenerated_date_count": 2,
-      "regenerated_headline_count": 95,
-      "reused_headline_count": 3990,
-      "reused_talk_count": 499,
-      "regenerated_talk_count": 6
+      "regenerated_headline_count": 54,
+      "reused_headline_count": 4044,
+      "reused_talk_count": 505,
+      "regenerated_talk_count": 3
     }
   }
 }
